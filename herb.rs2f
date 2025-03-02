@@ -1,0 +1,40 @@
+// module:herb
+
+#define CONST_HERB_HERBS [\
+  "*guam leaf",\
+  "*marrentill",\
+  "*tarromin",\
+  "*harralander",\
+  "*ranarr weed",\
+  "*toadflax",\
+  "*irit leaf",\
+  "*avantoe",\
+  "*kwuarm",\
+  "*huasca",\
+  "*snapdragon",\
+  "*cadantine",\
+  "*lantadyme",\
+  "*dwarf weed",\
+  "*torstol",\
+]
+
+#define CONST_HERB_DEFAULTCOLOR GREEN
+
+#define VAR_HERB_MINVALUE 0
+#define VAR_HERB_SHOW []
+#define VAR_HERB_HIDE []
+#define VAR_HERB_CUSTOMSTYLE nop;
+
+apply (name:CONST_HERB_HERBS) {
+  textColor = CONST_HERB_DEFAULTCOLOR;
+  VAR_HERB_CUSTOMSTYLE
+}
+
+apply (name:CONST_HERB_HERBS && value:<VAR_HERB_MINVALUE) { hidden = true; }
+
+if (name:VAR_HERB_SHOW) { hidden = false; }
+if (name:VAR_HERB_HIDE) { hidden = true; }
+
+if (name:CONST_HERB_HERBS) {}
+
+// endmodule:herb

@@ -1,0 +1,3 @@
+// module:lib
+
+#define HIDE1(_name) if (name:_name && quantity:==1) { hidden = true; }

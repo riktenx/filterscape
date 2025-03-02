@@ -1,0 +1,51 @@
+// module:clue
+
+#define CONST_CLUE_DEFAULTBG             "#beb287"
+#define CONST_CLUE_BEGINNER_DEFAULTCOLOR "#ffffff"
+#define CONST_CLUE_EASY_DEFAULTCOLOR     "#09600d"
+#define CONST_CLUE_MEDIUM_DEFAULTCOLOR   "#569699"
+#define CONST_CLUE_HARD_DEFAULTCOLOR     "#833798"
+#define CONST_CLUE_ELITE_DEFAULTCOLOR    "#bda518"
+#define CONST_CLUE_MASTER_DEFAULTCOLOR   "#9b3026"
+
+#define VAR_CLUE_HIDE []
+
+#define VAR_CLUE_BEGINNER_CUSTOMSTYLE nop;
+#define VAR_CLUE_EASY_CUSTOMSTYLE nop;
+#define VAR_CLUE_MEDIUM_CUSTOMSTYLE nop;
+#define VAR_CLUE_HARD_CUSTOMSTYLE nop;
+#define VAR_CLUE_ELITE_CUSTOMSTYLE nop;
+#define VAR_CLUE_MASTER_CUSTOMSTYLE nop;
+
+if (name:VAR_CLUE_HIDE) { hidden = true; }
+
+apply (name:["clue scroll*", "reward casket*", "challenge scroll*"]) {
+  backgroundColor = CONST_CLUE_DEFAULTBG;
+}
+
+if (name:["clue scroll (beginner)", "reward casket (beginner)", "challenge scroll (beginner)"]) {
+  LIB_COLOR2(CONST_CLUE_BEGINNER_DEFAULTCOLOR)
+  VAR_CLUE_BEGINNER_CUSTOMSTYLE
+}
+if (name:["clue scroll (easy)", "reward casket (easy)", "challenge scroll (easy)"]) {
+  LIB_COLOR2(CONST_CLUE_EASY_DEFAULTCOLOR)
+  VAR_CLUE_EASY_CUSTOMSTYLE
+}
+if (name:["clue scroll (medium)", "reward casket (medium)", "challenge scroll (medium)"]) {
+  LIB_COLOR2(CONST_CLUE_MEDIUM_DEFAULTCOLOR)
+  VAR_CLUE_MEDIUM_CUSTOMSTYLE
+}
+if (name:["clue scroll (hard)", "reward casket (hard)", "challenge scroll (hard)"]) {
+  LIB_COLOR2(CONST_CLUE_HARD_DEFAULTCOLOR)
+  VAR_CLUE_HARD_CUSTOMSTYLE
+}
+if (name:["clue scroll (elite)", "reward casket (elite)", "challenge scroll (elite)"]) {
+  LIB_COLOR2(CONST_CLUE_ELITE_DEFAULTCOLOR)
+  VAR_CLUE_ELITE_CUSTOMSTYLE
+}
+if (name:["clue scroll (master)", "reward casket (master)", "challenge scroll (master)"]) {
+  LIB_COLOR2(CONST_CLUE_MASTER_DEFAULTCOLOR)
+  VAR_CLUE_MASTER_CUSTOMSTYLE
+}
+
+// endmodule:clue

@@ -1,3 +1,5 @@
 // module:lib
 
-#define HIDE1(_name) if (name:_name && quantity:==1) { hidden = true; }
+#define LIB_COLOR2(_fg) textColor = _fg; borderColor = _fg;
+
+// endmodule:lib

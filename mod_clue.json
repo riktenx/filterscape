@@ -1,0 +1,41 @@
+{
+  "name": "Clues",
+  "input": {
+    "VAR_CLUE_HIDE": {
+      "label": "Hide clue tiers",
+      "type": "stringlist",
+      "enum": [
+        "clue scroll (beginner)",
+        "clue scroll (easy)",
+        "clue scroll (medium)",
+        "clue scroll (hard)",
+        "clue scroll (elite)",
+        "clue scroll (master)"
+      ]
+    },
+    "VAR_CLUE_BEGINNER_CUSTOMSTYLE": {
+      "label": "Display: beginner clue",
+      "type": "style"
+    },
+    "VAR_CLUE_EASY_CUSTOMSTYLE": {
+      "label": "Display: easy clue",
+      "type": "style"
+    },
+    "VAR_CLUE_MEDIUM_CUSTOMSTYLE": {
+      "label": "Display: medium clue",
+      "type": "style"
+    },
+    "VAR_CLUE_HARD_CUSTOMSTYLE": {
+      "label": "Display: hard clue",
+      "type": "style"
+    },
+    "VAR_CLUE_ELITE_CUSTOMSTYLE": {
+      "label": "Display: elite clue",
+      "type": "style"
+    },
+    "VAR_CLUE_MASTER_CUSTOMSTYLE": {
+      "label": "Display: master clue",
+      "type": "style"
+    }
+  }
+}

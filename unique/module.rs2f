@@ -1,6 +1,6 @@
 // module:unique
 
-#define VAR_UNIQUE_STIER [\
+#define CONST_UNIQUE_STIER [\
   "*champion scroll",\
   "internal cape",\
   "fire cape",\
@@ -19,7 +19,7 @@
   "*mutagen",\
   "slepey tablet",\
 ]
-#define VAR_UNIQUE_ATIER [\
+#define CONST_UNIQUE_ATIER [\
   "brimstone key",\
   "jar of*",\
   "noxious pommel",\
@@ -27,7 +27,7 @@
   "noxious blade",\
   "*half of key (moon key)",\
 ]
-#define VAR_UNIQUE_BTIER [\
+#define CONST_UNIQUE_BTIER [\
   "dark totem",\
   "mossy key",\
   "giant key",\
@@ -51,7 +51,7 @@
   "scurrius' spine",\
   "vorkath's head",\
 ]
-#define VAR_UNIQUE_CTIER [\
+#define CONST_UNIQUE_CTIER [\
   "dark totem top",\
   "dark totem base",\
   "dark totem middle",\
@@ -74,6 +74,15 @@
   "charged ice",\
   "parasitic egg",\
 ]
+
+#define VAR_UNIQUE_STIER_ADD []
+#define VAR_UNIQUE_STIER_NOT []
+#define VAR_UNIQUE_ATIER_ADD []
+#define VAR_UNIQUE_ATIER_NOT []
+#define VAR_UNIQUE_BTIER_ADD []
+#define VAR_UNIQUE_BTIER_NOT []
+#define VAR_UNIQUE_CTIER_ADD []
+#define VAR_UNIQUE_CTIER_NOT []
 
 #define VAR_UNIQUE_STIER_CUSTOMSTYLE
 #define VAR_UNIQUE_ATIER_CUSTOMSTYLE

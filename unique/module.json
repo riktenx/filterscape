@@ -5,7 +5,145 @@
       "addTarget": "VAR_UNIQUE_STIER_ADD",
       "removeTarget": "VAR_UNIQUE_STIER_NOT",
       "label": "S-Tier uniques.",
-      "enum": ["optional where applicable"]
+      "default": [
+        "*champion scroll",
+        "internal cape",
+        "fire cape",
+        "dizana's quiver*",
+        "*max cape",
+        "unsired",
+        "ancient blood ornament kit",
+        "ultor vestige",
+        "venator vestige",
+        "bellator vestige",
+        "magus vestige",
+        "executioner's axe head",
+        "leviathan's lure",
+        "siren's staff",
+        "eye of the duke",
+        "*mutagen",
+        "slepey tablet"
+      ]
+    },
+    {
+      "type": "style",
+      "name": "VAR_UNIQUE_STIER_CUSTOMSTYLE",
+      "label": "S-Tier: display",
+      "default": {
+        "textColor": "#ff0000",
+        "backgroundColor": "#ffffff",
+        "borderColor": "#ff0000",
+        "fontType": 2,
+        "textAccent": 4,
+        "showLootbeam": true
+      }
+    },
+    {
+      "type": "itemlist_diff",
+      "addTarget": "VAR_UNIQUE_ATIER_ADD",
+      "removeTarget": "VAR_UNIQUE_ATIER_NOT",
+      "label": "A-Tier uniques.",
+      "default": [
+        "brimstone key",
+        "jar of*",
+        "noxious pommel",
+        "noxious point",
+        "noxious blade",
+        "*half of key (moon key)"
+      ]
+    },
+    {
+      "type": "style",
+      "name": "VAR_UNIQUE_ATIER_CUSTOMSTYLE",
+      "label": "A-Tier: display",
+      "default": {
+        "textColor": "#ff0000",
+        "backgroundColor": "#af6025",
+        "borderColor": "#ff0000",
+        "textAccent": 3,
+        "showLootbeam": true
+      }
+    },
+    {
+      "type": "itemlist_diff",
+      "addTarget": "VAR_UNIQUE_BTIER_ADD",
+      "removeTarget": "VAR_UNIQUE_BTIER_NOT",
+      "label": "B-Tier uniques.",
+      "default": [
+        "dark totem",
+        "mossy key",
+        "giant key",
+        "ecumenical key",
+        "abyssal head",
+        "araxyte head",
+        "alchemical hydra heads",
+        "kbd heads",
+        "kq head*",
+        "dark claw",
+        "bludgeon claw",
+        "bludgeon spine",
+        "bludgeon axon",
+        "hydra's eye",
+        "hydra's fang",
+        "hydra's heart",
+        "strangled tablet",
+        "scarred tablet",
+        "sirenic tablet",
+        "frozen tablet",
+        "scurrius' spine",
+        "vorkath's head"
+      ]
+    },
+    {
+      "type": "style",
+      "name": "VAR_UNIQUE_BTIER_CUSTOMSTYLE",
+      "label": "B-Tier: display",
+      "default": {
+        "textColor": "#ff0000",
+        "backgroundColor": "#af6025",
+        "borderColor": "#ff0000",
+        "textAccent": 3
+      }
+    },
+    {
+      "type": "itemlist_diff",
+      "addTarget": "VAR_UNIQUE_CTIER_ADD",
+      "removeTarget": "VAR_UNIQUE_CTIER_NOT",
+      "label": "C-Tier uniques.",
+      "default": [
+        "dark totem top",
+        "dark totem base",
+        "dark totem middle",
+        "long bone",
+        "curved bone",
+        "looting bag",
+        "unidentified small fossil",
+        "unidentified medium fossil",
+        "unidentified large fossil",
+        "unidentified rare fossil",
+        "key master teleport",
+        "chromium ingot",
+        "blood quartz",
+        "smoke quartz",
+        "shadow quartz",
+        "ice quartz",
+        "pendant of ates*",
+        "frozen cache",
+        "ancient icon",
+        "charged ice",
+        "parasitic egg"
+      ]
+    },
+    {
+      "type": "style",
+      "name": "VAR_UNIQUE_CTIER_CUSTOMSTYLE",
+      "label": "C-Tier: display",
+      "default": {
+        "textColor": "#af6025",
+        "backgroundColor": "#350d0d",
+        "borderColor": "#af6025",
+        "textAccent": 3
+      }
     }
   ]
 }

@@ -1,0 +1,59 @@
+{
+  "name": "Herbs",
+  "input": [
+    {
+      "name": "VAR_HERB_SHOW",
+      "label": "Herbs to always show regardless of value",
+      "type": "itemlist",
+      "enum": [
+        "guam leaf",
+        "marrentill",
+        "tarromin",
+        "harralander",
+        "ranarr weed",
+        "toadflax",
+        "irit leaf",
+        "avantoe",
+        "kwuarm",
+        "huasca",
+        "snapdragon",
+        "cadantine",
+        "lantadyme",
+        "dwarf weed",
+        "torstol"
+      ]
+    },
+    {
+      "name": "VAR_HERB_SHOW",
+      "label": "Herbs to always hide regardless of value",
+      "type": "itemlist",
+      "enum": [
+        "guam leaf",
+        "marrentill",
+        "tarromin",
+        "harralander",
+        "ranarr weed",
+        "toadflax",
+        "irit leaf",
+        "avantoe",
+        "kwuarm",
+        "huasca",
+        "snapdragon",
+        "cadantine",
+        "lantadyme",
+        "dwarf weed",
+        "torstol"
+      ]
+    },
+    {
+      "name": "VAR_HERB_CUSTOMSTYLE",
+      "label": "Style",
+      "type": "style"
+    },
+    {
+      "name": "VAR_HERB_MINVALUE",
+      "label": "Baseline minimum value at which to show herbs.",
+      "type": "int"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "type": "filter",
+  "name": "riktenx/filterscape",
+  "description": "All-in-one \"reference\" loot filter for main account gameplay.",
+  "modules": [
+    {
+      "name": "Clues",
+      "moduleJson": "https://raw.githubusercontent.com/riktenx/filterscape/refs/heads/main/clue/mod_clue.json",
+      "rs2f": "https://raw.githubusercontent.com/riktenx/filterscape/refs/heads/main/clue/mod_clue.rs2f"
+    },
+    {
+      "name": "Herbs",
+      "moduleJson": "https://raw.githubusercontent.com/riktenx/filterscape/refs/heads/main/herb/module.json",
+      "rs2f": "https://raw.githubusercontent.com/riktenx/filterscape/refs/heads/main/herb/module.rs2f"
+    }
+  ]
+}

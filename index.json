@@ -4,6 +4,11 @@
   "description": "All-in-one \"reference\" loot filter for main account gameplay.",
   "modules": [
     {
+      "name": "Item values",
+      "moduleJson": "https://raw.githubusercontent.com/riktenx/filterscape/refs/heads/main/value/module.json",
+      "rs2f": "https://raw.githubusercontent.com/riktenx/filterscape/refs/heads/main/value/module.rs2f"
+    },
+    {
       "name": "Clues",
       "moduleJson": "https://raw.githubusercontent.com/riktenx/filterscape/refs/heads/main/clue/mod_clue.json",
       "rs2f": "https://raw.githubusercontent.com/riktenx/filterscape/refs/heads/main/clue/mod_clue.rs2f"

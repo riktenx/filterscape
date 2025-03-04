@@ -48,7 +48,10 @@
     {
       "name": "VAR_HERB_CUSTOMSTYLE",
       "label": "Style",
-      "type": "style"
+      "type": "style",
+      "default": {
+        "textColor": "#00ff00"
+      }
     },
     {
       "name": "VAR_HERB_MINVALUE",

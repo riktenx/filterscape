@@ -1,0 +1,107 @@
+// module:unique
+
+#define VAR_UNIQUE_STIER [\
+  "*champion scroll",\
+  "internal cape",\
+  "fire cape",\
+  "dizana's quiver*",\
+  "*max cape",\
+  "unsired",\
+  "ancient blood ornament kit",\
+  "ultor vestige",\
+  "venator vestige",\
+  "bellator vestige",\
+  "magus vestige",\
+  "executioner's axe head",\
+  "leviathan's lure",\
+  "siren's staff",\
+  "eye of the duke",\
+  "*mutagen",\
+  "slepey tablet",\
+]
+#define VAR_UNIQUE_ATIER [\
+  "brimstone key",\
+  "jar of*",\
+  "noxious pommel",\
+  "noxious point",\
+  "noxious blade",\
+  "*half of key (moon key)",\
+]
+#define VAR_UNIQUE_BTIER [\
+  "dark totem",\
+  "mossy key",\
+  "giant key",\
+  "ecumenical key",\
+  "abyssal head",\
+  "araxyte head",\
+  "alchemical hydra heads",\
+  "kbd heads",\
+  "kq head*",\
+  "dark claw",\
+  "bludgeon claw",\
+  "bludgeon spine",\
+  "bludgeon axon",\
+  "hydra's eye",\
+  "hydra's fang",\
+  "hydra's heart",\
+  "strangled tablet",\
+  "scarred tablet",\
+  "sirenic tablet",\
+  "frozen tablet",\
+  "scurrius' spine",\
+  "vorkath's head",\
+]
+#define VAR_UNIQUE_CTIER [\
+  "dark totem top",\
+  "dark totem base",\
+  "dark totem middle",\
+  "long bone",\
+  "curved bone",\
+  "looting bag",\
+  "unidentified small fossil",\
+  "unidentified medium fossil",\
+  "unidentified large fossil",\
+  "unidentified rare fossil",\
+  "key master teleport",\
+  "chromium ingot",\
+  "blood quartz",\
+  "smoke quartz",\
+  "shadow quartz",\
+  "ice quartz",\
+  "pendant of ates*",\
+  "frozen cache",\
+  "ancient icon",\
+  "charged ice",\
+  "parasitic egg",\
+]
+
+#define VAR_UNIQUE_STIER_CUSTOMSTYLE
+#define VAR_UNIQUE_ATIER_CUSTOMSTYLE
+#define VAR_UNIQUE_BTIER_CUSTOMSTYLE
+#define VAR_UNIQUE_CTIER_CUSTOMSTYLE
+
+if (name:VAR_UNIQUE_STIER) {
+  LIB_COLOR3(RED, WHITE)
+  fontType = 2;
+  textAccent = 4;
+  showLootbeam = true;
+  VAR_UNIQUE_STIER_CUSTOMSTYLE
+}
+if (name:VAR_UNIQUE_ATIER) {
+  LIB_COLOR3(WHITE, LIB_LIGHT_BROWN)
+  textAccent = 3;
+  showLootBeam = true;
+  VAR_UNIQUE_ATIER_CUSTOMSTYLE
+}
+if (name:VAR_UNIQUE_BTIER) {
+  LIB_COLOR3(BLACK, LIB_LIGHT_BROWN)
+  textAccent = 3;
+  VAR_UNIQUE_BTIER_CUSTOMSTYLE
+}
+if (name:VAR_UNIQUE_CTIER) {
+  COLOR3(LIGHT_BROWN, BURGUNDY)
+  textAccent = 3;
+  VAR_UNIQUE_CTIER_CUSTOMSTYLE
+}
+
+// endmodule:unique

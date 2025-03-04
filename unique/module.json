@@ -1,0 +1,11 @@
+{
+  "input": [
+    {
+      "type": "itemlist_diff",
+      "addTarget": "VAR_UNIQUE_STIER_ADD",
+      "removeTarget": "VAR_UNIQUE_STIER_NOT",
+      "label": "S-Tier uniques.",
+      "enum": ["optional where applicable"]
+    }
+  ]
+}

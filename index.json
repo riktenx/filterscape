@@ -4,9 +4,24 @@
   "description": "All-in-one \"reference\" loot filter for main account gameplay.",
   "modules": [
     {
+      "name": "Chambers of Xeric",
+      "moduleJson": "https://raw.githubusercontent.com/riktenx/filterscape/refs/heads/main/cox/module.json",
+      "rs2f": "https://raw.githubusercontent.com/riktenx/filterscape/refs/heads/main/cox/module.rs2f"
+    },
+    {
+      "name": "Tombs of Amascut",
+      "moduleJson": "https://raw.githubusercontent.com/riktenx/filterscape/refs/heads/main/toa/module.json",
+      "rs2f": "https://raw.githubusercontent.com/riktenx/filterscape/refs/heads/main/toa/module.rs2f"
+    },
+    {
       "name": "Item values",
       "moduleJson": "https://raw.githubusercontent.com/riktenx/filterscape/refs/heads/main/value/module.json",
       "rs2f": "https://raw.githubusercontent.com/riktenx/filterscape/refs/heads/main/value/module.rs2f"
+    },
+    {
+      "name": "Uniques",
+      "moduleJson": "https://raw.githubusercontent.com/riktenx/filterscape/refs/heads/main/unique/module.json",
+      "rs2f": "https://raw.githubusercontent.com/riktenx/filterscape/refs/heads/main/unique/module.rs2f"
     },
     {
       "name": "Clues",

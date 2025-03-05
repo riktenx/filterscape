@@ -1,0 +1,41 @@
+// module:cox
+
+#define CONST_COX_AREA []
+
+#define VAR_COX_OVL_USERSTYLE
+#define VAR_COX_PEH_USERSTYLE
+#define VAR_COX_REV_USERSTYLE
+#define VAR_COX_XER_USERSTYLE
+
+#define VAR_COX_HIGHLIGHT []
+#define VAR_COX_HIGHLIGHT_USERSTYLE
+
+if (area:CONST_COX_AREA && name:CONST_COX_HIGHLIGHT) {
+  VAR_COX_HIGHLIGHT_USERSTYLE;
+}
+
+if (area:CONST_COX_AREA && name:"overload*") {
+  textColor = "#1e88e5";
+  textAccent = 4;
+  VAR_COX_OVL_USERSTYLE;
+}
+
+if (area:CONST_COX_AREA && name:"prayer enhance*") {
+  textColor = "#ff00ff";
+  textAccent = 4;
+  VAR_COX_PEH_USERSTYLE;
+}
+
+if (area:CONST_COX_AREA && name:"revitalisation*") {
+  textColor = "#e91e63";
+  textAccent = 4;
+  VAR_COX_REV_USERSTYLE;
+}
+
+if (area:CONST_COX_AREA && name:"xeric's aid*") {
+  textColor = "#ffff00";
+  textAccent = 4;
+  VAR_COX_XER_USERSTYLE;
+}
+
+// endmodule:cox

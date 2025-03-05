@@ -4,11 +4,11 @@ on:
   push:
     paths:
       - '**/*.json'
-      - '.github/workflows/validate-json.yml'
+      - '.github/workflows/validate-filter-schema.yaml'
   pull_request:
     paths:
       - '**/*.json'
-      - '.github/workflows/validate-json.yml'
+      - '.github/workflows/validate-filter-schema.yaml'
 
 jobs:
   validate_filter_schema:

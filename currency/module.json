@@ -1,0 +1,55 @@
+{
+  "name": "Currency / Tokens",
+  "inputs": [
+    {
+      "type": "includeExcludeList",
+      "label": "Currency / Token items",
+      "macroName": {
+        "includes": "VAR_CURRENCY_ADD",
+        "excludes": "VAR_CURRENCY_NOT"
+      },
+      "default": {
+        "includes": [
+          "Mole claw",
+          "Mole skin",
+          "Trading sticks",
+          "Numulite",
+          "Abyssal pearls",
+          "Anima-infused bark",
+          "Barronite shards",
+          "Blood money",
+          "Ecto-token",
+          "Frog token",
+          "Golden nugget",
+          "Glistening tear",
+          "Hallowed mark",
+          "Intelligence",
+          "Mark of grace",
+          "Mermaid's tear",
+          "Minnow",
+          "Molch pearl",
+          "Nuggets",
+          "Rare creature parts",
+          "Reward token credits",
+          "Stardust",
+          "Tokkul",
+          "Termites",
+          "Unidentified minerals",
+          "Warrior guild token",
+          "Blessed bone shards",
+          "Sun-kissed bones",
+          "Ecumenical key shard"
+        ],
+        "excludes": []
+      }
+    },
+    {
+      "type": "style",
+      "label": "Display",
+      "macroName": "VAR_CURRENCY_USERSTYLE",
+      "default": {
+        "textColor": "#beb287"
+      }
+    }
+  ]
+}

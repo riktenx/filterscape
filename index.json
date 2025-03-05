@@ -19,6 +19,11 @@
       "rs2f": "https://raw.githubusercontent.com/riktenx/filterscape/refs/heads/main/value/module.rs2f"
     },
     {
+      "name": "Currency / tokens",
+      "moduleJson": "https://raw.githubusercontent.com/riktenx/filterscape/refs/heads/main/currency/module.json",
+      "rs2f": "https://raw.githubusercontent.com/riktenx/filterscape/refs/heads/main/currency/module.rs2f"
+    },
+    {
       "name": "Uniques",
       "moduleJson": "https://raw.githubusercontent.com/riktenx/filterscape/refs/heads/main/unique/module.json",
       "rs2f": "https://raw.githubusercontent.com/riktenx/filterscape/refs/heads/main/unique/module.rs2f"

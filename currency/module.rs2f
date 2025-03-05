@@ -1,0 +1,45 @@
+// module:currency
+
+#define VAR_CURRENCY_ADD []
+#define VAR_CURRENCY_NOT []
+
+#define CONST_CURRENCY_ITEMS [
+  "Mole claw",\
+  "Mole skin",\
+  "Trading sticks",\
+  "Numulite",\
+  "Abyssal pearls",\
+  "Anima-infused bark",\
+  "Barronite shards",\
+  "Blood money",\
+  "Ecto-token",\
+  "Frog token",\
+  "Golden nugget",\
+  "Glistening tear",\
+  "Hallowed mark",\
+  "Intelligence",\
+  "Mark of grace",\
+  "Mermaid's tear",\
+  "Minnow",\
+  "Molch pearl",\
+  "Nuggets",\
+  "Rare creature parts",\
+  "Reward token credits",\
+  "Stardust",\
+  "Tokkul",\
+  "Termites",\
+  "Unidentified minerals",\
+  "Warrior guild token",\
+  "Blessed bone shards",\
+  "Sun-kissed bones",\
+  "Ecumenical key shard",\
+]
+
+#define VAR_CURRENCY_USERSTYLE
+
+if (!name:VAR_CURRENCY_NOT && (name:CONST_CURRENCY_ITEMS || name:VAR_CURRENCY_ADD)) {
+  textColor = "#beb287";
+  VAR_CURRENCY_USERSTYLE
+}
+
+// endmodule:currency

@@ -27,12 +27,14 @@ jobs:
       - name: Download Current Filter Schema
         run: |
           curl -o schema.json https://raw.githubusercontent.com/Kaqemeex/loot-filters-ui/refs/heads/main/schema.json
+      - name: print schema
+        run: cat schema.json
 
       - name: Validate JSON files
         run: |
           find . -type f -name "*.json" -not -path "./schema.json" -print0 | while IFS= read -r -d '' file; do
             echo "Validating $file..."
-            if ! check-jsonschema --schemafile schema.json "$file"; then
+            if ! check-jsonschema -v --schemafile schema.json "$file"; then
               echo "❌ Validation failed for $file"
               exit 1
             fi

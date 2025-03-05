@@ -5,38 +5,38 @@
   "modules": [
     {
       "name": "Chambers of Xeric",
-      "moduleJson": "https://raw.githubusercontent.com/riktenx/filterscape/refs/heads/main/cox/module.json",
-      "rs2f": "https://raw.githubusercontent.com/riktenx/filterscape/refs/heads/main/cox/module.rs2f"
+      "moduleJsonUrl": "https://raw.githubusercontent.com/riktenx/filterscape/refs/heads/main/cox/module.json",
+      "moduleRs2fUrl": "https://raw.githubusercontent.com/riktenx/filterscape/refs/heads/main/cox/module.rs2f"
     },
     {
       "name": "Tombs of Amascut",
-      "moduleJson": "https://raw.githubusercontent.com/riktenx/filterscape/refs/heads/main/toa/module.json",
-      "rs2f": "https://raw.githubusercontent.com/riktenx/filterscape/refs/heads/main/toa/module.rs2f"
+      "moduleJsonUrl": "https://raw.githubusercontent.com/riktenx/filterscape/refs/heads/main/toa/module.json",
+      "moduleRs2fUrl": "https://raw.githubusercontent.com/riktenx/filterscape/refs/heads/main/toa/module.rs2f"
     },
     {
       "name": "Item values",
-      "moduleJson": "https://raw.githubusercontent.com/riktenx/filterscape/refs/heads/main/value/module.json",
-      "rs2f": "https://raw.githubusercontent.com/riktenx/filterscape/refs/heads/main/value/module.rs2f"
+      "moduleJsonUrl": "https://raw.githubusercontent.com/riktenx/filterscape/refs/heads/main/value/module.json",
+      "moduleRs2fUrl": "https://raw.githubusercontent.com/riktenx/filterscape/refs/heads/main/value/module.rs2f"
     },
     {
       "name": "Currency / tokens",
-      "moduleJson": "https://raw.githubusercontent.com/riktenx/filterscape/refs/heads/main/currency/module.json",
-      "rs2f": "https://raw.githubusercontent.com/riktenx/filterscape/refs/heads/main/currency/module.rs2f"
+      "moduleJsonUrl": "https://raw.githubusercontent.com/riktenx/filterscape/refs/heads/main/currency/module.json",
+      "moduleRs2fUrl": "https://raw.githubusercontent.com/riktenx/filterscape/refs/heads/main/currency/module.rs2f"
     },
     {
       "name": "Uniques",
-      "moduleJson": "https://raw.githubusercontent.com/riktenx/filterscape/refs/heads/main/unique/module.json",
-      "rs2f": "https://raw.githubusercontent.com/riktenx/filterscape/refs/heads/main/unique/module.rs2f"
+      "moduleJsonUrl": "https://raw.githubusercontent.com/riktenx/filterscape/refs/heads/main/unique/module.json",
+      "moduleRs2fUrl": "https://raw.githubusercontent.com/riktenx/filterscape/refs/heads/main/unique/module.rs2f"
     },
     {
       "name": "Clues",
-      "moduleJson": "https://raw.githubusercontent.com/riktenx/filterscape/refs/heads/main/clue/mod_clue.json",
-      "rs2f": "https://raw.githubusercontent.com/riktenx/filterscape/refs/heads/main/clue/mod_clue.rs2f"
+      "moduleJsonUrl": "https://raw.githubusercontent.com/riktenx/filterscape/refs/heads/main/clue/mod_clue.json",
+      "moduleRs2fUrl": "https://raw.githubusercontent.com/riktenx/filterscape/refs/heads/main/clue/mod_clue.rs2f"
     },
     {
       "name": "Herbs",
-      "moduleJson": "https://raw.githubusercontent.com/riktenx/filterscape/refs/heads/main/herb/module.json",
-      "rs2f": "https://raw.githubusercontent.com/riktenx/filterscape/refs/heads/main/herb/module.rs2f"
+      "moduleJsonUrl": "https://raw.githubusercontent.com/riktenx/filterscape/refs/heads/main/herb/module.json",
+      "moduleRs2fUrl": "https://raw.githubusercontent.com/riktenx/filterscape/refs/heads/main/herb/module.rs2f"
     }
   ]
 }

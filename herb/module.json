@@ -1,10 +1,10 @@
 {
   "name": "Herbs",
-  "input": [
+  "inputs": [
     {
-      "name": "VAR_HERB_SHOW",
+      "type": "enumlist",
+      "macroName": "VAR_HERB_SHOW",
       "label": "Herbs to always show regardless of value",
-      "type": "itemlist",
       "enum": [
         "guam leaf",
         "marrentill",
@@ -21,12 +21,13 @@
         "lantadyme",
         "dwarf weed",
         "torstol"
-      ]
+      ],
+      "default": []
     },
     {
-      "name": "VAR_HERB_SHOW",
+      "type": "enumlist",
+      "macroName": "VAR_HERB_HIDE",
       "label": "Herbs to always hide regardless of value",
-      "type": "itemlist",
       "enum": [
         "guam leaf",
         "marrentill",
@@ -43,20 +44,22 @@
         "lantadyme",
         "dwarf weed",
         "torstol"
-      ]
+      ],
+      "default": ["guam leaf", "marrentill", "tarromin"]
     },
     {
-      "name": "VAR_HERB_CUSTOMSTYLE",
-      "label": "Style",
       "type": "style",
+      "macroName": "VAR_HERB_CUSTOMSTYLE",
+      "label": "Style",
       "default": {
         "textColor": "#00ff00"
       }
     },
     {
-      "name": "VAR_HERB_MINVALUE",
+      "type": "number",
+      "macroName": "VAR_HERB_MINVALUE",
       "label": "Baseline minimum value at which to show herbs.",
-      "type": "int"
+      "default": 1
     }
   ]
 }

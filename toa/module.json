@@ -1,0 +1,59 @@
+{
+  "name": "ToA",
+  "inputs": [
+    {
+      "type": "stringlist",
+      "group": "addl-highlight",
+      "label": "ToA-specific item highlights",
+      "macroName": "VAR_TOA_HIGHLIGHT",
+      "default": []
+    },
+    {
+      "type": "style",
+      "group": "addl-highlight",
+      "label": "Display",
+      "macroName": "VAR_TOA_HIGHLIGHT_USERSTYLE",
+      "default": {}
+    },
+    {
+      "type": "style",
+      "group": "potions",
+      "label": "Ambrosia",
+      "macroName": "VAR_TOA_AMB_USERSTYLE",
+      "default": {
+        "textColor": "#e3ece3",
+        "textAccent": 4
+      }
+    },
+    {
+      "type": "style",
+      "group": "potions",
+      "label": "Liquid adrenaline",
+      "macroName": "VAR_TOA_LQA_USERSTYLE",
+      "default": {
+        "textColor": "#35c6d7",
+        "textAccent": 4
+      }
+    },
+    {
+      "type": "style",
+      "group": "potions",
+      "label": "Nectar",
+      "macroName": "VAR_TOA_NEC_USERSTYLE",
+      "default": {
+        "textColor": "#ffff00",
+        "textAccent": 4
+      }
+    },
+    {
+      "type": "style",
+      "group": "potions",
+      "label": "Tears of elidinis",
+      "macroName": "VAR_TOA_TOE_USERSTYLE",
+      "default": {
+        "textColor": "#e91e63",
+        "textAccent": 4
+      }
+    }
+  ]
+}

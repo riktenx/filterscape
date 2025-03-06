@@ -37,8 +37,8 @@
       }
     },
     { "macroName": "VAR_VALUE_T4_CUSTOMSTYLE", "label": "T4: Display", "type": "style",
+      "group": "t4",
       "default": {
-        "group": "t4",
         "textColor": "#ffffff",
         "borderColor": "#ffffff",
         "backgroundColor": "#f0a523",
@@ -47,8 +47,8 @@
       }
     },
     { "macroName": "VAR_VALUE_T3_CUSTOMSTYLE", "label": "T3: Display", "type": "style",
+      "group": "t3",
       "default": {
-        "group": "t3",
         "textColor": "#000000",
         "borderColor": "#000000",
         "backgroundColor": "#f0a523",
@@ -59,23 +59,23 @@
       }
     },
     { "macroName": "VAR_VALUE_T2_CUSTOMSTYLE", "label": "T2: Display", "type": "style",
+      "group": "t2",
       "default": {
-        "group": "t2",
         "textColor": "#f99619",
         "borderColor": "#f99619",
         "textAccent": 2
       }
     },
     { "macroName": "VAR_VALUE_T1_CUSTOMSTYLE", "label": "T1: Display", "type": "style",
+      "group": "t1",      
       "default": {
-        "group": "t1",
         "textColor": "#d59f00",
         "textAccent": 2
       }
     },
     { "macroName": "VAR_VALUE_T0_CUSTOMSTYLE", "label": "T0: Display", "type": "style",
+      "group": "t0",
       "default": {
-        "group": "t0",
         "textColor": "#beb287"
       }
     }

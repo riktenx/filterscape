@@ -1,0 +1,418 @@
+
+// module:cox
+
+#define CONST_COX_AREA []
+
+#define VAR_COX_OVL_USERSTYLE
+#define VAR_COX_PEH_USERSTYLE
+#define VAR_COX_REV_USERSTYLE
+#define VAR_COX_XER_USERSTYLE
+
+#define VAR_COX_HIGHLIGHT []
+#define VAR_COX_HIGHLIGHT_USERSTYLE
+
+if (area:CONST_COX_AREA && name:CONST_COX_HIGHLIGHT) {
+  VAR_COX_HIGHLIGHT_USERSTYLE;
+}
+
+if (area:CONST_COX_AREA && name:"overload*") {
+  textColor = "#1e88e5";
+  textAccent = 4;
+  VAR_COX_OVL_USERSTYLE;
+}
+
+if (area:CONST_COX_AREA && name:"prayer enhance*") {
+  textColor = "#ff00ff";
+  textAccent = 4;
+  VAR_COX_PEH_USERSTYLE;
+}
+
+if (area:CONST_COX_AREA && name:"revitalisation*") {
+  textColor = "#e91e63";
+  textAccent = 4;
+  VAR_COX_REV_USERSTYLE;
+}
+
+if (area:CONST_COX_AREA && name:"xeric's aid*") {
+  textColor = "#ffff00";
+  textAccent = 4;
+  VAR_COX_XER_USERSTYLE;
+}
+
+// endmodule:cox
+// module:toa
+
+#define CONST_TOA_AREA []
+
+#define VAR_TOA_AMB_USERSTYLE
+#define VAR_TOA_LQA_USERSTYLE
+#define VAR_TOA_NEC_USERSTYLE
+#define VAR_TOA_TOE_USERSTYLE
+
+#define VAR_TOA_HIGHLIGHT []
+#define VAR_TOA_HIGHLIGHT_USERSTYLE
+
+if (area:CONST_TOA_AREA && name:CONST_TOA_HIGHLIGHT) {
+  VAR_TOA_HIGHLIGHT_USERSTYLE;
+}
+
+if (area:CONST_TOA_AREA && name:"ambrosia*") {
+  textColor = "#e3ece3";
+  textAccent = 4;
+  VAR_TOA_AMB_USERSTYLE;
+}
+
+if (area:CONST_TOA_AREA && name:"liquid adrenaline*") {
+  textColor = "#35c6d7";
+  textAccent = 4;
+  VAR_TOA_LQA_USERSTYLE;
+}
+
+if (area:CONST_TOA_AREA && name:"nectar*") {
+  textColor = "#ffff00";
+  textAccent = 4;
+  VAR_TOA_NEC_USERSTYLE;
+}
+
+if (area:CONST_TOA_AREA && name:"tears of elidinis*") {
+  textColor = "#e91e63";
+  textAccent = 4;
+  VAR_TOA_TOE_USERSTYLE;
+}
+
+// endmodule:toa
+// module:value
+
+#define VAR_VALUE_T9_ENABLED false
+#define VAR_VALUE_T8_ENABLED false
+#define VAR_VALUE_T7_ENABLED false
+#define VAR_VALUE_T6_ENABLED false
+#define VAR_VALUE_T5_ENABLED true
+#define VAR_VALUE_T4_ENABLED true
+#define VAR_VALUE_T3_ENABLED true
+#define VAR_VALUE_T2_ENABLED true
+#define VAR_VALUE_T1_ENABLED true
+#define VAR_VALUE_T0_ENABLED true
+
+#define VAR_VALUE_T9_VALUE 0
+#define VAR_VALUE_T8_VALUE 0
+#define VAR_VALUE_T7_VALUE 0
+#define VAR_VALUE_T6_VALUE 0
+#define VAR_VALUE_T5_VALUE 100_000_000
+#define VAR_VALUE_T4_VALUE 10_000_000
+#define VAR_VALUE_T3_VALUE 1_000_000
+#define VAR_VALUE_T2_VALUE 500_000
+#define VAR_VALUE_T1_VALUE 100_000
+#define VAR_VALUE_T0_VALUE 10_000
+
+#define VAR_VALUE_T9_CUSTOMSTYLE
+#define VAR_VALUE_T8_CUSTOMSTYLE
+#define VAR_VALUE_T7_CUSTOMSTYLE
+#define VAR_VALUE_T6_CUSTOMSTYLE
+#define VAR_VALUE_T5_CUSTOMSTYLE
+#define VAR_VALUE_T4_CUSTOMSTYLE
+#define VAR_VALUE_T3_CUSTOMSTYLE
+#define VAR_VALUE_T2_CUSTOMSTYLE
+#define VAR_VALUE_T1_CUSTOMSTYLE
+#define VAR_VALUE_T0_CUSTOMSTYLE
+
+if (VAR_VALUE_T9_ENABLED && value:>=VAR_VALUE_T9_VALUE) {
+  VAR_VALUE_T9_CUSTOMSTYLE
+}
+if (VAR_VALUE_T8_ENABLED && value:>=VAR_VALUE_T8_VALUE) {
+  VAR_VALUE_T8_CUSTOMSTYLE
+}
+if (VAR_VALUE_T7_ENABLED && value:>=VAR_VALUE_T7_VALUE) {
+  VAR_VALUE_T7_CUSTOMSTYLE
+}
+if (VAR_VALUE_T6_ENABLED && value:>=VAR_VALUE_T6_VALUE) {
+  VAR_VALUE_T6_CUSTOMSTYLE
+}
+if (VAR_VALUE_T5_ENABLED && value:>=VAR_VALUE_T5_VALUE) {
+  LIB_COLOR3(RED, WHITE)
+  fontType = 2;
+  textAccent = 3;
+  showLootBeam = true;
+  VAR_VALUE_T5_CUSTOMSTYLE
+}
+if (VAR_VALUE_T4_ENABLED && value:>=VAR_VALUE_T4_VALUE) {
+  LIB_COLOR3(WHITE, LIB_ORANGE)
+  showLootBeam = true;
+  VAR_VALUE_T4_CUSTOMSTYLE
+}
+if (VAR_VALUE_T3_ENABLED && value:>=VAR_VALUE_T3_VALUE) {
+  LIB_COLOR3(BLACK, LIB_ORANGE)
+  textAccent = 3;
+  showLootbeam = true;
+  lootbeamColor = LIB_ORANGE;
+  menuTextColor = LIB_ORANGE;
+  VAR_VALUE_T3_CUSTOMSTYLE
+}
+if (VAR_VALUE_T2_ENABLED && value:>=VAR_VALUE_T2_VALUE) {
+  LIB_COLOR2(LIB_CARAMEL)
+  textAccent = 2;
+  VAR_VALUE_T2_CUSTOMSTYLE
+}
+if (VAR_VALUE_T1_ENABLED && value:>=VAR_VALUE_T1_VALUE) {
+  textColor = LIB_GOLD;
+  textAccent = 2;
+  VAR_VALUE_T1_CUSTOMSTYLE
+}
+if (VAR_VALUE_T0_ENABLED && value:>=VAR_VALUE_T0_VALUE) {
+  textColor = LIB_KHAKI;
+  VAR_VALUE_T0_CUSTOMSTYLE
+}
+
+// endmodule:value
+// module:currency
+
+#define VAR_CURRENCY_ADD []
+#define VAR_CURRENCY_NOT []
+
+#define CONST_CURRENCY_ITEMS [
+  "Mole claw",\
+  "Mole skin",\
+  "Trading sticks",\
+  "Numulite",\
+  "Abyssal pearls",\
+  "Anima-infused bark",\
+  "Barronite shards",\
+  "Blood money",\
+  "Ecto-token",\
+  "Frog token",\
+  "Golden nugget",\
+  "Glistening tear",\
+  "Hallowed mark",\
+  "Intelligence",\
+  "Mark of grace",\
+  "Mermaid's tear",\
+  "Minnow",\
+  "Molch pearl",\
+  "Nuggets",\
+  "Rare creature parts",\
+  "Reward token credits",\
+  "Stardust",\
+  "Tokkul",\
+  "Termites",\
+  "Unidentified minerals",\
+  "Warrior guild token",\
+  "Blessed bone shards",\
+  "Sun-kissed bones",\
+  "Ecumenical key shard",\
+]
+
+#define VAR_CURRENCY_USERSTYLE
+
+if (!name:VAR_CURRENCY_NOT && (name:CONST_CURRENCY_ITEMS || name:VAR_CURRENCY_ADD)) {
+  textColor = "#beb287";
+  VAR_CURRENCY_USERSTYLE
+}
+
+// endmodule:currency
+// module:unique
+
+#define CONST_UNIQUE_STIER [\
+  "*champion scroll",\
+  "internal cape",\
+  "fire cape",\
+  "dizana's quiver*",\
+  "*max cape",\
+  "unsired",\
+  "ancient blood ornament kit",\
+  "ultor vestige",\
+  "venator vestige",\
+  "bellator vestige",\
+  "magus vestige",\
+  "executioner's axe head",\
+  "leviathan's lure",\
+  "siren's staff",\
+  "eye of the duke",\
+  "*mutagen",\
+  "slepey tablet",\
+]
+#define CONST_UNIQUE_ATIER [\
+  "brimstone key",\
+  "jar of*",\
+  "noxious pommel",\
+  "noxious point",\
+  "noxious blade",\
+  "*half of key (moon key)",\
+]
+#define CONST_UNIQUE_BTIER [\
+  "dark totem",\
+  "mossy key",\
+  "giant key",\
+  "ecumenical key",\
+  "abyssal head",\
+  "araxyte head",\
+  "alchemical hydra heads",\
+  "kbd heads",\
+  "kq head*",\
+  "dark claw",\
+  "bludgeon claw",\
+  "bludgeon spine",\
+  "bludgeon axon",\
+  "hydra's eye",\
+  "hydra's fang",\
+  "hydra's heart",\
+  "strangled tablet",\
+  "scarred tablet",\
+  "sirenic tablet",\
+  "frozen tablet",\
+  "scurrius' spine",\
+  "vorkath's head",\
+]
+#define CONST_UNIQUE_CTIER [\
+  "dark totem top",\
+  "dark totem base",\
+  "dark totem middle",\
+  "long bone",\
+  "curved bone",\
+  "looting bag",\
+  "unidentified small fossil",\
+  "unidentified medium fossil",\
+  "unidentified large fossil",\
+  "unidentified rare fossil",\
+  "key master teleport",\
+  "chromium ingot",\
+  "blood quartz",\
+  "smoke quartz",\
+  "shadow quartz",\
+  "ice quartz",\
+  "pendant of ates*",\
+  "frozen cache",\
+  "ancient icon",\
+  "charged ice",\
+  "parasitic egg",\
+]
+
+#define VAR_UNIQUE_STIER_ADD []
+#define VAR_UNIQUE_STIER_NOT []
+#define VAR_UNIQUE_ATIER_ADD []
+#define VAR_UNIQUE_ATIER_NOT []
+#define VAR_UNIQUE_BTIER_ADD []
+#define VAR_UNIQUE_BTIER_NOT []
+#define VAR_UNIQUE_CTIER_ADD []
+#define VAR_UNIQUE_CTIER_NOT []
+
+#define VAR_UNIQUE_STIER_CUSTOMSTYLE
+#define VAR_UNIQUE_ATIER_CUSTOMSTYLE
+#define VAR_UNIQUE_BTIER_CUSTOMSTYLE
+#define VAR_UNIQUE_CTIER_CUSTOMSTYLE
+
+if (name:VAR_UNIQUE_STIER) {
+  LIB_COLOR3(RED, WHITE)
+  fontType = 2;
+  textAccent = 4;
+  showLootbeam = true;
+  VAR_UNIQUE_STIER_CUSTOMSTYLE
+}
+if (name:VAR_UNIQUE_ATIER) {
+  LIB_COLOR3(WHITE, LIB_LIGHT_BROWN)
+  textAccent = 3;
+  showLootBeam = true;
+  VAR_UNIQUE_ATIER_CUSTOMSTYLE
+}
+if (name:VAR_UNIQUE_BTIER) {
+  LIB_COLOR3(BLACK, LIB_LIGHT_BROWN)
+  textAccent = 3;
+  VAR_UNIQUE_BTIER_CUSTOMSTYLE
+}
+if (name:VAR_UNIQUE_CTIER) {
+  COLOR3(LIGHT_BROWN, BURGUNDY)
+  textAccent = 3;
+  VAR_UNIQUE_CTIER_CUSTOMSTYLE
+}
+
+// endmodule:unique
+// module:clue
+
+#define CONST_CLUE_DEFAULTBG             "#beb287"
+#define CONST_CLUE_BEGINNER_DEFAULTCOLOR "#ffffff"
+#define CONST_CLUE_EASY_DEFAULTCOLOR     "#09600d"
+#define CONST_CLUE_MEDIUM_DEFAULTCOLOR   "#569699"
+#define CONST_CLUE_HARD_DEFAULTCOLOR     "#833798"
+#define CONST_CLUE_ELITE_DEFAULTCOLOR    "#bda518"
+#define CONST_CLUE_MASTER_DEFAULTCOLOR   "#9b3026"
+
+#define VAR_CLUE_HIDE []
+
+#define VAR_CLUE_BEGINNER_CUSTOMSTYLE nop;
+#define VAR_CLUE_EASY_CUSTOMSTYLE nop;
+#define VAR_CLUE_MEDIUM_CUSTOMSTYLE nop;
+#define VAR_CLUE_HARD_CUSTOMSTYLE nop;
+#define VAR_CLUE_ELITE_CUSTOMSTYLE nop;
+#define VAR_CLUE_MASTER_CUSTOMSTYLE nop;
+
+if (name:VAR_CLUE_HIDE) { hidden = true; }
+
+apply (name:["clue scroll*", "reward casket*", "challenge scroll*"]) {
+  backgroundColor = CONST_CLUE_DEFAULTBG;
+}
+
+if (name:["clue scroll (beginner)", "reward casket (beginner)", "challenge scroll (beginner)"]) {
+  LIB_COLOR2(CONST_CLUE_BEGINNER_DEFAULTCOLOR)
+  VAR_CLUE_BEGINNER_CUSTOMSTYLE
+}
+if (name:["clue scroll (easy)", "reward casket (easy)", "challenge scroll (easy)"]) {
+  LIB_COLOR2(CONST_CLUE_EASY_DEFAULTCOLOR)
+  VAR_CLUE_EASY_CUSTOMSTYLE
+}
+if (name:["clue scroll (medium)", "reward casket (medium)", "challenge scroll (medium)"]) {
+  LIB_COLOR2(CONST_CLUE_MEDIUM_DEFAULTCOLOR)
+  VAR_CLUE_MEDIUM_CUSTOMSTYLE
+}
+if (name:["clue scroll (hard)", "reward casket (hard)", "challenge scroll (hard)"]) {
+  LIB_COLOR2(CONST_CLUE_HARD_DEFAULTCOLOR)
+  VAR_CLUE_HARD_CUSTOMSTYLE
+}
+if (name:["clue scroll (elite)", "reward casket (elite)", "challenge scroll (elite)"]) {
+  LIB_COLOR2(CONST_CLUE_ELITE_DEFAULTCOLOR)
+  VAR_CLUE_ELITE_CUSTOMSTYLE
+}
+if (name:["clue scroll (master)", "reward casket (master)", "challenge scroll (master)"]) {
+  LIB_COLOR2(CONST_CLUE_MASTER_DEFAULTCOLOR)
+  VAR_CLUE_MASTER_CUSTOMSTYLE
+}
+
+// endmodule:clue
+// module:herb
+
+#define CONST_HERB_HERBS [\
+  "*guam leaf",\
+  "*marrentill",\
+  "*tarromin",\
+  "*harralander",\
+  "*ranarr weed",\
+  "*toadflax",\
+  "*irit leaf",\
+  "*avantoe",\
+  "*kwuarm",\
+  "*huasca",\
+  "*snapdragon",\
+  "*cadantine",\
+  "*lantadyme",\
+  "*dwarf weed",\
+  "*torstol",\
+]
+
+#define CONST_HERB_DEFAULTCOLOR GREEN
+
+#define VAR_HERB_MINVALUE 0
+#define VAR_HERB_SHOW []
+#define VAR_HERB_HIDE []
+#define VAR_HERB_CUSTOMSTYLE nop;
+
+apply (name:CONST_HERB_HERBS) {
+  textColor = CONST_HERB_DEFAULTCOLOR;
+  VAR_HERB_CUSTOMSTYLE
+}
+
+apply (name:CONST_HERB_HERBS && value:<VAR_HERB_MINVALUE) { hidden = true; }
+
+if (name:VAR_HERB_SHOW) { hidden = false; }
+if (name:VAR_HERB_HIDE) { hidden = true; }
+
+if (name:CONST_HERB_HERBS) {}
+
+// endmodule:herb

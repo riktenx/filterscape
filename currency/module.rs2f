@@ -3,7 +3,7 @@
 #define VAR_CURRENCY_ADD []
 #define VAR_CURRENCY_NOT []
 
-#define CONST_CURRENCY_ITEMS [
+#define CONST_CURRENCY_ITEMS [\
   "Mole claw",\
   "Mole skin",\
   "Trading sticks",\
@@ -35,7 +35,7 @@
   "Ecumenical key shard",\
 ]
 
-#define VAR_CURRENCY_USERSTYLE
+#define VAR_CURRENCY_USERSTYLE 
 
 if (!name:VAR_CURRENCY_NOT && (name:CONST_CURRENCY_ITEMS || name:VAR_CURRENCY_ADD)) {
   textColor = "#beb287";

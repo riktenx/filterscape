@@ -2,40 +2,40 @@
 
 #define CONST_TOA_AREA []
 
-#define VAR_TOA_AMB_USERSTYLE
-#define VAR_TOA_LQA_USERSTYLE
-#define VAR_TOA_NEC_USERSTYLE
-#define VAR_TOA_TOE_USERSTYLE
+#define VAR_TOA_AMB_USERSTYLE 
+#define VAR_TOA_LQA_USERSTYLE 
+#define VAR_TOA_NEC_USERSTYLE 
+#define VAR_TOA_TOE_USERSTYLE 
 
 #define VAR_TOA_HIGHLIGHT []
-#define VAR_TOA_HIGHLIGHT_USERSTYLE
+#define VAR_TOA_HIGHLIGHT_USERSTYLE 
 
-if (area:CONST_TOA_AREA && name:CONST_TOA_HIGHLIGHT) {
-  VAR_TOA_HIGHLIGHT_USERSTYLE;
+if (name:VAR_TOA_HIGHLIGHT) {
+  VAR_TOA_HIGHLIGHT_USERSTYLE
 }
 
-if (area:CONST_TOA_AREA && name:"ambrosia*") {
+if (name:"ambrosia*") {
   textColor = "#e3ece3";
   textAccent = 4;
-  VAR_TOA_AMB_USERSTYLE;
+  VAR_TOA_AMB_USERSTYLE
 }
 
-if (area:CONST_TOA_AREA && name:"liquid adrenaline*") {
+if (name:"liquid adrenaline*") {
   textColor = "#35c6d7";
   textAccent = 4;
-  VAR_TOA_LQA_USERSTYLE;
+  VAR_TOA_LQA_USERSTYLE
 }
 
-if (area:CONST_TOA_AREA && name:"nectar*") {
+if (name:"nectar*") {
   textColor = "#ffff00";
   textAccent = 4;
-  VAR_TOA_NEC_USERSTYLE;
+  VAR_TOA_NEC_USERSTYLE
 }
 
-if (area:CONST_TOA_AREA && name:"tears of elidinis*") {
+if (name:"tears of elidinis*") {
   textColor = "#e91e63";
   textAccent = 4;
-  VAR_TOA_TOE_USERSTYLE;
+  VAR_TOA_TOE_USERSTYLE
 }
 
 // endmodule:toa

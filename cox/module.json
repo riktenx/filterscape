@@ -2,20 +2,6 @@
   "name": "CoX",
   "inputs": [
     {
-      "type": "stringlist",
-      "group": "addl-highlight",
-      "label": "CoX-specific item highlights",
-      "macroName": "VAR_COX_HIGHLIGHT",
-      "default": []
-    },
-    {
-      "type": "style",
-      "group": "addl-highlight",
-      "label": "CoX-specific item highlight style",
-      "macroName": "VAR_COX_HIGHLIGHT_USERSTYLE",
-      "default": {}
-    },
-    {
       "type": "style",
       "group": "potions",
       "label": "Overload",

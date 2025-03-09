@@ -23,7 +23,7 @@
 #define VAR_HERB_MINVALUE 0
 #define VAR_HERB_SHOW []
 #define VAR_HERB_HIDE []
-#define VAR_HERB_CUSTOMSTYLE nop;
+#define VAR_HERB_CUSTOMSTYLE 
 
 apply (name:CONST_HERB_HERBS) {
   textColor = CONST_HERB_DEFAULTCOLOR;

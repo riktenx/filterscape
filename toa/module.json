@@ -2,20 +2,6 @@
   "name": "ToA",
   "inputs": [
     {
-      "type": "stringlist",
-      "group": "addl-highlight",
-      "label": "ToA-specific item highlights",
-      "macroName": "VAR_TOA_HIGHLIGHT",
-      "default": []
-    },
-    {
-      "type": "style",
-      "group": "addl-highlight",
-      "label": "Display",
-      "macroName": "VAR_TOA_HIGHLIGHT_USERSTYLE",
-      "default": {}
-    },
-    {
       "type": "style",
       "group": "potions",
       "label": "Ambrosia",

@@ -2,7 +2,7 @@
 
 #define CONST_UNIQUE_STIER [\
   "*champion scroll",\
-  "internal cape",\
+  "infernal cape",\
   "fire cape",\
   "dizana's quiver*",\
   "*max cape",\

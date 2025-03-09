@@ -329,7 +329,7 @@ if (value:>=VAR_VALUE_T0_VALUE) {
 
 #define VAR_CURRENCY_USERSTYLE 
 
-if (!name:VAR_CURRENCY_NOT && (name:CONST_CURRENCY_ITEMS || name:VAR_CURRENCY_ADD)) {
+if ((name:CONST_CURRENCY_ITEMS || name:VAR_CURRENCY_ADD) && !name:VAR_CURRENCY_NOT) {
   textColor = "#beb287";
   VAR_CURRENCY_USERSTYLE
 }

@@ -29,6 +29,11 @@
       "moduleRs2fUrl": "https://raw.githubusercontent.com/riktenx/filterscape/refs/heads/main/currency/module.rs2f"
     },
     {
+      "name": "Potions",
+      "moduleJsonUrl": "https://raw.githubusercontent.com/riktenx/filterscape/refs/heads/main/potion/module.json",
+      "moduleRs2fUrl": "https://raw.githubusercontent.com/riktenx/filterscape/refs/heads/main/potion/module.rs2f"
+    },
+    {
       "name": "Clues",
       "moduleJsonUrl": "https://raw.githubusercontent.com/riktenx/filterscape/refs/heads/main/clue/mod_clue.json",
       "moduleRs2fUrl": "https://raw.githubusercontent.com/riktenx/filterscape/refs/heads/main/clue/mod_clue.rs2f"

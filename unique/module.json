@@ -41,8 +41,7 @@
         "textColor": "#ff0000",
         "backgroundColor": "#ffffff",
         "borderColor": "#ff0000",
-        "fontType": 2,
-        "textAccent": 4,
+        "fontType": 3,
         "showLootbeam": true
       }
     },
@@ -72,9 +71,9 @@
       "macroName": "VAR_UNIQUE_ATIER_CUSTOMSTYLE",
       "label": "A-Tier: display",
       "default": {
-        "textColor": "#ff0000",
+        "textColor": "#ffffff",
         "backgroundColor": "#af6025",
-        "borderColor": "#ff0000",
+        "borderColor": "#ffffff",
         "textAccent": 3,
         "showLootbeam": true
       }
@@ -121,9 +120,9 @@
       "macroName": "VAR_UNIQUE_BTIER_CUSTOMSTYLE",
       "label": "B-Tier: display",
       "default": {
-        "textColor": "#ff0000",
+        "textColor": "#000000",
         "backgroundColor": "#af6025",
-        "borderColor": "#ff0000",
+        "borderColor": "#000000",
         "textAccent": 3
       }
     },

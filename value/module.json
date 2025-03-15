@@ -1,6 +1,5 @@
 {
   "name": "Item values",
-  "rs2fPath": "module.rs2f",
   "inputs": [
     {
       "macroName": "VAR_VALUE_T5_VALUE",

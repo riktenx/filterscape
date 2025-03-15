@@ -1,6 +1,5 @@
 {
   "name": "Uniques",
-  "rs2fPath": "module.rs2f",
   "inputs": [
     {
       "type": "includeExcludeList",

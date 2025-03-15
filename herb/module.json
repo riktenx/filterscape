@@ -1,6 +1,5 @@
 {
   "name": "Herbs",
-  "rs2fPath": "module.rs2f",
   "inputs": [
     {
       "type": "enumlist",

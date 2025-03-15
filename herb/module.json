@@ -1,5 +1,6 @@
 {
   "name": "Herbs",
+  "rs2fPath": "module.rs2f",
   "inputs": [
     {
       "type": "enumlist",
@@ -45,7 +46,11 @@
         "dwarf weed",
         "torstol"
       ],
-      "default": ["guam leaf", "marrentill", "tarromin"]
+      "default": [
+        "guam leaf",
+        "marrentill",
+        "tarromin"
+      ]
     },
     {
       "type": "style",

@@ -1,5 +1,6 @@
 {
   "name": "Currency / Tokens",
+  "rs2fPath": "module.rs2f",
   "inputs": [
     {
       "type": "includeExcludeList",

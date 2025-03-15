@@ -1,5 +1,6 @@
 {
   "name": "Potions",
+  "rs2fPath": "module.rs2f",
   "inputs": [
     {
       "type": "style",

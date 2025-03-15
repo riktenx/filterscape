@@ -19,37 +19,61 @@
       "macroName": "VAR_CLUE_BEGINNER_CUSTOMSTYLE",
       "label": "Beginner clue",
       "type": "style",
-      "default": { }
+      "default": {
+        "backgroundColor": "#beb287",
+        "textColor": "#ffffff",
+        "borderColor": "#ffffff"
+      }
     },
     {
       "macroName": "VAR_CLUE_EASY_CUSTOMSTYLE",
       "label": "Easy clue",
       "type": "style",
-      "default": { }
+      "default": {
+        "backgroundColor": "#beb287",
+        "textColor": "#09600d",
+        "borderColor": "#09600d"
+      }
     },
     {
       "macroName": "VAR_CLUE_MEDIUM_CUSTOMSTYLE",
       "label": "Medium clue",
       "type": "style",
-      "default": { }
+      "default": {
+        "backgroundColor": "#beb287",
+        "textColor": "#569699",
+        "borderColor": "#569699"
+      }
     },
     {
       "macroName": "VAR_CLUE_HARD_CUSTOMSTYLE",
       "label": "Hard clue",
       "type": "style",
-      "default": { }
+      "default": {
+        "backgroundColor": "#beb287",
+        "textColor": "#833798",
+        "borderColor": "#833798"
+      }
     },
     {
       "macroName": "VAR_CLUE_ELITE_CUSTOMSTYLE",
       "label": "Elite clue",
       "type": "style",
-      "default": { }
+      "default": {
+        "backgroundColor": "#beb287",
+        "textColor": "#bda518",
+        "borderColor": "#bda518"
+      }
     },
     {
       "macroName": "VAR_CLUE_MASTER_CUSTOMSTYLE",
       "label": "Master clue",
       "type": "style",
-      "default": { }
+      "default": {
+        "backgroundColor": "#beb287",
+        "textColor": "#9b3026",
+        "borderColor": "#9b3026"
+      }
     }
   ]
 }

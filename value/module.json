@@ -1,5 +1,6 @@
 {
   "name": "Item values",
+  "rs2fPath": "module.rs2f",
   "inputs": [
     { "macroName": "VAR_VALUE_T5_VALUE", "label": "T5: Min value", "type": "number", "default": 100000000, "group": "t5" },
     { "macroName": "VAR_VALUE_T4_VALUE", "label": "T4: Min value", "type": "number", "default": 10000000, "group": "t4" },

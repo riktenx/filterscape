@@ -4,44 +4,28 @@
   "description": "All-in-one \"reference\" loot filter for main account gameplay.",
   "modules": [
     {
-      "name": "Chambers of Xeric",
-      "moduleJsonUrl": "https://raw.githubusercontent.com/riktenx/filterscape/refs/heads/main/cox/module.json",
-      "moduleRs2fUrl": "https://raw.githubusercontent.com/riktenx/filterscape/refs/heads/main/cox/module.rs2f"
+      "modulePath": "cox/module.json"
     },
     {
-      "name": "Tombs of Amascut",
-      "moduleJsonUrl": "https://raw.githubusercontent.com/riktenx/filterscape/refs/heads/main/toa/module.json",
-      "moduleRs2fUrl": "https://raw.githubusercontent.com/riktenx/filterscape/refs/heads/main/toa/module.rs2f"
+      "modulePath": "toa/module.json"
     },
     {
-      "name": "Uniques",
-      "moduleJsonUrl": "https://raw.githubusercontent.com/riktenx/filterscape/refs/heads/main/unique/module.json",
-      "moduleRs2fUrl": "https://raw.githubusercontent.com/riktenx/filterscape/refs/heads/main/unique/module.rs2f"
+      "modulePath": "unique/module.json"
     },
     {
-      "name": "Item values",
-      "moduleJsonUrl": "https://raw.githubusercontent.com/riktenx/filterscape/refs/heads/main/value/module.json",
-      "moduleRs2fUrl": "https://raw.githubusercontent.com/riktenx/filterscape/refs/heads/main/value/module.rs2f"
+      "modulePath": "value/module.json"
     },
     {
-      "name": "Currency / tokens",
-      "moduleJsonUrl": "https://raw.githubusercontent.com/riktenx/filterscape/refs/heads/main/currency/module.json",
-      "moduleRs2fUrl": "https://raw.githubusercontent.com/riktenx/filterscape/refs/heads/main/currency/module.rs2f"
+      "modulePath": "currency/module.json"
     },
     {
-      "name": "Potions",
-      "moduleJsonUrl": "https://raw.githubusercontent.com/riktenx/filterscape/refs/heads/main/potion/module.json",
-      "moduleRs2fUrl": "https://raw.githubusercontent.com/riktenx/filterscape/refs/heads/main/potion/module.rs2f"
+      "modulePath": "potion/module.json"
     },
     {
-      "name": "Clues",
-      "moduleJsonUrl": "https://raw.githubusercontent.com/riktenx/filterscape/refs/heads/main/clue/mod_clue.json",
-      "moduleRs2fUrl": "https://raw.githubusercontent.com/riktenx/filterscape/refs/heads/main/clue/mod_clue.rs2f"
+      "modulePath": "clue/mod_clue.json"
     },
     {
-      "name": "Herbs",
-      "moduleJsonUrl": "https://raw.githubusercontent.com/riktenx/filterscape/refs/heads/main/herb/module.json",
-      "moduleRs2fUrl": "https://raw.githubusercontent.com/riktenx/filterscape/refs/heads/main/herb/module.rs2f"
+      "modulePath": "herb/module.json"
     }
   ]
 }

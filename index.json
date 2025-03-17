@@ -22,7 +22,7 @@
       "modulePath": "potion/module.json"
     },
     {
-      "modulePath": "clue/mod_clue.json"
+      "modulePath": "clue/module.json"
     },
     {
       "modulePath": "herb/module.json"

@@ -4,6 +4,9 @@
   "description": "All-in-one \"reference\" loot filter for main account gameplay.",
   "modules": [
     {
+      "modulePath": "highlights/module.json"
+    },
+    {
       "modulePath": "cox/module.json"
     },
     {

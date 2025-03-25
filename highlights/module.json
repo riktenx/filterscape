@@ -1,0 +1,90 @@
+{
+  "name": "Custom highlights",
+  "rs2fPath": "module.rs2f",
+  "inputs": [
+    {
+      "type": "boolean",
+      "group": "HIGHLIGHT1",
+      "label": "VAR_HHGROUP_BOOLEAN_HIGHLIGHT1_ENABLED",
+      "macroName": "VAR_HHGROUP_BOOLEAN_HIGHLIGHT1_ENABLED",
+      "default": false
+    },
+    {
+      "type": "boolean",
+      "group": "HIGHLIGHT2",
+      "label": "VAR_HHGROUP_BOOLEAN_HIGHLIGHT2_ENABLED",
+      "macroName": "VAR_HHGROUP_BOOLEAN_HIGHLIGHT2_ENABLED",
+      "default": false
+    },
+    {
+      "type": "boolean",
+      "group": "HIGHLIGHT3",
+      "label": "VAR_HHGROUP_BOOLEAN_HIGHLIGHT3_ENABLED",
+      "macroName": "VAR_HHGROUP_BOOLEAN_HIGHLIGHT3_ENABLED",
+      "default": false
+    },
+    {
+      "type": "boolean",
+      "group": "HIGHLIGHT1",
+      "label": "VAR_HHGROUP_BOOLEAN_HIGHLIGHT1_ENABLED",
+      "macroName": "VAR_HHGROUP_BOOLEAN_HIGHLIGHT1_ENABLED",
+      "default": false
+    },
+    {
+      "type": "stringlist",
+      "group": "HIGHLIGHT1",
+      "label": "VAR_HHGROUP_STRINGLIST_HIGHLIGHT1_ITEMS",
+      "macroName": "VAR_HHGROUP_STRINGLIST_HIGHLIGHT1_ITEMS",
+      "default": []
+    },
+    {
+      "type": "stringlist",
+      "group": "HIGHLIGHT2",
+      "label": "VAR_HHGROUP_STRINGLIST_HIGHLIGHT2_ITEMS",
+      "macroName": "VAR_HHGROUP_STRINGLIST_HIGHLIGHT2_ITEMS",
+      "default": []
+    },
+    {
+      "type": "stringlist",
+      "group": "HIGHLIGHT3",
+      "label": "VAR_HHGROUP_STRINGLIST_HIGHLIGHT3_ITEMS",
+      "macroName": "VAR_HHGROUP_STRINGLIST_HIGHLIGHT3_ITEMS",
+      "default": []
+    },
+    {
+      "type": "stringlist",
+      "group": "HIGHLIGHT4",
+      "label": "VAR_HHGROUP_STRINGLIST_HIGHLIGHT4_ITEMS",
+      "macroName": "VAR_HHGROUP_STRINGLIST_HIGHLIGHT4_ITEMS",
+      "default": []
+    },
+    {
+      "type": "style",
+      "group": "HIGHLIGHT1",
+      "label": "VAR_HHGROUP_STYLE_HIGHLIGHT1_STYLE",
+      "macroName": "VAR_HHGROUP_STYLE_HIGHLIGHT1_STYLE",
+      "default": {}
+    },
+    {
+      "type": "style",
+      "group": "HIGHLIGHT2",
+      "label": "VAR_HHGROUP_STYLE_HIGHLIGHT2_STYLE",
+      "macroName": "VAR_HHGROUP_STYLE_HIGHLIGHT2_STYLE",
+      "default": {}
+    },
+    {
+      "type": "style",
+      "group": "HIGHLIGHT3",
+      "label": "VAR_HHGROUP_STYLE_HIGHLIGHT3_STYLE",
+      "macroName": "VAR_HHGROUP_STYLE_HIGHLIGHT3_STYLE",
+      "default": {}
+    },
+    {
+      "type": "style",
+      "group": "HIGHLIGHT4",
+      "label": "VAR_HHGROUP_STYLE_HIGHLIGHT4_STYLE",
+      "macroName": "VAR_HHGROUP_STYLE_HIGHLIGHT4_STYLE",
+      "default": {}
+    }
+  ]
+}

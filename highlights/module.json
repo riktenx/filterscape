@@ -5,84 +5,84 @@
     {
       "type": "boolean",
       "group": "HIGHLIGHT1",
-      "label": "VAR_HHGROUP_BOOLEAN_HIGHLIGHT1_ENABLED",
+      "label": "Enabled",
       "macroName": "VAR_HHGROUP_BOOLEAN_HIGHLIGHT1_ENABLED",
       "default": false
     },
     {
       "type": "boolean",
       "group": "HIGHLIGHT2",
-      "label": "VAR_HHGROUP_BOOLEAN_HIGHLIGHT2_ENABLED",
+      "label": "Enabled",
       "macroName": "VAR_HHGROUP_BOOLEAN_HIGHLIGHT2_ENABLED",
       "default": false
     },
     {
       "type": "boolean",
       "group": "HIGHLIGHT3",
-      "label": "VAR_HHGROUP_BOOLEAN_HIGHLIGHT3_ENABLED",
+      "label": "Enabled",
       "macroName": "VAR_HHGROUP_BOOLEAN_HIGHLIGHT3_ENABLED",
       "default": false
     },
     {
       "type": "boolean",
       "group": "HIGHLIGHT4",
-      "label": "VAR_HHGROUP_BOOLEAN_HIGHLIGHT4_ENABLED",
+      "label": "Enabled",
       "macroName": "VAR_HHGROUP_BOOLEAN_HIGHLIGHT4_ENABLED",
       "default": false
     },
     {
       "type": "stringlist",
       "group": "HIGHLIGHT1",
-      "label": "VAR_HHGROUP_STRINGLIST_HIGHLIGHT1_ITEMS",
+      "label": "Items",
       "macroName": "VAR_HHGROUP_STRINGLIST_HIGHLIGHT1_ITEMS",
       "default": []
     },
     {
       "type": "stringlist",
       "group": "HIGHLIGHT2",
-      "label": "VAR_HHGROUP_STRINGLIST_HIGHLIGHT2_ITEMS",
+      "label": "Items",
       "macroName": "VAR_HHGROUP_STRINGLIST_HIGHLIGHT2_ITEMS",
       "default": []
     },
     {
       "type": "stringlist",
       "group": "HIGHLIGHT3",
-      "label": "VAR_HHGROUP_STRINGLIST_HIGHLIGHT3_ITEMS",
+      "label": "Items",
       "macroName": "VAR_HHGROUP_STRINGLIST_HIGHLIGHT3_ITEMS",
       "default": []
     },
     {
       "type": "stringlist",
       "group": "HIGHLIGHT4",
-      "label": "VAR_HHGROUP_STRINGLIST_HIGHLIGHT4_ITEMS",
+      "label": "Items",
       "macroName": "VAR_HHGROUP_STRINGLIST_HIGHLIGHT4_ITEMS",
       "default": []
     },
     {
       "type": "style",
       "group": "HIGHLIGHT1",
-      "label": "VAR_HHGROUP_STYLE_HIGHLIGHT1_STYLE",
+      "label": "Style",
       "macroName": "VAR_HHGROUP_STYLE_HIGHLIGHT1_STYLE",
       "default": {}
     },
     {
       "type": "style",
       "group": "HIGHLIGHT2",
-      "label": "VAR_HHGROUP_STYLE_HIGHLIGHT2_STYLE",
+      "label": "Style",
       "macroName": "VAR_HHGROUP_STYLE_HIGHLIGHT2_STYLE",
       "default": {}
     },
     {
       "type": "style",
       "group": "HIGHLIGHT3",
-      "label": "VAR_HHGROUP_STYLE_HIGHLIGHT3_STYLE",
+      "label": "Style",
       "macroName": "VAR_HHGROUP_STYLE_HIGHLIGHT3_STYLE",
       "default": {}
     },
     {
       "type": "style",
       "group": "HIGHLIGHT4",
-      "label": "VAR_HHGROUP_STYLE_HIGHLIGHT4_STYLE",
+      "label": "Style",
       "macroName": "VAR_HHGROUP_STYLE_HIGHLIGHT4_STYLE",
       "default": {}
     }

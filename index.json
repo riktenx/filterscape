@@ -7,6 +7,9 @@
       "modulePath": "highlights/module.json"
     },
     {
+      "modulePath": "hides/module.json"
+    },
+    {
       "modulePath": "cox/module.json"
     },
     {

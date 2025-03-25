@@ -28,6 +28,15 @@ if (VAR_HHGROUP_BOOLEAN_HIGHLIGHT4_ENABLED && name:VAR_HHGROUP_STRINGLIST_HIGHLI
 }
 
 // endmodule:HIGHLIGHTGROUP
+// module:hides
+
+#define VAR_HIDES_STRINGLIST__HIDE []
+
+if (name:VAR_HIDES_STRINGLIST__HIDE) {
+  hidden = true;
+}
+
+// endmodule:hides
 // module:cox
 
 #define CONST_COX_AREA []

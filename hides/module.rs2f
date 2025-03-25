@@ -1,0 +1,9 @@
+// module:hides
+
+#define VAR_HIDES_STRINGLIST__HIDE []
+
+if (name:VAR_HIDES_STRINGLIST__HIDE) {
+  hidden = true;
+}
+
+// endmodule:hides

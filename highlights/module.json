@@ -1,5 +1,5 @@
 {
-  "name": "Custom highlights",
+  "name": "HIGHLIGHTGROUP",
   "rs2fPath": "module.rs2f",
   "inputs": [
     {
@@ -25,9 +25,9 @@
     },
     {
       "type": "boolean",
-      "group": "HIGHLIGHT1",
-      "label": "VAR_HHGROUP_BOOLEAN_HIGHLIGHT1_ENABLED",
-      "macroName": "VAR_HHGROUP_BOOLEAN_HIGHLIGHT1_ENABLED",
+      "group": "HIGHLIGHT4",
+      "label": "VAR_HHGROUP_BOOLEAN_HIGHLIGHT4_ENABLED",
+      "macroName": "VAR_HHGROUP_BOOLEAN_HIGHLIGHT4_ENABLED",
       "default": false
     },
     {

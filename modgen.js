@@ -15,7 +15,7 @@ const parseStyle = (value) => {
 const parseDefault = (type, value) => {
   if (type === 'NUMBER') {
     return parseInt(value);
-  } else if (type === 'BOOL') {
+  } else if (type === 'BOOLEAN') {
     return value === 'true';
   } else if (type === 'STYLE') {
     return parseStyle(value);

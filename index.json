@@ -19,13 +19,13 @@
       "modulePath": "unique/module.json"
     },
     {
+      "modulePath": "potion/module.json"
+    },
+    {
       "modulePath": "value/module.json"
     },
     {
       "modulePath": "currency/module.json"
-    },
-    {
-      "modulePath": "potion/module.json"
     },
     {
       "modulePath": "clue/module.json"

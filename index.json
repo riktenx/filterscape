@@ -13,6 +13,9 @@
       "modulePath": "vorkath/module.json"
     },
     {
+      "modulePath": "zulrah/module.json"
+    },
+    {
       "modulePath": "cox/module.json"
     },
     {

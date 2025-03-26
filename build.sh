@@ -7,6 +7,7 @@ echo "" > filterscape.rs2f
 cat highlights/module.rs2f >> filterscape.rs2f
 cat hides/module.rs2f >> filterscape.rs2f
 cat vorkath/module.rs2f >> filterscape.rs2f
+cat zulrah/module.rs2f >> filterscape.rs2f
 cat cox/module.rs2f >> filterscape.rs2f
 cat toa/module.rs2f >> filterscape.rs2f
 cat unique/module.rs2f >> filterscape.rs2f

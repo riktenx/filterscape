@@ -25,8 +25,15 @@ lines.forEach(line => {
 });
 
 const out = Object.entries(lists).map(([category, items]) => {
-  return `// ${category}
-// ${JSON.stringify(items)}`
+  const jvalue = JSON.stringify(items);
+  const ident = category.split(' ')[0].toUpperCase();
+  return `// label:${category}
+// enum:${jvalue}}
+#define VAR_MOD_ENUMLIST_FILTER_${ident} []
+if (name:VAR_MOD_ENUMLIST_FILTER_${ident}) {
+  hidden = true;
+}
+`
 }).join('\n\n');
 
 fs.writeFileSync('lists', out);

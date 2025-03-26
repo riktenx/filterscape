@@ -1,4 +1,4 @@
-const fs = require('fs');
+import fs from 'fs';
 
 const parseStyle = (value) => {
   const style = {};
@@ -19,7 +19,7 @@ const parseDefault = (type, value) => {
     return value === 'true';
   } else if (type === 'STYLE') {
     return parseStyle(value);
-  } else if (type === 'STRINGLIST') {
+  } else if (type === 'STRINGLIST' || type === 'ENUMLIST') {
     return JSON.parse(value);
   }
   throw new Error(`idk what type "${type}" is`);
@@ -35,10 +35,18 @@ const moduleData = {
   inputs: [],
 };
 
+let nextProps = {};
+
 lines.forEach(line => {
   if (line.startsWith('// module:')) {
     const [_, moduleName] = line.split(':');
     moduleData.name = moduleName;
+    return;
+  }
+
+  if (line.startsWith('// ')) {
+    const [prop, value] = line.substring(3).split(':');
+    nextProps[prop] = value;
     return;
   }
 
@@ -50,7 +58,7 @@ lines.forEach(line => {
   const value = vvalue.join(' ');
   console.log(ident, value);
 
-  const [decl, __, type, group, name] = ident.split('_', 4);
+  const [decl, __, type, group] = ident.split('_', 4);
   if (decl !== 'VAR') {
     console.log('skip', ident);
     return;
@@ -58,13 +66,20 @@ lines.forEach(line => {
 
   console.log(group, type, value);
 
-  moduleData.inputs.push({
+  const m = {
     type: type.toLowerCase(),
     group: group,
     label: ident,
     macroName: ident,
     default: parseDefault(type, value),
-  });
+    ...nextProps,
+  };
+  if (!!m.enum) {
+    m.enum = JSON.parse(m.enum);
+  }
+
+  moduleData.inputs.push(m);
+  nextProps = {};
 });
 
 const moduleJson = JSON.stringify(moduleData, null, 2);

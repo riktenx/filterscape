@@ -10,6 +10,9 @@
       "modulePath": "hides/module.json"
     },
     {
+      "modulePath": "vorkath/module.json"
+    },
+    {
       "modulePath": "cox/module.json"
     },
     {

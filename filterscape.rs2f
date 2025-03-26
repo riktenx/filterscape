@@ -37,6 +37,60 @@ if (name:VAR_HIDES_STRINGLIST__HIDE) {
 }
 
 // endmodule:hides
+// module:Vorkath
+
+#define CONST_VORKATH_AREA [2240, 4032, 0, 2303, 4095, 0]
+#define CONST_VORKATH_IF(_cond) if (area:CONST_VORKATH_AREA && (_cond))
+
+// label:Hide un-noted blue d-hide
+#define VAR_VORKATH_BOOLEAN_GENERAL_NOHIDE true
+// label:Hide superior dragon bones (why?)
+#define VAR_VORKATH_BOOLEAN_GENERAL_NOBONE false
+
+// label:Weapons and armour
+// enum:["Rune longsword","Rune kiteshield","Battlestaff","Dragon battleaxe","Dragon longsword","Dragon platelegs","Dragon plateskirt"]
+#define VAR_VORKATH_ENUMLIST_FILTER_GEAR []
+
+// label:Runes
+// enum:["Chaos rune","Death rune","Wrath rune"]
+#define VAR_VORKATH_ENUMLIST_FILTER_RUNES []
+
+// label:Dragonhide
+// enum:["Blue dragonhide","Green dragonhide","Red dragonhide","Black dragonhide"]
+#define VAR_VORKATH_ENUMLIST_FILTER_DHIDE []
+
+// label:Other
+// enum:["Adamantite ore","Coins","Grapes","Magic logs","Manta ray","Dragon bones","Diamond","Dragonstone","Wrath talisman"]
+#define VAR_VORKATH_ENUMLIST_FILTER_OTHER ["Adamantite ore", "Grapes", "Wrath talisman"]
+
+// label:Tertiary drops
+// enum:["Scaly blue dragonhide","Vorkath's head"]
+#define VAR_VORKATH_ENUMLIST_FILTER_TERTIARY ["Scaly blue dragonhide"]
+
+CONST_VORKATH_IF (VAR_VORKATH_BOOLEAN_GENERAL_NOHIDE && name:"Blue dragonhide" && noted:false) {
+  hidden = true;
+}
+CONST_VORKATH_IF (VAR_VORKATH_BOOLEAN_GENERAL_NOBONE && name:"Superior dragon bones" && noted:false) {
+  hidden = true;
+}
+
+CONST_VORKATH_IF (name:VAR_VORKATH_ENUMLIST_FILTER_GEAR) {
+  hidden = true;
+}
+CONST_VORKATH_IF (name:VAR_VORKATH_ENUMLIST_FILTER_RUNES) {
+  hidden = true;
+}
+CONST_VORKATH_IF (name:VAR_VORKATH_ENUMLIST_FILTER_DHIDE) {
+  hidden = true;
+}
+CONST_VORKATH_IF (name:VAR_VORKATH_ENUMLIST_FILTER_OTHER) {
+  hidden = true;
+}
+CONST_VORKATH_IF (name:VAR_VORKATH_ENUMLIST_FILTER_TERTIARY) {
+  hidden = true;
+}
+
+// endmodule:Vorkath
 // module:cox
 
 #define CONST_COX_AREA []

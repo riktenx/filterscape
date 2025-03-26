@@ -1,0 +1,62 @@
+// module:Phantom Muspah
+
+#define CONST_MUSPAH_AREA [2816, 4224, 0, 2879, 4287, 0]
+#define CONST_MUSPAH_IF(_cond) if (area:CONST_MUSPAH_AREA && (_cond))
+
+// label:Unique
+// enum:["Ancient essence","Frozen cache","Ancient icon"]
+#define VAR_MOD_ENUMLIST_FILTER_UNIQUE []
+CONST_MUSPAH_IF (name:VAR_MOD_ENUMLIST_FILTER_UNIQUE) {
+  hidden = true;
+}
+
+// label:Supplies
+// enum:["Shark","Summer pie","Ancient brew(3)","Ranging potion(3)","Super restore(3)","Prayer potion(3)"]
+#define VAR_MOD_ENUMLIST_FILTER_SUPPLIES ["Summer pie", "Ancient brew(3)"]
+CONST_MUSPAH_IF (name:VAR_MOD_ENUMLIST_FILTER_SUPPLIES) {
+  hidden = true;
+}
+
+// label:Weapons and armour
+// enum:["Rune kiteshield","Dragon plateskirt","Rune platelegs","Black d'hide body","Dragon platelegs","Rune sword"]
+#define VAR_MOD_ENUMLIST_FILTER_GEAR ["Black d'hide body", "Rune sword"]
+CONST_MUSPAH_IF (name:VAR_MOD_ENUMLIST_FILTER_GEAR) {
+  hidden = true;
+}
+
+// label:Runes and ammunition
+// enum:["Law rune","Soul rune","Death rune","Smoke rune","Chaos rune","Fire rune","Cannonball"]
+#define VAR_MOD_ENUMLIST_FILTER_RUNES []
+CONST_MUSPAH_IF (name:VAR_MOD_ENUMLIST_FILTER_RUNES) {
+  hidden = true;
+}
+
+// label:Herbs
+// enum:["Grimy toadflax","Grimy kwuarm","Grimy cadantine","Grimy dwarf weed","Grimy lantadyme"]
+#define VAR_MOD_ENUMLIST_FILTER_HERBS []
+CONST_MUSPAH_IF (name:VAR_MOD_ENUMLIST_FILTER_HERBS) {
+  hidden = true;
+}
+
+// label:Seeds
+// enum:["Yew seed","Torstol seed","Palm tree seed","Ranarr seed","Snapdragon seed","Ranarr seed","Spirit seed"]
+#define VAR_MOD_ENUMLIST_FILTER_SEEDS []
+CONST_MUSPAH_IF (name:VAR_MOD_ENUMLIST_FILTER_SEEDS) {
+  hidden = true;
+}
+
+// label:Resources
+// enum:["Adamantite ore","Gold ore","Teak plank","Molten glass","Pure essence","Coal","Runite ore","Silver ore"]
+#define VAR_MOD_ENUMLIST_FILTER_RESOURCES []
+CONST_MUSPAH_IF (name:VAR_MOD_ENUMLIST_FILTER_RESOURCES) {
+  hidden = true;
+}
+
+// label:Other
+// enum:["Manta ray","Water orb","Dragon bolts (unf)","Limpwurt root"]
+#define VAR_MOD_ENUMLIST_FILTER_OTHER ["Limpwurt root"]
+CONST_MUSPAH_IF (name:VAR_MOD_ENUMLIST_FILTER_OTHER) {
+  hidden = true;
+}
+
+// endmodule:Phantom Muspah

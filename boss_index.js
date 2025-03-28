@@ -1,3 +1,6 @@
+import { getWikiSource, buildDropTable } from './wikiscrape.js';
+import { generateRs2f, generateJson } from './modgen.js';
+
 const index = [
   // skip: barrows (they don't drop anything)
   {
@@ -16,7 +19,7 @@ const index = [
     url: 'https://oldschool.runescape.wiki/w/Deranged_archaeologist',
   },
   {
-    name: 'Dagannoth bosses',
+    name: 'Dagannoths',
     area: [],
     url: '',
   },
@@ -190,3 +193,23 @@ const index = [
     url: '',
   },
 ];
+
+const toModuleName = (str) => str.toLowerCase().replace("'", '').replaceAll(' ', '');
+
+for (const boss of index) {
+  if (!boss.url) {
+    console.log('skip', boss.name);
+    continue;
+  }
+
+  const wikiSource = await getWikiSource(boss.url);
+  const dropTable = buildDropTable(wikiSource);
+
+  const moduleName = toModuleName(boss.name);
+  const rs2f = generateRs2f(boss.name, boss.area, dropTable);
+  const json = generateJson(rs2f);
+
+  console.log(json);
+  break;
+}
+

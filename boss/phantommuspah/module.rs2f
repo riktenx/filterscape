@@ -4,7 +4,7 @@
 #define CONST_PHANTOMMUSPAH_IF(_cond) if (area:CONST_AREA_PHANTOMMUSPAH && (_cond))
 
 // label:Unique
-// enum:["Ancient essence","Ancient essence","Ancient essence","Frozen cache","Ancient icon","Venator shard"]
+// enum:["Ancient essence","Frozen cache","Ancient icon","Venator shard"]
 #define VAR_PHANTOMMUSPAH_ENUMLIST_FILTER_UNIQUE []
 CONST_PHANTOMMUSPAH_IF (name:VAR_PHANTOMMUSPAH_ENUMLIST_FILTER_UNIQUE) {
   hidden = true;
@@ -39,7 +39,7 @@ CONST_PHANTOMMUSPAH_IF (name:VAR_PHANTOMMUSPAH_ENUMLIST_FILTER_HERBS) {
 }
 
 // label:Seeds
-// enum:["Yew seed","Torstol seed","Palm tree seed","Ranarr seed","Snapdragon seed","Ranarr seed","Spirit seed"]
+// enum:["Yew seed","Torstol seed","Palm tree seed","Ranarr seed","Snapdragon seed","Spirit seed"]
 #define VAR_PHANTOMMUSPAH_ENUMLIST_FILTER_SEEDS []
 CONST_PHANTOMMUSPAH_IF (name:VAR_PHANTOMMUSPAH_ENUMLIST_FILTER_SEEDS) {
   hidden = true;

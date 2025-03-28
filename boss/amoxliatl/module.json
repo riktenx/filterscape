@@ -9,8 +9,6 @@
       "macroName": "VAR_AMOXLIATL_ENUMLIST_FILTER_FROZEN",
       "default": [],
       "enum": [
-        "Frozen tear",
-        "Frozen tear",
         "Frozen tear"
       ]
     },

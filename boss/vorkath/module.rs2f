@@ -36,7 +36,7 @@ CONST_VORKATH_IF (name:VAR_VORKATH_ENUMLIST_FILTER_DRAGONHIDE) {
 }
 
 // label:Fletching materials
-// enum:["Dragon bolts (unf)","Sapphire bolt tips","Emerald bolt tips","Ruby bolt tips","Diamond bolt tips","Dragonstone bolt tips","Dragonstone bolt tips","Onyx bolt tips","Onyx bolt tips","Rune dart tip","Dragon dart tip","Dragon arrowtips"]
+// enum:["Dragon bolts (unf)","Sapphire bolt tips","Emerald bolt tips","Ruby bolt tips","Diamond bolt tips","Dragonstone bolt tips","Onyx bolt tips","Rune dart tip","Dragon dart tip","Dragon arrowtips"]
 #define VAR_VORKATH_ENUMLIST_FILTER_FLETCHING []
 CONST_VORKATH_IF (name:VAR_VORKATH_ENUMLIST_FILTER_FLETCHING) {
   hidden = true;

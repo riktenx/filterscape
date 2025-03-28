@@ -34,7 +34,7 @@ CONST_KREEARRA_IF (name:VAR_KREEARRA_ENUMLIST_FILTER_RUNES) {
 }
 
 // label:Other
-// enum:["Coins","Ranging potion(3)","Super defence(3)","Grimy dwarf weed","Dwarf weed seed","Coins","Crystal key","Yew seed"]
+// enum:["Coins","Ranging potion(3)","Super defence(3)","Grimy dwarf weed","Dwarf weed seed","Crystal key","Yew seed"]
 #define VAR_KREEARRA_ENUMLIST_FILTER_OTHER []
 CONST_KREEARRA_IF (name:VAR_KREEARRA_ENUMLIST_FILTER_OTHER) {
   hidden = true;

@@ -38,7 +38,9 @@ export const buildDropTable = (wikiSource) => {
     }
 
     const [_, name] = nameDecl.split('=');
-    lists[currentList].push(name);
+    if (!lists[currentList].includes(name)) {
+      lists[currentList].push(name);
+    }
   }
 
   return lists;

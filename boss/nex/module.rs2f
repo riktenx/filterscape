@@ -45,7 +45,7 @@ CONST_NEX_IF (name:VAR_NEX_ENUMLIST_FILTER_CONSUMABLES) {
 }
 
 // label:Other
-// enum:["Blood essence","Coins","Rune sword","Ecumenical key shard","Nihil shard","Nihil shard"]
+// enum:["Blood essence","Coins","Rune sword","Ecumenical key shard","Nihil shard"]
 #define VAR_NEX_ENUMLIST_FILTER_OTHER []
 CONST_NEX_IF (name:VAR_NEX_ENUMLIST_FILTER_OTHER) {
   hidden = true;

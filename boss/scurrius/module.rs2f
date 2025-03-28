@@ -4,7 +4,7 @@
 #define CONST_SCURRIUS_IF(_cond) if (area:CONST_AREA_SCURRIUS && (_cond))
 
 // label:100%
-// enum:["Big bones","Raw rat meat","Big bones"]
+// enum:["Big bones","Raw rat meat"]
 #define VAR_SCURRIUS_ENUMLIST_FILTER_100 []
 CONST_SCURRIUS_IF (name:VAR_SCURRIUS_ENUMLIST_FILTER_100) {
   hidden = true;
@@ -18,14 +18,14 @@ CONST_SCURRIUS_IF (name:VAR_SCURRIUS_ENUMLIST_FILTER_EQUIPMENT) {
 }
 
 // label:Runes and ammunition
-// enum:["Adamant arrow","Rune arrow","Chaos rune","Death rune","Law rune","Adamant arrow","Rune arrow","Chaos rune","Death rune","Law rune"]
+// enum:["Adamant arrow","Rune arrow","Chaos rune","Death rune","Law rune"]
 #define VAR_SCURRIUS_ENUMLIST_FILTER_RUNES []
 CONST_SCURRIUS_IF (name:VAR_SCURRIUS_ENUMLIST_FILTER_RUNES) {
   hidden = true;
 }
 
 // label:Food and potions
-// enum:["Trout","Tuna","Shark","Lobster","Ranging potion(1)","Super strength(1)","Cheese","Prayer potion(4)","Trout","Tuna","Lobster","Shark","Ranging potion(1)","Super strength(1)","Cheese"]
+// enum:["Trout","Tuna","Shark","Lobster","Ranging potion(1)","Super strength(1)","Cheese","Prayer potion(4)"]
 #define VAR_SCURRIUS_ENUMLIST_FILTER_FOOD []
 CONST_SCURRIUS_IF (name:VAR_SCURRIUS_ENUMLIST_FILTER_FOOD) {
   hidden = true;

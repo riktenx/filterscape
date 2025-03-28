@@ -4,7 +4,7 @@
 #define CONST_AMOXLIATL_IF(_cond) if (area:CONST_AREA_AMOXLIATL && (_cond))
 
 // label:Frozen tears
-// enum:["Frozen tear","Frozen tear","Frozen tear"]
+// enum:["Frozen tear"]
 #define VAR_AMOXLIATL_ENUMLIST_FILTER_FROZEN []
 CONST_AMOXLIATL_IF (name:VAR_AMOXLIATL_ENUMLIST_FILTER_FROZEN) {
   hidden = true;

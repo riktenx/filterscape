@@ -10,8 +10,6 @@
       "default": [],
       "enum": [
         "Ancient essence",
-        "Ancient essence",
-        "Ancient essence",
         "Frozen cache",
         "Ancient icon",
         "Venator shard"
@@ -89,7 +87,6 @@
         "Palm tree seed",
         "Ranarr seed",
         "Snapdragon seed",
-        "Ranarr seed",
         "Spirit seed"
       ]
     },

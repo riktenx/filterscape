@@ -27,7 +27,7 @@ CONST_GENERALGRAARDOR_IF (name:VAR_GENERALGRAARDOR_ENUMLIST_FILTER_WEAPONS) {
 }
 
 // label:Other
-// enum:["Coins","Grimy snapdragon","Snapdragon seed","Super restore(4)","Adamantite ore","Coal","Magic logs","Nature rune","Coins"]
+// enum:["Coins","Grimy snapdragon","Snapdragon seed","Super restore(4)","Adamantite ore","Coal","Magic logs","Nature rune"]
 #define VAR_GENERALGRAARDOR_ENUMLIST_FILTER_OTHER []
 CONST_GENERALGRAARDOR_IF (name:VAR_GENERALGRAARDOR_ENUMLIST_FILTER_OTHER) {
   hidden = true;

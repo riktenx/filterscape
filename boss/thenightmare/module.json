@@ -6,7 +6,7 @@
       "type": "enumlist",
       "group": "FILTER",
       "label": "100%",
-      "macroName": "VAR_MOD_ENUMLIST_FILTER_100",
+      "macroName": "VAR_THENIGHTMARE_ENUMLIST_FILTER_100",
       "default": [],
       "enum": [
         "Big bones",
@@ -17,7 +17,7 @@
       "type": "enumlist",
       "group": "FILTER",
       "label": "Uniques",
-      "macroName": "VAR_MOD_ENUMLIST_FILTER_UNIQUES",
+      "macroName": "VAR_THENIGHTMARE_ENUMLIST_FILTER_UNIQUES",
       "default": [],
       "enum": [
         "Nightmare staff",
@@ -34,7 +34,7 @@
       "type": "enumlist",
       "group": "FILTER",
       "label": "Runes and ammunition",
-      "macroName": "VAR_MOD_ENUMLIST_FILTER_RUNES",
+      "macroName": "VAR_THENIGHTMARE_ENUMLIST_FILTER_RUNES",
       "default": [],
       "enum": [
         "Cosmic rune",
@@ -50,7 +50,7 @@
       "type": "enumlist",
       "group": "FILTER",
       "label": "Resources",
-      "macroName": "VAR_MOD_ENUMLIST_FILTER_RESOURCES",
+      "macroName": "VAR_THENIGHTMARE_ENUMLIST_FILTER_RESOURCES",
       "default": [],
       "enum": [
         "Mithril ore",
@@ -70,7 +70,7 @@
       "type": "enumlist",
       "group": "FILTER",
       "label": "Consumables",
-      "macroName": "VAR_MOD_ENUMLIST_FILTER_CONSUMABLES",
+      "macroName": "VAR_THENIGHTMARE_ENUMLIST_FILTER_CONSUMABLES",
       "default": [],
       "enum": [
         "Bass",
@@ -85,7 +85,7 @@
       "type": "enumlist",
       "group": "FILTER",
       "label": "Coins",
-      "macroName": "VAR_MOD_ENUMLIST_FILTER_COINS",
+      "macroName": "VAR_THENIGHTMARE_ENUMLIST_FILTER_COINS",
       "default": [],
       "enum": [
         "Coins"
@@ -95,7 +95,7 @@
       "type": "enumlist",
       "group": "FILTER",
       "label": "Tertiary",
-      "macroName": "VAR_MOD_ENUMLIST_FILTER_TERTIARY",
+      "macroName": "VAR_THENIGHTMARE_ENUMLIST_FILTER_TERTIARY",
       "default": [],
       "enum": [
         "Little nightmare",

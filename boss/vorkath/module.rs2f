@@ -5,36 +5,36 @@
 
 // label:100%
 // enum:["Superior dragon bones","Blue dragonhide"]
-#define VAR_MOD_ENUMLIST_FILTER_100 []
-CONST_VORKATH_IF (name:VAR_MOD_ENUMLIST_FILTER_100) {
+#define VAR_VORKATH_ENUMLIST_FILTER_100 []
+CONST_VORKATH_IF (name:VAR_VORKATH_ENUMLIST_FILTER_100) {
   hidden = true;
 }
 
 // label:Weapons and armour
 // enum:["Rune longsword","Rune kiteshield","Battlestaff","Dragon battleaxe","Dragon longsword","Dragon platelegs","Dragon plateskirt"]
-#define VAR_MOD_ENUMLIST_FILTER_WEAPONS []
-CONST_VORKATH_IF (name:VAR_MOD_ENUMLIST_FILTER_WEAPONS) {
+#define VAR_VORKATH_ENUMLIST_FILTER_WEAPONS []
+CONST_VORKATH_IF (name:VAR_VORKATH_ENUMLIST_FILTER_WEAPONS) {
   hidden = true;
 }
 
 // label:Runes
 // enum:["Chaos rune","Death rune","Wrath rune"]
-#define VAR_MOD_ENUMLIST_FILTER_RUNES []
-CONST_VORKATH_IF (name:VAR_MOD_ENUMLIST_FILTER_RUNES) {
+#define VAR_VORKATH_ENUMLIST_FILTER_RUNES []
+CONST_VORKATH_IF (name:VAR_VORKATH_ENUMLIST_FILTER_RUNES) {
   hidden = true;
 }
 
 // label:Dragonhide
 // enum:["Blue dragonhide","Green dragonhide","Red dragonhide","Black dragonhide"]
-#define VAR_MOD_ENUMLIST_FILTER_DRAGONHIDE []
-CONST_VORKATH_IF (name:VAR_MOD_ENUMLIST_FILTER_DRAGONHIDE) {
+#define VAR_VORKATH_ENUMLIST_FILTER_DRAGONHIDE []
+CONST_VORKATH_IF (name:VAR_VORKATH_ENUMLIST_FILTER_DRAGONHIDE) {
   hidden = true;
 }
 
 // label:Fletching materials
 // enum:["Dragon bolts (unf)","Sapphire bolt tips","Emerald bolt tips","Ruby bolt tips","Diamond bolt tips","Dragonstone bolt tips","Dragonstone bolt tips","Onyx bolt tips","Onyx bolt tips","Rune dart tip","Dragon dart tip","Dragon arrowtips"]
-#define VAR_MOD_ENUMLIST_FILTER_FLETCHING []
-CONST_VORKATH_IF (name:VAR_MOD_ENUMLIST_FILTER_FLETCHING) {
+#define VAR_VORKATH_ENUMLIST_FILTER_FLETCHING []
+CONST_VORKATH_IF (name:VAR_VORKATH_ENUMLIST_FILTER_FLETCHING) {
   hidden = true;
 }
 
@@ -42,8 +42,8 @@ CONST_VORKATH_IF (name:VAR_MOD_ENUMLIST_FILTER_FLETCHING) {
 
 // label:Other
 // enum:["Adamantite ore","Coins","Grapes","Magic logs","Manta ray","Dragon bones","Diamond","Dragonstone","Wrath talisman"]
-#define VAR_MOD_ENUMLIST_FILTER_OTHER []
-CONST_VORKATH_IF (name:VAR_MOD_ENUMLIST_FILTER_OTHER) {
+#define VAR_VORKATH_ENUMLIST_FILTER_OTHER []
+CONST_VORKATH_IF (name:VAR_VORKATH_ENUMLIST_FILTER_OTHER) {
   hidden = true;
 }
 
@@ -51,8 +51,8 @@ CONST_VORKATH_IF (name:VAR_MOD_ENUMLIST_FILTER_OTHER) {
 
 // label:Tertiary
 // enum:["Scaly blue dragonhide","Vorkath's head","Brimstone key","Dragonbone necklace","Jar of decay","Vorki","Draconic visage","Skeletal visage"]
-#define VAR_MOD_ENUMLIST_FILTER_TERTIARY []
-CONST_VORKATH_IF (name:VAR_MOD_ENUMLIST_FILTER_TERTIARY) {
+#define VAR_VORKATH_ENUMLIST_FILTER_TERTIARY []
+CONST_VORKATH_IF (name:VAR_VORKATH_ENUMLIST_FILTER_TERTIARY) {
   hidden = true;
 }
 

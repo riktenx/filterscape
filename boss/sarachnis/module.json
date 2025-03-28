@@ -6,7 +6,7 @@
       "type": "enumlist",
       "group": "FILTER",
       "label": "Pre-roll",
-      "macroName": "VAR_MOD_ENUMLIST_FILTER_PRE-ROLL",
+      "macroName": "VAR_SARACHNIS_ENUMLIST_FILTER_PRE-ROLL",
       "default": [],
       "enum": [
         "Dragon med helm",
@@ -17,7 +17,7 @@
       "type": "enumlist",
       "group": "FILTER",
       "label": "Weapons and armour",
-      "macroName": "VAR_MOD_ENUMLIST_FILTER_WEAPONS",
+      "macroName": "VAR_SARACHNIS_ENUMLIST_FILTER_WEAPONS",
       "default": [],
       "enum": [
         "Battlestaff",
@@ -30,7 +30,7 @@
       "type": "enumlist",
       "group": "FILTER",
       "label": "Runes and ammunition",
-      "macroName": "VAR_MOD_ENUMLIST_FILTER_RUNES",
+      "macroName": "VAR_SARACHNIS_ENUMLIST_FILTER_RUNES",
       "default": [],
       "enum": [
         "Blood rune",
@@ -46,7 +46,7 @@
       "type": "enumlist",
       "group": "FILTER",
       "label": "Seeds",
-      "macroName": "VAR_MOD_ENUMLIST_FILTER_SEEDS",
+      "macroName": "VAR_SARACHNIS_ENUMLIST_FILTER_SEEDS",
       "default": [],
       "enum": [
         "Maple seed",
@@ -58,7 +58,7 @@
       "type": "enumlist",
       "group": "FILTER",
       "label": "Herbs",
-      "macroName": "VAR_MOD_ENUMLIST_FILTER_HERBS",
+      "macroName": "VAR_SARACHNIS_ENUMLIST_FILTER_HERBS",
       "default": [],
       "enum": [
         "Grimy kwuarm",
@@ -75,7 +75,7 @@
       "type": "enumlist",
       "group": "FILTER",
       "label": "Materials",
-      "macroName": "VAR_MOD_ENUMLIST_FILTER_MATERIALS",
+      "macroName": "VAR_SARACHNIS_ENUMLIST_FILTER_MATERIALS",
       "default": [],
       "enum": [
         "Mithril ore",
@@ -93,7 +93,7 @@
       "type": "enumlist",
       "group": "FILTER",
       "label": "Other",
-      "macroName": "VAR_MOD_ENUMLIST_FILTER_OTHER",
+      "macroName": "VAR_SARACHNIS_ENUMLIST_FILTER_OTHER",
       "default": [],
       "enum": [
         "Coins",
@@ -108,7 +108,7 @@
       "type": "enumlist",
       "group": "FILTER",
       "label": "Tertiary",
-      "macroName": "VAR_MOD_ENUMLIST_FILTER_TERTIARY",
+      "macroName": "VAR_SARACHNIS_ENUMLIST_FILTER_TERTIARY",
       "default": [],
       "enum": [
         "Tattered moon page",

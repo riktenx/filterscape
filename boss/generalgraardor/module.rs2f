@@ -7,29 +7,29 @@
 
 // label:100%
 // enum:["Big bones","Frozen key piece (bandos)"]
-#define VAR_MOD_ENUMLIST_FILTER_100 []
-CONST_GENERALGRAARDOR_IF (name:VAR_MOD_ENUMLIST_FILTER_100) {
+#define VAR_GENERALGRAARDOR_ENUMLIST_FILTER_100 []
+CONST_GENERALGRAARDOR_IF (name:VAR_GENERALGRAARDOR_ENUMLIST_FILTER_100) {
   hidden = true;
 }
 
 // label:Uniques
 // enum:["Bandos chestplate","Bandos tassets","Bandos boots","Bandos hilt","Godsword shard 1","Godsword shard 2","Godsword shard 3"]
-#define VAR_MOD_ENUMLIST_FILTER_UNIQUES []
-CONST_GENERALGRAARDOR_IF (name:VAR_MOD_ENUMLIST_FILTER_UNIQUES) {
+#define VAR_GENERALGRAARDOR_ENUMLIST_FILTER_UNIQUES []
+CONST_GENERALGRAARDOR_IF (name:VAR_GENERALGRAARDOR_ENUMLIST_FILTER_UNIQUES) {
   hidden = true;
 }
 
 // label:Weapons and armour
 // enum:["Rune longsword","Rune 2h sword","Rune platebody","Rune pickaxe"]
-#define VAR_MOD_ENUMLIST_FILTER_WEAPONS []
-CONST_GENERALGRAARDOR_IF (name:VAR_MOD_ENUMLIST_FILTER_WEAPONS) {
+#define VAR_GENERALGRAARDOR_ENUMLIST_FILTER_WEAPONS []
+CONST_GENERALGRAARDOR_IF (name:VAR_GENERALGRAARDOR_ENUMLIST_FILTER_WEAPONS) {
   hidden = true;
 }
 
 // label:Other
 // enum:["Coins","Grimy snapdragon","Snapdragon seed","Super restore(4)","Adamantite ore","Coal","Magic logs","Nature rune","Coins"]
-#define VAR_MOD_ENUMLIST_FILTER_OTHER []
-CONST_GENERALGRAARDOR_IF (name:VAR_MOD_ENUMLIST_FILTER_OTHER) {
+#define VAR_GENERALGRAARDOR_ENUMLIST_FILTER_OTHER []
+CONST_GENERALGRAARDOR_IF (name:VAR_GENERALGRAARDOR_ENUMLIST_FILTER_OTHER) {
   hidden = true;
 }
 
@@ -37,8 +37,8 @@ CONST_GENERALGRAARDOR_IF (name:VAR_MOD_ENUMLIST_FILTER_OTHER) {
 
 // label:Tertiary
 // enum:["Brimstone key","Long bone","Pet general graardor","Curved bone"]
-#define VAR_MOD_ENUMLIST_FILTER_TERTIARY []
-CONST_GENERALGRAARDOR_IF (name:VAR_MOD_ENUMLIST_FILTER_TERTIARY) {
+#define VAR_GENERALGRAARDOR_ENUMLIST_FILTER_TERTIARY []
+CONST_GENERALGRAARDOR_IF (name:VAR_GENERALGRAARDOR_ENUMLIST_FILTER_TERTIARY) {
   hidden = true;
 }
 

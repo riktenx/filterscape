@@ -6,7 +6,7 @@
       "type": "enumlist",
       "group": "FILTER",
       "label": "100%",
-      "macroName": "VAR_MOD_ENUMLIST_FILTER_100",
+      "macroName": "VAR_SCURRIUS_ENUMLIST_FILTER_100",
       "default": [],
       "enum": [
         "Big bones",
@@ -18,7 +18,7 @@
       "type": "enumlist",
       "group": "FILTER",
       "label": "Equipment",
-      "macroName": "VAR_MOD_ENUMLIST_FILTER_EQUIPMENT",
+      "macroName": "VAR_SCURRIUS_ENUMLIST_FILTER_EQUIPMENT",
       "default": [],
       "enum": [
         "Adamant platebody",
@@ -33,7 +33,7 @@
       "type": "enumlist",
       "group": "FILTER",
       "label": "Runes and ammunition",
-      "macroName": "VAR_MOD_ENUMLIST_FILTER_RUNES",
+      "macroName": "VAR_SCURRIUS_ENUMLIST_FILTER_RUNES",
       "default": [],
       "enum": [
         "Adamant arrow",
@@ -52,7 +52,7 @@
       "type": "enumlist",
       "group": "FILTER",
       "label": "Food and potions",
-      "macroName": "VAR_MOD_ENUMLIST_FILTER_FOOD",
+      "macroName": "VAR_SCURRIUS_ENUMLIST_FILTER_FOOD",
       "default": [],
       "enum": [
         "Trout",
@@ -76,7 +76,7 @@
       "type": "enumlist",
       "group": "FILTER",
       "label": "Other",
-      "macroName": "VAR_MOD_ENUMLIST_FILTER_OTHER",
+      "macroName": "VAR_SCURRIUS_ENUMLIST_FILTER_OTHER",
       "default": [],
       "enum": [
         "Coins",
@@ -87,7 +87,7 @@
       "type": "enumlist",
       "group": "FILTER",
       "label": "Tertiary drops",
-      "macroName": "VAR_MOD_ENUMLIST_FILTER_TERTIARY",
+      "macroName": "VAR_SCURRIUS_ENUMLIST_FILTER_TERTIARY",
       "default": [],
       "enum": [
         "Scurrius' spine",

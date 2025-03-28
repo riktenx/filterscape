@@ -9,50 +9,50 @@
 
 // label:Uniques
 // enum:["Magus vestige","Chromium ingot","Eye of the duke","Virtus mask","Virtus robe top","Virtus robe bottom"]
-#define VAR_MOD_ENUMLIST_FILTER_UNIQUES []
-CONST_DUKESUCELLUS_IF (name:VAR_MOD_ENUMLIST_FILTER_UNIQUES) {
+#define VAR_DUKESUCELLUS_ENUMLIST_FILTER_UNIQUES []
+CONST_DUKESUCELLUS_IF (name:VAR_DUKESUCELLUS_ENUMLIST_FILTER_UNIQUES) {
   hidden = true;
 }
 
 // label:Secondary uniques
 // enum:["Frozen tablet","Awakener's orb","Ice quartz"]
-#define VAR_MOD_ENUMLIST_FILTER_SECONDARY []
-CONST_DUKESUCELLUS_IF (name:VAR_MOD_ENUMLIST_FILTER_SECONDARY) {
+#define VAR_DUKESUCELLUS_ENUMLIST_FILTER_SECONDARY []
+CONST_DUKESUCELLUS_IF (name:VAR_DUKESUCELLUS_ENUMLIST_FILTER_SECONDARY) {
   hidden = true;
 }
 
 // label:Supplies
 // enum:["Pineapple pizza","Prayer potion(3)","Super combat potion(2)"]
-#define VAR_MOD_ENUMLIST_FILTER_SUPPLIES []
-CONST_DUKESUCELLUS_IF (name:VAR_MOD_ENUMLIST_FILTER_SUPPLIES) {
+#define VAR_DUKESUCELLUS_ENUMLIST_FILTER_SUPPLIES []
+CONST_DUKESUCELLUS_IF (name:VAR_DUKESUCELLUS_ENUMLIST_FILTER_SUPPLIES) {
   hidden = true;
 }
 
 // label:Weapons and armour
 // enum:["Bronze chainbody","Mithril chainbody","Adamant chainbody","Dragon platelegs"]
-#define VAR_MOD_ENUMLIST_FILTER_WEAPONS []
-CONST_DUKESUCELLUS_IF (name:VAR_MOD_ENUMLIST_FILTER_WEAPONS) {
+#define VAR_DUKESUCELLUS_ENUMLIST_FILTER_WEAPONS []
+CONST_DUKESUCELLUS_IF (name:VAR_DUKESUCELLUS_ENUMLIST_FILTER_WEAPONS) {
   hidden = true;
 }
 
 // label:Resources
 // enum:["Pure essence","Iron ore","Coal","Mithril ore","Adamantite ore","Runite ore","Sapphire","Emerald","Ruby","Uncut ruby","Uncut diamond","Bronze bar","Dragon arrowtips","Rune javelin heads","Dragon javelin heads","Raw sea turtle"]
-#define VAR_MOD_ENUMLIST_FILTER_RESOURCES []
-CONST_DUKESUCELLUS_IF (name:VAR_MOD_ENUMLIST_FILTER_RESOURCES) {
+#define VAR_DUKESUCELLUS_ENUMLIST_FILTER_RESOURCES []
+CONST_DUKESUCELLUS_IF (name:VAR_DUKESUCELLUS_ENUMLIST_FILTER_RESOURCES) {
   hidden = true;
 }
 
 // label:Runes and ammunition
 // enum:["Air rune","Mist rune","Chaos rune","Soul rune"]
-#define VAR_MOD_ENUMLIST_FILTER_RUNES []
-CONST_DUKESUCELLUS_IF (name:VAR_MOD_ENUMLIST_FILTER_RUNES) {
+#define VAR_DUKESUCELLUS_ENUMLIST_FILTER_RUNES []
+CONST_DUKESUCELLUS_IF (name:VAR_DUKESUCELLUS_ENUMLIST_FILTER_RUNES) {
   hidden = true;
 }
 
 // label:Tertiary
 // enum:["Odd key","Brimstone key","Clue scroll (easy)","Clue scroll (medium)","Clue scroll (hard)","Clue scroll (elite)","Baron","Ancient blood ornament kit"]
-#define VAR_MOD_ENUMLIST_FILTER_TERTIARY []
-CONST_DUKESUCELLUS_IF (name:VAR_MOD_ENUMLIST_FILTER_TERTIARY) {
+#define VAR_DUKESUCELLUS_ENUMLIST_FILTER_TERTIARY []
+CONST_DUKESUCELLUS_IF (name:VAR_DUKESUCELLUS_ENUMLIST_FILTER_TERTIARY) {
   hidden = true;
 }
 

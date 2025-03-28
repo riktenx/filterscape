@@ -5,50 +5,50 @@
 
 // label:Pre-roll
 // enum:["Dragon med helm","Sarachnis cudgel"]
-#define VAR_MOD_ENUMLIST_FILTER_PRE-ROLL []
-CONST_SARACHNIS_IF (name:VAR_MOD_ENUMLIST_FILTER_PRE-ROLL) {
+#define VAR_SARACHNIS_ENUMLIST_FILTER_PRE-ROLL []
+CONST_SARACHNIS_IF (name:VAR_SARACHNIS_ENUMLIST_FILTER_PRE-ROLL) {
   hidden = true;
 }
 
 // label:Weapons and armour
 // enum:["Battlestaff","Rune platebody","Rune med helm","Rune 2h sword"]
-#define VAR_MOD_ENUMLIST_FILTER_WEAPONS []
-CONST_SARACHNIS_IF (name:VAR_MOD_ENUMLIST_FILTER_WEAPONS) {
+#define VAR_SARACHNIS_ENUMLIST_FILTER_WEAPONS []
+CONST_SARACHNIS_IF (name:VAR_SARACHNIS_ENUMLIST_FILTER_WEAPONS) {
   hidden = true;
 }
 
 // label:Runes and ammunition
 // enum:["Blood rune","Chaos rune","Cosmic rune","Death rune","Soul rune","Mithril arrow","Mithril bolts"]
-#define VAR_MOD_ENUMLIST_FILTER_RUNES []
-CONST_SARACHNIS_IF (name:VAR_MOD_ENUMLIST_FILTER_RUNES) {
+#define VAR_SARACHNIS_ENUMLIST_FILTER_RUNES []
+CONST_SARACHNIS_IF (name:VAR_SARACHNIS_ENUMLIST_FILTER_RUNES) {
   hidden = true;
 }
 
 // label:Seeds
 // enum:["Maple seed","Papaya tree seed","Yew seed"]
-#define VAR_MOD_ENUMLIST_FILTER_SEEDS []
-CONST_SARACHNIS_IF (name:VAR_MOD_ENUMLIST_FILTER_SEEDS) {
+#define VAR_SARACHNIS_ENUMLIST_FILTER_SEEDS []
+CONST_SARACHNIS_IF (name:VAR_SARACHNIS_ENUMLIST_FILTER_SEEDS) {
   hidden = true;
 }
 
 // label:Herbs
 // enum:["Grimy kwuarm","Grimy cadantine","Grimy dwarf weed","Grimy avantoe","Grimy lantadyme","Grimy ranarr weed","Grimy snapdragon","Grimy torstol"]
-#define VAR_MOD_ENUMLIST_FILTER_HERBS []
-CONST_SARACHNIS_IF (name:VAR_MOD_ENUMLIST_FILTER_HERBS) {
+#define VAR_SARACHNIS_ENUMLIST_FILTER_HERBS []
+CONST_SARACHNIS_IF (name:VAR_SARACHNIS_ENUMLIST_FILTER_HERBS) {
   hidden = true;
 }
 
 // label:Materials
 // enum:["Mithril ore","Red dragonhide","Uncut sapphire","Adamantite ore","Uncut emerald","Onyx bolt tips","Uncut ruby","Runite ore","Uncut diamond"]
-#define VAR_MOD_ENUMLIST_FILTER_MATERIALS []
-CONST_SARACHNIS_IF (name:VAR_MOD_ENUMLIST_FILTER_MATERIALS) {
+#define VAR_SARACHNIS_ENUMLIST_FILTER_MATERIALS []
+CONST_SARACHNIS_IF (name:VAR_SARACHNIS_ENUMLIST_FILTER_MATERIALS) {
   hidden = true;
 }
 
 // label:Other
 // enum:["Coins","Dragon bones","Egg potato","Weapon poison(++)","Crystal key","Spider carcass"]
-#define VAR_MOD_ENUMLIST_FILTER_OTHER []
-CONST_SARACHNIS_IF (name:VAR_MOD_ENUMLIST_FILTER_OTHER) {
+#define VAR_SARACHNIS_ENUMLIST_FILTER_OTHER []
+CONST_SARACHNIS_IF (name:VAR_SARACHNIS_ENUMLIST_FILTER_OTHER) {
   hidden = true;
 }
 
@@ -56,8 +56,8 @@ CONST_SARACHNIS_IF (name:VAR_MOD_ENUMLIST_FILTER_OTHER) {
 
 // label:Tertiary
 // enum:["Tattered moon page","Tattered sun page","Tattered temple page","Giant egg sac(full)","Grubby key","Brimstone key","Jar of eyes","Sraracha"]
-#define VAR_MOD_ENUMLIST_FILTER_TERTIARY []
-CONST_SARACHNIS_IF (name:VAR_MOD_ENUMLIST_FILTER_TERTIARY) {
+#define VAR_SARACHNIS_ENUMLIST_FILTER_TERTIARY []
+CONST_SARACHNIS_IF (name:VAR_SARACHNIS_ENUMLIST_FILTER_TERTIARY) {
   hidden = true;
 }
 

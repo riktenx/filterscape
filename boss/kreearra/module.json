@@ -6,7 +6,7 @@
       "type": "enumlist",
       "group": "FILTER",
       "label": "100%",
-      "macroName": "VAR_MOD_ENUMLIST_FILTER_100",
+      "macroName": "VAR_KREEARRA_ENUMLIST_FILTER_100",
       "default": [],
       "enum": [
         "Big bones",
@@ -18,7 +18,7 @@
       "type": "enumlist",
       "group": "FILTER",
       "label": "Uniques",
-      "macroName": "VAR_MOD_ENUMLIST_FILTER_UNIQUES",
+      "macroName": "VAR_KREEARRA_ENUMLIST_FILTER_UNIQUES",
       "default": [],
       "enum": [
         "Armadyl helmet",
@@ -34,7 +34,7 @@
       "type": "enumlist",
       "group": "FILTER",
       "label": "Weapons and armour",
-      "macroName": "VAR_MOD_ENUMLIST_FILTER_WEAPONS",
+      "macroName": "VAR_KREEARRA_ENUMLIST_FILTER_WEAPONS",
       "default": [],
       "enum": [
         "Black d'hide body",
@@ -45,7 +45,7 @@
       "type": "enumlist",
       "group": "FILTER",
       "label": "Runes and ammunition",
-      "macroName": "VAR_MOD_ENUMLIST_FILTER_RUNES",
+      "macroName": "VAR_KREEARRA_ENUMLIST_FILTER_RUNES",
       "default": [],
       "enum": [
         "Mind rune",
@@ -58,7 +58,7 @@
       "type": "enumlist",
       "group": "FILTER",
       "label": "Other",
-      "macroName": "VAR_MOD_ENUMLIST_FILTER_OTHER",
+      "macroName": "VAR_KREEARRA_ENUMLIST_FILTER_OTHER",
       "default": [],
       "enum": [
         "Coins",
@@ -75,7 +75,7 @@
       "type": "enumlist",
       "group": "FILTER",
       "label": "Tertiary",
-      "macroName": "VAR_MOD_ENUMLIST_FILTER_TERTIARY",
+      "macroName": "VAR_KREEARRA_ENUMLIST_FILTER_TERTIARY",
       "default": [],
       "enum": [
         "Brimstone key",

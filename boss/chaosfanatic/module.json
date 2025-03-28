@@ -6,7 +6,7 @@
       "type": "enumlist",
       "group": "FILTER",
       "label": "100%",
-      "macroName": "VAR_MOD_ENUMLIST_FILTER_100",
+      "macroName": "VAR_CHAOSFANATIC_ENUMLIST_FILTER_100",
       "default": [],
       "enum": [
         "Bones"
@@ -16,7 +16,7 @@
       "type": "enumlist",
       "group": "FILTER",
       "label": "Pre-roll",
-      "macroName": "VAR_MOD_ENUMLIST_FILTER_PRE-ROLL",
+      "macroName": "VAR_CHAOSFANATIC_ENUMLIST_FILTER_PRE-ROLL",
       "default": [],
       "enum": [
         "Odium shard 1",
@@ -27,7 +27,7 @@
       "type": "enumlist",
       "group": "FILTER",
       "label": "Weapons and armour",
-      "macroName": "VAR_MOD_ENUMLIST_FILTER_WEAPONS",
+      "macroName": "VAR_CHAOSFANATIC_ENUMLIST_FILTER_WEAPONS",
       "default": [],
       "enum": [
         "Battlestaff",
@@ -42,7 +42,7 @@
       "type": "enumlist",
       "group": "FILTER",
       "label": "Runes",
-      "macroName": "VAR_MOD_ENUMLIST_FILTER_RUNES",
+      "macroName": "VAR_CHAOSFANATIC_ENUMLIST_FILTER_RUNES",
       "default": [],
       "enum": [
         "Fire rune",
@@ -55,7 +55,7 @@
       "type": "enumlist",
       "group": "FILTER",
       "label": "Consumables",
-      "macroName": "VAR_MOD_ENUMLIST_FILTER_CONSUMABLES",
+      "macroName": "VAR_CHAOSFANATIC_ENUMLIST_FILTER_CONSUMABLES",
       "default": [],
       "enum": [
         "Monkfish",
@@ -68,7 +68,7 @@
       "type": "enumlist",
       "group": "FILTER",
       "label": "Other",
-      "macroName": "VAR_MOD_ENUMLIST_FILTER_OTHER",
+      "macroName": "VAR_CHAOSFANATIC_ENUMLIST_FILTER_OTHER",
       "default": [],
       "enum": [
         "Coins",
@@ -86,7 +86,7 @@
       "type": "enumlist",
       "group": "FILTER",
       "label": "Tertiary",
-      "macroName": "VAR_MOD_ENUMLIST_FILTER_TERTIARY",
+      "macroName": "VAR_CHAOSFANATIC_ENUMLIST_FILTER_TERTIARY",
       "default": [],
       "enum": [
         "Looting bag",

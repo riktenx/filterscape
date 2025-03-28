@@ -37,11 +37,11 @@ export const generateRs2f = (name, area, dropTable) => {
   rs2f += `// module:${name}`;
   rs2f += '\n\n';
 
-  const areaIdent = toAreaMacroIdent(name);
+  const moduleScope = toAreaMacroIdent(name);
   const areaDefine = JSON.stringify(area);
-  rs2f += `#define CONST_AREA_${areaIdent} ${areaDefine}`;
+  rs2f += `#define CONST_AREA_${moduleScope} ${areaDefine}`;
   rs2f += '\n';
-  rs2f += `#define CONST_${areaIdent}_IF(_cond) if (area:CONST_AREA_${areaIdent} && (_cond))`;
+  rs2f += `#define CONST_${moduleScope}_IF(_cond) if (area:CONST_AREA_${moduleScope} && (_cond))`;
   rs2f += '\n\n';
 
   rs2f += Object.entries(dropTable).map(([category, items]) => {
@@ -53,8 +53,8 @@ export const generateRs2f = (name, area, dropTable) => {
     const ident = toCategoryName(category);
     return `// label:${category}
 // enum:${jvalue}
-#define VAR_MOD_ENUMLIST_FILTER_${ident} []
-CONST_${areaIdent}_IF (name:VAR_MOD_ENUMLIST_FILTER_${ident}) {
+#define VAR_${moduleScope}_ENUMLIST_FILTER_${ident} []
+CONST_${moduleScope}_IF (name:VAR_${moduleScope}_ENUMLIST_FILTER_${ident}) {
   hidden = true;
 }`;
   }).join('\n\n');

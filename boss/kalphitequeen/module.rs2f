@@ -5,50 +5,50 @@
 
 // label:Consumables
 // enum:["Monkfish","Shark","Dark crab","Saradomin brew(4)","Prayer potion(4)","Super restore(4)","Super combat potion(2)","Ranging potion(3)","Superantipoison(2)"]
-#define VAR_MOD_ENUMLIST_FILTER_CONSUMABLES []
-CONST_KALPHITEQUEEN_IF (name:VAR_MOD_ENUMLIST_FILTER_CONSUMABLES) {
+#define VAR_KALPHITEQUEEN_ENUMLIST_FILTER_CONSUMABLES []
+CONST_KALPHITEQUEEN_IF (name:VAR_KALPHITEQUEEN_ENUMLIST_FILTER_CONSUMABLES) {
   hidden = true;
 }
 
 // label:Weapons and armour
 // enum:["Battlestaff","Rune chainbody","Red d'hide body","Rune knife(p++)","Lava battlestaff"]
-#define VAR_MOD_ENUMLIST_FILTER_WEAPONS []
-CONST_KALPHITEQUEEN_IF (name:VAR_MOD_ENUMLIST_FILTER_WEAPONS) {
+#define VAR_KALPHITEQUEEN_ENUMLIST_FILTER_WEAPONS []
+CONST_KALPHITEQUEEN_IF (name:VAR_KALPHITEQUEEN_ENUMLIST_FILTER_WEAPONS) {
   hidden = true;
 }
 
 // label:Runes and ammunition
 // enum:["Death rune","Blood rune","Mithril arrow","Rune arrow"]
-#define VAR_MOD_ENUMLIST_FILTER_RUNES []
-CONST_KALPHITEQUEEN_IF (name:VAR_MOD_ENUMLIST_FILTER_RUNES) {
+#define VAR_KALPHITEQUEEN_ENUMLIST_FILTER_RUNES []
+CONST_KALPHITEQUEEN_IF (name:VAR_KALPHITEQUEEN_ENUMLIST_FILTER_RUNES) {
   hidden = true;
 }
 
 // label:Herbs
 // enum:["Grimy toadflax","Grimy ranarr weed","Grimy snapdragon","Grimy torstol"]
-#define VAR_MOD_ENUMLIST_FILTER_HERBS []
-CONST_KALPHITEQUEEN_IF (name:VAR_MOD_ENUMLIST_FILTER_HERBS) {
+#define VAR_KALPHITEQUEEN_ENUMLIST_FILTER_HERBS []
+CONST_KALPHITEQUEEN_IF (name:VAR_KALPHITEQUEEN_ENUMLIST_FILTER_HERBS) {
   hidden = true;
 }
 
 // label:Seeds
 // enum:["Torstol seed","Watermelon seed","Papaya tree seed","Palm tree seed","Magic seed"]
-#define VAR_MOD_ENUMLIST_FILTER_SEEDS []
-CONST_KALPHITEQUEEN_IF (name:VAR_MOD_ENUMLIST_FILTER_SEEDS) {
+#define VAR_KALPHITEQUEEN_ENUMLIST_FILTER_SEEDS []
+CONST_KALPHITEQUEEN_IF (name:VAR_KALPHITEQUEEN_ENUMLIST_FILTER_SEEDS) {
   hidden = true;
 }
 
 // label:Resources
 // enum:["Runite bar","Bucket of sand","Gold ore","Magic logs","Uncut emerald","Uncut ruby","Uncut diamond"]
-#define VAR_MOD_ENUMLIST_FILTER_RESOURCES []
-CONST_KALPHITEQUEEN_IF (name:VAR_MOD_ENUMLIST_FILTER_RESOURCES) {
+#define VAR_KALPHITEQUEEN_ENUMLIST_FILTER_RESOURCES []
+CONST_KALPHITEQUEEN_IF (name:VAR_KALPHITEQUEEN_ENUMLIST_FILTER_RESOURCES) {
   hidden = true;
 }
 
 // label:Other
 // enum:["Wine of zamorak","Potato cactus","Coins","Grapes","Weapon poison(++)","Cactus spine"]
-#define VAR_MOD_ENUMLIST_FILTER_OTHER []
-CONST_KALPHITEQUEEN_IF (name:VAR_MOD_ENUMLIST_FILTER_OTHER) {
+#define VAR_KALPHITEQUEEN_ENUMLIST_FILTER_OTHER []
+CONST_KALPHITEQUEEN_IF (name:VAR_KALPHITEQUEEN_ENUMLIST_FILTER_OTHER) {
   hidden = true;
 }
 
@@ -56,8 +56,8 @@ CONST_KALPHITEQUEEN_IF (name:VAR_MOD_ENUMLIST_FILTER_OTHER) {
 
 // label:Tertiary
 // enum:["Kq head (tattered)","Ensouled kalphite head","Brimstone key","Kq head","Dragon chainbody","Dragon 2h sword","Dragon pickaxe","Jar of sand","Kalphite princess"]
-#define VAR_MOD_ENUMLIST_FILTER_TERTIARY []
-CONST_KALPHITEQUEEN_IF (name:VAR_MOD_ENUMLIST_FILTER_TERTIARY) {
+#define VAR_KALPHITEQUEEN_ENUMLIST_FILTER_TERTIARY []
+CONST_KALPHITEQUEEN_IF (name:VAR_KALPHITEQUEEN_ENUMLIST_FILTER_TERTIARY) {
   hidden = true;
 }
 

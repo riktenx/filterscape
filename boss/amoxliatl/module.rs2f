@@ -5,29 +5,29 @@
 
 // label:Frozen tears
 // enum:["Frozen tear","Frozen tear","Frozen tear"]
-#define VAR_MOD_ENUMLIST_FILTER_FROZEN []
-CONST_AMOXLIATL_IF (name:VAR_MOD_ENUMLIST_FILTER_FROZEN) {
+#define VAR_AMOXLIATL_ENUMLIST_FILTER_FROZEN []
+CONST_AMOXLIATL_IF (name:VAR_AMOXLIATL_ENUMLIST_FILTER_FROZEN) {
   hidden = true;
 }
 
 // label:Weapons and armour
 // enum:["Rune mace","Rune pickaxe","Rune platebody","Rune platelegs"]
-#define VAR_MOD_ENUMLIST_FILTER_WEAPONS []
-CONST_AMOXLIATL_IF (name:VAR_MOD_ENUMLIST_FILTER_WEAPONS) {
+#define VAR_AMOXLIATL_ENUMLIST_FILTER_WEAPONS []
+CONST_AMOXLIATL_IF (name:VAR_AMOXLIATL_ENUMLIST_FILTER_WEAPONS) {
   hidden = true;
 }
 
 // label:Runes and ammunition
 // enum:["Water rune","Chaos rune","Death rune","Blood rune","Soul rune","Nature rune"]
-#define VAR_MOD_ENUMLIST_FILTER_RUNES []
-CONST_AMOXLIATL_IF (name:VAR_MOD_ENUMLIST_FILTER_RUNES) {
+#define VAR_AMOXLIATL_ENUMLIST_FILTER_RUNES []
+CONST_AMOXLIATL_IF (name:VAR_AMOXLIATL_ENUMLIST_FILTER_RUNES) {
   hidden = true;
 }
 
 // label:Other
 // enum:["Coal","Gold ore","Adamantite ore","Prayer potion(3)","Runite ore","Blessed bone shards","Water orb","Water talisman"]
-#define VAR_MOD_ENUMLIST_FILTER_OTHER []
-CONST_AMOXLIATL_IF (name:VAR_MOD_ENUMLIST_FILTER_OTHER) {
+#define VAR_AMOXLIATL_ENUMLIST_FILTER_OTHER []
+CONST_AMOXLIATL_IF (name:VAR_AMOXLIATL_ENUMLIST_FILTER_OTHER) {
   hidden = true;
 }
 
@@ -35,8 +35,8 @@ CONST_AMOXLIATL_IF (name:VAR_MOD_ENUMLIST_FILTER_OTHER) {
 
 // label:Tertiary
 // enum:["Clue scroll (elite)","Reward casket (elite)","Pendant of ates (inert)","Glacial temotli","Tooth half of key (moon key)","Brimstone key","Moxi"]
-#define VAR_MOD_ENUMLIST_FILTER_TERTIARY []
-CONST_AMOXLIATL_IF (name:VAR_MOD_ENUMLIST_FILTER_TERTIARY) {
+#define VAR_AMOXLIATL_ENUMLIST_FILTER_TERTIARY []
+CONST_AMOXLIATL_IF (name:VAR_AMOXLIATL_ENUMLIST_FILTER_TERTIARY) {
   hidden = true;
 }
 

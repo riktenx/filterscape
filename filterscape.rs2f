@@ -37,7 +37,266 @@ if (name:VAR_HIDES_STRINGLIST__HIDE) {
 }
 
 // endmodule:hides
-// module:Vorkath
+// module:General Graardor
+
+#define CONST_AREA_GENERALGRAARDOR [2863,5350,2,2877,5370,2]
+#define CONST_GENERALGRAARDOR_IF(_cond) if (area:CONST_AREA_GENERALGRAARDOR && (_cond))
+
+
+
+// label:100%
+// enum:["Big bones","Frozen key piece (bandos)"]
+#define VAR_GENERALGRAARDOR_ENUMLIST_FILTER_100 []
+CONST_GENERALGRAARDOR_IF (name:VAR_GENERALGRAARDOR_ENUMLIST_FILTER_100) {
+  hidden = true;
+}
+
+// label:Uniques
+// enum:["Bandos chestplate","Bandos tassets","Bandos boots","Bandos hilt","Godsword shard 1","Godsword shard 2","Godsword shard 3"]
+#define VAR_GENERALGRAARDOR_ENUMLIST_FILTER_UNIQUES []
+CONST_GENERALGRAARDOR_IF (name:VAR_GENERALGRAARDOR_ENUMLIST_FILTER_UNIQUES) {
+  hidden = true;
+}
+
+// label:Weapons and armour
+// enum:["Rune longsword","Rune 2h sword","Rune platebody","Rune pickaxe"]
+#define VAR_GENERALGRAARDOR_ENUMLIST_FILTER_WEAPONS []
+CONST_GENERALGRAARDOR_IF (name:VAR_GENERALGRAARDOR_ENUMLIST_FILTER_WEAPONS) {
+  hidden = true;
+}
+
+// label:Other
+// enum:["Coins","Grimy snapdragon","Snapdragon seed","Super restore(4)","Adamantite ore","Coal","Magic logs","Nature rune","Coins"]
+#define VAR_GENERALGRAARDOR_ENUMLIST_FILTER_OTHER []
+CONST_GENERALGRAARDOR_IF (name:VAR_GENERALGRAARDOR_ENUMLIST_FILTER_OTHER) {
+  hidden = true;
+}
+
+
+
+// label:Tertiary
+// enum:["Brimstone key","Long bone","Pet general graardor","Curved bone"]
+#define VAR_GENERALGRAARDOR_ENUMLIST_FILTER_TERTIARY []
+CONST_GENERALGRAARDOR_IF (name:VAR_GENERALGRAARDOR_ENUMLIST_FILTER_TERTIARY) {
+  hidden = true;
+}
+
+// endmodule:General Graardor// module:Commander Zilyana
+
+#define CONST_AREA_COMMANDERZILYANA [2888,5257,0,2908,5276,0]
+#define CONST_COMMANDERZILYANA_IF(_cond) if (area:CONST_AREA_COMMANDERZILYANA && (_cond))
+
+
+
+// label:100%
+// enum:["Bones","Frozen key piece (saradomin)"]
+#define VAR_COMMANDERZILYANA_ENUMLIST_FILTER_100 []
+CONST_COMMANDERZILYANA_IF (name:VAR_COMMANDERZILYANA_ENUMLIST_FILTER_100) {
+  hidden = true;
+}
+
+// label:Uniques
+// enum:["Saradomin sword","Saradomin's light","Armadyl crossbow","Saradomin hilt","Godsword shard 1","Godsword shard 2","Godsword shard 3"]
+#define VAR_COMMANDERZILYANA_ENUMLIST_FILTER_UNIQUES []
+CONST_COMMANDERZILYANA_IF (name:VAR_COMMANDERZILYANA_ENUMLIST_FILTER_UNIQUES) {
+  hidden = true;
+}
+
+// label:Weapons and armour
+// enum:["Adamant platebody","Rune dart","Rune kiteshield","Rune plateskirt"]
+#define VAR_COMMANDERZILYANA_ENUMLIST_FILTER_WEAPONS []
+CONST_COMMANDERZILYANA_IF (name:VAR_COMMANDERZILYANA_ENUMLIST_FILTER_WEAPONS) {
+  hidden = true;
+}
+
+// label:Potions
+// enum:["Prayer potion(4)","Saradomin brew(3)","Super restore(4)","Super defence(3)","Magic potion(3)"]
+#define VAR_COMMANDERZILYANA_ENUMLIST_FILTER_POTIONS []
+CONST_COMMANDERZILYANA_IF (name:VAR_COMMANDERZILYANA_ENUMLIST_FILTER_POTIONS) {
+  hidden = true;
+}
+
+// label:Other
+// enum:["Coins","Diamond","Law rune","Grimy ranarr weed","Ranarr seed","Magic seed"]
+#define VAR_COMMANDERZILYANA_ENUMLIST_FILTER_OTHER []
+CONST_COMMANDERZILYANA_IF (name:VAR_COMMANDERZILYANA_ENUMLIST_FILTER_OTHER) {
+  hidden = true;
+}
+
+
+
+// label:Tertiary
+// enum:["Brimstone key","Pet zilyana"]
+#define VAR_COMMANDERZILYANA_ENUMLIST_FILTER_TERTIARY []
+CONST_COMMANDERZILYANA_IF (name:VAR_COMMANDERZILYANA_ENUMLIST_FILTER_TERTIARY) {
+  hidden = true;
+}
+
+// endmodule:Commander Zilyana// module:K'ril Tsutsaroth
+
+#define CONST_AREA_KRILTSUTSAROTH [2917,5317,2,2937,5332,2]
+#define CONST_KRILTSUTSAROTH_IF(_cond) if (area:CONST_AREA_KRILTSUTSAROTH && (_cond))
+
+
+
+// label:100%
+// enum:["Infernal ashes","Frozen key piece (zamorak)"]
+#define VAR_KRILTSUTSAROTH_ENUMLIST_FILTER_100 []
+CONST_KRILTSUTSAROTH_IF (name:VAR_KRILTSUTSAROTH_ENUMLIST_FILTER_100) {
+  hidden = true;
+}
+
+// label:Uniques
+// enum:["Steam battlestaff","Zamorakian spear","Staff of the dead","Zamorak hilt","Godsword shard 1","Godsword shard 2","Godsword shard 3"]
+#define VAR_KRILTSUTSAROTH_ENUMLIST_FILTER_UNIQUES []
+CONST_KRILTSUTSAROTH_IF (name:VAR_KRILTSUTSAROTH_ENUMLIST_FILTER_UNIQUES) {
+  hidden = true;
+}
+
+// label:Weapons and armour
+// enum:["Adamant arrow(p++)","Rune scimitar","Adamant platebody","Rune platelegs","Dragon dagger(p++)"]
+#define VAR_KRILTSUTSAROTH_ENUMLIST_FILTER_WEAPONS []
+CONST_KRILTSUTSAROTH_IF (name:VAR_KRILTSUTSAROTH_ENUMLIST_FILTER_WEAPONS) {
+  hidden = true;
+}
+
+// label:Potions
+// enum:["Super attack(3)","Super strength(3)","Super restore(3)","Zamorak brew(3)"]
+#define VAR_KRILTSUTSAROTH_ENUMLIST_FILTER_POTIONS []
+CONST_KRILTSUTSAROTH_IF (name:VAR_KRILTSUTSAROTH_ENUMLIST_FILTER_POTIONS) {
+  hidden = true;
+}
+
+// label:Other
+// enum:["Coins","Grimy lantadyme","Lantadyme seed","Death rune","Blood rune"]
+#define VAR_KRILTSUTSAROTH_ENUMLIST_FILTER_OTHER []
+CONST_KRILTSUTSAROTH_IF (name:VAR_KRILTSUTSAROTH_ENUMLIST_FILTER_OTHER) {
+  hidden = true;
+}
+
+
+
+// label:Tertiary
+// enum:["Brimstone key","Pet k'ril tsutsaroth"]
+#define VAR_KRILTSUTSAROTH_ENUMLIST_FILTER_TERTIARY []
+CONST_KRILTSUTSAROTH_IF (name:VAR_KRILTSUTSAROTH_ENUMLIST_FILTER_TERTIARY) {
+  hidden = true;
+}
+
+// endmodule:K'ril Tsutsaroth// module:Kree'arra
+
+#define CONST_AREA_KREEARRA [2823,5295,2,2843,5309,2]
+#define CONST_KREEARRA_IF(_cond) if (area:CONST_AREA_KREEARRA && (_cond))
+
+
+
+// label:100%
+// enum:["Big bones","Feather","Frozen key piece (armadyl)"]
+#define VAR_KREEARRA_ENUMLIST_FILTER_100 []
+CONST_KREEARRA_IF (name:VAR_KREEARRA_ENUMLIST_FILTER_100) {
+  hidden = true;
+}
+
+// label:Uniques
+// enum:["Armadyl helmet","Armadyl chestplate","Armadyl chainskirt","Armadyl hilt","Godsword shard 1","Godsword shard 2","Godsword shard 3"]
+#define VAR_KREEARRA_ENUMLIST_FILTER_UNIQUES []
+CONST_KREEARRA_IF (name:VAR_KREEARRA_ENUMLIST_FILTER_UNIQUES) {
+  hidden = true;
+}
+
+// label:Weapons and armour
+// enum:["Black d'hide body","Rune crossbow"]
+#define VAR_KREEARRA_ENUMLIST_FILTER_WEAPONS []
+CONST_KREEARRA_IF (name:VAR_KREEARRA_ENUMLIST_FILTER_WEAPONS) {
+  hidden = true;
+}
+
+// label:Runes and ammunition
+// enum:["Mind rune","Rune arrow","Runite bolts","Dragonstone bolts (e)"]
+#define VAR_KREEARRA_ENUMLIST_FILTER_RUNES []
+CONST_KREEARRA_IF (name:VAR_KREEARRA_ENUMLIST_FILTER_RUNES) {
+  hidden = true;
+}
+
+// label:Other
+// enum:["Coins","Ranging potion(3)","Super defence(3)","Grimy dwarf weed","Dwarf weed seed","Coins","Crystal key","Yew seed"]
+#define VAR_KREEARRA_ENUMLIST_FILTER_OTHER []
+CONST_KREEARRA_IF (name:VAR_KREEARRA_ENUMLIST_FILTER_OTHER) {
+  hidden = true;
+}
+
+
+
+// label:Tertiary
+// enum:["Brimstone key","Long bone","Pet kree'arra","Curved bone"]
+#define VAR_KREEARRA_ENUMLIST_FILTER_TERTIARY []
+CONST_KREEARRA_IF (name:VAR_KREEARRA_ENUMLIST_FILTER_TERTIARY) {
+  hidden = true;
+}
+
+// endmodule:Kree'arra// module:Nex
+
+#define CONST_AREA_NEX [2910,5188,0,2940,5218,0]
+#define CONST_NEX_IF(_cond) if (area:CONST_AREA_NEX && (_cond))
+
+
+
+
+
+
+
+// label:100%
+// enum:["Big bones"]
+#define VAR_NEX_ENUMLIST_FILTER_100 []
+CONST_NEX_IF (name:VAR_NEX_ENUMLIST_FILTER_100) {
+  hidden = true;
+}
+
+// label:Uniques
+// enum:["Ancient hilt","Nihil horn","Torva full helm (damaged)","Torva platebody (damaged)","Torva platelegs (damaged)","Zaryte vambraces"]
+#define VAR_NEX_ENUMLIST_FILTER_UNIQUES []
+CONST_NEX_IF (name:VAR_NEX_ENUMLIST_FILTER_UNIQUES) {
+  hidden = true;
+}
+
+// label:Runes & ammunition
+// enum:["Air rune","Fire rune","Blood rune","Death rune","Water rune","Soul rune","Dragon bolts (unf)","Onyx bolts (e)","Cannonball"]
+#define VAR_NEX_ENUMLIST_FILTER_RUNES []
+CONST_NEX_IF (name:VAR_NEX_ENUMLIST_FILTER_RUNES) {
+  hidden = true;
+}
+
+// label:Resources
+// enum:["Air orb","Coal","Runite ore","Uncut ruby","Uncut diamond","Wine of zamorak"]
+#define VAR_NEX_ENUMLIST_FILTER_RESOURCES []
+CONST_NEX_IF (name:VAR_NEX_ENUMLIST_FILTER_RESOURCES) {
+  hidden = true;
+}
+
+// label:Consumables
+// enum:["Shark","Prayer potion(4)","Saradomin brew(4)","Super restore(4)"]
+#define VAR_NEX_ENUMLIST_FILTER_CONSUMABLES []
+CONST_NEX_IF (name:VAR_NEX_ENUMLIST_FILTER_CONSUMABLES) {
+  hidden = true;
+}
+
+// label:Other
+// enum:["Blood essence","Coins","Rune sword","Ecumenical key shard","Nihil shard","Nihil shard"]
+#define VAR_NEX_ENUMLIST_FILTER_OTHER []
+CONST_NEX_IF (name:VAR_NEX_ENUMLIST_FILTER_OTHER) {
+  hidden = true;
+}
+
+// label:Tertiary
+// enum:["Clue scroll (elite)","Nexling"]
+#define VAR_NEX_ENUMLIST_FILTER_TERTIARY []
+CONST_NEX_IF (name:VAR_NEX_ENUMLIST_FILTER_TERTIARY) {
+  hidden = true;
+}
+
+
+
+// endmodule:Nex// module:Vorkath
 
 #define CONST_VORKATH_AREA [2240, 4032, 0, 2303, 4095, 0]
 #define CONST_VORKATH_IF(_cond) if (area:CONST_VORKATH_AREA && (_cond))

@@ -7,36 +7,36 @@
 
 // label:100%
 // enum:["Bones","Frozen key piece (saradomin)"]
-#define VAR_MOD_ENUMLIST_FILTER_100 []
-CONST_COMMANDERZILYANA_IF (name:VAR_MOD_ENUMLIST_FILTER_100) {
+#define VAR_COMMANDERZILYANA_ENUMLIST_FILTER_100 []
+CONST_COMMANDERZILYANA_IF (name:VAR_COMMANDERZILYANA_ENUMLIST_FILTER_100) {
   hidden = true;
 }
 
 // label:Uniques
 // enum:["Saradomin sword","Saradomin's light","Armadyl crossbow","Saradomin hilt","Godsword shard 1","Godsword shard 2","Godsword shard 3"]
-#define VAR_MOD_ENUMLIST_FILTER_UNIQUES []
-CONST_COMMANDERZILYANA_IF (name:VAR_MOD_ENUMLIST_FILTER_UNIQUES) {
+#define VAR_COMMANDERZILYANA_ENUMLIST_FILTER_UNIQUES []
+CONST_COMMANDERZILYANA_IF (name:VAR_COMMANDERZILYANA_ENUMLIST_FILTER_UNIQUES) {
   hidden = true;
 }
 
 // label:Weapons and armour
 // enum:["Adamant platebody","Rune dart","Rune kiteshield","Rune plateskirt"]
-#define VAR_MOD_ENUMLIST_FILTER_WEAPONS []
-CONST_COMMANDERZILYANA_IF (name:VAR_MOD_ENUMLIST_FILTER_WEAPONS) {
+#define VAR_COMMANDERZILYANA_ENUMLIST_FILTER_WEAPONS []
+CONST_COMMANDERZILYANA_IF (name:VAR_COMMANDERZILYANA_ENUMLIST_FILTER_WEAPONS) {
   hidden = true;
 }
 
 // label:Potions
 // enum:["Prayer potion(4)","Saradomin brew(3)","Super restore(4)","Super defence(3)","Magic potion(3)"]
-#define VAR_MOD_ENUMLIST_FILTER_POTIONS []
-CONST_COMMANDERZILYANA_IF (name:VAR_MOD_ENUMLIST_FILTER_POTIONS) {
+#define VAR_COMMANDERZILYANA_ENUMLIST_FILTER_POTIONS []
+CONST_COMMANDERZILYANA_IF (name:VAR_COMMANDERZILYANA_ENUMLIST_FILTER_POTIONS) {
   hidden = true;
 }
 
 // label:Other
 // enum:["Coins","Diamond","Law rune","Grimy ranarr weed","Ranarr seed","Magic seed"]
-#define VAR_MOD_ENUMLIST_FILTER_OTHER []
-CONST_COMMANDERZILYANA_IF (name:VAR_MOD_ENUMLIST_FILTER_OTHER) {
+#define VAR_COMMANDERZILYANA_ENUMLIST_FILTER_OTHER []
+CONST_COMMANDERZILYANA_IF (name:VAR_COMMANDERZILYANA_ENUMLIST_FILTER_OTHER) {
   hidden = true;
 }
 
@@ -44,8 +44,8 @@ CONST_COMMANDERZILYANA_IF (name:VAR_MOD_ENUMLIST_FILTER_OTHER) {
 
 // label:Tertiary
 // enum:["Brimstone key","Pet zilyana"]
-#define VAR_MOD_ENUMLIST_FILTER_TERTIARY []
-CONST_COMMANDERZILYANA_IF (name:VAR_MOD_ENUMLIST_FILTER_TERTIARY) {
+#define VAR_COMMANDERZILYANA_ENUMLIST_FILTER_TERTIARY []
+CONST_COMMANDERZILYANA_IF (name:VAR_COMMANDERZILYANA_ENUMLIST_FILTER_TERTIARY) {
   hidden = true;
 }
 

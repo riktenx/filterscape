@@ -6,7 +6,7 @@
       "type": "enumlist",
       "group": "FILTER",
       "label": "Uniques",
-      "macroName": "VAR_MOD_ENUMLIST_FILTER_UNIQUES",
+      "macroName": "VAR_DUKESUCELLUS_ENUMLIST_FILTER_UNIQUES",
       "default": [],
       "enum": [
         "Magus vestige",
@@ -21,7 +21,7 @@
       "type": "enumlist",
       "group": "FILTER",
       "label": "Secondary uniques",
-      "macroName": "VAR_MOD_ENUMLIST_FILTER_SECONDARY",
+      "macroName": "VAR_DUKESUCELLUS_ENUMLIST_FILTER_SECONDARY",
       "default": [],
       "enum": [
         "Frozen tablet",
@@ -33,7 +33,7 @@
       "type": "enumlist",
       "group": "FILTER",
       "label": "Supplies",
-      "macroName": "VAR_MOD_ENUMLIST_FILTER_SUPPLIES",
+      "macroName": "VAR_DUKESUCELLUS_ENUMLIST_FILTER_SUPPLIES",
       "default": [],
       "enum": [
         "Pineapple pizza",
@@ -45,7 +45,7 @@
       "type": "enumlist",
       "group": "FILTER",
       "label": "Weapons and armour",
-      "macroName": "VAR_MOD_ENUMLIST_FILTER_WEAPONS",
+      "macroName": "VAR_DUKESUCELLUS_ENUMLIST_FILTER_WEAPONS",
       "default": [],
       "enum": [
         "Bronze chainbody",
@@ -58,7 +58,7 @@
       "type": "enumlist",
       "group": "FILTER",
       "label": "Resources",
-      "macroName": "VAR_MOD_ENUMLIST_FILTER_RESOURCES",
+      "macroName": "VAR_DUKESUCELLUS_ENUMLIST_FILTER_RESOURCES",
       "default": [],
       "enum": [
         "Pure essence",
@@ -83,7 +83,7 @@
       "type": "enumlist",
       "group": "FILTER",
       "label": "Runes and ammunition",
-      "macroName": "VAR_MOD_ENUMLIST_FILTER_RUNES",
+      "macroName": "VAR_DUKESUCELLUS_ENUMLIST_FILTER_RUNES",
       "default": [],
       "enum": [
         "Air rune",
@@ -96,7 +96,7 @@
       "type": "enumlist",
       "group": "FILTER",
       "label": "Tertiary",
-      "macroName": "VAR_MOD_ENUMLIST_FILTER_TERTIARY",
+      "macroName": "VAR_DUKESUCELLUS_ENUMLIST_FILTER_TERTIARY",
       "default": [],
       "enum": [
         "Odd key",

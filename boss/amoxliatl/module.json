@@ -6,7 +6,7 @@
       "type": "enumlist",
       "group": "FILTER",
       "label": "Frozen tears",
-      "macroName": "VAR_MOD_ENUMLIST_FILTER_FROZEN",
+      "macroName": "VAR_AMOXLIATL_ENUMLIST_FILTER_FROZEN",
       "default": [],
       "enum": [
         "Frozen tear",
@@ -18,7 +18,7 @@
       "type": "enumlist",
       "group": "FILTER",
       "label": "Weapons and armour",
-      "macroName": "VAR_MOD_ENUMLIST_FILTER_WEAPONS",
+      "macroName": "VAR_AMOXLIATL_ENUMLIST_FILTER_WEAPONS",
       "default": [],
       "enum": [
         "Rune mace",
@@ -31,7 +31,7 @@
       "type": "enumlist",
       "group": "FILTER",
       "label": "Runes and ammunition",
-      "macroName": "VAR_MOD_ENUMLIST_FILTER_RUNES",
+      "macroName": "VAR_AMOXLIATL_ENUMLIST_FILTER_RUNES",
       "default": [],
       "enum": [
         "Water rune",
@@ -46,7 +46,7 @@
       "type": "enumlist",
       "group": "FILTER",
       "label": "Other",
-      "macroName": "VAR_MOD_ENUMLIST_FILTER_OTHER",
+      "macroName": "VAR_AMOXLIATL_ENUMLIST_FILTER_OTHER",
       "default": [],
       "enum": [
         "Coal",
@@ -63,7 +63,7 @@
       "type": "enumlist",
       "group": "FILTER",
       "label": "Tertiary",
-      "macroName": "VAR_MOD_ENUMLIST_FILTER_TERTIARY",
+      "macroName": "VAR_AMOXLIATL_ENUMLIST_FILTER_TERTIARY",
       "default": [],
       "enum": [
         "Clue scroll (elite)",

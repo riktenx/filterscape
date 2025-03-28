@@ -6,6 +6,11 @@ echo "" > filterscape.rs2f
 
 cat highlights/module.rs2f >> filterscape.rs2f
 cat hides/module.rs2f >> filterscape.rs2f
+cat boss/generalgraardor/module.rs2f >> filterscape.rs2f
+cat boss/commanderzilyana/module.rs2f >> filterscape.rs2f
+cat boss/kriltsutsaroth/module.rs2f >> filterscape.rs2f
+cat boss/kreearra/module.rs2f >> filterscape.rs2f
+cat boss/nex/module.rs2f >> filterscape.rs2f
 cat vorkath/module.rs2f >> filterscape.rs2f
 cat zulrah/module.rs2f >> filterscape.rs2f
 cat muspah/module.rs2f >> filterscape.rs2f

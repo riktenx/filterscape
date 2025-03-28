@@ -6,7 +6,7 @@
       "type": "enumlist",
       "group": "FILTER",
       "label": "100% drops",
-      "macroName": "VAR_MOD_ENUMLIST_FILTER_100",
+      "macroName": "VAR_ZULRAH_ENUMLIST_FILTER_100",
       "default": [],
       "enum": [
         "Zulrah's scales"
@@ -16,7 +16,7 @@
       "type": "enumlist",
       "group": "FILTER",
       "label": "Uniques",
-      "macroName": "VAR_MOD_ENUMLIST_FILTER_UNIQUES",
+      "macroName": "VAR_ZULRAH_ENUMLIST_FILTER_UNIQUES",
       "default": [],
       "enum": [
         "Tanzanite fang",
@@ -29,7 +29,7 @@
       "type": "enumlist",
       "group": "FILTER",
       "label": "Mutagens",
-      "macroName": "VAR_MOD_ENUMLIST_FILTER_MUTAGENS",
+      "macroName": "VAR_ZULRAH_ENUMLIST_FILTER_MUTAGENS",
       "default": [],
       "enum": [
         "Tanzanite mutagen",
@@ -40,7 +40,7 @@
       "type": "enumlist",
       "group": "FILTER",
       "label": "Weapons and armour",
-      "macroName": "VAR_MOD_ENUMLIST_FILTER_WEAPONS",
+      "macroName": "VAR_ZULRAH_ENUMLIST_FILTER_WEAPONS",
       "default": [],
       "enum": [
         "Battlestaff",
@@ -52,7 +52,7 @@
       "type": "enumlist",
       "group": "FILTER",
       "label": "Runes",
-      "macroName": "VAR_MOD_ENUMLIST_FILTER_RUNES",
+      "macroName": "VAR_ZULRAH_ENUMLIST_FILTER_RUNES",
       "default": [],
       "enum": [
         "Death rune",
@@ -64,7 +64,7 @@
       "type": "enumlist",
       "group": "FILTER",
       "label": "Herbs",
-      "macroName": "VAR_MOD_ENUMLIST_FILTER_HERBS",
+      "macroName": "VAR_ZULRAH_ENUMLIST_FILTER_HERBS",
       "default": [],
       "enum": [
         "Snapdragon",
@@ -77,7 +77,7 @@
       "type": "enumlist",
       "group": "FILTER",
       "label": "Seeds",
-      "macroName": "VAR_MOD_ENUMLIST_FILTER_SEEDS",
+      "macroName": "VAR_ZULRAH_ENUMLIST_FILTER_SEEDS",
       "default": [],
       "enum": [
         "Palm tree seed",
@@ -95,7 +95,7 @@
       "type": "enumlist",
       "group": "FILTER",
       "label": "Resources",
-      "macroName": "VAR_MOD_ENUMLIST_FILTER_RESOURCES",
+      "macroName": "VAR_ZULRAH_ENUMLIST_FILTER_RESOURCES",
       "default": [],
       "enum": [
         "Snakeskin",
@@ -113,7 +113,7 @@
       "type": "enumlist",
       "group": "FILTER",
       "label": "Other",
-      "macroName": "VAR_MOD_ENUMLIST_FILTER_OTHER",
+      "macroName": "VAR_ZULRAH_ENUMLIST_FILTER_OTHER",
       "default": [],
       "enum": [
         "Zul-andra teleport",
@@ -130,7 +130,7 @@
       "type": "enumlist",
       "group": "FILTER",
       "label": "Tertiary",
-      "macroName": "VAR_MOD_ENUMLIST_FILTER_TERTIARY",
+      "macroName": "VAR_ZULRAH_ENUMLIST_FILTER_TERTIARY",
       "default": [],
       "enum": [
         "Brimstone key",

@@ -6,7 +6,7 @@
       "type": "enumlist",
       "group": "FILTER",
       "label": "Consumables",
-      "macroName": "VAR_MOD_ENUMLIST_FILTER_CONSUMABLES",
+      "macroName": "VAR_KALPHITEQUEEN_ENUMLIST_FILTER_CONSUMABLES",
       "default": [],
       "enum": [
         "Monkfish",
@@ -24,7 +24,7 @@
       "type": "enumlist",
       "group": "FILTER",
       "label": "Weapons and armour",
-      "macroName": "VAR_MOD_ENUMLIST_FILTER_WEAPONS",
+      "macroName": "VAR_KALPHITEQUEEN_ENUMLIST_FILTER_WEAPONS",
       "default": [],
       "enum": [
         "Battlestaff",
@@ -38,7 +38,7 @@
       "type": "enumlist",
       "group": "FILTER",
       "label": "Runes and ammunition",
-      "macroName": "VAR_MOD_ENUMLIST_FILTER_RUNES",
+      "macroName": "VAR_KALPHITEQUEEN_ENUMLIST_FILTER_RUNES",
       "default": [],
       "enum": [
         "Death rune",
@@ -51,7 +51,7 @@
       "type": "enumlist",
       "group": "FILTER",
       "label": "Herbs",
-      "macroName": "VAR_MOD_ENUMLIST_FILTER_HERBS",
+      "macroName": "VAR_KALPHITEQUEEN_ENUMLIST_FILTER_HERBS",
       "default": [],
       "enum": [
         "Grimy toadflax",
@@ -64,7 +64,7 @@
       "type": "enumlist",
       "group": "FILTER",
       "label": "Seeds",
-      "macroName": "VAR_MOD_ENUMLIST_FILTER_SEEDS",
+      "macroName": "VAR_KALPHITEQUEEN_ENUMLIST_FILTER_SEEDS",
       "default": [],
       "enum": [
         "Torstol seed",
@@ -78,7 +78,7 @@
       "type": "enumlist",
       "group": "FILTER",
       "label": "Resources",
-      "macroName": "VAR_MOD_ENUMLIST_FILTER_RESOURCES",
+      "macroName": "VAR_KALPHITEQUEEN_ENUMLIST_FILTER_RESOURCES",
       "default": [],
       "enum": [
         "Runite bar",
@@ -94,7 +94,7 @@
       "type": "enumlist",
       "group": "FILTER",
       "label": "Other",
-      "macroName": "VAR_MOD_ENUMLIST_FILTER_OTHER",
+      "macroName": "VAR_KALPHITEQUEEN_ENUMLIST_FILTER_OTHER",
       "default": [],
       "enum": [
         "Wine of zamorak",
@@ -109,7 +109,7 @@
       "type": "enumlist",
       "group": "FILTER",
       "label": "Tertiary",
-      "macroName": "VAR_MOD_ENUMLIST_FILTER_TERTIARY",
+      "macroName": "VAR_KALPHITEQUEEN_ENUMLIST_FILTER_TERTIARY",
       "default": [],
       "enum": [
         "Kq head (tattered)",

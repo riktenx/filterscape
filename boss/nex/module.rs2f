@@ -11,50 +11,50 @@
 
 // label:100%
 // enum:["Big bones"]
-#define VAR_MOD_ENUMLIST_FILTER_100 []
-CONST_NEX_IF (name:VAR_MOD_ENUMLIST_FILTER_100) {
+#define VAR_NEX_ENUMLIST_FILTER_100 []
+CONST_NEX_IF (name:VAR_NEX_ENUMLIST_FILTER_100) {
   hidden = true;
 }
 
 // label:Uniques
 // enum:["Ancient hilt","Nihil horn","Torva full helm (damaged)","Torva platebody (damaged)","Torva platelegs (damaged)","Zaryte vambraces"]
-#define VAR_MOD_ENUMLIST_FILTER_UNIQUES []
-CONST_NEX_IF (name:VAR_MOD_ENUMLIST_FILTER_UNIQUES) {
+#define VAR_NEX_ENUMLIST_FILTER_UNIQUES []
+CONST_NEX_IF (name:VAR_NEX_ENUMLIST_FILTER_UNIQUES) {
   hidden = true;
 }
 
 // label:Runes & ammunition
 // enum:["Air rune","Fire rune","Blood rune","Death rune","Water rune","Soul rune","Dragon bolts (unf)","Onyx bolts (e)","Cannonball"]
-#define VAR_MOD_ENUMLIST_FILTER_RUNES []
-CONST_NEX_IF (name:VAR_MOD_ENUMLIST_FILTER_RUNES) {
+#define VAR_NEX_ENUMLIST_FILTER_RUNES []
+CONST_NEX_IF (name:VAR_NEX_ENUMLIST_FILTER_RUNES) {
   hidden = true;
 }
 
 // label:Resources
 // enum:["Air orb","Coal","Runite ore","Uncut ruby","Uncut diamond","Wine of zamorak"]
-#define VAR_MOD_ENUMLIST_FILTER_RESOURCES []
-CONST_NEX_IF (name:VAR_MOD_ENUMLIST_FILTER_RESOURCES) {
+#define VAR_NEX_ENUMLIST_FILTER_RESOURCES []
+CONST_NEX_IF (name:VAR_NEX_ENUMLIST_FILTER_RESOURCES) {
   hidden = true;
 }
 
 // label:Consumables
 // enum:["Shark","Prayer potion(4)","Saradomin brew(4)","Super restore(4)"]
-#define VAR_MOD_ENUMLIST_FILTER_CONSUMABLES []
-CONST_NEX_IF (name:VAR_MOD_ENUMLIST_FILTER_CONSUMABLES) {
+#define VAR_NEX_ENUMLIST_FILTER_CONSUMABLES []
+CONST_NEX_IF (name:VAR_NEX_ENUMLIST_FILTER_CONSUMABLES) {
   hidden = true;
 }
 
 // label:Other
 // enum:["Blood essence","Coins","Rune sword","Ecumenical key shard","Nihil shard","Nihil shard"]
-#define VAR_MOD_ENUMLIST_FILTER_OTHER []
-CONST_NEX_IF (name:VAR_MOD_ENUMLIST_FILTER_OTHER) {
+#define VAR_NEX_ENUMLIST_FILTER_OTHER []
+CONST_NEX_IF (name:VAR_NEX_ENUMLIST_FILTER_OTHER) {
   hidden = true;
 }
 
 // label:Tertiary
 // enum:["Clue scroll (elite)","Nexling"]
-#define VAR_MOD_ENUMLIST_FILTER_TERTIARY []
-CONST_NEX_IF (name:VAR_MOD_ENUMLIST_FILTER_TERTIARY) {
+#define VAR_NEX_ENUMLIST_FILTER_TERTIARY []
+CONST_NEX_IF (name:VAR_NEX_ENUMLIST_FILTER_TERTIARY) {
   hidden = true;
 }
 

@@ -6,7 +6,7 @@
       "type": "enumlist",
       "group": "FILTER",
       "label": "100%",
-      "macroName": "VAR_MOD_ENUMLIST_FILTER_100",
+      "macroName": "VAR_KRILTSUTSAROTH_ENUMLIST_FILTER_100",
       "default": [],
       "enum": [
         "Infernal ashes",
@@ -17,7 +17,7 @@
       "type": "enumlist",
       "group": "FILTER",
       "label": "Uniques",
-      "macroName": "VAR_MOD_ENUMLIST_FILTER_UNIQUES",
+      "macroName": "VAR_KRILTSUTSAROTH_ENUMLIST_FILTER_UNIQUES",
       "default": [],
       "enum": [
         "Steam battlestaff",
@@ -33,7 +33,7 @@
       "type": "enumlist",
       "group": "FILTER",
       "label": "Weapons and armour",
-      "macroName": "VAR_MOD_ENUMLIST_FILTER_WEAPONS",
+      "macroName": "VAR_KRILTSUTSAROTH_ENUMLIST_FILTER_WEAPONS",
       "default": [],
       "enum": [
         "Adamant arrow(p++)",
@@ -47,7 +47,7 @@
       "type": "enumlist",
       "group": "FILTER",
       "label": "Potions",
-      "macroName": "VAR_MOD_ENUMLIST_FILTER_POTIONS",
+      "macroName": "VAR_KRILTSUTSAROTH_ENUMLIST_FILTER_POTIONS",
       "default": [],
       "enum": [
         "Super attack(3)",
@@ -60,7 +60,7 @@
       "type": "enumlist",
       "group": "FILTER",
       "label": "Other",
-      "macroName": "VAR_MOD_ENUMLIST_FILTER_OTHER",
+      "macroName": "VAR_KRILTSUTSAROTH_ENUMLIST_FILTER_OTHER",
       "default": [],
       "enum": [
         "Coins",
@@ -74,7 +74,7 @@
       "type": "enumlist",
       "group": "FILTER",
       "label": "Tertiary",
-      "macroName": "VAR_MOD_ENUMLIST_FILTER_TERTIARY",
+      "macroName": "VAR_KRILTSUTSAROTH_ENUMLIST_FILTER_TERTIARY",
       "default": [],
       "enum": [
         "Brimstone key",

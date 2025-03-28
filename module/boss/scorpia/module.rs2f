@@ -1,0 +1,57 @@
+// module:Scorpia
+
+#define CONST_AREA_SCORPIA [3214,10324,0,3252,10358,0]
+#define CONST_SCORPIA_IF(_cond) if (area:CONST_AREA_SCORPIA && (_cond))
+
+// label:Pre-roll
+// enum:["Odium shard 3","Malediction shard 3"]
+#define VAR_SCORPIA_ENUMLIST_FILTER_PRE-ROLL []
+CONST_SCORPIA_IF (name:VAR_SCORPIA_ENUMLIST_FILTER_PRE-ROLL) {
+  hidden = true;
+}
+
+// label:Weapons and armour
+// enum:["Battlestaff","Rune 2h sword","Rune pickaxe","Rune kiteshield","Rune chainbody","Rune platelegs","Rune scimitar","Rune warhammer","Mystic earth staff","Mystic robe top","Mystic robe bottom","Dragon scimitar","Dragon 2h sword"]
+#define VAR_SCORPIA_ENUMLIST_FILTER_WEAPONS []
+CONST_SCORPIA_IF (name:VAR_SCORPIA_ENUMLIST_FILTER_WEAPONS) {
+  hidden = true;
+}
+
+// label:Runes
+// enum:["Death rune","Blood rune","Chaos rune"]
+#define VAR_SCORPIA_ENUMLIST_FILTER_RUNES []
+CONST_SCORPIA_IF (name:VAR_SCORPIA_ENUMLIST_FILTER_RUNES) {
+  hidden = true;
+}
+
+// label:Herbs
+// enum:["Grimy kwuarm","Grimy dwarf weed","Grimy torstol","Grimy snapdragon"]
+#define VAR_SCORPIA_ENUMLIST_FILTER_HERBS []
+CONST_SCORPIA_IF (name:VAR_SCORPIA_ENUMLIST_FILTER_HERBS) {
+  hidden = true;
+}
+
+// label:Materials
+// enum:["Uncut ruby","Uncut diamond","Runite ore","Dragon javelin heads","Onyx bolt tips"]
+#define VAR_SCORPIA_ENUMLIST_FILTER_MATERIALS []
+CONST_SCORPIA_IF (name:VAR_SCORPIA_ENUMLIST_FILTER_MATERIALS) {
+  hidden = true;
+}
+
+// label:Other
+// enum:["Coins","Blighted anglerfish","Blighted super restore(4)","Wilderness crabs teleport"]
+#define VAR_SCORPIA_ENUMLIST_FILTER_OTHER []
+CONST_SCORPIA_IF (name:VAR_SCORPIA_ENUMLIST_FILTER_OTHER) {
+  hidden = true;
+}
+
+// label:Tertiary
+// enum:["Looting bag","Ensouled scorpion head","Brimstone key","Scorpia's offspring"]
+#define VAR_SCORPIA_ENUMLIST_FILTER_TERTIARY []
+CONST_SCORPIA_IF (name:VAR_SCORPIA_ENUMLIST_FILTER_TERTIARY) {
+  hidden = true;
+}
+
+
+
+// endmodule:Scorpia

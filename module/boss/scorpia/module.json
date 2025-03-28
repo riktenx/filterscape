@@ -1,0 +1,104 @@
+{
+  "name": "Scorpia",
+  "rs2fPath": "module.rs2f",
+  "inputs": [
+    {
+      "type": "enumlist",
+      "group": "FILTER",
+      "label": "Pre-roll",
+      "macroName": "VAR_SCORPIA_ENUMLIST_FILTER_PRE-ROLL",
+      "default": [],
+      "enum": [
+        "Odium shard 3",
+        "Malediction shard 3"
+      ]
+    },
+    {
+      "type": "enumlist",
+      "group": "FILTER",
+      "label": "Weapons and armour",
+      "macroName": "VAR_SCORPIA_ENUMLIST_FILTER_WEAPONS",
+      "default": [],
+      "enum": [
+        "Battlestaff",
+        "Rune 2h sword",
+        "Rune pickaxe",
+        "Rune kiteshield",
+        "Rune chainbody",
+        "Rune platelegs",
+        "Rune scimitar",
+        "Rune warhammer",
+        "Mystic earth staff",
+        "Mystic robe top",
+        "Mystic robe bottom",
+        "Dragon scimitar",
+        "Dragon 2h sword"
+      ]
+    },
+    {
+      "type": "enumlist",
+      "group": "FILTER",
+      "label": "Runes",
+      "macroName": "VAR_SCORPIA_ENUMLIST_FILTER_RUNES",
+      "default": [],
+      "enum": [
+        "Death rune",
+        "Blood rune",
+        "Chaos rune"
+      ]
+    },
+    {
+      "type": "enumlist",
+      "group": "FILTER",
+      "label": "Herbs",
+      "macroName": "VAR_SCORPIA_ENUMLIST_FILTER_HERBS",
+      "default": [],
+      "enum": [
+        "Grimy kwuarm",
+        "Grimy dwarf weed",
+        "Grimy torstol",
+        "Grimy snapdragon"
+      ]
+    },
+    {
+      "type": "enumlist",
+      "group": "FILTER",
+      "label": "Materials",
+      "macroName": "VAR_SCORPIA_ENUMLIST_FILTER_MATERIALS",
+      "default": [],
+      "enum": [
+        "Uncut ruby",
+        "Uncut diamond",
+        "Runite ore",
+        "Dragon javelin heads",
+        "Onyx bolt tips"
+      ]
+    },
+    {
+      "type": "enumlist",
+      "group": "FILTER",
+      "label": "Other",
+      "macroName": "VAR_SCORPIA_ENUMLIST_FILTER_OTHER",
+      "default": [],
+      "enum": [
+        "Coins",
+        "Blighted anglerfish",
+        "Blighted super restore(4)",
+        "Wilderness crabs teleport"
+      ]
+    },
+    {
+      "type": "enumlist",
+      "group": "FILTER",
+      "label": "Tertiary",
+      "macroName": "VAR_SCORPIA_ENUMLIST_FILTER_TERTIARY",
+      "default": [],
+      "enum": [
+        "Looting bag",
+        "Ensouled scorpion head",
+        "Brimstone key",
+        "Scorpia's offspring"
+      ]
+    }
+  ]
+}

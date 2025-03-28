@@ -31,11 +31,16 @@ const toAreaMacroIdent = (str) => str
   .replaceAll(' ', '')
   .replaceAll('-', '');
 
-export const generateRs2f = (name, area, dropTable) => {
+export const generateRs2f = (name, area, dropTable, transform) => {
   let rs2f = '';
 
   rs2f += `// module:${name}`;
   rs2f += '\n\n';
+
+  if (!!transform.preScript) {
+    rs2f += transform.preScript();
+    rs2f += '\n\n';
+  }
 
   const moduleScope = toAreaMacroIdent(name);
   const areaDefine = JSON.stringify(area);

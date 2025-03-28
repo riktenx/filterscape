@@ -1,14 +1,18 @@
 // module:Vorkath
 
-#define CONST_AREA_VORKATH [2256,4051,0,2288,4080,0]
-#define CONST_VORKATH_IF(_cond) if (area:CONST_AREA_VORKATH && (_cond))
-
-// label:100%
-// enum:["Superior dragon bones","Blue dragonhide"]
-#define VAR_VORKATH_ENUMLIST_FILTER_100 []
-CONST_VORKATH_IF (name:VAR_VORKATH_ENUMLIST_FILTER_100) {
+// label:Hide un-noted blue d-hide
+#define VAR_VORKATH_BOOLEAN_GENERAL_NOHIDE true
+// label:Hide superior dragon bones (why?)
+#define VAR_VORKATH_BOOLEAN_GENERAL_NOBONE false
+CONST_VORKATH_IF (VAR_VORKATH_BOOLEAN_GENERAL_NOHIDE && name:"Blue dragonhide" && noted:false) {
   hidden = true;
 }
+CONST_VORKATH_IF (VAR_VORKATH_BOOLEAN_GENERAL_NOBONE && name:"Superior dragon bones" && noted:false) {
+  hidden = true;
+}
+
+#define CONST_AREA_VORKATH [2256,4051,0,2288,4080,0]
+#define CONST_VORKATH_IF(_cond) if (area:CONST_AREA_VORKATH && (_cond))
 
 // label:Weapons and armour
 // enum:["Rune longsword","Rune kiteshield","Battlestaff","Dragon battleaxe","Dragon longsword","Dragon platelegs","Dragon plateskirt"]

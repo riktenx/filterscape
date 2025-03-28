@@ -3,15 +3,18 @@
   "rs2fPath": "module.rs2f",
   "inputs": [
     {
-      "type": "enumlist",
-      "group": "FILTER",
-      "label": "100%",
-      "macroName": "VAR_VORKATH_ENUMLIST_FILTER_100",
-      "default": [],
-      "enum": [
-        "Superior dragon bones",
-        "Blue dragonhide"
-      ]
+      "type": "boolean",
+      "group": "GENERAL",
+      "label": "Hide un-noted blue d-hide",
+      "macroName": "VAR_VORKATH_BOOLEAN_GENERAL_NOHIDE",
+      "default": true
+    },
+    {
+      "type": "boolean",
+      "group": "GENERAL",
+      "label": "Hide superior dragon bones (why?)",
+      "macroName": "VAR_VORKATH_BOOLEAN_GENERAL_NOBONE",
+      "default": false
     },
     {
       "type": "enumlist",

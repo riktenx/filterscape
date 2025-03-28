@@ -131,6 +131,23 @@ const index = [
     name: 'Vorkath',
     area: [2256, 4051, 0, 2288, 4080, 0],
     url: 'https://oldschool.runescape.wiki/w/Vorkath',
+    transform: {
+      updateDropTable: (table) => {
+        delete table['100%'];
+      },
+      preScript: () => {
+        return `// label:Hide un-noted blue d-hide
+#define VAR_VORKATH_BOOLEAN_GENERAL_NOHIDE true
+// label:Hide superior dragon bones (why?)
+#define VAR_VORKATH_BOOLEAN_GENERAL_NOBONE false
+CONST_VORKATH_IF (VAR_VORKATH_BOOLEAN_GENERAL_NOHIDE && name:"Blue dragonhide" && noted:false) {
+  hidden = true;
+}
+CONST_VORKATH_IF (VAR_VORKATH_BOOLEAN_GENERAL_NOBONE && name:"Superior dragon bones" && noted:false) {
+  hidden = true;
+}`;
+      },
+    },
   },
   {
     name: 'Phantom Muspah',
@@ -204,11 +221,18 @@ for (const boss of index) {
     continue;
   }
 
+  if (!boss.transform) {
+    boss.transform = {};
+  }
+
   const wikiSource = await getWikiSource(boss.url);
   const dropTable = buildDropTable(wikiSource);
+  if (!!boss.transform.updateDropTable) {
+    boss.transform.updateDropTable(dropTable);
+  }
 
   const moduleName = toModuleName(boss.name);
-  const rs2f = generateRs2f(boss.name, boss.area, dropTable);
+  const rs2f = generateRs2f(boss.name, boss.area, dropTable, boss.transform);
   const module = generateJson(rs2f);
 
   const modulePath = `boss/${moduleName}`;
@@ -216,6 +240,7 @@ for (const boss of index) {
     fs.mkdirSync(modulePath);
   }
 
+  fs.writeFileSync(`${modulePath}/dropTable`, JSON.stringify(dropTable, null, 2));
   fs.writeFileSync(`${modulePath}/module.rs2f`, rs2f);
   fs.writeFileSync(`${modulePath}/module.json`, JSON.stringify(module, null, 2));
 }

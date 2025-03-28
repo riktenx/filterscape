@@ -1,0 +1,114 @@
+{
+  "name": "Vorkath",
+  "rs2fPath": "module.rs2f",
+  "inputs": [
+    {
+      "type": "enumlist",
+      "group": "FILTER",
+      "label": "100%",
+      "macroName": "VAR_MOD_ENUMLIST_FILTER_100",
+      "default": [],
+      "enum": [
+        "Superior dragon bones",
+        "Blue dragonhide"
+      ]
+    },
+    {
+      "type": "enumlist",
+      "group": "FILTER",
+      "label": "Weapons and armour",
+      "macroName": "VAR_MOD_ENUMLIST_FILTER_WEAPONS",
+      "default": [],
+      "enum": [
+        "Rune longsword",
+        "Rune kiteshield",
+        "Battlestaff",
+        "Dragon battleaxe",
+        "Dragon longsword",
+        "Dragon platelegs",
+        "Dragon plateskirt"
+      ]
+    },
+    {
+      "type": "enumlist",
+      "group": "FILTER",
+      "label": "Runes",
+      "macroName": "VAR_MOD_ENUMLIST_FILTER_RUNES",
+      "default": [],
+      "enum": [
+        "Chaos rune",
+        "Death rune",
+        "Wrath rune"
+      ]
+    },
+    {
+      "type": "enumlist",
+      "group": "FILTER",
+      "label": "Dragonhide",
+      "macroName": "VAR_MOD_ENUMLIST_FILTER_DRAGONHIDE",
+      "default": [],
+      "enum": [
+        "Blue dragonhide",
+        "Green dragonhide",
+        "Red dragonhide",
+        "Black dragonhide"
+      ]
+    },
+    {
+      "type": "enumlist",
+      "group": "FILTER",
+      "label": "Fletching materials",
+      "macroName": "VAR_MOD_ENUMLIST_FILTER_FLETCHING",
+      "default": [],
+      "enum": [
+        "Dragon bolts (unf)",
+        "Sapphire bolt tips",
+        "Emerald bolt tips",
+        "Ruby bolt tips",
+        "Diamond bolt tips",
+        "Dragonstone bolt tips",
+        "Dragonstone bolt tips",
+        "Onyx bolt tips",
+        "Onyx bolt tips",
+        "Rune dart tip",
+        "Dragon dart tip",
+        "Dragon arrowtips"
+      ]
+    },
+    {
+      "type": "enumlist",
+      "group": "FILTER",
+      "label": "Other",
+      "macroName": "VAR_MOD_ENUMLIST_FILTER_OTHER",
+      "default": [],
+      "enum": [
+        "Adamantite ore",
+        "Coins",
+        "Grapes",
+        "Magic logs",
+        "Manta ray",
+        "Dragon bones",
+        "Diamond",
+        "Dragonstone",
+        "Wrath talisman"
+      ]
+    },
+    {
+      "type": "enumlist",
+      "group": "FILTER",
+      "label": "Tertiary",
+      "macroName": "VAR_MOD_ENUMLIST_FILTER_TERTIARY",
+      "default": [],
+      "enum": [
+        "Scaly blue dragonhide",
+        "Vorkath's head",
+        "Brimstone key",
+        "Dragonbone necklace",
+        "Jar of decay",
+        "Vorki",
+        "Draconic visage",
+        "Skeletal visage"
+      ]
+    }
+  ]
+}

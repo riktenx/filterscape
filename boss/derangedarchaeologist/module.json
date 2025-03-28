@@ -1,0 +1,92 @@
+{
+  "name": "Deranged archaeologist",
+  "rs2fPath": "module.rs2f",
+  "inputs": [
+    {
+      "type": "enumlist",
+      "group": "FILTER",
+      "label": "100%",
+      "macroName": "VAR_MOD_ENUMLIST_FILTER_100",
+      "default": [],
+      "enum": [
+        "Bones"
+      ]
+    },
+    {
+      "type": "enumlist",
+      "group": "FILTER",
+      "label": "Weapons and armour",
+      "macroName": "VAR_MOD_ENUMLIST_FILTER_WEAPONS",
+      "default": [],
+      "enum": [
+        "Black d'hide body",
+        "Rune 2h sword",
+        "Rune sword"
+      ]
+    },
+    {
+      "type": "enumlist",
+      "group": "FILTER",
+      "label": "Runes and ammunition",
+      "macroName": "VAR_MOD_ENUMLIST_FILTER_RUNES",
+      "default": [],
+      "enum": [
+        "Water rune",
+        "Mud rune",
+        "Rune knife",
+        "Dragon arrow",
+        "Cannonball"
+      ]
+    },
+    {
+      "type": "enumlist",
+      "group": "FILTER",
+      "label": "Materials",
+      "macroName": "VAR_MOD_ENUMLIST_FILTER_MATERIALS",
+      "default": [],
+      "enum": [
+        "Grimy dwarf weed",
+        "White berries",
+        "Runite limbs",
+        "Black dragonhide",
+        "Gold ore",
+        "Uncut diamond",
+        "Onyx bolt tips"
+      ]
+    },
+    {
+      "type": "enumlist",
+      "group": "FILTER",
+      "label": "Consumables",
+      "macroName": "VAR_MOD_ENUMLIST_FILTER_CONSUMABLES",
+      "default": [],
+      "enum": [
+        "Anchovy pizza",
+        "Prayer potion(3)",
+        "Potato with cheese",
+        "Shark"
+      ]
+    },
+    {
+      "type": "enumlist",
+      "group": "FILTER",
+      "label": "Other",
+      "macroName": "VAR_MOD_ENUMLIST_FILTER_OTHER",
+      "default": [],
+      "enum": [
+        "Crystal key",
+        "Long bone"
+      ]
+    },
+    {
+      "type": "enumlist",
+      "group": "FILTER",
+      "label": "Tertiary",
+      "macroName": "VAR_MOD_ENUMLIST_FILTER_TERTIARY",
+      "default": [],
+      "enum": [
+        "Brimstone key"
+      ]
+    }
+  ]
+}

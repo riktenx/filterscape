@@ -1,0 +1,88 @@
+{
+  "name": "Kree'arra",
+  "rs2fPath": "module.rs2f",
+  "inputs": [
+    {
+      "type": "enumlist",
+      "group": "FILTER",
+      "label": "100%",
+      "macroName": "VAR_MOD_ENUMLIST_FILTER_100",
+      "default": [],
+      "enum": [
+        "Big bones",
+        "Feather",
+        "Frozen key piece (armadyl)"
+      ]
+    },
+    {
+      "type": "enumlist",
+      "group": "FILTER",
+      "label": "Uniques",
+      "macroName": "VAR_MOD_ENUMLIST_FILTER_UNIQUES",
+      "default": [],
+      "enum": [
+        "Armadyl helmet",
+        "Armadyl chestplate",
+        "Armadyl chainskirt",
+        "Armadyl hilt",
+        "Godsword shard 1",
+        "Godsword shard 2",
+        "Godsword shard 3"
+      ]
+    },
+    {
+      "type": "enumlist",
+      "group": "FILTER",
+      "label": "Weapons and armour",
+      "macroName": "VAR_MOD_ENUMLIST_FILTER_WEAPONS",
+      "default": [],
+      "enum": [
+        "Black d'hide body",
+        "Rune crossbow"
+      ]
+    },
+    {
+      "type": "enumlist",
+      "group": "FILTER",
+      "label": "Runes and ammunition",
+      "macroName": "VAR_MOD_ENUMLIST_FILTER_RUNES",
+      "default": [],
+      "enum": [
+        "Mind rune",
+        "Rune arrow",
+        "Runite bolts",
+        "Dragonstone bolts (e)"
+      ]
+    },
+    {
+      "type": "enumlist",
+      "group": "FILTER",
+      "label": "Other",
+      "macroName": "VAR_MOD_ENUMLIST_FILTER_OTHER",
+      "default": [],
+      "enum": [
+        "Coins",
+        "Ranging potion(3)",
+        "Super defence(3)",
+        "Grimy dwarf weed",
+        "Dwarf weed seed",
+        "Coins",
+        "Crystal key",
+        "Yew seed"
+      ]
+    },
+    {
+      "type": "enumlist",
+      "group": "FILTER",
+      "label": "Tertiary",
+      "macroName": "VAR_MOD_ENUMLIST_FILTER_TERTIARY",
+      "default": [],
+      "enum": [
+        "Brimstone key",
+        "Long bone",
+        "Pet kree'arra",
+        "Curved bone"
+      ]
+    }
+  ]
+}

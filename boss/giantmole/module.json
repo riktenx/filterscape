@@ -1,0 +1,75 @@
+{
+  "name": "Giant Mole",
+  "rs2fPath": "module.rs2f",
+  "inputs": [
+    {
+      "type": "enumlist",
+      "group": "FILTER",
+      "label": "100%",
+      "macroName": "VAR_MOD_ENUMLIST_FILTER_100",
+      "default": [],
+      "enum": [
+        "Big bones",
+        "Mole claw",
+        "Mole skin"
+      ]
+    },
+    {
+      "type": "enumlist",
+      "group": "FILTER",
+      "label": "Weapons and armour",
+      "macroName": "VAR_MOD_ENUMLIST_FILTER_WEAPONS",
+      "default": [],
+      "enum": [
+        "Adamant longsword",
+        "Mithril platebody",
+        "Amulet of strength",
+        "Mithril axe",
+        "Mithril battleaxe",
+        "Rune med helm"
+      ]
+    },
+    {
+      "type": "enumlist",
+      "group": "FILTER",
+      "label": "Runes and ammunition",
+      "macroName": "VAR_MOD_ENUMLIST_FILTER_RUNES",
+      "default": [],
+      "enum": [
+        "Air rune",
+        "Blood rune",
+        "Fire rune",
+        "Iron arrow",
+        "Law rune",
+        "Death rune"
+      ]
+    },
+    {
+      "type": "enumlist",
+      "group": "FILTER",
+      "label": "Other",
+      "macroName": "VAR_MOD_ENUMLIST_FILTER_OTHER",
+      "default": [],
+      "enum": [
+        "Yew logs",
+        "Shark",
+        "Mithril bar",
+        "Iron ore",
+        "Oyster pearls"
+      ]
+    },
+    {
+      "type": "enumlist",
+      "group": "FILTER",
+      "label": "Tertiary",
+      "macroName": "VAR_MOD_ENUMLIST_FILTER_TERTIARY",
+      "default": [],
+      "enum": [
+        "Brimstone key",
+        "Long bone",
+        "Baby mole",
+        "Curved bone"
+      ]
+    }
+  ]
+}

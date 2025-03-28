@@ -1,0 +1,80 @@
+// module:Zulrah
+
+#define CONST_AREA_ZULRAH [2259,3065,0,2277,3080,0]
+#define CONST_ZULRAH_IF(_cond) if (area:CONST_AREA_ZULRAH && (_cond))
+
+
+
+// label:100% drops
+// enum:["Zulrah's scales"]
+#define VAR_MOD_ENUMLIST_FILTER_100 []
+CONST_ZULRAH_IF (name:VAR_MOD_ENUMLIST_FILTER_100) {
+  hidden = true;
+}
+
+// label:Uniques
+// enum:["Tanzanite fang","Magic fang","Serpentine visage","Uncut onyx"]
+#define VAR_MOD_ENUMLIST_FILTER_UNIQUES []
+CONST_ZULRAH_IF (name:VAR_MOD_ENUMLIST_FILTER_UNIQUES) {
+  hidden = true;
+}
+
+// label:Mutagens
+// enum:["Tanzanite mutagen","Magma mutagen"]
+#define VAR_MOD_ENUMLIST_FILTER_MUTAGENS []
+CONST_ZULRAH_IF (name:VAR_MOD_ENUMLIST_FILTER_MUTAGENS) {
+  hidden = true;
+}
+
+// label:Weapons and armour
+// enum:["Battlestaff","Dragon med helm","Dragon halberd"]
+#define VAR_MOD_ENUMLIST_FILTER_WEAPONS []
+CONST_ZULRAH_IF (name:VAR_MOD_ENUMLIST_FILTER_WEAPONS) {
+  hidden = true;
+}
+
+// label:Runes
+// enum:["Death rune","Law rune","Chaos rune"]
+#define VAR_MOD_ENUMLIST_FILTER_RUNES []
+CONST_ZULRAH_IF (name:VAR_MOD_ENUMLIST_FILTER_RUNES) {
+  hidden = true;
+}
+
+// label:Herbs
+// enum:["Snapdragon","Dwarf weed","Toadflax","Torstol"]
+#define VAR_MOD_ENUMLIST_FILTER_HERBS []
+CONST_ZULRAH_IF (name:VAR_MOD_ENUMLIST_FILTER_HERBS) {
+  hidden = true;
+}
+
+// label:Seeds
+// enum:["Palm tree seed","Papaya tree seed","Calquat tree seed","Magic seed","Toadflax seed","Snapdragon seed","Dwarf weed seed","Torstol seed","Spirit seed"]
+#define VAR_MOD_ENUMLIST_FILTER_SEEDS []
+CONST_ZULRAH_IF (name:VAR_MOD_ENUMLIST_FILTER_SEEDS) {
+  hidden = true;
+}
+
+// label:Resources
+// enum:["Snakeskin","Runite ore","Pure essence","Flax","Yew logs","Adamantite bar","Coal","Dragon bones","Mahogany logs"]
+#define VAR_MOD_ENUMLIST_FILTER_RESOURCES []
+CONST_ZULRAH_IF (name:VAR_MOD_ENUMLIST_FILTER_RESOURCES) {
+  hidden = true;
+}
+
+// label:Other
+// enum:["Zul-andra teleport","Manta ray","Antidote++(4)","Dragonstone bolt tips","Grapes","Coconut","Swamp tar","Zulrah's scales"]
+#define VAR_MOD_ENUMLIST_FILTER_OTHER []
+CONST_ZULRAH_IF (name:VAR_MOD_ENUMLIST_FILTER_OTHER) {
+  hidden = true;
+}
+
+
+
+// label:Tertiary
+// enum:["Brimstone key","Jar of swamp","Pet snakeling"]
+#define VAR_MOD_ENUMLIST_FILTER_TERTIARY []
+CONST_ZULRAH_IF (name:VAR_MOD_ENUMLIST_FILTER_TERTIARY) {
+  hidden = true;
+}
+
+// endmodule:Zulrah

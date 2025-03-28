@@ -1,0 +1,59 @@
+// module:Deranged archaeologist
+
+#define CONST_AREA_DERANGEDARCHAEOLOGIST [3669,3694,0,3698,3722,0]
+#define CONST_DERANGEDARCHAEOLOGIST_IF(_cond) if (area:CONST_AREA_DERANGEDARCHAEOLOGIST && (_cond))
+
+// label:100%
+// enum:["Bones"]
+#define VAR_MOD_ENUMLIST_FILTER_100 []
+CONST_DERANGEDARCHAEOLOGIST_IF (name:VAR_MOD_ENUMLIST_FILTER_100) {
+  hidden = true;
+}
+
+// label:Weapons and armour
+// enum:["Black d'hide body","Rune 2h sword","Rune sword"]
+#define VAR_MOD_ENUMLIST_FILTER_WEAPONS []
+CONST_DERANGEDARCHAEOLOGIST_IF (name:VAR_MOD_ENUMLIST_FILTER_WEAPONS) {
+  hidden = true;
+}
+
+// label:Runes and ammunition
+// enum:["Water rune","Mud rune","Rune knife","Dragon arrow","Cannonball"]
+#define VAR_MOD_ENUMLIST_FILTER_RUNES []
+CONST_DERANGEDARCHAEOLOGIST_IF (name:VAR_MOD_ENUMLIST_FILTER_RUNES) {
+  hidden = true;
+}
+
+
+
+// label:Materials
+// enum:["Grimy dwarf weed","White berries","Runite limbs","Black dragonhide","Gold ore","Uncut diamond","Onyx bolt tips"]
+#define VAR_MOD_ENUMLIST_FILTER_MATERIALS []
+CONST_DERANGEDARCHAEOLOGIST_IF (name:VAR_MOD_ENUMLIST_FILTER_MATERIALS) {
+  hidden = true;
+}
+
+// label:Consumables
+// enum:["Anchovy pizza","Prayer potion(3)","Potato with cheese","Shark"]
+#define VAR_MOD_ENUMLIST_FILTER_CONSUMABLES []
+CONST_DERANGEDARCHAEOLOGIST_IF (name:VAR_MOD_ENUMLIST_FILTER_CONSUMABLES) {
+  hidden = true;
+}
+
+// label:Other
+// enum:["Crystal key","Long bone"]
+#define VAR_MOD_ENUMLIST_FILTER_OTHER []
+CONST_DERANGEDARCHAEOLOGIST_IF (name:VAR_MOD_ENUMLIST_FILTER_OTHER) {
+  hidden = true;
+}
+
+
+
+// label:Tertiary
+// enum:["Brimstone key"]
+#define VAR_MOD_ENUMLIST_FILTER_TERTIARY []
+CONST_DERANGEDARCHAEOLOGIST_IF (name:VAR_MOD_ENUMLIST_FILTER_TERTIARY) {
+  hidden = true;
+}
+
+// endmodule:Deranged archaeologist

@@ -1,0 +1,127 @@
+{
+  "name": "Kalphite Queen",
+  "rs2fPath": "module.rs2f",
+  "inputs": [
+    {
+      "type": "enumlist",
+      "group": "FILTER",
+      "label": "Consumables",
+      "macroName": "VAR_MOD_ENUMLIST_FILTER_CONSUMABLES",
+      "default": [],
+      "enum": [
+        "Monkfish",
+        "Shark",
+        "Dark crab",
+        "Saradomin brew(4)",
+        "Prayer potion(4)",
+        "Super restore(4)",
+        "Super combat potion(2)",
+        "Ranging potion(3)",
+        "Superantipoison(2)"
+      ]
+    },
+    {
+      "type": "enumlist",
+      "group": "FILTER",
+      "label": "Weapons and armour",
+      "macroName": "VAR_MOD_ENUMLIST_FILTER_WEAPONS",
+      "default": [],
+      "enum": [
+        "Battlestaff",
+        "Rune chainbody",
+        "Red d'hide body",
+        "Rune knife(p++)",
+        "Lava battlestaff"
+      ]
+    },
+    {
+      "type": "enumlist",
+      "group": "FILTER",
+      "label": "Runes and ammunition",
+      "macroName": "VAR_MOD_ENUMLIST_FILTER_RUNES",
+      "default": [],
+      "enum": [
+        "Death rune",
+        "Blood rune",
+        "Mithril arrow",
+        "Rune arrow"
+      ]
+    },
+    {
+      "type": "enumlist",
+      "group": "FILTER",
+      "label": "Herbs",
+      "macroName": "VAR_MOD_ENUMLIST_FILTER_HERBS",
+      "default": [],
+      "enum": [
+        "Grimy toadflax",
+        "Grimy ranarr weed",
+        "Grimy snapdragon",
+        "Grimy torstol"
+      ]
+    },
+    {
+      "type": "enumlist",
+      "group": "FILTER",
+      "label": "Seeds",
+      "macroName": "VAR_MOD_ENUMLIST_FILTER_SEEDS",
+      "default": [],
+      "enum": [
+        "Torstol seed",
+        "Watermelon seed",
+        "Papaya tree seed",
+        "Palm tree seed",
+        "Magic seed"
+      ]
+    },
+    {
+      "type": "enumlist",
+      "group": "FILTER",
+      "label": "Resources",
+      "macroName": "VAR_MOD_ENUMLIST_FILTER_RESOURCES",
+      "default": [],
+      "enum": [
+        "Runite bar",
+        "Bucket of sand",
+        "Gold ore",
+        "Magic logs",
+        "Uncut emerald",
+        "Uncut ruby",
+        "Uncut diamond"
+      ]
+    },
+    {
+      "type": "enumlist",
+      "group": "FILTER",
+      "label": "Other",
+      "macroName": "VAR_MOD_ENUMLIST_FILTER_OTHER",
+      "default": [],
+      "enum": [
+        "Wine of zamorak",
+        "Potato cactus",
+        "Coins",
+        "Grapes",
+        "Weapon poison(++)",
+        "Cactus spine"
+      ]
+    },
+    {
+      "type": "enumlist",
+      "group": "FILTER",
+      "label": "Tertiary",
+      "macroName": "VAR_MOD_ENUMLIST_FILTER_TERTIARY",
+      "default": [],
+      "enum": [
+        "Kq head (tattered)",
+        "Ensouled kalphite head",
+        "Brimstone key",
+        "Kq head",
+        "Dragon chainbody",
+        "Dragon 2h sword",
+        "Dragon pickaxe",
+        "Jar of sand",
+        "Kalphite princess"
+      ]
+    }
+  ]
+}

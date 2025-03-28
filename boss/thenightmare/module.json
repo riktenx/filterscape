@@ -1,0 +1,106 @@
+{
+  "name": "The Nightmare",
+  "rs2fPath": "module.rs2f",
+  "inputs": [
+    {
+      "type": "enumlist",
+      "group": "FILTER",
+      "label": "100%",
+      "macroName": "VAR_MOD_ENUMLIST_FILTER_100",
+      "default": [],
+      "enum": [
+        "Big bones",
+        "Bones"
+      ]
+    },
+    {
+      "type": "enumlist",
+      "group": "FILTER",
+      "label": "Uniques",
+      "macroName": "VAR_MOD_ENUMLIST_FILTER_UNIQUES",
+      "default": [],
+      "enum": [
+        "Nightmare staff",
+        "Inquisitor's great helm",
+        "Inquisitor's hauberk",
+        "Inquisitor's plateskirt",
+        "Inquisitor's mace",
+        "Eldritch orb",
+        "Harmonised orb",
+        "Volatile orb"
+      ]
+    },
+    {
+      "type": "enumlist",
+      "group": "FILTER",
+      "label": "Runes and ammunition",
+      "macroName": "VAR_MOD_ENUMLIST_FILTER_RUNES",
+      "default": [],
+      "enum": [
+        "Cosmic rune",
+        "Nature rune",
+        "Death rune",
+        "Blood rune",
+        "Soul rune",
+        "Cannonball",
+        "Rune arrow"
+      ]
+    },
+    {
+      "type": "enumlist",
+      "group": "FILTER",
+      "label": "Resources",
+      "macroName": "VAR_MOD_ENUMLIST_FILTER_RESOURCES",
+      "default": [],
+      "enum": [
+        "Mithril ore",
+        "Coal",
+        "Gold ore",
+        "Adamantite ore",
+        "Magic logs",
+        "Grimy cadantine",
+        "Grimy torstol",
+        "Snapdragon seed",
+        "Uncut emerald",
+        "Uncut ruby",
+        "Runite ore"
+      ]
+    },
+    {
+      "type": "enumlist",
+      "group": "FILTER",
+      "label": "Consumables",
+      "macroName": "VAR_MOD_ENUMLIST_FILTER_CONSUMABLES",
+      "default": [],
+      "enum": [
+        "Bass",
+        "Shark",
+        "Prayer potion(3)",
+        "Sanfew serum(3)",
+        "Saradomin brew(3)",
+        "Zamorak brew(3)"
+      ]
+    },
+    {
+      "type": "enumlist",
+      "group": "FILTER",
+      "label": "Coins",
+      "macroName": "VAR_MOD_ENUMLIST_FILTER_COINS",
+      "default": [],
+      "enum": [
+        "Coins"
+      ]
+    },
+    {
+      "type": "enumlist",
+      "group": "FILTER",
+      "label": "Tertiary",
+      "macroName": "VAR_MOD_ENUMLIST_FILTER_TERTIARY",
+      "default": [],
+      "enum": [
+        "Little nightmare",
+        "Jar of dreams"
+      ]
+    }
+  ]
+}

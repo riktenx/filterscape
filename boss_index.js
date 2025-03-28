@@ -1,3 +1,5 @@
+import fs from 'fs';
+
 import { getWikiSource, buildDropTable } from './wikiscrape.js';
 import { generateRs2f, generateJson } from './modgen.js';
 
@@ -207,9 +209,14 @@ for (const boss of index) {
 
   const moduleName = toModuleName(boss.name);
   const rs2f = generateRs2f(boss.name, boss.area, dropTable);
-  const json = generateJson(rs2f);
+  const module = generateJson(rs2f);
 
-  console.log(json);
-  break;
+  const modulePath = `boss/${moduleName}`;
+  if (!fs.existsSync(modulePath)) {
+    fs.mkdirSync(modulePath);
+  }
+
+  fs.writeFileSync(`${modulePath}/module.rs2f`, rs2f);
+  fs.writeFileSync(`${modulePath}/module.json`, JSON.stringify(module, null, 2));
 }
 

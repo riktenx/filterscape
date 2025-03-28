@@ -1,0 +1,57 @@
+// module:The Nightmare
+
+#define CONST_AREA_THENIGHTMARE [3840,9920,3,3903,9983,3]
+#define CONST_THENIGHTMARE_IF(_cond) if (area:CONST_AREA_THENIGHTMARE && (_cond))
+
+// label:100%
+// enum:["Big bones","Bones"]
+#define VAR_MOD_ENUMLIST_FILTER_100 []
+CONST_THENIGHTMARE_IF (name:VAR_MOD_ENUMLIST_FILTER_100) {
+  hidden = true;
+}
+
+// label:Uniques
+// enum:["Nightmare staff","Inquisitor's great helm","Inquisitor's hauberk","Inquisitor's plateskirt","Inquisitor's mace","Eldritch orb","Harmonised orb","Volatile orb"]
+#define VAR_MOD_ENUMLIST_FILTER_UNIQUES []
+CONST_THENIGHTMARE_IF (name:VAR_MOD_ENUMLIST_FILTER_UNIQUES) {
+  hidden = true;
+}
+
+// label:Runes and ammunition
+// enum:["Cosmic rune","Nature rune","Death rune","Blood rune","Soul rune","Cannonball","Rune arrow"]
+#define VAR_MOD_ENUMLIST_FILTER_RUNES []
+CONST_THENIGHTMARE_IF (name:VAR_MOD_ENUMLIST_FILTER_RUNES) {
+  hidden = true;
+}
+
+// label:Resources
+// enum:["Mithril ore","Coal","Gold ore","Adamantite ore","Magic logs","Grimy cadantine","Grimy torstol","Snapdragon seed","Uncut emerald","Uncut ruby","Runite ore"]
+#define VAR_MOD_ENUMLIST_FILTER_RESOURCES []
+CONST_THENIGHTMARE_IF (name:VAR_MOD_ENUMLIST_FILTER_RESOURCES) {
+  hidden = true;
+}
+
+// label:Consumables
+// enum:["Bass","Shark","Prayer potion(3)","Sanfew serum(3)","Saradomin brew(3)","Zamorak brew(3)"]
+#define VAR_MOD_ENUMLIST_FILTER_CONSUMABLES []
+CONST_THENIGHTMARE_IF (name:VAR_MOD_ENUMLIST_FILTER_CONSUMABLES) {
+  hidden = true;
+}
+
+// label:Coins
+// enum:["Coins"]
+#define VAR_MOD_ENUMLIST_FILTER_COINS []
+CONST_THENIGHTMARE_IF (name:VAR_MOD_ENUMLIST_FILTER_COINS) {
+  hidden = true;
+}
+
+// label:Tertiary
+// enum:["Little nightmare","Jar of dreams"]
+#define VAR_MOD_ENUMLIST_FILTER_TERTIARY []
+CONST_THENIGHTMARE_IF (name:VAR_MOD_ENUMLIST_FILTER_TERTIARY) {
+  hidden = true;
+}
+
+
+
+// endmodule:The Nightmare

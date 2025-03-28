@@ -1,0 +1,142 @@
+{
+  "name": "Zulrah",
+  "rs2fPath": "module.rs2f",
+  "inputs": [
+    {
+      "type": "enumlist",
+      "group": "FILTER",
+      "label": "100% drops",
+      "macroName": "VAR_MOD_ENUMLIST_FILTER_100",
+      "default": [],
+      "enum": [
+        "Zulrah's scales"
+      ]
+    },
+    {
+      "type": "enumlist",
+      "group": "FILTER",
+      "label": "Uniques",
+      "macroName": "VAR_MOD_ENUMLIST_FILTER_UNIQUES",
+      "default": [],
+      "enum": [
+        "Tanzanite fang",
+        "Magic fang",
+        "Serpentine visage",
+        "Uncut onyx"
+      ]
+    },
+    {
+      "type": "enumlist",
+      "group": "FILTER",
+      "label": "Mutagens",
+      "macroName": "VAR_MOD_ENUMLIST_FILTER_MUTAGENS",
+      "default": [],
+      "enum": [
+        "Tanzanite mutagen",
+        "Magma mutagen"
+      ]
+    },
+    {
+      "type": "enumlist",
+      "group": "FILTER",
+      "label": "Weapons and armour",
+      "macroName": "VAR_MOD_ENUMLIST_FILTER_WEAPONS",
+      "default": [],
+      "enum": [
+        "Battlestaff",
+        "Dragon med helm",
+        "Dragon halberd"
+      ]
+    },
+    {
+      "type": "enumlist",
+      "group": "FILTER",
+      "label": "Runes",
+      "macroName": "VAR_MOD_ENUMLIST_FILTER_RUNES",
+      "default": [],
+      "enum": [
+        "Death rune",
+        "Law rune",
+        "Chaos rune"
+      ]
+    },
+    {
+      "type": "enumlist",
+      "group": "FILTER",
+      "label": "Herbs",
+      "macroName": "VAR_MOD_ENUMLIST_FILTER_HERBS",
+      "default": [],
+      "enum": [
+        "Snapdragon",
+        "Dwarf weed",
+        "Toadflax",
+        "Torstol"
+      ]
+    },
+    {
+      "type": "enumlist",
+      "group": "FILTER",
+      "label": "Seeds",
+      "macroName": "VAR_MOD_ENUMLIST_FILTER_SEEDS",
+      "default": [],
+      "enum": [
+        "Palm tree seed",
+        "Papaya tree seed",
+        "Calquat tree seed",
+        "Magic seed",
+        "Toadflax seed",
+        "Snapdragon seed",
+        "Dwarf weed seed",
+        "Torstol seed",
+        "Spirit seed"
+      ]
+    },
+    {
+      "type": "enumlist",
+      "group": "FILTER",
+      "label": "Resources",
+      "macroName": "VAR_MOD_ENUMLIST_FILTER_RESOURCES",
+      "default": [],
+      "enum": [
+        "Snakeskin",
+        "Runite ore",
+        "Pure essence",
+        "Flax",
+        "Yew logs",
+        "Adamantite bar",
+        "Coal",
+        "Dragon bones",
+        "Mahogany logs"
+      ]
+    },
+    {
+      "type": "enumlist",
+      "group": "FILTER",
+      "label": "Other",
+      "macroName": "VAR_MOD_ENUMLIST_FILTER_OTHER",
+      "default": [],
+      "enum": [
+        "Zul-andra teleport",
+        "Manta ray",
+        "Antidote++(4)",
+        "Dragonstone bolt tips",
+        "Grapes",
+        "Coconut",
+        "Swamp tar",
+        "Zulrah's scales"
+      ]
+    },
+    {
+      "type": "enumlist",
+      "group": "FILTER",
+      "label": "Tertiary",
+      "macroName": "VAR_MOD_ENUMLIST_FILTER_TERTIARY",
+      "default": [],
+      "enum": [
+        "Brimstone key",
+        "Jar of swamp",
+        "Pet snakeling"
+      ]
+    }
+  ]
+}

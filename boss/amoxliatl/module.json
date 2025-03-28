@@ -1,0 +1,79 @@
+{
+  "name": "Amoxliatl",
+  "rs2fPath": "module.rs2f",
+  "inputs": [
+    {
+      "type": "enumlist",
+      "group": "FILTER",
+      "label": "Frozen tears",
+      "macroName": "VAR_MOD_ENUMLIST_FILTER_FROZEN",
+      "default": [],
+      "enum": [
+        "Frozen tear",
+        "Frozen tear",
+        "Frozen tear"
+      ]
+    },
+    {
+      "type": "enumlist",
+      "group": "FILTER",
+      "label": "Weapons and armour",
+      "macroName": "VAR_MOD_ENUMLIST_FILTER_WEAPONS",
+      "default": [],
+      "enum": [
+        "Rune mace",
+        "Rune pickaxe",
+        "Rune platebody",
+        "Rune platelegs"
+      ]
+    },
+    {
+      "type": "enumlist",
+      "group": "FILTER",
+      "label": "Runes and ammunition",
+      "macroName": "VAR_MOD_ENUMLIST_FILTER_RUNES",
+      "default": [],
+      "enum": [
+        "Water rune",
+        "Chaos rune",
+        "Death rune",
+        "Blood rune",
+        "Soul rune",
+        "Nature rune"
+      ]
+    },
+    {
+      "type": "enumlist",
+      "group": "FILTER",
+      "label": "Other",
+      "macroName": "VAR_MOD_ENUMLIST_FILTER_OTHER",
+      "default": [],
+      "enum": [
+        "Coal",
+        "Gold ore",
+        "Adamantite ore",
+        "Prayer potion(3)",
+        "Runite ore",
+        "Blessed bone shards",
+        "Water orb",
+        "Water talisman"
+      ]
+    },
+    {
+      "type": "enumlist",
+      "group": "FILTER",
+      "label": "Tertiary",
+      "macroName": "VAR_MOD_ENUMLIST_FILTER_TERTIARY",
+      "default": [],
+      "enum": [
+        "Clue scroll (elite)",
+        "Reward casket (elite)",
+        "Pendant of ates (inert)",
+        "Glacial temotli",
+        "Tooth half of key (moon key)",
+        "Brimstone key",
+        "Moxi"
+      ]
+    }
+  ]
+}

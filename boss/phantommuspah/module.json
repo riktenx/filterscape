@@ -1,0 +1,141 @@
+{
+  "name": "Phantom Muspah",
+  "rs2fPath": "module.rs2f",
+  "inputs": [
+    {
+      "type": "enumlist",
+      "group": "FILTER",
+      "label": "Unique",
+      "macroName": "VAR_MOD_ENUMLIST_FILTER_UNIQUE",
+      "default": [],
+      "enum": [
+        "Ancient essence",
+        "Ancient essence",
+        "Ancient essence",
+        "Frozen cache",
+        "Ancient icon",
+        "Venator shard"
+      ]
+    },
+    {
+      "type": "enumlist",
+      "group": "FILTER",
+      "label": "Supplies",
+      "macroName": "VAR_MOD_ENUMLIST_FILTER_SUPPLIES",
+      "default": [],
+      "enum": [
+        "Shark",
+        "Summer pie",
+        "Ancient brew(3)",
+        "Ranging potion(3)",
+        "Super restore(3)",
+        "Prayer potion(3)"
+      ]
+    },
+    {
+      "type": "enumlist",
+      "group": "FILTER",
+      "label": "Weapons and armour",
+      "macroName": "VAR_MOD_ENUMLIST_FILTER_WEAPONS",
+      "default": [],
+      "enum": [
+        "Rune kiteshield",
+        "Dragon plateskirt",
+        "Rune platelegs",
+        "Black d'hide body",
+        "Dragon platelegs",
+        "Rune sword"
+      ]
+    },
+    {
+      "type": "enumlist",
+      "group": "FILTER",
+      "label": "Runes and ammunition",
+      "macroName": "VAR_MOD_ENUMLIST_FILTER_RUNES",
+      "default": [],
+      "enum": [
+        "Law rune",
+        "Soul rune",
+        "Death rune",
+        "Smoke rune",
+        "Chaos rune",
+        "Fire rune",
+        "Cannonball"
+      ]
+    },
+    {
+      "type": "enumlist",
+      "group": "FILTER",
+      "label": "Herbs",
+      "macroName": "VAR_MOD_ENUMLIST_FILTER_HERBS",
+      "default": [],
+      "enum": [
+        "Grimy toadflax",
+        "Grimy kwuarm",
+        "Grimy cadantine",
+        "Grimy dwarf weed",
+        "Grimy lantadyme"
+      ]
+    },
+    {
+      "type": "enumlist",
+      "group": "FILTER",
+      "label": "Seeds",
+      "macroName": "VAR_MOD_ENUMLIST_FILTER_SEEDS",
+      "default": [],
+      "enum": [
+        "Yew seed",
+        "Torstol seed",
+        "Palm tree seed",
+        "Ranarr seed",
+        "Snapdragon seed",
+        "Ranarr seed",
+        "Spirit seed"
+      ]
+    },
+    {
+      "type": "enumlist",
+      "group": "FILTER",
+      "label": "Resources",
+      "macroName": "VAR_MOD_ENUMLIST_FILTER_RESOURCES",
+      "default": [],
+      "enum": [
+        "Adamantite ore",
+        "Gold ore",
+        "Teak plank",
+        "Molten glass",
+        "Pure essence",
+        "Coal",
+        "Runite ore",
+        "Silver ore"
+      ]
+    },
+    {
+      "type": "enumlist",
+      "group": "FILTER",
+      "label": "Other",
+      "macroName": "VAR_MOD_ENUMLIST_FILTER_OTHER",
+      "default": [],
+      "enum": [
+        "Manta ray",
+        "Water orb",
+        "Dragon bolts (unf)",
+        "Limpwurt root"
+      ]
+    },
+    {
+      "type": "enumlist",
+      "group": "FILTER",
+      "label": "Tertiary",
+      "macroName": "VAR_MOD_ENUMLIST_FILTER_TERTIARY",
+      "default": [],
+      "enum": [
+        "Brimstone key",
+        "Clue scroll (hard)",
+        "Clue scroll (elite)",
+        "Charged ice",
+        "Muphin"
+      ]
+    }
+  ]
+}

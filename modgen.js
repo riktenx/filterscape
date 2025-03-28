@@ -28,7 +28,8 @@ const toCategoryName = (str) => str.split(' ')[0].replace('%', '').toUpperCase()
 const toAreaMacroIdent = (str) => str
   .toUpperCase()
   .replace("'", '')
-  .replaceAll(' ', '');
+  .replaceAll(' ', '')
+  .replaceAll('-', '');
 
 export const generateRs2f = (name, area, dropTable) => {
   let rs2f = '';

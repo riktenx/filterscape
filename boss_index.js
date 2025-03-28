@@ -21,9 +21,9 @@ const index = [
     url: 'https://oldschool.runescape.wiki/w/Deranged_archaeologist',
   },
   {
-    name: 'Dagannoths',
-    area: [],
-    url: '',
+    name: 'Dagannoth Kings',
+    area: [2880, 4478, 0, 2943, 4353, 0],
+    url: 'https://oldschool.runescape.wiki/w/Dagannoth_Kings',
   },
   {
     name: 'Sarachnis',
@@ -58,8 +58,8 @@ const index = [
   },
   {
     name: 'The Hueycoatl',
-    area: [],
-    url: '',
+    area: [1497, 3301, 0, 1529, 3271, 0],
+    url: 'https://oldschool.runescape.wiki/w/The_Hueycoatl',
   },
   {
     name: 'Corporeal Beast',
@@ -93,8 +93,8 @@ const index = [
   },
   {
     name: 'Chaos Elemental',
-    area: [],
-    url: '',
+    area: [3200, 3967, 0, 3327, 3904, 0],
+    url: 'https://oldschool.runescape.wiki/w/Chaos_Elemental',
   },
   {
     name: 'Revenant maledictus',
@@ -166,18 +166,18 @@ CONST_VORKATH_IF (VAR_VORKATH_BOOLEAN_GENERAL_NOBONE && name:"Superior dragon bo
   },
   {
     name: 'The Leviathan',
-    area: [],
-    url: '',
+    area: [2053, 6390, 0, 2110, 6355, 0],
+    url: 'https://oldschool.runescape.wiki/w/The_Leviathan',
   },
   {
     name: 'The Whisperer',
-    area: [],
-    url: '',
+    area: [2631, 6391, 0, 2684, 6345, 0],
+    url: 'https://oldschool.runescape.wiki/w/The_Whisperer',
   },
   {
     name: 'Vardorvis',
-    area: [],
-    url: '',
+    area: [1117, 3428, 0, 1141, 3408, 0],
+    url: 'https://oldschool.runescape.wiki/w/Vardorvis',
   },
   // skip: Sporadic bosses
   {
@@ -187,8 +187,8 @@ CONST_VORKATH_IF (VAR_VORKATH_BOOLEAN_GENERAL_NOBONE && name:"Superior dragon bo
   },
   {
     name: 'Abyssal Sire',
-    area: [],
-    url: '',
+    area: [2944, 4863, 0, 3135, 4736, 0],
+    url: 'https://oldschool.runescape.wiki/w/Abyssal_Sire',
   },
   {
     name: 'Kraken',
@@ -197,19 +197,23 @@ CONST_VORKATH_IF (VAR_VORKATH_BOOLEAN_GENERAL_NOBONE && name:"Superior dragon bo
   },
   {
     name: 'Cerberus',
-    area: [],
-    url: '',
+    area: [1216, 1343, 0, 1407, 1216, 0],
+    url: 'https://oldschool.runescape.wiki/w/Cerberus',
+  },  
+  {
+    name: 'Araxxor',
+    area: [3608, 9837, 0, 3651, 9795, 0],
+    url: 'https://oldschool.runescape.wiki/w/Araxxor',
   },
-  // skip: araxxor: no drop
   {
     name: 'Thermonuclear smoke devil',
-    area: [],
-    url: '',
+    area: [2345, 9464, 0, 2380, 9434, 0],
+    url: 'https://oldschool.runescape.wiki/w/Thermonuclear_smoke_devil',
   },
   {
     name: 'Alchemical Hydra',
-    area: [],
-    url: '',
+    area: [1346, 10287, 0, 1385, 10251, 0],
+    url: 'https://oldschool.runescape.wiki/w/Alchemical_Hydra',
   },
 ];
 

@@ -78,8 +78,8 @@ const index = [
   },
   {
     name: 'Crazy archaeologist',
-    area: [],
-    url: '',
+    area: [2953, 3679, 0, 2985, 3708, 0],
+    url: 'https://oldschool.runescape.wiki/w/Crazy_archaeologist',
   },
   {
     name: 'Scorpia',
@@ -88,8 +88,8 @@ const index = [
   },
   {
     name: 'King Black Dragon',
-    area: [],
-    url: '',
+    area: [2240, 4672, 0, 2303, 4735, 0],
+    url: 'https://oldschool.runescape.wiki/w/King_Black_Dragon',
   },
   {
     name: 'Chaos Elemental',
@@ -103,18 +103,18 @@ const index = [
   },
   {
     name: "Vet'ion",
-    area: [],
-    url: '',
+    area: [3282, 10187, 1, 3307, 10216, 1],
+    url: 'https://oldschool.runescape.wiki/w/Vet%27ion',
   },
   {
     name: 'Venenatis',
-    area: [],
-    url: '',
+    area: [3402, 10181, 2, 3443, 10225, 2],
+    url: 'https://oldschool.runescape.wiki/w/Venenatis',
   },
   {
     name: 'Callisto',
-    area: [],
-    url: '',
+    area: [3342, 10311, 0, 3374, 10344, 0],
+    url: 'https://oldschool.runescape.wiki/w/Callisto',
   },
   {
     name: 'Amoxliatl',

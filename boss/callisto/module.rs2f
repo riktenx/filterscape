@@ -1,0 +1,73 @@
+// module:Callisto
+
+#define CONST_AREA_CALLISTO [3342,10311,0,3374,10344,0]
+#define CONST_CALLISTO_IF(_cond) if (area:CONST_AREA_CALLISTO && (_cond))
+
+// label:100%
+// enum:["Big bones","Bones"]
+#define VAR_CALLISTO_ENUMLIST_FILTER_100 []
+CONST_CALLISTO_IF (name:VAR_CALLISTO_ENUMLIST_FILTER_100) {
+  hidden = true;
+}
+
+// label:Unique
+// enum:["Claws of callisto","Dragon 2h sword","Dragon pickaxe","Voidwaker hilt","Tyrannical ring"]
+#define VAR_CALLISTO_ENUMLIST_FILTER_UNIQUE []
+CONST_CALLISTO_IF (name:VAR_CALLISTO_ENUMLIST_FILTER_UNIQUE) {
+  hidden = true;
+}
+
+// label:Weapons and armour
+// enum:["Mystic earth staff","Mystic robe top","Mystic robe bottom","Rune pickaxe","Rune 2h sword","Rune kiteshield","Rune platebody"]
+#define VAR_CALLISTO_ENUMLIST_FILTER_WEAPONS []
+CONST_CALLISTO_IF (name:VAR_CALLISTO_ENUMLIST_FILTER_WEAPONS) {
+  hidden = true;
+}
+
+// label:Runes and ammunition
+// enum:["Blood rune","Death rune","Chaos rune","Soul rune","Cannonball"]
+#define VAR_CALLISTO_ENUMLIST_FILTER_RUNES []
+CONST_CALLISTO_IF (name:VAR_CALLISTO_ENUMLIST_FILTER_RUNES) {
+  hidden = true;
+}
+
+// label:Materials
+// enum:["Uncut ruby","Uncut diamond","Uncut dragonstone","Limpwurt root","Magic logs","Mahogany logs","Red dragonhide","Coconut","Grimy toadflax","Grimy dwarf weed","Grimy ranarr weed","Grimy snapdragon"]
+#define VAR_CALLISTO_ENUMLIST_FILTER_MATERIALS []
+CONST_CALLISTO_IF (name:VAR_CALLISTO_ENUMLIST_FILTER_MATERIALS) {
+  hidden = true;
+}
+
+// label:Seeds
+// enum:["Ranarr seed","Snapdragon seed"]
+#define VAR_CALLISTO_ENUMLIST_FILTER_SEEDS []
+CONST_CALLISTO_IF (name:VAR_CALLISTO_ENUMLIST_FILTER_SEEDS) {
+  hidden = true;
+}
+
+// label:Other
+// enum:["Coins","Dark crab","Super restore(4)","Supercompost","Dragon bones","Blighted anglerfish","Wilderness crabs teleport"]
+#define VAR_CALLISTO_ENUMLIST_FILTER_OTHER []
+CONST_CALLISTO_IF (name:VAR_CALLISTO_ENUMLIST_FILTER_OTHER) {
+  hidden = true;
+}
+
+// label:Secondary Supply roll
+// enum:["Blighted anglerfish","Blighted karambwan","Blighted super restore(3)","Blighted super restore(4)","Ranging potion(2)","Super combat potion(2)"]
+#define VAR_CALLISTO_ENUMLIST_FILTER_SECONDARY []
+CONST_CALLISTO_IF (name:VAR_CALLISTO_ENUMLIST_FILTER_SECONDARY) {
+  hidden = true;
+}
+
+// label:Tertiary
+// enum:["Looting bag","Brimstone key","Long bone","Callisto cub","Curved bone"]
+#define VAR_CALLISTO_ENUMLIST_FILTER_TERTIARY []
+CONST_CALLISTO_IF (name:VAR_CALLISTO_ENUMLIST_FILTER_TERTIARY) {
+  hidden = true;
+}
+
+
+
+
+
+// endmodule:Callisto

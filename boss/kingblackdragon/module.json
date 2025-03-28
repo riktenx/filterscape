@@ -1,0 +1,97 @@
+{
+  "name": "King Black Dragon",
+  "rs2fPath": "module.rs2f",
+  "inputs": [
+    {
+      "type": "enumlist",
+      "group": "FILTER",
+      "label": "100%",
+      "macroName": "VAR_KINGBLACKDRAGON_ENUMLIST_FILTER_100",
+      "default": [],
+      "enum": [
+        "Dragon bones",
+        "Black dragonhide"
+      ]
+    },
+    {
+      "type": "enumlist",
+      "group": "FILTER",
+      "label": "Pre-roll",
+      "macroName": "VAR_KINGBLACKDRAGON_ENUMLIST_FILTER_PRE-ROLL",
+      "default": [],
+      "enum": [
+        "Dragon pickaxe"
+      ]
+    },
+    {
+      "type": "enumlist",
+      "group": "FILTER",
+      "label": "Weapons and armour",
+      "macroName": "VAR_KINGBLACKDRAGON_ENUMLIST_FILTER_WEAPONS",
+      "default": [],
+      "enum": [
+        "Rune longsword",
+        "Adamant platebody",
+        "Adamant kiteshield",
+        "Dragon med helm"
+      ]
+    },
+    {
+      "type": "enumlist",
+      "group": "FILTER",
+      "label": "Runes and ammunition",
+      "macroName": "VAR_KINGBLACKDRAGON_ENUMLIST_FILTER_RUNES",
+      "default": [],
+      "enum": [
+        "Fire rune",
+        "Air rune",
+        "Iron arrow",
+        "Runite bolts",
+        "Law rune",
+        "Blood rune"
+      ]
+    },
+    {
+      "type": "enumlist",
+      "group": "FILTER",
+      "label": "Resources",
+      "macroName": "VAR_KINGBLACKDRAGON_ENUMLIST_FILTER_RESOURCES",
+      "default": [],
+      "enum": [
+        "Yew logs",
+        "Adamantite bar",
+        "Runite bar",
+        "Gold ore"
+      ]
+    },
+    {
+      "type": "enumlist",
+      "group": "FILTER",
+      "label": "Other",
+      "macroName": "VAR_KINGBLACKDRAGON_ENUMLIST_FILTER_OTHER",
+      "default": [],
+      "enum": [
+        "Amulet of power",
+        "Dragon arrowtips",
+        "Dragon dart tip",
+        "Dragon javelin heads",
+        "Runite limbs",
+        "Shark"
+      ]
+    },
+    {
+      "type": "enumlist",
+      "group": "FILTER",
+      "label": "Tertiary",
+      "macroName": "VAR_KINGBLACKDRAGON_ENUMLIST_FILTER_TERTIARY",
+      "default": [],
+      "enum": [
+        "Key (elite)",
+        "Brimstone key",
+        "Kbd heads",
+        "Prince black dragon",
+        "Draconic visage"
+      ]
+    }
+  ]
+}

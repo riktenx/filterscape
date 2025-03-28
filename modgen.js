@@ -25,7 +25,7 @@ const parseDefault = (type, value) => {
   throw new Error(`idk what type "${type}" is`);
 };
 
-const rs2f = fs.readFileSync('module.rs2f', 'utf8');
+const rs2f = fs.readFileSync(process.argv[2] + '/module.rs2f', 'utf8');
 
 const lines = rs2f.split('\n');
 
@@ -83,4 +83,4 @@ lines.forEach(line => {
 });
 
 const moduleJson = JSON.stringify(moduleData, null, 2);
-fs.writeFileSync('module.json', moduleJson);
+fs.writeFileSync(process.argv[2] + '/module.json', moduleJson);

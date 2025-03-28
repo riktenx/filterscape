@@ -66,7 +66,7 @@ CONST_GENERALGRAARDOR_IF (name:VAR_GENERALGRAARDOR_ENUMLIST_FILTER_WEAPONS) {
 }
 
 // label:Other
-// enum:["Coins","Grimy snapdragon","Snapdragon seed","Super restore(4)","Adamantite ore","Coal","Magic logs","Nature rune","Coins"]
+// enum:["Coins","Grimy snapdragon","Snapdragon seed","Super restore(4)","Adamantite ore","Coal","Magic logs","Nature rune"]
 #define VAR_GENERALGRAARDOR_ENUMLIST_FILTER_OTHER []
 CONST_GENERALGRAARDOR_IF (name:VAR_GENERALGRAARDOR_ENUMLIST_FILTER_OTHER) {
   hidden = true;
@@ -219,7 +219,7 @@ CONST_KREEARRA_IF (name:VAR_KREEARRA_ENUMLIST_FILTER_RUNES) {
 }
 
 // label:Other
-// enum:["Coins","Ranging potion(3)","Super defence(3)","Grimy dwarf weed","Dwarf weed seed","Coins","Crystal key","Yew seed"]
+// enum:["Coins","Ranging potion(3)","Super defence(3)","Grimy dwarf weed","Dwarf weed seed","Crystal key","Yew seed"]
 #define VAR_KREEARRA_ENUMLIST_FILTER_OTHER []
 CONST_KREEARRA_IF (name:VAR_KREEARRA_ENUMLIST_FILTER_OTHER) {
   hidden = true;
@@ -281,7 +281,7 @@ CONST_NEX_IF (name:VAR_NEX_ENUMLIST_FILTER_CONSUMABLES) {
 }
 
 // label:Other
-// enum:["Blood essence","Coins","Rune sword","Ecumenical key shard","Nihil shard","Nihil shard"]
+// enum:["Blood essence","Coins","Rune sword","Ecumenical key shard","Nihil shard"]
 #define VAR_NEX_ENUMLIST_FILTER_OTHER []
 CONST_NEX_IF (name:VAR_NEX_ENUMLIST_FILTER_OTHER) {
   hidden = true;
@@ -334,7 +334,7 @@ CONST_VORKATH_IF (name:VAR_VORKATH_ENUMLIST_FILTER_DRAGONHIDE) {
 }
 
 // label:Fletching materials
-// enum:["Dragon bolts (unf)","Sapphire bolt tips","Emerald bolt tips","Ruby bolt tips","Diamond bolt tips","Dragonstone bolt tips","Dragonstone bolt tips","Onyx bolt tips","Onyx bolt tips","Rune dart tip","Dragon dart tip","Dragon arrowtips"]
+// enum:["Dragon bolts (unf)","Sapphire bolt tips","Emerald bolt tips","Ruby bolt tips","Diamond bolt tips","Dragonstone bolt tips","Onyx bolt tips","Rune dart tip","Dragon dart tip","Dragon arrowtips"]
 #define VAR_VORKATH_ENUMLIST_FILTER_FLETCHING []
 CONST_VORKATH_IF (name:VAR_VORKATH_ENUMLIST_FILTER_FLETCHING) {
   hidden = true;

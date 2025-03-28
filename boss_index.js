@@ -83,8 +83,8 @@ const index = [
   },
   {
     name: 'Scorpia',
-    area: [],
-    url: '',
+    area: [3214, 10324, 0, 3252, 10358, 0],
+    url: 'https://oldschool.runescape.wiki/w/Scorpia',
   },
   {
     name: 'King Black Dragon',
@@ -98,8 +98,8 @@ const index = [
   },
   {
     name: 'Revenant maledictus',
-    area: [],
-    url: '',
+    area: [3136, 10048, 0, 3263, 10239, 0],
+    url: '', // drop table doesn't work without ref support
   },
   {
     name: "Vet'ion",
@@ -235,7 +235,7 @@ for (const boss of index) {
   const rs2f = generateRs2f(boss.name, boss.area, dropTable, boss.transform);
   const module = generateJson(rs2f);
 
-  const modulePath = `boss/${moduleName}`;
+  const modulePath = `module/boss/${moduleName}`;
   if (!fs.existsSync(modulePath)) {
     fs.mkdirSync(modulePath);
   }

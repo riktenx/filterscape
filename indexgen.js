@@ -1,4 +1,5 @@
 import fs from 'fs';
+import slayerIndex from './module/slayer/index.json' with { type: 'json' };
 import bossIndex from './module/boss/index.json' with { type: 'json' };
 
 fs.writeFileSync('index.json', JSON.stringify({
@@ -8,6 +9,7 @@ fs.writeFileSync('index.json', JSON.stringify({
   modules: [
     { 'modulePath': 'module/highlights/module.json' },
     { 'modulePath': 'module/hides/module.json' },
+    ...slayerIndex,
     ...bossIndex,
     { "modulePath": "module/cox/module.json" },
     { "modulePath": "module/toa/module.json" },

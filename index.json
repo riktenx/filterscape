@@ -10,6 +10,9 @@
       "modulePath": "module/hides/module.json"
     },
     {
+      "modulePath": "module/slayer/bloodveld/module.json"
+    },
+    {
       "modulePath": "module/boss/scurrius/module.json"
     },
     {

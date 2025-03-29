@@ -60,8 +60,8 @@ CONST_GENERALGRAARDOR_IF (name:VAR_GENERALGRAARDOR_ENUMLIST_FILTER_UNIQUES) {
 
 // label:Weapons and armour
 // enum:["Rune longsword","Rune 2h sword","Rune platebody","Rune pickaxe"]
-#define VAR_GENERALGRAARDOR_ENUMLIST_FILTER_WEAPONS []
-CONST_GENERALGRAARDOR_IF (name:VAR_GENERALGRAARDOR_ENUMLIST_FILTER_WEAPONS) {
+#define VAR_GENERALGRAARDOR_ENUMLIST_FILTER_WEAPONSANDARMOUR []
+CONST_GENERALGRAARDOR_IF (name:VAR_GENERALGRAARDOR_ENUMLIST_FILTER_WEAPONSANDARMOUR) {
   hidden = true;
 }
 
@@ -104,8 +104,8 @@ CONST_COMMANDERZILYANA_IF (name:VAR_COMMANDERZILYANA_ENUMLIST_FILTER_UNIQUES) {
 
 // label:Weapons and armour
 // enum:["Adamant platebody","Rune dart","Rune kiteshield","Rune plateskirt"]
-#define VAR_COMMANDERZILYANA_ENUMLIST_FILTER_WEAPONS []
-CONST_COMMANDERZILYANA_IF (name:VAR_COMMANDERZILYANA_ENUMLIST_FILTER_WEAPONS) {
+#define VAR_COMMANDERZILYANA_ENUMLIST_FILTER_WEAPONSANDARMOUR []
+CONST_COMMANDERZILYANA_IF (name:VAR_COMMANDERZILYANA_ENUMLIST_FILTER_WEAPONSANDARMOUR) {
   hidden = true;
 }
 
@@ -155,8 +155,8 @@ CONST_KRILTSUTSAROTH_IF (name:VAR_KRILTSUTSAROTH_ENUMLIST_FILTER_UNIQUES) {
 
 // label:Weapons and armour
 // enum:["Adamant arrow(p++)","Rune scimitar","Adamant platebody","Rune platelegs","Dragon dagger(p++)"]
-#define VAR_KRILTSUTSAROTH_ENUMLIST_FILTER_WEAPONS []
-CONST_KRILTSUTSAROTH_IF (name:VAR_KRILTSUTSAROTH_ENUMLIST_FILTER_WEAPONS) {
+#define VAR_KRILTSUTSAROTH_ENUMLIST_FILTER_WEAPONSANDARMOUR []
+CONST_KRILTSUTSAROTH_IF (name:VAR_KRILTSUTSAROTH_ENUMLIST_FILTER_WEAPONSANDARMOUR) {
   hidden = true;
 }
 
@@ -206,15 +206,15 @@ CONST_KREEARRA_IF (name:VAR_KREEARRA_ENUMLIST_FILTER_UNIQUES) {
 
 // label:Weapons and armour
 // enum:["Black d'hide body","Rune crossbow"]
-#define VAR_KREEARRA_ENUMLIST_FILTER_WEAPONS []
-CONST_KREEARRA_IF (name:VAR_KREEARRA_ENUMLIST_FILTER_WEAPONS) {
+#define VAR_KREEARRA_ENUMLIST_FILTER_WEAPONSANDARMOUR []
+CONST_KREEARRA_IF (name:VAR_KREEARRA_ENUMLIST_FILTER_WEAPONSANDARMOUR) {
   hidden = true;
 }
 
 // label:Runes and ammunition
 // enum:["Mind rune","Rune arrow","Runite bolts","Dragonstone bolts (e)"]
-#define VAR_KREEARRA_ENUMLIST_FILTER_RUNES []
-CONST_KREEARRA_IF (name:VAR_KREEARRA_ENUMLIST_FILTER_RUNES) {
+#define VAR_KREEARRA_ENUMLIST_FILTER_RUNESANDAMMUNITION []
+CONST_KREEARRA_IF (name:VAR_KREEARRA_ENUMLIST_FILTER_RUNESANDAMMUNITION) {
   hidden = true;
 }
 
@@ -261,8 +261,8 @@ CONST_NEX_IF (name:VAR_NEX_ENUMLIST_FILTER_UNIQUES) {
 
 // label:Runes & ammunition
 // enum:["Air rune","Fire rune","Blood rune","Death rune","Water rune","Soul rune","Dragon bolts (unf)","Onyx bolts (e)","Cannonball"]
-#define VAR_NEX_ENUMLIST_FILTER_RUNES []
-CONST_NEX_IF (name:VAR_NEX_ENUMLIST_FILTER_RUNES) {
+#define VAR_NEX_ENUMLIST_FILTER_RUNESAMMUNITION []
+CONST_NEX_IF (name:VAR_NEX_ENUMLIST_FILTER_RUNESAMMUNITION) {
   hidden = true;
 }
 
@@ -314,8 +314,8 @@ CONST_VORKATH_IF (VAR_VORKATH_BOOLEAN_GENERAL_NOBONE && name:"Superior dragon bo
 
 // label:Weapons and armour
 // enum:["Rune longsword","Rune kiteshield","Battlestaff","Dragon battleaxe","Dragon longsword","Dragon platelegs","Dragon plateskirt"]
-#define VAR_VORKATH_ENUMLIST_FILTER_WEAPONS []
-CONST_VORKATH_IF (name:VAR_VORKATH_ENUMLIST_FILTER_WEAPONS) {
+#define VAR_VORKATH_ENUMLIST_FILTER_WEAPONSANDARMOUR []
+CONST_VORKATH_IF (name:VAR_VORKATH_ENUMLIST_FILTER_WEAPONSANDARMOUR) {
   hidden = true;
 }
 
@@ -335,8 +335,8 @@ CONST_VORKATH_IF (name:VAR_VORKATH_ENUMLIST_FILTER_DRAGONHIDE) {
 
 // label:Fletching materials
 // enum:["Dragon bolts (unf)","Sapphire bolt tips","Emerald bolt tips","Ruby bolt tips","Diamond bolt tips","Dragonstone bolt tips","Onyx bolt tips","Rune dart tip","Dragon dart tip","Dragon arrowtips"]
-#define VAR_VORKATH_ENUMLIST_FILTER_FLETCHING []
-CONST_VORKATH_IF (name:VAR_VORKATH_ENUMLIST_FILTER_FLETCHING) {
+#define VAR_VORKATH_ENUMLIST_FILTER_FLETCHINGMATERIALS []
+CONST_VORKATH_IF (name:VAR_VORKATH_ENUMLIST_FILTER_FLETCHINGMATERIALS) {
   hidden = true;
 }
 
@@ -358,118 +358,68 @@ CONST_VORKATH_IF (name:VAR_VORKATH_ENUMLIST_FILTER_TERTIARY) {
   hidden = true;
 }
 
-// endmodule:Vorkath// module:Zulrah
+// endmodule:Vorkath// module:Bloodveld
 
-#define CONST_ZULRAH_AREA [2260, 3066, 0, 2276, 3080, 0]
-#define CONST_ZULRAH_IF(_cond) if (area:CONST_ZULRAH_AREA && (_cond))
+#define CONST_AREA_BLOODVELD0 [2845,5283,0,2935,5362,0] // [[God Wars Dungeon]]
+#define CONST_AREA_BLOODVELD1 [3564,9735,0,3574,9741,0] // [[Meiyerditch Laboratories]]
+#define CONST_AREA_BLOODVELD2 [3403,9929,0,3423,9949,0] // [[Slayer Tower]] (basement)
+#define CONST_AREA_BLOODVELD3 [2434,9817,0,2489,9834,0] // [[Stronghold Slayer Cave]]
+#define CONST_AREA_BLOODVELD4 [2950,10085,0,2968,10101,0] // [[Wilderness God Wars Dungeon]]
+#define CONST_BLOODVELD_IF(_cond) if ((area:CONST_AREA_BLOODVELD0 || \
+  area:CONST_AREA_BLOODVELD1 || \
+  area:CONST_AREA_BLOODVELD2 || \
+  area:CONST_AREA_BLOODVELD3 || \
+  area:CONST_AREA_BLOODVELD4) && (_cond))
 
-// label:Weapons and armour
-// enum:["Battlestaff","Dragon med helm","Dragon halberd"]
-#define VAR_ZULRAH_ENUMLIST_FILTER_GEAR []
-
-// label:Runes
-// enum:["Death rune","Law rune","Chaos rune"]
-#define VAR_ZULRAH_ENUMLIST_FILTER_RUNES []
-
-// label:Herbs
-// enum:["Snapdragon","Dwarf weed","Toadflax","Torstol"]
-#define VAR_ZULRAH_ENUMLIST_FILTER_HERBS []
-
-// label:Seeds
-// enum:["Palm tree seed","Papaya tree seed","Calquat tree seed","Magic seed","Toadflax seed","Snapdragon seed","Dwarf weed seed","Torstol seed","Spirit seed"]
-#define VAR_ZULRAH_ENUMLIST_FILTER_SEEDS ["Papaya tree seed","Calquat tree seed","Toadflax seed","Dwarf weed seed","Torstol seed"]
-
-// label:Resources
-// enum:["Snakeskin","Runite ore","Pure essence","Flax","Yew logs","Adamantite bar","Coal","Dragon bones","Mahogany logs"]
-#define VAR_ZULRAH_ENUMLIST_FILTER_RESOURCES ["Snakeskin","Pure essence","Flax"]
-
-// label:Other
-// enum:["Zul-andra teleport","Manta ray","Antidote++(4)","Dragonstone bolt tips","Grapes","Coconut","Swamp tar","Zulrah's scales"]
-#define VAR_ZULRAH_ENUMLIST_FILTER_OTHER ["Grapes","Swamp tar"]
-
-CONST_ZULRAH_IF (name:VAR_ZULRAH_ENUMLIST_FILTER_GEAR) {
-  hidden = true;
-}
-CONST_ZULRAH_IF (name:VAR_ZULRAH_ENUMLIST_FILTER_RUNES) {
-  hidden = true;
-}
-CONST_ZULRAH_IF (name:VAR_ZULRAH_ENUMLIST_FILTER_HERBS) {
-  hidden = true;
-}
-CONST_ZULRAH_IF (name:VAR_ZULRAH_ENUMLIST_FILTER_SEEDS) {
-  hidden = true;
-}
-CONST_ZULRAH_IF (name:VAR_ZULRAH_ENUMLIST_FILTER_RESOURCES) {
-  hidden = true;
-}
-CONST_ZULRAH_IF (name:VAR_ZULRAH_ENUMLIST_FILTER_OTHER) {
-  hidden = true;
-}
-
-// endmodule:Zulrah
-// module:Phantom Muspah
-
-#define CONST_MUSPAH_AREA [2816, 4224, 0, 2879, 4287, 0]
-#define CONST_MUSPAH_IF(_cond) if (area:CONST_MUSPAH_AREA && (_cond))
-
-// label:Unique
-// enum:["Ancient essence","Frozen cache","Ancient icon"]
-#define VAR_MOD_ENUMLIST_FILTER_UNIQUE []
-CONST_MUSPAH_IF (name:VAR_MOD_ENUMLIST_FILTER_UNIQUE) {
-  hidden = true;
-}
-
-// label:Supplies
-// enum:["Shark","Summer pie","Ancient brew(3)","Ranging potion(3)","Super restore(3)","Prayer potion(3)"]
-#define VAR_MOD_ENUMLIST_FILTER_SUPPLIES ["Summer pie", "Ancient brew(3)"]
-CONST_MUSPAH_IF (name:VAR_MOD_ENUMLIST_FILTER_SUPPLIES) {
+// label:100%
+// enum:["Vile ashes"]
+#define VAR_BLOODVELD_ENUMLIST_FILTER_100 []
+CONST_BLOODVELD_IF (name:VAR_BLOODVELD_ENUMLIST_FILTER_100) {
   hidden = true;
 }
 
 // label:Weapons and armour
-// enum:["Rune kiteshield","Dragon plateskirt","Rune platelegs","Black d'hide body","Dragon platelegs","Rune sword"]
-#define VAR_MOD_ENUMLIST_FILTER_GEAR ["Black d'hide body", "Rune sword"]
-CONST_MUSPAH_IF (name:VAR_MOD_ENUMLIST_FILTER_GEAR) {
+// enum:["Steel axe","Steel full helm","Steel scimitar","Black boots","Mithril sq shield","Mithril chainbody","Rune med helm"]
+#define VAR_BLOODVELD_ENUMLIST_FILTER_WEAPONSANDARMOUR []
+CONST_BLOODVELD_IF (name:VAR_BLOODVELD_ENUMLIST_FILTER_WEAPONSANDARMOUR) {
   hidden = true;
 }
 
-// label:Runes and ammunition
-// enum:["Law rune","Soul rune","Death rune","Smoke rune","Chaos rune","Fire rune","Cannonball"]
-#define VAR_MOD_ENUMLIST_FILTER_RUNES []
-CONST_MUSPAH_IF (name:VAR_MOD_ENUMLIST_FILTER_RUNES) {
+// label:Runes 
+// enum:["Fire rune","Blood rune"]
+#define VAR_BLOODVELD_ENUMLIST_FILTER_RUNES []
+CONST_BLOODVELD_IF (name:VAR_BLOODVELD_ENUMLIST_FILTER_RUNES) {
   hidden = true;
 }
 
-// label:Herbs
-// enum:["Grimy toadflax","Grimy kwuarm","Grimy cadantine","Grimy dwarf weed","Grimy lantadyme"]
-#define VAR_MOD_ENUMLIST_FILTER_HERBS []
-CONST_MUSPAH_IF (name:VAR_MOD_ENUMLIST_FILTER_HERBS) {
-  hidden = true;
-}
 
-// label:Seeds
-// enum:["Yew seed","Torstol seed","Palm tree seed","Ranarr seed","Snapdragon seed","Ranarr seed","Spirit seed"]
-#define VAR_MOD_ENUMLIST_FILTER_SEEDS []
-CONST_MUSPAH_IF (name:VAR_MOD_ENUMLIST_FILTER_SEEDS) {
-  hidden = true;
-}
 
-// label:Resources
-// enum:["Adamantite ore","Gold ore","Teak plank","Molten glass","Pure essence","Coal","Runite ore","Silver ore"]
-#define VAR_MOD_ENUMLIST_FILTER_RESOURCES []
-CONST_MUSPAH_IF (name:VAR_MOD_ENUMLIST_FILTER_RESOURCES) {
+// label:Coins
+// enum:["Coins"]
+#define VAR_BLOODVELD_ENUMLIST_FILTER_COINS []
+CONST_BLOODVELD_IF (name:VAR_BLOODVELD_ENUMLIST_FILTER_COINS) {
   hidden = true;
 }
 
 // label:Other
-// enum:["Manta ray","Water orb","Dragon bolts (unf)","Limpwurt root"]
-#define VAR_MOD_ENUMLIST_FILTER_OTHER ["Limpwurt root"]
-CONST_MUSPAH_IF (name:VAR_MOD_ENUMLIST_FILTER_OTHER) {
+// enum:["Bones","Big bones","Gold ore","Meat pizza"]
+#define VAR_BLOODVELD_ENUMLIST_FILTER_OTHER []
+CONST_BLOODVELD_IF (name:VAR_BLOODVELD_ENUMLIST_FILTER_OTHER) {
   hidden = true;
 }
 
-// endmodule:Phantom Muspah
-// module:cox
+
+
+// label:Tertiary
+// enum:["Clue scroll (elite)","Reward casket (elite)","Looting bag","Ensouled bloodveld head","Brimstone key"]
+#define VAR_BLOODVELD_ENUMLIST_FILTER_TERTIARY []
+CONST_BLOODVELD_IF (name:VAR_BLOODVELD_ENUMLIST_FILTER_TERTIARY) {
+  hidden = true;
+}
+
+
+
+// endmodule:Bloodveld// module:cox
 
 #define CONST_COX_AREA []
 

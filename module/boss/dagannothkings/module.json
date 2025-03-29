@@ -17,7 +17,7 @@
       "type": "enumlist",
       "group": "FILTER",
       "label": "Weapons and armour",
-      "macroName": "VAR_DAGANNOTHKINGS_ENUMLIST_FILTER_WEAPONS",
+      "macroName": "VAR_DAGANNOTHKINGS_ENUMLIST_FILTER_WEAPONSANDARMOUR",
       "default": [],
       "enum": [
         "Steel kiteshield",
@@ -79,7 +79,7 @@
       "type": "enumlist",
       "group": "FILTER",
       "label": "Ores and bars",
-      "macroName": "VAR_DAGANNOTHKINGS_ENUMLIST_FILTER_ORES",
+      "macroName": "VAR_DAGANNOTHKINGS_ENUMLIST_FILTER_ORESANDBARS",
       "default": [],
       "enum": [
         "Mithril ore",
@@ -144,7 +144,7 @@
       "type": "enumlist",
       "group": "FILTER",
       "label": "Talismans (noted)",
-      "macroName": "VAR_DAGANNOTHKINGS_ENUMLIST_FILTER_TALISMANS",
+      "macroName": "VAR_DAGANNOTHKINGS_ENUMLIST_FILTER_TALISMANSNOTED",
       "default": [],
       "enum": [
         "Earth talisman",

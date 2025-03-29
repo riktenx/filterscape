@@ -12,8 +12,8 @@ CONST_DAGANNOTHKINGS_IF (name:VAR_DAGANNOTHKINGS_ENUMLIST_FILTER_100) {
 
 // label:Weapons and armour
 // enum:["Steel kiteshield","Mithril warhammer","Adamant axe","Steel platebody","Mithril pickaxe","Adamant platebody","Fremennik blade","Dragon axe","Rune axe","Fremennik shield","Fremennik helm","Mithril 2h sword","Ring of life","Rock-shell plate","Rock-shell legs","Berserker ring","Warrior ring","Earth battlestaff","Water battlestaff","Air battlestaff","Battlestaff","Mud battlestaff","Farseer helm","Skeletal top","Skeletal bottoms","Seers ring","Mithril knife","Red d'hide vambraces","Rune thrownaxe","Adamant dart","Iron knife","Steel knife","Seercull","Archer helm","Spined body","Spined chaps","Archers ring"]
-#define VAR_DAGANNOTHKINGS_ENUMLIST_FILTER_WEAPONS []
-CONST_DAGANNOTHKINGS_IF (name:VAR_DAGANNOTHKINGS_ENUMLIST_FILTER_WEAPONS) {
+#define VAR_DAGANNOTHKINGS_ENUMLIST_FILTER_WEAPONSANDARMOUR []
+CONST_DAGANNOTHKINGS_IF (name:VAR_DAGANNOTHKINGS_ENUMLIST_FILTER_WEAPONSANDARMOUR) {
   hidden = true;
 }
 
@@ -26,8 +26,8 @@ CONST_DAGANNOTHKINGS_IF (name:VAR_DAGANNOTHKINGS_ENUMLIST_FILTER_POTIONS) {
 
 // label:Ores and bars
 // enum:["Mithril ore","Adamantite bar","Coal","Iron ore","Steel bar"]
-#define VAR_DAGANNOTHKINGS_ENUMLIST_FILTER_ORES []
-CONST_DAGANNOTHKINGS_IF (name:VAR_DAGANNOTHKINGS_ENUMLIST_FILTER_ORES) {
+#define VAR_DAGANNOTHKINGS_ENUMLIST_FILTER_ORESANDBARS []
+CONST_DAGANNOTHKINGS_IF (name:VAR_DAGANNOTHKINGS_ENUMLIST_FILTER_ORESANDBARS) {
   hidden = true;
 }
 
@@ -60,8 +60,8 @@ CONST_DAGANNOTHKINGS_IF (name:VAR_DAGANNOTHKINGS_ENUMLIST_FILTER_RUNES) {
 
 // label:Talismans (noted)
 // enum:["Earth talisman","Air talisman","Water talisman"]
-#define VAR_DAGANNOTHKINGS_ENUMLIST_FILTER_TALISMANS []
-CONST_DAGANNOTHKINGS_IF (name:VAR_DAGANNOTHKINGS_ENUMLIST_FILTER_TALISMANS) {
+#define VAR_DAGANNOTHKINGS_ENUMLIST_FILTER_TALISMANSNOTED []
+CONST_DAGANNOTHKINGS_IF (name:VAR_DAGANNOTHKINGS_ENUMLIST_FILTER_TALISMANSNOTED) {
   hidden = true;
 }
 

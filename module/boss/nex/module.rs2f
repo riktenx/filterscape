@@ -25,8 +25,8 @@ CONST_NEX_IF (name:VAR_NEX_ENUMLIST_FILTER_UNIQUES) {
 
 // label:Runes & ammunition
 // enum:["Air rune","Fire rune","Blood rune","Death rune","Water rune","Soul rune","Dragon bolts (unf)","Onyx bolts (e)","Cannonball"]
-#define VAR_NEX_ENUMLIST_FILTER_RUNES []
-CONST_NEX_IF (name:VAR_NEX_ENUMLIST_FILTER_RUNES) {
+#define VAR_NEX_ENUMLIST_FILTER_RUNESAMMUNITION []
+CONST_NEX_IF (name:VAR_NEX_ENUMLIST_FILTER_RUNESAMMUNITION) {
   hidden = true;
 }
 

@@ -6,7 +6,7 @@
       "type": "enumlist",
       "group": "FILTER",
       "label": "Pre-roll",
-      "macroName": "VAR_SCORPIA_ENUMLIST_FILTER_PRE-ROLL",
+      "macroName": "VAR_SCORPIA_ENUMLIST_FILTER_PREROLL",
       "default": [],
       "enum": [
         "Odium shard 3",
@@ -17,7 +17,7 @@
       "type": "enumlist",
       "group": "FILTER",
       "label": "Weapons and armour",
-      "macroName": "VAR_SCORPIA_ENUMLIST_FILTER_WEAPONS",
+      "macroName": "VAR_SCORPIA_ENUMLIST_FILTER_WEAPONSANDARMOUR",
       "default": [],
       "enum": [
         "Battlestaff",

@@ -19,15 +19,15 @@ CONST_SCURRIUS_IF (name:VAR_SCURRIUS_ENUMLIST_FILTER_EQUIPMENT) {
 
 // label:Runes and ammunition
 // enum:["Adamant arrow","Rune arrow","Chaos rune","Death rune","Law rune"]
-#define VAR_SCURRIUS_ENUMLIST_FILTER_RUNES []
-CONST_SCURRIUS_IF (name:VAR_SCURRIUS_ENUMLIST_FILTER_RUNES) {
+#define VAR_SCURRIUS_ENUMLIST_FILTER_RUNESANDAMMUNITION []
+CONST_SCURRIUS_IF (name:VAR_SCURRIUS_ENUMLIST_FILTER_RUNESANDAMMUNITION) {
   hidden = true;
 }
 
 // label:Food and potions
 // enum:["Trout","Tuna","Shark","Lobster","Ranging potion(1)","Super strength(1)","Cheese","Prayer potion(4)"]
-#define VAR_SCURRIUS_ENUMLIST_FILTER_FOOD []
-CONST_SCURRIUS_IF (name:VAR_SCURRIUS_ENUMLIST_FILTER_FOOD) {
+#define VAR_SCURRIUS_ENUMLIST_FILTER_FOODANDPOTIONS []
+CONST_SCURRIUS_IF (name:VAR_SCURRIUS_ENUMLIST_FILTER_FOODANDPOTIONS) {
   hidden = true;
 }
 
@@ -40,8 +40,8 @@ CONST_SCURRIUS_IF (name:VAR_SCURRIUS_ENUMLIST_FILTER_OTHER) {
 
 // label:Tertiary drops
 // enum:["Scurrius' spine","Long bone","Curved bone","Scurry"]
-#define VAR_SCURRIUS_ENUMLIST_FILTER_TERTIARY []
-CONST_SCURRIUS_IF (name:VAR_SCURRIUS_ENUMLIST_FILTER_TERTIARY) {
+#define VAR_SCURRIUS_ENUMLIST_FILTER_TERTIARYDROPS []
+CONST_SCURRIUS_IF (name:VAR_SCURRIUS_ENUMLIST_FILTER_TERTIARYDROPS) {
   hidden = true;
 }
 

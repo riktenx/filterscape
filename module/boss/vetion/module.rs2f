@@ -19,15 +19,15 @@ CONST_VETION_IF (name:VAR_VETION_ENUMLIST_FILTER_UNIQUE) {
 
 // label:Weapons and armour
 // enum:["Mystic fire staff","Mystic water staff","Mystic robe top","Mystic robe bottom","Rune full helm","Rune pickaxe","Rune dart","Rune knife"]
-#define VAR_VETION_ENUMLIST_FILTER_WEAPONS []
-CONST_VETION_IF (name:VAR_VETION_ENUMLIST_FILTER_WEAPONS) {
+#define VAR_VETION_ENUMLIST_FILTER_WEAPONSANDARMOUR []
+CONST_VETION_IF (name:VAR_VETION_ENUMLIST_FILTER_WEAPONSANDARMOUR) {
   hidden = true;
 }
 
 // label:Runes and ammunition
 // enum:["Chaos rune","Death rune","Blood rune","Cannonball"]
-#define VAR_VETION_ENUMLIST_FILTER_RUNES []
-CONST_VETION_IF (name:VAR_VETION_ENUMLIST_FILTER_RUNES) {
+#define VAR_VETION_ENUMLIST_FILTER_RUNESANDAMMUNITION []
+CONST_VETION_IF (name:VAR_VETION_ENUMLIST_FILTER_RUNESANDAMMUNITION) {
   hidden = true;
 }
 
@@ -47,8 +47,8 @@ CONST_VETION_IF (name:VAR_VETION_ENUMLIST_FILTER_OTHER) {
 
 // label:Secondary Supply roll
 // enum:["Blighted anglerfish","Blighted karambwan","Blighted super restore(3)","Blighted super restore(4)","Ranging potion(2)","Super combat potion(2)"]
-#define VAR_VETION_ENUMLIST_FILTER_SECONDARY []
-CONST_VETION_IF (name:VAR_VETION_ENUMLIST_FILTER_SECONDARY) {
+#define VAR_VETION_ENUMLIST_FILTER_SECONDARYSUPPLYROLL []
+CONST_VETION_IF (name:VAR_VETION_ENUMLIST_FILTER_SECONDARYSUPPLYROLL) {
   hidden = true;
 }
 

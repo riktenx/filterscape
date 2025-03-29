@@ -5,15 +5,15 @@
 
 // label:Pre-roll
 // enum:["Odium shard 3","Malediction shard 3"]
-#define VAR_SCORPIA_ENUMLIST_FILTER_PRE-ROLL []
-CONST_SCORPIA_IF (name:VAR_SCORPIA_ENUMLIST_FILTER_PRE-ROLL) {
+#define VAR_SCORPIA_ENUMLIST_FILTER_PREROLL []
+CONST_SCORPIA_IF (name:VAR_SCORPIA_ENUMLIST_FILTER_PREROLL) {
   hidden = true;
 }
 
 // label:Weapons and armour
 // enum:["Battlestaff","Rune 2h sword","Rune pickaxe","Rune kiteshield","Rune chainbody","Rune platelegs","Rune scimitar","Rune warhammer","Mystic earth staff","Mystic robe top","Mystic robe bottom","Dragon scimitar","Dragon 2h sword"]
-#define VAR_SCORPIA_ENUMLIST_FILTER_WEAPONS []
-CONST_SCORPIA_IF (name:VAR_SCORPIA_ENUMLIST_FILTER_WEAPONS) {
+#define VAR_SCORPIA_ENUMLIST_FILTER_WEAPONSANDARMOUR []
+CONST_SCORPIA_IF (name:VAR_SCORPIA_ENUMLIST_FILTER_WEAPONSANDARMOUR) {
   hidden = true;
 }
 

@@ -31,7 +31,7 @@
       "type": "enumlist",
       "group": "FILTER",
       "label": "Weapons and armour",
-      "macroName": "VAR_CALLISTO_ENUMLIST_FILTER_WEAPONS",
+      "macroName": "VAR_CALLISTO_ENUMLIST_FILTER_WEAPONSANDARMOUR",
       "default": [],
       "enum": [
         "Mystic earth staff",
@@ -47,7 +47,7 @@
       "type": "enumlist",
       "group": "FILTER",
       "label": "Runes and ammunition",
-      "macroName": "VAR_CALLISTO_ENUMLIST_FILTER_RUNES",
+      "macroName": "VAR_CALLISTO_ENUMLIST_FILTER_RUNESANDAMMUNITION",
       "default": [],
       "enum": [
         "Blood rune",
@@ -109,7 +109,7 @@
       "type": "enumlist",
       "group": "FILTER",
       "label": "Secondary Supply roll",
-      "macroName": "VAR_CALLISTO_ENUMLIST_FILTER_SECONDARY",
+      "macroName": "VAR_CALLISTO_ENUMLIST_FILTER_SECONDARYSUPPLYROLL",
       "default": [],
       "enum": [
         "Blighted anglerfish",

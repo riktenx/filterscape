@@ -16,7 +16,7 @@
       "type": "enumlist",
       "group": "FILTER",
       "label": "Weapons and armour",
-      "macroName": "VAR_THERMONUCLEARSMOKEDEVIL_ENUMLIST_FILTER_WEAPONS",
+      "macroName": "VAR_THERMONUCLEARSMOKEDEVIL_ENUMLIST_FILTER_WEAPONSANDARMOUR",
       "default": [],
       "enum": [
         "Rune dagger",
@@ -38,7 +38,7 @@
       "type": "enumlist",
       "group": "FILTER",
       "label": "Runes and ammunition",
-      "macroName": "VAR_THERMONUCLEARSMOKEDEVIL_ENUMLIST_FILTER_RUNES",
+      "macroName": "VAR_THERMONUCLEARSMOKEDEVIL_ENUMLIST_FILTER_RUNESANDAMMUNITION",
       "default": [],
       "enum": [
         "Smoke rune",

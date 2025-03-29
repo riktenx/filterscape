@@ -16,8 +16,8 @@ CONST_VORKATH_IF (VAR_VORKATH_BOOLEAN_GENERAL_NOBONE && name:"Superior dragon bo
 
 // label:Weapons and armour
 // enum:["Rune longsword","Rune kiteshield","Battlestaff","Dragon battleaxe","Dragon longsword","Dragon platelegs","Dragon plateskirt"]
-#define VAR_VORKATH_ENUMLIST_FILTER_WEAPONS []
-CONST_VORKATH_IF (name:VAR_VORKATH_ENUMLIST_FILTER_WEAPONS) {
+#define VAR_VORKATH_ENUMLIST_FILTER_WEAPONSANDARMOUR []
+CONST_VORKATH_IF (name:VAR_VORKATH_ENUMLIST_FILTER_WEAPONSANDARMOUR) {
   hidden = true;
 }
 
@@ -37,8 +37,8 @@ CONST_VORKATH_IF (name:VAR_VORKATH_ENUMLIST_FILTER_DRAGONHIDE) {
 
 // label:Fletching materials
 // enum:["Dragon bolts (unf)","Sapphire bolt tips","Emerald bolt tips","Ruby bolt tips","Diamond bolt tips","Dragonstone bolt tips","Onyx bolt tips","Rune dart tip","Dragon dart tip","Dragon arrowtips"]
-#define VAR_VORKATH_ENUMLIST_FILTER_FLETCHING []
-CONST_VORKATH_IF (name:VAR_VORKATH_ENUMLIST_FILTER_FLETCHING) {
+#define VAR_VORKATH_ENUMLIST_FILTER_FLETCHINGMATERIALS []
+CONST_VORKATH_IF (name:VAR_VORKATH_ENUMLIST_FILTER_FLETCHINGMATERIALS) {
   hidden = true;
 }
 

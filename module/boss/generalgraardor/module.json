@@ -33,7 +33,7 @@
       "type": "enumlist",
       "group": "FILTER",
       "label": "Weapons and armour",
-      "macroName": "VAR_GENERALGRAARDOR_ENUMLIST_FILTER_WEAPONS",
+      "macroName": "VAR_GENERALGRAARDOR_ENUMLIST_FILTER_WEAPONSANDARMOUR",
       "default": [],
       "enum": [
         "Rune longsword",

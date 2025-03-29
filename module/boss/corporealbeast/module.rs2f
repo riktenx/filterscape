@@ -7,15 +7,15 @@
 
 // label:Weapons and armour
 // enum:["Mystic robe top","Mystic robe bottom","Mystic air staff","Mystic water staff","Mystic earth staff","Mystic fire staff","Spirit shield"]
-#define VAR_CORPOREALBEAST_ENUMLIST_FILTER_WEAPONS []
-CONST_CORPOREALBEAST_IF (name:VAR_CORPOREALBEAST_ENUMLIST_FILTER_WEAPONS) {
+#define VAR_CORPOREALBEAST_ENUMLIST_FILTER_WEAPONSANDARMOUR []
+CONST_CORPOREALBEAST_IF (name:VAR_CORPOREALBEAST_ENUMLIST_FILTER_WEAPONSANDARMOUR) {
   hidden = true;
 }
 
 // label:Runes and ammunition
 // enum:["Soul rune","Runite bolts","Death rune","Onyx bolts (e)","Cannonball","Adamant arrow","Law rune","Cosmic rune"]
-#define VAR_CORPOREALBEAST_ENUMLIST_FILTER_RUNES []
-CONST_CORPOREALBEAST_IF (name:VAR_CORPOREALBEAST_ENUMLIST_FILTER_RUNES) {
+#define VAR_CORPOREALBEAST_ENUMLIST_FILTER_RUNESANDAMMUNITION []
+CONST_CORPOREALBEAST_IF (name:VAR_CORPOREALBEAST_ENUMLIST_FILTER_RUNESANDAMMUNITION) {
   hidden = true;
 }
 

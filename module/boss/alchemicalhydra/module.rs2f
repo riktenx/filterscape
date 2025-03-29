@@ -12,22 +12,22 @@ CONST_ALCHEMICALHYDRA_IF (name:VAR_ALCHEMICALHYDRA_ENUMLIST_FILTER_100) {
 
 // label:Pre-roll
 // enum:["Hydra's eye","Hydra's fang","Hydra's heart","Hydra tail","Hydra leather","Hydra's claw","Dragon thrownaxe","Dragon knife"]
-#define VAR_ALCHEMICALHYDRA_ENUMLIST_FILTER_PRE-ROLL []
-CONST_ALCHEMICALHYDRA_IF (name:VAR_ALCHEMICALHYDRA_ENUMLIST_FILTER_PRE-ROLL) {
+#define VAR_ALCHEMICALHYDRA_ENUMLIST_FILTER_PREROLL []
+CONST_ALCHEMICALHYDRA_IF (name:VAR_ALCHEMICALHYDRA_ENUMLIST_FILTER_PREROLL) {
   hidden = true;
 }
 
 // label:Weapons and armour
 // enum:["Mystic fire staff","Mystic water staff","Battlestaff","Black d'hide body","Dragon longsword","Dragon med helm","Rune platebody","Dragon battleaxe","Rune platelegs","Rune plateskirt","Mystic robe top (light)","Mystic robe bottom (light)"]
-#define VAR_ALCHEMICALHYDRA_ENUMLIST_FILTER_WEAPONS []
-CONST_ALCHEMICALHYDRA_IF (name:VAR_ALCHEMICALHYDRA_ENUMLIST_FILTER_WEAPONS) {
+#define VAR_ALCHEMICALHYDRA_ENUMLIST_FILTER_WEAPONSANDARMOUR []
+CONST_ALCHEMICALHYDRA_IF (name:VAR_ALCHEMICALHYDRA_ENUMLIST_FILTER_WEAPONSANDARMOUR) {
   hidden = true;
 }
 
 // label:Runes and ammunition
 // enum:["Chaos rune","Death rune","Blood rune","Astral rune","Dragonstone bolts (e)","Onyx bolts (e)"]
-#define VAR_ALCHEMICALHYDRA_ENUMLIST_FILTER_RUNES []
-CONST_ALCHEMICALHYDRA_IF (name:VAR_ALCHEMICALHYDRA_ENUMLIST_FILTER_RUNES) {
+#define VAR_ALCHEMICALHYDRA_ENUMLIST_FILTER_RUNESANDAMMUNITION []
+CONST_ALCHEMICALHYDRA_IF (name:VAR_ALCHEMICALHYDRA_ENUMLIST_FILTER_RUNESANDAMMUNITION) {
   hidden = true;
 }
 

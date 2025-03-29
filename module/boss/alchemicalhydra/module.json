@@ -16,7 +16,7 @@
       "type": "enumlist",
       "group": "FILTER",
       "label": "Pre-roll",
-      "macroName": "VAR_ALCHEMICALHYDRA_ENUMLIST_FILTER_PRE-ROLL",
+      "macroName": "VAR_ALCHEMICALHYDRA_ENUMLIST_FILTER_PREROLL",
       "default": [],
       "enum": [
         "Hydra's eye",
@@ -33,7 +33,7 @@
       "type": "enumlist",
       "group": "FILTER",
       "label": "Weapons and armour",
-      "macroName": "VAR_ALCHEMICALHYDRA_ENUMLIST_FILTER_WEAPONS",
+      "macroName": "VAR_ALCHEMICALHYDRA_ENUMLIST_FILTER_WEAPONSANDARMOUR",
       "default": [],
       "enum": [
         "Mystic fire staff",
@@ -54,7 +54,7 @@
       "type": "enumlist",
       "group": "FILTER",
       "label": "Runes and ammunition",
-      "macroName": "VAR_ALCHEMICALHYDRA_ENUMLIST_FILTER_RUNES",
+      "macroName": "VAR_ALCHEMICALHYDRA_ENUMLIST_FILTER_RUNESANDAMMUNITION",
       "default": [],
       "enum": [
         "Chaos rune",

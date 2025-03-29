@@ -1,0 +1,113 @@
+[
+  {
+    "modulePath": "module/boss/scurrius/module.json"
+  },
+  {
+    "modulePath": "module/boss/giantmole/module.json"
+  },
+  {
+    "modulePath": "module/boss/derangedarchaeologist/module.json"
+  },
+  {
+    "modulePath": "module/boss/dagannothkings/module.json"
+  },
+  {
+    "modulePath": "module/boss/sarachnis/module.json"
+  },
+  {
+    "modulePath": "module/boss/kalphitequeen/module.json"
+  },
+  {
+    "modulePath": "module/boss/kreearra/module.json"
+  },
+  {
+    "modulePath": "module/boss/commanderzilyana/module.json"
+  },
+  {
+    "modulePath": "module/boss/generalgraardor/module.json"
+  },
+  {
+    "modulePath": "module/boss/kriltsutsaroth/module.json"
+  },
+  {
+    "modulePath": "module/boss/thehueycoatl/module.json"
+  },
+  {
+    "modulePath": "module/boss/corporealbeast/module.json"
+  },
+  {
+    "modulePath": "module/boss/nex/module.json"
+  },
+  {
+    "modulePath": "module/boss/chaosfanatic/module.json"
+  },
+  {
+    "modulePath": "module/boss/crazyarchaeologist/module.json"
+  },
+  {
+    "modulePath": "module/boss/scorpia/module.json"
+  },
+  {
+    "modulePath": "module/boss/kingblackdragon/module.json"
+  },
+  {
+    "modulePath": "module/boss/chaoselemental/module.json"
+  },
+  {
+    "modulePath": "module/boss/vetion/module.json"
+  },
+  {
+    "modulePath": "module/boss/venenatis/module.json"
+  },
+  {
+    "modulePath": "module/boss/callisto/module.json"
+  },
+  {
+    "modulePath": "module/boss/amoxliatl/module.json"
+  },
+  {
+    "modulePath": "module/boss/zulrah/module.json"
+  },
+  {
+    "modulePath": "module/boss/vorkath/module.json"
+  },
+  {
+    "modulePath": "module/boss/phantommuspah/module.json"
+  },
+  {
+    "modulePath": "module/boss/thenightmare/module.json"
+  },
+  {
+    "modulePath": "module/boss/dukesucellus/module.json"
+  },
+  {
+    "modulePath": "module/boss/theleviathan/module.json"
+  },
+  {
+    "modulePath": "module/boss/thewhisperer/module.json"
+  },
+  {
+    "modulePath": "module/boss/vardorvis/module.json"
+  },
+  {
+    "modulePath": "module/boss/grotesqueguardians/module.json"
+  },
+  {
+    "modulePath": "module/boss/abyssalsire/module.json"
+  },
+  {
+    "modulePath": "module/boss/kraken/module.json"
+  },
+  {
+    "modulePath": "module/boss/cerberus/module.json"
+  },
+  {
+    "modulePath": "module/boss/araxxor/module.json"
+  },
+  {
+    "modulePath": "module/boss/thermonuclearsmokedevil/module.json"
+  },
+  {
+    "modulePath": "module/boss/alchemicalhydra/module.json"
+  }
+]

@@ -16,8 +16,8 @@ CONST_VARDORVIS_IF (name:VAR_VARDORVIS_ENUMLIST_FILTER_UNIQUES) {
 
 // label:Secondary uniques
 // enum:["Strangled tablet","Awakener's orb","Blood quartz"]
-#define VAR_VARDORVIS_ENUMLIST_FILTER_SECONDARY []
-CONST_VARDORVIS_IF (name:VAR_VARDORVIS_ENUMLIST_FILTER_SECONDARY) {
+#define VAR_VARDORVIS_ENUMLIST_FILTER_SECONDARYUNIQUES []
+CONST_VARDORVIS_IF (name:VAR_VARDORVIS_ENUMLIST_FILTER_SECONDARYUNIQUES) {
   hidden = true;
 }
 
@@ -37,8 +37,8 @@ CONST_VARDORVIS_IF (name:VAR_VARDORVIS_ENUMLIST_FILTER_RESOURCES) {
 
 // label:Runes and ammunition
 // enum:["Bronze javelin","Mithril javelin","Adamant javelin","Onyx bolts (e)","Mind rune","Fire rune","Lava rune","Blood rune","Soul rune"]
-#define VAR_VARDORVIS_ENUMLIST_FILTER_RUNES []
-CONST_VARDORVIS_IF (name:VAR_VARDORVIS_ENUMLIST_FILTER_RUNES) {
+#define VAR_VARDORVIS_ENUMLIST_FILTER_RUNESANDAMMUNITION []
+CONST_VARDORVIS_IF (name:VAR_VARDORVIS_ENUMLIST_FILTER_RUNESANDAMMUNITION) {
   hidden = true;
 }
 

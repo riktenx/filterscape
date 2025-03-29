@@ -12,15 +12,15 @@ CONST_ABYSSALSIRE_IF (name:VAR_ABYSSALSIRE_ENUMLIST_FILTER_100) {
 
 // label:Weapons and armour
 // enum:["Battlestaff","Rune full helm","Mystic lava staff","Rune sword","Rune platebody","Rune kiteshield","Mystic air staff","Air battlestaff"]
-#define VAR_ABYSSALSIRE_ENUMLIST_FILTER_WEAPONS []
-CONST_ABYSSALSIRE_IF (name:VAR_ABYSSALSIRE_ENUMLIST_FILTER_WEAPONS) {
+#define VAR_ABYSSALSIRE_ENUMLIST_FILTER_WEAPONSANDARMOUR []
+CONST_ABYSSALSIRE_IF (name:VAR_ABYSSALSIRE_ENUMLIST_FILTER_WEAPONSANDARMOUR) {
   hidden = true;
 }
 
 // label:Runes and ammunition
 // enum:["Blood rune","Death rune","Law rune","Soul rune","Cosmic rune","Cannonball"]
-#define VAR_ABYSSALSIRE_ENUMLIST_FILTER_RUNES []
-CONST_ABYSSALSIRE_IF (name:VAR_ABYSSALSIRE_ENUMLIST_FILTER_RUNES) {
+#define VAR_ABYSSALSIRE_ENUMLIST_FILTER_RUNESANDAMMUNITION []
+CONST_ABYSSALSIRE_IF (name:VAR_ABYSSALSIRE_ENUMLIST_FILTER_RUNESANDAMMUNITION) {
   hidden = true;
 }
 

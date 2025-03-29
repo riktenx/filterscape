@@ -21,7 +21,7 @@
       "type": "enumlist",
       "group": "FILTER",
       "label": "Secondary uniques",
-      "macroName": "VAR_THELEVIATHAN_ENUMLIST_FILTER_SECONDARY",
+      "macroName": "VAR_THELEVIATHAN_ENUMLIST_FILTER_SECONDARYUNIQUES",
       "default": [],
       "enum": [
         "Scarred tablet",
@@ -71,7 +71,7 @@
       "type": "enumlist",
       "group": "FILTER",
       "label": "Runes and ammunition",
-      "macroName": "VAR_THELEVIATHAN_ENUMLIST_FILTER_RUNES",
+      "macroName": "VAR_THELEVIATHAN_ENUMLIST_FILTER_RUNESANDAMMUNITION",
       "default": [],
       "enum": [
         "Bronze arrow",

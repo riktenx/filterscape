@@ -23,13 +23,9 @@ const parseDefault = (type, value) => {
   throw new Error(`idk what type "${type}" is`);
 };
 
-const toCategoryName = (str) => str.split(' ')[0].replace('%', '').toUpperCase();
-
-const toAreaMacroIdent = (str) => str
-  .toUpperCase()
-  .replace("'", '')
-  .replaceAll(' ', '')
-  .replaceAll('-', '');
+const toMacroIdent = (str) => str
+  .replace(/\W/g, '')
+  .toUpperCase();
 
 export const generateRs2f = (name, area, dropTable, transform) => {
   let rs2f = '';
@@ -42,7 +38,7 @@ export const generateRs2f = (name, area, dropTable, transform) => {
     rs2f += '\n\n';
   }
 
-  const moduleScope = toAreaMacroIdent(name);
+  const moduleScope = toMacroIdent(name);
   const areaDefine = JSON.stringify(area);
   rs2f += `#define CONST_AREA_${moduleScope} ${areaDefine}`;
   rs2f += '\n';
@@ -55,7 +51,7 @@ export const generateRs2f = (name, area, dropTable, transform) => {
     }
 
     const jvalue = JSON.stringify(items);
-    const ident = toCategoryName(category);
+    const ident = toMacroIdent(category);
     return `// label:${category}
 // enum:${jvalue}
 #define VAR_${moduleScope}_ENUMLIST_FILTER_${ident} []

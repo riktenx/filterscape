@@ -20,7 +20,7 @@
       "type": "enumlist",
       "group": "FILTER",
       "label": "Weapons and armour",
-      "macroName": "VAR_VORKATH_ENUMLIST_FILTER_WEAPONS",
+      "macroName": "VAR_VORKATH_ENUMLIST_FILTER_WEAPONSANDARMOUR",
       "default": [],
       "enum": [
         "Rune longsword",
@@ -61,7 +61,7 @@
       "type": "enumlist",
       "group": "FILTER",
       "label": "Fletching materials",
-      "macroName": "VAR_VORKATH_ENUMLIST_FILTER_FLETCHING",
+      "macroName": "VAR_VORKATH_ENUMLIST_FILTER_FLETCHINGMATERIALS",
       "default": [],
       "enum": [
         "Dragon bolts (unf)",

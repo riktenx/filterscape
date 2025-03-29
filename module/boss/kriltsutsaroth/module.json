@@ -33,7 +33,7 @@
       "type": "enumlist",
       "group": "FILTER",
       "label": "Weapons and armour",
-      "macroName": "VAR_KRILTSUTSAROTH_ENUMLIST_FILTER_WEAPONS",
+      "macroName": "VAR_KRILTSUTSAROTH_ENUMLIST_FILTER_WEAPONSANDARMOUR",
       "default": [],
       "enum": [
         "Adamant arrow(p++)",

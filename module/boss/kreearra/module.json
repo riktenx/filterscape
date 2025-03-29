@@ -34,7 +34,7 @@
       "type": "enumlist",
       "group": "FILTER",
       "label": "Weapons and armour",
-      "macroName": "VAR_KREEARRA_ENUMLIST_FILTER_WEAPONS",
+      "macroName": "VAR_KREEARRA_ENUMLIST_FILTER_WEAPONSANDARMOUR",
       "default": [],
       "enum": [
         "Black d'hide body",
@@ -45,7 +45,7 @@
       "type": "enumlist",
       "group": "FILTER",
       "label": "Runes and ammunition",
-      "macroName": "VAR_KREEARRA_ENUMLIST_FILTER_RUNES",
+      "macroName": "VAR_KREEARRA_ENUMLIST_FILTER_RUNESANDAMMUNITION",
       "default": [],
       "enum": [
         "Mind rune",

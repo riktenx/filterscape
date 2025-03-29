@@ -19,15 +19,15 @@ CONST_CERBERUS_IF (name:VAR_CERBERUS_ENUMLIST_FILTER_UNIQUES) {
 
 // label:Weapons and armour
 // enum:["Rune platebody","Rune chainbody","Rune 2h sword","Black d'hide body","Rune axe","Rune pickaxe","Battlestaff","Rune full helm","Lava battlestaff","Rune halberd"]
-#define VAR_CERBERUS_ENUMLIST_FILTER_WEAPONS []
-CONST_CERBERUS_IF (name:VAR_CERBERUS_ENUMLIST_FILTER_WEAPONS) {
+#define VAR_CERBERUS_ENUMLIST_FILTER_WEAPONSANDARMOUR []
+CONST_CERBERUS_IF (name:VAR_CERBERUS_ENUMLIST_FILTER_WEAPONSANDARMOUR) {
   hidden = true;
 }
 
 // label:Runes and ammunition
 // enum:["Fire rune","Soul rune","Pure essence","Blood rune","Cannonball","Runite bolts (unf)","Death rune"]
-#define VAR_CERBERUS_ENUMLIST_FILTER_RUNES []
-CONST_CERBERUS_IF (name:VAR_CERBERUS_ENUMLIST_FILTER_RUNES) {
+#define VAR_CERBERUS_ENUMLIST_FILTER_RUNESANDAMMUNITION []
+CONST_CERBERUS_IF (name:VAR_CERBERUS_ENUMLIST_FILTER_RUNESANDAMMUNITION) {
   hidden = true;
 }
 

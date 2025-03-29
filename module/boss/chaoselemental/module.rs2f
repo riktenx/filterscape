@@ -5,8 +5,8 @@
 
 // label:Minor drops
 // enum:["Blighted anglerfish","Blighted karambwan","Blighted super restore(4)","Dragon bones","Super combat potion(1)"]
-#define VAR_CHAOSELEMENTAL_ENUMLIST_FILTER_MINOR []
-CONST_CHAOSELEMENTAL_IF (name:VAR_CHAOSELEMENTAL_ENUMLIST_FILTER_MINOR) {
+#define VAR_CHAOSELEMENTAL_ENUMLIST_FILTER_MINORDROPS []
+CONST_CHAOSELEMENTAL_IF (name:VAR_CHAOSELEMENTAL_ENUMLIST_FILTER_MINORDROPS) {
   hidden = true;
 }
 
@@ -14,43 +14,43 @@ CONST_CHAOSELEMENTAL_IF (name:VAR_CHAOSELEMENTAL_ENUMLIST_FILTER_MINOR) {
 
 // label:=Pre-roll=
 // enum:["Dragon pickaxe"]
-#define VAR_CHAOSELEMENTAL_ENUMLIST_FILTER_=PRE-ROLL= []
-CONST_CHAOSELEMENTAL_IF (name:VAR_CHAOSELEMENTAL_ENUMLIST_FILTER_=PRE-ROLL=) {
+#define VAR_CHAOSELEMENTAL_ENUMLIST_FILTER_PREROLL []
+CONST_CHAOSELEMENTAL_IF (name:VAR_CHAOSELEMENTAL_ENUMLIST_FILTER_PREROLL) {
   hidden = true;
 }
 
 // label:=Weapons and armour=
 // enum:["Rune dart","Rune platelegs","Rune plateskirt","Rune 2h sword","Rune battleaxe","Rune full helm","Rune kiteshield","Mystic air staff","Mystic water staff","Mystic earth staff","Mystic fire staff","Dragon dagger","Dragon 2h sword","Dragon platelegs","Dragon plateskirt"]
-#define VAR_CHAOSELEMENTAL_ENUMLIST_FILTER_=WEAPONS []
-CONST_CHAOSELEMENTAL_IF (name:VAR_CHAOSELEMENTAL_ENUMLIST_FILTER_=WEAPONS) {
+#define VAR_CHAOSELEMENTAL_ENUMLIST_FILTER_WEAPONSANDARMOUR []
+CONST_CHAOSELEMENTAL_IF (name:VAR_CHAOSELEMENTAL_ENUMLIST_FILTER_WEAPONSANDARMOUR) {
   hidden = true;
 }
 
 // label:=Runes and ammunition=
 // enum:["Chaos rune","Blood rune","Rune arrow"]
-#define VAR_CHAOSELEMENTAL_ENUMLIST_FILTER_=RUNES []
-CONST_CHAOSELEMENTAL_IF (name:VAR_CHAOSELEMENTAL_ENUMLIST_FILTER_=RUNES) {
+#define VAR_CHAOSELEMENTAL_ENUMLIST_FILTER_RUNESANDAMMUNITION []
+CONST_CHAOSELEMENTAL_IF (name:VAR_CHAOSELEMENTAL_ENUMLIST_FILTER_RUNESANDAMMUNITION) {
   hidden = true;
 }
 
 // label:=Herbs=
 // enum:["Grimy ranarr weed","Grimy snapdragon","Grimy avantoe","Grimy kwuarm"]
-#define VAR_CHAOSELEMENTAL_ENUMLIST_FILTER_=HERBS= []
-CONST_CHAOSELEMENTAL_IF (name:VAR_CHAOSELEMENTAL_ENUMLIST_FILTER_=HERBS=) {
+#define VAR_CHAOSELEMENTAL_ENUMLIST_FILTER_HERBS []
+CONST_CHAOSELEMENTAL_IF (name:VAR_CHAOSELEMENTAL_ENUMLIST_FILTER_HERBS) {
   hidden = true;
 }
 
 // label:=Resources=
 // enum:["Coal","Mahogany plank","Runite bar","Adamantite bar"]
-#define VAR_CHAOSELEMENTAL_ENUMLIST_FILTER_=RESOURCES= []
-CONST_CHAOSELEMENTAL_IF (name:VAR_CHAOSELEMENTAL_ENUMLIST_FILTER_=RESOURCES=) {
+#define VAR_CHAOSELEMENTAL_ENUMLIST_FILTER_RESOURCES []
+CONST_CHAOSELEMENTAL_IF (name:VAR_CHAOSELEMENTAL_ENUMLIST_FILTER_RESOURCES) {
   hidden = true;
 }
 
 // label:=Materials=
 // enum:["Coins","Blighted ancient ice sack","Blighted karambwan","Blighted anglerfish","Wilderness crabs teleport"]
-#define VAR_CHAOSELEMENTAL_ENUMLIST_FILTER_=MATERIALS= []
-CONST_CHAOSELEMENTAL_IF (name:VAR_CHAOSELEMENTAL_ENUMLIST_FILTER_=MATERIALS=) {
+#define VAR_CHAOSELEMENTAL_ENUMLIST_FILTER_MATERIALS []
+CONST_CHAOSELEMENTAL_IF (name:VAR_CHAOSELEMENTAL_ENUMLIST_FILTER_MATERIALS) {
   hidden = true;
 }
 
@@ -58,8 +58,8 @@ CONST_CHAOSELEMENTAL_IF (name:VAR_CHAOSELEMENTAL_ENUMLIST_FILTER_=MATERIALS=) {
 
 // label:=Tertiary=
 // enum:["Weapon poison(++)","Looting bag","Brimstone key","Pet chaos elemental"]
-#define VAR_CHAOSELEMENTAL_ENUMLIST_FILTER_=TERTIARY= []
-CONST_CHAOSELEMENTAL_IF (name:VAR_CHAOSELEMENTAL_ENUMLIST_FILTER_=TERTIARY=) {
+#define VAR_CHAOSELEMENTAL_ENUMLIST_FILTER_TERTIARY []
+CONST_CHAOSELEMENTAL_IF (name:VAR_CHAOSELEMENTAL_ENUMLIST_FILTER_TERTIARY) {
   hidden = true;
 }
 

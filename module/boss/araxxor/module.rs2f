@@ -19,15 +19,15 @@ CONST_ARAXXOR_IF (name:VAR_ARAXXOR_ENUMLIST_FILTER_SUPPLIES) {
 
 // label:Weapons and armour
 // enum:["Rune kiteshield","Rune platelegs","Dragon mace","Rune 2h sword","Dragon platelegs"]
-#define VAR_ARAXXOR_ENUMLIST_FILTER_WEAPONS []
-CONST_ARAXXOR_IF (name:VAR_ARAXXOR_ENUMLIST_FILTER_WEAPONS) {
+#define VAR_ARAXXOR_ENUMLIST_FILTER_WEAPONSANDARMOUR []
+CONST_ARAXXOR_IF (name:VAR_ARAXXOR_ENUMLIST_FILTER_WEAPONSANDARMOUR) {
   hidden = true;
 }
 
 // label:Runes and ammunition
 // enum:["Death rune","Nature rune","Mud rune","Blood rune"]
-#define VAR_ARAXXOR_ENUMLIST_FILTER_RUNES []
-CONST_ARAXXOR_IF (name:VAR_ARAXXOR_ENUMLIST_FILTER_RUNES) {
+#define VAR_ARAXXOR_ENUMLIST_FILTER_RUNESANDAMMUNITION []
+CONST_ARAXXOR_IF (name:VAR_ARAXXOR_ENUMLIST_FILTER_RUNESANDAMMUNITION) {
   hidden = true;
 }
 

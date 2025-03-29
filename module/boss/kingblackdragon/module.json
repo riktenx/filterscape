@@ -17,7 +17,7 @@
       "type": "enumlist",
       "group": "FILTER",
       "label": "Pre-roll",
-      "macroName": "VAR_KINGBLACKDRAGON_ENUMLIST_FILTER_PRE-ROLL",
+      "macroName": "VAR_KINGBLACKDRAGON_ENUMLIST_FILTER_PREROLL",
       "default": [],
       "enum": [
         "Dragon pickaxe"
@@ -27,7 +27,7 @@
       "type": "enumlist",
       "group": "FILTER",
       "label": "Weapons and armour",
-      "macroName": "VAR_KINGBLACKDRAGON_ENUMLIST_FILTER_WEAPONS",
+      "macroName": "VAR_KINGBLACKDRAGON_ENUMLIST_FILTER_WEAPONSANDARMOUR",
       "default": [],
       "enum": [
         "Rune longsword",
@@ -40,7 +40,7 @@
       "type": "enumlist",
       "group": "FILTER",
       "label": "Runes and ammunition",
-      "macroName": "VAR_KINGBLACKDRAGON_ENUMLIST_FILTER_RUNES",
+      "macroName": "VAR_KINGBLACKDRAGON_ENUMLIST_FILTER_RUNESANDAMMUNITION",
       "default": [],
       "enum": [
         "Fire rune",

@@ -6,7 +6,7 @@
       "type": "enumlist",
       "group": "FILTER",
       "label": "Minor drops",
-      "macroName": "VAR_CHAOSELEMENTAL_ENUMLIST_FILTER_MINOR",
+      "macroName": "VAR_CHAOSELEMENTAL_ENUMLIST_FILTER_MINORDROPS",
       "default": [],
       "enum": [
         "Blighted anglerfish",
@@ -20,7 +20,7 @@
       "type": "enumlist",
       "group": "FILTER",
       "label": "=Pre-roll=",
-      "macroName": "VAR_CHAOSELEMENTAL_ENUMLIST_FILTER_=PRE-ROLL=",
+      "macroName": "VAR_CHAOSELEMENTAL_ENUMLIST_FILTER_PREROLL",
       "default": [],
       "enum": [
         "Dragon pickaxe"
@@ -30,7 +30,7 @@
       "type": "enumlist",
       "group": "FILTER",
       "label": "=Weapons and armour=",
-      "macroName": "VAR_CHAOSELEMENTAL_ENUMLIST_FILTER_=WEAPONS",
+      "macroName": "VAR_CHAOSELEMENTAL_ENUMLIST_FILTER_WEAPONSANDARMOUR",
       "default": [],
       "enum": [
         "Rune dart",
@@ -54,7 +54,7 @@
       "type": "enumlist",
       "group": "FILTER",
       "label": "=Runes and ammunition=",
-      "macroName": "VAR_CHAOSELEMENTAL_ENUMLIST_FILTER_=RUNES",
+      "macroName": "VAR_CHAOSELEMENTAL_ENUMLIST_FILTER_RUNESANDAMMUNITION",
       "default": [],
       "enum": [
         "Chaos rune",
@@ -66,7 +66,7 @@
       "type": "enumlist",
       "group": "FILTER",
       "label": "=Herbs=",
-      "macroName": "VAR_CHAOSELEMENTAL_ENUMLIST_FILTER_=HERBS=",
+      "macroName": "VAR_CHAOSELEMENTAL_ENUMLIST_FILTER_HERBS",
       "default": [],
       "enum": [
         "Grimy ranarr weed",
@@ -79,7 +79,7 @@
       "type": "enumlist",
       "group": "FILTER",
       "label": "=Resources=",
-      "macroName": "VAR_CHAOSELEMENTAL_ENUMLIST_FILTER_=RESOURCES=",
+      "macroName": "VAR_CHAOSELEMENTAL_ENUMLIST_FILTER_RESOURCES",
       "default": [],
       "enum": [
         "Coal",
@@ -92,7 +92,7 @@
       "type": "enumlist",
       "group": "FILTER",
       "label": "=Materials=",
-      "macroName": "VAR_CHAOSELEMENTAL_ENUMLIST_FILTER_=MATERIALS=",
+      "macroName": "VAR_CHAOSELEMENTAL_ENUMLIST_FILTER_MATERIALS",
       "default": [],
       "enum": [
         "Coins",
@@ -106,7 +106,7 @@
       "type": "enumlist",
       "group": "FILTER",
       "label": "=Tertiary=",
-      "macroName": "VAR_CHAOSELEMENTAL_ENUMLIST_FILTER_=TERTIARY=",
+      "macroName": "VAR_CHAOSELEMENTAL_ENUMLIST_FILTER_TERTIARY",
       "default": [],
       "enum": [
         "Weapon poison(++)",

@@ -223,11 +223,15 @@ CONST_VORKATH_IF (VAR_VORKATH_BOOLEAN_GENERAL_NOBONE && name:"Superior dragon bo
 
 const toModuleName = (str) => str.toLowerCase().replace("'", '').replaceAll(' ', '');
 
+const moduleIndex = [];
+
 for (const boss of index) {
   if (!boss.url) {
     console.log('skip', boss.name);
     continue;
   }
+
+  console.log('generate', boss.name, '...');
 
   if (!boss.transform) {
     boss.transform = {};
@@ -253,5 +257,9 @@ for (const boss of index) {
   fs.writeFileSync(`${modulePath}/dropTable`, JSON.stringify(dropTable, null, 2));
   fs.writeFileSync(`${modulePath}/module.rs2f`, rs2f);
   fs.writeFileSync(`${modulePath}/module.json`, JSON.stringify(module, null, 2));
+
+  moduleIndex.push({ modulePath: `${modulePath}/module.json` });
 }
+
+fs.writeFileSync('module/boss/index.json', JSON.stringify(moduleIndex, null, 2));
 

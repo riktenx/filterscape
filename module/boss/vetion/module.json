@@ -31,7 +31,7 @@
       "type": "enumlist",
       "group": "FILTER",
       "label": "Weapons and armour",
-      "macroName": "VAR_VETION_ENUMLIST_FILTER_WEAPONS",
+      "macroName": "VAR_VETION_ENUMLIST_FILTER_WEAPONSANDARMOUR",
       "default": [],
       "enum": [
         "Mystic fire staff",
@@ -48,7 +48,7 @@
       "type": "enumlist",
       "group": "FILTER",
       "label": "Runes and ammunition",
-      "macroName": "VAR_VETION_ENUMLIST_FILTER_RUNES",
+      "macroName": "VAR_VETION_ENUMLIST_FILTER_RUNESANDAMMUNITION",
       "default": [],
       "enum": [
         "Chaos rune",
@@ -100,7 +100,7 @@
       "type": "enumlist",
       "group": "FILTER",
       "label": "Secondary Supply roll",
-      "macroName": "VAR_VETION_ENUMLIST_FILTER_SECONDARY",
+      "macroName": "VAR_VETION_ENUMLIST_FILTER_SECONDARYSUPPLYROLL",
       "default": [],
       "enum": [
         "Blighted anglerfish",

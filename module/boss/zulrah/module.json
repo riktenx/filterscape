@@ -6,7 +6,7 @@
       "type": "enumlist",
       "group": "FILTER",
       "label": "100% drops",
-      "macroName": "VAR_ZULRAH_ENUMLIST_FILTER_100",
+      "macroName": "VAR_ZULRAH_ENUMLIST_FILTER_100DROPS",
       "default": [],
       "enum": [
         "Zulrah's scales"
@@ -40,7 +40,7 @@
       "type": "enumlist",
       "group": "FILTER",
       "label": "Weapons and armour",
-      "macroName": "VAR_ZULRAH_ENUMLIST_FILTER_WEAPONS",
+      "macroName": "VAR_ZULRAH_ENUMLIST_FILTER_WEAPONSANDARMOUR",
       "default": [],
       "enum": [
         "Battlestaff",

@@ -34,7 +34,7 @@
       "type": "enumlist",
       "group": "FILTER",
       "label": "Runes and ammunition",
-      "macroName": "VAR_THENIGHTMARE_ENUMLIST_FILTER_RUNES",
+      "macroName": "VAR_THENIGHTMARE_ENUMLIST_FILTER_RUNESANDAMMUNITION",
       "default": [],
       "enum": [
         "Cosmic rune",

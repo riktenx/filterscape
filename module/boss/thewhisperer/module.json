@@ -21,7 +21,7 @@
       "type": "enumlist",
       "group": "FILTER",
       "label": "Secondary uniques",
-      "macroName": "VAR_THEWHISPERER_ENUMLIST_FILTER_SECONDARY",
+      "macroName": "VAR_THEWHISPERER_ENUMLIST_FILTER_SECONDARYUNIQUES",
       "default": [],
       "enum": [
         "Sirenic tablet",
@@ -45,7 +45,7 @@
       "type": "enumlist",
       "group": "FILTER",
       "label": "Weapons and armour",
-      "macroName": "VAR_THEWHISPERER_ENUMLIST_FILTER_WEAPONS",
+      "macroName": "VAR_THEWHISPERER_ENUMLIST_FILTER_WEAPONSANDARMOUR",
       "default": [],
       "enum": [
         "Bronze longsword",
@@ -83,7 +83,7 @@
       "type": "enumlist",
       "group": "FILTER",
       "label": "Runes and ammunition",
-      "macroName": "VAR_THEWHISPERER_ENUMLIST_FILTER_RUNES",
+      "macroName": "VAR_THEWHISPERER_ENUMLIST_FILTER_RUNESANDAMMUNITION",
       "default": [],
       "enum": [
         "Water rune",

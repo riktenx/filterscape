@@ -6,7 +6,7 @@
       "type": "enumlist",
       "group": "FILTER",
       "label": "Frozen tears",
-      "macroName": "VAR_AMOXLIATL_ENUMLIST_FILTER_FROZEN",
+      "macroName": "VAR_AMOXLIATL_ENUMLIST_FILTER_FROZENTEARS",
       "default": [],
       "enum": [
         "Frozen tear"
@@ -16,7 +16,7 @@
       "type": "enumlist",
       "group": "FILTER",
       "label": "Weapons and armour",
-      "macroName": "VAR_AMOXLIATL_ENUMLIST_FILTER_WEAPONS",
+      "macroName": "VAR_AMOXLIATL_ENUMLIST_FILTER_WEAPONSANDARMOUR",
       "default": [],
       "enum": [
         "Rune mace",
@@ -29,7 +29,7 @@
       "type": "enumlist",
       "group": "FILTER",
       "label": "Runes and ammunition",
-      "macroName": "VAR_AMOXLIATL_ENUMLIST_FILTER_RUNES",
+      "macroName": "VAR_AMOXLIATL_ENUMLIST_FILTER_RUNESANDAMMUNITION",
       "default": [],
       "enum": [
         "Water rune",

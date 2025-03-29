@@ -19,15 +19,15 @@ CONST_VENENATIS_IF (name:VAR_VENENATIS_ENUMLIST_FILTER_UNIQUE) {
 
 // label:Weapons and armour
 // enum:["Mystic air staff","Rune pickaxe","Rune dart","Rune knife","Rune platelegs","Rune sq shield","Dragon dagger"]
-#define VAR_VENENATIS_ENUMLIST_FILTER_WEAPONS []
-CONST_VENENATIS_IF (name:VAR_VENENATIS_ENUMLIST_FILTER_WEAPONS) {
+#define VAR_VENENATIS_ENUMLIST_FILTER_WEAPONSANDARMOUR []
+CONST_VENENATIS_IF (name:VAR_VENENATIS_ENUMLIST_FILTER_WEAPONSANDARMOUR) {
   hidden = true;
 }
 
 // label:Runes and ammunition
 // enum:["Chaos rune","Death rune","Blood rune","Diamond bolts (e)","Cannonball"]
-#define VAR_VENENATIS_ENUMLIST_FILTER_RUNES []
-CONST_VENENATIS_IF (name:VAR_VENENATIS_ENUMLIST_FILTER_RUNES) {
+#define VAR_VENENATIS_ENUMLIST_FILTER_RUNESANDAMMUNITION []
+CONST_VENENATIS_IF (name:VAR_VENENATIS_ENUMLIST_FILTER_RUNESANDAMMUNITION) {
   hidden = true;
 }
 
@@ -47,8 +47,8 @@ CONST_VENENATIS_IF (name:VAR_VENENATIS_ENUMLIST_FILTER_OTHER) {
 
 // label:Secondary Supply roll
 // enum:["Blighted anglerfish","Blighted karambwan","Blighted super restore(3)","Blighted super restore(4)","Ranging potion(2)","Super combat potion(2)"]
-#define VAR_VENENATIS_ENUMLIST_FILTER_SECONDARY []
-CONST_VENENATIS_IF (name:VAR_VENENATIS_ENUMLIST_FILTER_SECONDARY) {
+#define VAR_VENENATIS_ENUMLIST_FILTER_SECONDARYSUPPLYROLL []
+CONST_VENENATIS_IF (name:VAR_VENENATIS_ENUMLIST_FILTER_SECONDARYSUPPLYROLL) {
   hidden = true;
 }
 

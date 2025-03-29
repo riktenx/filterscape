@@ -6,7 +6,7 @@
       "type": "enumlist",
       "group": "FILTER",
       "label": "Weapons and armour",
-      "macroName": "VAR_CORPOREALBEAST_ENUMLIST_FILTER_WEAPONS",
+      "macroName": "VAR_CORPOREALBEAST_ENUMLIST_FILTER_WEAPONSANDARMOUR",
       "default": [],
       "enum": [
         "Mystic robe top",
@@ -22,7 +22,7 @@
       "type": "enumlist",
       "group": "FILTER",
       "label": "Runes and ammunition",
-      "macroName": "VAR_CORPOREALBEAST_ENUMLIST_FILTER_RUNES",
+      "macroName": "VAR_CORPOREALBEAST_ENUMLIST_FILTER_RUNESANDAMMUNITION",
       "default": [],
       "enum": [
         "Soul rune",

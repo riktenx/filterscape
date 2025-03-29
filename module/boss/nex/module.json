@@ -31,7 +31,7 @@
       "type": "enumlist",
       "group": "FILTER",
       "label": "Runes & ammunition",
-      "macroName": "VAR_NEX_ENUMLIST_FILTER_RUNES",
+      "macroName": "VAR_NEX_ENUMLIST_FILTER_RUNESAMMUNITION",
       "default": [],
       "enum": [
         "Air rune",

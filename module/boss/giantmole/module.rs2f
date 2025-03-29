@@ -12,15 +12,15 @@ CONST_GIANTMOLE_IF (name:VAR_GIANTMOLE_ENUMLIST_FILTER_100) {
 
 // label:Weapons and armour
 // enum:["Adamant longsword","Mithril platebody","Amulet of strength","Mithril axe","Mithril battleaxe","Rune med helm"]
-#define VAR_GIANTMOLE_ENUMLIST_FILTER_WEAPONS []
-CONST_GIANTMOLE_IF (name:VAR_GIANTMOLE_ENUMLIST_FILTER_WEAPONS) {
+#define VAR_GIANTMOLE_ENUMLIST_FILTER_WEAPONSANDARMOUR []
+CONST_GIANTMOLE_IF (name:VAR_GIANTMOLE_ENUMLIST_FILTER_WEAPONSANDARMOUR) {
   hidden = true;
 }
 
 // label:Runes and ammunition
 // enum:["Air rune","Blood rune","Fire rune","Iron arrow","Law rune","Death rune"]
-#define VAR_GIANTMOLE_ENUMLIST_FILTER_RUNES []
-CONST_GIANTMOLE_IF (name:VAR_GIANTMOLE_ENUMLIST_FILTER_RUNES) {
+#define VAR_GIANTMOLE_ENUMLIST_FILTER_RUNESANDAMMUNITION []
+CONST_GIANTMOLE_IF (name:VAR_GIANTMOLE_ENUMLIST_FILTER_RUNESANDAMMUNITION) {
   hidden = true;
 }
 

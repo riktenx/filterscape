@@ -30,7 +30,7 @@
       "type": "enumlist",
       "group": "FILTER",
       "label": "Weapons and armour",
-      "macroName": "VAR_GROTESQUEGUARDIANS_ENUMLIST_FILTER_WEAPONS",
+      "macroName": "VAR_GROTESQUEGUARDIANS_ENUMLIST_FILTER_WEAPONSANDARMOUR",
       "default": [],
       "enum": [
         "Rune pickaxe",
@@ -47,7 +47,7 @@
       "type": "enumlist",
       "group": "FILTER",
       "label": "Supply Drop",
-      "macroName": "VAR_GROTESQUEGUARDIANS_ENUMLIST_FILTER_SUPPLY",
+      "macroName": "VAR_GROTESQUEGUARDIANS_ENUMLIST_FILTER_SUPPLYDROP",
       "default": [],
       "enum": [
         "Mushroom potato",

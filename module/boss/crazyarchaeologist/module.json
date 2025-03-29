@@ -16,7 +16,7 @@
       "type": "enumlist",
       "group": "FILTER",
       "label": "Pre-roll",
-      "macroName": "VAR_CRAZYARCHAEOLOGIST_ENUMLIST_FILTER_PRE-ROLL",
+      "macroName": "VAR_CRAZYARCHAEOLOGIST_ENUMLIST_FILTER_PREROLL",
       "default": [],
       "enum": [
         "Odium shard 2",
@@ -27,7 +27,7 @@
       "type": "enumlist",
       "group": "FILTER",
       "label": "Weapons and armour",
-      "macroName": "VAR_CRAZYARCHAEOLOGIST_ENUMLIST_FILTER_WEAPONS",
+      "macroName": "VAR_CRAZYARCHAEOLOGIST_ENUMLIST_FILTER_WEAPONSANDARMOUR",
       "default": [],
       "enum": [
         "Amulet of power",
@@ -40,7 +40,7 @@
       "type": "enumlist",
       "group": "FILTER",
       "label": "Runes and ammunition",
-      "macroName": "VAR_CRAZYARCHAEOLOGIST_ENUMLIST_FILTER_RUNES",
+      "macroName": "VAR_CRAZYARCHAEOLOGIST_ENUMLIST_FILTER_RUNESANDAMMUNITION",
       "default": [],
       "enum": [
         "Mud rune",

@@ -32,7 +32,7 @@
       "type": "enumlist",
       "group": "FILTER",
       "label": "Runes and ammunition",
-      "macroName": "VAR_SCURRIUS_ENUMLIST_FILTER_RUNES",
+      "macroName": "VAR_SCURRIUS_ENUMLIST_FILTER_RUNESANDAMMUNITION",
       "default": [],
       "enum": [
         "Adamant arrow",
@@ -46,7 +46,7 @@
       "type": "enumlist",
       "group": "FILTER",
       "label": "Food and potions",
-      "macroName": "VAR_SCURRIUS_ENUMLIST_FILTER_FOOD",
+      "macroName": "VAR_SCURRIUS_ENUMLIST_FILTER_FOODANDPOTIONS",
       "default": [],
       "enum": [
         "Trout",
@@ -74,7 +74,7 @@
       "type": "enumlist",
       "group": "FILTER",
       "label": "Tertiary drops",
-      "macroName": "VAR_SCURRIUS_ENUMLIST_FILTER_TERTIARY",
+      "macroName": "VAR_SCURRIUS_ENUMLIST_FILTER_TERTIARYDROPS",
       "default": [],
       "enum": [
         "Scurrius' spine",

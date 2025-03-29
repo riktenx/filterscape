@@ -16,7 +16,7 @@
       "type": "enumlist",
       "group": "FILTER",
       "label": "Weapons and armour",
-      "macroName": "VAR_ABYSSALSIRE_ENUMLIST_FILTER_WEAPONS",
+      "macroName": "VAR_ABYSSALSIRE_ENUMLIST_FILTER_WEAPONSANDARMOUR",
       "default": [],
       "enum": [
         "Battlestaff",
@@ -33,7 +33,7 @@
       "type": "enumlist",
       "group": "FILTER",
       "label": "Runes and ammunition",
-      "macroName": "VAR_ABYSSALSIRE_ENUMLIST_FILTER_RUNES",
+      "macroName": "VAR_ABYSSALSIRE_ENUMLIST_FILTER_RUNESANDAMMUNITION",
       "default": [],
       "enum": [
         "Blood rune",

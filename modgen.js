@@ -27,6 +27,27 @@ const toMacroIdent = (str) => str
   .replace(/\W/g, '')
   .toUpperCase();
 
+const generateMultiAreaCond = (moduleScope, areas) => {
+  let rs2f = '';
+
+  let index = 0;
+  const idents = [];
+  for (const [name, area] of Object.entries(areas)) {
+    const ident = `CONST_AREA_${moduleScope}${index}`;
+    rs2f += `#define ${ident} ${JSON.stringify(area)} // ${name}`;
+    rs2f += '\n';
+    idents.push(ident);
+    ++index;
+  }
+
+  const areasExpr = idents
+    .map(ident => `area:${ident}`)
+    .join(' || \\\n  ');
+  rs2f += `#define CONST_${moduleScope}_IF(_cond) if ((${areasExpr}) && (_cond))`;
+
+  return rs2f;
+};
+
 export const generateRs2f = (name, area, dropTable, transform) => {
   let rs2f = '';
 
@@ -39,11 +60,16 @@ export const generateRs2f = (name, area, dropTable, transform) => {
   }
 
   const moduleScope = toMacroIdent(name);
-  const areaDefine = JSON.stringify(area);
-  rs2f += `#define CONST_AREA_${moduleScope} ${areaDefine}`;
-  rs2f += '\n';
-  rs2f += `#define CONST_${moduleScope}_IF(_cond) if (area:CONST_AREA_${moduleScope} && (_cond))`;
-  rs2f += '\n\n';
+  if (typeof area[0] === 'number') {
+    const areaDefine = JSON.stringify(area);
+    rs2f += `#define CONST_AREA_${moduleScope} ${areaDefine}`;
+    rs2f += '\n';
+    rs2f += `#define CONST_${moduleScope}_IF(_cond) if (area:CONST_AREA_${moduleScope} && (_cond))`;
+    rs2f += '\n\n';
+  } else {
+    rs2f += generateMultiAreaCond(moduleScope, area);
+    rs2f += '\n\n';
+  }
 
   rs2f += Object.entries(dropTable).map(([category, items]) => {
     if (items.length === 0) {

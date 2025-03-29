@@ -19,6 +19,10 @@ export const getWikiSource = (url) => new Promise((resolve, reject) => {
 });
 
 const computeMapArea = (points, plane) => {
+  if (points.length === 0) {
+    return [-1, -1, -1, -1, -1, -1];
+  }
+
   let x0 = points[0].x;
   let y0 = points[0].y;
   let x1 = points[0].x;

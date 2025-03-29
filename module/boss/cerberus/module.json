@@ -1,0 +1,100 @@
+{
+  "name": "Cerberus",
+  "rs2fPath": "module.rs2f",
+  "inputs": [
+    {
+      "type": "enumlist",
+      "group": "FILTER",
+      "label": "100%",
+      "macroName": "VAR_CERBERUS_ENUMLIST_FILTER_100",
+      "default": [],
+      "enum": [
+        "Infernal ashes"
+      ]
+    },
+    {
+      "type": "enumlist",
+      "group": "FILTER",
+      "label": "Uniques",
+      "macroName": "VAR_CERBERUS_ENUMLIST_FILTER_UNIQUES",
+      "default": [],
+      "enum": [
+        "Primordial crystal",
+        "Pegasian crystal",
+        "Eternal crystal",
+        "Smouldering stone"
+      ]
+    },
+    {
+      "type": "enumlist",
+      "group": "FILTER",
+      "label": "Weapons and armour",
+      "macroName": "VAR_CERBERUS_ENUMLIST_FILTER_WEAPONS",
+      "default": [],
+      "enum": [
+        "Rune platebody",
+        "Rune chainbody",
+        "Rune 2h sword",
+        "Black d'hide body",
+        "Rune axe",
+        "Rune pickaxe",
+        "Battlestaff",
+        "Rune full helm",
+        "Lava battlestaff",
+        "Rune halberd"
+      ]
+    },
+    {
+      "type": "enumlist",
+      "group": "FILTER",
+      "label": "Runes and ammunition",
+      "macroName": "VAR_CERBERUS_ENUMLIST_FILTER_RUNES",
+      "default": [],
+      "enum": [
+        "Fire rune",
+        "Soul rune",
+        "Pure essence",
+        "Blood rune",
+        "Cannonball",
+        "Runite bolts (unf)",
+        "Death rune"
+      ]
+    },
+    {
+      "type": "enumlist",
+      "group": "FILTER",
+      "label": "Other",
+      "macroName": "VAR_CERBERUS_ENUMLIST_FILTER_OTHER",
+      "default": [],
+      "enum": [
+        "Coal",
+        "Super restore(4)",
+        "Summer pie",
+        "Coins",
+        "Dragon bones",
+        "Unholy symbol",
+        "Wine of zamorak",
+        "Ashes",
+        "Fire orb",
+        "Grimy torstol",
+        "Runite ore",
+        "Uncut diamond",
+        "Key master teleport",
+        "Torstol seed"
+      ]
+    },
+    {
+      "type": "enumlist",
+      "group": "FILTER",
+      "label": "Tertiary",
+      "macroName": "VAR_CERBERUS_ENUMLIST_FILTER_TERTIARY",
+      "default": [],
+      "enum": [
+        "Ensouled hellhound head",
+        "Brimstone key",
+        "Jar of souls",
+        "Hellpuppy"
+      ]
+    }
+  ]
+}

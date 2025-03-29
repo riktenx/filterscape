@@ -1,0 +1,52 @@
+// module:Vardorvis
+
+#define CONST_AREA_VARDORVIS [1117,3428,0,1141,3408,0]
+#define CONST_VARDORVIS_IF(_cond) if (area:CONST_AREA_VARDORVIS && (_cond))
+
+
+
+
+
+// label:Uniques
+// enum:["Ultor vestige","Chromium ingot","Executioner's axe head","Virtus mask","Virtus robe top","Virtus robe bottom"]
+#define VAR_VARDORVIS_ENUMLIST_FILTER_UNIQUES []
+CONST_VARDORVIS_IF (name:VAR_VARDORVIS_ENUMLIST_FILTER_UNIQUES) {
+  hidden = true;
+}
+
+// label:Secondary uniques
+// enum:["Strangled tablet","Awakener's orb","Blood quartz"]
+#define VAR_VARDORVIS_ENUMLIST_FILTER_SECONDARY []
+CONST_VARDORVIS_IF (name:VAR_VARDORVIS_ENUMLIST_FILTER_SECONDARY) {
+  hidden = true;
+}
+
+// label:Supplies
+// enum:["Tuna potato","Prayer potion(3)","Super combat potion(2)"]
+#define VAR_VARDORVIS_ENUMLIST_FILTER_SUPPLIES []
+CONST_VARDORVIS_IF (name:VAR_VARDORVIS_ENUMLIST_FILTER_SUPPLIES) {
+  hidden = true;
+}
+
+// label:Resources
+// enum:["Pure essence","Iron ore","Silver ore","Coal","Mithril ore","Adamantite ore","Runite ore","Sapphire","Emerald","Ruby","Uncut ruby","Uncut diamond","Rune javelin heads","Dragon javelin heads","Dragon dart tip","Raw shark"]
+#define VAR_VARDORVIS_ENUMLIST_FILTER_RESOURCES []
+CONST_VARDORVIS_IF (name:VAR_VARDORVIS_ENUMLIST_FILTER_RESOURCES) {
+  hidden = true;
+}
+
+// label:Runes and ammunition
+// enum:["Bronze javelin","Mithril javelin","Adamant javelin","Onyx bolts (e)","Mind rune","Fire rune","Lava rune","Blood rune","Soul rune"]
+#define VAR_VARDORVIS_ENUMLIST_FILTER_RUNES []
+CONST_VARDORVIS_IF (name:VAR_VARDORVIS_ENUMLIST_FILTER_RUNES) {
+  hidden = true;
+}
+
+// label:Tertiary
+// enum:["Temple key (Desert Treasure II)","Brimstone key","Clue scroll (easy)","Clue scroll (medium)","Clue scroll (hard)","Clue scroll (elite)","Ancient blood ornament kit","Butch"]
+#define VAR_VARDORVIS_ENUMLIST_FILTER_TERTIARY []
+CONST_VARDORVIS_IF (name:VAR_VARDORVIS_ENUMLIST_FILTER_TERTIARY) {
+  hidden = true;
+}
+
+// endmodule:Vardorvis

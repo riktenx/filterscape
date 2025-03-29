@@ -1,0 +1,114 @@
+{
+  "name": "Alchemical Hydra",
+  "rs2fPath": "module.rs2f",
+  "inputs": [
+    {
+      "type": "enumlist",
+      "group": "FILTER",
+      "label": "100%",
+      "macroName": "VAR_ALCHEMICALHYDRA_ENUMLIST_FILTER_100",
+      "default": [],
+      "enum": [
+        "Hydra bones"
+      ]
+    },
+    {
+      "type": "enumlist",
+      "group": "FILTER",
+      "label": "Pre-roll",
+      "macroName": "VAR_ALCHEMICALHYDRA_ENUMLIST_FILTER_PRE-ROLL",
+      "default": [],
+      "enum": [
+        "Hydra's eye",
+        "Hydra's fang",
+        "Hydra's heart",
+        "Hydra tail",
+        "Hydra leather",
+        "Hydra's claw",
+        "Dragon thrownaxe",
+        "Dragon knife"
+      ]
+    },
+    {
+      "type": "enumlist",
+      "group": "FILTER",
+      "label": "Weapons and armour",
+      "macroName": "VAR_ALCHEMICALHYDRA_ENUMLIST_FILTER_WEAPONS",
+      "default": [],
+      "enum": [
+        "Mystic fire staff",
+        "Mystic water staff",
+        "Battlestaff",
+        "Black d'hide body",
+        "Dragon longsword",
+        "Dragon med helm",
+        "Rune platebody",
+        "Dragon battleaxe",
+        "Rune platelegs",
+        "Rune plateskirt",
+        "Mystic robe top (light)",
+        "Mystic robe bottom (light)"
+      ]
+    },
+    {
+      "type": "enumlist",
+      "group": "FILTER",
+      "label": "Runes and ammunition",
+      "macroName": "VAR_ALCHEMICALHYDRA_ENUMLIST_FILTER_RUNES",
+      "default": [],
+      "enum": [
+        "Chaos rune",
+        "Death rune",
+        "Blood rune",
+        "Astral rune",
+        "Dragonstone bolts (e)",
+        "Onyx bolts (e)"
+      ]
+    },
+    {
+      "type": "enumlist",
+      "group": "FILTER",
+      "label": "Herbs",
+      "macroName": "VAR_ALCHEMICALHYDRA_ENUMLIST_FILTER_HERBS",
+      "default": [],
+      "enum": [
+        "Grimy avantoe",
+        "Grimy kwuarm",
+        "Grimy ranarr weed",
+        "Grimy snapdragon",
+        "Grimy cadantine",
+        "Grimy dwarf weed",
+        "Grimy lantadyme",
+        "Grimy torstol"
+      ]
+    },
+    {
+      "type": "enumlist",
+      "group": "FILTER",
+      "label": "Other",
+      "macroName": "VAR_ALCHEMICALHYDRA_ENUMLIST_FILTER_OTHER",
+      "default": [],
+      "enum": [
+        "Coins",
+        "Shark",
+        "Ranging potion(3)",
+        "Super restore(3)",
+        "Dragon bones",
+        "Crystal key"
+      ]
+    },
+    {
+      "type": "enumlist",
+      "group": "FILTER",
+      "label": "Tertiary",
+      "macroName": "VAR_ALCHEMICALHYDRA_ENUMLIST_FILTER_TERTIARY",
+      "default": [],
+      "enum": [
+        "Brimstone key",
+        "Alchemical hydra heads",
+        "Jar of chemicals",
+        "Ikkle hydra"
+      ]
+    }
+  ]
+}

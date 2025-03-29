@@ -1,0 +1,68 @@
+// module:Chaos Elemental
+
+#define CONST_AREA_CHAOSELEMENTAL [3200,3967,0,3327,3904,0]
+#define CONST_CHAOSELEMENTAL_IF(_cond) if (area:CONST_AREA_CHAOSELEMENTAL && (_cond))
+
+// label:Minor drops
+// enum:["Blighted anglerfish","Blighted karambwan","Blighted super restore(4)","Dragon bones","Super combat potion(1)"]
+#define VAR_CHAOSELEMENTAL_ENUMLIST_FILTER_MINOR []
+CONST_CHAOSELEMENTAL_IF (name:VAR_CHAOSELEMENTAL_ENUMLIST_FILTER_MINOR) {
+  hidden = true;
+}
+
+
+
+// label:=Pre-roll=
+// enum:["Dragon pickaxe"]
+#define VAR_CHAOSELEMENTAL_ENUMLIST_FILTER_=PRE-ROLL= []
+CONST_CHAOSELEMENTAL_IF (name:VAR_CHAOSELEMENTAL_ENUMLIST_FILTER_=PRE-ROLL=) {
+  hidden = true;
+}
+
+// label:=Weapons and armour=
+// enum:["Rune dart","Rune platelegs","Rune plateskirt","Rune 2h sword","Rune battleaxe","Rune full helm","Rune kiteshield","Mystic air staff","Mystic water staff","Mystic earth staff","Mystic fire staff","Dragon dagger","Dragon 2h sword","Dragon platelegs","Dragon plateskirt"]
+#define VAR_CHAOSELEMENTAL_ENUMLIST_FILTER_=WEAPONS []
+CONST_CHAOSELEMENTAL_IF (name:VAR_CHAOSELEMENTAL_ENUMLIST_FILTER_=WEAPONS) {
+  hidden = true;
+}
+
+// label:=Runes and ammunition=
+// enum:["Chaos rune","Blood rune","Rune arrow"]
+#define VAR_CHAOSELEMENTAL_ENUMLIST_FILTER_=RUNES []
+CONST_CHAOSELEMENTAL_IF (name:VAR_CHAOSELEMENTAL_ENUMLIST_FILTER_=RUNES) {
+  hidden = true;
+}
+
+// label:=Herbs=
+// enum:["Grimy ranarr weed","Grimy snapdragon","Grimy avantoe","Grimy kwuarm"]
+#define VAR_CHAOSELEMENTAL_ENUMLIST_FILTER_=HERBS= []
+CONST_CHAOSELEMENTAL_IF (name:VAR_CHAOSELEMENTAL_ENUMLIST_FILTER_=HERBS=) {
+  hidden = true;
+}
+
+// label:=Resources=
+// enum:["Coal","Mahogany plank","Runite bar","Adamantite bar"]
+#define VAR_CHAOSELEMENTAL_ENUMLIST_FILTER_=RESOURCES= []
+CONST_CHAOSELEMENTAL_IF (name:VAR_CHAOSELEMENTAL_ENUMLIST_FILTER_=RESOURCES=) {
+  hidden = true;
+}
+
+// label:=Materials=
+// enum:["Coins","Blighted ancient ice sack","Blighted karambwan","Blighted anglerfish","Wilderness crabs teleport"]
+#define VAR_CHAOSELEMENTAL_ENUMLIST_FILTER_=MATERIALS= []
+CONST_CHAOSELEMENTAL_IF (name:VAR_CHAOSELEMENTAL_ENUMLIST_FILTER_=MATERIALS=) {
+  hidden = true;
+}
+
+
+
+// label:=Tertiary=
+// enum:["Weapon poison(++)","Looting bag","Brimstone key","Pet chaos elemental"]
+#define VAR_CHAOSELEMENTAL_ENUMLIST_FILTER_=TERTIARY= []
+CONST_CHAOSELEMENTAL_IF (name:VAR_CHAOSELEMENTAL_ENUMLIST_FILTER_=TERTIARY=) {
+  hidden = true;
+}
+
+
+
+// endmodule:Chaos Elemental

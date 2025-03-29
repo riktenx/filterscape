@@ -1,0 +1,101 @@
+{
+  "name": "The Hueycoatl",
+  "rs2fPath": "module.rs2f",
+  "inputs": [
+    {
+      "type": "enumlist",
+      "group": "FILTER",
+      "label": "100%",
+      "macroName": "VAR_THEHUEYCOATL_ENUMLIST_FILTER_100",
+      "default": [],
+      "enum": [
+        "Big bones"
+      ]
+    },
+    {
+      "type": "enumlist",
+      "group": "FILTER",
+      "label": "Unique",
+      "macroName": "VAR_THEHUEYCOATL_ENUMLIST_FILTER_UNIQUE",
+      "default": [],
+      "enum": [
+        "Dragon hunter wand",
+        "Hueycoatl hide",
+        "Tome of earth (empty)"
+      ]
+    },
+    {
+      "type": "enumlist",
+      "group": "FILTER",
+      "label": "Weapons and armour",
+      "macroName": "VAR_THEHUEYCOATL_ENUMLIST_FILTER_WEAPONS",
+      "default": [],
+      "enum": [
+        "Rune mace",
+        "Rune scimitar",
+        "Rune plateskirt",
+        "Adamant platebody"
+      ]
+    },
+    {
+      "type": "enumlist",
+      "group": "FILTER",
+      "label": "Runes and ammunition",
+      "macroName": "VAR_THEHUEYCOATL_ENUMLIST_FILTER_RUNES",
+      "default": [],
+      "enum": [
+        "Death rune",
+        "Earth rune",
+        "Cosmic rune",
+        "Nature rune"
+      ]
+    },
+    {
+      "type": "enumlist",
+      "group": "FILTER",
+      "label": "Seeds",
+      "macroName": "VAR_THEHUEYCOATL_ENUMLIST_FILTER_SEEDS",
+      "default": [],
+      "enum": [
+        "Lantadyme seed",
+        "Huasca seed",
+        "Toadflax seed",
+        "Torstol seed",
+        "Ranarr seed",
+        "Avantoe seed",
+        "Kwuarm seed"
+      ]
+    },
+    {
+      "type": "enumlist",
+      "group": "FILTER",
+      "label": "Other",
+      "macroName": "VAR_THEHUEYCOATL_ENUMLIST_FILTER_OTHER",
+      "default": [],
+      "enum": [
+        "Soiled page",
+        "Adamant bolts(unf)",
+        "Air orb",
+        "Raw shark",
+        "Sunfire splinters",
+        "Sun-kissed bones",
+        "Dragon bones",
+        "Adamantite ore",
+        "Cannonball",
+        "Rune dart tip",
+        "Limpwurt root"
+      ]
+    },
+    {
+      "type": "enumlist",
+      "group": "FILTER",
+      "label": "Tertiary",
+      "macroName": "VAR_THEHUEYCOATL_ENUMLIST_FILTER_TERTIARY",
+      "default": [],
+      "enum": [
+        "Tooth half of key (moon key)",
+        "Huberte"
+      ]
+    }
+  ]
+}

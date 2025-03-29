@@ -1,0 +1,61 @@
+// module:Abyssal Sire
+
+#define CONST_AREA_ABYSSALSIRE [2944,4863,0,3135,4736,0]
+#define CONST_ABYSSALSIRE_IF(_cond) if (area:CONST_AREA_ABYSSALSIRE && (_cond))
+
+// label:100%
+// enum:["Abyssal ashes"]
+#define VAR_ABYSSALSIRE_ENUMLIST_FILTER_100 []
+CONST_ABYSSALSIRE_IF (name:VAR_ABYSSALSIRE_ENUMLIST_FILTER_100) {
+  hidden = true;
+}
+
+// label:Weapons and armour
+// enum:["Battlestaff","Rune full helm","Mystic lava staff","Rune sword","Rune platebody","Rune kiteshield","Mystic air staff","Air battlestaff"]
+#define VAR_ABYSSALSIRE_ENUMLIST_FILTER_WEAPONS []
+CONST_ABYSSALSIRE_IF (name:VAR_ABYSSALSIRE_ENUMLIST_FILTER_WEAPONS) {
+  hidden = true;
+}
+
+// label:Runes and ammunition
+// enum:["Blood rune","Death rune","Law rune","Soul rune","Cosmic rune","Cannonball"]
+#define VAR_ABYSSALSIRE_ENUMLIST_FILTER_RUNES []
+CONST_ABYSSALSIRE_IF (name:VAR_ABYSSALSIRE_ENUMLIST_FILTER_RUNES) {
+  hidden = true;
+}
+
+// label:Herbs
+// enum:["Grimy kwuarm","Grimy dwarf weed","Grimy cadantine","Grimy lantadyme"]
+#define VAR_ABYSSALSIRE_ENUMLIST_FILTER_HERBS []
+CONST_ABYSSALSIRE_IF (name:VAR_ABYSSALSIRE_ENUMLIST_FILTER_HERBS) {
+  hidden = true;
+}
+
+
+
+// label:Materials
+// enum:["Coal","Earth orb","Pure essence","Magic logs","Uncut diamond","Runite ore","Onyx bolt tips","Runite bar"]
+#define VAR_ABYSSALSIRE_ENUMLIST_FILTER_MATERIALS []
+CONST_ABYSSALSIRE_IF (name:VAR_ABYSSALSIRE_ENUMLIST_FILTER_MATERIALS) {
+  hidden = true;
+}
+
+
+
+// label:Other
+// enum:["Coins","Chilli potato","Super restore(4)","Binding necklace","Saradomin brew(3)","Jug of water","Unsired"]
+#define VAR_ABYSSALSIRE_ENUMLIST_FILTER_OTHER []
+CONST_ABYSSALSIRE_IF (name:VAR_ABYSSALSIRE_ENUMLIST_FILTER_OTHER) {
+  hidden = true;
+}
+
+
+
+// label:Tertiary
+// enum:["Brimstone key"]
+#define VAR_ABYSSALSIRE_ENUMLIST_FILTER_TERTIARY []
+CONST_ABYSSALSIRE_IF (name:VAR_ABYSSALSIRE_ENUMLIST_FILTER_TERTIARY) {
+  hidden = true;
+}
+
+// endmodule:Abyssal Sire

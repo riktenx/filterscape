@@ -1,0 +1,104 @@
+{
+  "name": "The Leviathan",
+  "rs2fPath": "module.rs2f",
+  "inputs": [
+    {
+      "type": "enumlist",
+      "group": "FILTER",
+      "label": "Uniques",
+      "macroName": "VAR_THELEVIATHAN_ENUMLIST_FILTER_UNIQUES",
+      "default": [],
+      "enum": [
+        "Venator vestige",
+        "Chromium ingot",
+        "Leviathan's lure",
+        "Virtus mask",
+        "Virtus robe top",
+        "Virtus robe bottom"
+      ]
+    },
+    {
+      "type": "enumlist",
+      "group": "FILTER",
+      "label": "Secondary uniques",
+      "macroName": "VAR_THELEVIATHAN_ENUMLIST_FILTER_SECONDARY",
+      "default": [],
+      "enum": [
+        "Scarred tablet",
+        "Awakener's orb",
+        "Smoke quartz"
+      ]
+    },
+    {
+      "type": "enumlist",
+      "group": "FILTER",
+      "label": "Supplies",
+      "macroName": "VAR_THELEVIATHAN_ENUMLIST_FILTER_SUPPLIES",
+      "default": [],
+      "enum": [
+        "Prayer potion(3)",
+        "Ranging potion(2)",
+        "Sea turtle"
+      ]
+    },
+    {
+      "type": "enumlist",
+      "group": "FILTER",
+      "label": "Resources",
+      "macroName": "VAR_THELEVIATHAN_ENUMLIST_FILTER_RESOURCES",
+      "default": [],
+      "enum": [
+        "Pure essence",
+        "Iron ore",
+        "Silver ore",
+        "Coal",
+        "Gold ore",
+        "Adamantite ore",
+        "Runite ore",
+        "Sapphire",
+        "Emerald",
+        "Ruby",
+        "Uncut ruby",
+        "Uncut diamond",
+        "Dragon javelin heads",
+        "Dragon bolts (unf)",
+        "Onyx bolt tips",
+        "Raw manta ray",
+        "Anglerfish"
+      ]
+    },
+    {
+      "type": "enumlist",
+      "group": "FILTER",
+      "label": "Runes and ammunition",
+      "macroName": "VAR_THELEVIATHAN_ENUMLIST_FILTER_RUNES",
+      "default": [],
+      "enum": [
+        "Bronze arrow",
+        "Mithril arrow",
+        "Adamant arrow",
+        "Rune arrow",
+        "Body rune",
+        "Earth rune",
+        "Smoke rune",
+        "Soul rune"
+      ]
+    },
+    {
+      "type": "enumlist",
+      "group": "FILTER",
+      "label": "Tertiary",
+      "macroName": "VAR_THELEVIATHAN_ENUMLIST_FILTER_TERTIARY",
+      "default": [],
+      "enum": [
+        "Brimstone key",
+        "Clue scroll (easy)",
+        "Clue scroll (medium)",
+        "Clue scroll (hard)",
+        "Clue scroll (elite)",
+        "Lil'viathan",
+        "Ancient blood ornament kit"
+      ]
+    }
+  ]
+}

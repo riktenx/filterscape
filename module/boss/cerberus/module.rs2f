@@ -1,0 +1,50 @@
+// module:Cerberus
+
+#define CONST_AREA_CERBERUS [1216,1343,0,1407,1216,0]
+#define CONST_CERBERUS_IF(_cond) if (area:CONST_AREA_CERBERUS && (_cond))
+
+// label:100%
+// enum:["Infernal ashes"]
+#define VAR_CERBERUS_ENUMLIST_FILTER_100 []
+CONST_CERBERUS_IF (name:VAR_CERBERUS_ENUMLIST_FILTER_100) {
+  hidden = true;
+}
+
+// label:Uniques
+// enum:["Primordial crystal","Pegasian crystal","Eternal crystal","Smouldering stone"]
+#define VAR_CERBERUS_ENUMLIST_FILTER_UNIQUES []
+CONST_CERBERUS_IF (name:VAR_CERBERUS_ENUMLIST_FILTER_UNIQUES) {
+  hidden = true;
+}
+
+// label:Weapons and armour
+// enum:["Rune platebody","Rune chainbody","Rune 2h sword","Black d'hide body","Rune axe","Rune pickaxe","Battlestaff","Rune full helm","Lava battlestaff","Rune halberd"]
+#define VAR_CERBERUS_ENUMLIST_FILTER_WEAPONS []
+CONST_CERBERUS_IF (name:VAR_CERBERUS_ENUMLIST_FILTER_WEAPONS) {
+  hidden = true;
+}
+
+// label:Runes and ammunition
+// enum:["Fire rune","Soul rune","Pure essence","Blood rune","Cannonball","Runite bolts (unf)","Death rune"]
+#define VAR_CERBERUS_ENUMLIST_FILTER_RUNES []
+CONST_CERBERUS_IF (name:VAR_CERBERUS_ENUMLIST_FILTER_RUNES) {
+  hidden = true;
+}
+
+// label:Other
+// enum:["Coal","Super restore(4)","Summer pie","Coins","Dragon bones","Unholy symbol","Wine of zamorak","Ashes","Fire orb","Grimy torstol","Runite ore","Uncut diamond","Key master teleport","Torstol seed"]
+#define VAR_CERBERUS_ENUMLIST_FILTER_OTHER []
+CONST_CERBERUS_IF (name:VAR_CERBERUS_ENUMLIST_FILTER_OTHER) {
+  hidden = true;
+}
+
+
+
+// label:Tertiary
+// enum:["Ensouled hellhound head","Brimstone key","Jar of souls","Hellpuppy"]
+#define VAR_CERBERUS_ENUMLIST_FILTER_TERTIARY []
+CONST_CERBERUS_IF (name:VAR_CERBERUS_ENUMLIST_FILTER_TERTIARY) {
+  hidden = true;
+}
+
+// endmodule:Cerberus

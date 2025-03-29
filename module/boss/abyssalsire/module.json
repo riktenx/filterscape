@@ -1,0 +1,104 @@
+{
+  "name": "Abyssal Sire",
+  "rs2fPath": "module.rs2f",
+  "inputs": [
+    {
+      "type": "enumlist",
+      "group": "FILTER",
+      "label": "100%",
+      "macroName": "VAR_ABYSSALSIRE_ENUMLIST_FILTER_100",
+      "default": [],
+      "enum": [
+        "Abyssal ashes"
+      ]
+    },
+    {
+      "type": "enumlist",
+      "group": "FILTER",
+      "label": "Weapons and armour",
+      "macroName": "VAR_ABYSSALSIRE_ENUMLIST_FILTER_WEAPONS",
+      "default": [],
+      "enum": [
+        "Battlestaff",
+        "Rune full helm",
+        "Mystic lava staff",
+        "Rune sword",
+        "Rune platebody",
+        "Rune kiteshield",
+        "Mystic air staff",
+        "Air battlestaff"
+      ]
+    },
+    {
+      "type": "enumlist",
+      "group": "FILTER",
+      "label": "Runes and ammunition",
+      "macroName": "VAR_ABYSSALSIRE_ENUMLIST_FILTER_RUNES",
+      "default": [],
+      "enum": [
+        "Blood rune",
+        "Death rune",
+        "Law rune",
+        "Soul rune",
+        "Cosmic rune",
+        "Cannonball"
+      ]
+    },
+    {
+      "type": "enumlist",
+      "group": "FILTER",
+      "label": "Herbs",
+      "macroName": "VAR_ABYSSALSIRE_ENUMLIST_FILTER_HERBS",
+      "default": [],
+      "enum": [
+        "Grimy kwuarm",
+        "Grimy dwarf weed",
+        "Grimy cadantine",
+        "Grimy lantadyme"
+      ]
+    },
+    {
+      "type": "enumlist",
+      "group": "FILTER",
+      "label": "Materials",
+      "macroName": "VAR_ABYSSALSIRE_ENUMLIST_FILTER_MATERIALS",
+      "default": [],
+      "enum": [
+        "Coal",
+        "Earth orb",
+        "Pure essence",
+        "Magic logs",
+        "Uncut diamond",
+        "Runite ore",
+        "Onyx bolt tips",
+        "Runite bar"
+      ]
+    },
+    {
+      "type": "enumlist",
+      "group": "FILTER",
+      "label": "Other",
+      "macroName": "VAR_ABYSSALSIRE_ENUMLIST_FILTER_OTHER",
+      "default": [],
+      "enum": [
+        "Coins",
+        "Chilli potato",
+        "Super restore(4)",
+        "Binding necklace",
+        "Saradomin brew(3)",
+        "Jug of water",
+        "Unsired"
+      ]
+    },
+    {
+      "type": "enumlist",
+      "group": "FILTER",
+      "label": "Tertiary",
+      "macroName": "VAR_ABYSSALSIRE_ENUMLIST_FILTER_TERTIARY",
+      "default": [],
+      "enum": [
+        "Brimstone key"
+      ]
+    }
+  ]
+}

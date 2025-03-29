@@ -1,0 +1,119 @@
+{
+  "name": "Chaos Elemental",
+  "rs2fPath": "module.rs2f",
+  "inputs": [
+    {
+      "type": "enumlist",
+      "group": "FILTER",
+      "label": "Minor drops",
+      "macroName": "VAR_CHAOSELEMENTAL_ENUMLIST_FILTER_MINOR",
+      "default": [],
+      "enum": [
+        "Blighted anglerfish",
+        "Blighted karambwan",
+        "Blighted super restore(4)",
+        "Dragon bones",
+        "Super combat potion(1)"
+      ]
+    },
+    {
+      "type": "enumlist",
+      "group": "FILTER",
+      "label": "=Pre-roll=",
+      "macroName": "VAR_CHAOSELEMENTAL_ENUMLIST_FILTER_=PRE-ROLL=",
+      "default": [],
+      "enum": [
+        "Dragon pickaxe"
+      ]
+    },
+    {
+      "type": "enumlist",
+      "group": "FILTER",
+      "label": "=Weapons and armour=",
+      "macroName": "VAR_CHAOSELEMENTAL_ENUMLIST_FILTER_=WEAPONS",
+      "default": [],
+      "enum": [
+        "Rune dart",
+        "Rune platelegs",
+        "Rune plateskirt",
+        "Rune 2h sword",
+        "Rune battleaxe",
+        "Rune full helm",
+        "Rune kiteshield",
+        "Mystic air staff",
+        "Mystic water staff",
+        "Mystic earth staff",
+        "Mystic fire staff",
+        "Dragon dagger",
+        "Dragon 2h sword",
+        "Dragon platelegs",
+        "Dragon plateskirt"
+      ]
+    },
+    {
+      "type": "enumlist",
+      "group": "FILTER",
+      "label": "=Runes and ammunition=",
+      "macroName": "VAR_CHAOSELEMENTAL_ENUMLIST_FILTER_=RUNES",
+      "default": [],
+      "enum": [
+        "Chaos rune",
+        "Blood rune",
+        "Rune arrow"
+      ]
+    },
+    {
+      "type": "enumlist",
+      "group": "FILTER",
+      "label": "=Herbs=",
+      "macroName": "VAR_CHAOSELEMENTAL_ENUMLIST_FILTER_=HERBS=",
+      "default": [],
+      "enum": [
+        "Grimy ranarr weed",
+        "Grimy snapdragon",
+        "Grimy avantoe",
+        "Grimy kwuarm"
+      ]
+    },
+    {
+      "type": "enumlist",
+      "group": "FILTER",
+      "label": "=Resources=",
+      "macroName": "VAR_CHAOSELEMENTAL_ENUMLIST_FILTER_=RESOURCES=",
+      "default": [],
+      "enum": [
+        "Coal",
+        "Mahogany plank",
+        "Runite bar",
+        "Adamantite bar"
+      ]
+    },
+    {
+      "type": "enumlist",
+      "group": "FILTER",
+      "label": "=Materials=",
+      "macroName": "VAR_CHAOSELEMENTAL_ENUMLIST_FILTER_=MATERIALS=",
+      "default": [],
+      "enum": [
+        "Coins",
+        "Blighted ancient ice sack",
+        "Blighted karambwan",
+        "Blighted anglerfish",
+        "Wilderness crabs teleport"
+      ]
+    },
+    {
+      "type": "enumlist",
+      "group": "FILTER",
+      "label": "=Tertiary=",
+      "macroName": "VAR_CHAOSELEMENTAL_ENUMLIST_FILTER_=TERTIARY=",
+      "default": [],
+      "enum": [
+        "Weapon poison(++)",
+        "Looting bag",
+        "Brimstone key",
+        "Pet chaos elemental"
+      ]
+    }
+  ]
+}

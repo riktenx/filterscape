@@ -1,0 +1,122 @@
+{
+  "name": "Araxxor",
+  "rs2fPath": "module.rs2f",
+  "inputs": [
+    {
+      "type": "enumlist",
+      "group": "FILTER",
+      "label": "Unique",
+      "macroName": "VAR_ARAXXOR_ENUMLIST_FILTER_UNIQUE",
+      "default": [],
+      "enum": [
+        "Noxious pommel",
+        "Noxious point",
+        "Noxious blade",
+        "Araxyte fang"
+      ]
+    },
+    {
+      "type": "enumlist",
+      "group": "FILTER",
+      "label": "Supplies",
+      "macroName": "VAR_ARAXXOR_ENUMLIST_FILTER_SUPPLIES",
+      "default": [],
+      "enum": [
+        "Araxyte venom sack",
+        "Super combat potion(1)",
+        "Prayer potion(4)",
+        "Shark",
+        "Wild pie"
+      ]
+    },
+    {
+      "type": "enumlist",
+      "group": "FILTER",
+      "label": "Weapons and armour",
+      "macroName": "VAR_ARAXXOR_ENUMLIST_FILTER_WEAPONS",
+      "default": [],
+      "enum": [
+        "Rune kiteshield",
+        "Rune platelegs",
+        "Dragon mace",
+        "Rune 2h sword",
+        "Dragon platelegs"
+      ]
+    },
+    {
+      "type": "enumlist",
+      "group": "FILTER",
+      "label": "Runes and ammunition",
+      "macroName": "VAR_ARAXXOR_ENUMLIST_FILTER_RUNES",
+      "default": [],
+      "enum": [
+        "Death rune",
+        "Nature rune",
+        "Mud rune",
+        "Blood rune"
+      ]
+    },
+    {
+      "type": "enumlist",
+      "group": "FILTER",
+      "label": "Seeds",
+      "macroName": "VAR_ARAXXOR_ENUMLIST_FILTER_SEEDS",
+      "default": [],
+      "enum": [
+        "Yew seed",
+        "Toadflax seed",
+        "Ranarr seed",
+        "Snapdragon seed",
+        "Magic seed"
+      ]
+    },
+    {
+      "type": "enumlist",
+      "group": "FILTER",
+      "label": "Resources",
+      "macroName": "VAR_ARAXXOR_ENUMLIST_FILTER_RESOURCES",
+      "default": [],
+      "enum": [
+        "Coal",
+        "Adamantite ore",
+        "Raw shark",
+        "Yew logs",
+        "Runite ore",
+        "Raw monkfish",
+        "Pure essence"
+      ]
+    },
+    {
+      "type": "enumlist",
+      "group": "FILTER",
+      "label": "Other",
+      "macroName": "VAR_ARAXXOR_ENUMLIST_FILTER_OTHER",
+      "default": [],
+      "enum": [
+        "Spider cave teleport",
+        "Earth orb",
+        "Araxyte venom sack",
+        "Mort myre fungus",
+        "Antidote++(3)",
+        "Wine of zamorak",
+        "Red spiders' eggs",
+        "Bark",
+        "Araxyte head",
+        "Jar of venom"
+      ]
+    },
+    {
+      "type": "enumlist",
+      "group": "FILTER",
+      "label": "Tertiary",
+      "macroName": "VAR_ARAXXOR_ENUMLIST_FILTER_TERTIARY",
+      "default": [],
+      "enum": [
+        "Coagulated venom",
+        "Brimstone key",
+        "Clue scroll (elite)",
+        "Nid"
+      ]
+    }
+  ]
+}

@@ -1,7 +1,4 @@
-import fs from 'fs';
-
-import { getWikiSource, buildDropTable } from './wikiscrape.js';
-import { generateRs2f, generateJson } from './modgen.js';
+import { cmdGenerateModGroup } from './cmd.js';
 
 const index = [
   // skip: barrows (they don't drop anything)
@@ -221,45 +218,4 @@ CONST_VORKATH_IF (VAR_VORKATH_BOOLEAN_GENERAL_NOBONE && name:"Superior dragon bo
   },
 ];
 
-const toModuleName = (str) => str.toLowerCase().replace("'", '').replaceAll(' ', '');
-
-const moduleIndex = [];
-
-for (const boss of index) {
-  if (!boss.url) {
-    console.log('skip', boss.name);
-    continue;
-  }
-
-  console.log('generate', boss.name, '...');
-
-  if (!boss.transform) {
-    boss.transform = {};
-  }
-
-  const wikiSource = typeof boss.url === 'string'
-    ? await getWikiSource(boss.url)
-    : (await Promise.all(boss.url.map(url => getWikiSource(url)))).join('\n');
-  const dropTable = buildDropTable(wikiSource);
-  if (!!boss.transform.updateDropTable) {
-    boss.transform.updateDropTable(dropTable);
-  }
-
-  const moduleName = toModuleName(boss.name);
-  const rs2f = generateRs2f(boss.name, boss.area, dropTable, boss.transform);
-  const module = generateJson(rs2f);
-
-  const modulePath = `module/boss/${moduleName}`;
-  if (!fs.existsSync(modulePath)) {
-    fs.mkdirSync(modulePath);
-  }
-
-  fs.writeFileSync(`${modulePath}/dropTable`, JSON.stringify(dropTable, null, 2));
-  fs.writeFileSync(`${modulePath}/module.rs2f`, rs2f);
-  fs.writeFileSync(`${modulePath}/module.json`, JSON.stringify(module, null, 2));
-
-  moduleIndex.push({ modulePath: `${modulePath}/module.json` });
-}
-
-fs.writeFileSync('module/boss/index.json', JSON.stringify(moduleIndex, null, 2));
-
+await cmdGenerateModGroup('boss', index);

@@ -1,0 +1,80 @@
+{
+  "name": "Bloodveld",
+  "rs2fPath": "module.rs2f",
+  "inputs": [
+    {
+      "type": "enumlist",
+      "group": "FILTER",
+      "label": "100%",
+      "macroName": "VAR_BLOODVELD_ENUMLIST_FILTER_100",
+      "default": [],
+      "enum": [
+        "Vile ashes"
+      ]
+    },
+    {
+      "type": "enumlist",
+      "group": "FILTER",
+      "label": "Weapons and armour",
+      "macroName": "VAR_BLOODVELD_ENUMLIST_FILTER_WEAPONSANDARMOUR",
+      "default": [],
+      "enum": [
+        "Steel axe",
+        "Steel full helm",
+        "Steel scimitar",
+        "Black boots",
+        "Mithril sq shield",
+        "Mithril chainbody",
+        "Rune med helm"
+      ]
+    },
+    {
+      "type": "enumlist",
+      "group": "FILTER",
+      "label": "Runes ",
+      "macroName": "VAR_BLOODVELD_ENUMLIST_FILTER_RUNES",
+      "default": [],
+      "enum": [
+        "Fire rune",
+        "Blood rune"
+      ]
+    },
+    {
+      "type": "enumlist",
+      "group": "FILTER",
+      "label": "Coins",
+      "macroName": "VAR_BLOODVELD_ENUMLIST_FILTER_COINS",
+      "default": [],
+      "enum": [
+        "Coins"
+      ]
+    },
+    {
+      "type": "enumlist",
+      "group": "FILTER",
+      "label": "Other",
+      "macroName": "VAR_BLOODVELD_ENUMLIST_FILTER_OTHER",
+      "default": [],
+      "enum": [
+        "Bones",
+        "Big bones",
+        "Gold ore",
+        "Meat pizza"
+      ]
+    },
+    {
+      "type": "enumlist",
+      "group": "FILTER",
+      "label": "Tertiary",
+      "macroName": "VAR_BLOODVELD_ENUMLIST_FILTER_TERTIARY",
+      "default": [],
+      "enum": [
+        "Clue scroll (elite)",
+        "Reward casket (elite)",
+        "Looting bag",
+        "Ensouled bloodveld head",
+        "Brimstone key"
+      ]
+    }
+  ]
+}

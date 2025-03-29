@@ -18,6 +18,73 @@ export const getWikiSource = (url) => new Promise((resolve, reject) => {
   });
 });
 
+const computeMapArea = (points, plane) => {
+  let x0 = points[0].x;
+  let y0 = points[0].y;
+  let x1 = points[0].x;
+  let y1 = points[0].y;
+
+  for (const point of points) {
+    x0 = Math.min(x0, point.x);
+    y0 = Math.min(y0, point.y);
+    x1 = Math.max(x1, point.x);
+    y1 = Math.max(y1, point.y);
+  }
+
+  return [x0, y0, plane, x1, y1, plane];
+};
+
+const parseLocLineProperty = (line) => {
+  const [_, value] = line.substring(1).split('=');
+  return value.trim();
+}
+
+const parseLocLinePoints = (line) => {
+  var pointDecls = line.substring(1);
+  var parts = pointDecls.split('|');
+  return parts.map(part => {
+    const [xDecl, yDecl] = part.split(',');
+    const [_, xStr] = xDecl.split(':');
+    const [__, yStr] = yDecl.split(':');
+    const x = parseInt(xStr);
+    const y = parseInt(yStr);
+    return { x, y };
+  });
+};
+
+export const buildMapAreas = (wikiSource) => {
+  const lines = wikiSource.split('\n');
+  let areas = {};
+
+  let inLocLine = false;
+  let current;
+  for (const line of lines) {
+    if (line === '{{LocLine') {
+      inLocLine = true;
+      current = { name: '', plane: -1, points: [] };
+    }
+
+    if (!inLocLine) {
+      continue;
+    }
+
+    if (line.startsWith('|location')) {
+      current.name = parseLocLineProperty(line);
+    } else if (line.startsWith('|plane')) {
+      current.plane = parseInt(parseLocLineProperty(line));
+    } else if (line.startsWith('|x')) {
+      current.points = parseLocLinePoints(line);
+    }
+
+    if (line === '}}' && inLocLine) { // flush
+      inLocLine = false;
+      areas[current.name] = computeMapArea(current.points, current.plane);
+    }
+  }
+
+  return areas;
+}
+
 export const buildDropTable = (wikiSource) => {
   const lines = wikiSource.split('\n');
   let currentList;

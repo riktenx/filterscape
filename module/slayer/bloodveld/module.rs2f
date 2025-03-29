@@ -1,0 +1,54 @@
+// module:Bloodveld
+
+#define CONST_AREA_BLOODVELD {"[[God Wars Dungeon]]":[2845,5283,0,2935,5362,0],"[[Meiyerditch Laboratories]]":[3564,9735,0,3574,9741,0],"[[Slayer Tower]] (basement)":[3403,9929,0,3423,9949,0],"[[Stronghold Slayer Cave]]":[2434,9817,0,2489,9834,0],"[[Wilderness God Wars Dungeon]]":[2950,10085,0,2968,10101,0]}
+#define CONST_BLOODVELD_IF(_cond) if (area:CONST_AREA_BLOODVELD && (_cond))
+
+// label:100%
+// enum:["Vile ashes"]
+#define VAR_BLOODVELD_ENUMLIST_FILTER_100 []
+CONST_BLOODVELD_IF (name:VAR_BLOODVELD_ENUMLIST_FILTER_100) {
+  hidden = true;
+}
+
+// label:Weapons and armour
+// enum:["Steel axe","Steel full helm","Steel scimitar","Black boots","Mithril sq shield","Mithril chainbody","Rune med helm"]
+#define VAR_BLOODVELD_ENUMLIST_FILTER_WEAPONSANDARMOUR []
+CONST_BLOODVELD_IF (name:VAR_BLOODVELD_ENUMLIST_FILTER_WEAPONSANDARMOUR) {
+  hidden = true;
+}
+
+// label:Runes 
+// enum:["Fire rune","Blood rune"]
+#define VAR_BLOODVELD_ENUMLIST_FILTER_RUNES []
+CONST_BLOODVELD_IF (name:VAR_BLOODVELD_ENUMLIST_FILTER_RUNES) {
+  hidden = true;
+}
+
+
+
+// label:Coins
+// enum:["Coins"]
+#define VAR_BLOODVELD_ENUMLIST_FILTER_COINS []
+CONST_BLOODVELD_IF (name:VAR_BLOODVELD_ENUMLIST_FILTER_COINS) {
+  hidden = true;
+}
+
+// label:Other
+// enum:["Bones","Big bones","Gold ore","Meat pizza"]
+#define VAR_BLOODVELD_ENUMLIST_FILTER_OTHER []
+CONST_BLOODVELD_IF (name:VAR_BLOODVELD_ENUMLIST_FILTER_OTHER) {
+  hidden = true;
+}
+
+
+
+// label:Tertiary
+// enum:["Clue scroll (elite)","Reward casket (elite)","Looting bag","Ensouled bloodveld head","Brimstone key"]
+#define VAR_BLOODVELD_ENUMLIST_FILTER_TERTIARY []
+CONST_BLOODVELD_IF (name:VAR_BLOODVELD_ENUMLIST_FILTER_TERTIARY) {
+  hidden = true;
+}
+
+
+
+// endmodule:Bloodveld

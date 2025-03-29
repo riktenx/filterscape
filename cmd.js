@@ -1,6 +1,6 @@
 import fs from 'fs';
 
-import { getWikiSource, buildDropTable } from './wikiscrape.js';
+import { getWikiSource, buildDropTable, buildMapAreas } from './wikiscrape.js';
 import { generateRs2f, generateJson } from './modgen.js';
 
 const toModuleName = (str) => str
@@ -26,9 +26,18 @@ export const cmdGenerateModGroup = async (groupName, index) => {
     const wikiSource = typeof mod.url === 'string'
       ? await getWikiSource(mod.url)
       : (await Promise.all(mod.url.map(url => getWikiSource(url)))).join('\n');
+
     const dropTable = buildDropTable(wikiSource);
+    const mapAreas = buildMapAreas(wikiSource);
+    if (mod.area === -1) {
+      mod.area = mapAreas;
+    }
+
     if (!!mod.transform.updateDropTable) {
       mod.transform.updateDropTable(dropTable);
+    }
+    if (!!mod.transform.updateMapAreas) {
+      mod.transform.updateMapAreas(mapAreas);
     }
 
     const moduleName = toModuleName(mod.name);
@@ -40,9 +49,11 @@ export const cmdGenerateModGroup = async (groupName, index) => {
       fs.mkdirSync(modulePath);
     }
 
-    fs.writeFileSync(`${modulePath}/dropTable`, JSON.stringify(dropTable, null, 2));
     fs.writeFileSync(`${modulePath}/module.rs2f`, rs2f);
     fs.writeFileSync(`${modulePath}/module.json`, JSON.stringify(module, null, 2));
+
+    fs.writeFileSync(`${modulePath}/dropTable`, JSON.stringify(dropTable, null, 2));
+    fs.writeFileSync(`${modulePath}/mapAreas`, JSON.stringify(mapAreas, null, 2));
 
     moduleIndex.push({ modulePath: `${modulePath}/module.json` });
   }

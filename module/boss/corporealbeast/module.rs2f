@@ -1,0 +1,45 @@
+// module:Corporeal Beast
+
+#define CONST_AREA_CORPOREALBEAST [2961,4366,0,3001,4399,0]
+#define CONST_CORPOREALBEAST_IF(_cond) if (area:CONST_AREA_CORPOREALBEAST && (_cond))
+
+
+
+// label:Weapons and armour
+// enum:["Mystic robe top","Mystic robe bottom","Mystic air staff","Mystic water staff","Mystic earth staff","Mystic fire staff","Spirit shield"]
+#define VAR_CORPOREALBEAST_ENUMLIST_FILTER_WEAPONS []
+CONST_CORPOREALBEAST_IF (name:VAR_CORPOREALBEAST_ENUMLIST_FILTER_WEAPONS) {
+  hidden = true;
+}
+
+// label:Runes and ammunition
+// enum:["Soul rune","Runite bolts","Death rune","Onyx bolts (e)","Cannonball","Adamant arrow","Law rune","Cosmic rune"]
+#define VAR_CORPOREALBEAST_ENUMLIST_FILTER_RUNES []
+CONST_CORPOREALBEAST_IF (name:VAR_CORPOREALBEAST_ENUMLIST_FILTER_RUNES) {
+  hidden = true;
+}
+
+// label:Resources
+// enum:["Raw shark","Pure essence","Adamantite bar","Green dragonhide","Adamantite ore","Runite ore","Teak plank","Mahogany logs","Magic logs"]
+#define VAR_CORPOREALBEAST_ENUMLIST_FILTER_RESOURCES []
+CONST_CORPOREALBEAST_IF (name:VAR_CORPOREALBEAST_ENUMLIST_FILTER_RESOURCES) {
+  hidden = true;
+}
+
+// label:Other
+// enum:["Tuna potato","White berries","Desert goat horn","Watermelon seed","Coins","Antidote++(4)","Ranarr seed","Holy elixir"]
+#define VAR_CORPOREALBEAST_ENUMLIST_FILTER_OTHER []
+CONST_CORPOREALBEAST_IF (name:VAR_CORPOREALBEAST_ENUMLIST_FILTER_OTHER) {
+  hidden = true;
+}
+
+
+
+// label:Tertiary
+// enum:["Jar of spirits","Pet dark core"]
+#define VAR_CORPOREALBEAST_ENUMLIST_FILTER_TERTIARY []
+CONST_CORPOREALBEAST_IF (name:VAR_CORPOREALBEAST_ENUMLIST_FILTER_TERTIARY) {
+  hidden = true;
+}
+
+// endmodule:Corporeal Beast

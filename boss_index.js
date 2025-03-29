@@ -23,7 +23,11 @@ const index = [
   {
     name: 'Dagannoth Kings',
     area: [2880, 4478, 0, 2943, 4353, 0],
-    url: 'https://oldschool.runescape.wiki/w/Dagannoth_Kings',
+    url: [
+      'https://oldschool.runescape.wiki/w/Dagannoth_Rex',
+      'https://oldschool.runescape.wiki/w/Dagannoth_Prime',
+      'https://oldschool.runescape.wiki/w/Dagannoth_Supreme',
+    ],
   },
   {
     name: 'Sarachnis',
@@ -63,8 +67,8 @@ const index = [
   },
   {
     name: 'Corporeal Beast',
-    area: [],
-    url: '',
+    area: [2961, 4366, 0, 3001, 4399, 0],
+    url: 'https://oldschool.runescape.wiki/w/Corporeal_Beast',
   },
   {
     name: 'Nex',
@@ -96,11 +100,11 @@ const index = [
     area: [3200, 3967, 0, 3327, 3904, 0],
     url: 'https://oldschool.runescape.wiki/w/Chaos_Elemental',
   },
-  {
-    name: 'Revenant maledictus',
-    area: [3136, 10048, 0, 3263, 10239, 0],
-    url: '', // drop table doesn't work without ref support
-  },
+//{
+//  name: 'Revenant maledictus',
+//  area: [3136, 10048, 0, 3263, 10239, 0],
+//  url: '', // drop table doesn't work without ref support
+//},
   {
     name: "Vet'ion",
     area: [3282, 10187, 1, 3307, 10216, 1],
@@ -182,8 +186,8 @@ CONST_VORKATH_IF (VAR_VORKATH_BOOLEAN_GENERAL_NOBONE && name:"Superior dragon bo
   // skip: Sporadic bosses
   {
     name: 'Grotesque Guardians',
-    area: [],
-    url: '',
+    area: [1664, 4544, 0, 1727, 4607, 0],
+    url: 'https://oldschool.runescape.wiki/w/Grotesque_Guardians',
   },
   {
     name: 'Abyssal Sire',
@@ -192,8 +196,8 @@ CONST_VORKATH_IF (VAR_VORKATH_BOOLEAN_GENERAL_NOBONE && name:"Superior dragon bo
   },
   {
     name: 'Kraken',
-    area: [],
-    url: '',
+    area: [2268, 10021, 0, 2292, 10045, 0],
+    url: 'https://oldschool.runescape.wiki/w/Kraken#Kraken',
   },
   {
     name: 'Cerberus',
@@ -229,7 +233,9 @@ for (const boss of index) {
     boss.transform = {};
   }
 
-  const wikiSource = await getWikiSource(boss.url);
+  const wikiSource = typeof boss.url === 'string'
+    ? await getWikiSource(boss.url)
+    : (await Promise.all(boss.url.map(url => getWikiSource(url)))).join('\n');
   const dropTable = buildDropTable(wikiSource);
   if (!!boss.transform.updateDropTable) {
     boss.transform.updateDropTable(dropTable);

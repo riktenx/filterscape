@@ -1,0 +1,85 @@
+{
+  "name": "Corporeal Beast",
+  "rs2fPath": "module.rs2f",
+  "inputs": [
+    {
+      "type": "enumlist",
+      "group": "FILTER",
+      "label": "Weapons and armour",
+      "macroName": "VAR_CORPOREALBEAST_ENUMLIST_FILTER_WEAPONS",
+      "default": [],
+      "enum": [
+        "Mystic robe top",
+        "Mystic robe bottom",
+        "Mystic air staff",
+        "Mystic water staff",
+        "Mystic earth staff",
+        "Mystic fire staff",
+        "Spirit shield"
+      ]
+    },
+    {
+      "type": "enumlist",
+      "group": "FILTER",
+      "label": "Runes and ammunition",
+      "macroName": "VAR_CORPOREALBEAST_ENUMLIST_FILTER_RUNES",
+      "default": [],
+      "enum": [
+        "Soul rune",
+        "Runite bolts",
+        "Death rune",
+        "Onyx bolts (e)",
+        "Cannonball",
+        "Adamant arrow",
+        "Law rune",
+        "Cosmic rune"
+      ]
+    },
+    {
+      "type": "enumlist",
+      "group": "FILTER",
+      "label": "Resources",
+      "macroName": "VAR_CORPOREALBEAST_ENUMLIST_FILTER_RESOURCES",
+      "default": [],
+      "enum": [
+        "Raw shark",
+        "Pure essence",
+        "Adamantite bar",
+        "Green dragonhide",
+        "Adamantite ore",
+        "Runite ore",
+        "Teak plank",
+        "Mahogany logs",
+        "Magic logs"
+      ]
+    },
+    {
+      "type": "enumlist",
+      "group": "FILTER",
+      "label": "Other",
+      "macroName": "VAR_CORPOREALBEAST_ENUMLIST_FILTER_OTHER",
+      "default": [],
+      "enum": [
+        "Tuna potato",
+        "White berries",
+        "Desert goat horn",
+        "Watermelon seed",
+        "Coins",
+        "Antidote++(4)",
+        "Ranarr seed",
+        "Holy elixir"
+      ]
+    },
+    {
+      "type": "enumlist",
+      "group": "FILTER",
+      "label": "Tertiary",
+      "macroName": "VAR_CORPOREALBEAST_ENUMLIST_FILTER_TERTIARY",
+      "default": [],
+      "enum": [
+        "Jar of spirits",
+        "Pet dark core"
+      ]
+    }
+  ]
+}

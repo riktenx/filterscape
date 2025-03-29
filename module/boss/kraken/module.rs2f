@@ -1,0 +1,8 @@
+// module:Kraken
+
+#define CONST_AREA_KRAKEN [2268,10021,0,2292,10045,0]
+#define CONST_KRAKEN_IF(_cond) if (area:CONST_AREA_KRAKEN && (_cond))
+
+
+
+// endmodule:Kraken

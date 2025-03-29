@@ -1,0 +1,108 @@
+{
+  "name": "Grotesque Guardians",
+  "rs2fPath": "module.rs2f",
+  "inputs": [
+    {
+      "type": "enumlist",
+      "group": "FILTER",
+      "label": "100%",
+      "macroName": "VAR_GROTESQUEGUARDIANS_ENUMLIST_FILTER_100",
+      "default": [],
+      "enum": [
+        "Granite dust"
+      ]
+    },
+    {
+      "type": "enumlist",
+      "group": "FILTER",
+      "label": "Unique",
+      "macroName": "VAR_GROTESQUEGUARDIANS_ENUMLIST_FILTER_UNIQUE",
+      "default": [],
+      "enum": [
+        "Granite maul",
+        "Granite gloves",
+        "Granite ring",
+        "Granite hammer",
+        "Black tourmaline core"
+      ]
+    },
+    {
+      "type": "enumlist",
+      "group": "FILTER",
+      "label": "Weapons and armour",
+      "macroName": "VAR_GROTESQUEGUARDIANS_ENUMLIST_FILTER_WEAPONS",
+      "default": [],
+      "enum": [
+        "Rune pickaxe",
+        "Rune full helm",
+        "Rune platelegs",
+        "Rune 2h sword",
+        "Rune battleaxe",
+        "Dragon longsword",
+        "Adamant boots",
+        "Dragon med helm"
+      ]
+    },
+    {
+      "type": "enumlist",
+      "group": "FILTER",
+      "label": "Supply Drop",
+      "macroName": "VAR_GROTESQUEGUARDIANS_ENUMLIST_FILTER_SUPPLY",
+      "default": [],
+      "enum": [
+        "Mushroom potato",
+        "Saradomin brew(4)",
+        "Magic potion(2)",
+        "Ranging potion(2)",
+        "Super combat potion(2)",
+        "Prayer potion(4)"
+      ]
+    },
+    {
+      "type": "enumlist",
+      "group": "FILTER",
+      "label": "Resources",
+      "macroName": "VAR_GROTESQUEGUARDIANS_ENUMLIST_FILTER_RESOURCES",
+      "default": [],
+      "enum": [
+        "Gold ore",
+        "Adamantite bar",
+        "Coal",
+        "Gold bar",
+        "Mithril bar",
+        "Runite ore",
+        "Runite bar"
+      ]
+    },
+    {
+      "type": "enumlist",
+      "group": "FILTER",
+      "label": "Other",
+      "macroName": "VAR_GROTESQUEGUARDIANS_ENUMLIST_FILTER_OTHER",
+      "default": [],
+      "enum": [
+        "Coins",
+        "Chaos rune",
+        "Crystal key",
+        "Death rune",
+        "Dragon dart tip",
+        "Diamond bolt tips",
+        "Dragonstone bolt tips",
+        "Onyx bolt tips",
+        "Dragon arrowtips"
+      ]
+    },
+    {
+      "type": "enumlist",
+      "group": "FILTER",
+      "label": "Tertiary",
+      "macroName": "VAR_GROTESQUEGUARDIANS_ENUMLIST_FILTER_TERTIARY",
+      "default": [],
+      "enum": [
+        "Brimstone key",
+        "Noon",
+        "Jar of stone"
+      ]
+    }
+  ]
+}

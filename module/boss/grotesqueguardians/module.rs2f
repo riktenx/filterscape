@@ -1,0 +1,55 @@
+// module:Grotesque Guardians
+
+#define CONST_AREA_GROTESQUEGUARDIANS [1664,4544,0,1727,4607,0]
+#define CONST_GROTESQUEGUARDIANS_IF(_cond) if (area:CONST_AREA_GROTESQUEGUARDIANS && (_cond))
+
+// label:100%
+// enum:["Granite dust"]
+#define VAR_GROTESQUEGUARDIANS_ENUMLIST_FILTER_100 []
+CONST_GROTESQUEGUARDIANS_IF (name:VAR_GROTESQUEGUARDIANS_ENUMLIST_FILTER_100) {
+  hidden = true;
+}
+
+// label:Unique
+// enum:["Granite maul","Granite gloves","Granite ring","Granite hammer","Black tourmaline core"]
+#define VAR_GROTESQUEGUARDIANS_ENUMLIST_FILTER_UNIQUE []
+CONST_GROTESQUEGUARDIANS_IF (name:VAR_GROTESQUEGUARDIANS_ENUMLIST_FILTER_UNIQUE) {
+  hidden = true;
+}
+
+// label:Weapons and armour
+// enum:["Rune pickaxe","Rune full helm","Rune platelegs","Rune 2h sword","Rune battleaxe","Dragon longsword","Adamant boots","Dragon med helm"]
+#define VAR_GROTESQUEGUARDIANS_ENUMLIST_FILTER_WEAPONS []
+CONST_GROTESQUEGUARDIANS_IF (name:VAR_GROTESQUEGUARDIANS_ENUMLIST_FILTER_WEAPONS) {
+  hidden = true;
+}
+
+// label:Supply Drop
+// enum:["Mushroom potato","Saradomin brew(4)","Magic potion(2)","Ranging potion(2)","Super combat potion(2)","Prayer potion(4)"]
+#define VAR_GROTESQUEGUARDIANS_ENUMLIST_FILTER_SUPPLY []
+CONST_GROTESQUEGUARDIANS_IF (name:VAR_GROTESQUEGUARDIANS_ENUMLIST_FILTER_SUPPLY) {
+  hidden = true;
+}
+
+// label:Resources
+// enum:["Gold ore","Adamantite bar","Coal","Gold bar","Mithril bar","Runite ore","Runite bar"]
+#define VAR_GROTESQUEGUARDIANS_ENUMLIST_FILTER_RESOURCES []
+CONST_GROTESQUEGUARDIANS_IF (name:VAR_GROTESQUEGUARDIANS_ENUMLIST_FILTER_RESOURCES) {
+  hidden = true;
+}
+
+// label:Other
+// enum:["Coins","Chaos rune","Crystal key","Death rune","Dragon dart tip","Diamond bolt tips","Dragonstone bolt tips","Onyx bolt tips","Dragon arrowtips"]
+#define VAR_GROTESQUEGUARDIANS_ENUMLIST_FILTER_OTHER []
+CONST_GROTESQUEGUARDIANS_IF (name:VAR_GROTESQUEGUARDIANS_ENUMLIST_FILTER_OTHER) {
+  hidden = true;
+}
+
+// label:Tertiary
+// enum:["Brimstone key","Noon","Jar of stone"]
+#define VAR_GROTESQUEGUARDIANS_ENUMLIST_FILTER_TERTIARY []
+CONST_GROTESQUEGUARDIANS_IF (name:VAR_GROTESQUEGUARDIANS_ENUMLIST_FILTER_TERTIARY) {
+  hidden = true;
+}
+
+// endmodule:Grotesque Guardians

@@ -3,10 +3,73 @@
 #define CONST_AREA_DAGANNOTHKINGS [2880,4478,0,2943,4353,0]
 #define CONST_DAGANNOTHKINGS_IF(_cond) if (area:CONST_AREA_DAGANNOTHKINGS && (_cond))
 
+// label:100%
+// enum:["Dagannoth bones","Dagannoth hide"]
+#define VAR_DAGANNOTHKINGS_ENUMLIST_FILTER_100 []
+CONST_DAGANNOTHKINGS_IF (name:VAR_DAGANNOTHKINGS_ENUMLIST_FILTER_100) {
+  hidden = true;
+}
+
+// label:Weapons and armour
+// enum:["Steel kiteshield","Mithril warhammer","Adamant axe","Steel platebody","Mithril pickaxe","Adamant platebody","Fremennik blade","Dragon axe","Rune axe","Fremennik shield","Fremennik helm","Mithril 2h sword","Ring of life","Rock-shell plate","Rock-shell legs","Berserker ring","Warrior ring","Earth battlestaff","Water battlestaff","Air battlestaff","Battlestaff","Mud battlestaff","Farseer helm","Skeletal top","Skeletal bottoms","Seers ring","Mithril knife","Red d'hide vambraces","Rune thrownaxe","Adamant dart","Iron knife","Steel knife","Seercull","Archer helm","Spined body","Spined chaps","Archers ring"]
+#define VAR_DAGANNOTHKINGS_ENUMLIST_FILTER_WEAPONS []
+CONST_DAGANNOTHKINGS_IF (name:VAR_DAGANNOTHKINGS_ENUMLIST_FILTER_WEAPONS) {
+  hidden = true;
+}
+
+// label:Potions
+// enum:["Antifire potion(2)","Prayer potion(2)","Restore potion(2)","Super attack(2)","Super strength(2)","Super defence(2)","Zamorak brew(2)"]
+#define VAR_DAGANNOTHKINGS_ENUMLIST_FILTER_POTIONS []
+CONST_DAGANNOTHKINGS_IF (name:VAR_DAGANNOTHKINGS_ENUMLIST_FILTER_POTIONS) {
+  hidden = true;
+}
+
+// label:Ores and bars
+// enum:["Mithril ore","Adamantite bar","Coal","Iron ore","Steel bar"]
+#define VAR_DAGANNOTHKINGS_ENUMLIST_FILTER_ORES []
+CONST_DAGANNOTHKINGS_IF (name:VAR_DAGANNOTHKINGS_ENUMLIST_FILTER_ORES) {
+  hidden = true;
+}
 
 
 
+// label:Other
+// enum:["Coins","Grimy ranarr weed","Bass","Swordfish","Shark","Oyster pearls","Pure essence","Opal bolt tips","Yew logs","Maple logs","Runite limbs","Feather"]
+#define VAR_DAGANNOTHKINGS_ENUMLIST_FILTER_OTHER []
+CONST_DAGANNOTHKINGS_IF (name:VAR_DAGANNOTHKINGS_ENUMLIST_FILTER_OTHER) {
+  hidden = true;
+}
 
 
+
+// label:Tertiary
+// enum:["Ensouled dagannoth head","Brimstone key","Pet dagannoth rex","Pet dagannoth prime","Pet dagannoth supreme"]
+#define VAR_DAGANNOTHKINGS_ENUMLIST_FILTER_TERTIARY []
+CONST_DAGANNOTHKINGS_IF (name:VAR_DAGANNOTHKINGS_ENUMLIST_FILTER_TERTIARY) {
+  hidden = true;
+}
+
+// label:Runes
+// enum:["Air rune","Earth rune","Blood rune","Law rune","Nature rune","Mud rune","Death rune"]
+#define VAR_DAGANNOTHKINGS_ENUMLIST_FILTER_RUNES []
+CONST_DAGANNOTHKINGS_IF (name:VAR_DAGANNOTHKINGS_ENUMLIST_FILTER_RUNES) {
+  hidden = true;
+}
+
+
+
+// label:Talismans (noted)
+// enum:["Earth talisman","Air talisman","Water talisman"]
+#define VAR_DAGANNOTHKINGS_ENUMLIST_FILTER_TALISMANS []
+CONST_DAGANNOTHKINGS_IF (name:VAR_DAGANNOTHKINGS_ENUMLIST_FILTER_TALISMANS) {
+  hidden = true;
+}
+
+// label:Ammunition
+// enum:["Steel arrow","Runite bolts","Iron arrow"]
+#define VAR_DAGANNOTHKINGS_ENUMLIST_FILTER_AMMUNITION []
+CONST_DAGANNOTHKINGS_IF (name:VAR_DAGANNOTHKINGS_ENUMLIST_FILTER_AMMUNITION) {
+  hidden = true;
+}
 
 // endmodule:Dagannoth Kings

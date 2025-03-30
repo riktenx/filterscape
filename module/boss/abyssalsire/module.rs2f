@@ -4,6 +4,7 @@
 #define CONST_ABYSSALSIRE_IF(_cond) if (area:CONST_AREA_ABYSSALSIRE && (_cond))
 
 // label:100%
+// group:Hide drops
 // enum:["Abyssal ashes"]
 #define VAR_ABYSSALSIRE_ENUMLIST_FILTER_100 []
 CONST_ABYSSALSIRE_IF (name:VAR_ABYSSALSIRE_ENUMLIST_FILTER_100) {
@@ -11,6 +12,7 @@ CONST_ABYSSALSIRE_IF (name:VAR_ABYSSALSIRE_ENUMLIST_FILTER_100) {
 }
 
 // label:Weapons and armour
+// group:Hide drops
 // enum:["Battlestaff","Rune full helm","Mystic lava staff","Rune sword","Rune platebody","Rune kiteshield","Mystic air staff","Air battlestaff"]
 #define VAR_ABYSSALSIRE_ENUMLIST_FILTER_WEAPONSANDARMOUR []
 CONST_ABYSSALSIRE_IF (name:VAR_ABYSSALSIRE_ENUMLIST_FILTER_WEAPONSANDARMOUR) {
@@ -18,6 +20,7 @@ CONST_ABYSSALSIRE_IF (name:VAR_ABYSSALSIRE_ENUMLIST_FILTER_WEAPONSANDARMOUR) {
 }
 
 // label:Runes and ammunition
+// group:Hide drops
 // enum:["Blood rune","Death rune","Law rune","Soul rune","Cosmic rune","Cannonball"]
 #define VAR_ABYSSALSIRE_ENUMLIST_FILTER_RUNESANDAMMUNITION []
 CONST_ABYSSALSIRE_IF (name:VAR_ABYSSALSIRE_ENUMLIST_FILTER_RUNESANDAMMUNITION) {
@@ -25,6 +28,7 @@ CONST_ABYSSALSIRE_IF (name:VAR_ABYSSALSIRE_ENUMLIST_FILTER_RUNESANDAMMUNITION) {
 }
 
 // label:Herbs
+// group:Hide drops
 // enum:["Grimy kwuarm","Grimy dwarf weed","Grimy cadantine","Grimy lantadyme"]
 #define VAR_ABYSSALSIRE_ENUMLIST_FILTER_HERBS []
 CONST_ABYSSALSIRE_IF (name:VAR_ABYSSALSIRE_ENUMLIST_FILTER_HERBS) {
@@ -34,6 +38,7 @@ CONST_ABYSSALSIRE_IF (name:VAR_ABYSSALSIRE_ENUMLIST_FILTER_HERBS) {
 
 
 // label:Materials
+// group:Hide drops
 // enum:["Coal","Earth orb","Pure essence","Magic logs","Uncut diamond","Runite ore","Onyx bolt tips","Runite bar"]
 #define VAR_ABYSSALSIRE_ENUMLIST_FILTER_MATERIALS []
 CONST_ABYSSALSIRE_IF (name:VAR_ABYSSALSIRE_ENUMLIST_FILTER_MATERIALS) {
@@ -43,6 +48,7 @@ CONST_ABYSSALSIRE_IF (name:VAR_ABYSSALSIRE_ENUMLIST_FILTER_MATERIALS) {
 
 
 // label:Other
+// group:Hide drops
 // enum:["Coins","Chilli potato","Super restore(4)","Binding necklace","Saradomin brew(3)","Jug of water","Unsired"]
 #define VAR_ABYSSALSIRE_ENUMLIST_FILTER_OTHER []
 CONST_ABYSSALSIRE_IF (name:VAR_ABYSSALSIRE_ENUMLIST_FILTER_OTHER) {
@@ -52,6 +58,7 @@ CONST_ABYSSALSIRE_IF (name:VAR_ABYSSALSIRE_ENUMLIST_FILTER_OTHER) {
 
 
 // label:Tertiary
+// group:Hide drops
 // enum:["Brimstone key"]
 #define VAR_ABYSSALSIRE_ENUMLIST_FILTER_TERTIARY []
 CONST_ABYSSALSIRE_IF (name:VAR_ABYSSALSIRE_ENUMLIST_FILTER_TERTIARY) {

@@ -4,6 +4,7 @@
 #define CONST_ALCHEMICALHYDRA_IF(_cond) if (area:CONST_AREA_ALCHEMICALHYDRA && (_cond))
 
 // label:100%
+// group:Hide drops
 // enum:["Hydra bones"]
 #define VAR_ALCHEMICALHYDRA_ENUMLIST_FILTER_100 []
 CONST_ALCHEMICALHYDRA_IF (name:VAR_ALCHEMICALHYDRA_ENUMLIST_FILTER_100) {
@@ -11,6 +12,7 @@ CONST_ALCHEMICALHYDRA_IF (name:VAR_ALCHEMICALHYDRA_ENUMLIST_FILTER_100) {
 }
 
 // label:Pre-roll
+// group:Hide drops
 // enum:["Hydra's eye","Hydra's fang","Hydra's heart","Hydra tail","Hydra leather","Hydra's claw","Dragon thrownaxe","Dragon knife"]
 #define VAR_ALCHEMICALHYDRA_ENUMLIST_FILTER_PREROLL []
 CONST_ALCHEMICALHYDRA_IF (name:VAR_ALCHEMICALHYDRA_ENUMLIST_FILTER_PREROLL) {
@@ -18,6 +20,7 @@ CONST_ALCHEMICALHYDRA_IF (name:VAR_ALCHEMICALHYDRA_ENUMLIST_FILTER_PREROLL) {
 }
 
 // label:Weapons and armour
+// group:Hide drops
 // enum:["Mystic fire staff","Mystic water staff","Battlestaff","Black d'hide body","Dragon longsword","Dragon med helm","Rune platebody","Dragon battleaxe","Rune platelegs","Rune plateskirt","Mystic robe top (light)","Mystic robe bottom (light)"]
 #define VAR_ALCHEMICALHYDRA_ENUMLIST_FILTER_WEAPONSANDARMOUR []
 CONST_ALCHEMICALHYDRA_IF (name:VAR_ALCHEMICALHYDRA_ENUMLIST_FILTER_WEAPONSANDARMOUR) {
@@ -25,6 +28,7 @@ CONST_ALCHEMICALHYDRA_IF (name:VAR_ALCHEMICALHYDRA_ENUMLIST_FILTER_WEAPONSANDARM
 }
 
 // label:Runes and ammunition
+// group:Hide drops
 // enum:["Chaos rune","Death rune","Blood rune","Astral rune","Dragonstone bolts (e)","Onyx bolts (e)"]
 #define VAR_ALCHEMICALHYDRA_ENUMLIST_FILTER_RUNESANDAMMUNITION []
 CONST_ALCHEMICALHYDRA_IF (name:VAR_ALCHEMICALHYDRA_ENUMLIST_FILTER_RUNESANDAMMUNITION) {
@@ -32,6 +36,7 @@ CONST_ALCHEMICALHYDRA_IF (name:VAR_ALCHEMICALHYDRA_ENUMLIST_FILTER_RUNESANDAMMUN
 }
 
 // label:Herbs
+// group:Hide drops
 // enum:["Grimy avantoe","Grimy kwuarm","Grimy ranarr weed","Grimy snapdragon","Grimy cadantine","Grimy dwarf weed","Grimy lantadyme","Grimy torstol"]
 #define VAR_ALCHEMICALHYDRA_ENUMLIST_FILTER_HERBS []
 CONST_ALCHEMICALHYDRA_IF (name:VAR_ALCHEMICALHYDRA_ENUMLIST_FILTER_HERBS) {
@@ -41,6 +46,7 @@ CONST_ALCHEMICALHYDRA_IF (name:VAR_ALCHEMICALHYDRA_ENUMLIST_FILTER_HERBS) {
 
 
 // label:Other
+// group:Hide drops
 // enum:["Coins","Shark","Ranging potion(3)","Super restore(3)","Dragon bones","Crystal key"]
 #define VAR_ALCHEMICALHYDRA_ENUMLIST_FILTER_OTHER []
 CONST_ALCHEMICALHYDRA_IF (name:VAR_ALCHEMICALHYDRA_ENUMLIST_FILTER_OTHER) {
@@ -50,6 +56,7 @@ CONST_ALCHEMICALHYDRA_IF (name:VAR_ALCHEMICALHYDRA_ENUMLIST_FILTER_OTHER) {
 
 
 // label:Tertiary
+// group:Hide drops
 // enum:["Brimstone key","Alchemical hydra heads","Jar of chemicals","Ikkle hydra"]
 #define VAR_ALCHEMICALHYDRA_ENUMLIST_FILTER_TERTIARY []
 CONST_ALCHEMICALHYDRA_IF (name:VAR_ALCHEMICALHYDRA_ENUMLIST_FILTER_TERTIARY) {

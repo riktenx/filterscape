@@ -18,7 +18,7 @@
     },
     {
       "type": "enumlist",
-      "group": "FILTER",
+      "group": "Hide drops",
       "label": "Weapons and armour",
       "macroName": "VAR_VORKATH_ENUMLIST_FILTER_WEAPONSANDARMOUR",
       "default": [],
@@ -34,7 +34,7 @@
     },
     {
       "type": "enumlist",
-      "group": "FILTER",
+      "group": "Hide drops",
       "label": "Runes",
       "macroName": "VAR_VORKATH_ENUMLIST_FILTER_RUNES",
       "default": [],
@@ -46,7 +46,7 @@
     },
     {
       "type": "enumlist",
-      "group": "FILTER",
+      "group": "Hide drops",
       "label": "Dragonhide",
       "macroName": "VAR_VORKATH_ENUMLIST_FILTER_DRAGONHIDE",
       "default": [],
@@ -59,7 +59,7 @@
     },
     {
       "type": "enumlist",
-      "group": "FILTER",
+      "group": "Hide drops",
       "label": "Fletching materials",
       "macroName": "VAR_VORKATH_ENUMLIST_FILTER_FLETCHINGMATERIALS",
       "default": [],
@@ -78,7 +78,7 @@
     },
     {
       "type": "enumlist",
-      "group": "FILTER",
+      "group": "Hide drops",
       "label": "Other",
       "macroName": "VAR_VORKATH_ENUMLIST_FILTER_OTHER",
       "default": [],
@@ -96,7 +96,7 @@
     },
     {
       "type": "enumlist",
-      "group": "FILTER",
+      "group": "Hide drops",
       "label": "Tertiary",
       "macroName": "VAR_VORKATH_ENUMLIST_FILTER_TERTIARY",
       "default": [],

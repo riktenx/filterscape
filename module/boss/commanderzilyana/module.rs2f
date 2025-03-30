@@ -6,6 +6,7 @@
 
 
 // label:100%
+// group:Hide drops
 // enum:["Bones","Frozen key piece (saradomin)"]
 #define VAR_COMMANDERZILYANA_ENUMLIST_FILTER_100 []
 CONST_COMMANDERZILYANA_IF (name:VAR_COMMANDERZILYANA_ENUMLIST_FILTER_100) {
@@ -13,6 +14,7 @@ CONST_COMMANDERZILYANA_IF (name:VAR_COMMANDERZILYANA_ENUMLIST_FILTER_100) {
 }
 
 // label:Uniques
+// group:Hide drops
 // enum:["Saradomin sword","Saradomin's light","Armadyl crossbow","Saradomin hilt","Godsword shard 1","Godsword shard 2","Godsword shard 3"]
 #define VAR_COMMANDERZILYANA_ENUMLIST_FILTER_UNIQUES []
 CONST_COMMANDERZILYANA_IF (name:VAR_COMMANDERZILYANA_ENUMLIST_FILTER_UNIQUES) {
@@ -20,6 +22,7 @@ CONST_COMMANDERZILYANA_IF (name:VAR_COMMANDERZILYANA_ENUMLIST_FILTER_UNIQUES) {
 }
 
 // label:Weapons and armour
+// group:Hide drops
 // enum:["Adamant platebody","Rune dart","Rune kiteshield","Rune plateskirt"]
 #define VAR_COMMANDERZILYANA_ENUMLIST_FILTER_WEAPONSANDARMOUR []
 CONST_COMMANDERZILYANA_IF (name:VAR_COMMANDERZILYANA_ENUMLIST_FILTER_WEAPONSANDARMOUR) {
@@ -27,6 +30,7 @@ CONST_COMMANDERZILYANA_IF (name:VAR_COMMANDERZILYANA_ENUMLIST_FILTER_WEAPONSANDA
 }
 
 // label:Potions
+// group:Hide drops
 // enum:["Prayer potion(4)","Saradomin brew(3)","Super restore(4)","Super defence(3)","Magic potion(3)"]
 #define VAR_COMMANDERZILYANA_ENUMLIST_FILTER_POTIONS []
 CONST_COMMANDERZILYANA_IF (name:VAR_COMMANDERZILYANA_ENUMLIST_FILTER_POTIONS) {
@@ -34,6 +38,7 @@ CONST_COMMANDERZILYANA_IF (name:VAR_COMMANDERZILYANA_ENUMLIST_FILTER_POTIONS) {
 }
 
 // label:Other
+// group:Hide drops
 // enum:["Coins","Diamond","Law rune","Grimy ranarr weed","Ranarr seed","Magic seed"]
 #define VAR_COMMANDERZILYANA_ENUMLIST_FILTER_OTHER []
 CONST_COMMANDERZILYANA_IF (name:VAR_COMMANDERZILYANA_ENUMLIST_FILTER_OTHER) {
@@ -43,6 +48,7 @@ CONST_COMMANDERZILYANA_IF (name:VAR_COMMANDERZILYANA_ENUMLIST_FILTER_OTHER) {
 
 
 // label:Tertiary
+// group:Hide drops
 // enum:["Brimstone key","Pet zilyana"]
 #define VAR_COMMANDERZILYANA_ENUMLIST_FILTER_TERTIARY []
 CONST_COMMANDERZILYANA_IF (name:VAR_COMMANDERZILYANA_ENUMLIST_FILTER_TERTIARY) {

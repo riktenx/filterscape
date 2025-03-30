@@ -4,7 +4,7 @@
   "inputs": [
     {
       "type": "enumlist",
-      "group": "FILTER",
+      "group": "Hide drops",
       "label": "100%",
       "macroName": "VAR_KINGBLACKDRAGON_ENUMLIST_FILTER_100",
       "default": [],
@@ -15,7 +15,7 @@
     },
     {
       "type": "enumlist",
-      "group": "FILTER",
+      "group": "Hide drops",
       "label": "Pre-roll",
       "macroName": "VAR_KINGBLACKDRAGON_ENUMLIST_FILTER_PREROLL",
       "default": [],
@@ -25,7 +25,7 @@
     },
     {
       "type": "enumlist",
-      "group": "FILTER",
+      "group": "Hide drops",
       "label": "Weapons and armour",
       "macroName": "VAR_KINGBLACKDRAGON_ENUMLIST_FILTER_WEAPONSANDARMOUR",
       "default": [],
@@ -38,7 +38,7 @@
     },
     {
       "type": "enumlist",
-      "group": "FILTER",
+      "group": "Hide drops",
       "label": "Runes and ammunition",
       "macroName": "VAR_KINGBLACKDRAGON_ENUMLIST_FILTER_RUNESANDAMMUNITION",
       "default": [],
@@ -53,7 +53,7 @@
     },
     {
       "type": "enumlist",
-      "group": "FILTER",
+      "group": "Hide drops",
       "label": "Resources",
       "macroName": "VAR_KINGBLACKDRAGON_ENUMLIST_FILTER_RESOURCES",
       "default": [],
@@ -66,7 +66,7 @@
     },
     {
       "type": "enumlist",
-      "group": "FILTER",
+      "group": "Hide drops",
       "label": "Other",
       "macroName": "VAR_KINGBLACKDRAGON_ENUMLIST_FILTER_OTHER",
       "default": [],
@@ -81,7 +81,7 @@
     },
     {
       "type": "enumlist",
-      "group": "FILTER",
+      "group": "Hide drops",
       "label": "Tertiary",
       "macroName": "VAR_KINGBLACKDRAGON_ENUMLIST_FILTER_TERTIARY",
       "default": [],

@@ -4,6 +4,7 @@
 #define CONST_KALPHITEQUEEN_IF(_cond) if (area:CONST_AREA_KALPHITEQUEEN && (_cond))
 
 // label:Consumables
+// group:Hide drops
 // enum:["Monkfish","Shark","Dark crab","Saradomin brew(4)","Prayer potion(4)","Super restore(4)","Super combat potion(2)","Ranging potion(3)","Superantipoison(2)"]
 #define VAR_KALPHITEQUEEN_ENUMLIST_FILTER_CONSUMABLES []
 CONST_KALPHITEQUEEN_IF (name:VAR_KALPHITEQUEEN_ENUMLIST_FILTER_CONSUMABLES) {
@@ -11,6 +12,7 @@ CONST_KALPHITEQUEEN_IF (name:VAR_KALPHITEQUEEN_ENUMLIST_FILTER_CONSUMABLES) {
 }
 
 // label:Weapons and armour
+// group:Hide drops
 // enum:["Battlestaff","Rune chainbody","Red d'hide body","Rune knife(p++)","Lava battlestaff"]
 #define VAR_KALPHITEQUEEN_ENUMLIST_FILTER_WEAPONSANDARMOUR []
 CONST_KALPHITEQUEEN_IF (name:VAR_KALPHITEQUEEN_ENUMLIST_FILTER_WEAPONSANDARMOUR) {
@@ -18,6 +20,7 @@ CONST_KALPHITEQUEEN_IF (name:VAR_KALPHITEQUEEN_ENUMLIST_FILTER_WEAPONSANDARMOUR)
 }
 
 // label:Runes and ammunition
+// group:Hide drops
 // enum:["Death rune","Blood rune","Mithril arrow","Rune arrow"]
 #define VAR_KALPHITEQUEEN_ENUMLIST_FILTER_RUNESANDAMMUNITION []
 CONST_KALPHITEQUEEN_IF (name:VAR_KALPHITEQUEEN_ENUMLIST_FILTER_RUNESANDAMMUNITION) {
@@ -25,6 +28,7 @@ CONST_KALPHITEQUEEN_IF (name:VAR_KALPHITEQUEEN_ENUMLIST_FILTER_RUNESANDAMMUNITIO
 }
 
 // label:Herbs
+// group:Hide drops
 // enum:["Grimy toadflax","Grimy ranarr weed","Grimy snapdragon","Grimy torstol"]
 #define VAR_KALPHITEQUEEN_ENUMLIST_FILTER_HERBS []
 CONST_KALPHITEQUEEN_IF (name:VAR_KALPHITEQUEEN_ENUMLIST_FILTER_HERBS) {
@@ -32,6 +36,7 @@ CONST_KALPHITEQUEEN_IF (name:VAR_KALPHITEQUEEN_ENUMLIST_FILTER_HERBS) {
 }
 
 // label:Seeds
+// group:Hide drops
 // enum:["Torstol seed","Watermelon seed","Papaya tree seed","Palm tree seed","Magic seed"]
 #define VAR_KALPHITEQUEEN_ENUMLIST_FILTER_SEEDS []
 CONST_KALPHITEQUEEN_IF (name:VAR_KALPHITEQUEEN_ENUMLIST_FILTER_SEEDS) {
@@ -39,6 +44,7 @@ CONST_KALPHITEQUEEN_IF (name:VAR_KALPHITEQUEEN_ENUMLIST_FILTER_SEEDS) {
 }
 
 // label:Resources
+// group:Hide drops
 // enum:["Runite bar","Bucket of sand","Gold ore","Magic logs","Uncut emerald","Uncut ruby","Uncut diamond"]
 #define VAR_KALPHITEQUEEN_ENUMLIST_FILTER_RESOURCES []
 CONST_KALPHITEQUEEN_IF (name:VAR_KALPHITEQUEEN_ENUMLIST_FILTER_RESOURCES) {
@@ -46,6 +52,7 @@ CONST_KALPHITEQUEEN_IF (name:VAR_KALPHITEQUEEN_ENUMLIST_FILTER_RESOURCES) {
 }
 
 // label:Other
+// group:Hide drops
 // enum:["Wine of zamorak","Potato cactus","Coins","Grapes","Weapon poison(++)","Cactus spine"]
 #define VAR_KALPHITEQUEEN_ENUMLIST_FILTER_OTHER []
 CONST_KALPHITEQUEEN_IF (name:VAR_KALPHITEQUEEN_ENUMLIST_FILTER_OTHER) {
@@ -55,6 +62,7 @@ CONST_KALPHITEQUEEN_IF (name:VAR_KALPHITEQUEEN_ENUMLIST_FILTER_OTHER) {
 
 
 // label:Tertiary
+// group:Hide drops
 // enum:["Kq head (tattered)","Ensouled kalphite head","Brimstone key","Kq head","Dragon chainbody","Dragon 2h sword","Dragon pickaxe","Jar of sand","Kalphite princess"]
 #define VAR_KALPHITEQUEEN_ENUMLIST_FILTER_TERTIARY []
 CONST_KALPHITEQUEEN_IF (name:VAR_KALPHITEQUEEN_ENUMLIST_FILTER_TERTIARY) {

@@ -6,6 +6,7 @@
 
 
 // label:100%
+// group:Hide drops
 // enum:["Big bones","Feather","Frozen key piece (armadyl)"]
 #define VAR_KREEARRA_ENUMLIST_FILTER_100 []
 CONST_KREEARRA_IF (name:VAR_KREEARRA_ENUMLIST_FILTER_100) {
@@ -13,6 +14,7 @@ CONST_KREEARRA_IF (name:VAR_KREEARRA_ENUMLIST_FILTER_100) {
 }
 
 // label:Uniques
+// group:Hide drops
 // enum:["Armadyl helmet","Armadyl chestplate","Armadyl chainskirt","Armadyl hilt","Godsword shard 1","Godsword shard 2","Godsword shard 3"]
 #define VAR_KREEARRA_ENUMLIST_FILTER_UNIQUES []
 CONST_KREEARRA_IF (name:VAR_KREEARRA_ENUMLIST_FILTER_UNIQUES) {
@@ -20,6 +22,7 @@ CONST_KREEARRA_IF (name:VAR_KREEARRA_ENUMLIST_FILTER_UNIQUES) {
 }
 
 // label:Weapons and armour
+// group:Hide drops
 // enum:["Black d'hide body","Rune crossbow"]
 #define VAR_KREEARRA_ENUMLIST_FILTER_WEAPONSANDARMOUR []
 CONST_KREEARRA_IF (name:VAR_KREEARRA_ENUMLIST_FILTER_WEAPONSANDARMOUR) {
@@ -27,6 +30,7 @@ CONST_KREEARRA_IF (name:VAR_KREEARRA_ENUMLIST_FILTER_WEAPONSANDARMOUR) {
 }
 
 // label:Runes and ammunition
+// group:Hide drops
 // enum:["Mind rune","Rune arrow","Runite bolts","Dragonstone bolts (e)"]
 #define VAR_KREEARRA_ENUMLIST_FILTER_RUNESANDAMMUNITION []
 CONST_KREEARRA_IF (name:VAR_KREEARRA_ENUMLIST_FILTER_RUNESANDAMMUNITION) {
@@ -34,6 +38,7 @@ CONST_KREEARRA_IF (name:VAR_KREEARRA_ENUMLIST_FILTER_RUNESANDAMMUNITION) {
 }
 
 // label:Other
+// group:Hide drops
 // enum:["Coins","Ranging potion(3)","Super defence(3)","Grimy dwarf weed","Dwarf weed seed","Crystal key","Yew seed"]
 #define VAR_KREEARRA_ENUMLIST_FILTER_OTHER []
 CONST_KREEARRA_IF (name:VAR_KREEARRA_ENUMLIST_FILTER_OTHER) {
@@ -43,6 +48,7 @@ CONST_KREEARRA_IF (name:VAR_KREEARRA_ENUMLIST_FILTER_OTHER) {
 
 
 // label:Tertiary
+// group:Hide drops
 // enum:["Brimstone key","Long bone","Pet kree'arra","Curved bone"]
 #define VAR_KREEARRA_ENUMLIST_FILTER_TERTIARY []
 CONST_KREEARRA_IF (name:VAR_KREEARRA_ENUMLIST_FILTER_TERTIARY) {

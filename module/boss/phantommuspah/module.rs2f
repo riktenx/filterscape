@@ -4,6 +4,7 @@
 #define CONST_PHANTOMMUSPAH_IF(_cond) if (area:CONST_AREA_PHANTOMMUSPAH && (_cond))
 
 // label:Unique
+// group:Hide drops
 // enum:["Ancient essence","Frozen cache","Ancient icon","Venator shard"]
 #define VAR_PHANTOMMUSPAH_ENUMLIST_FILTER_UNIQUE []
 CONST_PHANTOMMUSPAH_IF (name:VAR_PHANTOMMUSPAH_ENUMLIST_FILTER_UNIQUE) {
@@ -11,6 +12,7 @@ CONST_PHANTOMMUSPAH_IF (name:VAR_PHANTOMMUSPAH_ENUMLIST_FILTER_UNIQUE) {
 }
 
 // label:Supplies
+// group:Hide drops
 // enum:["Shark","Summer pie","Ancient brew(3)","Ranging potion(3)","Super restore(3)","Prayer potion(3)"]
 #define VAR_PHANTOMMUSPAH_ENUMLIST_FILTER_SUPPLIES []
 CONST_PHANTOMMUSPAH_IF (name:VAR_PHANTOMMUSPAH_ENUMLIST_FILTER_SUPPLIES) {
@@ -18,6 +20,7 @@ CONST_PHANTOMMUSPAH_IF (name:VAR_PHANTOMMUSPAH_ENUMLIST_FILTER_SUPPLIES) {
 }
 
 // label:Weapons and armour
+// group:Hide drops
 // enum:["Rune kiteshield","Dragon plateskirt","Rune platelegs","Black d'hide body","Dragon platelegs","Rune sword"]
 #define VAR_PHANTOMMUSPAH_ENUMLIST_FILTER_WEAPONSANDARMOUR []
 CONST_PHANTOMMUSPAH_IF (name:VAR_PHANTOMMUSPAH_ENUMLIST_FILTER_WEAPONSANDARMOUR) {
@@ -25,6 +28,7 @@ CONST_PHANTOMMUSPAH_IF (name:VAR_PHANTOMMUSPAH_ENUMLIST_FILTER_WEAPONSANDARMOUR)
 }
 
 // label:Runes and ammunition
+// group:Hide drops
 // enum:["Law rune","Soul rune","Death rune","Smoke rune","Chaos rune","Fire rune","Cannonball"]
 #define VAR_PHANTOMMUSPAH_ENUMLIST_FILTER_RUNESANDAMMUNITION []
 CONST_PHANTOMMUSPAH_IF (name:VAR_PHANTOMMUSPAH_ENUMLIST_FILTER_RUNESANDAMMUNITION) {
@@ -32,6 +36,7 @@ CONST_PHANTOMMUSPAH_IF (name:VAR_PHANTOMMUSPAH_ENUMLIST_FILTER_RUNESANDAMMUNITIO
 }
 
 // label:Herbs
+// group:Hide drops
 // enum:["Grimy toadflax","Grimy kwuarm","Grimy cadantine","Grimy dwarf weed","Grimy lantadyme"]
 #define VAR_PHANTOMMUSPAH_ENUMLIST_FILTER_HERBS []
 CONST_PHANTOMMUSPAH_IF (name:VAR_PHANTOMMUSPAH_ENUMLIST_FILTER_HERBS) {
@@ -39,6 +44,7 @@ CONST_PHANTOMMUSPAH_IF (name:VAR_PHANTOMMUSPAH_ENUMLIST_FILTER_HERBS) {
 }
 
 // label:Seeds
+// group:Hide drops
 // enum:["Yew seed","Torstol seed","Palm tree seed","Ranarr seed","Snapdragon seed","Spirit seed"]
 #define VAR_PHANTOMMUSPAH_ENUMLIST_FILTER_SEEDS []
 CONST_PHANTOMMUSPAH_IF (name:VAR_PHANTOMMUSPAH_ENUMLIST_FILTER_SEEDS) {
@@ -46,6 +52,7 @@ CONST_PHANTOMMUSPAH_IF (name:VAR_PHANTOMMUSPAH_ENUMLIST_FILTER_SEEDS) {
 }
 
 // label:Resources
+// group:Hide drops
 // enum:["Adamantite ore","Gold ore","Teak plank","Molten glass","Pure essence","Coal","Runite ore","Silver ore"]
 #define VAR_PHANTOMMUSPAH_ENUMLIST_FILTER_RESOURCES []
 CONST_PHANTOMMUSPAH_IF (name:VAR_PHANTOMMUSPAH_ENUMLIST_FILTER_RESOURCES) {
@@ -53,6 +60,7 @@ CONST_PHANTOMMUSPAH_IF (name:VAR_PHANTOMMUSPAH_ENUMLIST_FILTER_RESOURCES) {
 }
 
 // label:Other
+// group:Hide drops
 // enum:["Manta ray","Water orb","Dragon bolts (unf)","Limpwurt root"]
 #define VAR_PHANTOMMUSPAH_ENUMLIST_FILTER_OTHER []
 CONST_PHANTOMMUSPAH_IF (name:VAR_PHANTOMMUSPAH_ENUMLIST_FILTER_OTHER) {
@@ -62,6 +70,7 @@ CONST_PHANTOMMUSPAH_IF (name:VAR_PHANTOMMUSPAH_ENUMLIST_FILTER_OTHER) {
 
 
 // label:Tertiary
+// group:Hide drops
 // enum:["Brimstone key","Clue scroll (hard)","Clue scroll (elite)","Charged ice","Muphin"]
 #define VAR_PHANTOMMUSPAH_ENUMLIST_FILTER_TERTIARY []
 CONST_PHANTOMMUSPAH_IF (name:VAR_PHANTOMMUSPAH_ENUMLIST_FILTER_TERTIARY) {

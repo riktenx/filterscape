@@ -4,7 +4,7 @@
   "inputs": [
     {
       "type": "enumlist",
-      "group": "FILTER",
+      "group": "Hide drops",
       "label": "Minor drops",
       "macroName": "VAR_CHAOSELEMENTAL_ENUMLIST_FILTER_MINORDROPS",
       "default": [],
@@ -18,7 +18,7 @@
     },
     {
       "type": "enumlist",
-      "group": "FILTER",
+      "group": "Hide drops",
       "label": "=Pre-roll=",
       "macroName": "VAR_CHAOSELEMENTAL_ENUMLIST_FILTER_PREROLL",
       "default": [],
@@ -28,7 +28,7 @@
     },
     {
       "type": "enumlist",
-      "group": "FILTER",
+      "group": "Hide drops",
       "label": "=Weapons and armour=",
       "macroName": "VAR_CHAOSELEMENTAL_ENUMLIST_FILTER_WEAPONSANDARMOUR",
       "default": [],
@@ -52,7 +52,7 @@
     },
     {
       "type": "enumlist",
-      "group": "FILTER",
+      "group": "Hide drops",
       "label": "=Runes and ammunition=",
       "macroName": "VAR_CHAOSELEMENTAL_ENUMLIST_FILTER_RUNESANDAMMUNITION",
       "default": [],
@@ -64,7 +64,7 @@
     },
     {
       "type": "enumlist",
-      "group": "FILTER",
+      "group": "Hide drops",
       "label": "=Herbs=",
       "macroName": "VAR_CHAOSELEMENTAL_ENUMLIST_FILTER_HERBS",
       "default": [],
@@ -77,7 +77,7 @@
     },
     {
       "type": "enumlist",
-      "group": "FILTER",
+      "group": "Hide drops",
       "label": "=Resources=",
       "macroName": "VAR_CHAOSELEMENTAL_ENUMLIST_FILTER_RESOURCES",
       "default": [],
@@ -90,7 +90,7 @@
     },
     {
       "type": "enumlist",
-      "group": "FILTER",
+      "group": "Hide drops",
       "label": "=Materials=",
       "macroName": "VAR_CHAOSELEMENTAL_ENUMLIST_FILTER_MATERIALS",
       "default": [],
@@ -104,7 +104,7 @@
     },
     {
       "type": "enumlist",
-      "group": "FILTER",
+      "group": "Hide drops",
       "label": "=Tertiary=",
       "macroName": "VAR_CHAOSELEMENTAL_ENUMLIST_FILTER_TERTIARY",
       "default": [],

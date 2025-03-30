@@ -4,7 +4,7 @@
   "inputs": [
     {
       "type": "enumlist",
-      "group": "FILTER",
+      "group": "Hide drops",
       "label": "Frozen tears",
       "macroName": "VAR_AMOXLIATL_ENUMLIST_FILTER_FROZENTEARS",
       "default": [],
@@ -14,7 +14,7 @@
     },
     {
       "type": "enumlist",
-      "group": "FILTER",
+      "group": "Hide drops",
       "label": "Weapons and armour",
       "macroName": "VAR_AMOXLIATL_ENUMLIST_FILTER_WEAPONSANDARMOUR",
       "default": [],
@@ -27,7 +27,7 @@
     },
     {
       "type": "enumlist",
-      "group": "FILTER",
+      "group": "Hide drops",
       "label": "Runes and ammunition",
       "macroName": "VAR_AMOXLIATL_ENUMLIST_FILTER_RUNESANDAMMUNITION",
       "default": [],
@@ -42,7 +42,7 @@
     },
     {
       "type": "enumlist",
-      "group": "FILTER",
+      "group": "Hide drops",
       "label": "Other",
       "macroName": "VAR_AMOXLIATL_ENUMLIST_FILTER_OTHER",
       "default": [],
@@ -59,7 +59,7 @@
     },
     {
       "type": "enumlist",
-      "group": "FILTER",
+      "group": "Hide drops",
       "label": "Tertiary",
       "macroName": "VAR_AMOXLIATL_ENUMLIST_FILTER_TERTIARY",
       "default": [],

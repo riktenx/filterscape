@@ -4,6 +4,7 @@
 #define CONST_SCURRIUS_IF(_cond) if (area:CONST_AREA_SCURRIUS && (_cond))
 
 // label:100%
+// group:Hide drops
 // enum:["Big bones","Raw rat meat"]
 #define VAR_SCURRIUS_ENUMLIST_FILTER_100 []
 CONST_SCURRIUS_IF (name:VAR_SCURRIUS_ENUMLIST_FILTER_100) {
@@ -11,6 +12,7 @@ CONST_SCURRIUS_IF (name:VAR_SCURRIUS_ENUMLIST_FILTER_100) {
 }
 
 // label:Equipment
+// group:Hide drops
 // enum:["Adamant platebody","Rune med helm","Rune full helm","Rune sq shield","Rune chainbody","Rune battleaxe"]
 #define VAR_SCURRIUS_ENUMLIST_FILTER_EQUIPMENT []
 CONST_SCURRIUS_IF (name:VAR_SCURRIUS_ENUMLIST_FILTER_EQUIPMENT) {
@@ -18,6 +20,7 @@ CONST_SCURRIUS_IF (name:VAR_SCURRIUS_ENUMLIST_FILTER_EQUIPMENT) {
 }
 
 // label:Runes and ammunition
+// group:Hide drops
 // enum:["Adamant arrow","Rune arrow","Chaos rune","Death rune","Law rune"]
 #define VAR_SCURRIUS_ENUMLIST_FILTER_RUNESANDAMMUNITION []
 CONST_SCURRIUS_IF (name:VAR_SCURRIUS_ENUMLIST_FILTER_RUNESANDAMMUNITION) {
@@ -25,6 +28,7 @@ CONST_SCURRIUS_IF (name:VAR_SCURRIUS_ENUMLIST_FILTER_RUNESANDAMMUNITION) {
 }
 
 // label:Food and potions
+// group:Hide drops
 // enum:["Trout","Tuna","Shark","Lobster","Ranging potion(1)","Super strength(1)","Cheese","Prayer potion(4)"]
 #define VAR_SCURRIUS_ENUMLIST_FILTER_FOODANDPOTIONS []
 CONST_SCURRIUS_IF (name:VAR_SCURRIUS_ENUMLIST_FILTER_FOODANDPOTIONS) {
@@ -32,6 +36,7 @@ CONST_SCURRIUS_IF (name:VAR_SCURRIUS_ENUMLIST_FILTER_FOODANDPOTIONS) {
 }
 
 // label:Other
+// group:Hide drops
 // enum:["Coins","Scurrius' spine"]
 #define VAR_SCURRIUS_ENUMLIST_FILTER_OTHER []
 CONST_SCURRIUS_IF (name:VAR_SCURRIUS_ENUMLIST_FILTER_OTHER) {
@@ -39,6 +44,7 @@ CONST_SCURRIUS_IF (name:VAR_SCURRIUS_ENUMLIST_FILTER_OTHER) {
 }
 
 // label:Tertiary drops
+// group:Hide drops
 // enum:["Scurrius' spine","Long bone","Curved bone","Scurry"]
 #define VAR_SCURRIUS_ENUMLIST_FILTER_TERTIARYDROPS []
 CONST_SCURRIUS_IF (name:VAR_SCURRIUS_ENUMLIST_FILTER_TERTIARYDROPS) {

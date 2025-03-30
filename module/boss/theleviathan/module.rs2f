@@ -8,6 +8,7 @@
 
 
 // label:Uniques
+// group:Hide drops
 // enum:["Venator vestige","Chromium ingot","Leviathan's lure","Virtus mask","Virtus robe top","Virtus robe bottom"]
 #define VAR_THELEVIATHAN_ENUMLIST_FILTER_UNIQUES []
 CONST_THELEVIATHAN_IF (name:VAR_THELEVIATHAN_ENUMLIST_FILTER_UNIQUES) {
@@ -15,6 +16,7 @@ CONST_THELEVIATHAN_IF (name:VAR_THELEVIATHAN_ENUMLIST_FILTER_UNIQUES) {
 }
 
 // label:Secondary uniques
+// group:Hide drops
 // enum:["Scarred tablet","Awakener's orb","Smoke quartz"]
 #define VAR_THELEVIATHAN_ENUMLIST_FILTER_SECONDARYUNIQUES []
 CONST_THELEVIATHAN_IF (name:VAR_THELEVIATHAN_ENUMLIST_FILTER_SECONDARYUNIQUES) {
@@ -22,6 +24,7 @@ CONST_THELEVIATHAN_IF (name:VAR_THELEVIATHAN_ENUMLIST_FILTER_SECONDARYUNIQUES) {
 }
 
 // label:Supplies
+// group:Hide drops
 // enum:["Prayer potion(3)","Ranging potion(2)","Sea turtle"]
 #define VAR_THELEVIATHAN_ENUMLIST_FILTER_SUPPLIES []
 CONST_THELEVIATHAN_IF (name:VAR_THELEVIATHAN_ENUMLIST_FILTER_SUPPLIES) {
@@ -29,6 +32,7 @@ CONST_THELEVIATHAN_IF (name:VAR_THELEVIATHAN_ENUMLIST_FILTER_SUPPLIES) {
 }
 
 // label:Resources
+// group:Hide drops
 // enum:["Pure essence","Iron ore","Silver ore","Coal","Gold ore","Adamantite ore","Runite ore","Sapphire","Emerald","Ruby","Uncut ruby","Uncut diamond","Dragon javelin heads","Dragon bolts (unf)","Onyx bolt tips","Raw manta ray","Anglerfish"]
 #define VAR_THELEVIATHAN_ENUMLIST_FILTER_RESOURCES []
 CONST_THELEVIATHAN_IF (name:VAR_THELEVIATHAN_ENUMLIST_FILTER_RESOURCES) {
@@ -36,6 +40,7 @@ CONST_THELEVIATHAN_IF (name:VAR_THELEVIATHAN_ENUMLIST_FILTER_RESOURCES) {
 }
 
 // label:Runes and ammunition
+// group:Hide drops
 // enum:["Bronze arrow","Mithril arrow","Adamant arrow","Rune arrow","Body rune","Earth rune","Smoke rune","Soul rune"]
 #define VAR_THELEVIATHAN_ENUMLIST_FILTER_RUNESANDAMMUNITION []
 CONST_THELEVIATHAN_IF (name:VAR_THELEVIATHAN_ENUMLIST_FILTER_RUNESANDAMMUNITION) {
@@ -43,6 +48,7 @@ CONST_THELEVIATHAN_IF (name:VAR_THELEVIATHAN_ENUMLIST_FILTER_RUNESANDAMMUNITION)
 }
 
 // label:Tertiary
+// group:Hide drops
 // enum:["Brimstone key","Clue scroll (easy)","Clue scroll (medium)","Clue scroll (hard)","Clue scroll (elite)","Lil'viathan","Ancient blood ornament kit"]
 #define VAR_THELEVIATHAN_ENUMLIST_FILTER_TERTIARY []
 CONST_THELEVIATHAN_IF (name:VAR_THELEVIATHAN_ENUMLIST_FILTER_TERTIARY) {

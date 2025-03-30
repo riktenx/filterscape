@@ -8,6 +8,7 @@
 
 
 // label:Uniques
+// group:Hide drops
 // enum:["Bellator vestige","Chromium ingot","Siren's staff","Virtus mask","Virtus robe top","Virtus robe bottom"]
 #define VAR_THEWHISPERER_ENUMLIST_FILTER_UNIQUES []
 CONST_THEWHISPERER_IF (name:VAR_THEWHISPERER_ENUMLIST_FILTER_UNIQUES) {
@@ -15,6 +16,7 @@ CONST_THEWHISPERER_IF (name:VAR_THEWHISPERER_ENUMLIST_FILTER_UNIQUES) {
 }
 
 // label:Secondary uniques
+// group:Hide drops
 // enum:["Sirenic tablet","Awakener's orb","Shadow quartz"]
 #define VAR_THEWHISPERER_ENUMLIST_FILTER_SECONDARYUNIQUES []
 CONST_THEWHISPERER_IF (name:VAR_THEWHISPERER_ENUMLIST_FILTER_SECONDARYUNIQUES) {
@@ -22,6 +24,7 @@ CONST_THEWHISPERER_IF (name:VAR_THEWHISPERER_ENUMLIST_FILTER_SECONDARYUNIQUES) {
 }
 
 // label:Supplies
+// group:Hide drops
 // enum:["Ancient brew(2)","Prayer potion(3)","Manta ray"]
 #define VAR_THEWHISPERER_ENUMLIST_FILTER_SUPPLIES []
 CONST_THEWHISPERER_IF (name:VAR_THEWHISPERER_ENUMLIST_FILTER_SUPPLIES) {
@@ -29,6 +32,7 @@ CONST_THEWHISPERER_IF (name:VAR_THEWHISPERER_ENUMLIST_FILTER_SUPPLIES) {
 }
 
 // label:Weapons and armour
+// group:Hide drops
 // enum:["Bronze longsword","Mithril longsword","Adamant longsword","Battlestaff","Dragon plateskirt"]
 #define VAR_THEWHISPERER_ENUMLIST_FILTER_WEAPONSANDARMOUR []
 CONST_THEWHISPERER_IF (name:VAR_THEWHISPERER_ENUMLIST_FILTER_WEAPONSANDARMOUR) {
@@ -36,6 +40,7 @@ CONST_THEWHISPERER_IF (name:VAR_THEWHISPERER_ENUMLIST_FILTER_WEAPONSANDARMOUR) {
 }
 
 // label:Resources
+// group:Hide drops
 // enum:["Pure essence","Iron ore","Coal","Gold ore","Mithril ore","Adamantite ore","Runite ore","Sapphire","Emerald","Ruby","Uncut ruby","Uncut diamond","Dragon javelin heads","Runite bolts (unf)","Raw monkfish"]
 #define VAR_THEWHISPERER_ENUMLIST_FILTER_RESOURCES []
 CONST_THEWHISPERER_IF (name:VAR_THEWHISPERER_ENUMLIST_FILTER_RESOURCES) {
@@ -43,6 +48,7 @@ CONST_THEWHISPERER_IF (name:VAR_THEWHISPERER_ENUMLIST_FILTER_RESOURCES) {
 }
 
 // label:Runes and ammunition
+// group:Hide drops
 // enum:["Water rune","Steam rune","Chaos rune","Death rune","Soul rune"]
 #define VAR_THEWHISPERER_ENUMLIST_FILTER_RUNESANDAMMUNITION []
 CONST_THEWHISPERER_IF (name:VAR_THEWHISPERER_ENUMLIST_FILTER_RUNESANDAMMUNITION) {
@@ -50,6 +56,7 @@ CONST_THEWHISPERER_IF (name:VAR_THEWHISPERER_ENUMLIST_FILTER_RUNESANDAMMUNITION)
 }
 
 // label:Tertiary
+// group:Hide drops
 // enum:["Brimstone key","Clue scroll (easy)","Clue scroll (medium)","Clue scroll (hard)","Clue scroll (elite)","Ancient blood ornament kit","Wisp"]
 #define VAR_THEWHISPERER_ENUMLIST_FILTER_TERTIARY []
 CONST_THEWHISPERER_IF (name:VAR_THEWHISPERER_ENUMLIST_FILTER_TERTIARY) {

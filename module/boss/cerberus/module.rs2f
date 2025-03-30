@@ -4,6 +4,7 @@
 #define CONST_CERBERUS_IF(_cond) if (area:CONST_AREA_CERBERUS && (_cond))
 
 // label:100%
+// group:Hide drops
 // enum:["Infernal ashes"]
 #define VAR_CERBERUS_ENUMLIST_FILTER_100 []
 CONST_CERBERUS_IF (name:VAR_CERBERUS_ENUMLIST_FILTER_100) {
@@ -11,6 +12,7 @@ CONST_CERBERUS_IF (name:VAR_CERBERUS_ENUMLIST_FILTER_100) {
 }
 
 // label:Uniques
+// group:Hide drops
 // enum:["Primordial crystal","Pegasian crystal","Eternal crystal","Smouldering stone"]
 #define VAR_CERBERUS_ENUMLIST_FILTER_UNIQUES []
 CONST_CERBERUS_IF (name:VAR_CERBERUS_ENUMLIST_FILTER_UNIQUES) {
@@ -18,6 +20,7 @@ CONST_CERBERUS_IF (name:VAR_CERBERUS_ENUMLIST_FILTER_UNIQUES) {
 }
 
 // label:Weapons and armour
+// group:Hide drops
 // enum:["Rune platebody","Rune chainbody","Rune 2h sword","Black d'hide body","Rune axe","Rune pickaxe","Battlestaff","Rune full helm","Lava battlestaff","Rune halberd"]
 #define VAR_CERBERUS_ENUMLIST_FILTER_WEAPONSANDARMOUR []
 CONST_CERBERUS_IF (name:VAR_CERBERUS_ENUMLIST_FILTER_WEAPONSANDARMOUR) {
@@ -25,6 +28,7 @@ CONST_CERBERUS_IF (name:VAR_CERBERUS_ENUMLIST_FILTER_WEAPONSANDARMOUR) {
 }
 
 // label:Runes and ammunition
+// group:Hide drops
 // enum:["Fire rune","Soul rune","Pure essence","Blood rune","Cannonball","Runite bolts (unf)","Death rune"]
 #define VAR_CERBERUS_ENUMLIST_FILTER_RUNESANDAMMUNITION []
 CONST_CERBERUS_IF (name:VAR_CERBERUS_ENUMLIST_FILTER_RUNESANDAMMUNITION) {
@@ -32,6 +36,7 @@ CONST_CERBERUS_IF (name:VAR_CERBERUS_ENUMLIST_FILTER_RUNESANDAMMUNITION) {
 }
 
 // label:Other
+// group:Hide drops
 // enum:["Coal","Super restore(4)","Summer pie","Coins","Dragon bones","Unholy symbol","Wine of zamorak","Ashes","Fire orb","Grimy torstol","Runite ore","Uncut diamond","Key master teleport","Torstol seed"]
 #define VAR_CERBERUS_ENUMLIST_FILTER_OTHER []
 CONST_CERBERUS_IF (name:VAR_CERBERUS_ENUMLIST_FILTER_OTHER) {
@@ -41,6 +46,7 @@ CONST_CERBERUS_IF (name:VAR_CERBERUS_ENUMLIST_FILTER_OTHER) {
 
 
 // label:Tertiary
+// group:Hide drops
 // enum:["Ensouled hellhound head","Brimstone key","Jar of souls","Hellpuppy"]
 #define VAR_CERBERUS_ENUMLIST_FILTER_TERTIARY []
 CONST_CERBERUS_IF (name:VAR_CERBERUS_ENUMLIST_FILTER_TERTIARY) {

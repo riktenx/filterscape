@@ -4,7 +4,7 @@
   "inputs": [
     {
       "type": "enumlist",
-      "group": "FILTER",
+      "group": "Hide drops",
       "label": "Unique",
       "macroName": "VAR_ARAXXOR_ENUMLIST_FILTER_UNIQUE",
       "default": [],
@@ -17,7 +17,7 @@
     },
     {
       "type": "enumlist",
-      "group": "FILTER",
+      "group": "Hide drops",
       "label": "Supplies",
       "macroName": "VAR_ARAXXOR_ENUMLIST_FILTER_SUPPLIES",
       "default": [],
@@ -31,7 +31,7 @@
     },
     {
       "type": "enumlist",
-      "group": "FILTER",
+      "group": "Hide drops",
       "label": "Weapons and armour",
       "macroName": "VAR_ARAXXOR_ENUMLIST_FILTER_WEAPONSANDARMOUR",
       "default": [],
@@ -45,7 +45,7 @@
     },
     {
       "type": "enumlist",
-      "group": "FILTER",
+      "group": "Hide drops",
       "label": "Runes and ammunition",
       "macroName": "VAR_ARAXXOR_ENUMLIST_FILTER_RUNESANDAMMUNITION",
       "default": [],
@@ -58,7 +58,7 @@
     },
     {
       "type": "enumlist",
-      "group": "FILTER",
+      "group": "Hide drops",
       "label": "Seeds",
       "macroName": "VAR_ARAXXOR_ENUMLIST_FILTER_SEEDS",
       "default": [],
@@ -72,7 +72,7 @@
     },
     {
       "type": "enumlist",
-      "group": "FILTER",
+      "group": "Hide drops",
       "label": "Resources",
       "macroName": "VAR_ARAXXOR_ENUMLIST_FILTER_RESOURCES",
       "default": [],
@@ -88,7 +88,7 @@
     },
     {
       "type": "enumlist",
-      "group": "FILTER",
+      "group": "Hide drops",
       "label": "Other",
       "macroName": "VAR_ARAXXOR_ENUMLIST_FILTER_OTHER",
       "default": [],
@@ -107,14 +107,13 @@
     },
     {
       "type": "enumlist",
-      "group": "FILTER",
+      "group": "Hide drops",
       "label": "Tertiary",
       "macroName": "VAR_ARAXXOR_ENUMLIST_FILTER_TERTIARY",
       "default": [],
       "enum": [
         "Coagulated venom",
         "Brimstone key",
-        "Clue scroll (elite)",
         "Nid"
       ]
     }

@@ -6,6 +6,7 @@
 
 
 // label:100%
+// group:Hide drops
 // enum:["Big bones","Frozen key piece (bandos)"]
 #define VAR_GENERALGRAARDOR_ENUMLIST_FILTER_100 []
 CONST_GENERALGRAARDOR_IF (name:VAR_GENERALGRAARDOR_ENUMLIST_FILTER_100) {
@@ -13,6 +14,7 @@ CONST_GENERALGRAARDOR_IF (name:VAR_GENERALGRAARDOR_ENUMLIST_FILTER_100) {
 }
 
 // label:Uniques
+// group:Hide drops
 // enum:["Bandos chestplate","Bandos tassets","Bandos boots","Bandos hilt","Godsword shard 1","Godsword shard 2","Godsword shard 3"]
 #define VAR_GENERALGRAARDOR_ENUMLIST_FILTER_UNIQUES []
 CONST_GENERALGRAARDOR_IF (name:VAR_GENERALGRAARDOR_ENUMLIST_FILTER_UNIQUES) {
@@ -20,6 +22,7 @@ CONST_GENERALGRAARDOR_IF (name:VAR_GENERALGRAARDOR_ENUMLIST_FILTER_UNIQUES) {
 }
 
 // label:Weapons and armour
+// group:Hide drops
 // enum:["Rune longsword","Rune 2h sword","Rune platebody","Rune pickaxe"]
 #define VAR_GENERALGRAARDOR_ENUMLIST_FILTER_WEAPONSANDARMOUR []
 CONST_GENERALGRAARDOR_IF (name:VAR_GENERALGRAARDOR_ENUMLIST_FILTER_WEAPONSANDARMOUR) {
@@ -27,6 +30,7 @@ CONST_GENERALGRAARDOR_IF (name:VAR_GENERALGRAARDOR_ENUMLIST_FILTER_WEAPONSANDARM
 }
 
 // label:Other
+// group:Hide drops
 // enum:["Coins","Grimy snapdragon","Snapdragon seed","Super restore(4)","Adamantite ore","Coal","Magic logs","Nature rune"]
 #define VAR_GENERALGRAARDOR_ENUMLIST_FILTER_OTHER []
 CONST_GENERALGRAARDOR_IF (name:VAR_GENERALGRAARDOR_ENUMLIST_FILTER_OTHER) {
@@ -36,6 +40,7 @@ CONST_GENERALGRAARDOR_IF (name:VAR_GENERALGRAARDOR_ENUMLIST_FILTER_OTHER) {
 
 
 // label:Tertiary
+// group:Hide drops
 // enum:["Brimstone key","Long bone","Pet general graardor","Curved bone"]
 #define VAR_GENERALGRAARDOR_ENUMLIST_FILTER_TERTIARY []
 CONST_GENERALGRAARDOR_IF (name:VAR_GENERALGRAARDOR_ENUMLIST_FILTER_TERTIARY) {

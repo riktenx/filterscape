@@ -4,6 +4,7 @@
 #define CONST_CHAOSELEMENTAL_IF(_cond) if (area:CONST_AREA_CHAOSELEMENTAL && (_cond))
 
 // label:Minor drops
+// group:Hide drops
 // enum:["Blighted anglerfish","Blighted karambwan","Blighted super restore(4)","Dragon bones","Super combat potion(1)"]
 #define VAR_CHAOSELEMENTAL_ENUMLIST_FILTER_MINORDROPS []
 CONST_CHAOSELEMENTAL_IF (name:VAR_CHAOSELEMENTAL_ENUMLIST_FILTER_MINORDROPS) {
@@ -13,6 +14,7 @@ CONST_CHAOSELEMENTAL_IF (name:VAR_CHAOSELEMENTAL_ENUMLIST_FILTER_MINORDROPS) {
 
 
 // label:=Pre-roll=
+// group:Hide drops
 // enum:["Dragon pickaxe"]
 #define VAR_CHAOSELEMENTAL_ENUMLIST_FILTER_PREROLL []
 CONST_CHAOSELEMENTAL_IF (name:VAR_CHAOSELEMENTAL_ENUMLIST_FILTER_PREROLL) {
@@ -20,6 +22,7 @@ CONST_CHAOSELEMENTAL_IF (name:VAR_CHAOSELEMENTAL_ENUMLIST_FILTER_PREROLL) {
 }
 
 // label:=Weapons and armour=
+// group:Hide drops
 // enum:["Rune dart","Rune platelegs","Rune plateskirt","Rune 2h sword","Rune battleaxe","Rune full helm","Rune kiteshield","Mystic air staff","Mystic water staff","Mystic earth staff","Mystic fire staff","Dragon dagger","Dragon 2h sword","Dragon platelegs","Dragon plateskirt"]
 #define VAR_CHAOSELEMENTAL_ENUMLIST_FILTER_WEAPONSANDARMOUR []
 CONST_CHAOSELEMENTAL_IF (name:VAR_CHAOSELEMENTAL_ENUMLIST_FILTER_WEAPONSANDARMOUR) {
@@ -27,6 +30,7 @@ CONST_CHAOSELEMENTAL_IF (name:VAR_CHAOSELEMENTAL_ENUMLIST_FILTER_WEAPONSANDARMOU
 }
 
 // label:=Runes and ammunition=
+// group:Hide drops
 // enum:["Chaos rune","Blood rune","Rune arrow"]
 #define VAR_CHAOSELEMENTAL_ENUMLIST_FILTER_RUNESANDAMMUNITION []
 CONST_CHAOSELEMENTAL_IF (name:VAR_CHAOSELEMENTAL_ENUMLIST_FILTER_RUNESANDAMMUNITION) {
@@ -34,6 +38,7 @@ CONST_CHAOSELEMENTAL_IF (name:VAR_CHAOSELEMENTAL_ENUMLIST_FILTER_RUNESANDAMMUNIT
 }
 
 // label:=Herbs=
+// group:Hide drops
 // enum:["Grimy ranarr weed","Grimy snapdragon","Grimy avantoe","Grimy kwuarm"]
 #define VAR_CHAOSELEMENTAL_ENUMLIST_FILTER_HERBS []
 CONST_CHAOSELEMENTAL_IF (name:VAR_CHAOSELEMENTAL_ENUMLIST_FILTER_HERBS) {
@@ -41,6 +46,7 @@ CONST_CHAOSELEMENTAL_IF (name:VAR_CHAOSELEMENTAL_ENUMLIST_FILTER_HERBS) {
 }
 
 // label:=Resources=
+// group:Hide drops
 // enum:["Coal","Mahogany plank","Runite bar","Adamantite bar"]
 #define VAR_CHAOSELEMENTAL_ENUMLIST_FILTER_RESOURCES []
 CONST_CHAOSELEMENTAL_IF (name:VAR_CHAOSELEMENTAL_ENUMLIST_FILTER_RESOURCES) {
@@ -48,6 +54,7 @@ CONST_CHAOSELEMENTAL_IF (name:VAR_CHAOSELEMENTAL_ENUMLIST_FILTER_RESOURCES) {
 }
 
 // label:=Materials=
+// group:Hide drops
 // enum:["Coins","Blighted ancient ice sack","Blighted karambwan","Blighted anglerfish","Wilderness crabs teleport"]
 #define VAR_CHAOSELEMENTAL_ENUMLIST_FILTER_MATERIALS []
 CONST_CHAOSELEMENTAL_IF (name:VAR_CHAOSELEMENTAL_ENUMLIST_FILTER_MATERIALS) {
@@ -57,6 +64,7 @@ CONST_CHAOSELEMENTAL_IF (name:VAR_CHAOSELEMENTAL_ENUMLIST_FILTER_MATERIALS) {
 
 
 // label:=Tertiary=
+// group:Hide drops
 // enum:["Weapon poison(++)","Looting bag","Brimstone key","Pet chaos elemental"]
 #define VAR_CHAOSELEMENTAL_ENUMLIST_FILTER_TERTIARY []
 CONST_CHAOSELEMENTAL_IF (name:VAR_CHAOSELEMENTAL_ENUMLIST_FILTER_TERTIARY) {

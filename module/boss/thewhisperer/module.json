@@ -4,7 +4,7 @@
   "inputs": [
     {
       "type": "enumlist",
-      "group": "FILTER",
+      "group": "Hide drops",
       "label": "Uniques",
       "macroName": "VAR_THEWHISPERER_ENUMLIST_FILTER_UNIQUES",
       "default": [],
@@ -19,7 +19,7 @@
     },
     {
       "type": "enumlist",
-      "group": "FILTER",
+      "group": "Hide drops",
       "label": "Secondary uniques",
       "macroName": "VAR_THEWHISPERER_ENUMLIST_FILTER_SECONDARYUNIQUES",
       "default": [],
@@ -31,7 +31,7 @@
     },
     {
       "type": "enumlist",
-      "group": "FILTER",
+      "group": "Hide drops",
       "label": "Supplies",
       "macroName": "VAR_THEWHISPERER_ENUMLIST_FILTER_SUPPLIES",
       "default": [],
@@ -43,7 +43,7 @@
     },
     {
       "type": "enumlist",
-      "group": "FILTER",
+      "group": "Hide drops",
       "label": "Weapons and armour",
       "macroName": "VAR_THEWHISPERER_ENUMLIST_FILTER_WEAPONSANDARMOUR",
       "default": [],
@@ -57,7 +57,7 @@
     },
     {
       "type": "enumlist",
-      "group": "FILTER",
+      "group": "Hide drops",
       "label": "Resources",
       "macroName": "VAR_THEWHISPERER_ENUMLIST_FILTER_RESOURCES",
       "default": [],
@@ -81,7 +81,7 @@
     },
     {
       "type": "enumlist",
-      "group": "FILTER",
+      "group": "Hide drops",
       "label": "Runes and ammunition",
       "macroName": "VAR_THEWHISPERER_ENUMLIST_FILTER_RUNESANDAMMUNITION",
       "default": [],
@@ -95,7 +95,7 @@
     },
     {
       "type": "enumlist",
-      "group": "FILTER",
+      "group": "Hide drops",
       "label": "Tertiary",
       "macroName": "VAR_THEWHISPERER_ENUMLIST_FILTER_TERTIARY",
       "default": [],

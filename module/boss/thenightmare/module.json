@@ -4,7 +4,7 @@
   "inputs": [
     {
       "type": "enumlist",
-      "group": "FILTER",
+      "group": "Hide drops",
       "label": "100%",
       "macroName": "VAR_THENIGHTMARE_ENUMLIST_FILTER_100",
       "default": [],
@@ -15,7 +15,7 @@
     },
     {
       "type": "enumlist",
-      "group": "FILTER",
+      "group": "Hide drops",
       "label": "Uniques",
       "macroName": "VAR_THENIGHTMARE_ENUMLIST_FILTER_UNIQUES",
       "default": [],
@@ -32,7 +32,7 @@
     },
     {
       "type": "enumlist",
-      "group": "FILTER",
+      "group": "Hide drops",
       "label": "Runes and ammunition",
       "macroName": "VAR_THENIGHTMARE_ENUMLIST_FILTER_RUNESANDAMMUNITION",
       "default": [],
@@ -48,7 +48,7 @@
     },
     {
       "type": "enumlist",
-      "group": "FILTER",
+      "group": "Hide drops",
       "label": "Resources",
       "macroName": "VAR_THENIGHTMARE_ENUMLIST_FILTER_RESOURCES",
       "default": [],
@@ -68,7 +68,7 @@
     },
     {
       "type": "enumlist",
-      "group": "FILTER",
+      "group": "Hide drops",
       "label": "Consumables",
       "macroName": "VAR_THENIGHTMARE_ENUMLIST_FILTER_CONSUMABLES",
       "default": [],
@@ -83,7 +83,7 @@
     },
     {
       "type": "enumlist",
-      "group": "FILTER",
+      "group": "Hide drops",
       "label": "Coins",
       "macroName": "VAR_THENIGHTMARE_ENUMLIST_FILTER_COINS",
       "default": [],
@@ -93,7 +93,7 @@
     },
     {
       "type": "enumlist",
-      "group": "FILTER",
+      "group": "Hide drops",
       "label": "Tertiary",
       "macroName": "VAR_THENIGHTMARE_ENUMLIST_FILTER_TERTIARY",
       "default": [],

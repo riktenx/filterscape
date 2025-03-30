@@ -4,7 +4,7 @@
   "inputs": [
     {
       "type": "enumlist",
-      "group": "FILTER",
+      "group": "Hide drops",
       "label": "Pre-roll",
       "macroName": "VAR_SARACHNIS_ENUMLIST_FILTER_PREROLL",
       "default": [],
@@ -15,7 +15,7 @@
     },
     {
       "type": "enumlist",
-      "group": "FILTER",
+      "group": "Hide drops",
       "label": "Weapons and armour",
       "macroName": "VAR_SARACHNIS_ENUMLIST_FILTER_WEAPONSANDARMOUR",
       "default": [],
@@ -28,7 +28,7 @@
     },
     {
       "type": "enumlist",
-      "group": "FILTER",
+      "group": "Hide drops",
       "label": "Runes and ammunition",
       "macroName": "VAR_SARACHNIS_ENUMLIST_FILTER_RUNESANDAMMUNITION",
       "default": [],
@@ -44,7 +44,7 @@
     },
     {
       "type": "enumlist",
-      "group": "FILTER",
+      "group": "Hide drops",
       "label": "Seeds",
       "macroName": "VAR_SARACHNIS_ENUMLIST_FILTER_SEEDS",
       "default": [],
@@ -56,7 +56,7 @@
     },
     {
       "type": "enumlist",
-      "group": "FILTER",
+      "group": "Hide drops",
       "label": "Herbs",
       "macroName": "VAR_SARACHNIS_ENUMLIST_FILTER_HERBS",
       "default": [],
@@ -73,7 +73,7 @@
     },
     {
       "type": "enumlist",
-      "group": "FILTER",
+      "group": "Hide drops",
       "label": "Materials",
       "macroName": "VAR_SARACHNIS_ENUMLIST_FILTER_MATERIALS",
       "default": [],
@@ -91,7 +91,7 @@
     },
     {
       "type": "enumlist",
-      "group": "FILTER",
+      "group": "Hide drops",
       "label": "Other",
       "macroName": "VAR_SARACHNIS_ENUMLIST_FILTER_OTHER",
       "default": [],
@@ -106,7 +106,7 @@
     },
     {
       "type": "enumlist",
-      "group": "FILTER",
+      "group": "Hide drops",
       "label": "Tertiary",
       "macroName": "VAR_SARACHNIS_ENUMLIST_FILTER_TERTIARY",
       "default": [],

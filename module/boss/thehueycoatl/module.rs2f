@@ -4,6 +4,7 @@
 #define CONST_THEHUEYCOATL_IF(_cond) if (area:CONST_AREA_THEHUEYCOATL && (_cond))
 
 // label:100%
+// group:Hide drops
 // enum:["Big bones"]
 #define VAR_THEHUEYCOATL_ENUMLIST_FILTER_100 []
 CONST_THEHUEYCOATL_IF (name:VAR_THEHUEYCOATL_ENUMLIST_FILTER_100) {
@@ -11,6 +12,7 @@ CONST_THEHUEYCOATL_IF (name:VAR_THEHUEYCOATL_ENUMLIST_FILTER_100) {
 }
 
 // label:Unique
+// group:Hide drops
 // enum:["Dragon hunter wand","Hueycoatl hide","Tome of earth (empty)"]
 #define VAR_THEHUEYCOATL_ENUMLIST_FILTER_UNIQUE []
 CONST_THEHUEYCOATL_IF (name:VAR_THEHUEYCOATL_ENUMLIST_FILTER_UNIQUE) {
@@ -18,6 +20,7 @@ CONST_THEHUEYCOATL_IF (name:VAR_THEHUEYCOATL_ENUMLIST_FILTER_UNIQUE) {
 }
 
 // label:Weapons and armour
+// group:Hide drops
 // enum:["Rune mace","Rune scimitar","Rune plateskirt","Adamant platebody"]
 #define VAR_THEHUEYCOATL_ENUMLIST_FILTER_WEAPONSANDARMOUR []
 CONST_THEHUEYCOATL_IF (name:VAR_THEHUEYCOATL_ENUMLIST_FILTER_WEAPONSANDARMOUR) {
@@ -25,6 +28,7 @@ CONST_THEHUEYCOATL_IF (name:VAR_THEHUEYCOATL_ENUMLIST_FILTER_WEAPONSANDARMOUR) {
 }
 
 // label:Runes and ammunition
+// group:Hide drops
 // enum:["Death rune","Earth rune","Cosmic rune","Nature rune"]
 #define VAR_THEHUEYCOATL_ENUMLIST_FILTER_RUNESANDAMMUNITION []
 CONST_THEHUEYCOATL_IF (name:VAR_THEHUEYCOATL_ENUMLIST_FILTER_RUNESANDAMMUNITION) {
@@ -32,6 +36,7 @@ CONST_THEHUEYCOATL_IF (name:VAR_THEHUEYCOATL_ENUMLIST_FILTER_RUNESANDAMMUNITION)
 }
 
 // label:Seeds
+// group:Hide drops
 // enum:["Lantadyme seed","Huasca seed","Toadflax seed","Torstol seed","Ranarr seed","Avantoe seed","Kwuarm seed"]
 #define VAR_THEHUEYCOATL_ENUMLIST_FILTER_SEEDS []
 CONST_THEHUEYCOATL_IF (name:VAR_THEHUEYCOATL_ENUMLIST_FILTER_SEEDS) {
@@ -39,6 +44,7 @@ CONST_THEHUEYCOATL_IF (name:VAR_THEHUEYCOATL_ENUMLIST_FILTER_SEEDS) {
 }
 
 // label:Other
+// group:Hide drops
 // enum:["Soiled page","Adamant bolts(unf)","Air orb","Raw shark","Sunfire splinters","Sun-kissed bones","Dragon bones","Adamantite ore","Cannonball","Rune dart tip","Limpwurt root"]
 #define VAR_THEHUEYCOATL_ENUMLIST_FILTER_OTHER []
 CONST_THEHUEYCOATL_IF (name:VAR_THEHUEYCOATL_ENUMLIST_FILTER_OTHER) {
@@ -46,6 +52,7 @@ CONST_THEHUEYCOATL_IF (name:VAR_THEHUEYCOATL_ENUMLIST_FILTER_OTHER) {
 }
 
 // label:Tertiary
+// group:Hide drops
 // enum:["Tooth half of key (moon key)","Huberte"]
 #define VAR_THEHUEYCOATL_ENUMLIST_FILTER_TERTIARY []
 CONST_THEHUEYCOATL_IF (name:VAR_THEHUEYCOATL_ENUMLIST_FILTER_TERTIARY) {

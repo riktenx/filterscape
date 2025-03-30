@@ -4,7 +4,7 @@
   "inputs": [
     {
       "type": "enumlist",
-      "group": "FILTER",
+      "group": "Hide drops",
       "label": "100% drops",
       "macroName": "VAR_ZULRAH_ENUMLIST_FILTER_100DROPS",
       "default": [],
@@ -14,7 +14,7 @@
     },
     {
       "type": "enumlist",
-      "group": "FILTER",
+      "group": "Hide drops",
       "label": "Uniques",
       "macroName": "VAR_ZULRAH_ENUMLIST_FILTER_UNIQUES",
       "default": [],
@@ -27,7 +27,7 @@
     },
     {
       "type": "enumlist",
-      "group": "FILTER",
+      "group": "Hide drops",
       "label": "Mutagens",
       "macroName": "VAR_ZULRAH_ENUMLIST_FILTER_MUTAGENS",
       "default": [],
@@ -38,7 +38,7 @@
     },
     {
       "type": "enumlist",
-      "group": "FILTER",
+      "group": "Hide drops",
       "label": "Weapons and armour",
       "macroName": "VAR_ZULRAH_ENUMLIST_FILTER_WEAPONSANDARMOUR",
       "default": [],
@@ -50,7 +50,7 @@
     },
     {
       "type": "enumlist",
-      "group": "FILTER",
+      "group": "Hide drops",
       "label": "Runes",
       "macroName": "VAR_ZULRAH_ENUMLIST_FILTER_RUNES",
       "default": [],
@@ -62,7 +62,7 @@
     },
     {
       "type": "enumlist",
-      "group": "FILTER",
+      "group": "Hide drops",
       "label": "Herbs",
       "macroName": "VAR_ZULRAH_ENUMLIST_FILTER_HERBS",
       "default": [],
@@ -75,7 +75,7 @@
     },
     {
       "type": "enumlist",
-      "group": "FILTER",
+      "group": "Hide drops",
       "label": "Seeds",
       "macroName": "VAR_ZULRAH_ENUMLIST_FILTER_SEEDS",
       "default": [],
@@ -93,7 +93,7 @@
     },
     {
       "type": "enumlist",
-      "group": "FILTER",
+      "group": "Hide drops",
       "label": "Resources",
       "macroName": "VAR_ZULRAH_ENUMLIST_FILTER_RESOURCES",
       "default": [],
@@ -111,7 +111,7 @@
     },
     {
       "type": "enumlist",
-      "group": "FILTER",
+      "group": "Hide drops",
       "label": "Other",
       "macroName": "VAR_ZULRAH_ENUMLIST_FILTER_OTHER",
       "default": [],
@@ -128,7 +128,7 @@
     },
     {
       "type": "enumlist",
-      "group": "FILTER",
+      "group": "Hide drops",
       "label": "Tertiary",
       "macroName": "VAR_ZULRAH_ENUMLIST_FILTER_TERTIARY",
       "default": [],

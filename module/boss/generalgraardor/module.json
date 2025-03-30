@@ -4,7 +4,7 @@
   "inputs": [
     {
       "type": "enumlist",
-      "group": "FILTER",
+      "group": "Hide drops",
       "label": "100%",
       "macroName": "VAR_GENERALGRAARDOR_ENUMLIST_FILTER_100",
       "default": [],
@@ -15,7 +15,7 @@
     },
     {
       "type": "enumlist",
-      "group": "FILTER",
+      "group": "Hide drops",
       "label": "Uniques",
       "macroName": "VAR_GENERALGRAARDOR_ENUMLIST_FILTER_UNIQUES",
       "default": [],
@@ -31,7 +31,7 @@
     },
     {
       "type": "enumlist",
-      "group": "FILTER",
+      "group": "Hide drops",
       "label": "Weapons and armour",
       "macroName": "VAR_GENERALGRAARDOR_ENUMLIST_FILTER_WEAPONSANDARMOUR",
       "default": [],
@@ -44,7 +44,7 @@
     },
     {
       "type": "enumlist",
-      "group": "FILTER",
+      "group": "Hide drops",
       "label": "Other",
       "macroName": "VAR_GENERALGRAARDOR_ENUMLIST_FILTER_OTHER",
       "default": [],
@@ -61,7 +61,7 @@
     },
     {
       "type": "enumlist",
-      "group": "FILTER",
+      "group": "Hide drops",
       "label": "Tertiary",
       "macroName": "VAR_GENERALGRAARDOR_ENUMLIST_FILTER_TERTIARY",
       "default": [],

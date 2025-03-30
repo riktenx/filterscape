@@ -85,6 +85,7 @@ export const generateRs2f = (name, area, dropTable, transform) => {
     const jvalue = JSON.stringify(items);
     const ident = toMacroIdent(category);
     return `// label:${category}
+// group:Hide drops
 // enum:${jvalue}
 #define VAR_${moduleScope}_ENUMLIST_FILTER_${ident} []
 CONST_${moduleScope}_IF (name:VAR_${moduleScope}_ENUMLIST_FILTER_${ident}) {

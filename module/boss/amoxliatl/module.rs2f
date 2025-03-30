@@ -4,6 +4,7 @@
 #define CONST_AMOXLIATL_IF(_cond) if (area:CONST_AREA_AMOXLIATL && (_cond))
 
 // label:Frozen tears
+// group:Hide drops
 // enum:["Frozen tear"]
 #define VAR_AMOXLIATL_ENUMLIST_FILTER_FROZENTEARS []
 CONST_AMOXLIATL_IF (name:VAR_AMOXLIATL_ENUMLIST_FILTER_FROZENTEARS) {
@@ -11,6 +12,7 @@ CONST_AMOXLIATL_IF (name:VAR_AMOXLIATL_ENUMLIST_FILTER_FROZENTEARS) {
 }
 
 // label:Weapons and armour
+// group:Hide drops
 // enum:["Rune mace","Rune pickaxe","Rune platebody","Rune platelegs"]
 #define VAR_AMOXLIATL_ENUMLIST_FILTER_WEAPONSANDARMOUR []
 CONST_AMOXLIATL_IF (name:VAR_AMOXLIATL_ENUMLIST_FILTER_WEAPONSANDARMOUR) {
@@ -18,6 +20,7 @@ CONST_AMOXLIATL_IF (name:VAR_AMOXLIATL_ENUMLIST_FILTER_WEAPONSANDARMOUR) {
 }
 
 // label:Runes and ammunition
+// group:Hide drops
 // enum:["Water rune","Chaos rune","Death rune","Blood rune","Soul rune","Nature rune"]
 #define VAR_AMOXLIATL_ENUMLIST_FILTER_RUNESANDAMMUNITION []
 CONST_AMOXLIATL_IF (name:VAR_AMOXLIATL_ENUMLIST_FILTER_RUNESANDAMMUNITION) {
@@ -25,6 +28,7 @@ CONST_AMOXLIATL_IF (name:VAR_AMOXLIATL_ENUMLIST_FILTER_RUNESANDAMMUNITION) {
 }
 
 // label:Other
+// group:Hide drops
 // enum:["Coal","Gold ore","Adamantite ore","Prayer potion(3)","Runite ore","Blessed bone shards","Water orb","Water talisman"]
 #define VAR_AMOXLIATL_ENUMLIST_FILTER_OTHER []
 CONST_AMOXLIATL_IF (name:VAR_AMOXLIATL_ENUMLIST_FILTER_OTHER) {
@@ -34,6 +38,7 @@ CONST_AMOXLIATL_IF (name:VAR_AMOXLIATL_ENUMLIST_FILTER_OTHER) {
 
 
 // label:Tertiary
+// group:Hide drops
 // enum:["Clue scroll (elite)","Reward casket (elite)","Pendant of ates (inert)","Glacial temotli","Tooth half of key (moon key)","Brimstone key","Moxi"]
 #define VAR_AMOXLIATL_ENUMLIST_FILTER_TERTIARY []
 CONST_AMOXLIATL_IF (name:VAR_AMOXLIATL_ENUMLIST_FILTER_TERTIARY) {

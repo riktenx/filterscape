@@ -4,6 +4,7 @@
 #define CONST_GIANTMOLE_IF(_cond) if (area:CONST_AREA_GIANTMOLE && (_cond))
 
 // label:100%
+// group:Hide drops
 // enum:["Big bones","Mole claw","Mole skin"]
 #define VAR_GIANTMOLE_ENUMLIST_FILTER_100 []
 CONST_GIANTMOLE_IF (name:VAR_GIANTMOLE_ENUMLIST_FILTER_100) {
@@ -11,6 +12,7 @@ CONST_GIANTMOLE_IF (name:VAR_GIANTMOLE_ENUMLIST_FILTER_100) {
 }
 
 // label:Weapons and armour
+// group:Hide drops
 // enum:["Adamant longsword","Mithril platebody","Amulet of strength","Mithril axe","Mithril battleaxe","Rune med helm"]
 #define VAR_GIANTMOLE_ENUMLIST_FILTER_WEAPONSANDARMOUR []
 CONST_GIANTMOLE_IF (name:VAR_GIANTMOLE_ENUMLIST_FILTER_WEAPONSANDARMOUR) {
@@ -18,6 +20,7 @@ CONST_GIANTMOLE_IF (name:VAR_GIANTMOLE_ENUMLIST_FILTER_WEAPONSANDARMOUR) {
 }
 
 // label:Runes and ammunition
+// group:Hide drops
 // enum:["Air rune","Blood rune","Fire rune","Iron arrow","Law rune","Death rune"]
 #define VAR_GIANTMOLE_ENUMLIST_FILTER_RUNESANDAMMUNITION []
 CONST_GIANTMOLE_IF (name:VAR_GIANTMOLE_ENUMLIST_FILTER_RUNESANDAMMUNITION) {
@@ -25,6 +28,7 @@ CONST_GIANTMOLE_IF (name:VAR_GIANTMOLE_ENUMLIST_FILTER_RUNESANDAMMUNITION) {
 }
 
 // label:Other
+// group:Hide drops
 // enum:["Yew logs","Shark","Mithril bar","Iron ore","Oyster pearls"]
 #define VAR_GIANTMOLE_ENUMLIST_FILTER_OTHER []
 CONST_GIANTMOLE_IF (name:VAR_GIANTMOLE_ENUMLIST_FILTER_OTHER) {
@@ -34,6 +38,7 @@ CONST_GIANTMOLE_IF (name:VAR_GIANTMOLE_ENUMLIST_FILTER_OTHER) {
 
 
 // label:Tertiary
+// group:Hide drops
 // enum:["Brimstone key","Long bone","Baby mole","Curved bone"]
 #define VAR_GIANTMOLE_ENUMLIST_FILTER_TERTIARY []
 CONST_GIANTMOLE_IF (name:VAR_GIANTMOLE_ENUMLIST_FILTER_TERTIARY) {

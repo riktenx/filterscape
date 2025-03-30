@@ -6,6 +6,7 @@
 
 
 // label:Weapons and armour
+// group:Hide drops
 // enum:["Mystic robe top","Mystic robe bottom","Mystic air staff","Mystic water staff","Mystic earth staff","Mystic fire staff","Spirit shield"]
 #define VAR_CORPOREALBEAST_ENUMLIST_FILTER_WEAPONSANDARMOUR []
 CONST_CORPOREALBEAST_IF (name:VAR_CORPOREALBEAST_ENUMLIST_FILTER_WEAPONSANDARMOUR) {
@@ -13,6 +14,7 @@ CONST_CORPOREALBEAST_IF (name:VAR_CORPOREALBEAST_ENUMLIST_FILTER_WEAPONSANDARMOU
 }
 
 // label:Runes and ammunition
+// group:Hide drops
 // enum:["Soul rune","Runite bolts","Death rune","Onyx bolts (e)","Cannonball","Adamant arrow","Law rune","Cosmic rune"]
 #define VAR_CORPOREALBEAST_ENUMLIST_FILTER_RUNESANDAMMUNITION []
 CONST_CORPOREALBEAST_IF (name:VAR_CORPOREALBEAST_ENUMLIST_FILTER_RUNESANDAMMUNITION) {
@@ -20,6 +22,7 @@ CONST_CORPOREALBEAST_IF (name:VAR_CORPOREALBEAST_ENUMLIST_FILTER_RUNESANDAMMUNIT
 }
 
 // label:Resources
+// group:Hide drops
 // enum:["Raw shark","Pure essence","Adamantite bar","Green dragonhide","Adamantite ore","Runite ore","Teak plank","Mahogany logs","Magic logs"]
 #define VAR_CORPOREALBEAST_ENUMLIST_FILTER_RESOURCES []
 CONST_CORPOREALBEAST_IF (name:VAR_CORPOREALBEAST_ENUMLIST_FILTER_RESOURCES) {
@@ -27,6 +30,7 @@ CONST_CORPOREALBEAST_IF (name:VAR_CORPOREALBEAST_ENUMLIST_FILTER_RESOURCES) {
 }
 
 // label:Other
+// group:Hide drops
 // enum:["Tuna potato","White berries","Desert goat horn","Watermelon seed","Coins","Antidote++(4)","Ranarr seed","Holy elixir"]
 #define VAR_CORPOREALBEAST_ENUMLIST_FILTER_OTHER []
 CONST_CORPOREALBEAST_IF (name:VAR_CORPOREALBEAST_ENUMLIST_FILTER_OTHER) {
@@ -36,6 +40,7 @@ CONST_CORPOREALBEAST_IF (name:VAR_CORPOREALBEAST_ENUMLIST_FILTER_OTHER) {
 
 
 // label:Tertiary
+// group:Hide drops
 // enum:["Jar of spirits","Pet dark core"]
 #define VAR_CORPOREALBEAST_ENUMLIST_FILTER_TERTIARY []
 CONST_CORPOREALBEAST_IF (name:VAR_CORPOREALBEAST_ENUMLIST_FILTER_TERTIARY) {

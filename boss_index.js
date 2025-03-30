@@ -194,7 +194,7 @@ CONST_VORKATH_IF (VAR_VORKATH_BOOLEAN_GENERAL_NOBONE && name:"Superior dragon bo
   {
     name: 'Kraken',
     area: [2268, 10021, 0, 2292, 10045, 0],
-    url: 'https://oldschool.runescape.wiki/w/Kraken#Kraken',
+    url: 'https://oldschool.runescape.wiki/w/Kraken',
   },
   {
     name: 'Cerberus',

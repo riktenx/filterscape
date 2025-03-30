@@ -52,6 +52,7 @@ export const cmdGenerateModGroup = async (groupName, index) => {
     fs.writeFileSync(`${modulePath}/module.rs2f`, rs2f);
     fs.writeFileSync(`${modulePath}/module.json`, JSON.stringify(module, null, 2));
 
+    fs.writeFileSync(`${modulePath}/wikiSource`, wikiSource);
     fs.writeFileSync(`${modulePath}/dropTable`, JSON.stringify(dropTable, null, 2));
     fs.writeFileSync(`${modulePath}/mapAreas`, JSON.stringify(mapAreas, null, 2));
 

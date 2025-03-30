@@ -1,5 +1,99 @@
 {
   "name": "Kraken",
   "rs2fPath": "module.rs2f",
-  "inputs": []
+  "inputs": [
+    {
+      "type": "enumlist",
+      "group": "Hide drops",
+      "label": "Weapons and armour",
+      "macroName": "VAR_KRAKEN_ENUMLIST_FILTER_WEAPONSANDARMOUR",
+      "default": [],
+      "enum": [
+        "Mystic water staff",
+        "Rune warhammer",
+        "Rune longsword",
+        "Mystic robe top",
+        "Mystic robe bottom",
+        "Trident of the seas (full)"
+      ]
+    },
+    {
+      "type": "enumlist",
+      "group": "Hide drops",
+      "label": "Runes",
+      "macroName": "VAR_KRAKEN_ENUMLIST_FILTER_RUNES",
+      "default": [],
+      "enum": [
+        "Water rune",
+        "Mist rune",
+        "Chaos rune",
+        "Death rune",
+        "Blood rune",
+        "Soul rune"
+      ]
+    },
+    {
+      "type": "enumlist",
+      "group": "Hide drops",
+      "label": "Seeds",
+      "macroName": "VAR_KRAKEN_ENUMLIST_FILTER_SEEDS",
+      "default": [],
+      "enum": [
+        "Watermelon seed",
+        "Torstol seed",
+        "Magic seed"
+      ]
+    },
+    {
+      "type": "enumlist",
+      "group": "Hide drops",
+      "label": "Materials",
+      "macroName": "VAR_KRAKEN_ENUMLIST_FILTER_MATERIALS",
+      "default": [],
+      "enum": [
+        "Seaweed",
+        "Battlestaff",
+        "Unpowered orb",
+        "Diamond",
+        "Oak plank",
+        "Runite bar",
+        "Raw shark",
+        "Raw monkfish",
+        "Grimy snapdragon"
+      ]
+    },
+    {
+      "type": "enumlist",
+      "group": "Hide drops",
+      "label": "Other",
+      "macroName": "VAR_KRAKEN_ENUMLIST_FILTER_OTHER",
+      "default": [],
+      "enum": [
+        "Coins",
+        "Shark",
+        "Pirate boots",
+        "Sanfew serum(4)",
+        "Edible seaweed",
+        "Harpoon",
+        "Bucket",
+        "Crystal key",
+        "Rusty sword",
+        "Antidote++(4)",
+        "Dragonstone ring",
+        "Kraken tentacle"
+      ]
+    },
+    {
+      "type": "enumlist",
+      "group": "Hide drops",
+      "label": "Tertiary",
+      "macroName": "VAR_KRAKEN_ENUMLIST_FILTER_TERTIARY",
+      "default": [],
+      "enum": [
+        "Brimstone key",
+        "Jar of dirt",
+        "Pet kraken"
+      ]
+    }
+  ]
 }

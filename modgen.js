@@ -4,7 +4,13 @@ const parseStyle = (value) => {
 
   parts.forEach(part => {
     const [k, v] = part.split('=').map(s => s.trim());
-    style[k] = v;
+    if (k === 'fontType' || k === 'textAccent') {
+      style[k] = parseInt(v);
+    } else if (k === 'showLootbeam') {
+      style[k] = v === 'true';
+    } else if (v !== undefined) {
+      style[k] = v.substring(1, v.length - 1);
+    }
   });
 
   return style;

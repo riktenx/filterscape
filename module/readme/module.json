@@ -1,0 +1,6 @@
+{
+  "name": "README (click here)",
+  "rs2fPath": "module.rs2f",
+  "description": "This filter uses dynamic font sizing and custom item value tiers. These features are disabled by default in the plugin settings. To get the full effects of this filter, you must do the following in plugin settings: set 'General -> Font mode' to 'plugin', and set 'Item value rules -> Enabled' to 'after filter'.",
+  "inputs": []
+}

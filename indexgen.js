@@ -7,6 +7,7 @@ fs.writeFileSync('index.json', JSON.stringify({
   name: 'riktenx/filterscape',
   description: 'All-in-one loot filter for main account gameplay.',
   modules: [
+    { 'modulePath': 'module/readme/module.json' },
     { 'modulePath': 'module/highlights/module.json' },
     { 'modulePath': 'module/hides/module.json' },
     ...slayerIndex,

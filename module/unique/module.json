@@ -12,23 +12,23 @@
       },
       "default": {
         "includes": [
-          "*champion scroll",
-          "internal cape",
-          "fire cape",
-          "dizana's quiver*",
+          "Infernal cape",
+          "Fire cape",
+          "Dizana's quiver*",
+          "Unsired",
+          "Ancient blood ornament kit",
+          "Ultor vestige",
+          "Venator vestige",
+          "Bellator vestige",
+          "Magus vestige",
+          "Executioner's axe head",
+          "Leviathan's lure",
+          "Siren's staff",
+          "Eye of the duke",
+          "Slepey tablet",
           "*max cape",
-          "unsired",
-          "ancient blood ornament kit",
-          "ultor vestige",
-          "venator vestige",
-          "bellator vestige",
-          "magus vestige",
-          "executioner's axe head",
-          "leviathan's lure",
-          "siren's staff",
-          "eye of the duke",
           "*mutagen",
-          "slepey tablet"
+          "*champion scroll"
         ],
         "excludes": []
       }

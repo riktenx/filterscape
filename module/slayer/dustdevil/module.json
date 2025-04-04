@@ -7,7 +7,9 @@
       "group": "Hide drops",
       "label": "=100%=",
       "macroName": "VAR_DUSTDEVIL_ENUMLIST_FILTER_100",
-      "default": [],
+      "default": [
+        "Bones"
+      ],
       "enum": [
         "Bones"
       ]
@@ -17,7 +19,14 @@
       "group": "Hide drops",
       "label": "=Weapons and armour=",
       "macroName": "VAR_DUSTDEVIL_ENUMLIST_FILTER_WEAPONSANDARMOUR",
-      "default": [],
+      "default": [
+        "Adamant axe",
+        "Rune dagger",
+        "Red d'hide vambraces",
+        "Black d'hide vambraces",
+        "Air battlestaff",
+        "Earth battlestaff"
+      ],
       "enum": [
         "Adamant axe",
         "Rune dagger",
@@ -37,7 +46,9 @@
       "group": "Hide drops",
       "label": "=Runes and ammunition=",
       "macroName": "VAR_DUSTDEVIL_ENUMLIST_FILTER_RUNESANDAMMUNITION",
-      "default": [],
+      "default": [
+        "Rune arrow"
+      ],
       "enum": [
         "Dust rune",
         "Earth rune",
@@ -52,7 +63,9 @@
       "group": "Hide drops",
       "label": "=Other=",
       "macroName": "VAR_DUSTDEVIL_ENUMLIST_FILTER_OTHER",
-      "default": [],
+      "default": [
+        "Ugthanki kebab"
+      ],
       "enum": [
         "Nothing",
         "Coins",

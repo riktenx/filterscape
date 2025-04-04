@@ -39,6 +39,29 @@ const index = [
   {
     name: 'Dust devil',
     url: 'https://oldschool.runescape.wiki/w/Dust_devil',
+    transform: {
+      getDefaults: (_) => {
+        return {
+          "=100%=": [
+            "Bones",
+          ],
+          "=Weapons and armour=": [
+            "Adamant axe",
+            "Rune dagger",
+            "Red d'hide vambraces",
+            "Black d'hide vambraces",
+            "Air battlestaff",
+            "Earth battlestaff",
+          ],
+          "=Runes and ammunition=": [
+            "Rune arrow",
+          ],
+          "=Other=": [
+            "Ugthanki kebab",
+          ],
+        };
+      },
+    },
   },
   {
     name: 'Smoke devil',

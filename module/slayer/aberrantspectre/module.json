@@ -1,0 +1,53 @@
+{
+  "name": "Aberrant spectre",
+  "rs2fPath": "module.rs2f",
+  "inputs": [
+    {
+      "type": "enumlist",
+      "group": "Hide drops",
+      "label": "Weapons and armour",
+      "macroName": "VAR_ABERRANTSPECTRE_ENUMLIST_FILTER_WEAPONSANDARMOUR",
+      "default": [],
+      "enum": [
+        "Steel axe",
+        "Mithril kiteshield",
+        "Lava battlestaff",
+        "Adamant platelegs",
+        "Rune full helm",
+        "Mystic robe bottom (dark)"
+      ]
+    },
+    {
+      "type": "enumlist",
+      "group": "Hide drops",
+      "label": "Coins",
+      "macroName": "VAR_ABERRANTSPECTRE_ENUMLIST_FILTER_COINS",
+      "default": [],
+      "enum": [
+        "Coins"
+      ]
+    },
+    {
+      "type": "enumlist",
+      "group": "Hide drops",
+      "label": "Other",
+      "macroName": "VAR_ABERRANTSPECTRE_ENUMLIST_FILTER_OTHER",
+      "default": [],
+      "enum": [
+        "Nothing"
+      ]
+    },
+    {
+      "type": "enumlist",
+      "group": "Hide drops",
+      "label": "Tertiary",
+      "macroName": "VAR_ABERRANTSPECTRE_ENUMLIST_FILTER_TERTIARY",
+      "default": [],
+      "enum": [
+        "Clue scroll (elite)",
+        "Reward casket (elite)",
+        "Brimstone key"
+      ]
+    }
+  ]
+}

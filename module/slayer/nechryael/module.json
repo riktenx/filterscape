@@ -1,0 +1,84 @@
+{
+  "name": "Nechryael",
+  "rs2fPath": "module.rs2f",
+  "inputs": [
+    {
+      "type": "enumlist",
+      "group": "Hide drops",
+      "label": "100%",
+      "macroName": "VAR_NECHRYAEL_ENUMLIST_FILTER_100",
+      "default": [],
+      "enum": [
+        "Malicious ashes"
+      ]
+    },
+    {
+      "type": "enumlist",
+      "group": "Hide drops",
+      "label": "Weapons and armour",
+      "macroName": "VAR_NECHRYAEL_ENUMLIST_FILTER_WEAPONSANDARMOUR",
+      "default": [],
+      "enum": [
+        "Adamant platelegs",
+        "Rune 2h sword",
+        "Rune full helm",
+        "Adamant kiteshield",
+        "Rune boots"
+      ]
+    },
+    {
+      "type": "enumlist",
+      "group": "Hide drops",
+      "label": "Runes",
+      "macroName": "VAR_NECHRYAEL_ENUMLIST_FILTER_RUNES",
+      "default": [],
+      "enum": [
+        "Chaos rune",
+        "Death rune",
+        "Law rune",
+        "Blood rune"
+      ]
+    },
+    {
+      "type": "enumlist",
+      "group": "Hide drops",
+      "label": "Seeds",
+      "macroName": "VAR_NECHRYAEL_ENUMLIST_FILTER_SEEDS",
+      "default": [],
+      "enum": [
+        "Limpwurt seed"
+      ]
+    },
+    {
+      "type": "enumlist",
+      "group": "Hide drops",
+      "label": "Coins",
+      "macroName": "VAR_NECHRYAEL_ENUMLIST_FILTER_COINS",
+      "default": [],
+      "enum": [
+        "Coins"
+      ]
+    },
+    {
+      "type": "enumlist",
+      "group": "Hide drops",
+      "label": "Other",
+      "macroName": "VAR_NECHRYAEL_ENUMLIST_FILTER_OTHER",
+      "default": [],
+      "enum": [
+        "Soft clay",
+        "Tuna"
+      ]
+    },
+    {
+      "type": "enumlist",
+      "group": "Hide drops",
+      "label": "Tertiary",
+      "macroName": "VAR_NECHRYAEL_ENUMLIST_FILTER_TERTIARY",
+      "default": [],
+      "enum": [
+        "Brimstone key"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+// module:Skeletal wyvern
+
+#define CONST_AREA_SKELETALWYVERN0 [3040,9554,-1,3078,9586,-1] // [[Asgarnian Ice Dungeon]] ({{Fairycode|AIQ}})
+#define CONST_SKELETALWYVERN_IF(_cond) if ((area:CONST_AREA_SKELETALWYVERN0) && (_cond))
+
+// label:100%
+// group:Hide drops
+// enum:["Wyvern bones"]
+#define VAR_SKELETALWYVERN_ENUMLIST_FILTER_100 []
+CONST_SKELETALWYVERN_IF (name:VAR_SKELETALWYVERN_ENUMLIST_FILTER_100) {
+  hidden = true;
+}
+
+// label:Pre-roll
+// group:Hide drops
+// enum:["Granite legs","Dragon platelegs","Dragon plateskirt"]
+#define VAR_SKELETALWYVERN_ENUMLIST_FILTER_PREROLL []
+CONST_SKELETALWYVERN_IF (name:VAR_SKELETALWYVERN_ENUMLIST_FILTER_PREROLL) {
+  hidden = true;
+}
+
+// label:Weapons and armour
+// group:Hide drops
+// enum:["Earth battlestaff","Battlestaff","Rune axe","Rune battleaxe","Rune warhammer","Rune full helm","Rune kiteshield"]
+#define VAR_SKELETALWYVERN_ENUMLIST_FILTER_WEAPONSANDARMOUR []
+CONST_SKELETALWYVERN_IF (name:VAR_SKELETALWYVERN_ENUMLIST_FILTER_WEAPONSANDARMOUR) {
+  hidden = true;
+}
+
+// label:Runes and ammunition
+// group:Hide drops
+// enum:["Air rune","Rune arrow","Water rune","Chaos rune","Law rune","Death rune","Blood rune","Adamant bolts","Runite bolts","Soul rune"]
+#define VAR_SKELETALWYVERN_ENUMLIST_FILTER_RUNESANDAMMUNITION []
+CONST_SKELETALWYVERN_IF (name:VAR_SKELETALWYVERN_ENUMLIST_FILTER_RUNESANDAMMUNITION) {
+  hidden = true;
+}
+
+
+
+// label:Resources
+// group:Hide drops
+// enum:["Pure essence","Magic logs","Adamantite bar","Iron ore","Uncut ruby","Uncut diamond"]
+#define VAR_SKELETALWYVERN_ENUMLIST_FILTER_RESOURCES []
+CONST_SKELETALWYVERN_IF (name:VAR_SKELETALWYVERN_ENUMLIST_FILTER_RESOURCES) {
+  hidden = true;
+}
+
+// label:Other
+// group:Hide drops
+// enum:["Coins","Lobster","Prayer potion(4)","Unpowered orb","Runite crossbow (u)","Ranarr seed","Snapdragon seed"]
+#define VAR_SKELETALWYVERN_ENUMLIST_FILTER_OTHER []
+CONST_SKELETALWYVERN_IF (name:VAR_SKELETALWYVERN_ENUMLIST_FILTER_OTHER) {
+  hidden = true;
+}
+
+
+
+// label:Tertiary
+// group:Hide drops
+// enum:["Brimstone key","Draconic visage"]
+#define VAR_SKELETALWYVERN_ENUMLIST_FILTER_TERTIARY []
+CONST_SKELETALWYVERN_IF (name:VAR_SKELETALWYVERN_ENUMLIST_FILTER_TERTIARY) {
+  hidden = true;
+}
+
+// endmodule:Skeletal wyvern

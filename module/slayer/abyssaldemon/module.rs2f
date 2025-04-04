@@ -1,0 +1,84 @@
+// module:Abyssal demon
+
+#define CONST_AREA_ABYSSALDEMON0 [3016,4874,0,3061,4917,0] // [[Abyssal Area]] ({{Fairycode|alr}})
+#define CONST_AREA_ABYSSALDEMON1 [1669,10054,0,1678,10098,0] // [[Catacombs of Kourend]]
+#define CONST_AREA_ABYSSALDEMON2 [3408,3562,2,3427,3576,2] // [[Slayer Tower]] ({{FloorNumber|uk
+#define CONST_AREA_ABYSSALDEMON3 [3427,9954,0,3445,9974,0] // [[Slayer Tower|Slayer Tower (basement)]]
+#define CONST_AREA_ABYSSALDEMON4 [3335,10158,0,3347,10168,0] // [[Wilderness Slayer Cave]]
+#define CONST_ABYSSALDEMON_IF(_cond) if ((area:CONST_AREA_ABYSSALDEMON0 || \
+  area:CONST_AREA_ABYSSALDEMON1 || \
+  area:CONST_AREA_ABYSSALDEMON2 || \
+  area:CONST_AREA_ABYSSALDEMON3 || \
+  area:CONST_AREA_ABYSSALDEMON4) && (_cond))
+
+
+
+// label:=100%=
+// group:Hide drops
+// enum:["Abyssal ashes"]
+#define VAR_ABYSSALDEMON_ENUMLIST_FILTER_100 []
+CONST_ABYSSALDEMON_IF (name:VAR_ABYSSALDEMON_ENUMLIST_FILTER_100) {
+  hidden = true;
+}
+
+// label:=Weapons and armour=
+// group:Hide drops
+// enum:["Black sword","Steel battleaxe","Black axe","Mithril kiteshield","Rune chainbody","Rune med helm","Abyssal whip","Abyssal dagger"]
+#define VAR_ABYSSALDEMON_ENUMLIST_FILTER_WEAPONSANDARMOUR []
+CONST_ABYSSALDEMON_IF (name:VAR_ABYSSALDEMON_ENUMLIST_FILTER_WEAPONSANDARMOUR) {
+  hidden = true;
+}
+
+// label:=Runes=
+// group:Hide drops
+// enum:["Air rune","Chaos rune","Blood rune","Law rune"]
+#define VAR_ABYSSALDEMON_ENUMLIST_FILTER_RUNES []
+CONST_ABYSSALDEMON_IF (name:VAR_ABYSSALDEMON_ENUMLIST_FILTER_RUNES) {
+  hidden = true;
+}
+
+
+
+// label:=Materials=
+// group:Hide drops
+// enum:["Pure essence","Adamantite bar"]
+#define VAR_ABYSSALDEMON_ENUMLIST_FILTER_MATERIALS []
+CONST_ABYSSALDEMON_IF (name:VAR_ABYSSALDEMON_ENUMLIST_FILTER_MATERIALS) {
+  hidden = true;
+}
+
+// label:=Coins=
+// group:Hide drops
+// enum:["Coins"]
+#define VAR_ABYSSALDEMON_ENUMLIST_FILTER_COINS []
+CONST_ABYSSALDEMON_IF (name:VAR_ABYSSALDEMON_ENUMLIST_FILTER_COINS) {
+  hidden = true;
+}
+
+// label:=Other=
+// group:Hide drops
+// enum:["Lobster","Cosmic talisman","Chaos talisman","Defence potion(3)"]
+#define VAR_ABYSSALDEMON_ENUMLIST_FILTER_OTHER []
+CONST_ABYSSALDEMON_IF (name:VAR_ABYSSALDEMON_ENUMLIST_FILTER_OTHER) {
+  hidden = true;
+}
+
+
+
+// label:=Tertiary=
+// group:Hide drops
+// enum:["Ensouled abyssal head","Brimstone key","Abyssal head"]
+#define VAR_ABYSSALDEMON_ENUMLIST_FILTER_TERTIARY []
+CONST_ABYSSALDEMON_IF (name:VAR_ABYSSALDEMON_ENUMLIST_FILTER_TERTIARY) {
+  hidden = true;
+}
+
+
+
+
+
+
+
+
+
+// endmodule:Abyssal demon

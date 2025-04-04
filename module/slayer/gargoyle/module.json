@@ -1,0 +1,80 @@
+{
+  "name": "Gargoyle",
+  "rs2fPath": "module.rs2f",
+  "inputs": [
+    {
+      "type": "enumlist",
+      "group": "Hide drops",
+      "label": "Pre-roll",
+      "macroName": "VAR_GARGOYLE_ENUMLIST_FILTER_PREROLL",
+      "default": [],
+      "enum": [
+        "Granite maul",
+        "Mystic robe top (dark)"
+      ]
+    },
+    {
+      "type": "enumlist",
+      "group": "Hide drops",
+      "label": "Weapons and armour",
+      "macroName": "VAR_GARGOYLE_ENUMLIST_FILTER_WEAPONSANDARMOUR",
+      "default": [],
+      "enum": [
+        "Adamant platelegs",
+        "Rune full helm",
+        "Rune 2h sword",
+        "Adamant boots",
+        "Rune battleaxe",
+        "Rune platelegs"
+      ]
+    },
+    {
+      "type": "enumlist",
+      "group": "Hide drops",
+      "label": "Runes",
+      "macroName": "VAR_GARGOYLE_ENUMLIST_FILTER_RUNES",
+      "default": [],
+      "enum": [
+        "Fire rune",
+        "Chaos rune",
+        "Death rune"
+      ]
+    },
+    {
+      "type": "enumlist",
+      "group": "Hide drops",
+      "label": "Materials",
+      "macroName": "VAR_GARGOYLE_ENUMLIST_FILTER_MATERIALS",
+      "default": [],
+      "enum": [
+        "Gold ore",
+        "Pure essence",
+        "Steel bar",
+        "Gold bar",
+        "Mithril bar",
+        "Runite ore"
+      ]
+    },
+    {
+      "type": "enumlist",
+      "group": "Hide drops",
+      "label": "Coins",
+      "macroName": "VAR_GARGOYLE_ENUMLIST_FILTER_COINS",
+      "default": [],
+      "enum": [
+        "Coins"
+      ]
+    },
+    {
+      "type": "enumlist",
+      "group": "Hide drops",
+      "label": "Tertiary",
+      "macroName": "VAR_GARGOYLE_ENUMLIST_FILTER_TERTIARY",
+      "default": [],
+      "enum": [
+        "Brimstone key",
+        "Brittle key"
+      ]
+    }
+  ]
+}

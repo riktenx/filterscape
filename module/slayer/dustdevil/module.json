@@ -1,0 +1,75 @@
+{
+  "name": "Dust devil",
+  "rs2fPath": "module.rs2f",
+  "inputs": [
+    {
+      "type": "enumlist",
+      "group": "Hide drops",
+      "label": "=100%=",
+      "macroName": "VAR_DUSTDEVIL_ENUMLIST_FILTER_100",
+      "default": [],
+      "enum": [
+        "Bones"
+      ]
+    },
+    {
+      "type": "enumlist",
+      "group": "Hide drops",
+      "label": "=Weapons and armour=",
+      "macroName": "VAR_DUSTDEVIL_ENUMLIST_FILTER_WEAPONSANDARMOUR",
+      "default": [],
+      "enum": [
+        "Adamant axe",
+        "Rune dagger",
+        "Red d'hide vambraces",
+        "Black d'hide vambraces",
+        "Air battlestaff",
+        "Earth battlestaff",
+        "Mystic air staff",
+        "Mystic earth staff",
+        "Dragon dagger",
+        "Dust battlestaff",
+        "Dragon chainbody"
+      ]
+    },
+    {
+      "type": "enumlist",
+      "group": "Hide drops",
+      "label": "=Runes and ammunition=",
+      "macroName": "VAR_DUSTDEVIL_ENUMLIST_FILTER_RUNESANDAMMUNITION",
+      "default": [],
+      "enum": [
+        "Dust rune",
+        "Earth rune",
+        "Fire rune",
+        "Chaos rune",
+        "Rune arrow",
+        "Soul rune"
+      ]
+    },
+    {
+      "type": "enumlist",
+      "group": "Hide drops",
+      "label": "=Other=",
+      "macroName": "VAR_DUSTDEVIL_ENUMLIST_FILTER_OTHER",
+      "default": [],
+      "enum": [
+        "Nothing",
+        "Coins",
+        "Ugthanki kebab",
+        "Mithril bar",
+        "Adamantite bar"
+      ]
+    },
+    {
+      "type": "enumlist",
+      "group": "Hide drops",
+      "label": "=Tertiary=",
+      "macroName": "VAR_DUSTDEVIL_ENUMLIST_FILTER_TERTIARY",
+      "default": [],
+      "enum": [
+        "Brimstone key"
+      ]
+    }
+  ]
+}

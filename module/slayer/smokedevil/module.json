@@ -1,0 +1,87 @@
+{
+  "name": "Smoke devil",
+  "rs2fPath": "module.rs2f",
+  "inputs": [
+    {
+      "type": "enumlist",
+      "group": "Hide drops",
+      "label": "100%",
+      "macroName": "VAR_SMOKEDEVIL_ENUMLIST_FILTER_100",
+      "default": [],
+      "enum": [
+        "Ashes"
+      ]
+    },
+    {
+      "type": "enumlist",
+      "group": "Hide drops",
+      "label": "Weapons and armour",
+      "macroName": "VAR_SMOKEDEVIL_ENUMLIST_FILTER_WEAPONSANDARMOUR",
+      "default": [],
+      "enum": [
+        "Adamant battleaxe",
+        "Rune dagger",
+        "Air battlestaff",
+        "Black d'hide vambraces",
+        "Fire battlestaff",
+        "Mithril plateskirt",
+        "Rune full helm",
+        "Rune chainbody",
+        "Red d'hide body",
+        "Occult necklace",
+        "Dragon chainbody"
+      ]
+    },
+    {
+      "type": "enumlist",
+      "group": "Hide drops",
+      "label": "Runes and ammunition",
+      "macroName": "VAR_SMOKEDEVIL_ENUMLIST_FILTER_RUNESANDAMMUNITION",
+      "default": [],
+      "enum": [
+        "Smoke rune",
+        "Runite bolts",
+        "Fire rune",
+        "Air rune",
+        "Soul rune",
+        "Rune arrow"
+      ]
+    },
+    {
+      "type": "enumlist",
+      "group": "Hide drops",
+      "label": "Coins",
+      "macroName": "VAR_SMOKEDEVIL_ENUMLIST_FILTER_COINS",
+      "default": [],
+      "enum": [
+        "Coins"
+      ]
+    },
+    {
+      "type": "enumlist",
+      "group": "Hide drops",
+      "label": "Other",
+      "macroName": "VAR_SMOKEDEVIL_ENUMLIST_FILTER_OTHER",
+      "default": [],
+      "enum": [
+        "Shark",
+        "Steel bar",
+        "Magic logs",
+        "Coal",
+        "Adamantite bar",
+        "Crossbow string",
+        "Ugthanki kebab"
+      ]
+    },
+    {
+      "type": "enumlist",
+      "group": "Hide drops",
+      "label": "Tertiary",
+      "macroName": "VAR_SMOKEDEVIL_ENUMLIST_FILTER_TERTIARY",
+      "default": [],
+      "enum": [
+        "Brimstone key"
+      ]
+    }
+  ]
+}

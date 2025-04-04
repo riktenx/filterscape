@@ -29,7 +29,7 @@ export const cmdGenerateModGroup = async (groupName, index) => {
 
     const dropTable = buildDropTable(wikiSource);
     const mapAreas = buildMapAreas(wikiSource);
-    if (mod.area === -1) {
+    if (mod.area === undefined) {
       mod.area = mapAreas;
     }
 

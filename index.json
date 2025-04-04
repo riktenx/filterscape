@@ -16,6 +16,30 @@
       "modulePath": "module/slayer/bloodveld/module.json"
     },
     {
+      "modulePath": "module/slayer/nechryael/module.json"
+    },
+    {
+      "modulePath": "module/slayer/vyre/module.json"
+    },
+    {
+      "modulePath": "module/slayer/aberrantspectre/module.json"
+    },
+    {
+      "modulePath": "module/slayer/dustdevil/module.json"
+    },
+    {
+      "modulePath": "module/slayer/smokedevil/module.json"
+    },
+    {
+      "modulePath": "module/slayer/skeletalwyvern/module.json"
+    },
+    {
+      "modulePath": "module/slayer/gargoyle/module.json"
+    },
+    {
+      "modulePath": "module/slayer/abyssaldemon/module.json"
+    },
+    {
       "modulePath": "module/boss/scurrius/module.json"
     },
     {

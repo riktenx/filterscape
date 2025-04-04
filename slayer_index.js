@@ -43,6 +43,44 @@ const index = [
   {
     name: 'Smoke devil',
     url: 'https://oldschool.runescape.wiki/w/Smoke_devil',
+    transform: {
+      getDefaults: (_) => {
+        return {
+          "100%": [
+            "Ashes"
+          ],
+          "Weapons and armour": [
+            "Adamant battleaxe",
+            "Rune dagger",
+            "Air battlestaff",
+            "Black d'hide vambraces",
+            "Fire battlestaff",
+            "Mithril plateskirt",
+            "Red d'hide body",
+          ],
+          "Runes and ammunition": [
+            "Smoke rune",
+            "Runite bolts",
+            "Fire rune",
+            "Air rune",
+            "Soul rune",
+            "Rune arrow"
+          ],
+          "Coins": [
+            "Coins"
+          ],
+          "Other": [
+            "Shark",
+            "Steel bar",
+            "Magic logs",
+            "Coal",
+            "Adamantite bar",
+            "Crossbow string",
+            "Ugthanki kebab"
+          ],
+        };
+      },
+    },
   },
   {
     name: 'Skeletal wyvern',

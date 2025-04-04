@@ -7,7 +7,9 @@
       "group": "Hide drops",
       "label": "100%",
       "macroName": "VAR_SMOKEDEVIL_ENUMLIST_FILTER_100",
-      "default": [],
+      "default": [
+        "Ashes"
+      ],
       "enum": [
         "Ashes"
       ]
@@ -17,7 +19,15 @@
       "group": "Hide drops",
       "label": "Weapons and armour",
       "macroName": "VAR_SMOKEDEVIL_ENUMLIST_FILTER_WEAPONSANDARMOUR",
-      "default": [],
+      "default": [
+        "Adamant battleaxe",
+        "Rune dagger",
+        "Air battlestaff",
+        "Black d'hide vambraces",
+        "Fire battlestaff",
+        "Mithril plateskirt",
+        "Red d'hide body"
+      ],
       "enum": [
         "Adamant battleaxe",
         "Rune dagger",
@@ -37,7 +47,14 @@
       "group": "Hide drops",
       "label": "Runes and ammunition",
       "macroName": "VAR_SMOKEDEVIL_ENUMLIST_FILTER_RUNESANDAMMUNITION",
-      "default": [],
+      "default": [
+        "Smoke rune",
+        "Runite bolts",
+        "Fire rune",
+        "Air rune",
+        "Soul rune",
+        "Rune arrow"
+      ],
       "enum": [
         "Smoke rune",
         "Runite bolts",
@@ -52,7 +69,9 @@
       "group": "Hide drops",
       "label": "Coins",
       "macroName": "VAR_SMOKEDEVIL_ENUMLIST_FILTER_COINS",
-      "default": [],
+      "default": [
+        "Coins"
+      ],
       "enum": [
         "Coins"
       ]
@@ -62,7 +81,15 @@
       "group": "Hide drops",
       "label": "Other",
       "macroName": "VAR_SMOKEDEVIL_ENUMLIST_FILTER_OTHER",
-      "default": [],
+      "default": [
+        "Shark",
+        "Steel bar",
+        "Magic logs",
+        "Coal",
+        "Adamantite bar",
+        "Crossbow string",
+        "Ugthanki kebab"
+      ],
       "enum": [
         "Shark",
         "Steel bar",

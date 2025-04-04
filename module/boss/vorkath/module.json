@@ -62,7 +62,12 @@
       "group": "Hide drops",
       "label": "Fletching materials",
       "macroName": "VAR_VORKATH_ENUMLIST_FILTER_FLETCHINGMATERIALS",
-      "default": [],
+      "default": [
+        "Sapphire bolt tips",
+        "Emerald bolt tips",
+        "Ruby bolt tips",
+        "Diamond bolt tips"
+      ],
       "enum": [
         "Dragon bolts (unf)",
         "Sapphire bolt tips",
@@ -81,7 +86,10 @@
       "group": "Hide drops",
       "label": "Other",
       "macroName": "VAR_VORKATH_ENUMLIST_FILTER_OTHER",
-      "default": [],
+      "default": [
+        "Grapes",
+        "Wrath talisman"
+      ],
       "enum": [
         "Adamantite ore",
         "Coins",
@@ -99,7 +107,9 @@
       "group": "Hide drops",
       "label": "Tertiary",
       "macroName": "VAR_VORKATH_ENUMLIST_FILTER_TERTIARY",
-      "default": [],
+      "default": [
+        "Scaly blue dragonhide"
+      ],
       "enum": [
         "Scaly blue dragonhide",
         "Vorkath's head",

@@ -82,12 +82,15 @@ export const generateRs2f = (name, area, dropTable, transform) => {
       return '';
     }
 
+    const defaults = !!transform.getDefaults
+      ? transform.getDefaults(dropTable)[category] || []
+      : [];
     const jvalue = JSON.stringify(items);
     const ident = toMacroIdent(category);
     return `// label:${category}
 // group:Hide drops
 // enum:${jvalue}
-#define VAR_${moduleScope}_ENUMLIST_FILTER_${ident} []
+#define VAR_${moduleScope}_ENUMLIST_FILTER_${ident} ${JSON.stringify(defaults)}
 CONST_${moduleScope}_IF (name:VAR_${moduleScope}_ENUMLIST_FILTER_${ident}) {
   hidden = true;
 }`;

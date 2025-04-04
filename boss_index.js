@@ -136,6 +136,23 @@ const index = [
       updateDropTable: (table) => {
         delete table['100%'];
       },
+      getDefaults: (_) => {
+        return {
+          "Fletching materials": [
+            "Sapphire bolt tips",
+            "Emerald bolt tips",
+            "Ruby bolt tips",
+            "Diamond bolt tips",
+          ],
+          "Other": [
+            "Grapes",
+            "Wrath talisman",
+          ],
+          "Tertiary": [
+            "Scaly blue dragonhide",
+          ],
+        };
+      },
       preScript: () => {
         return `// label:Hide un-noted blue d-hide
 #define VAR_VORKATH_BOOLEAN_GENERAL_NOHIDE true

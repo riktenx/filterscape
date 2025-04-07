@@ -1,3 +1,10 @@
+// !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+// CODE-GENERATED DEFAULT FILTER, DO NOT EDIT
+// !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+meta {
+  name = "[default]";
+}
 
 // module:HIGHLIGHTGROUP
 
@@ -643,11 +650,6 @@ CONST_POTION_HIGHLIGHT("*bastion potion*", "#db721c", VAR_POTION_BASTION_USERSTY
 
 // endmodule:potion
 // module:value
-
-// FIXME
-meta {
-  name = "riktenx/filterscape";
-}
 
 // FIXME
 #define LIB_BROWN       "#d2b287"

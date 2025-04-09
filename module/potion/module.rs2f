@@ -1,7 +1,7 @@
 // module:potion
 
 #define CONST_POTION_HIGHLIGHT(_name, _color, _userstyle) \
-  if (name:_name && noted:false) {\
+  rule (name:_name && noted:false) {\
     textColor = _color;\
     textAccent = TEXTACCENT_OUTLINE;\
     _userstyle\

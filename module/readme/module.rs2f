@@ -11,8 +11,8 @@
 
 #define LIB_COLOR2(_fg) textColor = _fg; borderColor = _fg;
 #define LIB_COLOR3(_fg, _bg) textColor = _fg; borderColor = _fg; backgroundColor = _bg;
-#define LIB_HIDE1(_name) if (name:_name && quantity:==1) { hidden = true; }
-#define LIB_DARK_BG(_name, _color) if (name:_name) { color = _color; borderColor = _color; backgroundColor = BLACK; }
-#define LIB_TEXT_HIGHLIGHT(_name, _color) if (name:_name) { color = _color; textAccent = 2; }
+#define LIB_HIDE1(_name) rule (name:_name && quantity:==1) { hidden = true; }
+#define LIB_DARK_BG(_name, _color) rule (name:_name) { color = _color; borderColor = _color; backgroundColor = BLACK; }
+#define LIB_TEXT_HIGHLIGHT(_name, _color) rule (name:_name) { color = _color; textAccent = 2; }
 
 // endmodule:README

@@ -1,13 +1,13 @@
 // module:Vyre
 
 #define CONST_AREA_VYRE0 [3592,3324,0,3648,3389,0] // [[Darkmeyer]]
-#define CONST_VYRE_IF(_cond) if ((area:CONST_AREA_VYRE0) && (_cond))
+#define CONST_VYRE_RULE(_cond) rule ((area:CONST_AREA_VYRE0) && (_cond))
 
 // label:100%
 // group:Hide drops
 // enum:["Vampyre dust"]
 #define VAR_VYRE_ENUMLIST_FILTER_100 []
-CONST_VYRE_IF (name:VAR_VYRE_ENUMLIST_FILTER_100) {
+CONST_VYRE_RULE (name:VAR_VYRE_ENUMLIST_FILTER_100) {
   hidden = true;
 }
 
@@ -15,7 +15,7 @@ CONST_VYRE_IF (name:VAR_VYRE_ENUMLIST_FILTER_100) {
 // group:Hide drops
 // enum:["Rune dagger","Adamant platelegs","Adamant platebody","Rune full helm","Rune kiteshield"]
 #define VAR_VYRE_ENUMLIST_FILTER_WEAPONSANDARMOUR []
-CONST_VYRE_IF (name:VAR_VYRE_ENUMLIST_FILTER_WEAPONSANDARMOUR) {
+CONST_VYRE_RULE (name:VAR_VYRE_ENUMLIST_FILTER_WEAPONSANDARMOUR) {
   hidden = true;
 }
 
@@ -23,7 +23,7 @@ CONST_VYRE_IF (name:VAR_VYRE_ENUMLIST_FILTER_WEAPONSANDARMOUR) {
 // group:Hide drops
 // enum:["Death rune","Blood rune","Nature rune","Rune arrow","Rune javelin"]
 #define VAR_VYRE_ENUMLIST_FILTER_RUNESANDAMMUNITION []
-CONST_VYRE_IF (name:VAR_VYRE_ENUMLIST_FILTER_RUNESANDAMMUNITION) {
+CONST_VYRE_RULE (name:VAR_VYRE_ENUMLIST_FILTER_RUNESANDAMMUNITION) {
   hidden = true;
 }
 
@@ -35,7 +35,7 @@ CONST_VYRE_IF (name:VAR_VYRE_ENUMLIST_FILTER_RUNESANDAMMUNITION) {
 // group:Hide drops
 // enum:["Opal bolt tips","Jade bolt tips","Topaz bolt tips","Pearl bolt tips","Sapphire bolt tips","Emerald bolt tips","Ruby bolt tips","Diamond bolt tips","Dragonstone bolt tips","Onyx bolt tips"]
 #define VAR_VYRE_ENUMLIST_FILTER_BOLTTIPS []
-CONST_VYRE_IF (name:VAR_VYRE_ENUMLIST_FILTER_BOLTTIPS) {
+CONST_VYRE_RULE (name:VAR_VYRE_ENUMLIST_FILTER_BOLTTIPS) {
   hidden = true;
 }
 
@@ -43,7 +43,7 @@ CONST_VYRE_IF (name:VAR_VYRE_ENUMLIST_FILTER_BOLTTIPS) {
 // group:Hide drops
 // enum:["Bark","Coal","Runite bar","Yew logs","Runite ore"]
 #define VAR_VYRE_ENUMLIST_FILTER_MATERIALS []
-CONST_VYRE_IF (name:VAR_VYRE_ENUMLIST_FILTER_MATERIALS) {
+CONST_VYRE_RULE (name:VAR_VYRE_ENUMLIST_FILTER_MATERIALS) {
   hidden = true;
 }
 
@@ -51,7 +51,7 @@ CONST_VYRE_IF (name:VAR_VYRE_ENUMLIST_FILTER_MATERIALS) {
 // group:Hide drops
 // enum:["Coins"]
 #define VAR_VYRE_ENUMLIST_FILTER_COINS []
-CONST_VYRE_IF (name:VAR_VYRE_ENUMLIST_FILTER_COINS) {
+CONST_VYRE_RULE (name:VAR_VYRE_ENUMLIST_FILTER_COINS) {
   hidden = true;
 }
 
@@ -61,7 +61,7 @@ CONST_VYRE_IF (name:VAR_VYRE_ENUMLIST_FILTER_COINS) {
 // group:Hide drops
 // enum:["Brimstone key"]
 #define VAR_VYRE_ENUMLIST_FILTER_TERTIARY []
-CONST_VYRE_IF (name:VAR_VYRE_ENUMLIST_FILTER_TERTIARY) {
+CONST_VYRE_RULE (name:VAR_VYRE_ENUMLIST_FILTER_TERTIARY) {
   hidden = true;
 }
 

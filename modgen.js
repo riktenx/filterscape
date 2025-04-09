@@ -49,7 +49,7 @@ const generateMultiAreaCond = (moduleScope, areas) => {
   const areasExpr = idents
     .map(ident => `area:${ident}`)
     .join(' || \\\n  ');
-  rs2f += `#define CONST_${moduleScope}_IF(_cond) if ((${areasExpr}) && (_cond))`;
+  rs2f += `#define CONST_${moduleScope}_RULE(_cond) rule ((${areasExpr}) && (_cond))`;
 
   return rs2f;
 };
@@ -70,7 +70,7 @@ export const generateRs2f = (name, area, dropTable, transform) => {
     const areaDefine = JSON.stringify(area);
     rs2f += `#define CONST_AREA_${moduleScope} ${areaDefine}`;
     rs2f += '\n';
-    rs2f += `#define CONST_${moduleScope}_IF(_cond) if (area:CONST_AREA_${moduleScope} && (_cond))`;
+    rs2f += `#define CONST_${moduleScope}_RULE(_cond) rule (area:CONST_AREA_${moduleScope} && (_cond))`;
     rs2f += '\n\n';
   } else {
     rs2f += generateMultiAreaCond(moduleScope, area);
@@ -91,7 +91,7 @@ export const generateRs2f = (name, area, dropTable, transform) => {
 // group:Hide drops
 // enum:${jvalue}
 #define VAR_${moduleScope}_ENUMLIST_FILTER_${ident} ${JSON.stringify(defaults)}
-CONST_${moduleScope}_IF (name:VAR_${moduleScope}_ENUMLIST_FILTER_${ident}) {
+CONST_${moduleScope}_RULE (name:VAR_${moduleScope}_ENUMLIST_FILTER_${ident}) {
   hidden = true;
 }`;
   }).join('\n\n');

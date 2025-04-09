@@ -158,10 +158,10 @@ const index = [
 #define VAR_VORKATH_BOOLEAN_GENERAL_NOHIDE true
 // label:Hide superior dragon bones (why?)
 #define VAR_VORKATH_BOOLEAN_GENERAL_NOBONE false
-CONST_VORKATH_IF (VAR_VORKATH_BOOLEAN_GENERAL_NOHIDE && name:"Blue dragonhide" && noted:false) {
+CONST_VORKATH_RULE (VAR_VORKATH_BOOLEAN_GENERAL_NOHIDE && name:"Blue dragonhide" && noted:false) {
   hidden = true;
 }
-CONST_VORKATH_IF (VAR_VORKATH_BOOLEAN_GENERAL_NOBONE && name:"Superior dragon bones" && noted:false) {
+CONST_VORKATH_RULE (VAR_VORKATH_BOOLEAN_GENERAL_NOBONE && name:"Superior dragon bones" && noted:false) {
   hidden = true;
 }`;
       },

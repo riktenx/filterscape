@@ -33,19 +33,19 @@
 #define VAR_VALUE_T1_CUSTOMSTYLE 
 #define VAR_VALUE_T0_CUSTOMSTYLE 
 
-if (value:>=VAR_VALUE_T5_VALUE) {
+rule (value:>=VAR_VALUE_T5_VALUE) {
   LIB_COLOR3(RED, WHITE)
   fontType = 2;
   textAccent = 3;
   showLootBeam = true;
   VAR_VALUE_T5_CUSTOMSTYLE
 }
-if (value:>=VAR_VALUE_T4_VALUE) {
+rule (value:>=VAR_VALUE_T4_VALUE) {
   LIB_COLOR3(WHITE, LIB_ORANGE)
   showLootBeam = true;
   VAR_VALUE_T4_CUSTOMSTYLE
 }
-if (value:>=VAR_VALUE_T3_VALUE) {
+rule (value:>=VAR_VALUE_T3_VALUE) {
   LIB_COLOR3(BLACK, LIB_ORANGE)
   textAccent = 3;
   showLootbeam = true;
@@ -53,17 +53,17 @@ if (value:>=VAR_VALUE_T3_VALUE) {
   menuTextColor = LIB_ORANGE;
   VAR_VALUE_T3_CUSTOMSTYLE
 }
-if (value:>=VAR_VALUE_T2_VALUE) {
+rule (value:>=VAR_VALUE_T2_VALUE) {
   LIB_COLOR2(LIB_CARAMEL)
   textAccent = 2;
   VAR_VALUE_T2_CUSTOMSTYLE
 }
-if (value:>=VAR_VALUE_T1_VALUE) {
+rule (value:>=VAR_VALUE_T1_VALUE) {
   textColor = LIB_GOLD;
   textAccent = 2;
   VAR_VALUE_T1_CUSTOMSTYLE
 }
-if (value:>=VAR_VALUE_T0_VALUE) {
+rule (value:>=VAR_VALUE_T0_VALUE) {
   textColor = LIB_KHAKI;
   VAR_VALUE_T0_CUSTOMSTYLE
 }

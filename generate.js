@@ -1,8 +1,9 @@
 import fs from 'fs';
+
 import slayerIndex from './module/slayer/index.json' with { type: 'json' };
 import bossIndex from './module/boss/index.json' with { type: 'json' };
 
-fs.writeFileSync('index.json', JSON.stringify({
+const index = {
   type: 'filter',
   name: 'riktenx/filterscape',
   description: 'All-in-one loot filter for main account gameplay.',
@@ -21,4 +22,22 @@ fs.writeFileSync('index.json', JSON.stringify({
     { "modulePath": "module/clue/module.json" },
     { "modulePath": "module/herb/module.json" }
   ],
-}, null, 2));
+}
+
+const header = `
+// !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+// CODE-GENERATED DEFAULT FILTER, DO NOT EDIT
+// !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+meta {
+  name = "[default]";
+}
+`;
+
+const defaultFilterscape = [header, ...index.modules.map(module => {
+  const rs2fPath = module.modulePath.replace('json', 'rs2f');
+  return fs.readFileSync(rs2fPath, 'utf-8');
+})].join('\n\n');
+
+fs.writeFileSync('index.json', JSON.stringify(index, null, 2));
+fs.writeFileSync('filterscape.rs2f', defaultFilterscape);

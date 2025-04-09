@@ -28,7 +28,7 @@
   "Stardust",\
   "Tokkul",\
   "Termites",\
-  "Unidentified minerals",\
+  "Unidentruleied minerals",\
   "Warrior guild token",\
   "Blessed bone shards",\
   "Sun-kissed bones",\
@@ -37,7 +37,7 @@
 
 #define VAR_CURRENCY_USERSTYLE 
 
-if ((name:CONST_CURRENCY_ITEMS || name:VAR_CURRENCY_ADD) && !name:VAR_CURRENCY_NOT) {
+rule ((name:CONST_CURRENCY_ITEMS || name:VAR_CURRENCY_ADD) && !name:VAR_CURRENCY_NOT) {
   textColor = "#beb287";
   VAR_CURRENCY_USERSTYLE
 }

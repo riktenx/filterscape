@@ -1,13 +1,13 @@
 // module:Callisto
 
 #define CONST_AREA_CALLISTO [3342,10311,0,3374,10344,0]
-#define CONST_CALLISTO_IF(_cond) if (area:CONST_AREA_CALLISTO && (_cond))
+#define CONST_CALLISTO_RULE(_cond) rule (area:CONST_AREA_CALLISTO && (_cond))
 
 // label:100%
 // group:Hide drops
 // enum:["Big bones","Bones"]
 #define VAR_CALLISTO_ENUMLIST_FILTER_100 []
-CONST_CALLISTO_IF (name:VAR_CALLISTO_ENUMLIST_FILTER_100) {
+CONST_CALLISTO_RULE (name:VAR_CALLISTO_ENUMLIST_FILTER_100) {
   hidden = true;
 }
 
@@ -15,7 +15,7 @@ CONST_CALLISTO_IF (name:VAR_CALLISTO_ENUMLIST_FILTER_100) {
 // group:Hide drops
 // enum:["Claws of callisto","Dragon 2h sword","Dragon pickaxe","Voidwaker hilt","Tyrannical ring"]
 #define VAR_CALLISTO_ENUMLIST_FILTER_UNIQUE []
-CONST_CALLISTO_IF (name:VAR_CALLISTO_ENUMLIST_FILTER_UNIQUE) {
+CONST_CALLISTO_RULE (name:VAR_CALLISTO_ENUMLIST_FILTER_UNIQUE) {
   hidden = true;
 }
 
@@ -23,7 +23,7 @@ CONST_CALLISTO_IF (name:VAR_CALLISTO_ENUMLIST_FILTER_UNIQUE) {
 // group:Hide drops
 // enum:["Mystic earth staff","Mystic robe top","Mystic robe bottom","Rune pickaxe","Rune 2h sword","Rune kiteshield","Rune platebody"]
 #define VAR_CALLISTO_ENUMLIST_FILTER_WEAPONSANDARMOUR []
-CONST_CALLISTO_IF (name:VAR_CALLISTO_ENUMLIST_FILTER_WEAPONSANDARMOUR) {
+CONST_CALLISTO_RULE (name:VAR_CALLISTO_ENUMLIST_FILTER_WEAPONSANDARMOUR) {
   hidden = true;
 }
 
@@ -31,7 +31,7 @@ CONST_CALLISTO_IF (name:VAR_CALLISTO_ENUMLIST_FILTER_WEAPONSANDARMOUR) {
 // group:Hide drops
 // enum:["Blood rune","Death rune","Chaos rune","Soul rune","Cannonball"]
 #define VAR_CALLISTO_ENUMLIST_FILTER_RUNESANDAMMUNITION []
-CONST_CALLISTO_IF (name:VAR_CALLISTO_ENUMLIST_FILTER_RUNESANDAMMUNITION) {
+CONST_CALLISTO_RULE (name:VAR_CALLISTO_ENUMLIST_FILTER_RUNESANDAMMUNITION) {
   hidden = true;
 }
 
@@ -39,7 +39,7 @@ CONST_CALLISTO_IF (name:VAR_CALLISTO_ENUMLIST_FILTER_RUNESANDAMMUNITION) {
 // group:Hide drops
 // enum:["Uncut ruby","Uncut diamond","Uncut dragonstone","Limpwurt root","Magic logs","Mahogany logs","Red dragonhide","Coconut","Grimy toadflax","Grimy dwarf weed","Grimy ranarr weed","Grimy snapdragon"]
 #define VAR_CALLISTO_ENUMLIST_FILTER_MATERIALS []
-CONST_CALLISTO_IF (name:VAR_CALLISTO_ENUMLIST_FILTER_MATERIALS) {
+CONST_CALLISTO_RULE (name:VAR_CALLISTO_ENUMLIST_FILTER_MATERIALS) {
   hidden = true;
 }
 
@@ -47,7 +47,7 @@ CONST_CALLISTO_IF (name:VAR_CALLISTO_ENUMLIST_FILTER_MATERIALS) {
 // group:Hide drops
 // enum:["Ranarr seed","Snapdragon seed"]
 #define VAR_CALLISTO_ENUMLIST_FILTER_SEEDS []
-CONST_CALLISTO_IF (name:VAR_CALLISTO_ENUMLIST_FILTER_SEEDS) {
+CONST_CALLISTO_RULE (name:VAR_CALLISTO_ENUMLIST_FILTER_SEEDS) {
   hidden = true;
 }
 
@@ -55,7 +55,7 @@ CONST_CALLISTO_IF (name:VAR_CALLISTO_ENUMLIST_FILTER_SEEDS) {
 // group:Hide drops
 // enum:["Coins","Dark crab","Super restore(4)","Supercompost","Dragon bones","Blighted anglerfish","Wilderness crabs teleport"]
 #define VAR_CALLISTO_ENUMLIST_FILTER_OTHER []
-CONST_CALLISTO_IF (name:VAR_CALLISTO_ENUMLIST_FILTER_OTHER) {
+CONST_CALLISTO_RULE (name:VAR_CALLISTO_ENUMLIST_FILTER_OTHER) {
   hidden = true;
 }
 
@@ -63,7 +63,7 @@ CONST_CALLISTO_IF (name:VAR_CALLISTO_ENUMLIST_FILTER_OTHER) {
 // group:Hide drops
 // enum:["Blighted anglerfish","Blighted karambwan","Blighted super restore(3)","Blighted super restore(4)","Ranging potion(2)","Super combat potion(2)"]
 #define VAR_CALLISTO_ENUMLIST_FILTER_SECONDARYSUPPLYROLL []
-CONST_CALLISTO_IF (name:VAR_CALLISTO_ENUMLIST_FILTER_SECONDARYSUPPLYROLL) {
+CONST_CALLISTO_RULE (name:VAR_CALLISTO_ENUMLIST_FILTER_SECONDARYSUPPLYROLL) {
   hidden = true;
 }
 
@@ -71,7 +71,7 @@ CONST_CALLISTO_IF (name:VAR_CALLISTO_ENUMLIST_FILTER_SECONDARYSUPPLYROLL) {
 // group:Hide drops
 // enum:["Looting bag","Brimstone key","Long bone","Callisto cub","Curved bone"]
 #define VAR_CALLISTO_ENUMLIST_FILTER_TERTIARY []
-CONST_CALLISTO_IF (name:VAR_CALLISTO_ENUMLIST_FILTER_TERTIARY) {
+CONST_CALLISTO_RULE (name:VAR_CALLISTO_ENUMLIST_FILTER_TERTIARY) {
   hidden = true;
 }
 

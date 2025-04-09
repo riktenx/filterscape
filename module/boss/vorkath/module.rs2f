@@ -4,21 +4,21 @@
 #define VAR_VORKATH_BOOLEAN_GENERAL_NOHIDE true
 // label:Hide superior dragon bones (why?)
 #define VAR_VORKATH_BOOLEAN_GENERAL_NOBONE false
-CONST_VORKATH_IF (VAR_VORKATH_BOOLEAN_GENERAL_NOHIDE && name:"Blue dragonhide" && noted:false) {
+CONST_VORKATH_RULE (VAR_VORKATH_BOOLEAN_GENERAL_NOHIDE && name:"Blue dragonhide" && noted:false) {
   hidden = true;
 }
-CONST_VORKATH_IF (VAR_VORKATH_BOOLEAN_GENERAL_NOBONE && name:"Superior dragon bones" && noted:false) {
+CONST_VORKATH_RULE (VAR_VORKATH_BOOLEAN_GENERAL_NOBONE && name:"Superior dragon bones" && noted:false) {
   hidden = true;
 }
 
 #define CONST_AREA_VORKATH [2256,4051,0,2288,4080,0]
-#define CONST_VORKATH_IF(_cond) if (area:CONST_AREA_VORKATH && (_cond))
+#define CONST_VORKATH_RULE(_cond) rule (area:CONST_AREA_VORKATH && (_cond))
 
 // label:Weapons and armour
 // group:Hide drops
 // enum:["Rune longsword","Rune kiteshield","Battlestaff","Dragon battleaxe","Dragon longsword","Dragon platelegs","Dragon plateskirt"]
 #define VAR_VORKATH_ENUMLIST_FILTER_WEAPONSANDARMOUR []
-CONST_VORKATH_IF (name:VAR_VORKATH_ENUMLIST_FILTER_WEAPONSANDARMOUR) {
+CONST_VORKATH_RULE (name:VAR_VORKATH_ENUMLIST_FILTER_WEAPONSANDARMOUR) {
   hidden = true;
 }
 
@@ -26,7 +26,7 @@ CONST_VORKATH_IF (name:VAR_VORKATH_ENUMLIST_FILTER_WEAPONSANDARMOUR) {
 // group:Hide drops
 // enum:["Chaos rune","Death rune","Wrath rune"]
 #define VAR_VORKATH_ENUMLIST_FILTER_RUNES []
-CONST_VORKATH_IF (name:VAR_VORKATH_ENUMLIST_FILTER_RUNES) {
+CONST_VORKATH_RULE (name:VAR_VORKATH_ENUMLIST_FILTER_RUNES) {
   hidden = true;
 }
 
@@ -34,7 +34,7 @@ CONST_VORKATH_IF (name:VAR_VORKATH_ENUMLIST_FILTER_RUNES) {
 // group:Hide drops
 // enum:["Blue dragonhide","Green dragonhide","Red dragonhide","Black dragonhide"]
 #define VAR_VORKATH_ENUMLIST_FILTER_DRAGONHIDE []
-CONST_VORKATH_IF (name:VAR_VORKATH_ENUMLIST_FILTER_DRAGONHIDE) {
+CONST_VORKATH_RULE (name:VAR_VORKATH_ENUMLIST_FILTER_DRAGONHIDE) {
   hidden = true;
 }
 
@@ -42,7 +42,7 @@ CONST_VORKATH_IF (name:VAR_VORKATH_ENUMLIST_FILTER_DRAGONHIDE) {
 // group:Hide drops
 // enum:["Dragon bolts (unf)","Sapphire bolt tips","Emerald bolt tips","Ruby bolt tips","Diamond bolt tips","Dragonstone bolt tips","Onyx bolt tips","Rune dart tip","Dragon dart tip","Dragon arrowtips"]
 #define VAR_VORKATH_ENUMLIST_FILTER_FLETCHINGMATERIALS ["Sapphire bolt tips","Emerald bolt tips","Ruby bolt tips","Diamond bolt tips"]
-CONST_VORKATH_IF (name:VAR_VORKATH_ENUMLIST_FILTER_FLETCHINGMATERIALS) {
+CONST_VORKATH_RULE (name:VAR_VORKATH_ENUMLIST_FILTER_FLETCHINGMATERIALS) {
   hidden = true;
 }
 
@@ -52,7 +52,7 @@ CONST_VORKATH_IF (name:VAR_VORKATH_ENUMLIST_FILTER_FLETCHINGMATERIALS) {
 // group:Hide drops
 // enum:["Adamantite ore","Coins","Grapes","Magic logs","Manta ray","Dragon bones","Diamond","Dragonstone","Wrath talisman"]
 #define VAR_VORKATH_ENUMLIST_FILTER_OTHER ["Grapes","Wrath talisman"]
-CONST_VORKATH_IF (name:VAR_VORKATH_ENUMLIST_FILTER_OTHER) {
+CONST_VORKATH_RULE (name:VAR_VORKATH_ENUMLIST_FILTER_OTHER) {
   hidden = true;
 }
 
@@ -62,7 +62,7 @@ CONST_VORKATH_IF (name:VAR_VORKATH_ENUMLIST_FILTER_OTHER) {
 // group:Hide drops
 // enum:["Scaly blue dragonhide","Vorkath's head","Brimstone key","Dragonbone necklace","Jar of decay","Vorki","Draconic visage","Skeletal visage"]
 #define VAR_VORKATH_ENUMLIST_FILTER_TERTIARY ["Scaly blue dragonhide"]
-CONST_VORKATH_IF (name:VAR_VORKATH_ENUMLIST_FILTER_TERTIARY) {
+CONST_VORKATH_RULE (name:VAR_VORKATH_ENUMLIST_FILTER_TERTIARY) {
   hidden = true;
 }
 

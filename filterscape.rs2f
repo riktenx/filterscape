@@ -9,6 +9,22 @@ meta {
 
 
 // module:README
+
+#define LIB_BROWN       "#d2b287"
+#define LIB_LIGHT_BROWN "#af6025"
+#define LIB_ORANGE      "#f05a23"
+#define LIB_CARAMEL     "#f99619"
+#define LIB_GOLD        "#d59f00"
+#define LIB_BURGUNDY    "#350d0d"
+#define LIB_DARK_GREEN  "#09600d"
+#define LIB_KHAKI       "#beb287"
+
+#define LIB_COLOR2(_fg) textColor = _fg; borderColor = _fg;
+#define LIB_COLOR3(_fg, _bg) textColor = _fg; borderColor = _fg; backgroundColor = _bg;
+#define LIB_HIDE1(_name) if (name:_name && quantity:==1) { hidden = true; }
+#define LIB_DARK_BG(_name, _color) if (name:_name) { color = _color; borderColor = _color; backgroundColor = BLACK; }
+#define LIB_TEXT_HIGHLIGHT(_name, _color) if (name:_name) { color = _color; textAccent = 2; }
+
 // endmodule:README
 
 
@@ -3339,28 +3355,6 @@ CONST_POTION_HIGHLIGHT("*bastion potion*", "#db721c", VAR_POTION_BASTION_USERSTY
 
 
 // module:value
-
-// FIXME
-meta {
-  name = "riktenx/filterscape";
-}
-
-// FIXME
-#define LIB_BROWN       "#d2b287"
-#define LIB_LIGHT_BROWN "#af6025"
-#define LIB_ORANGE      "#f05a23"
-#define LIB_CARAMEL     "#f99619"
-#define LIB_GOLD        "#d59f00"
-#define LIB_BURGUNDY    "#350d0d"
-#define LIB_DARK_GREEN  "#09600d"
-#define LIB_KHAKI       "#beb287"
-
-// FIXME
-#define LIB_COLOR2(_fg) textColor = _fg; borderColor = _fg;
-#define LIB_COLOR3(_fg, _bg) textColor = _fg; borderColor = _fg; backgroundColor = _bg;
-#define LIB_HIDE1(_name) if (name:_name && quantity:==1) { hidden = true; }
-#define LIB_DARK_BG(_name, _color) if (name:_name) { color = _color; borderColor = _color; backgroundColor = BLACK; }
-#define LIB_TEXT_HIGHLIGHT(_name, _color) if (name:_name) { color = _color; textAccent = 2; }
 
 #define VAR_VALUE_T9_ENABLED false
 #define VAR_VALUE_T8_ENABLED false

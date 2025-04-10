@@ -1,5 +1,14 @@
 // module:Kree'arra
 
+
+// group:General
+// label:Hide coin drops from bodyguards
+#define VAR_KREEARRA_BOOLEAN_GENERAL_BGHIDECOINS true
+CONST_KREEARRA_IF (VAR_KREEARRA_BOOLEAN_GENERAL_BGHIDECOINS && name:"coins" && quantity:<=1100) {
+  hidden = true;
+}
+
+
 #define CONST_AREA_KREEARRA [2823,5295,2,2843,5309,2]
 #define CONST_KREEARRA_IF(_cond) if (area:CONST_AREA_KREEARRA && (_cond))
 
@@ -7,17 +16,9 @@
 
 // label:100%
 // group:Hide drops
-// enum:["Big bones","Feather","Frozen key piece (armadyl)"]
-#define VAR_KREEARRA_ENUMLIST_FILTER_100 []
+// enum:["Big bones","Feather","Frozen key piece (armadyl)","Bones"]
+#define VAR_KREEARRA_ENUMLIST_FILTER_100 ["Big bones","Feather","Bones"]
 CONST_KREEARRA_IF (name:VAR_KREEARRA_ENUMLIST_FILTER_100) {
-  hidden = true;
-}
-
-// label:Uniques
-// group:Hide drops
-// enum:["Armadyl helmet","Armadyl chestplate","Armadyl chainskirt","Armadyl hilt","Godsword shard 1","Godsword shard 2","Godsword shard 3"]
-#define VAR_KREEARRA_ENUMLIST_FILTER_UNIQUES []
-CONST_KREEARRA_IF (name:VAR_KREEARRA_ENUMLIST_FILTER_UNIQUES) {
   hidden = true;
 }
 
@@ -49,9 +50,27 @@ CONST_KREEARRA_IF (name:VAR_KREEARRA_ENUMLIST_FILTER_OTHER) {
 
 // label:Tertiary
 // group:Hide drops
-// enum:["Brimstone key","Long bone","Pet kree'arra","Curved bone"]
+// enum:["Brimstone key","Long bone","Pet kree'arra","Curved bone","Frozen key piece (armadyl)"]
 #define VAR_KREEARRA_ENUMLIST_FILTER_TERTIARY []
 CONST_KREEARRA_IF (name:VAR_KREEARRA_ENUMLIST_FILTER_TERTIARY) {
+  hidden = true;
+}
+
+
+
+// label:=Food and ammunition=
+// group:Hide drops
+// enum:["Steel arrow","Steel dart","Smoke rune","Manta ray","Mushroom potato"]
+#define VAR_KREEARRA_ENUMLIST_FILTER_FOODANDAMMUNITION ["Steel arrow","Steel dart","Smoke rune"]
+CONST_KREEARRA_IF (name:VAR_KREEARRA_ENUMLIST_FILTER_FOODANDAMMUNITION) {
+  hidden = true;
+}
+
+// label:=Other=
+// group:Hide drops
+// enum:["Coins","Crushed nest","Grimy kwuarm"]
+#define VAR_KREEARRA_ENUMLIST_FILTER_OTHER []
+CONST_KREEARRA_IF (name:VAR_KREEARRA_ENUMLIST_FILTER_OTHER) {
   hidden = true;
 }
 

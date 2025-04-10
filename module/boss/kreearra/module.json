@@ -3,31 +3,27 @@
   "rs2fPath": "module.rs2f",
   "inputs": [
     {
-      "type": "enumlist",
-      "group": "Hide drops",
-      "label": "100%",
-      "macroName": "VAR_KREEARRA_ENUMLIST_FILTER_100",
-      "default": [],
-      "enum": [
-        "Big bones",
-        "Feather",
-        "Frozen key piece (armadyl)"
-      ]
+      "type": "boolean",
+      "group": "General",
+      "label": "Hide coin drops from bodyguards",
+      "macroName": "VAR_KREEARRA_BOOLEAN_GENERAL_BGHIDECOINS",
+      "default": true
     },
     {
       "type": "enumlist",
       "group": "Hide drops",
-      "label": "Uniques",
-      "macroName": "VAR_KREEARRA_ENUMLIST_FILTER_UNIQUES",
-      "default": [],
+      "label": "100%",
+      "macroName": "VAR_KREEARRA_ENUMLIST_FILTER_100",
+      "default": [
+        "Big bones",
+        "Feather",
+        "Bones"
+      ],
       "enum": [
-        "Armadyl helmet",
-        "Armadyl chestplate",
-        "Armadyl chainskirt",
-        "Armadyl hilt",
-        "Godsword shard 1",
-        "Godsword shard 2",
-        "Godsword shard 3"
+        "Big bones",
+        "Feather",
+        "Frozen key piece (armadyl)",
+        "Bones"
       ]
     },
     {
@@ -80,7 +76,38 @@
         "Brimstone key",
         "Long bone",
         "Pet kree'arra",
-        "Curved bone"
+        "Curved bone",
+        "Frozen key piece (armadyl)"
+      ]
+    },
+    {
+      "type": "enumlist",
+      "group": "Hide drops",
+      "label": "=Food and ammunition=",
+      "macroName": "VAR_KREEARRA_ENUMLIST_FILTER_FOODANDAMMUNITION",
+      "default": [
+        "Steel arrow",
+        "Steel dart",
+        "Smoke rune"
+      ],
+      "enum": [
+        "Steel arrow",
+        "Steel dart",
+        "Smoke rune",
+        "Manta ray",
+        "Mushroom potato"
+      ]
+    },
+    {
+      "type": "enumlist",
+      "group": "Hide drops",
+      "label": "=Other=",
+      "macroName": "VAR_KREEARRA_ENUMLIST_FILTER_OTHER",
+      "default": [],
+      "enum": [
+        "Coins",
+        "Crushed nest",
+        "Grimy kwuarm"
       ]
     }
   ]

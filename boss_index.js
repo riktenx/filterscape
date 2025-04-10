@@ -40,7 +40,45 @@ const index = [
   {
     name: "Kree'arra",
     area: [2823, 5295, 2, 2843, 5309, 2],
-    url: 'https://oldschool.runescape.wiki/w/Kree%27arra',
+    url: [
+      'https://oldschool.runescape.wiki/w/Kree%27arra',
+      'https://oldschool.runescape.wiki/w/Flight_Kilisa',
+      'https://oldschool.runescape.wiki/w/Wingman_Skree',
+      'https://oldschool.runescape.wiki/w/Flockleader_Geerin',
+    ],
+    transform: {
+      updateDropTable: (table) => {
+        delete table['Uniques'];
+        delete table['Unique table'];
+        delete table['Godsword shard table'];
+
+      },
+      getDefaults: (_) => {
+        return {
+          "100%": [
+            "Big bones",
+            "Feather",
+            "Bones"
+          ],
+          "=Food and ammunition=": [
+            "Steel arrow",
+            "Steel dart",
+            "Smoke rune",
+          ],
+        };
+      },
+      preScript: () => {
+        return `
+// group:General
+// label:Hide coin drops from bodyguards
+#define VAR_KREEARRA_BOOLEAN_GENERAL_BGHIDECOINS true
+CONST_KREEARRA_IF (VAR_KREEARRA_BOOLEAN_GENERAL_BGHIDECOINS && name:"coins" && quantity:<=1100) {
+  hidden = true;
+}
+`;
+      },
+
+    },
   },
   {
     name: 'Commander Zilyana',

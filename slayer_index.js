@@ -154,6 +154,31 @@ const index = [
   {
     name: 'Abyssal demon',
     url: 'https://oldschool.runescape.wiki/w/Abyssal_demon',
+    transform: {
+      getDefaults: () => {
+        return {
+          "=Weapons and armour=": [
+            "Black sword",
+            "Steel battleaxe",
+            "Black axe",
+            "Mithril kiteshield",
+          ],
+          "=Runes=": [
+            "Air rune",
+            "Chaos rune",
+            "Blood rune",
+            "Law rune",
+          ],
+          "=Materials=": [
+            "Pure essence",
+            "Adamantite bar",
+          ],
+          "=Coins=": [
+            "Coins",
+          ],
+        };
+      },
+    },
   },
 ];
 

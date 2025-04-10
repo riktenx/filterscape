@@ -17,7 +17,12 @@
       "group": "Hide drops",
       "label": "=Weapons and armour=",
       "macroName": "VAR_ABYSSALDEMON_ENUMLIST_FILTER_WEAPONSANDARMOUR",
-      "default": [],
+      "default": [
+        "Black sword",
+        "Steel battleaxe",
+        "Black axe",
+        "Mithril kiteshield"
+      ],
       "enum": [
         "Black sword",
         "Steel battleaxe",
@@ -34,7 +39,12 @@
       "group": "Hide drops",
       "label": "=Runes=",
       "macroName": "VAR_ABYSSALDEMON_ENUMLIST_FILTER_RUNES",
-      "default": [],
+      "default": [
+        "Air rune",
+        "Chaos rune",
+        "Blood rune",
+        "Law rune"
+      ],
       "enum": [
         "Air rune",
         "Chaos rune",
@@ -47,7 +57,10 @@
       "group": "Hide drops",
       "label": "=Materials=",
       "macroName": "VAR_ABYSSALDEMON_ENUMLIST_FILTER_MATERIALS",
-      "default": [],
+      "default": [
+        "Pure essence",
+        "Adamantite bar"
+      ],
       "enum": [
         "Pure essence",
         "Adamantite bar"
@@ -58,7 +71,9 @@
       "group": "Hide drops",
       "label": "=Coins=",
       "macroName": "VAR_ABYSSALDEMON_ENUMLIST_FILTER_COINS",
-      "default": [],
+      "default": [
+        "Coins"
+      ],
       "enum": [
         "Coins"
       ]

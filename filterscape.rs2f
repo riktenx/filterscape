@@ -588,7 +588,7 @@ CONST_ABYSSALDEMON_IF (name:VAR_ABYSSALDEMON_ENUMLIST_FILTER_100) {
 // label:=Weapons and armour=
 // group:Hide drops
 // enum:["Black sword","Steel battleaxe","Black axe","Mithril kiteshield","Rune chainbody","Rune med helm","Abyssal whip","Abyssal dagger"]
-#define VAR_ABYSSALDEMON_ENUMLIST_FILTER_WEAPONSANDARMOUR []
+#define VAR_ABYSSALDEMON_ENUMLIST_FILTER_WEAPONSANDARMOUR ["Black sword","Steel battleaxe","Black axe","Mithril kiteshield"]
 CONST_ABYSSALDEMON_IF (name:VAR_ABYSSALDEMON_ENUMLIST_FILTER_WEAPONSANDARMOUR) {
   hidden = true;
 }
@@ -596,7 +596,7 @@ CONST_ABYSSALDEMON_IF (name:VAR_ABYSSALDEMON_ENUMLIST_FILTER_WEAPONSANDARMOUR) {
 // label:=Runes=
 // group:Hide drops
 // enum:["Air rune","Chaos rune","Blood rune","Law rune"]
-#define VAR_ABYSSALDEMON_ENUMLIST_FILTER_RUNES []
+#define VAR_ABYSSALDEMON_ENUMLIST_FILTER_RUNES ["Air rune","Chaos rune","Blood rune","Law rune"]
 CONST_ABYSSALDEMON_IF (name:VAR_ABYSSALDEMON_ENUMLIST_FILTER_RUNES) {
   hidden = true;
 }
@@ -606,7 +606,7 @@ CONST_ABYSSALDEMON_IF (name:VAR_ABYSSALDEMON_ENUMLIST_FILTER_RUNES) {
 // label:=Materials=
 // group:Hide drops
 // enum:["Pure essence","Adamantite bar"]
-#define VAR_ABYSSALDEMON_ENUMLIST_FILTER_MATERIALS []
+#define VAR_ABYSSALDEMON_ENUMLIST_FILTER_MATERIALS ["Pure essence","Adamantite bar"]
 CONST_ABYSSALDEMON_IF (name:VAR_ABYSSALDEMON_ENUMLIST_FILTER_MATERIALS) {
   hidden = true;
 }
@@ -614,7 +614,7 @@ CONST_ABYSSALDEMON_IF (name:VAR_ABYSSALDEMON_ENUMLIST_FILTER_MATERIALS) {
 // label:=Coins=
 // group:Hide drops
 // enum:["Coins"]
-#define VAR_ABYSSALDEMON_ENUMLIST_FILTER_COINS []
+#define VAR_ABYSSALDEMON_ENUMLIST_FILTER_COINS ["Coins"]
 CONST_ABYSSALDEMON_IF (name:VAR_ABYSSALDEMON_ENUMLIST_FILTER_COINS) {
   hidden = true;
 }

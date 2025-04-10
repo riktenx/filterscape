@@ -58,7 +58,7 @@ CONST_KREEARRA_IF (name:VAR_KREEARRA_ENUMLIST_FILTER_TERTIARY) {
 
 
 
-// label:=Food and ammunition=
+// label:Food and ammunition
 // group:Hide drops
 // enum:["Steel arrow","Steel dart","Smoke rune","Manta ray","Mushroom potato"]
 #define VAR_KREEARRA_ENUMLIST_FILTER_FOODANDAMMUNITION ["Steel arrow","Steel dart","Smoke rune"]
@@ -66,7 +66,7 @@ CONST_KREEARRA_IF (name:VAR_KREEARRA_ENUMLIST_FILTER_FOODANDAMMUNITION) {
   hidden = true;
 }
 
-// label:=Other=
+// label:Other
 // group:Hide drops
 // enum:["Coins","Crushed nest","Grimy kwuarm"]
 #define VAR_KREEARRA_ENUMLIST_FILTER_OTHER []

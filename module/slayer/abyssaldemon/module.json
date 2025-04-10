@@ -5,7 +5,7 @@
     {
       "type": "enumlist",
       "group": "Hide drops",
-      "label": "=100%=",
+      "label": "100%",
       "macroName": "VAR_ABYSSALDEMON_ENUMLIST_FILTER_100",
       "default": [],
       "enum": [
@@ -15,7 +15,7 @@
     {
       "type": "enumlist",
       "group": "Hide drops",
-      "label": "=Weapons and armour=",
+      "label": "Weapons and armour",
       "macroName": "VAR_ABYSSALDEMON_ENUMLIST_FILTER_WEAPONSANDARMOUR",
       "default": [
         "Black sword",
@@ -37,7 +37,7 @@
     {
       "type": "enumlist",
       "group": "Hide drops",
-      "label": "=Runes=",
+      "label": "Runes",
       "macroName": "VAR_ABYSSALDEMON_ENUMLIST_FILTER_RUNES",
       "default": [
         "Air rune",
@@ -55,7 +55,7 @@
     {
       "type": "enumlist",
       "group": "Hide drops",
-      "label": "=Materials=",
+      "label": "Materials",
       "macroName": "VAR_ABYSSALDEMON_ENUMLIST_FILTER_MATERIALS",
       "default": [
         "Pure essence",
@@ -69,7 +69,7 @@
     {
       "type": "enumlist",
       "group": "Hide drops",
-      "label": "=Coins=",
+      "label": "Coins",
       "macroName": "VAR_ABYSSALDEMON_ENUMLIST_FILTER_COINS",
       "default": [
         "Coins"
@@ -81,7 +81,7 @@
     {
       "type": "enumlist",
       "group": "Hide drops",
-      "label": "=Other=",
+      "label": "Other",
       "macroName": "VAR_ABYSSALDEMON_ENUMLIST_FILTER_OTHER",
       "default": [],
       "enum": [
@@ -94,7 +94,7 @@
     {
       "type": "enumlist",
       "group": "Hide drops",
-      "label": "=Tertiary=",
+      "label": "Tertiary",
       "macroName": "VAR_ABYSSALDEMON_ENUMLIST_FILTER_TERTIARY",
       "default": [],
       "enum": [

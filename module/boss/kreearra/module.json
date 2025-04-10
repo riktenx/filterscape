@@ -83,7 +83,7 @@
     {
       "type": "enumlist",
       "group": "Hide drops",
-      "label": "=Food and ammunition=",
+      "label": "Food and ammunition",
       "macroName": "VAR_KREEARRA_ENUMLIST_FILTER_FOODANDAMMUNITION",
       "default": [
         "Steel arrow",
@@ -101,7 +101,7 @@
     {
       "type": "enumlist",
       "group": "Hide drops",
-      "label": "=Other=",
+      "label": "Other",
       "macroName": "VAR_KREEARRA_ENUMLIST_FILTER_OTHER",
       "default": [],
       "enum": [

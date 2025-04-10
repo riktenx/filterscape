@@ -5,7 +5,7 @@
     {
       "type": "enumlist",
       "group": "Hide drops",
-      "label": "=100%=",
+      "label": "100%",
       "macroName": "VAR_DUSTDEVIL_ENUMLIST_FILTER_100",
       "default": [
         "Bones"
@@ -17,7 +17,7 @@
     {
       "type": "enumlist",
       "group": "Hide drops",
-      "label": "=Weapons and armour=",
+      "label": "Weapons and armour",
       "macroName": "VAR_DUSTDEVIL_ENUMLIST_FILTER_WEAPONSANDARMOUR",
       "default": [
         "Adamant axe",
@@ -44,7 +44,7 @@
     {
       "type": "enumlist",
       "group": "Hide drops",
-      "label": "=Runes and ammunition=",
+      "label": "Runes and ammunition",
       "macroName": "VAR_DUSTDEVIL_ENUMLIST_FILTER_RUNESANDAMMUNITION",
       "default": [
         "Rune arrow"
@@ -61,7 +61,7 @@
     {
       "type": "enumlist",
       "group": "Hide drops",
-      "label": "=Other=",
+      "label": "Other",
       "macroName": "VAR_DUSTDEVIL_ENUMLIST_FILTER_OTHER",
       "default": [
         "Ugthanki kebab"
@@ -77,7 +77,7 @@
     {
       "type": "enumlist",
       "group": "Hide drops",
-      "label": "=Tertiary=",
+      "label": "Tertiary",
       "macroName": "VAR_DUSTDEVIL_ENUMLIST_FILTER_TERTIARY",
       "default": [],
       "enum": [

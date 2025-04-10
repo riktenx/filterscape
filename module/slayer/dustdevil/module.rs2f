@@ -9,7 +9,7 @@
 
 
 
-// label:=100%=
+// label:100%
 // group:Hide drops
 // enum:["Bones"]
 #define VAR_DUSTDEVIL_ENUMLIST_FILTER_100 ["Bones"]
@@ -17,7 +17,7 @@ CONST_DUSTDEVIL_IF (name:VAR_DUSTDEVIL_ENUMLIST_FILTER_100) {
   hidden = true;
 }
 
-// label:=Weapons and armour=
+// label:Weapons and armour
 // group:Hide drops
 // enum:["Adamant axe","Rune dagger","Red d'hide vambraces","Black d'hide vambraces","Air battlestaff","Earth battlestaff","Mystic air staff","Mystic earth staff","Dragon dagger","Dust battlestaff","Dragon chainbody"]
 #define VAR_DUSTDEVIL_ENUMLIST_FILTER_WEAPONSANDARMOUR ["Adamant axe","Rune dagger","Red d'hide vambraces","Black d'hide vambraces","Air battlestaff","Earth battlestaff"]
@@ -25,7 +25,7 @@ CONST_DUSTDEVIL_IF (name:VAR_DUSTDEVIL_ENUMLIST_FILTER_WEAPONSANDARMOUR) {
   hidden = true;
 }
 
-// label:=Runes and ammunition=
+// label:Runes and ammunition
 // group:Hide drops
 // enum:["Dust rune","Earth rune","Fire rune","Chaos rune","Rune arrow","Soul rune"]
 #define VAR_DUSTDEVIL_ENUMLIST_FILTER_RUNESANDAMMUNITION ["Rune arrow"]
@@ -35,7 +35,7 @@ CONST_DUSTDEVIL_IF (name:VAR_DUSTDEVIL_ENUMLIST_FILTER_RUNESANDAMMUNITION) {
 
 
 
-// label:=Other=
+// label:Other
 // group:Hide drops
 // enum:["Nothing","Coins","Ugthanki kebab","Mithril bar","Adamantite bar"]
 #define VAR_DUSTDEVIL_ENUMLIST_FILTER_OTHER ["Ugthanki kebab"]
@@ -45,7 +45,7 @@ CONST_DUSTDEVIL_IF (name:VAR_DUSTDEVIL_ENUMLIST_FILTER_OTHER) {
 
 
 
-// label:=Tertiary=
+// label:Tertiary
 // group:Hide drops
 // enum:["Brimstone key"]
 #define VAR_DUSTDEVIL_ENUMLIST_FILTER_TERTIARY []

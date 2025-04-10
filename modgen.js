@@ -87,7 +87,8 @@ export const generateRs2f = (name, area, dropTable, transform) => {
       : [];
     const jvalue = JSON.stringify(items);
     const ident = toMacroIdent(category);
-    return `// label:${category}
+    // some categories parse with additional = surrounding the mediawiki section, just chop that off for now
+    return `// label:${category.startsWith('=') ? category.substring(1, category.length - 1) : category}
 // group:Hide drops
 // enum:${jvalue}
 #define VAR_${moduleScope}_ENUMLIST_FILTER_${ident} ${JSON.stringify(defaults)}

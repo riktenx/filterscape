@@ -30,7 +30,7 @@ const header = `
 // !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
 meta {
-  name = "[default]";
+  name = "[default: FilterScape]";
 }
 `;
 

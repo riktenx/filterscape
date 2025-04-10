@@ -289,7 +289,7 @@ CONST_VYRE_IF (name:VAR_VYRE_ENUMLIST_FILTER_TERTIARY) {
 // label:Weapons and armour
 // group:Hide drops
 // enum:["Steel axe","Mithril kiteshield","Lava battlestaff","Adamant platelegs","Rune full helm","Mystic robe bottom (dark)"]
-#define VAR_ABERRANTSPECTRE_ENUMLIST_FILTER_WEAPONSANDARMOUR []
+#define VAR_ABERRANTSPECTRE_ENUMLIST_FILTER_WEAPONSANDARMOUR ["Steel axe","Mithril kiteshield","Adamant platelegs"]
 CONST_ABERRANTSPECTRE_IF (name:VAR_ABERRANTSPECTRE_ENUMLIST_FILTER_WEAPONSANDARMOUR) {
   hidden = true;
 }
@@ -301,28 +301,12 @@ CONST_ABERRANTSPECTRE_IF (name:VAR_ABERRANTSPECTRE_ENUMLIST_FILTER_WEAPONSANDARM
 // label:Coins
 // group:Hide drops
 // enum:["Coins"]
-#define VAR_ABERRANTSPECTRE_ENUMLIST_FILTER_COINS []
+#define VAR_ABERRANTSPECTRE_ENUMLIST_FILTER_COINS ["Coins"]
 CONST_ABERRANTSPECTRE_IF (name:VAR_ABERRANTSPECTRE_ENUMLIST_FILTER_COINS) {
   hidden = true;
 }
 
-// label:Other
-// group:Hide drops
-// enum:["Nothing"]
-#define VAR_ABERRANTSPECTRE_ENUMLIST_FILTER_OTHER []
-CONST_ABERRANTSPECTRE_IF (name:VAR_ABERRANTSPECTRE_ENUMLIST_FILTER_OTHER) {
-  hidden = true;
-}
 
-
-
-// label:Tertiary
-// group:Hide drops
-// enum:["Clue scroll (elite)","Reward casket (elite)","Brimstone key"]
-#define VAR_ABERRANTSPECTRE_ENUMLIST_FILTER_TERTIARY []
-CONST_ABERRANTSPECTRE_IF (name:VAR_ABERRANTSPECTRE_ENUMLIST_FILTER_TERTIARY) {
-  hidden = true;
-}
 
 // endmodule:Aberrant spectre
 

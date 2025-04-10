@@ -46,10 +46,33 @@ const index = [
   {
     name: 'Vyre',
     url: 'https://oldschool.runescape.wiki/w/Vyrewatch_Sentinel',
+    transform: {
+      getDefaults: () => {
+        return {};
+      },
+    },
   },
   {
     name: 'Aberrant spectre',
     url: 'https://oldschool.runescape.wiki/w/Aberrant_spectre',
+    transform: {
+      updateDropTable: (table) => {
+        delete table['Other'];
+        delete table['Tertiary'];
+      },
+      getDefaults: () => {
+        return {
+          "Weapons and armour": [
+            "Steel axe",
+            "Mithril kiteshield",
+            "Adamant platelegs",
+          ],
+          "Coins": [
+            "Coins",
+          ],
+        };
+      },
+    },
   },
   {
     name: 'Dust devil',

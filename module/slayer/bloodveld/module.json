@@ -17,7 +17,13 @@
       "group": "Hide drops",
       "label": "Weapons and armour",
       "macroName": "VAR_BLOODVELD_ENUMLIST_FILTER_WEAPONSANDARMOUR",
-      "default": [],
+      "default": [
+        "Steel axe",
+        "Steel full helm",
+        "Steel scimitar",
+        "Mithril sq shield",
+        "Mithril chainbody"
+      ],
       "enum": [
         "Steel axe",
         "Steel full helm",
@@ -54,7 +60,10 @@
       "group": "Hide drops",
       "label": "Other",
       "macroName": "VAR_BLOODVELD_ENUMLIST_FILTER_OTHER",
-      "default": [],
+      "default": [
+        "Bones",
+        "Meat pizza"
+      ],
       "enum": [
         "Bones",
         "Big bones",

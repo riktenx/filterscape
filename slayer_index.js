@@ -17,6 +17,21 @@ const index = [
         // wiki has a formatting quirk that breaks the parser
         areas['Slayer tower (upstairs)'] = [3404, 3556, 1, 3429, 3579, 1];
       },
+      getDefaults: () => {
+        return {
+          "Weapons and armour": [
+            "Steel axe",
+            "Steel full helm",
+            "Steel scimitar",
+            "Mithril sq shield",
+            "Mithril chainbody",
+          ],
+          "Other": [
+            "Bones",
+            "Meat pizza",
+          ],
+        };
+      },
     },
   },
   {

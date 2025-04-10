@@ -24,7 +24,7 @@ CONST_BLOODVELD_IF (name:VAR_BLOODVELD_ENUMLIST_FILTER_100) {
 // label:Weapons and armour
 // group:Hide drops
 // enum:["Steel axe","Steel full helm","Steel scimitar","Black boots","Mithril sq shield","Mithril chainbody","Rune med helm"]
-#define VAR_BLOODVELD_ENUMLIST_FILTER_WEAPONSANDARMOUR []
+#define VAR_BLOODVELD_ENUMLIST_FILTER_WEAPONSANDARMOUR ["Steel axe","Steel full helm","Steel scimitar","Mithril sq shield","Mithril chainbody"]
 CONST_BLOODVELD_IF (name:VAR_BLOODVELD_ENUMLIST_FILTER_WEAPONSANDARMOUR) {
   hidden = true;
 }
@@ -50,7 +50,7 @@ CONST_BLOODVELD_IF (name:VAR_BLOODVELD_ENUMLIST_FILTER_COINS) {
 // label:Other
 // group:Hide drops
 // enum:["Bones","Big bones","Gold ore","Meat pizza"]
-#define VAR_BLOODVELD_ENUMLIST_FILTER_OTHER []
+#define VAR_BLOODVELD_ENUMLIST_FILTER_OTHER ["Bones","Meat pizza"]
 CONST_BLOODVELD_IF (name:VAR_BLOODVELD_ENUMLIST_FILTER_OTHER) {
   hidden = true;
 }

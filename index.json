@@ -7,6 +7,9 @@
       "modulePath": "module/readme/module.json"
     },
     {
+      "modulePath": "module/defaults/module.json"
+    },
+    {
       "modulePath": "module/highlights/module.json"
     },
     {

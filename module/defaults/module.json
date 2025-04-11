@@ -1,0 +1,19 @@
+{
+  "name": "Defaults",
+  "rs2fPath": "module.rs2f",
+  "description": "Global style defaults. These can be overriden by rules further down.",
+  "inputs": [
+    {
+      "type": "boolean",
+      "macroName": "VAR_DEFAULTS_SHOWICONS",
+      "label": "Show item icons",
+      "default": false
+    },
+    {
+      "type": "style",
+      "macroName": "VAR_DEFAULTS_STYLE",
+      "label": "Default style",
+      "default": {}
+    }
+  ]
+}

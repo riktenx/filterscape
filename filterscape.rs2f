@@ -28,6 +28,22 @@ meta {
 // endmodule:README
 
 
+//module:defaults
+
+#define VAR_DEFAULTS_SHOWICONS false
+#define VAR_DEFAULTS_STYLE
+
+apply (VAR_DEFAULTS_SHOWICONS) {
+  icon = CurrentItem();
+}
+
+apply (true) {
+  VAR_DEFAULTS_STYLE
+}
+
+//endmodule:defaults
+
+
 // module:HIGHLIGHTGROUP
 
 #define VAR_HHGROUP_BOOLEAN_HIGHLIGHT1_ENABLED false

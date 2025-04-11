@@ -9,6 +9,7 @@ const index = {
   description: 'All-in-one loot filter for main account gameplay.',
   modules: [
     { 'modulePath': 'module/readme/module.json' },
+    { 'modulePath': 'module/defaults/module.json' },
     { 'modulePath': 'module/highlights/module.json' },
     { 'modulePath': 'module/hides/module.json' },
     ...slayerIndex,

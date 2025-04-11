@@ -1,5 +1,14 @@
 // module:Gargoyle
 
+
+// group:Hide drops
+// label:Hide non-10k coin drops
+#define VAR_GARGOYLE_BOOLEAN_HIDESMALLCOINS true
+CONST_GARGOYLE_IF (VAR_GARGOYLE_BOOLEAN_HIDESMALLCOINS && name:"Coins" && value:<10_000) {
+  hidden = true;
+}
+
+
 #define CONST_AREA_GARGOYLE0 [3432,3535,2,3446,3548,2] // [[Slayer Tower]] top floor
 #define CONST_AREA_GARGOYLE1 [3427,9928,0,3444,9948,0] // [[Slayer Tower]] basement (Slayer task only)
 #define CONST_GARGOYLE_IF(_cond) if ((area:CONST_AREA_GARGOYLE0 || \
@@ -16,7 +25,7 @@ CONST_GARGOYLE_IF (name:VAR_GARGOYLE_ENUMLIST_FILTER_PREROLL) {
 // label:Weapons and armour
 // group:Hide drops
 // enum:["Adamant platelegs","Rune full helm","Rune 2h sword","Adamant boots","Rune battleaxe","Rune platelegs"]
-#define VAR_GARGOYLE_ENUMLIST_FILTER_WEAPONSANDARMOUR []
+#define VAR_GARGOYLE_ENUMLIST_FILTER_WEAPONSANDARMOUR ["Adamant platelegs","Adamant boots"]
 CONST_GARGOYLE_IF (name:VAR_GARGOYLE_ENUMLIST_FILTER_WEAPONSANDARMOUR) {
   hidden = true;
 }
@@ -24,7 +33,7 @@ CONST_GARGOYLE_IF (name:VAR_GARGOYLE_ENUMLIST_FILTER_WEAPONSANDARMOUR) {
 // label:Runes
 // group:Hide drops
 // enum:["Fire rune","Chaos rune","Death rune"]
-#define VAR_GARGOYLE_ENUMLIST_FILTER_RUNES []
+#define VAR_GARGOYLE_ENUMLIST_FILTER_RUNES ["Fire rune"]
 CONST_GARGOYLE_IF (name:VAR_GARGOYLE_ENUMLIST_FILTER_RUNES) {
   hidden = true;
 }
@@ -32,7 +41,7 @@ CONST_GARGOYLE_IF (name:VAR_GARGOYLE_ENUMLIST_FILTER_RUNES) {
 // label:Materials
 // group:Hide drops
 // enum:["Gold ore","Pure essence","Steel bar","Gold bar","Mithril bar","Runite ore"]
-#define VAR_GARGOYLE_ENUMLIST_FILTER_MATERIALS []
+#define VAR_GARGOYLE_ENUMLIST_FILTER_MATERIALS ["Gold ore","Pure essence","Gold bar"]
 CONST_GARGOYLE_IF (name:VAR_GARGOYLE_ENUMLIST_FILTER_MATERIALS) {
   hidden = true;
 }

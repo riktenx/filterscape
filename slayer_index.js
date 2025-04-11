@@ -150,6 +150,34 @@ const index = [
   {
     name: 'Gargoyle',
     url: 'https://oldschool.runescape.wiki/w/Gargoyle',
+    transform: {
+      getDefaults: () => {
+        return {
+          "Weapons and armour": [
+            "Adamant platelegs",
+            "Adamant boots",
+          ],
+          "Runes": [
+            "Fire rune",
+          ],
+          "Materials": [
+            "Gold ore",
+            "Pure essence",
+            "Gold bar",
+          ],
+        };
+      },
+      preScript: (scope) => {
+        return `
+// group:Hide drops
+// label:Hide non-10k coin drops
+#define VAR_${scope}_BOOLEAN_HIDESMALLCOINS true
+CONST_${scope}_IF (VAR_${scope}_BOOLEAN_HIDESMALLCOINS && name:"Coins" && value:<10_000) {
+  hidden = true;
+}
+`;
+      },
+    }
   },
   {
     name: 'Abyssal demon',

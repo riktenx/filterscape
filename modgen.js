@@ -60,12 +60,12 @@ export const generateRs2f = (name, area, dropTable, transform) => {
   rs2f += `// module:${name}`;
   rs2f += '\n\n';
 
+  const moduleScope = toMacroIdent(name);
   if (!!transform.preScript) {
-    rs2f += transform.preScript();
+    rs2f += transform.preScript(moduleScope);
     rs2f += '\n\n';
   }
 
-  const moduleScope = toMacroIdent(name);
   if (typeof area[0] === 'number') {
     const areaDefine = JSON.stringify(area);
     rs2f += `#define CONST_AREA_${moduleScope} ${areaDefine}`;

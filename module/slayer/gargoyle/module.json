@@ -3,6 +3,13 @@
   "rs2fPath": "module.rs2f",
   "inputs": [
     {
+      "type": "boolean",
+      "group": "Hide drops",
+      "label": "Hide non-10k coin drops",
+      "macroName": "VAR_GARGOYLE_BOOLEAN_HIDESMALLCOINS",
+      "default": true
+    },
+    {
       "type": "enumlist",
       "group": "Hide drops",
       "label": "Pre-roll",
@@ -18,7 +25,10 @@
       "group": "Hide drops",
       "label": "Weapons and armour",
       "macroName": "VAR_GARGOYLE_ENUMLIST_FILTER_WEAPONSANDARMOUR",
-      "default": [],
+      "default": [
+        "Adamant platelegs",
+        "Adamant boots"
+      ],
       "enum": [
         "Adamant platelegs",
         "Rune full helm",
@@ -33,7 +43,9 @@
       "group": "Hide drops",
       "label": "Runes",
       "macroName": "VAR_GARGOYLE_ENUMLIST_FILTER_RUNES",
-      "default": [],
+      "default": [
+        "Fire rune"
+      ],
       "enum": [
         "Fire rune",
         "Chaos rune",
@@ -45,7 +57,11 @@
       "group": "Hide drops",
       "label": "Materials",
       "macroName": "VAR_GARGOYLE_ENUMLIST_FILTER_MATERIALS",
-      "default": [],
+      "default": [
+        "Gold ore",
+        "Pure essence",
+        "Gold bar"
+      ],
       "enum": [
         "Gold ore",
         "Pure essence",

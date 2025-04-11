@@ -18,10 +18,10 @@ const index = {
     { "modulePath": "module/toa/module.json" },
     { "modulePath": "module/unique/module.json" },
     { "modulePath": "module/potion/module.json" },
+    { "modulePath": "module/clue/module.json" },
+    { "modulePath": "module/herb/module.json" },
     { "modulePath": "module/value/module.json" },
     { "modulePath": "module/currency/module.json" },
-    { "modulePath": "module/clue/module.json" },
-    { "modulePath": "module/herb/module.json" }
   ],
 }
 

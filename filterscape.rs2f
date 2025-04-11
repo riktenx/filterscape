@@ -3382,6 +3382,101 @@ CONST_POTION_HIGHLIGHT("*bastion potion*", "#db721c", VAR_POTION_BASTION_USERSTY
 // endmodule:potion
 
 
+// module:clue
+
+#define CONST_CLUE_DEFAULTBG             "#beb287"
+#define CONST_CLUE_BEGINNER_DEFAULTCOLOR "#ffffff"
+#define CONST_CLUE_EASY_DEFAULTCOLOR     "#09600d"
+#define CONST_CLUE_MEDIUM_DEFAULTCOLOR   "#569699"
+#define CONST_CLUE_HARD_DEFAULTCOLOR     "#833798"
+#define CONST_CLUE_ELITE_DEFAULTCOLOR    "#bda518"
+#define CONST_CLUE_MASTER_DEFAULTCOLOR   "#9b3026"
+
+#define VAR_CLUE_HIDE []
+
+#define VAR_CLUE_BEGINNER_CUSTOMSTYLE 
+#define VAR_CLUE_EASY_CUSTOMSTYLE 
+#define VAR_CLUE_MEDIUM_CUSTOMSTYLE 
+#define VAR_CLUE_HARD_CUSTOMSTYLE 
+#define VAR_CLUE_ELITE_CUSTOMSTYLE 
+#define VAR_CLUE_MASTER_CUSTOMSTYLE 
+
+if (name:VAR_CLUE_HIDE) { hidden = true; }
+
+apply (name:["clue scroll*", "reward casket*", "challenge scroll*"]) {
+  backgroundColor = CONST_CLUE_DEFAULTBG;
+}
+
+if (name:["clue scroll (beginner)", "reward casket (beginner)", "challenge scroll (beginner)"]) {
+  LIB_COLOR2(CONST_CLUE_BEGINNER_DEFAULTCOLOR)
+  VAR_CLUE_BEGINNER_CUSTOMSTYLE
+}
+if (name:["clue scroll (easy)", "reward casket (easy)", "challenge scroll (easy)"]) {
+  LIB_COLOR2(CONST_CLUE_EASY_DEFAULTCOLOR)
+  VAR_CLUE_EASY_CUSTOMSTYLE
+}
+if (name:["clue scroll (medium)", "reward casket (medium)", "challenge scroll (medium)"]) {
+  LIB_COLOR2(CONST_CLUE_MEDIUM_DEFAULTCOLOR)
+  VAR_CLUE_MEDIUM_CUSTOMSTYLE
+}
+if (name:["clue scroll (hard)", "reward casket (hard)", "challenge scroll (hard)"]) {
+  LIB_COLOR2(CONST_CLUE_HARD_DEFAULTCOLOR)
+  VAR_CLUE_HARD_CUSTOMSTYLE
+}
+if (name:["clue scroll (elite)", "reward casket (elite)", "challenge scroll (elite)"]) {
+  LIB_COLOR2(CONST_CLUE_ELITE_DEFAULTCOLOR)
+  VAR_CLUE_ELITE_CUSTOMSTYLE
+}
+if (name:["clue scroll (master)", "reward casket (master)", "challenge scroll (master)"]) {
+  LIB_COLOR2(CONST_CLUE_MASTER_DEFAULTCOLOR)
+  VAR_CLUE_MASTER_CUSTOMSTYLE
+}
+
+// endmodule:clue
+
+
+// module:herb
+
+#define CONST_HERB_HERBS [\
+  "*guam leaf",\
+  "*marrentill",\
+  "*tarromin",\
+  "*harralander",\
+  "*ranarr weed",\
+  "*toadflax",\
+  "*irit leaf",\
+  "*avantoe",\
+  "*kwuarm",\
+  "*huasca",\
+  "*snapdragon",\
+  "*cadantine",\
+  "*lantadyme",\
+  "*dwarf weed",\
+  "*torstol",\
+]
+
+#define CONST_HERB_DEFAULTCOLOR GREEN
+
+#define VAR_HERB_MINVALUE 0
+#define VAR_HERB_SHOW []
+#define VAR_HERB_HIDE []
+#define VAR_HERB_CUSTOMSTYLE 
+
+apply (name:CONST_HERB_HERBS) {
+  textColor = CONST_HERB_DEFAULTCOLOR;
+  VAR_HERB_CUSTOMSTYLE
+}
+
+apply (name:CONST_HERB_HERBS && value:<VAR_HERB_MINVALUE) { hidden = true; }
+
+if (name:VAR_HERB_SHOW) { hidden = false; }
+if (name:VAR_HERB_HIDE) { hidden = true; }
+
+if (name:CONST_HERB_HERBS) {}
+
+// endmodule:herb
+
+
 // module:value
 
 #define VAR_VALUE_T9_ENABLED false
@@ -3500,98 +3595,3 @@ if ((name:CONST_CURRENCY_ITEMS || name:VAR_CURRENCY_ADD) && !name:VAR_CURRENCY_N
 }
 
 // endmodule:currency
-
-
-// module:clue
-
-#define CONST_CLUE_DEFAULTBG             "#beb287"
-#define CONST_CLUE_BEGINNER_DEFAULTCOLOR "#ffffff"
-#define CONST_CLUE_EASY_DEFAULTCOLOR     "#09600d"
-#define CONST_CLUE_MEDIUM_DEFAULTCOLOR   "#569699"
-#define CONST_CLUE_HARD_DEFAULTCOLOR     "#833798"
-#define CONST_CLUE_ELITE_DEFAULTCOLOR    "#bda518"
-#define CONST_CLUE_MASTER_DEFAULTCOLOR   "#9b3026"
-
-#define VAR_CLUE_HIDE []
-
-#define VAR_CLUE_BEGINNER_CUSTOMSTYLE 
-#define VAR_CLUE_EASY_CUSTOMSTYLE 
-#define VAR_CLUE_MEDIUM_CUSTOMSTYLE 
-#define VAR_CLUE_HARD_CUSTOMSTYLE 
-#define VAR_CLUE_ELITE_CUSTOMSTYLE 
-#define VAR_CLUE_MASTER_CUSTOMSTYLE 
-
-if (name:VAR_CLUE_HIDE) { hidden = true; }
-
-apply (name:["clue scroll*", "reward casket*", "challenge scroll*"]) {
-  backgroundColor = CONST_CLUE_DEFAULTBG;
-}
-
-if (name:["clue scroll (beginner)", "reward casket (beginner)", "challenge scroll (beginner)"]) {
-  LIB_COLOR2(CONST_CLUE_BEGINNER_DEFAULTCOLOR)
-  VAR_CLUE_BEGINNER_CUSTOMSTYLE
-}
-if (name:["clue scroll (easy)", "reward casket (easy)", "challenge scroll (easy)"]) {
-  LIB_COLOR2(CONST_CLUE_EASY_DEFAULTCOLOR)
-  VAR_CLUE_EASY_CUSTOMSTYLE
-}
-if (name:["clue scroll (medium)", "reward casket (medium)", "challenge scroll (medium)"]) {
-  LIB_COLOR2(CONST_CLUE_MEDIUM_DEFAULTCOLOR)
-  VAR_CLUE_MEDIUM_CUSTOMSTYLE
-}
-if (name:["clue scroll (hard)", "reward casket (hard)", "challenge scroll (hard)"]) {
-  LIB_COLOR2(CONST_CLUE_HARD_DEFAULTCOLOR)
-  VAR_CLUE_HARD_CUSTOMSTYLE
-}
-if (name:["clue scroll (elite)", "reward casket (elite)", "challenge scroll (elite)"]) {
-  LIB_COLOR2(CONST_CLUE_ELITE_DEFAULTCOLOR)
-  VAR_CLUE_ELITE_CUSTOMSTYLE
-}
-if (name:["clue scroll (master)", "reward casket (master)", "challenge scroll (master)"]) {
-  LIB_COLOR2(CONST_CLUE_MASTER_DEFAULTCOLOR)
-  VAR_CLUE_MASTER_CUSTOMSTYLE
-}
-
-// endmodule:clue
-
-
-// module:herb
-
-#define CONST_HERB_HERBS [\
-  "*guam leaf",\
-  "*marrentill",\
-  "*tarromin",\
-  "*harralander",\
-  "*ranarr weed",\
-  "*toadflax",\
-  "*irit leaf",\
-  "*avantoe",\
-  "*kwuarm",\
-  "*huasca",\
-  "*snapdragon",\
-  "*cadantine",\
-  "*lantadyme",\
-  "*dwarf weed",\
-  "*torstol",\
-]
-
-#define CONST_HERB_DEFAULTCOLOR GREEN
-
-#define VAR_HERB_MINVALUE 0
-#define VAR_HERB_SHOW []
-#define VAR_HERB_HIDE []
-#define VAR_HERB_CUSTOMSTYLE 
-
-apply (name:CONST_HERB_HERBS) {
-  textColor = CONST_HERB_DEFAULTCOLOR;
-  VAR_HERB_CUSTOMSTYLE
-}
-
-apply (name:CONST_HERB_HERBS && value:<VAR_HERB_MINVALUE) { hidden = true; }
-
-if (name:VAR_HERB_SHOW) { hidden = false; }
-if (name:VAR_HERB_HIDE) { hidden = true; }
-
-if (name:CONST_HERB_HERBS) {}
-
-// endmodule:herb

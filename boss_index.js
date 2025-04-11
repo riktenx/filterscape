@@ -1,5 +1,15 @@
 import { cmdGenerateModGroup } from './cmd.js';
 
+const useAllowlist = (list) => {
+  return (table) => {
+    const excludes = {};
+    for (const [category, items] of Object.entries(table)) {
+      excludes[category] = items.filter(item => !list.includes(item));
+    }
+    return excludes;
+  };
+};
+
 const index = [
   // skip: barrows (they don't drop anything)
   {
@@ -25,6 +35,34 @@ const index = [
       'https://oldschool.runescape.wiki/w/Dagannoth_Prime',
       'https://oldschool.runescape.wiki/w/Dagannoth_Supreme',
     ],
+    transform: {
+      getDefaults: useAllowlist([
+        // 100%
+        "Dagannoth bones",
+        // Weapons and armour
+        "Dragon axe",
+        "Berserker ring",
+        "Warrior ring",
+        "Mud battlestaff",
+        "Battlestaff",
+        "Seers ring",
+        "Archers ring",
+        "Archer helm",
+        "Farseer helm",
+        "Seercull",
+        "Mithril knife",
+        "Iron knife",
+        "Steel knife",
+        // Ores and bars
+        "Coal",
+        "Iron ore",
+        "Steel bar",
+        // Talismans (noted)
+        "Earth talisman",
+        "Air talisman",
+        "Water talisman",
+      ]),
+    },
   },
   {
     name: 'Sarachnis',

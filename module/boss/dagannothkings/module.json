@@ -7,7 +7,9 @@
       "group": "Hide drops",
       "label": "100%",
       "macroName": "VAR_DAGANNOTHKINGS_ENUMLIST_FILTER_100",
-      "default": [],
+      "default": [
+        "Dagannoth hide"
+      ],
       "enum": [
         "Dagannoth bones",
         "Dagannoth hide"
@@ -18,7 +20,32 @@
       "group": "Hide drops",
       "label": "Weapons and armour",
       "macroName": "VAR_DAGANNOTHKINGS_ENUMLIST_FILTER_WEAPONSANDARMOUR",
-      "default": [],
+      "default": [
+        "Steel kiteshield",
+        "Mithril warhammer",
+        "Adamant axe",
+        "Steel platebody",
+        "Mithril pickaxe",
+        "Adamant platebody",
+        "Fremennik blade",
+        "Rune axe",
+        "Fremennik shield",
+        "Fremennik helm",
+        "Mithril 2h sword",
+        "Ring of life",
+        "Rock-shell plate",
+        "Rock-shell legs",
+        "Earth battlestaff",
+        "Water battlestaff",
+        "Air battlestaff",
+        "Skeletal top",
+        "Skeletal bottoms",
+        "Red d'hide vambraces",
+        "Rune thrownaxe",
+        "Adamant dart",
+        "Spined body",
+        "Spined chaps"
+      ],
       "enum": [
         "Steel kiteshield",
         "Mithril warhammer",
@@ -64,7 +91,15 @@
       "group": "Hide drops",
       "label": "Potions",
       "macroName": "VAR_DAGANNOTHKINGS_ENUMLIST_FILTER_POTIONS",
-      "default": [],
+      "default": [
+        "Antifire potion(2)",
+        "Prayer potion(2)",
+        "Restore potion(2)",
+        "Super attack(2)",
+        "Super strength(2)",
+        "Super defence(2)",
+        "Zamorak brew(2)"
+      ],
       "enum": [
         "Antifire potion(2)",
         "Prayer potion(2)",
@@ -80,7 +115,10 @@
       "group": "Hide drops",
       "label": "Ores and bars",
       "macroName": "VAR_DAGANNOTHKINGS_ENUMLIST_FILTER_ORESANDBARS",
-      "default": [],
+      "default": [
+        "Mithril ore",
+        "Adamantite bar"
+      ],
       "enum": [
         "Mithril ore",
         "Adamantite bar",
@@ -94,7 +132,20 @@
       "group": "Hide drops",
       "label": "Other",
       "macroName": "VAR_DAGANNOTHKINGS_ENUMLIST_FILTER_OTHER",
-      "default": [],
+      "default": [
+        "Coins",
+        "Grimy ranarr weed",
+        "Bass",
+        "Swordfish",
+        "Shark",
+        "Oyster pearls",
+        "Pure essence",
+        "Opal bolt tips",
+        "Yew logs",
+        "Maple logs",
+        "Runite limbs",
+        "Feather"
+      ],
       "enum": [
         "Coins",
         "Grimy ranarr weed",
@@ -115,7 +166,13 @@
       "group": "Hide drops",
       "label": "Tertiary",
       "macroName": "VAR_DAGANNOTHKINGS_ENUMLIST_FILTER_TERTIARY",
-      "default": [],
+      "default": [
+        "Ensouled dagannoth head",
+        "Brimstone key",
+        "Pet dagannoth rex",
+        "Pet dagannoth prime",
+        "Pet dagannoth supreme"
+      ],
       "enum": [
         "Ensouled dagannoth head",
         "Brimstone key",
@@ -129,7 +186,15 @@
       "group": "Hide drops",
       "label": "Runes",
       "macroName": "VAR_DAGANNOTHKINGS_ENUMLIST_FILTER_RUNES",
-      "default": [],
+      "default": [
+        "Air rune",
+        "Earth rune",
+        "Blood rune",
+        "Law rune",
+        "Nature rune",
+        "Mud rune",
+        "Death rune"
+      ],
       "enum": [
         "Air rune",
         "Earth rune",
@@ -157,7 +222,11 @@
       "group": "Hide drops",
       "label": "Ammunition",
       "macroName": "VAR_DAGANNOTHKINGS_ENUMLIST_FILTER_AMMUNITION",
-      "default": [],
+      "default": [
+        "Steel arrow",
+        "Runite bolts",
+        "Iron arrow"
+      ],
       "enum": [
         "Steel arrow",
         "Runite bolts",

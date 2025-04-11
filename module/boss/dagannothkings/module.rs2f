@@ -6,7 +6,7 @@
 // label:100%
 // group:Hide drops
 // enum:["Dagannoth bones","Dagannoth hide"]
-#define VAR_DAGANNOTHKINGS_ENUMLIST_FILTER_100 []
+#define VAR_DAGANNOTHKINGS_ENUMLIST_FILTER_100 ["Dagannoth hide"]
 CONST_DAGANNOTHKINGS_IF (name:VAR_DAGANNOTHKINGS_ENUMLIST_FILTER_100) {
   hidden = true;
 }
@@ -14,7 +14,7 @@ CONST_DAGANNOTHKINGS_IF (name:VAR_DAGANNOTHKINGS_ENUMLIST_FILTER_100) {
 // label:Weapons and armour
 // group:Hide drops
 // enum:["Steel kiteshield","Mithril warhammer","Adamant axe","Steel platebody","Mithril pickaxe","Adamant platebody","Fremennik blade","Dragon axe","Rune axe","Fremennik shield","Fremennik helm","Mithril 2h sword","Ring of life","Rock-shell plate","Rock-shell legs","Berserker ring","Warrior ring","Earth battlestaff","Water battlestaff","Air battlestaff","Battlestaff","Mud battlestaff","Farseer helm","Skeletal top","Skeletal bottoms","Seers ring","Mithril knife","Red d'hide vambraces","Rune thrownaxe","Adamant dart","Iron knife","Steel knife","Seercull","Archer helm","Spined body","Spined chaps","Archers ring"]
-#define VAR_DAGANNOTHKINGS_ENUMLIST_FILTER_WEAPONSANDARMOUR []
+#define VAR_DAGANNOTHKINGS_ENUMLIST_FILTER_WEAPONSANDARMOUR ["Steel kiteshield","Mithril warhammer","Adamant axe","Steel platebody","Mithril pickaxe","Adamant platebody","Fremennik blade","Rune axe","Fremennik shield","Fremennik helm","Mithril 2h sword","Ring of life","Rock-shell plate","Rock-shell legs","Earth battlestaff","Water battlestaff","Air battlestaff","Skeletal top","Skeletal bottoms","Red d'hide vambraces","Rune thrownaxe","Adamant dart","Spined body","Spined chaps"]
 CONST_DAGANNOTHKINGS_IF (name:VAR_DAGANNOTHKINGS_ENUMLIST_FILTER_WEAPONSANDARMOUR) {
   hidden = true;
 }
@@ -22,7 +22,7 @@ CONST_DAGANNOTHKINGS_IF (name:VAR_DAGANNOTHKINGS_ENUMLIST_FILTER_WEAPONSANDARMOU
 // label:Potions
 // group:Hide drops
 // enum:["Antifire potion(2)","Prayer potion(2)","Restore potion(2)","Super attack(2)","Super strength(2)","Super defence(2)","Zamorak brew(2)"]
-#define VAR_DAGANNOTHKINGS_ENUMLIST_FILTER_POTIONS []
+#define VAR_DAGANNOTHKINGS_ENUMLIST_FILTER_POTIONS ["Antifire potion(2)","Prayer potion(2)","Restore potion(2)","Super attack(2)","Super strength(2)","Super defence(2)","Zamorak brew(2)"]
 CONST_DAGANNOTHKINGS_IF (name:VAR_DAGANNOTHKINGS_ENUMLIST_FILTER_POTIONS) {
   hidden = true;
 }
@@ -30,7 +30,7 @@ CONST_DAGANNOTHKINGS_IF (name:VAR_DAGANNOTHKINGS_ENUMLIST_FILTER_POTIONS) {
 // label:Ores and bars
 // group:Hide drops
 // enum:["Mithril ore","Adamantite bar","Coal","Iron ore","Steel bar"]
-#define VAR_DAGANNOTHKINGS_ENUMLIST_FILTER_ORESANDBARS []
+#define VAR_DAGANNOTHKINGS_ENUMLIST_FILTER_ORESANDBARS ["Mithril ore","Adamantite bar"]
 CONST_DAGANNOTHKINGS_IF (name:VAR_DAGANNOTHKINGS_ENUMLIST_FILTER_ORESANDBARS) {
   hidden = true;
 }
@@ -40,7 +40,7 @@ CONST_DAGANNOTHKINGS_IF (name:VAR_DAGANNOTHKINGS_ENUMLIST_FILTER_ORESANDBARS) {
 // label:Other
 // group:Hide drops
 // enum:["Coins","Grimy ranarr weed","Bass","Swordfish","Shark","Oyster pearls","Pure essence","Opal bolt tips","Yew logs","Maple logs","Runite limbs","Feather"]
-#define VAR_DAGANNOTHKINGS_ENUMLIST_FILTER_OTHER []
+#define VAR_DAGANNOTHKINGS_ENUMLIST_FILTER_OTHER ["Coins","Grimy ranarr weed","Bass","Swordfish","Shark","Oyster pearls","Pure essence","Opal bolt tips","Yew logs","Maple logs","Runite limbs","Feather"]
 CONST_DAGANNOTHKINGS_IF (name:VAR_DAGANNOTHKINGS_ENUMLIST_FILTER_OTHER) {
   hidden = true;
 }
@@ -50,7 +50,7 @@ CONST_DAGANNOTHKINGS_IF (name:VAR_DAGANNOTHKINGS_ENUMLIST_FILTER_OTHER) {
 // label:Tertiary
 // group:Hide drops
 // enum:["Ensouled dagannoth head","Brimstone key","Pet dagannoth rex","Pet dagannoth prime","Pet dagannoth supreme"]
-#define VAR_DAGANNOTHKINGS_ENUMLIST_FILTER_TERTIARY []
+#define VAR_DAGANNOTHKINGS_ENUMLIST_FILTER_TERTIARY ["Ensouled dagannoth head","Brimstone key","Pet dagannoth rex","Pet dagannoth prime","Pet dagannoth supreme"]
 CONST_DAGANNOTHKINGS_IF (name:VAR_DAGANNOTHKINGS_ENUMLIST_FILTER_TERTIARY) {
   hidden = true;
 }
@@ -58,7 +58,7 @@ CONST_DAGANNOTHKINGS_IF (name:VAR_DAGANNOTHKINGS_ENUMLIST_FILTER_TERTIARY) {
 // label:Runes
 // group:Hide drops
 // enum:["Air rune","Earth rune","Blood rune","Law rune","Nature rune","Mud rune","Death rune"]
-#define VAR_DAGANNOTHKINGS_ENUMLIST_FILTER_RUNES []
+#define VAR_DAGANNOTHKINGS_ENUMLIST_FILTER_RUNES ["Air rune","Earth rune","Blood rune","Law rune","Nature rune","Mud rune","Death rune"]
 CONST_DAGANNOTHKINGS_IF (name:VAR_DAGANNOTHKINGS_ENUMLIST_FILTER_RUNES) {
   hidden = true;
 }
@@ -76,7 +76,7 @@ CONST_DAGANNOTHKINGS_IF (name:VAR_DAGANNOTHKINGS_ENUMLIST_FILTER_TALISMANSNOTED)
 // label:Ammunition
 // group:Hide drops
 // enum:["Steel arrow","Runite bolts","Iron arrow"]
-#define VAR_DAGANNOTHKINGS_ENUMLIST_FILTER_AMMUNITION []
+#define VAR_DAGANNOTHKINGS_ENUMLIST_FILTER_AMMUNITION ["Steel arrow","Runite bolts","Iron arrow"]
 CONST_DAGANNOTHKINGS_IF (name:VAR_DAGANNOTHKINGS_ENUMLIST_FILTER_AMMUNITION) {
   hidden = true;
 }

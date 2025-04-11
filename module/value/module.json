@@ -1,7 +1,7 @@
 {
   "name": "Item values",
   "rs2fPath": "module.rs2f",
-  "description": "1. test1\n1. test2\n1. test3",
+  "description": "# CAUTION\n\nThese rules can be invasive.\n\nThese value rules override everything that comes after them. MOST items in RuneScape have a value associated with them. Therefore, if you put use lower values for your thresholds, they will start to override other modules below this one in ways you might not expect.",
   "inputs": [
     { "macroName": "VAR_VALUE_T5_VALUE", "label": "T5: Min value", "type": "number", "default": 100000000, "group": "t5" },
     { "macroName": "VAR_VALUE_T4_VALUE", "label": "T4: Min value", "type": "number", "default": 10000000, "group": "t4" },

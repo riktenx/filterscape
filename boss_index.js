@@ -36,6 +36,12 @@ const index = [
       'https://oldschool.runescape.wiki/w/Dagannoth_Supreme',
     ],
     transform: {
+      updateDropTable: (table) => {
+        table["Tertiary"] = [
+          "Ensouled dagannoth head",
+          "Brimstone key",
+        ];
+      },
       getDefaults: useAllowlist([
         // 100%
         "Dagannoth bones",
@@ -61,6 +67,9 @@ const index = [
         "Earth talisman",
         "Air talisman",
         "Water talisman",
+        // Tertiary
+        "Ensouled dagannoth head",
+        "Brimstone key",
       ]),
     },
   },

@@ -885,8 +885,8 @@ CONST_DAGANNOTHKINGS_IF (name:VAR_DAGANNOTHKINGS_ENUMLIST_FILTER_OTHER) {
 
 // label:Tertiary
 // group:Hide drops
-// enum:["Ensouled dagannoth head","Brimstone key","Pet dagannoth rex","Pet dagannoth prime","Pet dagannoth supreme"]
-#define VAR_DAGANNOTHKINGS_ENUMLIST_FILTER_TERTIARY ["Ensouled dagannoth head","Brimstone key","Pet dagannoth rex","Pet dagannoth prime","Pet dagannoth supreme"]
+// enum:["Ensouled dagannoth head","Brimstone key"]
+#define VAR_DAGANNOTHKINGS_ENUMLIST_FILTER_TERTIARY []
 CONST_DAGANNOTHKINGS_IF (name:VAR_DAGANNOTHKINGS_ENUMLIST_FILTER_TERTIARY) {
   hidden = true;
 }

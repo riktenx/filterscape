@@ -10,29 +10,29 @@
 #define VAR_COX_HIGHLIGHT []
 #define VAR_COX_HIGHLIGHT_USERSTYLE 
 
-if (name:VAR_COX_HIGHLIGHT) {
+rule (name:VAR_COX_HIGHLIGHT) {
   VAR_COX_HIGHLIGHT_USERSTYLE
 }
 
-if (name:"overload*") {
+rule (name:"overload*") {
   textColor = "#1e88e5";
   textAccent = 4;
   VAR_COX_OVL_USERSTYLE
 }
 
-if (name:"prayer enhance*") {
+rule (name:"prayer enhance*") {
   textColor = "#ff00ff";
   textAccent = 4;
   VAR_COX_PEH_USERSTYLE
 }
 
-if (name:"revitalisation*") {
+rule (name:"revitalisation*") {
   textColor = "#e91e63";
   textAccent = 4;
   VAR_COX_REV_USERSTYLE
 }
 
-if (name:"xeric's aid*") {
+rule (name:"xeric's aid*") {
   textColor = "#ffff00";
   textAccent = 4;
   VAR_COX_XER_USERSTYLE

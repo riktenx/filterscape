@@ -119,7 +119,7 @@ const index = [
 // group:General
 // label:Hide coin drops from bodyguards
 #define VAR_KREEARRA_BOOLEAN_GENERAL_BGHIDECOINS true
-CONST_KREEARRA_IF (VAR_KREEARRA_BOOLEAN_GENERAL_BGHIDECOINS && name:"coins" && quantity:<=1100) {
+CONST_KREEARRA_RULE (VAR_KREEARRA_BOOLEAN_GENERAL_BGHIDECOINS && name:"coins" && quantity:<=1100) {
   hidden = true;
 }
 `;
@@ -243,10 +243,10 @@ CONST_KREEARRA_IF (VAR_KREEARRA_BOOLEAN_GENERAL_BGHIDECOINS && name:"coins" && q
 #define VAR_VORKATH_BOOLEAN_GENERAL_NOHIDE true
 // label:Hide superior dragon bones (why?)
 #define VAR_VORKATH_BOOLEAN_GENERAL_NOBONE false
-CONST_VORKATH_IF (VAR_VORKATH_BOOLEAN_GENERAL_NOHIDE && name:"Blue dragonhide" && noted:false) {
+CONST_VORKATH_RULE (VAR_VORKATH_BOOLEAN_GENERAL_NOHIDE && name:"Blue dragonhide" && noted:false) {
   hidden = true;
 }
-CONST_VORKATH_IF (VAR_VORKATH_BOOLEAN_GENERAL_NOBONE && name:"Superior dragon bones" && noted:false) {
+CONST_VORKATH_RULE (VAR_VORKATH_BOOLEAN_GENERAL_NOBONE && name:"Superior dragon bones" && noted:false) {
   hidden = true;
 }`;
       },

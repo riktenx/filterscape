@@ -1,13 +1,13 @@
 // module:Kraken
 
 #define CONST_AREA_KRAKEN [2268,10021,0,2292,10045,0]
-#define CONST_KRAKEN_IF(_cond) if (area:CONST_AREA_KRAKEN && (_cond))
+#define CONST_KRAKEN_RULE(_cond) rule (area:CONST_AREA_KRAKEN && (_cond))
 
 // label:Weapons and armour
 // group:Hide drops
 // enum:["Mystic water staff","Rune warhammer","Rune longsword","Mystic robe top","Mystic robe bottom","Trident of the seas (full)"]
 #define VAR_KRAKEN_ENUMLIST_FILTER_WEAPONSANDARMOUR []
-CONST_KRAKEN_IF (name:VAR_KRAKEN_ENUMLIST_FILTER_WEAPONSANDARMOUR) {
+CONST_KRAKEN_RULE (name:VAR_KRAKEN_ENUMLIST_FILTER_WEAPONSANDARMOUR) {
   hidden = true;
 }
 
@@ -15,7 +15,7 @@ CONST_KRAKEN_IF (name:VAR_KRAKEN_ENUMLIST_FILTER_WEAPONSANDARMOUR) {
 // group:Hide drops
 // enum:["Water rune","Mist rune","Chaos rune","Death rune","Blood rune","Soul rune"]
 #define VAR_KRAKEN_ENUMLIST_FILTER_RUNES []
-CONST_KRAKEN_IF (name:VAR_KRAKEN_ENUMLIST_FILTER_RUNES) {
+CONST_KRAKEN_RULE (name:VAR_KRAKEN_ENUMLIST_FILTER_RUNES) {
   hidden = true;
 }
 
@@ -23,7 +23,7 @@ CONST_KRAKEN_IF (name:VAR_KRAKEN_ENUMLIST_FILTER_RUNES) {
 // group:Hide drops
 // enum:["Watermelon seed","Torstol seed","Magic seed"]
 #define VAR_KRAKEN_ENUMLIST_FILTER_SEEDS []
-CONST_KRAKEN_IF (name:VAR_KRAKEN_ENUMLIST_FILTER_SEEDS) {
+CONST_KRAKEN_RULE (name:VAR_KRAKEN_ENUMLIST_FILTER_SEEDS) {
   hidden = true;
 }
 
@@ -31,7 +31,7 @@ CONST_KRAKEN_IF (name:VAR_KRAKEN_ENUMLIST_FILTER_SEEDS) {
 // group:Hide drops
 // enum:["Seaweed","Battlestaff","Unpowered orb","Diamond","Oak plank","Runite bar","Raw shark","Raw monkfish","Grimy snapdragon"]
 #define VAR_KRAKEN_ENUMLIST_FILTER_MATERIALS []
-CONST_KRAKEN_IF (name:VAR_KRAKEN_ENUMLIST_FILTER_MATERIALS) {
+CONST_KRAKEN_RULE (name:VAR_KRAKEN_ENUMLIST_FILTER_MATERIALS) {
   hidden = true;
 }
 
@@ -39,7 +39,7 @@ CONST_KRAKEN_IF (name:VAR_KRAKEN_ENUMLIST_FILTER_MATERIALS) {
 // group:Hide drops
 // enum:["Coins","Shark","Pirate boots","Sanfew serum(4)","Edible seaweed","Harpoon","Bucket","Crystal key","Rusty sword","Antidote++(4)","Dragonstone ring","Kraken tentacle"]
 #define VAR_KRAKEN_ENUMLIST_FILTER_OTHER []
-CONST_KRAKEN_IF (name:VAR_KRAKEN_ENUMLIST_FILTER_OTHER) {
+CONST_KRAKEN_RULE (name:VAR_KRAKEN_ENUMLIST_FILTER_OTHER) {
   hidden = true;
 }
 
@@ -49,7 +49,7 @@ CONST_KRAKEN_IF (name:VAR_KRAKEN_ENUMLIST_FILTER_OTHER) {
 // group:Hide drops
 // enum:["Brimstone key","Jar of dirt","Pet kraken"]
 #define VAR_KRAKEN_ENUMLIST_FILTER_TERTIARY []
-CONST_KRAKEN_IF (name:VAR_KRAKEN_ENUMLIST_FILTER_TERTIARY) {
+CONST_KRAKEN_RULE (name:VAR_KRAKEN_ENUMLIST_FILTER_TERTIARY) {
   hidden = true;
 }
 

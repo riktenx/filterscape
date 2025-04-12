@@ -172,7 +172,7 @@ const index = [
 // group:Hide drops
 // label:Hide non-10k coin drops
 #define VAR_${scope}_BOOLEAN_HIDESMALLCOINS true
-CONST_${scope}_IF (VAR_${scope}_BOOLEAN_HIDESMALLCOINS && name:"Coins" && value:<10_000) {
+CONST_${scope}_RULE (VAR_${scope}_BOOLEAN_HIDESMALLCOINS && name:"Coins" && value:<10_000) {
   hidden = true;
 }
 `;

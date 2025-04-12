@@ -10,6 +10,7 @@
     { "macroName": "VAR_VALUE_T0_VALUE", "label": "T0: Min value", "type": "number", "default": 10000, "group": "t0" },
     { "macroName": "VAR_VALUE_T5_CUSTOMSTYLE", "label": "T5: Display", "type": "style",
       "group": "t5",
+      "exampleItem": "Divine Orb",
       "default": {
         "textColor": "#ff0000",
         "borderColor": "#ff0000",

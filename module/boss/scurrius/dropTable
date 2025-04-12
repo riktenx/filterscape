@@ -1,0 +1,41 @@
+{
+  "100%": [
+    "Big bones",
+    "Raw rat meat"
+  ],
+  "Equipment": [
+    "Adamant platebody",
+    "Rune med helm",
+    "Rune full helm",
+    "Rune sq shield",
+    "Rune chainbody",
+    "Rune battleaxe"
+  ],
+  "Runes and ammunition": [
+    "Adamant arrow",
+    "Rune arrow",
+    "Chaos rune",
+    "Death rune",
+    "Law rune"
+  ],
+  "Food and potions": [
+    "Trout",
+    "Tuna",
+    "Shark",
+    "Lobster",
+    "Ranging potion(1)",
+    "Super strength(1)",
+    "Cheese",
+    "Prayer potion(4)"
+  ],
+  "Other": [
+    "Coins",
+    "Scurrius' spine"
+  ],
+  "Tertiary drops": [
+    "Scurrius' spine",
+    "Long bone",
+    "Curved bone",
+    "Scurry"
+  ]
+}

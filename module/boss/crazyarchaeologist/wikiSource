@@ -1,0 +1,193 @@
+{{Confuse|Deranged archaeologist}}
+{{HasStrategy}}
+{{Infobox Monster
+|name = Crazy archaeologist
+|image = [[File:Crazy archaeologist.png|120px]]
+|release = [[13 March]] [[2014]]
+|update = Rejuvenating the Wilderness: More risk, more reward
+|members = Yes
+|combat = 204
+|size = 1
+|examine = When academics go bad...
+|xpbonus = 25
+|max hit = 14 (standard), 24 (special)
+|aggressive = Yes
+|poisonous = No
+|attack style = [[Ranged]], [[Crush]]
+|attack speed = 3
+|slayxp = 275
+|cat = Bosses
+|assignedby = krystilia,konar,nieve,duradel
+|hitpoints = 225
+|att = 160
+|str = 90
+|def = 240
+|mage = 1
+|range = 180
+|attbns = 250
+|strbns = 25
+|amagic = 0
+|mbns = 0
+|arange = 75
+|rngbns = -15
+|dstab = 5
+|dslash = 5
+|dcrush = 30
+|dmagic = 250
+|drange = 250
+|immunepoison = No
+|immunevenom = No
+|immunecannon = No
+|immunethrall = No
+|respawn = 15
+|id = 6618
+}}
+[[File:Crazy archaeologist chathead.png|left]]
+'''Bellock''', the '''crazy archaeologist''', is an insane [[Human|individual]] and [[boss]] who resides in the [[Ruins (west)|ruins]] south of [[The Forgotten Cemetery]] (level 23 Wilderness). He uses [[Ranged]] and [[melee]] attacks and can perform a [[special attack]] where he throws explosive books that explode in a 3x3 area.
+
+Bellock is one of the three [[Wilderness#Bosses|Wilderness bosses]] that drop one of three shards of the [[malediction ward]] and [[odium ward]]. He is particularly popular with low and mid-level ironmen due to his fairly common [[rune crossbow]] drop and relative ease compared to acquiring it from other sources.
+
+The [[deranged archaeologist]] also counts towards a '''crazy archaeologist''' boss [[Slayer task]]. He '''cannot''' be killed as an alternative if the [[Wilderness]] is specified as the task location when the task is received from [[Krystilia]] or [[Konar quo Maten]].
+
+==Location==
+{{LocTableHead|league=yes}}
+{{LocLine
+|name = Crazy archaeologist
+|location = [[Ruins (west)]]
+|levels = 204
+|members = Yes
+|mapID = 0
+|plane = 0
+|x:2977,y:3702
+|mtype = pin
+|leagueRegion = wilderness
+}}
+{{LocTableBottom}}
+
+==Strategy==
+{{main|Crazy archaeologist/Strategies}}
+[[File:Fighting the Crazy archaeologist.png|thumb|left|250px|A player fights Bellock, the crazy archaeologist.]]
+Despite his high [[Magic]] defence, he has a negligible Magic level, and thus has a weakness to Magic. This is because Magic defence is primarily based on one's Magic level.{{CiteTwitter|author=Mod Ash|url=https://twitter.com/JagexAsh/status/636095399070158848|date=25 August 2015|archiveurl=https://archive.is/hiBO6|archivedate=26 May 2020|quote=NPCs' magic defence is calculated off their Magic level, not their Defence level, and his is negligible.}} Use spells, such as [[Iban Blast]], or a staff, such as the [[Trident of the seas]], while [[praying range]] and avoiding his [[special attack]] of explosive books as soon as he says, "''Rain of knowledge!''" The best way to avoid it is by keeping a considerable distance, and running towards him until you are two squares away from him (this way, you will avoid [[Melee]] damage), and repeating the same steps over and over, you will minimise the chance of receiving damage.
+
+The fastest way to get there is by using the spell [[Dareeyak Teleport]] from the [[Ancient Magicks]] spellbook with 78 [[Magic]] or a [[Dareeyak teleport (tablet)|Dareeyak teleport tablet]]. Alternatively a [[burning amulet]] can be used to teleport to bandit camp and run to the ruins. Alternately you can teleport to Trollheim (61 Magic) and take the agility shortcut to the Wilderness, placing you right next to the ruins.
+
+His location in the Wilderness is single target only, so you cannot be attacked by another player as long as you are in combat with the boss.
+
+{{Clear|left}}
+
+==Money making==
+{{Mmgsection|Killing the Crazy archaeologist}}
+
+==Quotes==
+One quote is said every time Bellock attacks the player.
+*"''I'm Bellock - respect me!''"
+*"''Get off my site!''"
+*"''No-one messes with Bellock's dig!''"
+*"''These ruins are mine!''"
+*"''Taste my knowledge!''"
+*"''You belong in a museum!''"
+*"''Rain of knowledge!''" - when using special attack
+*"''Ow!''" - upon death
+
+==Drops==
+{{DropLogProject|jagex=yes}}
+
+{{Average drop value}}
+
+{{Average drop value|brimstone=yes}}
+
+{{Average drop value|Crazy archaeologist|mobname=Crazy archaeologist|wildernessslayer=yes}}
+
+===100%===
+{{DropsTableHead}}
+{{DropsLine|name=Bones|quantity=1|rarity=Always}}
+{{DropsTableBottom}}
+
+===Pre-roll===
+{{DropsTableHead}}
+{{DropsLine|name=Odium shard 2|quantity=1|rarity=1/256|raritynotes=<ref group=d name=shard>The drop rate is 1/256 for a specific shard, or 1/128 for any shard.</ref>}}
+{{DropsLine|name=Malediction shard 2|quantity=1|rarity=1/256|raritynotes=<ref group=d name=shard />}}
+{{DropsTableBottom}}
+{{Reflist|group=d}}
+
+===Weapons and armour===
+{{DropsTableHead}}
+{{DropsLine|name=Amulet of power|quantity=1|rarity=7/128}}
+{{DropsLine|name=Rune crossbow|quantity=2|rarity=5/128}}
+{{DropsLine|name=Red d'hide body|quantity=1|rarity=4/128}}
+{{DropsLine|name=Rune knife|quantity=10|rarity=4/128}}
+{{DropsTableBottom}}
+
+===Runes and ammunition===
+{{DropsTableHead}}
+{{DropsLine|name=Mud rune|quantity=30|rarity=4/128}}
+{{DropsLine|name=Cannonball|quantity=150|rarity=4/128}}
+{{DropsLine|name=Dragon arrow|quantity=75|rarity=1/128}}
+{{DropsTableBottom}}
+
+===Consumables===
+{{DropsTableHead}}
+{{DropsLine|name=Shark|quantity=1|rarity=8/128}}
+{{DropsLine|name=Potato with cheese|quantity=3|rarity=8/128}}
+{{DropsLine|name=Prayer potion(4)|quantity=1|rarity=8/128}}
+{{DropsLine|name=Anchovy pizza|quantity=8 (noted)|rarity=4/128}}
+{{DropsTableBottom}}
+
+===Other===
+{{DropsTableHead}}
+{{DropsLine|name=Coins|quantity=499-3998|rarity=18/128|gemw=No}}
+{{DropsLine|name=Grimy dwarf weed|quantity=4 (noted)|rarity=8/128}}
+{{DropsLine|name=White berries|quantity=10 (noted)|rarity=6/128}}
+{{DropsLine|name=Silver ore|quantity=40 (noted)|rarity=6/128}}
+{{DropsLine|name=Uncut emerald|quantity=6 (noted)|rarity=5/128|raritynotes=<ref name=gems group=d>6 [[uncut emerald]]s are dropped along with 4 [[uncut sapphire]]s.</ref>}}
+{{DropsLine|name=Uncut sapphire|quantity=4 (noted)|rarity=5/128|raritynotes=<ref name=gems group=d />}}
+{{DropsLine|name=Red dragonhide|quantity=10 (noted)|rarity=5/128}}
+{{DropsLine|name=Rusty sword|quantity=1|rarity=4/128|gemw=No}}
+{{DropsLine|name=Muddy key|quantity=1|rarity=4/128}}
+{{DropsLine|name=Onyx bolt tips|quantity=12|rarity=4/128}}
+{{DropsLine|name=Long bone|quantity=1|rarity=2/128|gemw=No}}
+{{DropsTableBottom}}
+{{Reflist|group=d}}
+
+===Rare and Gem drop table===
+{{RareDropTable|4/128|4/128|naturetalisman=yes}}
+
+===Tertiary===
+{{DropsTableHead}}
+{{DropsLine|name=Looting bag|quantity=1|rarity=1/3|gemw=No}}
+{{DropsLine|name=Brimstone key|quantity=1|rarity={{Brimstone rarity|204}}|raritynotes=<ref group=d>Brimstone keys are only dropped while on a [[Slayer task]] given by [[Konar quo Maten]].</ref>|gemw=No|leagueRegion=Wilderness&Kourend}}
+{{DropsLineClue|type=hard|rarity=1/128|altrarity=1/64|raritynotes=<ref group=d>The drop rate of the hard clue scroll increases to 1/64 if a [[Ring of wealth (i)]] is worn.</ref>}}
+{{DropsLine|name=Fedora|quantity=1|rarity=1/128}}
+{{DropsTableBottom}}
+{{Reflist|group=d}}
+
+===Wilderness Slayer tertiary===
+{{WildernessSlayerDropTable|combat=204|hitpoints=225|boss=yes}}
+
+==Combat Achievements==
+{{Sync}}
+{{Combat Achievements list|Crazy Archaeologist}}
+
+==Transcript==
+{{Hastranscript}}
+
+==Changes==
+{{Subject changes header}}
+{{Subject changes
+|date = 27 March 2014
+|update = Wilderness Feedback Update
+|poll = Old School Wilderness Feedback Poll
+|change = Can now drop his [[fedora]] upon death.
+}}
+{{Subject changes footer}}
+
+==Trivia==
+*The name "Bellock" is a reference to {{Wp|List of Indiana Jones characters#René Belloq|Belloq}} from ''{{Wp|Raiders of the Lost Ark|Indiana Jones and the Raiders of the Lost Ark}}''.
+*The phrase, "You belong in a museum!" is a quote from ''[[wikipedia:Indiana Jones and the Last Crusade|Indiana Jones and the Last Crusade]]''.<!-- The quote from the movie says: "That belongs in a museum!" / "So do you!" -->
+*The crazy archaeologist is the only Wilderness boss which does not drop a pet.
+
+==References==
+{{Reflist}}
+
+{{Wilderness bosses}}
+{{Bosses}}

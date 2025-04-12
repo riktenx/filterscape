@@ -1,0 +1,37 @@
+{
+  "100%": [
+    "Big bones",
+    "Mole claw",
+    "Mole skin"
+  ],
+  "Weapons and armour": [
+    "Adamant longsword",
+    "Mithril platebody",
+    "Amulet of strength",
+    "Mithril axe",
+    "Mithril battleaxe",
+    "Rune med helm"
+  ],
+  "Runes and ammunition": [
+    "Air rune",
+    "Blood rune",
+    "Fire rune",
+    "Iron arrow",
+    "Law rune",
+    "Death rune"
+  ],
+  "Other": [
+    "Yew logs",
+    "Shark",
+    "Mithril bar",
+    "Iron ore",
+    "Oyster pearls"
+  ],
+  "Rare and Gem drop table": [],
+  "Tertiary": [
+    "Brimstone key",
+    "Long bone",
+    "Baby mole",
+    "Curved bone"
+  ]
+}

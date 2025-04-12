@@ -1,0 +1,200 @@
+{{External|rs}}
+{{HasTask|Nechryael}}
+{{Otheruses|the normal variant|the stronger variant|Greater Nechryael|the superior variant|Nechryarch}}
+{{Infobox Monster
+|version1 = Normal
+|version2 = Slayer task
+|name = Nechryael
+|image = [[File:Nechryael.png|145px]]
+|release1 = [[26 January]] [[2005]]
+|release2 = [[23 January]] [[2014]]
+|update1 = Slayer Skill
+|update2 = Patch Notes (23 January 2014)
+|members = Yes
+|combat = 115
+|size = 1
+|examine = An evil death demon.
+|attributes = demon
+|xpbonus = 0
+|max hit = 11
+|aggressive = No
+|poisonous = No
+|attack style = [[Crush]]
+|attack speed = 4
+|slaylvl = 80
+|slayxp = 105
+|cat = Nechryael
+|assignedby = krystilia,vannaka,chaeldar,konar,nieve,duradel
+|hitpoints = 105
+|att = 97
+|str = 97
+|def = 105
+|mage = 1
+|range = 1
+|attbns = 0
+|strbns = 0
+|amagic = 0
+|mbns = 0
+|arange = 0
+|rngbns = 0
+|dstab = 20
+|dslash = 20
+|dcrush = 20
+|dmagic = 0
+|drange = 20
+|immunepoison = No
+|immunevenom = No
+|immunecannon = No
+|immunethrall = No
+|id1 = 8
+|id2 = 11
+}}
+[[File:Nechryael icon.png|left]]
+'''Nechryael''' are demonic [[Slayer creature]]s, which require a [[Slayer]] level of 80 in order to harm. They are found in the [[Slayer Tower]], and their stronger variant, [[Greater nechryael]], can be found in the [[Catacombs of Kourend]],  [[Iorwerth Dungeon]], and the [[Wilderness Slayer Cave]]. Nechryael are known for their [[rune boots]] drop, which are one of the few boots to provide a [[Strength#Strength bonus|Strength bonus]] when worn. They are also known for their frequent drop rates of [[seeds]] and combat [[runes]], consider bringing a [[Seed box]] due to the large amount of seed drops.
+
+Commonly, nechryael summon [[death spawn]]s to aid them, up to a limit of two each per nechryael. Death spawns have semi-inaccurate attacks with a max hit of 2, and their attacks can hit through [[Protect from Melee]]. [[Auto-retaliate]] does not work on them, so you will have to click the death spawn to attack it. Death spawns will not be summoned if the nechryael is unable to attack the player back (such as when being [[safespotted]]). The [[Death spawn|death spawns]] will stop attacking any player who moves more than 7 tiles away from them, which is useful when fighting the more powerful [[nechryarch]].
+
+[[Arclight]] can be very effective against nechryael, as they are considered to be demonic creatures. Their stronger variant, [[greater nechryael]], are more commonly killed with [[Ice Burst]] or [[Ice Barrage]] in the [[Catacombs of Kourend]].
+
+==Locations==
+{{LocTableHead|league=yes}}
+{{LocLine
+|name = Nechryael
+|location = [[Slayer Tower]] Top Floor
+|levels = 115
+|members = Yes
+|mapID = 0
+|plane = 2
+|x:3433,y:3570|x:3435,y:3574|x:3437,y:3566|x:3439,y:3570|x:3441,y:3574|x:3443,y:3570|x:3444,y:3566|x:3445,y:3560|x:3446,y:3574|x:3447,y:3563|x:3449,y:3572
+|mtype = pin
+|leagueRegion = Morytania
+}}
+{{LocLine
+|name = Nechryael
+|location = [[Slayer Tower]] Basement
+|levels = 115
+|members = Yes
+|mapID = 14
+|plane = 0
+|x:3403,y:9968|x:3406,y:9961|x:3406,y:9971|x:3407,y:9957|x:3411,y:9961|x:3412,y:9969|x:3413,y:9965|x:3414,y:9954|x:3417,y:9959|x:3417,y:9970|x:3424,y:9960|x:3424,y:9969
+|mtype = pin
+|leagueRegion = Morytania
+}}
+{{LocTableBottom}}
+Nechryaels located in the [[Slayer Tower]] Basement can only be attacked whilst on a Slayer task.
+
+== Safespotting ==
+In the [[Slayer Tower]] there are many tables and buckets, which can easily be used to safespot Nechryael. Safespotting Nechryael prevents them from summoning death spawns and makes the task very easy.
+
+==Drops==
+{{DropLogProject|kills=387181}}
+
+{{Average drop value|mob=Nechryael}}
+
+{{Average drop value|mob=Nechryael|brimstone=yes}}
+
+{{Average drop value|mob=Nechryael|alch=yes}}
+===100%===
+{{DropsTableHead}}
+{{DropsLine|name=Malicious ashes|quantity=1|rarity=Always}}
+{{DropsTableBottom}}
+
+===Weapons and armour===
+{{DropsTableHead}}
+{{DropsLine|name=Adamant platelegs|quantity=1|rarity=4/116}}
+{{DropsLine|name=Rune 2h sword|quantity=1|rarity=4/116}}
+{{DropsLine|name=Rune full helm|quantity=1|rarity=3/116}}
+{{DropsLine|name=Adamant kiteshield|quantity=1|rarity=2/116}}
+{{DropsLine|name=Rune boots|quantity=1|rarity=1/116}}
+{{DropsTableBottom}}
+
+===Runes===
+{{DropsTableHead}}
+{{DropsLine|name=Chaos rune|quantity=37|rarity=8/116}}
+{{DropsLine|name=Death rune|quantity=5|rarity=6/116}}
+{{DropsLine|name=Death rune|quantity=10|rarity=6/116}}
+{{DropsLine|name=Law rune|quantity=25-35|rarity=5/116}}
+{{DropsLine|name=Blood rune|quantity=15-20|rarity=4/116}}
+{{DropsTableBottom}}
+
+===Seeds===
+{{RareSeedDropTableInfo|18/116}} ''When the rare seed table is rolled, it is rolled twice: for example, the "true" rate of Toadflax seeds is about 1/16.2. Additionally, limpwurt seeds are dropped separately, with no special mechanics.''
+{{DropsTableHead}}
+{{DropsLine|name=Limpwurt seed|quantity=1|rarity=6/116}}
+{{RareSeedDropLines|18/116|rolls=2|OverrideSnapeQuantity=3-6}}
+{{DropsTableBottom}}
+
+===Coins===
+{{DropsTableHead}}
+{{DropsLine|name=Coins|quantity=1000-1499|rarity=13/116|gemw=No}}
+{{DropsLine|name=Coins|quantity=1500-2000|rarity=10.5/116|gemw=No}}
+{{DropsLine|name=Coins|quantity=2500-2999|rarity=6/116|gemw=No}}
+{{DropsLine|name=Coins|quantity=3000-3500|rarity=3/116|gemw=No}}
+{{DropsLine|name=Coins|quantity=500-999|rarity=2.5/116|gemw=No}}
+{{DropsLine|name=Coins|quantity=5000|rarity=1/116|gemw=No}}
+{{DropsTableBottom}}
+
+===Other===
+{{DropsTableHead}}
+{{DropsLine|name=Soft clay|quantity=25 (noted)|rarity=4/116}}
+{{DropsLine|name=Tuna|quantity=1|rarity=3/116}}
+{{DropsTableBottom}}
+
+===Rare and Gem drop table===
+{{RareDropTable|1/116|5/116|naturetalisman=yes}}
+
+===Tertiary===
+{{DropsTableHead}}
+{{DropsLine|name=Brimstone key|quantity=1|rarity={{Brimstone rarity|115|bonus=yes}}|raritynotes=<ref group="d">Brimstone keys are only dropped if killed on a [[Slayer task]] given by [[Konar quo Maten]].</ref>|gemw=No|leagueRegion=Morytania&Kourend}}
+{{DropsLineClue|type=hard|rarity=1/128|raritynotes={{CiteTwitter|author=Mod Tide|url=https://twitter.com/JagexTide/status/1131933683714330624|date=24 May 2019|archiveurl=https://archive.fo/WUqwD|archivedate=24 May 2019|quote=I know its been a while since the clue expansion but here is the information on clue scroll drop rates and loot chances! If anything changes I will keep you posted.|name=Clue rates tweet}}}}
+{{DropsTableBottom}}
+{{Reflist|group="d"}}
+
+==Treasure Trails==
+*{{SherlockChallenge|Slaying a nechryael in the [[Slayer Tower]]|master}}
+
+==Changes==
+{{Subject changes header}}
+{{Subject changes
+|date = 16 June 2021
+|update = A Kingdom Divided
+|poll = A Kingdom Divided
+|change = Nechryaels now drop [[malicious ashes]] in place of regular ashes.
+}}
+{{Subject changes
+|date = 23 August 2018
+|update = Bush Yield Improvements, Nordic Soft Launch and Mobile Changes
+|change = The drop of 15 [[limpwurt root]]s (added in the previous drop table rebalance) was changed to a single [[limpwurt seed]] to balance the influx of limpwurt roots coming into the game.
+}}
+{{Subject changes
+|date = 15 September 2016
+|update = Superior Slayer Encounters
+|poll = Old School Content Poll 47: Rewards for Raids & Slayer
+|change = The drop table was improved to include more valuable drops and give two seeds instead of one.
+}}
+{{Subject changes
+|date = 28 April 2016
+|update = Calling Pets & Deadman Death
+|poll = Old School Content Poll 41: Bank placeholders & Skillcapes
+|change = More Nechryael spawns have been added to the Slayer Tower.
+}}
+{{Subject changes
+|date = 24 March 2016
+|update = White & Black Graceful
+|poll = Old School Content Poll 40: Vanilla LootShare & QoL
+|change = A nechryael spawn has been moved to prevent them wandering out of the nechryael room.
+}}
+{{Subject changes
+|daterange = 5 July –<br/>19 September 2005
+|change = The NPC's examine was changed from "An evil undead demon." to "An evil death demon."
+}}
+{{Subject changes footer}}
+
+==Trivia==
+*The model of the nechryael has an inverted pentagram on its chest, this orientation is considered a symbol of evil and is associated with the triumph of matter over spirit.
+
+==References==
+{{Reflist}}
+
+{{Slayer monsters}}
+{{Demons}}

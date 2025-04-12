@@ -1,0 +1,393 @@
+{{Otheruses|the main boss|the weaker boss|Spindel}}
+{{HasStrategy}}
+{{HasTask|Spiders}}
+{{Infobox Monster
+|name = Venenatis
+|image = [[File:Venenatis.png|280px]]
+|release = [[13 March]] [[2014]]
+|update = Rejuvenating the Wilderness: More risk, more reward
+|members = Yes
+|combat = 464
+|size = 4
+|examine = That'll get your arachnophobia going...
+|xpbonus = 12.5
+|max hit = 21 ([[Melee]]), 35 ([[Ranged]]), 30 ([[Magic]])
+|aggressive = Yes
+|poisonous = No
+|attack style = [[Stab]], [[Magic]], [[Ranged]]
+|attack speed = 4
+|slayxp = 956.2
+|cat = Spiders, Bosses
+|assignedby = turael,spria,krystilia,konar,nieve,duradel
+|hitpoints = 850
+|att = 300
+|str = 200
+|def = 321
+|mage = 300
+|range = 350
+|attbns = 0
+|strbns = 0
+|amagic = 0
+|mbns = 0
+|arange = 0
+|rngbns = 0
+|dstab = 100
+|dslash = 100
+|dcrush = 10
+|dmagic = 300
+|drange = 150
+|immunepoison = Yes
+|immunevenom = Yes
+|immunecannon = No
+|immunethrall = No
+|respawn = 10
+|id = 6610
+}}
+'''Venenatis''' is a large spider that resides in the [[Silk Chasm]], at level 35 [[Wilderness]].
+
+According to [[Phabelle Bile]], Venenatis is the last of her kind, who were hunted to extinction by dwarves. 
+
+A [[dwarf multicannon]] cannot be set up in the Silk Chasm; if attempted, you will receive the message: ''It doesn't seem safe to set up a cannon here.''
+
+[[Ironman_Mode|Ironmen]] are eligible for drops from Venenatis when defeating it alongside other players.
+
+==Strategy==
+{{Main|Venenatis/Strategies}}
+Venenatis attacks with [[melee]] towards any player that's adjacent to her, and either [[magic]] or [[ranged]] for any player out of her melee range. Protection prayers will fully block the attacks, however, they will have their effectiveness reduced for every [[Venenatis' Spiderling (monster)|spiderling]] alive in the chamber.
+
+Every four attacks, Venenatis will shuffle to another position in her lair. Every two movements will cause her to alternate between ranged and magic attacks.
+
+When a kill starts, Venenatis begins by summoning two spiderlings, who also increase her max hit along with reducing prayer effectiveness. The spiderlings will drain prayer by 1 for every hit made regardless if it damages or not, however they only have 5 health and players will deal their max hit on them regardless of gear. Venenatis can also launch a sticky web that if stood on, damages and drains prayer by 3 and run energy by 10 every few ticks. Venenatis will always alternate between the spiderlings and the sticky web after moving around twice.
+
+If 5 or more players are in Venenatis' lair, she will move more often and perform a special attack every time she moves, as opposed to every other time.
+
+==Location==
+{{LocTableHead|league=yes}}
+{{LocLine
+|name = Venenatis
+|location = [[Silk Chasm]]
+|levels = 464
+|members = Yes
+|mapID = 0
+|plane = 0
+|x:3319,y:3798
+|mtype = pin
+|leagueRegion = Wilderness
+}}
+{{LocTableBottom}}
+
+==Money making==
+{{Mmgsection|Killing Venenatis}}
+
+==Drops==
+{{DropLogProject|kills=60120}}
+
+The listed quantities are for soloing Venenatis. In group encounters, Venenatis's drops, including uniques, will be split proportionally based on damage done. Up to 10 players may obtain drops per kill in this manner, and each of the top 10 players will receive at least 25% of the solo loot quantity.
+
+{{Average drop value|mob=Venenatis|mobname=solo Venenatis}}
+
+===100%===
+{{DropsTableHead}}
+{{DropsLine|name=Big bones|quantity=1|rarity=Always|raritynotes=<ref group=d>Big bones are dropped for the player who deals the most damage in the fight.</ref>}}
+{{DropsLine|name=Bones|quantity=1|rarity=Always|raritynotes=<ref group=d>Regular bones are dropped for the players who are eligible for drops but did not deal the most damage.</ref>}}
+{{DropsTableBottom}}
+{{Reflist|group=d}}
+
+===Unique===
+''The drop rates for uniques are for each kill, rather than for each player. At most one item from this table is dropped per kill.{{CiteTwitter|author=Mod Ash|url=https://twitter.com/JagexAsh/status/1623969908886315009|date=10 February 2023|archiveurl=https://archive.ph/E66NL|archivedate=10 February 2023|quote=The game decides whether or not one will be dropped from the kill, and then decides which of the rewarded players will receive it, which each player's chance of being that recipient depending on their relative contribution.}}''
+
+''Odds of hitting the unique table ~1/56.67''
+
+{{DropsTableHead}}
+{{DropsLine|name=Fangs of venenatis|quantity=1|rarity=1/196|raritynotes={{CiteNews|title=Poll 78 Updates & More|url=https://secure.runescape.com/m=news/poll-78-updates--more?oldschool=1|newsdate=8 February 2023|name=news}}}}
+{{DropsLine|name=Dragon 2h sword|quantity=1|rarity=1/256|raritynotes=<ref name="news"/>}}
+{{DropsLine|name=Dragon pickaxe|quantity=1|rarity=1/256|raritynotes=<ref name="news"/>}}
+{{DropsLine|name=Voidwaker gem|quantity=1|rarity=1/360|raritynotes=<ref name="news"/>}}
+{{DropsLine|name=Treasonous ring|quantity=1|rarity=1/512|raritynotes=<ref name="news"/>}}
+{{DropsTableBottom}}
+
+===Weapons and armour===
+{{DropsTableHead}}
+{{DropsLine|name=Mystic air staff|quantity=4 (noted)|rarity=2/126}}
+{{DropsLine|name=Rune pickaxe|quantity=5 (noted)|rarity=8/126}}
+{{DropsLine|name=Rune dart|quantity=150|rarity=3/126}}
+{{DropsLine|name=Rune knife|quantity=150|rarity=5/126}}
+{{DropsLine|name=Rune platelegs|quantity=4 (noted)|rarity=2/126}}
+{{DropsLine|name=Rune sq shield|quantity=4 (noted)|rarity=2/126}}
+{{DropsLine|name=Dragon dagger|quantity=6 (noted)|rarity=2/126}}
+{{DropsTableBottom}}
+
+===Runes and ammunition===
+{{DropsTableHead}}
+{{DropsLine|name=Chaos rune|quantity=500|rarity=7/126}}
+{{DropsLine|name=Death rune|quantity=700|rarity=7/126}}
+{{DropsLine|name=Blood rune|quantity=900|rarity=7/126}}
+{{DropsLine|name=Diamond bolts (e)|quantity=300|rarity=5/126}}
+{{DropsLine|name=Cannonball|quantity=600|rarity=4/126}}
+{{DropsTableBottom}}
+
+===Materials===
+{{DropsTableHead}}
+{{DropsLine|name=Uncut ruby|quantity=75 (noted)|rarity=1/126}}
+{{DropsLine|name=Uncut diamond|quantity=35 (noted)|rarity=8/126}}
+{{DropsLine|name=Gold ore|quantity=675 (noted)|rarity=6/126}}
+{{DropsLine|name=Onyx bolt tips|quantity=150|rarity=5/126}}
+{{DropsLine|name=Magic logs|quantity=225 (noted)|rarity=5/126}}
+{{DropsLine|name=Limpwurt root|quantity=100 (noted)|rarity=5/126}}
+{{DropsLine|name=Red spiders' eggs|quantity=500 (noted)|rarity=3/126}}
+{{DropsLine|name=Unicorn horn|quantity=225 (noted)|rarity=1/126}}
+{{DropsLine|name=Uncut dragonstone|quantity=5 (noted)|rarity=2/126}}
+{{DropsLine|name=Grimy ranarr weed|quantity=45 (noted)|rarity=1/126}}
+{{DropsLine|name=Grimy snapdragon|quantity=150 (noted)|rarity=1/126}}
+{{DropsLine|name=Grimy toadflax|quantity=45 (noted)|rarity=1/126}}
+{{DropsLine|name=Battlestaff|quantity=12 (noted)|rarity=2/126}}
+{{DropsTableBottom}}
+
+===Other===
+{{DropsTableHead}}
+{{DropsLine|name=Coins|quantity=50000|rarity=10/126}}
+{{DropsLine|name=Supercompost|quantity=225 (noted)|rarity=4/126}}
+{{DropsLine|name=Antidote++(4)|quantity=20 (noted)|rarity=3/126}}
+{{DropsLine|name=Super restore(4)|quantity=10 (noted)|rarity=5/126}}
+{{DropsLine|name=Dark crab|quantity=50 (noted)|rarity=5/126}}
+{{DropsLine|name=Blighted anglerfish|quantity=100 (noted)|rarity=1/126}}
+{{DropsLine|name=Wilderness crabs teleport|quantity=4|rarity=3/126}}
+{{DropsTableBottom}}
+
+===Secondary Supply roll===
+{{DropsTableHead}}
+{{DropsLine|name=Blighted anglerfish|quantity=5-6|rarity=1/18}}
+{{DropsLine|name=Blighted karambwan|quantity=5-6|rarity=1/18}}
+{{DropsLine|name=Blighted super restore(3)|quantity=3-4|rarity=1/18}}
+{{DropsLine|name=Blighted super restore(4)|quantity=3-4|rarity=1/18}}
+{{DropsLine|name=Ranging potion(2)|quantity=2-3|rarity=1/18}}
+{{DropsLine|name=Super combat potion(2)|quantity=2-3|rarity=1/18}}
+{{DropsTableBottom}}
+
+===Tertiary===
+{{DropsTableHead}}
+{{DropsLine|name=Looting bag|quantity=1|rarity=1/3|gemw=No}}
+{{DropsLine|name=Strange fruit|quantity=1|rarity=1/5}}
+{{DropsLine|name=Brimstone key|quantity=1|rarity={{Brimstone rarity|464}}|raritynotes=<ref group=d>Brimstone keys are only dropped while on a [[Slayer task]] given by [[Konar quo Maten]].</ref>|gemw=No|leagueRegion=Wilderness&Kourend}}
+{{DropsLineClue|type=elite|rarity=1/100|raritynotes=<ref group=d>The elite clue scroll drop rate increases to 1/50 if a [[ring of wealth (i)]] is worn.</ref>|altrarity=1/50}}
+{{DropsLine|name=Long bone|quantity=1|rarity=1/400|gemw=No}}
+{{DropsLine|name=Venenatis spiderling|quantity=1|rarity=1/1500|gemw=No|raritynotes={{Refn|group=d|A pet roll is made for each player that has received a drop, which scales based on contribution. The MvP bonus is not applied to this roll.{{CiteTwitter|author=Mod Ash|url=https://twitter.com/JagexAsh/status/1623369509154263055|date=8 February 2023|archiveurl=https://archive.ph/u90mF|archivedate=9 February|quote=Looks like it's doing a straight scaling based on your proportion of the damage done, so 50% would make you half as likely to get the pet as if you'd done 100%. Didn't look like MvP status would affect this.}}}}<ref name="news"/>}}
+{{DropsLine|name=Curved bone|quantity=1|rarity=1/5012.5|gemw=No}}
+{{DropsTableBottom}}
+
+===Wilderness Slayer tertiary===
+{{WildernessSlayerDropTable|combat=464|hitpoints=255|boss=yes}}
+
+==Combat Achievements==
+{{Sync}}
+{{Combat Achievements list|Venenatis}}
+
+==Historical==
+From her release to [[25 January]] [[2023]], Venenatis could be found roaming just north of the [[green dragon]]s on the eastern shore of the Wilderness and was the only one of the bosses she was released with to be below level 30 Wilderness. She only attacked with melee and magic and had two mechanics; a prayer drain on her target and could also launch sticky webs at them that could deal up to 60 damage and briefly stun them. Venenatis also had a unique damage reduction mechanic in part that she would only take 1-6 damage from any hit if she was in a single-way area, as the area was partially multi and single combat zones.
+:{|class=wikitable style="text-align:center;"
+! colspan="7" |Combat stats
+|-
+!
+!{{plinkp|Hitpoints|pic=Hitpoints icon}}
+!{{plinkp|Attack|pic=Attack icon}}
+!{{plinkp|Strength|pic=Strength icon}}
+!{{plinkp|Defence|pic=Defence icon}}
+!{{plinkp|Magic|pic=Magic icon}}
+!{{plinkp|Ranged|pic=Ranged icon}}
+|-
+!2014
+|255
+|470
+|490
+|490
+|150
+|1
+|-
+!2023
+|850
+|300
+|200
+|321
+|150
+|1
+|-
+! colspan="7" |Aggressive stats
+|-
+!
+!{{plinkp|Attack|pic=Attack icon}}
+!{{plinkp|Strength|pic=Strength icon}}
+!{{plinkp|Magic|pic=Magic icon}}
+!{{plinkp|Magic Damage|pic=Magic Damage icon}}
+!{{plinkp|Ranged|pic=Ranged icon}}
+!{{plinkp|Ranged Strength|pic=Ranged Strength icon}}
+|-
+!2014
+| +0
+| +0
+| +0
+| +0
+| +0
+| +0
+|-
+!2023
+| +0
+| +0
+| +0
+| +0
+| +100
+| +30
+|-
+! colspan="6" |Defensive stats
+|-
+!
+!{{plinkp|Stab|pic=White dagger}}
+!{{plinkp|Slash|pic=White scimitar}}
+!{{plinkp|Crush|pic=White warhammer}}
+!{{plinkp|Magic|pic=Magic icon}}
+!{{plinkp|Ranged|pic=Ranged icon}}
+|-
+!2014
+| +260
+| +260
+| +260
+| +800
+| +100
+|-
+!2023
+| +100
+| +100
+| +10
+| +300
+| +150
+|}
+
+==Gallery==
+<gallery mode="nolines" heights="180" style="text-align:left" widths="300">
+Venenatis rework concept art.jpg|Concept art of Venenatis' graphical rework, by [[Mod Jerv]].
+Silk Chasm concept art.jpg|Concept art of Venenatis' [[Silk Chasm]], by [[Mod Jerv]].
+</gallery>
+
+==Changes==
+{{Subject changes header}}
+{{Subject changes
+|date = 17 April 2024 
+|update = Undead Pirates Tweaks, Varlamore CAs & More
+|change = Venenatis will now wait a short period of time after respawning before attacking players.
+}}
+{{Subject changes
+|date = 10 April 2024 
+|update = Undead Pirates, Colosseum Changes & more!
+|poll = Undead Pirates Rewards & More
+|change = Venenatis' respawn time was decreased from 28 ticks (16.8 seconds) to 10 ticks (6 seconds).
+}}
+{{Subject changes
+|date = 7 February 2024
+|update = Poll 80 Wilderness Changes & More
+|poll = 
+|change = 
+* The minimum percentage of regular loot given to the top 10 players in a fight against Venenatis has been increased from 15% to 25%.
+* The drop rate for a [[Venenatis spiderling]] has been increased from 1/2,000 to 1/1,500.
+* Venenatis can now drop [[wilderness crab teleport]]s, [[dragon dagger]]s, [[battlestaves]], [[rune plateleg]]s, [[rune sq shield]]s, and [[Mystic air staff|mystic air staves]].
+* The weighting on certain drops as been adjusted, slightly decreasing the chance to get [[coin]]s and [[rune pickaxe]]s in favour of more valuable drops.
+* The number of [[rune pickaxe]]s dropped has been increased from 3 to 5.
+* The number of [[blighted anglerfish]] dropped has been increased from 45 to 100.
+}}
+{{Subject changes
+|date = 30 August 2023
+|update = Poll 80 ToA Changes & DMM Tweaks
+|poll = Awakened DT2 Bosses & Poll 80
+|change = [[Random events]] have been disabled in the [[Wilderness boss]] lairs.
+}}
+{{Subject changes
+|date = 14 June 2023
+|update = Ruinous Powers Beta v2
+|change = Venenatis now drops [[strange fruit]]s at a rate of 1 in 5.
+}}
+{{Subject changes
+|date = 15 March 2023
+|update = The Last of Poll 78
+|poll= New Skill: Community Consultation and Poll 78
+|change =
+* To prevent players from attacking those attempting to enter the boss chamber safely (as the entrance was multi-combat, whereas the area to the east was single-combat) the following changes were implemented:
+** The cave entrance now faces west instead of south.
+** Trees have been added to the area behind the cave.
+}}
+{{Subject changes
+|date = 22 February 2023
+|update = 10th Birthday Event
+|change = [[Ring of wealth]] now works correctly for Venenatis.
+}}
+{{Subject changes
+|date = 8 February 2023
+|update = Poll 78 Updates & More
+|change = Fixed an issue where Venenatis' hitpoints bar was moving during attack animations.
+}}
+{{Subject changes
+|date = 2 February 2023
+|update = Wilderness Boss Rework Tweaks & More
+|change = 
+*Increased the minimum loot reward from 0% to 15%.
+*Reduced maximum number of players able to receive loot from 15 to 10.
+*Increased quantity of base rewards.
+*Venenatis is now immune to [[Ring of recoil]] and similar effects.
+*Rearranged Venenatis’ damage through Prayer from being rolled then capped at 30 to being capped at 30 and then rolled.
+}}
+{{Subject changes
+|date = 25 January 2023
+|update = Wilderness Boss Rework
+|change = 
+* Venenatis is now located in a cave, and her combat behaviour has been adjusted.
+* Venenatis has been graphically updated.
+}}
+{{Subject changes
+|date =
+|update =
+|change = The tree stump found south-east of the trees in 24 Wilderness has been moved a square south to discourage safespotting.
+}}
+{{Subject changes
+|date = 30 July 2015
+|update = Custom F-Keys & Music Cape
+|change = A game engine bug affecting the retaliation of ranging/maging NPCs has been fixed. In particular, this affects Venenatis and their behaviour when they have moved far from their spawn points, so it will make certain safespots considerably less effective, and will have similar effects on other NPCs with long-range attacks.
+}}
+{{Subject changes
+|date = 19 March 2015
+|update = Boss Pets, Sets, Chat & More
+|poll = Old School Content Poll 30: Near Miss Poll
+|change = Scorpia, Venenatis, Vet'ion and Callisto now have a very slim chance of dropping a pet version of themselves when killed.
+}}
+{{Subject changes
+|date = 26 June 2014
+|update = Midsummer Event
+|poll = Old School feature poll - Rewarding Rewards
+|change = [[Treasonous ring]] added and other drop table improvements.
+}}
+{{Subject changes
+|date = 20 March 2014
+|update = Fresh 'Old' Fashion
+|change = The drop tables for [[Callisto]], [[Vet'ion]], Venenatis and the [[Lava dragons]] have been buffed.
+}}
+{{Subject changes footer}}
+
+===Gallery (historical)===
+{|style="text-align: center" cellpadding="15"
+|[[File:Venenatis v1.png|center|300x150px]]
+|[[File:Venenatis.png|300x150px]]
+|-
+|13 March 2014–<br/>25 January 2023
+|25 January 2023 –<br/>present
+|}
+
+==Trivia==
+* Venenatis' 2014 model was a recoloured version of [[Kalrag]].
+* She was a player-suggested [[boss]], which was adopted into the game after a substantial amount of positive forum feedback.
+* The term Venenatis comes from the Latin "[[wiktionary:venenatis|venēnātīs]]", which means "venomous" or "poisoned".
+* Despite her name's origin and Phabelle Bile mentioning Venenatis does indeed produce venom, she and her spiderlings are not [[venom|venomous]] or [[poisonous]] to players. This is leftover from before the Wilderness boss rework, when her attacks inflicted poison.
+* If someone starts a battle with Venenatis, but leaves the cave without killing her, she will de-spawn after 10 minutes.
+
+==References==
+{{Reflist}}
+
+{{Spiders}}
+{{Wilderness bosses}}
+{{Bosses}}
+[[Category:Monsters that do not become tolerant]]

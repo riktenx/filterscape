@@ -1,0 +1,212 @@
+{{External|rs}}
+{{Otheruses|the normal variant|the stronger variant|Deviant spectre|the superior variant|Abhorrent spectre}}
+{{HasTask|Aberrant spectres}}
+{{Infobox Monster
+|name = Aberrant spectre
+|image = [[File:Aberrant spectre.png|150px]]
+|release = [[26 January]] [[2005]]
+|update = Slayer Skill
+|members = Yes
+|combat = 96
+|size = 2
+|examine = A very smelly ghost.
+|attributes = undead, spectral
+|xpbonus = 0
+|max hit = 8, 14 (without [[Nose peg]])
+|aggressive = Yes
+|poisonous = No
+|attack style = [[Magic]]
+|attack speed = 4
+|slaylvl = 60
+|slayxp = 90
+|cat = Aberrant Spectres
+|assignedby = vannaka,chaeldar,konar,nieve,duradel
+|hitpoints = 90
+|att = 1
+|str = 1
+|def = 90
+|mage = 105
+|range = 1
+|attbns = 0
+|strbns = 0
+|amagic = 0
+|mbns = 0
+|arange = 0
+|rngbns = 0
+|dstab = 20
+|dslash = 20
+|dcrush = 20
+|dmagic = 0
+|drange = 15
+|immunepoison = Not immune
+|immunevenom = Not immune
+|immunecannon = No
+|immunethrall = No
+|id = 2,3,4,5,6,7
+}}
+[[File:Aberrant spectre icon.png|left]]
+'''Aberrant spectres''' are [[Slayer monsters]] that require level 60 [[Slayer]] to kill, and completion of [[Priest in Peril]] to receive as a [[slayer task]]. They frequently drop large numbers of [[Herbs|grimy herbs]] and [[herb seed]]s. Because of this, bringing a [[herb sack]] and [[seed box]] when killing them is recommended.
+
+[[Deviant spectre]]s, found in the [[Catacombs of Kourend]], can be killed in their place if you are assigned aberrant spectres.
+
+==Locations==
+{{LocTableHead|league=yes}}
+{{LocLine
+|name = Aberrant spectre
+|location = [[Slayer Tower]] ({{FloorNumber|uk=1}})
+|levels = 96
+|members = Yes
+|mapID = 0
+|plane = 1
+|x:3413,y:3550|x:3424,y:3551|x:3428,y:3543|x:3428,y:3551|x:3438,y:3549|x:3411,y:3534|x:3423,y:3542|x:3435,y:3545|x:3442,y:3550|x:3413,y:3545|x:3420,y:3537|x:3427,y:3539|x:3431,y:3548|x:3442,y:3544
+|mtype = pin
+|leagueRegion = Morytania
+}}
+{{LocLine
+|name = Aberrant spectre
+|location = [[Stronghold Slayer Cave]]
+|levels = 96
+|members = Yes
+|mapID = 19
+|plane = 0
+|x:2443,y:9785|x:2444,y:9777|x:2456,y:9777|x:2470,y:9782|x:2471,y:9776|x:2452,y:9794|x:2460,y:9793|x:2441,y:9775|x:2443,y:9781|x:2456,y:9790|x:2458,y:9780|x:2459,y:9774|x:2468,y:9778
+|mtype = pin
+|leagueRegion = Kandarin
+}}
+{{LocTableBottom}}
+
+==Strengths and weaknesses==
+'''Wearing a [[nose peg]] or [[slayer helmet]] is required when fighting aberrant spectres; otherwise they will use a special attack which will always hit, even through [[Protection Prayers]], and drain your combat stats extremely quickly. Boosts cannot be used to equip a nose peg, so either level 60 Slayer or a slayer helmet is required.'''
+
+Aberrant spectres attack using [[Magic]], so using the [[Protect from Magic]] prayer or wearing magic resistant armour such as [[dragonhide armour|dragonhide]] is helpful. As they are [[undead]], the [[Salve amulet]] or [[Salve amulet|one of its variants]] can be worn for a damage and accuracy bonus when fighting them. The Salve amulet's effects do not stack with those of a slayer helmet when both are worn, in which case only the Salve amulet effect will apply.{{CiteTwitter|author=Mod Ash|url=https://twitter.com/JagexAsh/status/1242015573325877248|date=23 March 2020|archiveurl=https://archive.is/vVKUG|archivedate=23 March 2020|quote=Salve effects override the Slayer helm / black mask effects (because they're either identical or bigger). So you'll get bonuses for Void, then multiplied up by the Salve effect, then multiplied up again for the dragonbane bonus.}} Regardless, players should still wear their slayer helmet or nose peg to protect from the spectres' unforgiving damage and stat drains.
+
+'''Note:''' It is possible to use a [[dwarf multicannon]] inside the [[Stronghold Slayer Cave]]. This is recommended for fastest slayer experience.
+
+It is possible to safespot in the [[Slayer Tower]] by standing on the brick pile just west of the [[Agility]] chain shortcut and pulling spectres just in front of the suit of armour from the room south of the shortcut. A [[crossbow (weapon)|crossbow]]'s [[rapid]] attack style will be able to target aberrant spectres from this distance, making it a very useful spot. It is also possible to wait out the 10 minute hostility period with minimal risk by hiding beside the table in the north-west corner. You may be attacked occasionally, but it won't be often. This works well in connection with the safespotting/trapping process.
+
+It is also possible to [[safespot]] one of the aberrant spectres by using the south-eastern corner of the wall of the staircase-room.
+
+In the Stronghold Slayer Cave, they can be safespotted around a section of the cave wall in the middle of the eastern part of the dungeon.
+
+All safespots only work with [[Ranged]] or [[Magic]], since there must be at least six spaces between the player and the aberrant spectre to avoid their attack range. [[Halberd]]s or thrown weapons such as [[throwing knives]] and [[throwing axe]]s do not have a long enough attack range to safespot. In addition, these safespots are only usable when the spectres are non-aggressive, since nearby spectres will attack the player and prevent them from killing the trapped spectre.
+
+===Safespot gallery===
+{{Tile markers box|RuneScape:Tile markers/Aberrant spectres (slayer tower)}}
+{{Tile markers box|RuneScape:Tile markers/Aberrant spectres (stronghold dungeon)}}
+<gallery>
+File:Aberrant spectre (Stronghold Slayer Cave) safespot.png|Safespot in the [[Stronghold Slayer Cave]].
+File:Aberrant spectre (Stronghold Slayer Cave) safespot two.png|thumb|Second Aberrant spectre safespot in the [[Stronghold Slayer Cave]].
+File:Aberrant spectre (Stronghold Slayer Cave) safespot three.png|thumb|Third Aberrant spectre safespot in the [[Stronghold Slayer Cave]].
+File:Aberrant spectre (Stronghold Slayer Cave) safespot four.png|thumb|Fourth Aberrant spectre safespot in the [[Stronghold Slayer Cave]].
+File:Aberrant spectre (Slayer Tower) safespot.png|[[Slayer Tower]] safespot.
+File:Aberrant spectre (Slayer Tower) safespot two.png|Aberrant Spectre (Slayer Tower) second safespot
+File:Aberrant spectre (Slayer Tower) safespot three.png|Aberrant Spectre (Slayer Tower) third safespot
+</gallery>
+
+==Prayer info==
+{{Prayer info
+|name = Aberrant Spectre
+|level = 40
+|xp = 18
+|type = spectral
+}}
+
+==Drops==
+{{DropLogProject|kills=820736}}
+
+{| class="wikitable"
+! rowspan="2" |[[Konar quo Maten|Konar]] task
+! colspan="2" |Average drop value
+|-
+![[Grand Exchange|GE]]
+![[High Level Alchemy|HA]]
+|-
+|{{No}}
+|{{Coins|{{Average drop value|raw=y}}}}
+|{{Coins|{{Average drop value|alch=yes|raw=y}}}}
+|-
+|{{Yes}}
+|{{Coins|{{Average drop value|brimstone=yes|raw=y}}}}
+|{{Coins|{{Average drop value|brimstone=yes|alch=yes|raw=y}}}}
+|}
+
+===Weapons and armour===
+{{DropsTableHead}}
+{{DropsLine|name=Steel axe|quantity=1|rarity=3/128}}
+{{DropsLine|name=Mithril kiteshield|quantity=1|rarity=1/128}}
+{{DropsLine|name=Lava battlestaff|quantity=1|rarity=1/128}}
+{{DropsLine|name=Adamant platelegs|quantity=1|rarity=1/128}}
+{{DropsLine|name=Rune full helm|quantity=1|rarity=1/128}}
+
+{{DropsLine|name=Mystic robe bottom (dark)|quantity=1|rarity=1/512}}
+{{DropsTableBottom}}
+
+===Herbs===
+{{HerbDropTableInfo|override=There is a 78/128 chance of rolling the [[herb drop table]]. When the drop table is rolled, there is an 11/26 chance of dropping 1 herb, 11/26 chance of dropping 2 herbs and a 4/26 chance of dropping 3 herbs, leading to an average of 1.73 herbs per roll and 1.05 herbs per aberrant spectre kill.}}
+{{DropsTableHead}}
+{{HerbDropLines|78/128|1-3}}
+{{DropsTableBottom}}
+
+===Seeds===
+{{RareSeedDropTableInfo|19/128}}
+{{DropsTableHead}}
+{{RareSeedDropLines|19/128}}
+{{DropsTableBottom}}
+
+===Coins===
+{{DropsTableHead}}
+{{DropsLine|name=Coins|quantity=460|rarity=1/128|gemw=No}}
+{{DropsTableBottom}}
+
+===Other===
+{{DropsTableHead}}
+{{DropsLine|name=Nothing|rarity=18/128}}
+{{DropsTableBottom}}
+
+===Gem drop table===
+{{GemDropTable|5/128|naturetalisman=yes|chaostalisman=yes}}
+
+===Tertiary===
+{{DropsTableHead}}
+{{DropsLine|name=Clue scroll (elite)|quantity=1|rarity=Always|raritynotes=<ref name=elite group=d>Only if you have an [[Treasure Trails/Full guide/Elite#Cryptic clues|elite cryptic clue]] that requires you to kill an Aberrant spectre; in this case, it will drop the next step of the Treasure Trail (or a casket, if this was the last step).</ref>|gemw=No|smw=No}}
+{{DropsLine|name=Reward casket (elite)|quantity=1|rarity=Always|raritynotes=<ref name=elite group=d />|gemw=No}}
+{{DropsLine|name=Brimstone key|quantity=1|rarity={{Brimstone rarity|96|bonus=yes}}|raritynotes=<ref group=d>Brimstone keys are only dropped if killed as a [[Slayer task]] given by [[Konar quo Maten]].</ref>|gemw=No|leagueRegion=Kandarin&Kourend,Morytania&Kourend}}
+{{DropsLineClue|type=hard|rarity=1/128}}
+{{DropsTableBottom}}
+
+==Treasure Trails==
+*{{CrypticNPC|Killing an aberrant spectre|elite|You'll have to plug your nose if you use this source of herbs.}} A [[deviant spectre]] may also be killed for this step.
+
+==Combat Achievements==
+{{Sync}}
+{{Combat Achievements list|Aberrant Spectre}}
+
+==Changes==
+{{Subject changes header}}
+{{Subject_changes
+|date = 6 January 2021
+|update = Soul Wars And 20th Anniversary Event
+|poll = Soul Wars and Minigames
+|change = Aberrant spectres were made into [[Spectral (attribute)|spectral]] creatures.
+}}
+{{Subject changes
+|date = 28 April 2016
+|update = Calling Pets & Deadman Death
+|poll = Old School Content Poll 41: Bank placeholders & Skillcapes
+|change = More Aberrant Spectre spawns have been added to the Slayer Tower.
+}}
+{{Subject changes
+|date = 29 May 2007
+|update = Varrock's New Look
+|change = The NPC was renamed from "Aberrant specter" to "Aberrant spectre".
+}}
+{{Subject changes footer}}
+
+== Trivia ==
+
+* Regardless if you have a shield, without a nosepeg, when you are attacked by an Aberrant Spectre, you will use the NPC style of blocking unarmed, which is using your forearms rather than covering your face. This is the only time you use this animation.
+
+==References==
+{{Reflist}}
+
+{{Slayer monsters}}

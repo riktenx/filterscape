@@ -1,0 +1,335 @@
+{{External|rs}}
+{{HasStrategy}}
+{{HasTask|Kalphites}}
+{{Infobox Monster
+|version1 = Crawling
+|version2 = Airborne
+|name = Kalphite Queen
+|image1 = [[File:Kalphite Queen.png|290px]]
+|image2 = [[File:Kalphite Queen 2nd form.png|270px]]
+|release = [[7 September]] [[2004]]
+|update = Situation in the Sands
+|aka = KQ
+|members = Yes
+|combat = 333
+|size = 5
+|examine = I don't think insect repellent will work...
+|attributes = kalphite
+|xpbonus1 = 5
+|xpbonus2 = 5
+|max hit = 31
+|aggressive = Yes
+|poisonous = No
+|attack style = [[Stab]], [[Ranged]], [[Magic]]
+|attack speed = 4
+|slayxp = 535.5
+|cat = Kalphite, Bosses
+|assignedby = turael,spria,mazchna,vannaka,chaeldar,konar,nieve,duradel
+|hitpoints = 255
+|att = 300
+|str = 300
+|def = 300
+|mage = 150
+|range = 1
+|attbns = 0
+|strbns = 0
+|amagic = 0
+|mbns = 0
+|arange = 0
+|rngbns = 0
+|dstab1 = 50
+|dstab2 = 100
+|dslash1 = 50
+|dslash2 = 100
+|dcrush1 = 10
+|dcrush2 = 100
+|dmagic1 = 100
+|dmagic2 = 10
+|drange1 = 100
+|drange2 = 10
+|immunepoison = Not immune
+|immunevenom = Poisons instead
+|immunecannon = No
+|immunethrall = No
+|respawn1 = 50
+|id1 = 963,4303
+|id2 = 965,4304
+|leagueRegion = Desert
+}}
+[[File:Kalphitequeengroup.png|alt=seven players in veracs killing the kalphite queen|thumb|A group of players killing the Kalphite Queen]]
+The '''Kalphite Queen''' ('''''Kalphiscarabeinae pasha'''''<ref>Display case in [[Varrock Museum]] natural history exhibit, southern wing. "Kalphite Queen (Kalphiscarabeinae Pasha)"</ref>), also called the '''KQ''', is the strongest of the Kalphites. The Kalphite Queen, along with [[dust devil]]s and [[smoke devil]]s, is notable for dropping the [[Dragon chainbody]].
+The Kalphite Queen is also notable as one of two places, outside of the [[Wilderness]], where players can obtain a [[Dragon pickaxe]] (the other being [[Volcanic Mine]]). The Kalphite Queen can inflict large amounts of damage with her [[Ranged]] and [[Magic]] attacks as they always result in a [[successful hit]]. It is recommended for players to bring an emergency teleport such as an [[Ectophial]], [[royal seed pod]] or [[teleport tablet]], or only bring items into the [[Kalphite Lair|lair]] for which they are willing to pay the gravestone fees.
+
+Killing her is a requirement for the [[Hard Desert Diary]]. Talking to the queen's [[Kalphite Queen head (mounted)|mounted head]] in your [[player-owned house|POH]] is a requirement for the [[Elite Desert Diary]]. 
+
+==Location==
+{{LocTableHead|league=yes}}
+{{LocLine
+|name = Kalphite Queen
+|location = [[Kalphite Lair]]
+|levels = 333
+|members = Yes
+|mapID = 42
+|plane = 0
+|x:3186,y:9424
+|mtype = pin
+|leagueRegion = desert
+}}
+{{LocTableBottom}}
+
+The Kalphite Queen resides in the [[Kalphite Lair]] south-west of the [[Shantay Pass]]. Two [[rope]]s are required to access the lair, one to enter the dungeon itself and another to reach the lower level where Kalphite Queen resides. A rope is consumed in process of entering the dungeon. Completion of the [[hard Desert Diary]] makes these ropes permanent once placed.
+
+With the completion of the elite Desert Diary, a [[Crevice (Kalphite Lair)|crevice]] shortcut can be used with level 86 [[Agility]]. The shortcut connects the lair's entrance to the entrance of the lower level.
+
+Players with access to [[Dorgesh-Kaan]] can find a tunnel in the [[Dorgesh-Kaan South Dungeon]] that leads through to the Kalphite Lair, emerging near the [[Kalphite worker]]s.
+
+==Fight overview==
+{{Main|Kalphite Queen/Strategies}}
+[[File:Fighting Kalphite Queen.png|thumb|250px|A player fights the airborne form of the Kalphite Queen.]]
+The Kalphite Queen has a [[combat level]] of 333. Each form has 255 [[Hitpoints]], and her [[Ranged]] and [[Magic]] attacks have 100% accuracy.{{CiteTwitter|author=Mod Ash|url=https://twitter.com/JagexAsh/status/606032495704801281|date=3 June 2015|archiveurl=https://archive.is/raBDO|archivedate=26 May 2020}} She may also use a decently accurate [[melee]] attack.
+
+Each of her attacks has a max hit of 31. Her Ranged attacks consist of her shooting barbed spines from her abdomen. Her Ranged attacks will drain 1 prayer point (which may be reduced by [[spectral spirit shield]]). If there are players close to the person being targeted with this attack they will also be hit. To avoid this, players can stand on opposite sides of the Kalphite Queen. Her Magic attack bounces from player to player.
+
+In addition to her highly accurate attacks, the Kalphite Queen also makes use of overhead [[Protection prayers]]. However, unlike other prayer-using monsters (such as [[Sigmund]]), these '''do not''' provide full immunity, but rather improved defence against them. The first form will simultaneously have [[Protect from Magic]] and [[Protect from Missiles]] active, while the second form will only have [[Protect from Melee]] active. While it's possible to kill the Queen with one combat style, it is recommended to bring two for an easier fight.
+
+[[File:Kalphite queen transformation.png|thumb|250px|The Kalphite Queen transforming to her second form.]]
+
+When the first form is killed, it takes 20 [[RuneScape clock|game ticks]] (12 seconds) for the transition into the second airborne form. During this transformation, an animation can be seen where [[Kalphite queen legs|Kalphite Queen legs]] fall to the ground while the Kalphite Queen sheds her exoskeleton.
+
+If the second form stays alive for over 20 minutes, she will revert to the first form and retain the second form's remaining [[hitpoints]]. When the first form is killed again, a second form with full health will emerge, akin to [[Vet'ion]].
+
+If stat-draining [[special attacks]] are used on her first form, the stat reductions will carry over to the second form.{{CiteTwitter|author=Mod Ash|url=https://twitter.com/JagexAsh/status/861503532712722432|date=8 May 2017|archiveurl=https://archive.is/Ck9G5|archivedate=26 May 2020|quote=Yes [when the defence is lowered on KQ's first form it stays lowered on the second form], same with Vet'ion.}}
+
+==Money making==
+{{Mmgsection|Killing the Kalphite Queen}}
+
+==Drops==
+''The player will always receive two items from the Kalphite Queen's drop table: one from the regular drop table, and one from the Consumables table.''
+
+{{DropLogProject|kills=1384065}}
+
+{{Average drop value}}
+
+{{Average drop value|brimstone=yes}}
+
+===Consumables===
+{{DropsTableHead}}
+{{DropsLine|name=Monkfish|quantity=3|rarity=1/9}}
+{{DropsLine|name=Shark|quantity=2|rarity=1/9}}
+{{DropsLine|name=Dark crab|quantity=2|rarity=1/9}}
+{{DropsLine|name=Saradomin brew(4)|quantity=1|rarity=1/9}}
+{{DropsLine|name=Prayer potion(4)|quantity=2|rarity=1/9}}
+{{DropsLine|name=Super restore(4)|quantity=1|rarity=1/9}}
+{{DropsLine|name=Super combat potion(2)|quantity=1|rarity=1/9}}
+{{DropsLine|name=Ranging potion(3)|quantity=1|rarity=1/9}}
+{{DropsLine|name=Superantipoison(2)|quantity=1|rarity=1/9}}
+{{DropsTableBottom}}
+
+===Weapons and armour===
+{{DropsTableHead}}
+{{DropsLine|name=Battlestaff|quantity=10 (noted)|rarity=5/126}}
+{{DropsLine|name=Rune chainbody|quantity=1|rarity=4/126}}
+{{DropsLine|name=Red d'hide body|quantity=1|rarity=4/126}}
+{{DropsLine|name=Rune knife(p++)|quantity=25|rarity=4/126}}
+{{DropsLine|name=Lava battlestaff|quantity=1|rarity=2/126}}
+{{DropsTableBottom}}
+
+===Runes and ammunition===
+{{DropsTableHead}}
+{{DropsLine|name=Death rune|quantity=150|rarity=6/126}}
+{{DropsLine|name=Blood rune|quantity=100|rarity=6/126}}
+{{DropsLine|name=Mithril arrow|quantity=500|rarity=5/126}}
+{{DropsLine|name=Rune arrow|quantity=250|rarity=3/126}}
+{{DropsTableBottom}}
+
+===Herbs===
+{{DropsTableHead}}
+{{DropsLine|name=Grimy toadflax|quantity=25 (noted)|rarity=2/126}}
+{{DropsLine|name=Grimy ranarr weed|quantity=25 (noted)|rarity=2/126}}
+{{DropsLine|name=Grimy snapdragon|quantity=25 (noted)|rarity=2/126}}
+{{DropsLine|name=Grimy torstol|quantity=25 (noted)|rarity=2/126}}
+{{DropsTableBottom}}
+
+===Seeds===
+{{DropsTableHead}}
+{{DropsLine|name=Torstol seed|quantity=2|rarity=4/126}}
+{{DropsLine|name=Watermelon seed|quantity=25|rarity=3/126}}
+{{DropsLine|name=Papaya tree seed|quantity=2|rarity=3/126}}
+{{DropsLine|name=Palm tree seed|quantity=2|rarity=3/126}}
+{{DropsLine|name=Magic seed|quantity=2|rarity=3/126}}
+{{DropsTableBottom}}
+
+===Resources===
+{{DropsTableHead}}
+{{DropsLine|name=Runite bar|quantity=3 (noted)|rarity=5/126}}
+{{DropsLine|name=Bucket of sand|quantity=100 (noted)|rarity=4/126}}
+{{DropsLine|name=Gold ore|quantity=250 (noted)|rarity=4/126}}
+{{DropsLine|name=Magic logs|quantity=60 (noted)|rarity=4/126}}
+{{DropsLine|name=Uncut emerald|quantity=25 (noted)|rarity=3/126}}
+{{DropsLine|name=Uncut ruby|quantity=25 (noted)|rarity=3/126}}
+{{DropsLine|name=Uncut diamond|quantity=25 (noted)|rarity=3/126}}
+{{DropsTableBottom}}
+
+===Other===
+{{DropsTableHead}}
+{{DropsLine|name=Wine of zamorak|quantity=60 (noted)|rarity=10/126}}
+{{DropsLine|name=Potato cactus|quantity=100 (noted)|rarity=8/126}}
+{{DropsLine|name=Coins|quantity=15000-20000|rarity=5/126|gemw=No}}
+{{DropsLine|name=Grapes|quantity=100 (noted)|rarity=5/126}}
+{{DropsLine|name=Weapon poison(++)|quantity=5 (noted)|rarity=5/126}}
+{{DropsLine|name=Cactus spine|quantity=10 (noted)|rarity=3/126}}
+{{DropsTableBottom}}
+
+===Rare drop table===
+{{RareDropTable|1/126|chaostalisman=yes|naturetalisman=yes}}
+
+===Tertiary===
+{{DropsTableHead}}
+{{DropsLine|name=Kq head (tattered)|quantity=1|rarity=Once|raritynotes=<ref group="d">Players will always receive a Kq head (tattered) '''only''' on their 256th Kalphite Queen kill, or the first kill after its release if their kill count is above 256.</ref>|gemw=No}}
+{{DropsLine|name=Ensouled kalphite head|quantity=1|rarity=1/20}}
+{{DropsLine|name=Brimstone key|quantity=1|rarity={{Brimstone rarity|333}}|raritynotes=<ref group="d">Brimstone keys are only dropped if killed on a [[Slayer task]] given by [[Konar quo Maten]].</ref>|gemw=No|leagueRegion=Desert&Kourend}}
+{{DropsLineClue|type=elite|rarity=1/100}}
+{{DropsLine|name=Kq head|quantity=1|rarity=1/128|raritynotes={{NamedRef|Drop Rates V2}}|gemw=No}}
+{{DropsLine|name=Dragon chainbody|quantity=1|rarity=1/128|raritynotes={{CiteForum|author=Envision|url=https://archive.fo/5P5mn|title=Drop Rates V2|name='Drop Rates V2'}}}}
+{{DropsLine|name=Dragon 2h sword|quantity=1|rarity=1/256|raritynotes={{NamedRef|Drop Rates V2}}}}
+{{DropsLine|name=Dragon pickaxe|quantity=1|rarity=1/400}}
+{{DropsLine|name=Jar of sand|quantity=1|rarity=1/2000}}
+{{DropsLine|name=Kalphite princess|quantity=1|rarity=1/3000|raritynotes={{CiteTwitter|author=Mod JohnC|url=https://twitter.com/JagexJohnC/status/508932905163579392|date=8 September 2014|archiveurl=https://archive.fo/Elp9N|archivedate=8 September 2014|quote=Batch 2 of the Boss Pet Drop Rates! How (un)lucky have you been? Kraken, Thermy & Penance queen next week!}}|gemw=No}}
+{{DropsTableBottom}}
+
+{{Reflist|group="d"}}
+
+==Combat Achievements==
+{{Sync}}
+{{Combat Achievements list|Kalphite Queen}}
+
+==Changes==
+{{Subject changes header}}
+{{Subject changes
+|date = 25 January 2023
+|update = Wilderness Boss Rework
+|change = The Kalphite Queen can now drop the [[dragon pickaxe]] at a rate of 1/400.
+}}
+{{Subject changes
+|date = 22 June 2022
+|update = Pride 2022, Pet Reclaim Changes & New Mobile Client!
+|change = Ironmen fighting the Kalphite Queen will no longer find her lair devoid of Potato Cacti.
+}}
+{{Subject changes
+|date = 9 March 2022
+|update = PJ Timer & New Broadcast Settings
+|change = Ironmen now have their own separate Kalphite Queen instance. Two braziers have been added in the Kalphite Lair. One is located near the shortcut, and the other is at a safe spot away from the high-level Kalphite by the entrance. If they are lit it shows there is someone in the Ironman instance.
+}}
+{{Subject changes
+|date = 2 February 2022
+|update = Revenant Maledictus & Wilderness Changes
+|poll = 
+|change = Implemented more rigorous tracking to detect alternate accounts aiding Iron players by luring the Kalphite Queen. Additionally, if combat against her halts for more than five minutes, she'll reset her health completely so that her next opponent has a fresh boss to fight.
+}}
+{{Subject changes
+|change = Permanent ropes at the entrance to and inside the Kalphite Lair now require the completion of the Desert Hard diary instead of Elite.
+|date = 25 November 2020
+|update = Twisted Tales - Getting Ahead Launch
+}}
+{{Subject changes
+|date = 27 February 2020
+|update = Game Improvements and Email Linking for Mobile Accounts
+|change = Players can no longer use [[mithril seeds]] in the Kalphite Queen's chamber.
+}}
+{{Subject changes
+|date = 19 November 2015
+|update = Max Capes & HP Insurance
+|poll = Old School Content Poll 37: Skillcape Perks
+|change = The Kalphite Queen now gives slayer experience reflecting the total hitpoints of both forms, rather than just the second.
+}}
+{{Subject changes
+|date = 16 July 2015
+|update = Duel Arena Rework
+|change = The peek option now works when a rope is attached to the tunnel entrance.
+}}
+{{Subject changes
+|date = 2 July 2015
+|update = Clue Scroll Step Counter
+|poll = Old School Content Poll 34: XP droplets & Slayer
+|change = 
+*[[Slayer|Slayer XP]] for killing the boss now is awarded to the player who deals the most damage to both forms.
+*The [[Shortcut|agility shortcut]] unlocked as a reward from the [[Desert Elite Diary|Elite Desert achievement diary]] now takes you from the very start of the Kalphite Lair directly to the entrance of the Kalphite Queen boss room.
+}}
+{{Subject changes
+|date = 25 June 2015
+|update = Boss Room Counters & Platinum Tokens
+|poll = Old School Content Poll 34: XP droplets & Slayer
+|change = 
+*Added a 'peek' option to the entrance of this boss, allowing players to see the number of other players currently in the boss room. 
+*Drops are now assigned to the player who has done the most damage to both forms, rather than just the second.
+}}
+{{Subject changes
+|date = 18 December 2014
+|update = Christmas 2014
+|poll = Old School Content Poll 28
+|change = The drop table was buffed and reworked: the Kalphite Queen now always has two drops with the first being food or a potion and the second being a standard drop. The average value of each kill was increased to be roughly 50% higher (based on prices at the time of the update). Most of the drops remained unchanged with some of the lower value loots replaced with new, more valuable drops. Elite clue scrolls were made twice as common.
+}}
+{{Subject changes
+|date = 17 July 2014
+|update = Boss Pets and Spawn Rates
+|poll = Old School feature poll - Content Poll 22
+|change = Players now have a chance to receive a pet version of this boss after defeating it.
+}}
+{{Subject changes
+|date = 26 June 2014
+|update = Midsummer Event
+|poll = Old School feature poll - Rewarding Rewards
+|change = The Kalphite Queen now offers a much more rewarding range of drops.
+}}
+{{Subject changes
+|date = 6 February 2014
+|update = Quick-prayers & Loot Broadcast
+|poll = Old School feature poll 15: Rejuvenating the Wilderness
+|change = All nearby players are now notified of the dropped loot.
+}}
+{{Subject changes
+|date = 8 May 2007
+|update = Small spiders, kalphites, scorpions and metal dragons
+|change = The NPC was graphically updated.
+}}
+{{Subject changes footer}}
+===Gallery (historical)===
+<tabber>
+Crawling=
+{|style="text-align: center" cellpadding="15"
+|[[File:Kalphite Queen (historical).png|300x150px]]
+|[[File:Kalphite Queen.png|300x150px]]
+|-
+|7 September 2004 –<br/>8 May 2007
+|8 May 2007 –<br/>present
+|}
+|-|
+Airborne=
+{|style="text-align: center" cellpadding="15"
+|[[File:Kalphite Queen 2nd form (historical).png|300x150px]]
+|[[File:Kalphite Queen 2nd form.png|300x150px]]
+|-
+|7 September 2004 –<br/>8 May 2007
+|8 May 2007 –<br/>present
+|}
+</tabber>
+
+==Gallery==
+<gallery>
+Kalphite Queen (Trading Card).png|The Kalphite Queen [[Steam Trading Cards|Steam Trading Card]].
+</gallery>
+
+==Trivia==
+*The Kalphite Queen was the first monster to use multiple simultaneous overhead [[protection prayer]] symbols. [[File:Protect from Magic and Missiles overhead.png]]
+*According to the [[Kalphite Queen head (mounted)]], [[kalphite]]s used to overrun all of [[Gielinor]] before being forced underground.
+
+==References==
+{{Reflist}}
+
+{{Succession|predecessor=[[King Black Dragon]]|title=[[Strongest monster|Strongest monster in ''RuneScape'']]|successor=[[TzTok-Jad]]}}
+
+{{Kalphite}}
+{{Bosses}}
+{{Rulers}}
+[[Category:Monsters with multiple forms]]
+[[Category:Monsters that do not become tolerant]][[Category:Monarchs and Rulers]]

@@ -1,0 +1,42 @@
+{
+  "Bodyguards": [],
+  "100%": [
+    "Bones",
+    "Frozen key piece (saradomin)"
+  ],
+  "Uniques": [
+    "Saradomin sword",
+    "Saradomin's light",
+    "Armadyl crossbow",
+    "Saradomin hilt",
+    "Godsword shard 1",
+    "Godsword shard 2",
+    "Godsword shard 3"
+  ],
+  "Weapons and armour": [
+    "Adamant platebody",
+    "Rune dart",
+    "Rune kiteshield",
+    "Rune plateskirt"
+  ],
+  "Potions": [
+    "Prayer potion(4)",
+    "Saradomin brew(3)",
+    "Super restore(4)",
+    "Super defence(3)",
+    "Magic potion(3)"
+  ],
+  "Other": [
+    "Coins",
+    "Diamond",
+    "Law rune",
+    "Grimy ranarr weed",
+    "Ranarr seed",
+    "Magic seed"
+  ],
+  "Rare drop table": [],
+  "Tertiary": [
+    "Brimstone key",
+    "Pet zilyana"
+  ]
+}

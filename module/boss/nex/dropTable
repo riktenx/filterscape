@@ -1,0 +1,53 @@
+{
+  "Imprisonment": [],
+  "Escape and re-imprisonment": [],
+  "Bodyguards": [],
+  "100%": [
+    "Big bones"
+  ],
+  "Uniques": [
+    "Ancient hilt",
+    "Nihil horn",
+    "Torva full helm (damaged)",
+    "Torva platebody (damaged)",
+    "Torva platelegs (damaged)",
+    "Zaryte vambraces"
+  ],
+  "Runes & ammunition": [
+    "Air rune",
+    "Fire rune",
+    "Blood rune",
+    "Death rune",
+    "Water rune",
+    "Soul rune",
+    "Dragon bolts (unf)",
+    "Onyx bolts (e)",
+    "Cannonball"
+  ],
+  "Resources": [
+    "Air orb",
+    "Coal",
+    "Runite ore",
+    "Uncut ruby",
+    "Uncut diamond",
+    "Wine of zamorak"
+  ],
+  "Consumables": [
+    "Shark",
+    "Prayer potion(4)",
+    "Saradomin brew(4)",
+    "Super restore(4)"
+  ],
+  "Other": [
+    "Blood essence",
+    "Coins",
+    "Rune sword",
+    "Ecumenical key shard",
+    "Nihil shard"
+  ],
+  "Tertiary": [
+    "Clue scroll (elite)",
+    "Nexling"
+  ],
+  "Pre-release teaser": []
+}

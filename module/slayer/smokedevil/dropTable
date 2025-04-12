@@ -1,0 +1,43 @@
+{
+  "100%": [
+    "Ashes"
+  ],
+  "Weapons and armour": [
+    "Adamant battleaxe",
+    "Rune dagger",
+    "Air battlestaff",
+    "Black d'hide vambraces",
+    "Fire battlestaff",
+    "Mithril plateskirt",
+    "Rune full helm",
+    "Rune chainbody",
+    "Red d'hide body",
+    "Occult necklace",
+    "Dragon chainbody"
+  ],
+  "Runes and ammunition": [
+    "Smoke rune",
+    "Runite bolts",
+    "Fire rune",
+    "Air rune",
+    "Soul rune",
+    "Rune arrow"
+  ],
+  "Herbs": [],
+  "Coins": [
+    "Coins"
+  ],
+  "Other": [
+    "Shark",
+    "Steel bar",
+    "Magic logs",
+    "Coal",
+    "Adamantite bar",
+    "Crossbow string",
+    "Ugthanki kebab"
+  ],
+  "Rare and gem drop table": [],
+  "Tertiary": [
+    "Brimstone key"
+  ]
+}

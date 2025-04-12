@@ -1,0 +1,245 @@
+{{Redirect|Rat king|the [[Ratcatchers]] quest monster|king rat}}
+{{Instance|optional=yes}}
+{{HasStrategy}}
+{{Infobox Monster
+|version1 = Solo
+|version2 = Group
+|name = Scurrius
+|image = [[File:Scurrius.png|250px]]
+|release = [[24 January]] [[2024]]
+|update = Scurrius, the Rat King
+|members = Yes
+|combat1 = 200
+|combat2 = 250
+|size = 3
+|examine = You're never more than six feet away from one.
+|attributes = rat
+|xpbonus1 = 20
+|xpbonus2 = 42.5
+|max hit1 = 13 (Melee), 8 (Magic), 7 (Ranged), 22 (Rockfall)
+|max hit2 = 13 (Melee), 14 (Magic), 13 (Ranged), 24 (Rockfall)
+|aggressive = Yes
+|poisonous = No
+|attack style = Magic, Ranged, Melee
+|attack speed = 4
+|slayxp1 = 600
+|slayxp2 = 2137.5
+|cat = Rats
+|assignedby = turael,spria
+|respawn = 30
+|hitpoints1 = 500
+|hitpoints2 = 1500
+|att = 300
+|str = 100
+|def1 = 60
+|def2 = 100
+|mage1 = 50
+|mage2 = 100
+|range1 = 50
+|range2 = 100
+|attbns = 150
+|strbns = 10
+|amagic = 150
+|mbns = 20
+|arange = 150
+|rngbns = 10
+|dstab = 20
+|dslash = 20
+|dcrush = 20
+|dmagic = 10
+|drange = 20
+|immunepoison = No
+|immunevenom = Poisons instead
+|freezeresistance = 50
+|id1 = 7222
+|id2 = 7221
+|dropversion = MVP,non-MVP
+|immunecannon=Yes
+|leagueRegion = Misthalin
+}}
+'''Scurrius, the Rat King''' is a [[boss]] residing in the [[Varrock Sewers]]. As a mid-level boss meant for players with a combat level of 60-90, Scurrius is meant to introduce various mechanics that are present in higher-level play, such as switching [[protection prayers]] quickly during combat as well as dodging attacks and managing multiple monsters mid-fight.
+
+Scurrius can be fought in either the public room or in an [[instance]]. It has two distinct stats if the player is fighting it in the public or an instanced room; the public variant of Scurrius is slightly stronger than the instanced version. [[Ironmen]] can participate with other accounts and will receive killcount, although they will not receive any drops except medium clues if they can manage to attain MVP. [[Group Ironman Mode|Group Ironmen]] have access to a shared instance allowing them to fight Scurrius together.
+
+Scurrius rewards a substantially greater amount of combat experience than normal, especially with [[rat bone weapons]], giving competitive amounts of experience compared to [[Nightmare Zone]] and [[sand crab]]s, though high-levelled players will still be better off training combat through existing methods. 
+
+Although the boss drops [[rat meat]], this meat cannot be cooked during the fight since players cannot light fires in its lair; attempting to do so produces the message, "It's far too damp for you to light a fire here."
+
+[[Dwarf multicannon|Cannons]] cannot be set up in Scurrius's lair. Attempting to do so produces the message, "It's far too damp for you to set up a cannon in here."
+
+==Location==
+{{LocTableHead|league=yes}}
+
+{{LocLine
+|name = Scurrius
+|location = [[Varrock Sewers]]
+|levels = 200, 250
+|members = Yes
+|mapID = -1
+|plane = 0
+|x:3299,y:9867
+|mtype = pin
+|leagueRegion = Misthalin
+|dropversion = MVP,non-MVP
+}}
+{{LocTableBottom}}
+
+Scurrius' lair is located within the [[Varrock Sewers]], with the sewers being accessible via a [[manhole]] just east of [[Varrock Palace]]. The lair can be found east of the sewers entrance.
+
+Players can enter or leave the lair by climbing through the [[broken bars]] or by crossing through [[sewage water]], respectively; there will be an approximately 15 second delay after leaving before being able to rejoin.
+
+==Fight overview==
+{{Main|Scurrius/Strategies}}
+Scurrius has three attacks: his melee attack with his tail, magic attack with blue lightning being discharged, and a ranged attack of stinky fur balls being thrown at players. The fight is split into three phases; Scurrius may heal from the [[Food Pile]]s between each phase. While he is eating, he has a slight damage reduction applied to him. Scurrius may also summon six [[Giant rat (Scurrius)|giant rat]]s to aid him during the fight.
+
+==Drops (MVP/Solo)==
+{{#subobject:MVP|Dummy property=true}}
+''Players will only roll this table if they dealt the most damage to Scurrius. (E.g., if they are in a private instance.)''
+
+{{DropLogProject|kills=896502}}
+
+{{Average drop value|mob=Scurrius#MVP|mobname=Scurrius}}
+
+===100%===
+{{DropsTableHead|dropversion=MVP}}
+{{DropsLine|name=Big bones|quantity=1|rarity=Always}}
+{{DropsLine|name=Raw rat meat|quantity=1|rarity=Always}}
+{{DropsTableBottom}}
+
+===Equipment===
+{{DropsTableHead|dropversion=MVP}}
+{{DropsLine|name=Adamant platebody|quantity=1|rarity=6/100}}
+{{DropsLine|name=Rune med helm|quantity=1|rarity=6/100}}
+{{DropsLine|name=Rune full helm|quantity=1|rarity=6/100}}
+{{DropsLine|name=Rune sq shield|quantity=1|rarity=6/100}}
+{{DropsLine|name=Rune chainbody|quantity=1|rarity=6/100}}
+{{DropsLine|name=Rune battleaxe|quantity=1|rarity=6/100}}
+{{DropsTableBottom}}
+
+===Runes and ammunition===
+{{DropsTableHead|dropversion=MVP}}
+{{DropsLine|name=Adamant arrow|quantity=20-50|rarity=6/100}}
+{{DropsLine|name=Rune arrow|quantity=20-50|rarity=6/100}}
+{{DropsLine|name=Chaos rune|quantity=70-125|rarity=6/100}}
+{{DropsLine|name=Death rune|quantity=40-90|rarity=3/100}}
+{{DropsLine|name=Law rune|quantity=10-30|rarity=3/100}}
+{{DropsTableBottom}}
+
+===Food and potions===
+{{DropsTableHead|dropversion=MVP}}
+{{DropsLine|name=Trout|quantity=1-3|rarity=6/100}}
+{{DropsLine|name=Tuna|quantity=1-3|rarity=6/100}}
+{{DropsLine|name=Shark|quantity=1|rarity=3/100}}
+{{DropsLine|name=Lobster|quantity=1-3|rarity=6/100}}
+{{DropsLine|name=Ranging potion(1)|quantity=1|rarity=3/100}}
+{{DropsLine|name=Super strength(1)|quantity=1|rarity=3/100}}
+{{DropsLine|name=Cheese|quantity=1|rarity=1/100}}
+{{DropsLine|name=Prayer potion(4)|quantity=1|rarity=6/100}}
+{{DropsTableBottom}}
+
+===Other===
+{{DropsTableHead|dropversion=MVP}}
+{{DropsLine|name=Coins|quantity=1000-9000|rarity=6/100|gemw=no|image=Coins 1000.png}}
+{{DropsTableBottom}}
+
+===Tertiary drops===
+{{DropsTableHead|dropversion=MVP}}
+{{DropsLineClue|type=medium|rarity=1/25|raritynotes={{CiteReddit|author=Mod Goblin|url=https://www.reddit.com/r/2007scape/comments/1aff5sw/comment/ko9l4th/|title=Scurrius & DT2 Combat Achievements|quote=Scurrius now drops Medium Clues at a rate of 1/25.|date=31 January 2024|archiveurl=https://archive.is/nD1px|archivedate=31 January 2024}}}}
+{{DropsLine|name=Scurrius' spine|quantity=1|rarity=1/33|gemw=no}}
+{{DropsLine|name=Long bone|quantity=1|rarity=1/400|gemw=No}}
+{{DropsLine|name=Curved bone|quantity=1|rarity=1/5012.5|gemw=No}}
+{{DropsLine|name=Scurry|quantity=1|rarity=1/3000|raritynotes={{refn|group=d|The player that does the most damage will receive a roll for the pet.{{CiteTwitter|author=Mod Ash|url=https://twitter.com/JagexAsh/status/1750238589638615289|date=24 January 2024|archiveurl=https://archive.is/tSnhY|archivedate=24 January 2024|quote=[does scurrius have a pet drop mechanic like wildy bosses, or does it roll normally when done in masses?] I believe this one's rolled only for the MVP, if I'm reading my colleagues' code correctly.}}}}|gemw=no}}
+{{DropsTableBottom}}
+
+==Drops (non-MVP) ==
+{{#subobject:non-MVP|Dummy property=true}}
+''Players will only roll this table if they are in a non-private kill and did not deal the most damage to Scurrius.''
+
+{{Average drop value|mob=Scurrius#non-MVP|mobname=non-MVP Scurrius}}
+
+===100%===
+{{DropsTableHead|dropversion=non-MVP}}
+{{DropsLine|name=Big bones|quantity=1|rarity=Always}}
+{{DropsTableBottom}}
+
+===Runes and ammunition===
+{{DropsTableHead|dropversion=non-MVP}}
+{{DropsLine|name=Adamant arrow|quantity=20-35|rarity=3/33}}
+{{DropsLine|name=Rune arrow|quantity=20-35|rarity=3/33}}
+{{DropsLine|name=Chaos rune|quantity=40-70|rarity=3/33}}
+{{DropsLine|name=Death rune|quantity=30-50|rarity=3/33}}
+{{DropsLine|name=Law rune|quantity=5-15|rarity=3/33}}
+{{DropsTableBottom}}
+
+===Food and potions===
+{{DropsTableHead|dropversion=non-MVP}}
+{{DropsLine|name=Trout|quantity=1-3|rarity=3/33}}
+{{DropsLine|name=Tuna|quantity=1-3|rarity=3/33}}
+{{DropsLine|name=Lobster|quantity=1-3|rarity=3/33}}
+{{DropsLine|name=Shark|quantity=1|rarity=1/33}}
+{{DropsLine|name=Ranging potion(1)|quantity=1|rarity=3/33}}
+{{DropsLine|name=Super strength(1)|quantity=1|rarity=3/33}}
+{{DropsLine|name=Cheese|quantity=1|rarity=1/33}}
+{{DropsTableBottom}}
+
+===Other===
+{{DropsTableHead|dropversion=non-MVP}}
+{{DropsLine|name=Scurrius' spine|quantity=1|rarity=1/33|gemw=no}}
+{{DropsTableBottom}}
+{{Reflist|group=d}}
+
+==Combat Achievements==
+{{Sync}}
+{{Combat Achievements list|Scurrius}}
+
+==Gallery==
+<gallery captionalign="center" widths="200">
+April 2023 Game Jam - Rat boss.jpg|A preliminary mockup, by Mod Sarnie.
+April 2023 Game Jam - Rat boss concept art.jpg|Initial concept art of Scurrius, by Mod Skane.
+April 2023 Game Jam - Rat boss model.jpg|An early 3D model of Scurrius.
+Scurrius, The Rat King - Mid-Level, PvM Boss (3).png|A revised concept art of Scurrius.
+Scurrius, The Rat King - Mid-Level, PvM Boss (2).gif|A work-in-progress of Scurrius' walking animation.
+Scurrius, The Rat King - Mid-Level, PvM Boss (1).gif|A work-in-progress of Scurrius' walking animation.
+Scurrius marketing.jpg|The marketing image used to announce the release of Scurrius.
+</gallery>
+
+==Changes==
+{{Subject changes header}}
+{{Subject changes
+|date = 28 February 2024
+|update = Defender of Varrock Artwork & QoL Updates
+|change = 
+* Players can now toggle off the cooldown timer in the [[Steam Client]].
+* Items dropped in public rooms now disappear after three minutes.
+}}
+{{Subject changes
+|date = 7 February 2024
+|update = Poll 80 Wilderness Changes & More
+|change = 
+* Scurrius now properly appears in alphabetical order in the [[Collection Log]] interface, rather than being above Sarachnis.
+* [[Group Ironman Mode|Group Ironmen]] can now enter Scurrius' lair together through a shared [[instance]].
+}}
+{{Subject changes
+|date = 31 January 2024
+|update = Scurrius & DT2 Combat Achievements
+|change = 
+* Scurrius now counts towards [[Slayer task/Rats|rat Slayer tasks]].
+* [[Combat Achievements]] were added for the boss.
+* Scurrius now drops medium clue scrolls for the player who dealt the most damage at a rate of 1/25.
+* Any [[big bones]] and [[rat meat]] left on the floor in the private instance will now disappear after the normal 2.5 minutes used outside [[instance]]s. Other loot is left unchanged, remaining on the ground for much longer.
+}}
+{{Subject changes footer}}
+
+==Trivia ==
+* A {{WP|rat king}} is a collection of rats whose tails are intertwined and bound together in some way.
+*The examine text refers to the myth that rats are always present in urban areas, even if the person doesn't see them.
+* Scurrius was originally conceived as a concept from the [[April 2023 Game Jam#The_Rat_King_(Free-to-play_mechanics-based_boss)|April 2023 Game Jam]].
+* Unlike most large monsters, Scurrius drops its loot on the centre of the 3x3 tiles it occupies, rather than its south-westernmost tile. [[Long bone]]s,  [[curved bone]]s, and [[Clue scroll (medium)|medium clues]] are dropped on the south-westernmost tile, however.
+* It was hinted at during the 26 January 2024 Old School Live stream that one of the smaller rats is actually in control of Scurrius, presumably the mage head is in control of Scurrius itself.
+
+==References==
+{{Reflist}}
+
+{{Scurrius}}
+{{Bosses}}
+{{Varrock Sewers}}

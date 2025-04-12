@@ -1,0 +1,291 @@
+{{External|rs}}
+{{Otheruses|the normal variant|the stronger variant|mutated Bloodveld|the superior variant|insatiable Bloodveld}}
+{{HasTask|Bloodveld}}
+{{Infobox Monster
+|version1 = Standard
+|version2 = God Wars
+|name = Bloodveld
+|image1 = [[File:Bloodveld.png|250px]]
+|image2 = [[File:Bloodveld (God Wars Dungeon).png|250px]]
+|release1 = [[26 January]] [[2005]]
+|release2 = [[17 October]] [[2013]]
+|update1 = Slayer Skill
+|update2 = The God Wars Dungeon has been uncovered!
+|members = Yes
+|combat1 = 76
+|combat2 = 81
+|size = 2
+|examine = The tongue of evil.
+|attributes = demon
+|xpbonus = 0
+|max hit1 = 5
+|max hit2 = 6
+|aggressive = No
+|poisonous = No
+|attack style = [[Magical melee]]
+|attack speed = 4
+|slaylvl = 50
+|slayxp1 = 120
+|slayxp2 = 134
+|cat = Bloodveld
+|assignedby = krystilia,vannaka,chaeldar,konar,nieve,duradel
+|hitpoints1 = 120
+|hitpoints2 = 134
+|att1 = 75
+|att2 = 80
+|str1 = 45
+|str2 = 46
+|def = 30
+|mage = 1
+|range = 1
+|attbns = 0
+|strbns = 0
+|amagic = 0
+|mbns = 0
+|arange = 0
+|rngbns = 0
+|dstab = 0
+|dslash = 0
+|dcrush = 0
+|dmagic = 0
+|drange = 0
+|immunepoison = No
+|immunevenom = No
+|immunecannon = No
+|immunethrall = No
+|respawn1 = 21
+|respawn2 = 25
+|id1 = 484,485,486,487
+|id2 = 3138
+}}
+[[File:Bloodveld icon.png|left]]
+'''Bloodveld''' are a type of [[demon]] that use their long tongues to attack their victims. Being a [[Slayer monster]], Bloodveld require a [[Slayer]] level of 50 to be damaged by  players.
+
+While on a Bloodveld Slayer task, there is a 1/200 chance that an [[insatiable Bloodveld]] will spawn after you kill a Bloodveld (if you have [[Slayer Rewards|Bigger and Badder]] unlocked). However, Bloodvelds can't spawn superiors if slain in the [[God Wars Dungeon]].
+
+As it is classified as a [[demon (attribute)|demon]], this creature is affected by [[demonbane weapons]].
+
+==Locations==
+''See also [[Mutated Bloodveld#Locations]]''
+{{LocTableHead|league=yes}}
+{{LocLine
+|name = Bloodveld
+|location = [[God Wars Dungeon]]
+|levels = 81
+|members = Yes
+|mapID = 7
+|plane = 0
+|x:2880,y:5321|x:2883,y:5349|x:2884,y:5325|x:2885,y:5315|x:2886,y:5323|x:2886,y:5359|x:2889,y:5322|x:2894,y:5350|x:2894,y:5362|x:2922,y:5358|x:2928,y:5356|x:2935,y:5353|x:2845,y:5283|x:2873,y:5299|x:2854,y:5355|x:2862,y:5336|x:2920,y:5358|x:2927,y:5354|x:2931,y:5357
+|mtype = pin
+|leagueRegion = asgarnia
+}}
+{{LocLine
+|name = Bloodveld
+|location = [[Meiyerditch Laboratories]]
+|levels = 76
+|members = Yes
+|mapID = 10106
+|plane = 0
+|x:3564,y:9741|x:3566,y:9735|x:3572,y:9741|x:3574,y:9737
+|mtype = pin
+|leagueRegion = morytania
+}}
+{{LocLine
+|name = Bloodveld
+|location = [[Slayer Tower]] ({{FloorNumber|uk=1}})
+|levels = 76
+|members = Yes
+|mapID = 0|plane = 1
+|x:3409,y:3571|x:3411,y:3567|x:3411,y:3576|x:3412,y:3560|x:3416,y:3557|x:3416,y:3561|x:3416,y:3573|x:3417,y:3565|x:3419,y:3559|x:3421,y:3574|x:3422,y:3567|x:3424,y:3560|x:3424,y:3564|x:3426,y:3557|x:3426,y:3573
+|mtype = pin
+|leagueRegion = morytania
+}} 
+{{LocLine
+|name = Bloodveld
+|location = [[Slayer Tower]] (basement)
+|levels = 76
+|members = Yes
+|mapID = 14
+|plane = 0
+|x:3403,y:9934|x:3404,y:9940|x:3405,y:9929|x:3406,y:9949|x:3409,y:9939|x:3411,y:9945|x:3412,y:9935|x:3416,y:9942|x:3417,y:9931|x:3417,y:9937|x:3421,y:9939|x:3423,y:9935
+|mtype = pin
+|leagueRegion = morytania
+}}
+{{LocLine
+|name = Bloodveld
+|location = [[Stronghold Slayer Cave]]
+|levels = 76
+|members = Yes
+|mapID = 19
+|plane = 0
+|x:2434,y:9817|x:2434,y:9824|x:2440,y:9821|x:2447,y:9822|x:2451,y:9817|x:2453,y:9822|x:2465,y:9830|x:2470,y:9834|x:2472,y:9830|x:2485,y:9822|x:2488,y:9827|x:2489,y:9818
+|mtype = pin
+|leagueRegion = kandarin
+}}
+{{LocLine
+|name = Bloodveld
+|location = [[Wilderness God Wars Dungeon]]
+|levels = 81
+|members = yes
+|mapID = 26
+|plane = 0
+|x:2950,y:10085|x:2952,y:10090|x:2956,y:10099|x:2961,y:10099|x:2968,y:10101
+|mtype = pin
+|leagueRegion = wilderness
+}}
+{{LocTableBottom}}
+
+<gallery>
+File:Bloodveld (Slayer Tower basement) safespot.png|Safespot found in the basement of [[Slayer Tower]].
+File:Bloodveld (Slayer Tower first floor) safespot.png|Safespot found on the {{FloorNumber|uk=1}} of the [[Slayer Tower]].
+File:Bloodveld (Wilderness God Wars Dungeon) safespot.png|thumb|alt=Bloodveld safespot in the south-west corner of the Wilderness God Wars Dungeon|Safespot in the south-west corner of the [[Wilderness God Wars Dungeon]].
+</gallery>
+
+==Strategy==
+Bloodvelds are one of few monsters that attack with [[Magical melee|magic-based melee]], meaning that despite it using [[melee]] attacks against the player, it is the player's [[magic defence]] (rather than their melee [[defence]]) that is used to determine the accuracy of the Bloodveld's attack. As such, it is recommended for players killing Bloodvelds to equip armour with decent magic defence, such as [[dragonhide]], as they are relatively accurate in combat. Players using [[prayer]] should still [[pray melee]] instead of magic to nullify damage.
+
+They can be [[safespotted]] on the north-eastern corner of the centre room of the [[Slayer Tower]] behind the chair, or they can also be safespotted next to the armour stands and wardrobes around the walls of the central room. In the task-only basement floor, they can be safespotted in the north-west corner of the area by standing in between the chest, chair, broken table and shelves. Bringing [[nature rune]]s for [[alchemy spells]] is a good idea, as they frequently drop [[fire rune]]s and items with a decent high alchemy value. They can also be safespotted in the slayer tower, in the corner between the torch and the armour set. 
+
+They can also be safespotted in the [[Stronghold Slayer Cave]] while using a [[dwarf multicannon]] in the north-east section of the Bloodveld area, but this area is usually busy. 
+
+Another safespot in the Stronghold Slayer Cave is in the east room, north of some rocks and east of a pillar.
+
+In the [[God Wars Dungeon]], they can be safespotted behind the piles of bricks directly north-east of the exit rope. Both a [[Saradomin item]] and [[Zamorak item]] are required to use this safespot. Another safespot will be even further north-east, behind the rock formations on the coast (only requires a Zamorak item once in the safespot).
+
+In the [[Wilderness God Wars Dungeon]] they can be safespotted in the south-western corner. This will require a [[Saradomin item]] and a [[Zamorak item]].
+
+==Drops==
+{{DropLogProject|kills=803317}}
+
+{{Average drop value}}
+
+{{Average drop value|brimstone=yes}}
+
+{{Average drop value|wildernessslayer=yes}}
+
+===100%===
+{{DropsTableHead}}
+{{DropsLine|name=Vile ashes|quantity=1|rarity=Always}}
+{{DropsTableBottom}}
+
+===Weapons and armour===
+{{DropsTableHead}}
+{{DropsLine|name=Steel axe|quantity=1|rarity=4/128}}
+{{DropsLine|name=Steel full helm|quantity=1|rarity=4/128}}
+{{DropsLine|name=Steel scimitar|quantity=1|rarity=2/128}}
+{{DropsLine|name=Black boots|quantity=1|rarity=1/128}}
+{{DropsLine|name=Mithril sq shield|quantity=1|rarity=1/128}}
+{{DropsLine|name=Mithril chainbody|quantity=1|rarity=1/128}}
+{{DropsLine|name=Rune med helm|quantity=1|rarity=1/128}}
+{{DropsTableBottom}}
+
+===Runes ===
+{{DropsTableHead}}
+{{DropsLine|name=Fire rune|quantity=60|rarity=8/128}}
+{{DropsLine|name=Blood rune|quantity=3|rarity=3/128}}
+{{DropsLine|name=Blood rune|quantity=10|rarity=5/128}}
+{{DropsLine|name=Blood rune|quantity=30|rarity=1/128}}
+{{DropsTableBottom}}
+
+===Herbs===
+{{HerbDropTableInfo|1/128}}
+{{DropsTableHead}}
+{{HerbDropLines|1/128}}
+{{DropsTableBottom}}
+
+===Coins===
+''The overall chance of rolling a coin drop is 77/128 with an average value of {{Coins|56.875}}.''{{DropsTableHead}}
+{{DropsLine|name=Coins|quantity=10|rarity=7/128|gemw=No}}
+{{DropsLine|name=Coins|quantity=40|rarity=29/128|gemw=No}}
+{{DropsLine|name=Coins|quantity=120|rarity=30/128|gemw=No}}
+{{DropsLine|name=Coins|quantity=200|rarity=10/128|gemw=No}}
+{{DropsLine|name=Coins|quantity=450|rarity=1/128|gemw=No}}
+{{DropsTableBottom}}
+
+===Other===
+{{DropsTableHead}}
+{{DropsLine|name=Bones|quantity=1|rarity=10/128|raritynotes=<ref name="bones" group="d">Players will receive [[big bones]] together with an extra drop of regular [[bones]].</ref>}}
+{{DropsLine|name=Big bones|quantity=1|rarity=7/128|raritynotes=<ref name="bones" group="d" />}}
+{{DropsLine|name=Big bones|quantity=3|rarity=3/128|raritynotes=<ref name="bones" group="d" />}}
+{{DropsLine|name=Gold ore|quantity=1|rarity=2/128}}
+{{DropsLine|name=Meat pizza|quantity=1|rarity=3/128}}
+{{DropsTableBottom}}
+
+===Gem drop table===
+{{GemDropTable|1/32|chaostalisman=yes|naturetalisman=yes}}
+
+===Tertiary===
+{{DropsTableHead}}
+{{DropsLine|name=Clue scroll (elite)|quantity=1|rarity=Always|raritynotes=<ref name='elite' group="d">The elite clue scroll and casket are only dropped when completing an elite clue scroll asking you to kill a Bloodveld</ref>|gemw=No|smw=No}}
+{{DropsLine|name=Reward casket (elite)|quantity=1|rarity=Always|raritynotes=<ref name='elite' group="d" />|gemw=No|smw=No}}
+{{DropsLine|name=Looting bag|quantity=1|rarity=1/3|raritynotes=<ref group="d">Looting bags are only dropped by Bloodvelds in the [[Wilderness God Wars Dungeon]].</ref>{{CiteForum|author=Envision|postdate=29 July 2014|url=https://archive.fo/5P5mn|title=Drop Rates V2|name=Drop Rates V2}}|gemw=No|leagueRegion=Wilderness}}
+{{DropsLine|name=Ensouled bloodveld head|quantity=1|rarity=1/35}}
+{{DropsLineEcumenical}}
+{{DropsLine|name=Brimstone key|quantity=1|rarity={{Brimstone rarity|76|bonus=yes}}|raritynotes=<ref group="d">Brimstone keys are only dropped if killed on a [[Slayer task]] given by [[Konar quo Maten]].</ref>|altrarity={{Brimstone rarity|81|bonus=yes}}|gemw=No|leagueRegion=Asgarnia&Kourend,Morytania&Kourend,Kandarin&Kourend}}
+{{DropsLineClue|type=hard|rarity=1/256|altrarity=1/128|raritynotes=<ref group="d">The hard clue scroll drop rate increases to 1/128 when wearing a [[ring of wealth (i)]] and fought in the [[Wilderness]].</ref>}}
+{{DropsTableBottom}}
+{{Reflist|group="d"}}
+
+=== Wilderness Slayer tertiary===
+{{WildernessSlayerDropTable|combat=81|hitpoints=134|slayerbonus=yes}}
+
+==Treasure Trails==
+*{{CrypticNPC|Killing a bloodveld|elite|You'll get licked.}} A [[mutated bloodveld]] may also be killed for this step.
+
+==Combat Achievements==
+{{Sync}}
+{{Combat Achievements list|Bloodveld}}
+
+==Changes==
+{{Subject changes header}}
+{{Subject changes
+|date = 16 June 2021
+|update = A Kingdom Divided
+|poll = A Kingdom Divided
+|change = Bloodvelds now drop [[vile ashes]] in place of regular bones.
+}}
+{{Subject changes
+|date = 17 March 2021
+|update = Shooting Stars
+|change = Several monsters, including Bloodveld, were tagged as demonic, allowing demonbane weapons to work on them.
+}}
+{{Subject changes
+|date = 30 April 2020
+|update = Poll 70 and Bounty Hunter Changes
+|change = [[Krystilia]] can now assign bloodvelds, [[hill giant]]s, [[moss giant]]s, [[black knight]]s, [[pirate]]s and [[zombie]]s as a [[Slayer]] task.
+}}
+{{Subject changes
+|date = 8 August 2019
+|update = Smithing and Silver Crafting Interfaces
+|change = The drop rate for [[ecumenical key]]s have been changed to be 1/60 regardless of keys owned.
+}}
+{{Subject changes
+|date = 28 April 2016
+|update = Calling Pets & Deadman Death
+|poll = Old School Content Poll 41: Bank placeholders & Skillcapes
+|change = More Bloodveld spawns have been added to the Slayer Tower.
+}}
+{{Subject changes
+|date = 3 April 2014
+|update = Chaos Elemental Pet & World Map
+|change = Killing bloodveld within God Wars Dungeon now applies the correct killcount.
+}}
+{{Subject changes
+|date = 6 March 2014
+|update = Teletabs, Clues and Poll 17
+|poll = Old School feature poll 16
+|change = Bloodveld and [[Dark beast]]s now have a chance of dropping [[Clue scroll (hard)|hard clue scrolls]].
+}}
+{{Subject changes footer}}
+
+==Trivia==
+*Bloodvelds have a similar drop table to that of [[lesser demon]]s.
+*Bloodvelds had a festive override wearing a [[santa hat]] during the [[2023 Christmas event/Gallery|2023]] and [[2024 Christmas event/Gallery|2024]] Christmas event.
+*All Bloodvelds have some requirement to kill them. The ones in the [[God Wars Dungeon]] require 60 [[Strength]] or [[Agility]], the ones in the [[Stronghold Slayer Cave]] require a [[slayer task]], and the ones in [[Morytania]] require [[Priest in Peril]]. However, [[Mutated Bloodveld]]s can be killed without a requirement.
+
+==References==
+{{Reflist}}
+
+{{Slayer monsters}}
+{{Demons}}
+{{God Wars Dungeon}}

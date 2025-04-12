@@ -1,0 +1,356 @@
+{{Instance}}
+{{HasStrategy}}
+{{Multi Infobox
+|text1 = Head
+|item1 = 
+{{Infobox Monster
+|version1 = Normal
+|version2 = Shielded
+|version3 = Defeated
+|name = The Hueycoatl
+|image1 = [[File:The Hueycoatl.png|280px]]
+|image2 = [[File:The Hueycoatl (shielded).png|280px]]
+|image3 = [[File:The Hueycoatl (defeated).png|260px]]
+|release = [[25 September]] [[2024]]
+|update = Varlamore: The Rising Darkness is OUT NOW
+|members = Yes
+|combat = 642
+|size = 7
+|examine1 = It's like it's part of the mountain itself.
+|examine2 = It's shielding itself.
+|examine3 = It's like it's part of the mountain itself.
+|attributes = dragon
+|xpbonus = 60
+|max hit = 14
+|aggressive = Yes
+|poisonous = No
+|attack style = [[Melee]], [[Magic]], [[Ranged]]
+|attack speed = Varies 
+|respawn =
+|hitpoints = 2500
+|att = 150
+|str = 50
+|def = 125
+|mage = 50
+|range = 50
+|attbns = 100
+|strbns = 50
+|amagic = 200
+|mbns = 50
+|arange = 250
+|rngbns = 50
+|dstab = 100
+|dslash = 100
+|dcrush = 0
+|dmagic = 200
+|dlight = 350
+|dstandard = 350
+|dheavy = 350
+|elementalweaknesstype = earth
+|elementalweaknesspercent = 60
+|immunepoison = Yes
+|immunevenom = Yes
+|immunecannon = Yes
+|immunethrall = No
+|freezeresistance = 100
+|id1 = 14009,14010,14013
+|id2 = 14011
+|id3 = 14012
+|leagueRegion = Varlamore
+}}
+|text2 = Body
+|item2 = 
+{{Infobox Monster
+|name = Hueycoatl body
+|smwname = Body
+|image = [[File:Hueycoatl body.png|280px]]
+|release = [[25 September]] [[2024]]
+|update = Varlamore: The Rising Darkness is OUT NOW
+|members = Yes
+|combat = 642
+|size = 1
+|examine = There's a monster in this mountain...
+|attributes = dragon
+|xpbonus = 15
+|max hit = 13
+|aggressive = Yes
+|poisonous = No
+|attack style = None
+|attack speed =  
+|respawn =
+|hitpoints = 250
+|att = 150
+|str = 50
+|def = 125
+|mage = 50
+|range = 50
+|attbns = 100
+|strbns = 50
+|amagic = 200
+|mbns = 50
+|arange = 250
+|rngbns = 50
+|dstab = 100
+|dslash = 100
+|dcrush = 0
+|dmagic = 200
+|dlight = 350
+|dstandard = 350
+|dheavy = 350
+|elementalweaknesstype = earth
+|elementalweaknesspercent = 60
+|immunepoison = Yes
+|immunevenom = Yes
+|immunecannon = Yes
+|immunethrall = No
+|freezeresistance = 100
+|id = 14017
+|leagueRegion = Varlamore
+}}
+|text3 = Tail
+|item3 =
+{{Infobox Monster
+|version1 = Normal
+|version2 = Broken
+|name1 = Hueycoatl tail
+|name2 = Hueycoatl tail (broken)
+|smwname1 = Tail
+|smwname2 = Tail (broken)
+|image1 = [[File:Hueycoatl tail.png|280px]]
+|image2 = [[File:Hueycoatl tail (broken).png|280px]]
+|release = [[25 September]] [[2024]]
+|update = Varlamore: The Rising Darkness is OUT NOW
+|members = Yes
+|combat = 642
+|size = 5
+|examine1 = I'd best avoid that.
+|examine2 = The sharp plating has been broken off.
+|attributes = dragon
+|xpbonus = 17.5
+|max hit = 25
+|aggressive = Yes
+|poisonous = No
+|attack style = [[Typeless]]
+|attack speed = Varies 
+|respawn =
+|hitpoints = 400
+|att = 150
+|str = 50
+|def = 125
+|mage = 50
+|range = 50
+|attbns = 100
+|strbns = 50
+|amagic = 200
+|mbns = 50
+|arange = 250
+|rngbns = 50
+|dstab = 100
+|dslash = 100
+|dcrush = 0
+|dmagic = 200
+|dlight = 350
+|dstandard = 350
+|dheavy = 350
+|elementalweaknesstype = earth
+|elementalweaknesspercent = 60
+|immunepoison = Yes
+|immunevenom = Yes
+|immunecannon = Yes
+|immunethrall = No
+|freezeresistance = 100
+|id1 = 14014
+|id2 = 14015
+|leagueRegion = Varlamore
+}}
+}}
+'''The Hueycoatl''' ({{IPAc-en|ˈ|hw|eɪ|k|oʊ|ˈ|æ|t|ə|l}} {{Respell|HWAY|koh|at|el}}{{CiteVideo|author=Old School RuneScape|title="We've Added A Dog With Fake Glasses and a Moustache" Varlamore Dev Diary|url=https://www.youtube.com/watch?v=6u_RQHrcf0o&t=124s|timestamp=02:04|date=7 September 2024|site=YouTube}}) is a [[draconic]] [[boss]] whose large body is coiled around [[the Darkfrost]]. Said to have scales as strong as rock and asleep atop a pile of gold, the Hueycoatl has awakened and wreaked havoc around the mountain and the dwarves of [[Cam Torum]] require assistance in subduing her.{{CiteText|text=Tales of the Old Ones: The Hueycoatl|page=2|quote=There lives a great and terrible monster known as the Hueycoatl. She spends all day digging for gold with her mighty claws.}}
+
+She can be fought in a group of up to 20 players, or via a private instance by the [[meeting flag]] next to the [[bank buffalo]] for a fee of 50,000 coins (25,000 with completion of the [[Combat Achievements/Hard|hard combat achievements]]). [[Ironman Mode|Ironmen]] are eligible for drops when fought in a group. Though players can solo her, there are parts of the fight that are preferably dealt with in a group.
+
+Uniques from the boss include the [[tome of earth]], the [[dragon hunter wand]], [[Hueycoatl hide]], and [[huasca seed]]s, whose herbs are exclusively used to create [[prayer regeneration potion]]s.
+
+==Location==
+{{LocTableHead|league=yes}}
+{{LocLine
+|name = The Hueycoatl
+|location = [[The Darkfrost]]
+|levels = 642
+|members = Yes
+|mapID = -1
+|plane = 0
+|x:1509,y:3290
+|mtype = pin
+|leagueRegion = Varlamore
+}}
+{{LocTableBottom}}
+
+==Official worlds==
+The following [[Server#Themed servers/worlds|official worlds]] are assigned to Varlamore PvM:
+
+{| class="wikitable sortable align-center-1 align-center-3" style="text-align: left;"
+!World
+!Location
+!Members
+!Activity
+{{WorldLine|340|United States (west)|mems=yes|Varlamore PvM}}
+{{WorldLine|517|United Kingdom|mems=yes|Varlamore PvM}}
+|}
+
+==Fight overview==
+{{Main|The Hueycoatl/Strategies}}
+Players initially confront five exposed segments of the Hueycoatl's body at the base of the mountain, all the while avoiding the glowing symbols and using the correct prayers to counter her projectiles. Once all segments are defeated, the tail ascends the mountain, clearing the path to the summit.
+
+At the summit, players must attack her head directly, again taking care to avoid glowing symbols and pray correctly. Here, teams of three or more can balance their protection prayers in order to allow the [[Seer (The Darkfrost)|seer]] to light up the braziers, activating a 30% damage bonus for players. This bonus remains in effect as long as the braziers are lit.
+
+Once players get her to half health, she will shield herself, requiring players to break her tail. The tail is subject to a damage cap of 4 or 9, depending on whether the player's crush attack bonus is their highest, making this phase the longest of the fight for smaller teams. Additionally, the tail will perform a slam attack each time it shifts position, releasing a shockwave that inflicts approximately 25 damage if not evaded.
+
+Once the tail's health is depleted, the Hueycoatl's shield dissipates, allowing players to resume their attack on her. In this final stage, she will continue her standard attacks (glowing symbols and prayer projectiles) with increased frequency, while also employing her tail slam shockwave attack.
+
+==Money making==
+{{Mmgsection|Killing Hueycoatl (Solo)|mobname=The Hueycoatl}}
+
+==Drops== 
+In order to obtain drops from the Hueycoatl, the player must deal a minimum of ~75 damage to the head or tail. If the player doesn't do at least ~25 damage to the body, they will receive fewer rewards. The Hueycoatl drops a large lump of items upon death, and the share players receive from it is based on the player's total damage to the Hueycoatl. 
+
+The maximum quantity of a drop assumes that the player is soloing.
+
+The MVP, the player who deals the most damage, gets a 10% increase to their drop share.
+
+{{DropLogProject|kills=88030}}
+
+===100%===
+{{DropsTableHead}}
+{{DropsLine|name=Big bones|quantity=1|rarity=Always|raritynotes=<ref group=d>Big bones are only dropped for the MVP in the fight.</ref>}}
+{{DropsTableBottom}}
+{{Reflist|group=d}}
+
+===Unique===
+''There is approximately a 1/23 chance per kill (not per player) of getting a unique drop, where it is scaled by personal contribution and is individual to each player.''{{CiteNews|url=https://secure.runescape.com/m=news/wintertodt-updates--varlamore-drop-rates?oldschool=1|title=Wintertodt Updates & Varlamore Drop Rates|newsdate=9 October 2024}}
+
+{{DropsTableHead}}
+{{DropsLine|name=Dragon hunter wand|quantity=1|rarity=1/207|approx=Yes}}
+{{DropsLine|name=Hueycoatl hide|quantity=2-3|rarity=1/34.5|approx=Yes}}
+{{DropsLine|name=Tome of earth (empty)|quantity=1|rarity=1/92|approx=Yes}}
+{{DropsTableBottom}}
+
+===Weapons and armour===
+{{DropsTableHead}}
+{{DropsLine|name=Rune mace|quantity=1-26 (noted)|rarity=3/68}}
+{{DropsLine|name=Rune scimitar|quantity=1-20 (noted)|rarity=3/68}}
+{{DropsLine|name=Rune plateskirt|quantity=1-20 (noted)|rarity=2/68}}
+{{DropsLine|name=Adamant platebody|quantity=1-30 (noted)|rarity=3/68}}
+{{DropsTableBottom}}
+
+===Runes and ammunition===
+{{DropsTableHead}}
+{{DropsLine|name=Death rune|quantity=22-450|rarity=3/68}}
+{{DropsLine|name=Earth rune|quantity=150-3000|rarity=2/68}}
+{{DropsLine|name=Cosmic rune|quantity=20-400|rarity=2/68}}
+{{DropsLine|name=Nature rune|quantity=20-400|rarity=2/68}}
+{{DropsTableBottom}}
+
+===Seeds===
+{{DropsTableHead}}
+{{DropsLine|name=Lantadyme seed|quantity=3-60|rarity=2/68}}
+{{DropsLine|name=Huasca seed|quantity=1-20|rarity=2/68}}
+{{DropsLine|name=Toadflax seed|quantity=2-40|rarity=2/68}}
+{{DropsLine|name=Torstol seed|quantity=1-20|rarity=2/68}}
+{{DropsLine|name=Ranarr seed|quantity=1-20|rarity=2/68}}
+{{DropsLine|name=Avantoe seed|quantity=1-20|rarity=3/68}}
+{{DropsLine|name=Kwuarm seed|quantity=1-20|rarity=3/68}}
+{{DropsTableBottom}}
+
+===Other===
+{{DropsTableHead}}
+{{DropsLine|name=Soiled page|quantity=4-80|rarity=5/68}}
+{{DropsLine|name=Adamant bolts(unf)|quantity=15-300|rarity=3/68}}
+{{DropsLine|name=Air orb|quantity=4-80 (noted)|rarity=3/68}}
+{{DropsLine|name=Raw shark|quantity=9-180 (noted)|rarity=3/68}}
+{{DropsLine|name=Sunfire splinters|quantity=17-350|rarity=3/68}}
+{{DropsLine|name=Sun-kissed bones|quantity=5-100 (noted)|rarity=3/68|gemw=No}}
+{{DropsLine|name=Dragon bones|quantity=2-40 (noted)|rarity=3/68}}
+{{DropsLine|name=Adamantite ore|quantity=6-120 (noted)|rarity=2/68}}
+{{DropsLine|name=Cannonball|quantity=60-1200|rarity=3/68}}
+{{DropsLine|name=Rune dart tip|quantity=6-120|rarity=2/68}}
+{{DropsLine|name=Limpwurt root|quantity=10-200 (noted)|rarity=2/68}}
+{{DropsTableBottom}}
+
+===Tertiary===
+{{DropsTableHead}}
+{{DropsLine|name=Tooth half of key (moon key)|quantity=1|rarity=1/150|raritynotes=<ref group='d'>Each player has around a 1/150 chance of getting the half of a key, regardless of participation.</ref>|gemw=No}}
+{{DropsLine|name=Huberte|quantity=1|rarity=1/400|raritynotes=<ref group='d'>The base rate of 1/400 is scaled by personal contribution to the kill.</ref>|gemw=No}}
+{{DropsLineClue|type=hard|rarity=1/50}}
+{{DropsTableBottom}}
+{{reflist|group=d}}
+
+==Combat Achievements==
+{{Sync}}
+{{Combat Achievements list|The Hueycoatl}}
+
+==Gallery==
+===Concept art===
+<gallery mode="packed" heights="150" style="text-align:left">
+Hueycoatl concept art.png|Concept art of the Hueycoatl, by [[Mod Jerv]].
+The Hueycoatl environment concept art.png|Concept art of [[the Darkfrost]], by Mod Jerv.
+The Hueycoatl dwarven NPCs concept art.png|Concept art of the [[Dwarf (race)|dwarves]] at [[the Darkfrost]], by Mod Jerv.
+The Hueycoatl rewards concept art.png|Concept art of the Hueycoatl's rewards, by Mod Jerv.
+Huberte concept art.png|Concept art of Huberte, by Mod Jerv.
+</gallery>
+
+===Animations===
+<gallery mode="packed" heights="170">
+The Hueycoatl - idle animation.mp4|The Hueycoatl's idle animation, by [[Mod Harold]].
+The Hueycoatl - screech animation.mp4|The Hueycoatl's screeching animation, by Mod Harold.
+The Hueycoatl - knockout animation.mp4|The Hueycoatl's knockout animation, by Mod Harold.
+The Hueycoatl - awaken animation.mp4|The Hueycoatl's awakening animation, by Mod Harold.
+</gallery>
+
+==Changes==
+{{Subject changes header}}
+{{Subject changes
+|date = 16 October 2024
+|update = Halloween 2024
+|change = [[Combat Achievements]] were added for the boss.
+}}
+{{Subject changes
+|change = Hueycoatl hide drops are now unnoted.
+|type = hotfix
+|daterange = 9 October 2024 - 11 October 2024
+}}
+{{Subject changes
+|date = 9 October 2024
+|update = Wintertodt Updates & Varlamore Drop Rates
+|change = * Players can no longer use various stall techniques to prevent themselves from being swept down from the summit.
+* An issue in which the player's personal best time wasn't being broadcast in the [[Clan Chat]] has been fixed.
+* The quantity of [[soiled page]]s dropped has been increased from 1-30 to 30-80, and its drop rate has been increased from ~1/22 to ~1/13.6.
+* The quantity of [[Hueycoatl hide]]s dropped has been increased from 1 to 2-3, and its drop rate has been increased from ~1/70 to ~1/34.5.
+}}
+{{Subject changes
+|date = 2 October 2024
+|update = Rewards and XP Improvements - Varlamore: The Rising Darkness
+|change = * Players can no longer attack the Hueycoatl's tail with Ranged from the arena entrance.
+* The penalty for players who skip Phase 1 during the Hueycoatl fight, resulting in a significant reduction to their contribution value, has been increased further.
+}}
+{{Subject changes
+|date = 27 September 2024
+|type = hotfix
+|update = Feedback Changes - Varlamore: The Rising Darkness
+|change = * The Prayer Pillar mechanic will now remain active during the tail phase.
+* Group Ironmen will no longer lose their prestige for kills with players outside of their group.
+* Roughly doubled the quantity of all non-unique loot.
+* Soiled pages have been moved off of the unique loot table and into 'regular' loot.
+* Various lower-tier loot drops have been removed and replaced with higher-tier loot.
+* The unfinished runite bolts drop was replaced with unfinished adamant bolts.
+* Add messaging to let you know when your contribution is too low to obtain loot.
+}}
+{{Subject changes footer}}
+
+==Trivia==
+* The name Hueycoatl comes from the {{WP|Nahuatl}} words ''HUĒI'' (meaning "big," "large," or "great") and ''CŌĀ-TL'' (meaning "snake" or "serpent").
+
+==References==
+{{Reflist}}
+
+{{Hueycoatl}}
+{{Bosses}}

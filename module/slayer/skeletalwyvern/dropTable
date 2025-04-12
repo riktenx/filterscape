@@ -1,0 +1,54 @@
+{
+  "100%": [
+    "Wyvern bones"
+  ],
+  "Pre-roll": [
+    "Granite legs",
+    "Dragon platelegs",
+    "Dragon plateskirt"
+  ],
+  "Weapons and armour": [
+    "Earth battlestaff",
+    "Battlestaff",
+    "Rune axe",
+    "Rune battleaxe",
+    "Rune warhammer",
+    "Rune full helm",
+    "Rune kiteshield"
+  ],
+  "Runes and ammunition": [
+    "Air rune",
+    "Rune arrow",
+    "Water rune",
+    "Chaos rune",
+    "Law rune",
+    "Death rune",
+    "Blood rune",
+    "Adamant bolts",
+    "Runite bolts",
+    "Soul rune"
+  ],
+  "Herbs": [],
+  "Resources": [
+    "Pure essence",
+    "Magic logs",
+    "Adamantite bar",
+    "Iron ore",
+    "Uncut ruby",
+    "Uncut diamond"
+  ],
+  "Other": [
+    "Coins",
+    "Lobster",
+    "Prayer potion(4)",
+    "Unpowered orb",
+    "Runite crossbow (u)",
+    "Ranarr seed",
+    "Snapdragon seed"
+  ],
+  "Rare drop table": [],
+  "Tertiary": [
+    "Brimstone key",
+    "Draconic visage"
+  ]
+}

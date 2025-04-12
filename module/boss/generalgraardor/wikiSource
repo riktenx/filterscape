@@ -1,0 +1,213 @@
+{{External|rs}}
+{{Instance|optional=yes}}
+{{HasStrategy}}
+{{Infobox Monster
+|name = General Graardor
+|image = [[File:General Graardor.png|280px]]
+|release = [[17 October]] [[2013]]
+|update = The God Wars Dungeon has been uncovered!
+|members = Yes
+|combat = 624
+|size = 4
+|examine = A huge war chief.
+|xpbonus = 32.5
+|max hit = 60 (melee), 35 (ranged)
+|aggressive = Yes
+|poisonous = No
+|attack style = [[Crush]], [[Ranged]]
+|attack speed = 6
+|slayxp = 338
+|cat = Bosses
+|assignedby = konar,nieve,duradel
+|hitpoints = 255
+|att = 280
+|str = 350
+|def = 250
+|mage = 80
+|range = 350
+|attbns = 120
+|strbns = 43
+|amagic = 0
+|mbns = 0
+|arange = 100
+|rngbns = 40
+|dstab = 90
+|dslash = 90
+|dcrush = 90
+|dmagic = 298
+|drange = 90
+|immunepoison = Immune
+|immunevenom = Immune
+|immunecannon = No
+|immunethrall = No
+|respawn = 150
+|id = 2215
+|leagueRegion = Asgarnia
+}}
+[[File:General Graardor chathead.png|left]]
+'''General Graardor''' is the leader of [[Bandos]]' forces within the [[God Wars Dungeon]]. He is the only known living member of the [[Ourg]] race.
+
+He is found in [[Bandos' Stronghold]], which requires a [[Strength]] level of 70 and a [[hammer]] to access. To enter his quarters, players must have an [[ecumenical key]] in their inventory or have killed 40<ref>35 for hard, 30 for elite, 25 for master and 15 kills for grandmaster for those who have unlocked the respective combat achievement tiers</ref> of Bandos' followers throughout the dungeon, with [[goblin]]s being the easiest of the followers to kill.
+
+==Location==
+{{LocTableHead|league=yes}}
+{{LocLine
+|name = General Graardor
+|location = [[God Wars Dungeon]] (Bandos boss room)
+|levels = 624
+|members = Yes
+|mapID = 7
+|plane = 0
+|x:2872,y:5358
+|mtype = pin
+|leagueRegion = asgarnia
+}}
+{{LocTableBottom}}
+
+==Fight overview==
+[[File:Fighting General Graardor.png|thumb|250px|A group of players fighting General Graardor and his minions.]]
+{{Main|General Graardor/Strategies}}
+Like other God Wars Dungeon bosses, Graardor roams around a rectangular room with his bodyguards until a player enters, attacking them on sight. He attacks primarily with [[melee]] (2/3 chance{{CiteTwitter|author=Mod Ash|url=https://twitter.com/JagexAsh/status/689065027844878338|date=17 January 2016|archiveurl=https://archive.fo/0LEUP|archivedate=29 March 2019|quote=2/3 melee, 1/3 "ranged".|name=attack chance}}), and his bodyguards use a different combat style each. Graardor may also use a [[ranged]] attack (1/3 chance{{NamedRef|attack chance}}) where he slams the ground, hitting all players in the room which has an equal chance to hit between 15-35 upon successfully hitting the player.{{CiteTwitter|author=Mod Ash|url=https://twitter.com/JagexAsh/status/1054823168559538177|date=23 October 2018|archiveurl=https://archive.is/USdjg|archivedate=26 May 2020|quote=[Graardor's ranged attack is] rolling 15-35 inclusive, with equal chances for each of those 21 numbers.}} Despite it being a Ranged attack, Graardor can only use it if he is within melee range of his current target. If there are no players in his chamber, his health and stats will be reset.
+
+===Bodyguards===
+*[[Sergeant Strongstack]] ([[Melee]])
+*[[Sergeant Steelwill]] ([[Magic]])
+*[[Sergeant Grimspike]] ([[Ranged]])
+
+==Money making==
+{{Mmgsection|Killing General Graardor}}
+
+==Drops==
+{{DropLogProject|kills=57107}}<!--
+
+-->{{#vardefine:graardorUnique|{{#expr:
+(1/381) * 1 * {{GEP|Bandos chestplate}} +
+(1/381) * 1 * {{GEP|Bandos tassets}} +
+(1/381) * 1 * {{GEP|Bandos boots}} +
+(1/508) * 1 * {{GEP|Bandos hilt}} +
+(1/762) * 1 * {{GEP|Godsword shard 1}} +
+(1/762) * 1 * {{GEP|Godsword shard 2}} +
+(1/762) * 1 * {{GEP|Godsword shard 3}}
+}}}}<!--
+
+-->{{#vardefine:graardorminions|{{#expr:
+{{average drop value|Sergeant Strongstack|raw=y}} + 
+{{average drop value|Sergeant Steelwill|raw=y}} + 
+{{average drop value|Sergeant Grimspike|raw=y}}}}}}
+
+The average General Graardor kill, including its unique drops, is worth {{coins|{{average drop value|General Graardor|raw=y}} round 0}}
+
+Excluding unique drops, the average kill is worth {{coins|{{average drop value|General Graardor|raw=y}} - {{#var:graardorUnique}} round 0}}
+
+Killing the three minions yields an additional {{coins|{{#var:graardorminions}} round 0}} on average (including uniques), bringing the total to {{Coins|{{average drop value|General Graardor|round=y|raw=y}}+{{#var:graardorminions}} round 0}} per kill
+===100%===
+{{DropsTableHead}}
+{{DropsLine|name=Big bones|quantity=1|rarity=Always}}
+{{DropsLine|name=Frozen key piece (bandos)|quantity=1|rarity=Always|raritynotes=<ref group=d>[[Frozen key (The Frozen Door)|Frozen key]] pieces are only dropped during [[The Frozen Door]] [[miniquest]].</ref>}}
+{{DropsTableBottom}}
+{{Reflist|group=d}}
+
+===Uniques===
+{{DropsTableHead}}
+{{DropsLine|name=Bandos chestplate|quantity=1|rarity=1/381|raritynotes=<ref group="d" name="armourdrop">The drop rate is 1/381 for a specific Bandos armour piece, or 1/127 for any piece.</ref>}}
+{{DropsLine|name=Bandos tassets|quantity=1|rarity=1/381|raritynotes=<ref group="d" name="armourdrop"/>}}
+{{DropsLine|name=Bandos boots|quantity=1|rarity=1/381|raritynotes=<ref group="d" name="armourdrop"/>}}
+{{DropsLine|name=Bandos hilt|quantity=1|rarity=1/508}}
+{{DropsLine|name=Godsword shard 1|quantity=1|rarity=1/762|raritynotes=<ref group="d" name="sharddrop">The drop rate is 1/762 for a specific Godsword Shard piece, or 1/254 for any piece.</ref>}}
+{{DropsLine|name=Godsword shard 2|quantity=1|rarity=1/762|raritynotes=<ref group="d" name="sharddrop"/>}}
+{{DropsLine|name=Godsword shard 3|quantity=1|rarity=1/762|raritynotes=<ref group="d" name="sharddrop"/>}}
+{{DropsTableBottom}}
+{{Reflist|group="d"}}
+
+===Weapons and armour===
+{{DropsTableHead}}
+{{DropsLine|name=Rune longsword|quantity=1|rarity=8/127}}
+{{DropsLine|name=Rune 2h sword|quantity=1|rarity=8/127}}
+{{DropsLine|name=Rune platebody|quantity=1|rarity=8/127}}
+{{DropsLine|name=Rune pickaxe|quantity=1|rarity=6/127}}
+{{DropsTableBottom}}
+
+===Other===
+{{DropsTableHead}}
+{{DropsLine|name=Coins|quantity=19500-20000|rarity=31.7/127|raritynotes=<ref group="d">Coins come from rolls on multiple loot tables, including GDT and RDT.</ref>|gemw=No}}
+{{DropsLine|name=Grimy snapdragon|quantity=3 (noted)|rarity=8/127}}
+{{DropsLine|name=Snapdragon seed|quantity=1|rarity=8/127}}
+{{DropsLine|name=Super restore(4)|quantity=3|rarity=8/127}}
+{{DropsLine|name=Adamantite ore|quantity=15-20 (noted)|rarity=8/127}}
+{{DropsLine|name=Coal|quantity=115-120 (noted)|rarity=8/127}}
+{{DropsLine|name=Magic logs|quantity=15-20 (noted)|rarity=8/127}}
+{{DropsLine|name=Nature rune|quantity=65-70|rarity=8/127}}
+{{DropsLine|name=Coins|quantity=20100-20600|rarity=1.25/127|raritynotes=<ref group="d">Coins come from rolls on the unique tables, including the hilt table and the godsword shard table.</ref>|gemw=No}}
+{{DropsTableBottom}}
+{{Reflist|group="d"}}
+
+===Rare drop table===
+{{GWDRDT}}
+
+===Tertiary===
+{{DropsTableHead}}
+{{DropsLine|name=Brimstone key|quantity=1|rarity={{Brimstone rarity|624}}|raritynotes=<ref group=d>Brimstone keys are only dropped if killed on a [[Slayer task]] given by [[Konar quo Maten]].</ref>|gemw=No|leagueRegion=Asgarnia&Kourend}}
+{{DropsLineClue|type=elite|rarity=1/250}}
+{{DropsLine|name=Long bone|quantity=1|rarity=1/400|gemw=No}}
+{{DropsLine|name=Pet general graardor|quantity=1|rarity=1/5000|gemw=No}}
+{{DropsLine|name=Curved bone|quantity=1|rarity=1/5012.5|gemw=No}}
+{{DropsTableBottom}}
+{{Reflist|group="d"}}
+
+==Dialogue==
+{{Hastranscript|npc}}
+
+==Combat Achievements==
+{{Sync}}
+{{Combat Achievements list|General Graardor}}
+
+==Changes==
+{{Subject changes header}}
+{{Subject changes
+|date = 13 January 2021
+|update = God Wars Instancing and Soul Wars Improvements
+|change = Ironmen now have their own shared instance for each God Wars Dungeon general. The "Peek" option on doors will now tell players how many players are in the ironman instance.
+}}
+{{Subject changes
+|date = 20 January 2017
+|update = 
+|type = hotfix
+|change = Graardor's magic defence was further increased, from +201 to +298.
+}}
+{{Subject changes
+|date = 19 January 2017
+|update = Raids Tweaks & QoL
+|change = General Graardor's Magic level was reduced from 280 to 80 and magic defence increased from +65 to +201 to reduce [[twisted bow]]'s effectiveness on it.
+}}
+{{Subject changes
+|date = 25 June 2015
+|update = Boss Room Counters & Platinum Tokens
+|poll = Old School Content Poll 34: XP droplets & Slayer
+|change = Added a 'peek' option to the entrance of this boss, allowing players to see the number of other players currently in the boss room.
+}}
+{{Subject changes
+|date = 17 July 2014
+|update = Boss Pets and Spawn Rates
+|poll = Old School feature poll - Content Poll 22
+|change = Players can now receive a pet version of this boss after defeating it.
+}}
+{{Subject changes footer}}
+
+==Gallery==
+<gallery>
+General Graardor concept art.png|Concept art for General Graardor.
+General Graardor (Trading Card).png|The General Graardor [[Steam Trading Cards|Steam Trading Card]].
+General Graardor (Profile Background).jpg| The General Graador [[Steam Profile Backgrounds|Steam Profile Background]].
+</gallery>
+
+==Trivia==
+*Despite being an ourg, General Graardor does not drop [[Ourg bones]].
+*General Graardor had a festive override wearing the [[wise old man's santa hat]] during the [[2018 Christmas event/Gallery|2018 Christmas event]].
+
+==References==
+{{reflist}}
+
+{{God Wars Dungeon}}
+{{Bosses}}
+[[Category:Monsters that do not become tolerant]]
+[[Category:Bandosians]]

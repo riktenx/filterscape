@@ -1,0 +1,46 @@
+{
+  "100%": [
+    "Bones"
+  ],
+  "Pre-roll": [
+    "Odium shard 2",
+    "Malediction shard 2"
+  ],
+  "Weapons and armour": [
+    "Amulet of power",
+    "Rune crossbow",
+    "Red d'hide body",
+    "Rune knife"
+  ],
+  "Runes and ammunition": [
+    "Mud rune",
+    "Cannonball",
+    "Dragon arrow"
+  ],
+  "Consumables": [
+    "Shark",
+    "Potato with cheese",
+    "Prayer potion(4)",
+    "Anchovy pizza"
+  ],
+  "Other": [
+    "Coins",
+    "Grimy dwarf weed",
+    "White berries",
+    "Silver ore",
+    "Uncut emerald",
+    "Uncut sapphire",
+    "Red dragonhide",
+    "Rusty sword",
+    "Muddy key",
+    "Onyx bolt tips",
+    "Long bone"
+  ],
+  "Rare and Gem drop table": [],
+  "Tertiary": [
+    "Looting bag",
+    "Brimstone key",
+    "Fedora"
+  ],
+  "Wilderness Slayer tertiary": []
+}

@@ -1,0 +1,62 @@
+{
+  "100%": [
+    "Ashes"
+  ],
+  "Weapons and armour": [
+    "Rune dagger",
+    "Rune chainbody",
+    "Red d'hide body",
+    "Rune battleaxe",
+    "Mystic air staff",
+    "Mystic fire staff",
+    "Rune scimitar",
+    "Rune knife(p++)",
+    "Dragon scimitar",
+    "Ancient staff",
+    "Occult necklace",
+    "Smoke battlestaff",
+    "Dragon chainbody"
+  ],
+  "Runes and ammunition": [
+    "Smoke rune",
+    "Air rune",
+    "Soul rune",
+    "Rune arrow"
+  ],
+  "Consumables": [
+    "Ugthanki kebab",
+    "Tuna potato",
+    "Sanfew serum(4)",
+    "Prayer potion(4)"
+  ],
+  "Resources": [
+    "Pure essence",
+    "Molten glass",
+    "Mithril bar",
+    "Coal",
+    "Magic logs",
+    "Gold ore",
+    "Diamond"
+  ],
+  "Other": [
+    "Coins",
+    "Tinderbox",
+    "Fire talisman",
+    "Bullseye lantern",
+    "Desert goat horn",
+    "Grimy toadflax",
+    "Onyx bolt tips",
+    "Snapdragon seed",
+    "Grapes",
+    "Magic seed",
+    "Dragonstone ring",
+    "Crystal key"
+  ],
+  "Gem drop table": [],
+  "Tertiary": [
+    "Brimstone key",
+    "Jar of smoke",
+    "Pet smoke devil"
+  ],
+  "Gallery (historical)": []
+}

@@ -1,0 +1,72 @@
+{
+  "Unique": [
+    "Ancient essence",
+    "Frozen cache",
+    "Ancient icon",
+    "Venator shard"
+  ],
+  "Supplies": [
+    "Shark",
+    "Summer pie",
+    "Ancient brew(3)",
+    "Ranging potion(3)",
+    "Super restore(3)",
+    "Prayer potion(3)"
+  ],
+  "Weapons and armour": [
+    "Rune kiteshield",
+    "Dragon plateskirt",
+    "Rune platelegs",
+    "Black d'hide body",
+    "Dragon platelegs",
+    "Rune sword"
+  ],
+  "Runes and ammunition": [
+    "Law rune",
+    "Soul rune",
+    "Death rune",
+    "Smoke rune",
+    "Chaos rune",
+    "Fire rune",
+    "Cannonball"
+  ],
+  "Herbs": [
+    "Grimy toadflax",
+    "Grimy kwuarm",
+    "Grimy cadantine",
+    "Grimy dwarf weed",
+    "Grimy lantadyme"
+  ],
+  "Seeds": [
+    "Yew seed",
+    "Torstol seed",
+    "Palm tree seed",
+    "Ranarr seed",
+    "Snapdragon seed",
+    "Spirit seed"
+  ],
+  "Resources": [
+    "Adamantite ore",
+    "Gold ore",
+    "Teak plank",
+    "Molten glass",
+    "Pure essence",
+    "Coal",
+    "Runite ore",
+    "Silver ore"
+  ],
+  "Other": [
+    "Manta ray",
+    "Water orb",
+    "Dragon bolts (unf)",
+    "Limpwurt root"
+  ],
+  "Rare drop table": [],
+  "Tertiary": [
+    "Brimstone key",
+    "Clue scroll (hard)",
+    "Clue scroll (elite)",
+    "Charged ice",
+    "Muphin"
+  ]
+}

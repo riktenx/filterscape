@@ -1,0 +1,62 @@
+{
+  "Average value": [],
+  "Mechanics": [],
+  "Uniques": [
+    "Bellator vestige",
+    "Chromium ingot",
+    "Siren's staff",
+    "Virtus mask",
+    "Virtus robe top",
+    "Virtus robe bottom"
+  ],
+  "Secondary uniques": [
+    "Sirenic tablet",
+    "Awakener's orb",
+    "Shadow quartz"
+  ],
+  "Supplies": [
+    "Ancient brew(2)",
+    "Prayer potion(3)",
+    "Manta ray"
+  ],
+  "Weapons and armour": [
+    "Bronze longsword",
+    "Mithril longsword",
+    "Adamant longsword",
+    "Battlestaff",
+    "Dragon plateskirt"
+  ],
+  "Resources": [
+    "Pure essence",
+    "Iron ore",
+    "Coal",
+    "Gold ore",
+    "Mithril ore",
+    "Adamantite ore",
+    "Runite ore",
+    "Sapphire",
+    "Emerald",
+    "Ruby",
+    "Uncut ruby",
+    "Uncut diamond",
+    "Dragon javelin heads",
+    "Runite bolts (unf)",
+    "Raw monkfish"
+  ],
+  "Runes and ammunition": [
+    "Water rune",
+    "Steam rune",
+    "Chaos rune",
+    "Death rune",
+    "Soul rune"
+  ],
+  "Tertiary": [
+    "Brimstone key",
+    "Clue scroll (easy)",
+    "Clue scroll (medium)",
+    "Clue scroll (hard)",
+    "Clue scroll (elite)",
+    "Ancient blood ornament kit",
+    "Wisp"
+  ]
+}

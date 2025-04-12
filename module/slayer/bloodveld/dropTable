@@ -1,0 +1,37 @@
+{
+  "100%": [
+    "Vile ashes"
+  ],
+  "Weapons and armour": [
+    "Steel axe",
+    "Steel full helm",
+    "Steel scimitar",
+    "Black boots",
+    "Mithril sq shield",
+    "Mithril chainbody",
+    "Rune med helm"
+  ],
+  "Runes ": [
+    "Fire rune",
+    "Blood rune"
+  ],
+  "Herbs": [],
+  "Coins": [
+    "Coins"
+  ],
+  "Other": [
+    "Bones",
+    "Big bones",
+    "Gold ore",
+    "Meat pizza"
+  ],
+  "Gem drop table": [],
+  "Tertiary": [
+    "Clue scroll (elite)",
+    "Reward casket (elite)",
+    "Looting bag",
+    "Ensouled bloodveld head",
+    "Brimstone key"
+  ],
+  " Wilderness Slayer tertiary": []
+}

@@ -1,0 +1,349 @@
+{{Instance|irs=Priestess Zul-Gwenwynig|cost=100000}}
+{{HasStrategy}}
+{{Infobox Monster
+|version1 = Serpentine
+|version2 = Magma
+|version3 = Tanzanite
+|name = Zulrah
+|image1 = [[File:Zulrah (serpentine).png|250px]]
+|image2 = [[File:Zulrah (magma).png|250px]]
+|image3 = [[File:Zulrah (tanzanite).png|250px]]
+|release = [[8 January]] [[2015]]
+|update = Zulrah - The Solo Snake Boss
+|members = Yes
+|combat = 725
+|size = 5
+|examine1 = The green hooded serpent of the poison waste.
+|examine2 = The crimson hooded serpent of the poison waste.
+|examine3 = The turquoise hooded serpent of the poison waste.
+|xpbonus = 0
+|max hit = 41
+|max hit2 = 30
+|aggressive = Yes
+|poisonous = Yes ([[venom]])
+|attack style1 = [[Ranged]]
+|attack style2 = [[Typeless]] 
+|attack style3 = [[Magic]], [[Ranged]]
+|attack speed = 3
+|slayxp = 500
+|cat = Bosses
+|assignedby = konar,nieve,duradel
+|hitpoints = 500
+|att = 1
+|str = 1
+|def = 300
+|mage = 300
+|range = 300
+|attbns = 0
+|strbns = 0
+|amagic = 50
+|mbns = 20
+|arange = 50
+|rngbns = 20
+|dstab = 0
+|dslash = 0
+|dcrush = 0
+|dmagic1 = -45
+|dmagic2 = 0
+|dmagic3 = 300
+|dlight1 = 50
+|dstandard1 = 50
+|dheavy1 = 50
+|dlight2 = 300
+|dstandard2 = 300
+|dheavy2 = 300
+|dlight3 = 0
+|dstandard3 = 0
+|dheavy3 = 0
+|elementalweaknesstype1 = Fire
+|elementalweaknesspercent1 = 50
+|elementalweaknesstype2 = Fire
+|elementalweaknesspercent2 = 50
+|elementalweaknesstype3 = Fire
+|elementalweaknesspercent3 = 50
+|immunepoison = Immune
+|immunevenom = Immune
+|immunecannon = No
+|immunethrall = No
+|id1 = 2042
+|id2 = 2043
+|id3 = 2044
+|leagueRegion = Tirannwn
+}}
+'''Zulrah''' is a level 725 solo-only snake [[boss]]. Players can only harm it with [[Ranged]] or [[Magic]]; though Zulrah can be reached with a halberd, it is immune to melee attacks. In order to access Zulrah, players must have completed [[Regicide]] to the point of reaching [[Port Tyras]].
+
+Before the player can fight Zulrah, they must speak with [[High Priestess Zul-Harcinqa]] first and offer themselves as the sacrifice in place of the [[sacrifice|gnome child]], as [[Priestess Zul-Gwenwynig|Zul-Gwenwynig]] will prevent the player from boarding the boat until Zul-Harcinqa allows them to be the sacrifice.
+
+Killing Zulrah is a required task for the hard [[Western Provinces Diary#Hard|Western Provinces Achievement Diary]], which in turn is a requirement for upgrading to the [[Elite Void Knight equipment|Elite Void]] set.
+
+==History==
+As described in the [[stained journal]], Zulrah was created during the [[Dragonkin Conflicts]] as an experiment by an unnamed [[dragonkin]] living in the [[Poison Waste]]. Originally seen as one of many failures, Zulrah was discarded into the swamp, where it grew into an unexpectedly powerful and intelligent serpent. It was found once again by its dragonkin creator, who named it "Zulrah" before eventually being eaten by their own creation.
+
+Sometime during the [[Fifth Age]], [[High Priestess Zul-Harcinqa|Harcinqa]], her mother, and her brother [[Rentos]] visited the Poison Waste. On 5th Bennath, a group of men, [[Ohn]], [[Mortarium]], [[Onan]], and several others, attempted to escape the elven clans by running south to the Poison Waste. With no food to eat, they attempted to fish for [[Sacred eel|eels]] in the swamp, to no avail. With no luck on catching food, they decide to camp out with the gnomes.
+
+Two days after, Zulrah appeared during the night and ate five of Ohn's men before the group could get to their senses. The next day after that, Harcinqa's mother attracted Zulrah's attention with a giant campfire, and held out her son, Rentos, which it devoured immediately. The gnome woman was able to bargain a deal with Zulrah, promising to send it sacrifices and worshipping it as a god if it did not wipe the whole group out. Zulrah simply slithered back into the swamp. The next day, Ohn's men began catching eels, which was interpreted as Zulrah agreeing to the deal. As the village of [[Zul-Andra]] was quickly formed; coincidentally, the woman decided to call it Zulrah, which its Dragonkin creator had done thousands of years ago.
+
+As a result, Zulrah is worshipped as a god, being given sacrifices at a whim; in return, it allows the village of Zul-Andra to stand. Around year 169 of the Fifth Age, an adventurer discovered the village and offered themselves as sacrifice to save a [[Sacrifice|gnome child]] who was going to be sacrificed to Zulrah. Ferried to Zulrah's shrine, it emerged to consume its prey, but to its surprise, found that this offering was fighting back. Despite the use of its powers, the adventurer managed to defeat it, although it simply slithered back into the swamp to recover. Zulrah did not appear to hold the village in contempt for the offering.
+
+==Getting there==
+[[File:Zulrah's_Shrine.png|thumb|300px|Zulrah's Shrine, with Zulrah's beginning phase shown.]]
+Zulrah is located at a shrine east of [[Zul-Andra]]. Players can quickly get here by:
+* taking a [[charter ship]] to [[Port Tyras]] and then running south
+* using the [[fairy ring]] code {{Fairycode|BJS}} to the small island west of [[Zul-Andra]], and then leaping across the stepping stones (requires 76 [[Agility]], can be boosted)
+* using a [[Zul-andra teleport]] scroll
+All of these methods require completion of [[Regicide]].
+
+Zulrah's Shrine is accessed by boarding the [[sacrificial boat]]. Upon entering the shrine, a still scene of the shrine will be shown with a prompted dialogue. Zulrah will appear as soon as the player continues the dialogue or performs an action. The only way to escape from the shrine is by killing Zulrah, teleporting, logging out, or dying.
+
+Players can spectate a fight using a telescope located on an island north of Zul-Andra, which is accessed by using the [[fairy ring]] code {{fairycode|DLR}}.
+
+When a player defeats Zulrah, the drops will be received under the player, much like [[cave kraken]]s. A [[Zul-Andra teleport (scenery)|Zul-andra teleport]] scroll will also be dropped near the player, which cannot be picked up but can be used to return to Zul-Andra. To fight Zulrah again after, the player must return to the shrine via the boat.
+
+==Fight overview==
+{{Main|Zulrah/Strategies}}
+[[File:Fighting Zulrah.png|thumb|300px|A player fighting Zulrah in its tanzanite form]]
+The shrine is a small U-shaped island with two pillars in the middle corners, and Zulrah swims in the swampy water around the island throughout the fight. It cannot be reached with melee (with the exception of [[halberd]]s, to which it is immune), making Ranged and/or Magic necessary to fight it. Attacking with both styles is recommended. Damage at Zulrah is capped at 50, with any hits greater than this amount dealing 45-50 damage instead.
+
+Zulrah periodically switches forms, distinguishable by its colour, that have varying resistance to Ranged and Magic. In turn, Zulrah attacks with Ranged and Magic, as well as an avoidable Melee attack where it targets the player with its tail, depending on its form. It can also summon [[snakeling]]s, smaller versions of itself, on the platform to attack the player, along with toxic clouds that deal rapid damage if they stand in one.
+
+Zulrah and its snakelings inflict [[venom]] with their attacks, an enhanced version of [[poison]] that increases its damage the longer it has affected the player, starting at 6 damage per hit and increasing up to 20. Standard poison protection will only reduce venom to regular poison and will not grant any immunity; [[anti-venom]], [[anti-venom+]], [[extended anti-venom+]], or wearing a [[serpentine helm]] are much more effective for eliminating and preventing venom.
+
+[[File:Zulrah Patterns.png|thumb|150px|An overview of the fight's patterns]]
+Zulrah periodically changes forms by diving into the swamp and resurfacing somewhere else. It may spawn snakelings and toxic clouds in any form.
+
+*When Zulrah is green, it attacks with Ranged. It is weak to Magic.
+**At approximately 2 minutes, Zulrah will be in its green form and attack with alternating Ranged and Magic attacks (colloquially called "Jad phase").
+**If the fight takes a long time (3+ minutes), it is possible for Zulrah to be in its green form and attack unpredictably with Ranged and Magic.
+*When Zulrah is blue, it attacks with Ranged and Magic. It is weak to Ranged. Due to the Magic attacks being more common and more accurate, it is recommended to use [[Protect from Magic]]. Zulrah can attack with Ranged up to five times in succession.
+*When Zulrah is red, it uses a [[typeless]] attack wherein it swings its tail at the player's position, which can be avoided by moving two tiles away; if it hits, it will deal heavy damage and [[Stun (status)|stun]] the player. It is more resistant to damage in this phase than in the other two forms, but Magic is typically more effective than Ranged.
+
+The forms and when and where Zulrah spawns snakelings and toxic clouds are predictable: there are four possible patterns for the fight that dictate what it will do next. Further information can be read on the [[Zulrah/Strategies|strategy article]].
+
+===Player death===
+Upon [[death]] at Zulrah, all items which would normally be lost are held by the [[Priestess Zul-Gwenwynig|priestess]] at the Zul-Andra dock, who acts as an [[Item Retrieval Service]]. Items held by the priestess are '''permanently lost''' if the player dies an unsafe death before reclaiming them. Some [[Death#Exceptions|specific anomalies]] may occur with some items.
+
+Players who have defeated Zulrah fewer than 50 times can obtain their items free of charge; afterwards, they must pay 100,000 coins each time they die to reclaim their items. Ultimate Iron players are unaffected by this regardless of their kill count; they will continue to reclaim their items from the priestess for free, without use of that chest menu.{{CiteNews|url=https://secure.runescape.com/m=news/death-mechanics-in-old-school?oldschool=1|title=Death Mechanics in Old School|newsdate=13 February 2022}}
+
+Completion of the elite [[Western Provinces Diary#Elite|Western Provinces Diary]] grants the player one free daily resurrection at Zulrah which restores all stats and allows the player to continue the fight from the current point if they drop to 0 hitpoints. This does not count as a death for purposes such as losing [[Ironman Mode|hardcore ironman]] status as it is considered a "safe" death. In order to benefit from this perk again, the player must log in after the daily reset time.
+
+==Money making==
+{{Mmgsection|Killing Zulrah|Killing Zulrah (max efficiency)}}
+
+==Drops==
+''In addition to the 100% drops, the player will also have two rolls on Zulrah's drop table, excluding tertiary items, which have only one roll. The displayed drop chances represent a single roll.''
+
+{{DropLogProject|kills=216035}}
+
+{{Average drop value}}
+
+{{Average drop value|alch=yes}}
+
+{{Average drop value|brimstone=yes}}
+
+===100% drops===
+{{DropsTableHead}}
+{{DropsLine|name=Zulrah's scales|quantity=100-299<!--note: the 500 scale drop is separate and intentionally excluded here-->|rarity=Always}}
+{{DropsTableBottom}}
+
+===Uniques===
+''There is a 1/256 chance of hitting the unique drop table per roll.{{CiteTwitter|author=Mod Ash|url=https://twitter.com/JagexAsh/status/735841565785100288|date=26 May 2016|archiveurl=https://archive.is/ktMfw|archivedate=26 May 2020|quote=It's 1/256 per roll, you get two rolls per kill.}} Zulrah gives two rolls per kill, meaning there's approximately a 1/512 chance per kill to receive a specific item from this table (or ~1/128 for any item). Below lists the approximate drop rates '''per roll''' of any '''specific''' item, which takes into account the fact that there are 4 different items in this drop table. Although uncut onyx appears on the unique drop table and in the Collection Log, it is not exclusive to Zulrah.'' 
+
+{{DropsTableHead}}
+{{DropsLine|name=Tanzanite fang|quantity=1|rarity=1/1024|rolls=2}}
+{{DropsLine|name=Magic fang|quantity=1|rarity=1/1024|rolls=2}}
+{{DropsLine|name=Serpentine visage|quantity=1|rarity=1/1024|rolls=2}}
+{{DropsLine|name=Uncut onyx|quantity=1|rarity=1/1024|rolls=2}}
+{{DropsTableBottom}}
+
+===Mutagens===
+''There is a 10/2,632 chance to hit the mutagen sub-table within the flax table (10/248).<ref name="flax">'''Note:''' The cited 10/249 number was changed to 10/248 following the removal of crystal weapon seeds from Zulrah's drop table.<br />{{PlainCiteTwitter|author=Mod Wolf|date=30 March 2019|url=https://twitter.com/JagexWolf/status/1111946035604176897|archiveurl=http://archive.is/ldIbR|archivedate=26 May 2020|quote=This is correct}}</ref> Each mutagen is equally likely, making the drop rate '''per kill''' approximately 1/6,553 for a specific mutagen or 1/3,277 for either mutagen.''
+{{DropsTableHead}}
+{{DropsLine|name=Tanzanite mutagen|quantity=1|rarity=1/13106|gemw=No|rolls=2}}
+{{DropsLine|name=Magma mutagen|quantity=1|rarity=1/13106|gemw=No|rolls=2}}
+{{DropsTableBottom}}
+
+===Weapons and armour===
+{{DropsTableHead}}
+{{DropsLine|name=Battlestaff|quantity=10 (noted)|rarity=10/248|rolls=2}}
+{{DropsLine|name=Dragon med helm|quantity=1|rarity=2/248|rolls=2}}
+{{DropsLine|name=Dragon halberd|quantity=1|rarity=2/248|rolls=2}}
+{{DropsTableBottom}}
+
+===Runes===
+{{DropsTableHead}}
+{{DropsLine|name=Death rune|quantity=300|rarity=12/248|rolls=2}}
+{{DropsLine|name=Law rune|quantity=200|rarity=12/248|rolls=2}}
+{{DropsLine|name=Chaos rune|quantity=500|rarity=12/248|rolls=2}}
+{{DropsTableBottom}}
+
+===Herbs===
+{{DropsTableHead}}
+{{DropsLine|name=Snapdragon|quantity=10 (noted)|rarity=2/248|rolls=2}}
+{{DropsLine|name=Dwarf weed|quantity=30 (noted)|rarity=2/248|rolls=2}}
+{{DropsLine|name=Toadflax|quantity=25 (noted)|rarity=2/248|rolls=2}}
+{{DropsLine|name=Torstol|quantity=10 (noted)|rarity=2/248|rolls=2}}
+{{DropsTableBottom}}
+
+===Seeds===
+{{DropsTableHead}}
+{{DropsLine|name=Palm tree seed|quantity=1|rarity=6/248|rolls=2}}
+{{DropsLine|name=Papaya tree seed|quantity=3|rarity=6/248|rolls=2}}
+{{DropsLine|name=Calquat tree seed|quantity=2|rarity=6/248|rolls=2}}
+{{DropsLine|name=Magic seed|quantity=1|rarity=4/248|rolls=2}}
+{{DropsLine|name=Toadflax seed|quantity=2|rarity=2/248|rolls=2}}
+{{DropsLine|name=Snapdragon seed|quantity=1|rarity=2/248|rolls=2}}
+{{DropsLine|name=Dwarf weed seed|quantity=2|rarity=2/248|rolls=2}}
+{{DropsLine|name=Torstol seed|quantity=1|rarity=2/248|rolls=2}}
+{{DropsLine|name=Spirit seed|quantity=1|rarity=1/248|gemw=No|rolls=2}}
+{{DropsTableBottom}}
+
+===Resources===
+{{DropsTableHead}}
+{{DropsLine|name=Snakeskin|quantity=35 (noted)|rarity=11/248|rolls=2}}
+{{DropsLine|name=Runite ore|quantity=2 (noted)|rarity=11/248|rolls=2}}
+{{DropsLine|name=Pure essence|quantity=1500 (noted)|rarity=10/248|rolls=2}}
+{{DropsLine|name=Flax|quantity=1000 (noted)|rarity=10/248|raritynotes={{namedRef|flax}}|rolls=2}}
+{{DropsLine|name=Yew logs|quantity=35 (noted)|rarity=10/248|rolls=2}}
+{{DropsLine|name=Adamantite bar|quantity=20 (noted)|rarity=8/248|rolls=2}}
+{{DropsLine|name=Coal|quantity=200 (noted)|rarity=8/248|rolls=2}}
+{{DropsLine|name=Dragon bones|quantity=12 (noted)|rarity=8/248|rolls=2}}
+{{DropsLine|name=Mahogany logs|quantity=50 (noted)|rarity=8/248|rolls=2}}
+{{DropsTableBottom}}
+
+===Other===
+{{DropsTableHead}}
+{{DropsLine|name=Zul-andra teleport|quantity=4|rarity=15/248|rolls=2}}
+{{DropsLine|name=Manta ray|quantity=35 (noted)|rarity=12/248|rolls=2}}
+{{DropsLine|name=Antidote++(4)|quantity=10 (noted)|rarity=9/248|rolls=2}}
+{{DropsLine|name=Dragonstone bolt tips|quantity=12|rarity=8/248|rolls=2}}
+{{DropsLine|name=Grapes|quantity=250 (noted)|rarity=6/248|rolls=2}}
+{{DropsLine|name=Coconut|quantity=20 (noted)|rarity=6/248|rolls=2}}
+{{DropsLine|name=Swamp tar|quantity=1000|rarity=5/248|rolls=2}}
+{{DropsLine|name=Zulrah's scales|quantity=500|rarity=5/248|rolls=2}}
+{{DropsTableBottom}}
+
+===Rare drop table===
+{{RareDropTable|9/248|naturetalisman=yes|rolls=2}}
+
+===Tertiary===
+{{DropsTableHead}}
+{{DropsLine|name=Brimstone key|quantity=1|rarity={{Brimstone rarity|725}}|raritynotes=<ref group="d">Brimstone keys are only dropped while on a [[Slayer task]] given by [[Konar quo Maten]].</ref>|gemw=No|leagueRegion=Tirannwn&Kourend}}
+{{DropsLineClue|type=elite|rarity=1/75|raritynotes={{CiteTwitter|author=Mod JohnC|url=https://twitter.com/JagexJohnC/status/561123213451984896|date=30 January 2015|archiveurl=https://archive.fo/czPTx|archivedate=25 March 2019|quote=If you missed the community stream on Wednesday here are Zulrah's drop rates!|name=Confirmed droprates}}}}
+{{DropsLine|name=Jar of swamp|quantity=1|rarity=1/3000|raritynotes={{NamedRef|Confirmed droprates}}}}
+{{DropsLine|name=Pet snakeling|quantity=1|rarity=1/4000|raritynotes={{NamedRef|Confirmed droprates}}|gemw=No}}
+{{DropsTableBottom}}
+{{Reflist|group=d}}
+
+==Combat Achievements==
+{{Sync}}
+{{Combat Achievements list|Zulrah}}
+
+==Changes==
+{{Subject changes header}}
+{{Subject changes
+|date = 29 May 2024
+|update = Project Rebalance: Combat Changes
+|change = Zulrah now has a 50% weakness to [[Fire spells|fire spells]].
+}}
+{{Subject changes
+|date = 22 February 2023
+|update = 10th Birthday Event
+|change = Zulrah's loot now stays on the ground for longer before despawning.
+}}
+{{Subject changes
+|date = 28 September 2022
+|update = Tombs of Amascut & Group Ironman Changes
+|change = Using the "Quick-board" option on the sacrificial boat will no longer have cameras forcibly locked in place to observe Zulrah's spawn animation, thus meaning Zulrah can be fought slightly faster.
+}}
+{{Subject changes
+|date = 14 July 2021
+|update = Slayer Improvements - Poll 75
+|poll = A Night At The Theatre and Old School Content Poll 75: PvM
+|change = Players can now choose to kill 3-35 Zulrah when assigned it as a boss task, rather than a maximum of 15.
+}}
+{{Subject changes
+|date = 25 July 2019
+|update = Song of the Elves
+|change = Zulrah no longer drops crystal seeds.
+}}
+{{Subject changes
+|date = 22 November 2018
+|update = Bird Nest Balancing and PvP Changes
+|change = Zulrah's 10 noted [[crushed nest]]s drop was removed from its drop table.
+}}
+{{Subject changes
+|date = 15 June 2017
+|update = In Other News (15 June 2017)
+|change = The amount of teleport scrolls dropped was increased from 1 to 4.
+}}
+{{Subject changes
+|date = 25 May 2017
+|update = World Map & Balancing Changes
+|change = The drop table was revised again to decrease the profitability by roughly 30%.
+}}
+{{Subject changes
+|date = 15 October 2015
+|update = The Max Cape
+|change = 
+* Zulrah's attack sequences now have a little more variety, since they were too predictable.
+* The amount of teleport scrolls dropped was reduced from 20 to 1 as a hidden update.
+}}
+{{Subject changes
+|date = 30 April 2015
+|update = Mutagens, Mo & Much More
+|poll = Old School Content Poll 32: Resizable Mode
+|change = 
+*Mutagens were added to the drop table.
+*Zulrah's crystal key drop has been replaced with a chance to hit the universal rare drop table.
+}}
+{{Subject changes
+|date = 5 March 2015
+|update = Achievement Diaries
+|poll = Old School Achievement Diary Rewards Poll
+|change = You now get one free resurrection per day when fighting Zulrah if you have completed the [[Elite Western Provinces Diary]].
+}}
+{{Subject changes
+|date = 22 January 2015
+|update = Zulrah, Bank Space & More
+|change = 
+*Due to the profitability being too high, the drop table was revised to drop fewer of certain items (including scales) as well as removing some items from the drop table altogether or replacing them with less valuable alternatives.
+*Zulrah was given two more rotations, and magic was made more viable and ranged attacks less viable against the green form.
+}}
+{{Subject changes
+|date = 15 January 2015
+|update = Zulrah's Snakelings
+|change = Zulrah now remains visible when he's a long distance from his attacker.
+}}
+{{Subject changes footer}}
+
+==Gallery==
+<gallery captionalign="center" widths="200">
+Zulrah Chronicle art.png|Zulrah art from Jagex's turn-based card game ''{{RSL|Chronicle: RuneScape Legends}}''
+Zulrah concept.png|Initial design concept of Zulrah, at this point called Damballa
+Zulrah concept 2.png|
+Zulrah concept 3.png|
+Zulrah work-in-progress.png|Pre-release work-in-progress model of Zulrah
+Zulrah work-in-progress 2.png
+Zulrah work-in-progress 3.png
+Zulrah Tanzanite (Trading Card).png|The Zulrah [[Steam Trading Cards|Steam Trading Card]].
+Zulrah Tanzanite (Profile Background).jpg| The Zulrah [[Steam Profile Backgrounds|Steam Profile Background]].
+</gallery>
+
+==Trivia==
+*Despite being born from [[dragonkin]] experiments, Zulrah is not vulnerable to [[dragonbane weapons]].
+*Prior to Zulrah's release, a [[Poll:Old School Snake Boss Name Poll|poll was held]] to decide the name of the solo snake boss. The name Zulrah was overwhelmingly popular, gaining 51% of the total votes. The other entries, in order of popularity, were:
+** Ka'nes (22.2%)
+** Baloki (7.3%)
+** Attor (7.1%)
+** Dyzurah (6.3%)
+** Duserpes (6%)
+*The first player to kill Zulrah was ''SlayaMasters''.{{CiteTwitter|author=Mod John C|url=https://twitter.com/JagexJohnC/status/553146510989615104|date=8 January 2015|archiveurl=https://archive.is/uasp7|archivedate=26 May 2020|quote=SlayaMasters has the first Zulrah kill!}}
+*Zulrah's gender is ambiguous; High Priestess Zul-Harcinqa, Priestess Zul-Gwenwynig, [[Zul-Urgish]], and [[Slayer masters]] refer to it as male, while the examine text of Zulrah's [[boss lair display]] refers to it as female.
+*Zulrah had a festive override wearing a [[red partyhat]], [[black partyhat]], and [[santa hat]] during the [[2016 Christmas event/Gallery|2016]], [[2017 Christmas event/Gallery|2017]], [[2018 Christmas event/Gallery|2018]], [[2019 Christmas event/Gallery|2019]], [[2020 Christmas event/Gallery|2020]], [[2021 Christmas event/Gallery|2021]], [[2022 Christmas event/Gallery|2022]], [[2023 Christmas event/Gallery|2023]], and [[2024 Christmas event/Gallery|2024]] Christmas events.
+
+==References==
+{{Reflist}}
+
+{{Zulrah}}
+{{Zul-Andra}}
+{{Bosses}}

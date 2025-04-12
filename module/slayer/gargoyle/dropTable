@@ -1,0 +1,35 @@
+{
+  "Pre-roll": [
+    "Granite maul",
+    "Mystic robe top (dark)"
+  ],
+  "Weapons and armour": [
+    "Adamant platelegs",
+    "Rune full helm",
+    "Rune 2h sword",
+    "Adamant boots",
+    "Rune battleaxe",
+    "Rune platelegs"
+  ],
+  "Runes": [
+    "Fire rune",
+    "Chaos rune",
+    "Death rune"
+  ],
+  "Materials": [
+    "Gold ore",
+    "Pure essence",
+    "Steel bar",
+    "Gold bar",
+    "Mithril bar",
+    "Runite ore"
+  ],
+  "Coins": [
+    "Coins"
+  ],
+  "Gem drop table": [],
+  "Tertiary": [
+    "Brimstone key",
+    "Brittle key"
+  ]
+}

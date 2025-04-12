@@ -1,0 +1,101 @@
+{
+  "100%": [
+    "Dagannoth bones",
+    "Dagannoth hide"
+  ],
+  "Weapons and armour": [
+    "Steel kiteshield",
+    "Mithril warhammer",
+    "Adamant axe",
+    "Steel platebody",
+    "Mithril pickaxe",
+    "Adamant platebody",
+    "Fremennik blade",
+    "Dragon axe",
+    "Rune axe",
+    "Fremennik shield",
+    "Fremennik helm",
+    "Mithril 2h sword",
+    "Ring of life",
+    "Rock-shell plate",
+    "Rock-shell legs",
+    "Berserker ring",
+    "Warrior ring",
+    "Earth battlestaff",
+    "Water battlestaff",
+    "Air battlestaff",
+    "Battlestaff",
+    "Mud battlestaff",
+    "Farseer helm",
+    "Skeletal top",
+    "Skeletal bottoms",
+    "Seers ring",
+    "Mithril knife",
+    "Red d'hide vambraces",
+    "Rune thrownaxe",
+    "Adamant dart",
+    "Iron knife",
+    "Steel knife",
+    "Seercull",
+    "Archer helm",
+    "Spined body",
+    "Spined chaps",
+    "Archers ring"
+  ],
+  "Potions": [
+    "Antifire potion(2)",
+    "Prayer potion(2)",
+    "Restore potion(2)",
+    "Super attack(2)",
+    "Super strength(2)",
+    "Super defence(2)",
+    "Zamorak brew(2)"
+  ],
+  "Ores and bars": [
+    "Mithril ore",
+    "Adamantite bar",
+    "Coal",
+    "Iron ore",
+    "Steel bar"
+  ],
+  "Talismans": [],
+  "Other": [
+    "Coins",
+    "Grimy ranarr weed",
+    "Bass",
+    "Swordfish",
+    "Shark",
+    "Oyster pearls",
+    "Pure essence",
+    "Opal bolt tips",
+    "Yew logs",
+    "Maple logs",
+    "Runite limbs",
+    "Feather"
+  ],
+  "Rare and Gem drop table": [],
+  "Tertiary": [
+    "Ensouled dagannoth head",
+    "Brimstone key"
+  ],
+  "Runes": [
+    "Air rune",
+    "Earth rune",
+    "Blood rune",
+    "Law rune",
+    "Nature rune",
+    "Mud rune",
+    "Death rune"
+  ],
+  "Seeds": [],
+  "Talismans (noted)": [
+    "Earth talisman",
+    "Air talisman",
+    "Water talisman"
+  ],
+  "Ammunition": [
+    "Steel arrow",
+    "Runite bolts",
+    "Iron arrow"
+  ]
+}

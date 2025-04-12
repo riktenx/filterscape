@@ -1,0 +1,46 @@
+{
+  "100%": [
+    "Dragon bones",
+    "Black dragonhide"
+  ],
+  "Pre-roll": [
+    "Dragon pickaxe"
+  ],
+  "Weapons and armour": [
+    "Rune longsword",
+    "Adamant platebody",
+    "Adamant kiteshield",
+    "Dragon med helm"
+  ],
+  "Runes and ammunition": [
+    "Fire rune",
+    "Air rune",
+    "Iron arrow",
+    "Runite bolts",
+    "Law rune",
+    "Blood rune"
+  ],
+  "Resources": [
+    "Yew logs",
+    "Adamantite bar",
+    "Runite bar",
+    "Gold ore"
+  ],
+  "Other": [
+    "Amulet of power",
+    "Dragon arrowtips",
+    "Dragon dart tip",
+    "Dragon javelin heads",
+    "Runite limbs",
+    "Shark"
+  ],
+  "Rare and Gem drop table": [],
+  "Tertiary": [
+    "Key (elite)",
+    "Brimstone key",
+    "Kbd heads",
+    "Prince black dragon",
+    "Draconic visage"
+  ],
+  "Historical": []
+}

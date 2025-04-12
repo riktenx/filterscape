@@ -1,0 +1,212 @@
+{{HasStrategy}}
+{{HasTask|Vampyres}}
+{{Infobox Monster
+|version1 = 1
+|version2 = 2
+|version3 = 3
+|version4 = 4
+|version5 = 5
+|version6 = 6
+|version7 = 7
+|version8 = 8
+|name = Vyrewatch Sentinel
+|image1 = [[File:Vyrewatch Sentinel (1).png|180px]]
+|image2 = [[File:Vyrewatch Sentinel (2).png|180px]]
+|image3 = [[File:Vyrewatch Sentinel (3).png|180px]]
+|image4 = [[File:Vyrewatch Sentinel (4).png|180px]]
+|image5 = [[File:Vyrewatch Sentinel (5).png|180px]]
+|image6 = [[File:Vyrewatch Sentinel (6).png|180px]]
+|image7 = [[File:Vyrewatch Sentinel (7).png|180px]]
+|image8 = [[File:Vyrewatch Sentinel (8).png|180px]]
+|release = [[4 June]] [[2020]]
+|update = Darkmeyer
+|members = Yes
+|combat = 151
+|size = 1
+|examine = A deadly, bloodsucking vampyre.
+|attributes = vampyre3
+|xpbonus = 
+|max hit = 17
+|aggressive = Yes (without [[Vyre_noble_clothing|vyre noble robes]])
+|poisonous = No
+|attack style = [[Slash]]
+|attack speed = 4
+|slaylvl = 38
+|slayxp = 150
+|cat = Vampyres
+|assignedby = mazchna,vannaka,chaeldar,konar,nieve,duradel
+|hitpoints = 150
+|att = 120
+|str = 160
+|def = 180
+|mage = 120
+|range = 120
+|attbns = 0
+|strbns = 0
+|amagic = 0
+|mbns = 0
+|arange = 0
+|rngbns = 0
+|dstab = 0
+|dslash = 0
+|dcrush = 0
+|dmagic = 0
+|drange = 0
+|immunepoison = Yes
+|immunevenom = Yes
+|immunecannon = Yes
+|immunethrall = Yes
+|respawn1 = 25
+|respawn2 = 25
+|respawn3 = 25
+|respawn4 = 25
+|respawn5 = 25
+|respawn6 = 25
+|respawn7 = 25
+|respawn8 = 25
+|id1 = 9756
+|id2 = 9757
+|id3 = 9760
+|id4 = 9762
+|id5 = 9763
+|id6 = 9759
+|id7 = 9758
+|id8 = 9761
+}}
+[[File:Vampyre icon.png|left]]
+'''Vyrewatch Sentinels''' are stronger variants of the [[Vyrewatch]], and can be fought after completing the [[Sins of the Father]] quest. They can be found prowling the streets of the upper class areas of [[Darkmeyer]], in search of unruly humans to snack on. The Vyrewatch Sentinels are the only monsters that drop the [[blood shard]], although they can also be obtained via pickpocketing the various [[Vyre]] citizens throughout the city. As with all members of the Vyrewatch, they can only be harmed with the [[ivandis flail]] or [[blisterwood flail]]. Despite being invulnerable to any damage from weapons like the [[Saradomin godsword]] and [[Ancient Mace]], special attacks will still heal & restore prayer points as if they had dealt damage. [[Burning claws]]’ special attack can also apply burn in a similar fashion.
+
+The ability to be assigned vampyres can be purchased for 80 [[Slayer reward point|Slayer reward points]]. Once unlocked, they can be disabled, but players must spend another 80 points to unlock them again.
+
+They are often killed off task as an AFK money maker because they can be killed next to an altar and they never become [[Tolerance|tolerant]] (as long as you're not wearing [[Vyre_noble_clothing|vyre noble robes]]).
+
+==Locations==
+{{LocTableHead|league=yes}}
+{{LocLine
+|name = Vyrewatch Sentinel
+|location = [[Darkmeyer]]
+|levels = 151
+|members = Yes
+|mapID = 0
+|plane = 0
+|x:3596,y:3324|x:3604,y:3326|x:3624,y:3375|x:3634,y:3387|x:3592,y:3352|x:3593,y:3365|x:3596,y:3357|x:3596,y:3378|x:3599,y:3351|x:3602,y:3384|x:3605,y:3360|x:3605,y:3389|x:3611,y:3359|x:3597,y:3331|x:3603,y:3342|x:3648,y:3382|x:3598,y:3366|x:3602,y:3363|x:3625,y:3383
+|mtype = pin
+|leagueRegion = Morytania
+}}
+
+{{LocTableBottom}}
+
+==Money making==
+{{Mmgsection|Killing Vyrewatch Sentinels}}
+
+==Drops==
+{{DropLogProject|kills=270428}}
+
+{{Average drop value}}
+
+{{Average drop value|brimstone=yes}}
+
+Excluding the [[blood shard]], the average kill is worth {{Coins|{{Average drop value|Vyrewatch Sentinel|raw=y}}-{{GEP|Blood shard|1/1500}} round 0}}.
+===100%===
+{{DropsTableHead}}
+{{DropsLine|name=Vampyre dust|quantity=1|rarity=Always}}
+{{DropsTableBottom}}
+
+{{Uniques/Vyrewatch Sentinel}}
+
+===Weapons and armour===
+{{DropsTableHead}}
+{{DropsLine|name=Rune dagger|quantity=1|rarity=6/93}}
+{{DropsLine|name=Adamant platelegs|quantity=1|rarity=6/93}}
+{{DropsLine|name=Adamant platebody|quantity=1|rarity=4/93}}
+{{DropsLine|name=Rune full helm|quantity=1|rarity=1/93}}
+{{DropsLine|name=Rune kiteshield|quantity=1|rarity=1/93}}
+{{DropsTableBottom}}
+
+===Runes and ammunition===
+{{DropsTableHead}}
+{{DropsLine|name=Death rune|quantity=6-10|rarity=10/93}}
+{{DropsLine|name=Blood rune|quantity=8-16|rarity=10/93}}
+{{DropsLine|name=Nature rune|quantity=6-11|rarity=10/93}}
+{{DropsLine|name=Rune arrow|quantity=4-10|rarity=4/93}}
+{{DropsLine|name=Rune javelin|quantity=5-15|rarity=2/93}}
+{{DropsTableBottom}}
+
+===Herbs===
+{{HerbDropTableInfo|1/93}}
+{{DropsTableHead}}
+{{HerbDropLines|1/93}}
+{{DropsTableBottom}}
+
+===Seeds===
+{{UncommonSeedDropTableInfo|1/93}}
+{{DropsTableHead}}
+{{UncommonSeedDropLines|1/93}}
+{{DropsTableBottom}}
+
+===Bolt tips===
+{{DropsTableHead}}
+{{DropsLine|name=Opal bolt tips|quantity=6-14|rarity=9/5208}}
+{{DropsLine|name=Jade bolt tips|quantity=6-14|rarity=3/5208}}
+{{DropsLine|name=Topaz bolt tips|quantity=6-14|rarity=3/5208}}
+{{DropsLine|name=Pearl bolt tips|quantity=6-14|rarity=9/5208}}
+{{DropsLine|name=Sapphire bolt tips|quantity=6-14|rarity=3/5208}}
+{{DropsLine|name=Emerald bolt tips|quantity=6-14|rarity=5/5208}}
+{{DropsLine|name=Ruby bolt tips|quantity=6-14|rarity=6/5208}}
+{{DropsLine|name=Diamond bolt tips|quantity=6-14|rarity=9/5208}}
+{{DropsLine|name=Dragonstone bolt tips|quantity=6-14|rarity=6/5208}}
+{{DropsLine|name=Onyx bolt tips|quantity=6-14|rarity=3/5208}}
+{{DropsTableBottom}}
+
+===Materials===
+{{DropsTableHead}}
+{{DropsLine|name=Bark|quantity=4-8 (noted)|rarity=4/93}}
+{{DropsLine|name=Coal|quantity=8 (noted)|rarity=4/93}}
+{{DropsLine|name=Runite bar|quantity=1|rarity=2/93}}
+{{DropsLine|name=Yew logs|quantity=6 (noted)|rarity=2/93}}
+{{DropsLine|name=Runite ore|quantity=1|rarity=2/93}}
+{{DropsTableBottom}}
+
+===Coins===
+{{DropsTableHead}}
+{{DropsLine|name=Coins|quantity=100-1000|rarity=21/93|gemw=No}}
+{{DropsTableBottom}}
+
+===Rare drop table===
+{{RareDropTable|1/93|naturetalisman=yes}}
+
+===Tertiary===
+{{DropsTableHead}}
+{{DropsLine|name=Brimstone key|quantity=1|rarity={{Brimstone rarity|151|bonus=yes}}|raritynotes=<ref group=d>Brimstone keys are only dropped if killed on a [[Slayer task]] given by [[Konar quo Maten]].</ref>|gemw=No|leagueRegion=Morytania&Kourend}}
+{{DropsLineClue|type=hard|rarity=1/100}}
+{{DropsTableBottom}}
+{{Reflist|group=d}}
+
+==Sounds effects==
+{{SFXTableHead}}
+{{SFXLine|file=Vyrewatch hit.wav|desc=Being attacked}}
+{{SFXLine|file=Vyrewatch attack.wav|desc=Attacking}}
+{{SFXLine|file=Vyrewatch death.wav|desc=Dying}}
+{{SFXTableBottom}}
+
+==Changes==
+{{Subject changes header}}
+{{Subject changes
+|date = 12 April 2023
+|type = hotfix
+|change = Vyrewatch Sentinels are once again only able to be harmed by the [[ivandis flail]] or [[blisterwood flail]].
+}}
+{{Subject changes
+|date = 12 April 2023
+|update = Desert Treasure II Rewards Beta
+|change = A bug allowing Vyrewatch Sentinels to be harmed by other weapons is introduced.
+}}
+{{Subject changes footer}}
+
+==References==
+{{Reflist}}
+
+{{Vampyres}}
+{{Slayer monsters}}
+{{Darkmeyer}}
+{{Sins of the Father}}

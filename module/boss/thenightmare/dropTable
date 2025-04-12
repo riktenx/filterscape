@@ -1,0 +1,54 @@
+{
+  "100%": [
+    "Big bones",
+    "Bones"
+  ],
+  "Uniques": [
+    "Nightmare staff",
+    "Inquisitor's great helm",
+    "Inquisitor's hauberk",
+    "Inquisitor's plateskirt",
+    "Inquisitor's mace",
+    "Eldritch orb",
+    "Harmonised orb",
+    "Volatile orb"
+  ],
+  "Runes and ammunition": [
+    "Cosmic rune",
+    "Nature rune",
+    "Death rune",
+    "Blood rune",
+    "Soul rune",
+    "Cannonball",
+    "Rune arrow"
+  ],
+  "Resources": [
+    "Mithril ore",
+    "Coal",
+    "Gold ore",
+    "Adamantite ore",
+    "Magic logs",
+    "Grimy cadantine",
+    "Grimy torstol",
+    "Snapdragon seed",
+    "Uncut emerald",
+    "Uncut ruby",
+    "Runite ore"
+  ],
+  "Consumables": [
+    "Bass",
+    "Shark",
+    "Prayer potion(3)",
+    "Sanfew serum(3)",
+    "Saradomin brew(3)",
+    "Zamorak brew(3)"
+  ],
+  "Coins": [
+    "Coins"
+  ],
+  "Tertiary": [
+    "Little nightmare",
+    "Jar of dreams"
+  ],
+  "Pre-release gallery": []
+}

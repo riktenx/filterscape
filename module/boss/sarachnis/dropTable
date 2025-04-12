@@ -1,0 +1,66 @@
+{
+  "Pre-roll": [
+    "Dragon med helm",
+    "Sarachnis cudgel"
+  ],
+  "Weapons and armour": [
+    "Battlestaff",
+    "Rune platebody",
+    "Rune med helm",
+    "Rune 2h sword"
+  ],
+  "Runes and ammunition": [
+    "Blood rune",
+    "Chaos rune",
+    "Cosmic rune",
+    "Death rune",
+    "Soul rune",
+    "Mithril arrow",
+    "Mithril bolts"
+  ],
+  "Seeds": [
+    "Maple seed",
+    "Papaya tree seed",
+    "Yew seed"
+  ],
+  "Herbs": [
+    "Grimy kwuarm",
+    "Grimy cadantine",
+    "Grimy dwarf weed",
+    "Grimy avantoe",
+    "Grimy lantadyme",
+    "Grimy ranarr weed",
+    "Grimy snapdragon",
+    "Grimy torstol"
+  ],
+  "Materials": [
+    "Mithril ore",
+    "Red dragonhide",
+    "Uncut sapphire",
+    "Adamantite ore",
+    "Uncut emerald",
+    "Onyx bolt tips",
+    "Uncut ruby",
+    "Runite ore",
+    "Uncut diamond"
+  ],
+  "Other": [
+    "Coins",
+    "Dragon bones",
+    "Egg potato",
+    "Weapon poison(++)",
+    "Crystal key",
+    "Spider carcass"
+  ],
+  "Gem drop table": [],
+  "Tertiary": [
+    "Tattered moon page",
+    "Tattered sun page",
+    "Tattered temple page",
+    "Giant egg sac(full)",
+    "Grubby key",
+    "Brimstone key",
+    "Jar of eyes",
+    "Sraracha"
+  ]
+}

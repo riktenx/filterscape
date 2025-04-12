@@ -1,9 +1,6 @@
 // module:currency
 
-#define VAR_CURRENCY_ADD []
-#define VAR_CURRENCY_NOT []
-
-#define CONST_CURRENCY_ITEMS [\
+#define VAR_CURRENCY_ITEMS [\
   "Mole claw",\
   "Mole skin",\
   "Trading sticks",\
@@ -35,10 +32,10 @@
   "Ecumenical key shard",\
 ]
 
-#define VAR_CURRENCY_USERSTYLE 
-
-rule ((name:CONST_CURRENCY_ITEMS || name:VAR_CURRENCY_ADD) && !name:VAR_CURRENCY_NOT) {
+#define VAR_CURRENCY_USERSTYLE \
   textColor = "#beb287";
+
+apply (name:VAR_CURRENCY_ITEMS)
   VAR_CURRENCY_USERSTYLE
 }
 

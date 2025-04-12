@@ -3477,6 +3477,50 @@ rule (noted:false && name:CONST_HERB_HERBS) {}
 // endmodule:herb
 
 
+// module:currency
+
+#define VAR_CURRENCY_ITEMS [\
+  "Mole claw",\
+  "Mole skin",\
+  "Trading sticks",\
+  "Numulite",\
+  "Abyssal pearls",\
+  "Anima-infused bark",\
+  "Barronite shards",\
+  "Blood money",\
+  "Ecto-token",\
+  "Frog token",\
+  "Golden nugget",\
+  "Glistening tear",\
+  "Hallowed mark",\
+  "Intelligence",\
+  "Mark of grace",\
+  "Mermaid's tear",\
+  "Minnow",\
+  "Molch pearl",\
+  "Nuggets",\
+  "Rare creature parts",\
+  "Reward token credits",\
+  "Stardust",\
+  "Tokkul",\
+  "Termites",\
+  "Unidentified minerals",\
+  "Warrior guild token",\
+  "Blessed bone shards",\
+  "Sun-kissed bones",\
+  "Ecumenical key shard",\
+]
+
+#define VAR_CURRENCY_USERSTYLE \
+  textColor = "#beb287";
+
+apply (name:VAR_CURRENCY_ITEMS)
+  VAR_CURRENCY_USERSTYLE
+}
+
+// endmodule:currency
+
+
 // module:value
 
 #define VAR_VALUE_T9_ENABLED false
@@ -3548,50 +3592,3 @@ rule (value:>=VAR_VALUE_T0_VALUE) {
 }
 
 // endmodule:value
-
-
-// module:currency
-
-#define VAR_CURRENCY_ADD []
-#define VAR_CURRENCY_NOT []
-
-#define CONST_CURRENCY_ITEMS [\
-  "Mole claw",\
-  "Mole skin",\
-  "Trading sticks",\
-  "Numulite",\
-  "Abyssal pearls",\
-  "Anima-infused bark",\
-  "Barronite shards",\
-  "Blood money",\
-  "Ecto-token",\
-  "Frog token",\
-  "Golden nugget",\
-  "Glistening tear",\
-  "Hallowed mark",\
-  "Intelligence",\
-  "Mark of grace",\
-  "Mermaid's tear",\
-  "Minnow",\
-  "Molch pearl",\
-  "Nuggets",\
-  "Rare creature parts",\
-  "Reward token credits",\
-  "Stardust",\
-  "Tokkul",\
-  "Termites",\
-  "Unidentified minerals",\
-  "Warrior guild token",\
-  "Blessed bone shards",\
-  "Sun-kissed bones",\
-  "Ecumenical key shard",\
-]
-
-#define VAR_CURRENCY_USERSTYLE 
-
-rule ((name:CONST_CURRENCY_ITEMS || name:VAR_CURRENCY_ADD) && !name:VAR_CURRENCY_NOT) {
-  textColor = "#beb287";
-  VAR_CURRENCY_USERSTYLE
-}
-
-// endmodule:currency

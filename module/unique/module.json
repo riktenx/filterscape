@@ -6,6 +6,7 @@
       "type": "includeExcludeList",
       "group": "s-tier-unique",
       "label": "S-Tier uniques.",
+      "exampleItem": "Executioner's axe head",
       "macroName": {
         "includes": "VAR_UNIQUE_STIER_ADD",
         "excludes": "VAR_UNIQUE_STIER_NOT"

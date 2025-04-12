@@ -32,9 +32,9 @@ apply (noted:false && name:CONST_HERB_HERBS) {
 
 apply (noted:false && name:CONST_HERB_HERBS && value:<VAR_HERB_MINVALUE) { hidden = true; }
 
-if (noted:false && name:VAR_HERB_SHOW) { hidden = false; }
-if (noted:false && name:VAR_HERB_HIDE) { hidden = true; }
+rule (noted:false && name:VAR_HERB_SHOW) { hidden = false; }
+rule (noted:false && name:VAR_HERB_HIDE) { hidden = true; }
 
-if (noted:false && name:CONST_HERB_HERBS) {}
+rule (noted:false && name:CONST_HERB_HERBS) {}
 
 // endmodule:herb

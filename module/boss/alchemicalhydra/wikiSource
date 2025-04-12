@@ -54,6 +54,8 @@
 |drange = 45
 |immunepoison = Yes
 |immunevenom = Yes
+|immuneburn = No
+|immuneburn3 = Immune to normal burns 
 |id1 = 8615,8616
 |id2 = 8619,8617
 |id3 = 8620,8618

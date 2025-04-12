@@ -6,7 +6,7 @@
 #define CONST_AREA_BLOODVELD3 [2434,9817,0,2489,9834,0] // [[Stronghold Slayer Cave]]
 #define CONST_AREA_BLOODVELD4 [2950,10085,0,2968,10101,0] // [[Wilderness God Wars Dungeon]]
 #define CONST_AREA_BLOODVELD5 [3404,3556,1,3429,3579,1] // Slayer tower (upstairs)
-#define CONST_BLOODVELD_IF(_cond) if ((area:CONST_AREA_BLOODVELD0 || \
+#define CONST_BLOODVELD_RULE(_cond) rule ((area:CONST_AREA_BLOODVELD0 || \
   area:CONST_AREA_BLOODVELD1 || \
   area:CONST_AREA_BLOODVELD2 || \
   area:CONST_AREA_BLOODVELD3 || \
@@ -17,7 +17,7 @@
 // group:Hide drops
 // enum:["Vile ashes"]
 #define VAR_BLOODVELD_ENUMLIST_FILTER_100 []
-CONST_BLOODVELD_IF (name:VAR_BLOODVELD_ENUMLIST_FILTER_100) {
+CONST_BLOODVELD_RULE (name:VAR_BLOODVELD_ENUMLIST_FILTER_100) {
   hidden = true;
 }
 
@@ -25,7 +25,7 @@ CONST_BLOODVELD_IF (name:VAR_BLOODVELD_ENUMLIST_FILTER_100) {
 // group:Hide drops
 // enum:["Steel axe","Steel full helm","Steel scimitar","Black boots","Mithril sq shield","Mithril chainbody","Rune med helm"]
 #define VAR_BLOODVELD_ENUMLIST_FILTER_WEAPONSANDARMOUR ["Steel axe","Steel full helm","Steel scimitar","Mithril sq shield","Mithril chainbody"]
-CONST_BLOODVELD_IF (name:VAR_BLOODVELD_ENUMLIST_FILTER_WEAPONSANDARMOUR) {
+CONST_BLOODVELD_RULE (name:VAR_BLOODVELD_ENUMLIST_FILTER_WEAPONSANDARMOUR) {
   hidden = true;
 }
 
@@ -33,7 +33,7 @@ CONST_BLOODVELD_IF (name:VAR_BLOODVELD_ENUMLIST_FILTER_WEAPONSANDARMOUR) {
 // group:Hide drops
 // enum:["Fire rune","Blood rune"]
 #define VAR_BLOODVELD_ENUMLIST_FILTER_RUNES []
-CONST_BLOODVELD_IF (name:VAR_BLOODVELD_ENUMLIST_FILTER_RUNES) {
+CONST_BLOODVELD_RULE (name:VAR_BLOODVELD_ENUMLIST_FILTER_RUNES) {
   hidden = true;
 }
 
@@ -43,7 +43,7 @@ CONST_BLOODVELD_IF (name:VAR_BLOODVELD_ENUMLIST_FILTER_RUNES) {
 // group:Hide drops
 // enum:["Coins"]
 #define VAR_BLOODVELD_ENUMLIST_FILTER_COINS []
-CONST_BLOODVELD_IF (name:VAR_BLOODVELD_ENUMLIST_FILTER_COINS) {
+CONST_BLOODVELD_RULE (name:VAR_BLOODVELD_ENUMLIST_FILTER_COINS) {
   hidden = true;
 }
 
@@ -51,7 +51,7 @@ CONST_BLOODVELD_IF (name:VAR_BLOODVELD_ENUMLIST_FILTER_COINS) {
 // group:Hide drops
 // enum:["Bones","Big bones","Gold ore","Meat pizza"]
 #define VAR_BLOODVELD_ENUMLIST_FILTER_OTHER ["Bones","Meat pizza"]
-CONST_BLOODVELD_IF (name:VAR_BLOODVELD_ENUMLIST_FILTER_OTHER) {
+CONST_BLOODVELD_RULE (name:VAR_BLOODVELD_ENUMLIST_FILTER_OTHER) {
   hidden = true;
 }
 
@@ -61,7 +61,7 @@ CONST_BLOODVELD_IF (name:VAR_BLOODVELD_ENUMLIST_FILTER_OTHER) {
 // group:Hide drops
 // enum:["Clue scroll (elite)","Reward casket (elite)","Looting bag","Ensouled bloodveld head","Brimstone key"]
 #define VAR_BLOODVELD_ENUMLIST_FILTER_TERTIARY []
-CONST_BLOODVELD_IF (name:VAR_BLOODVELD_ENUMLIST_FILTER_TERTIARY) {
+CONST_BLOODVELD_RULE (name:VAR_BLOODVELD_ENUMLIST_FILTER_TERTIARY) {
   hidden = true;
 }
 

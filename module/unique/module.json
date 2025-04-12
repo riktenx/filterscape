@@ -6,7 +6,6 @@
       "type": "includeExcludeList",
       "group": "s-tier-unique",
       "label": "S-Tier uniques.",
-      "exampleItem": "Executioner's axe head",
       "macroName": {
         "includes": "VAR_UNIQUE_STIER_ADD",
         "excludes": "VAR_UNIQUE_STIER_NOT"
@@ -38,7 +37,8 @@
       "type": "style",
       "group": "s-tier-unique",
       "macroName": "VAR_UNIQUE_STIER_CUSTOMSTYLE",
-      "label": "S-Tier: display",
+      "label": "Style",
+      "exampleItem": "Executioner's axe head",
       "default": {
         "textColor": "#ff0000",
         "backgroundColor": "#ffffff",

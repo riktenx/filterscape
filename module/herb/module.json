@@ -1,7 +1,7 @@
 {
   "name": "Herbs",
   "rs2fPath": "module.rs2f",
-  "description": "These rules apply to UNnoted herbs only. Noted herbs will fallthrough to value rules.",
+  "description": "# Herbs\n\nThese rules apply to UNnoted herbs only.\n\nNoted herbs will fallthrough to value rules.",
   "inputs": [
     {
       "type": "enumlist",

@@ -3462,17 +3462,17 @@ if (name:["clue scroll (master)", "reward casket (master)", "challenge scroll (m
 #define VAR_HERB_HIDE []
 #define VAR_HERB_CUSTOMSTYLE 
 
-apply (name:CONST_HERB_HERBS) {
+apply (noted:false && name:CONST_HERB_HERBS) {
   textColor = CONST_HERB_DEFAULTCOLOR;
   VAR_HERB_CUSTOMSTYLE
 }
 
-apply (name:CONST_HERB_HERBS && value:<VAR_HERB_MINVALUE) { hidden = true; }
+apply (noted:false && name:CONST_HERB_HERBS && value:<VAR_HERB_MINVALUE) { hidden = true; }
 
-if (name:VAR_HERB_SHOW) { hidden = false; }
-if (name:VAR_HERB_HIDE) { hidden = true; }
+if (noted:false && name:VAR_HERB_SHOW) { hidden = false; }
+if (noted:false && name:VAR_HERB_HIDE) { hidden = true; }
 
-if (name:CONST_HERB_HERBS) {}
+if (noted:false && name:CONST_HERB_HERBS) {}
 
 // endmodule:herb
 

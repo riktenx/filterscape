@@ -2,7 +2,12 @@
 /*@ define:module:herbs
 ---
 name: Herbs
-description: These rules apply to UNnoted herbs only. Noted herbs will fallthrough to value rules.
+description: |
+  # Herbs
+  
+  These rules apply to UNnoted herbs only.
+  
+  Noted herbs will fallthrough to value rules.
 */
 
 #define CONST_HERB_HERBS [\
@@ -30,6 +35,7 @@ type: number
 label: Baseline minimum value at which to show herbs.
 */
 #define VAR_HERB_MINVALUE 0
+
 /*@ define:input:herbs
 type: enumlist
 label: Herbs to always show regardless of value
@@ -52,6 +58,7 @@ enum: [
 ]
 */
 #define VAR_HERB_SHOW []
+
 /*@ define:input:herbs
 type: enumlist
 label: Herbs to always hide regardless of value
@@ -74,11 +81,13 @@ enum: [
 ]
 */
 #define VAR_HERB_HIDE []
+
 /*@ define:input:herbs
 type: style
 label: Style
 */
 #define VAR_HERB_CUSTOMSTYLE 
+
 
 apply (noted:false && name:CONST_HERB_HERBS) {
   textColor = CONST_HERB_DEFAULTCOLOR;

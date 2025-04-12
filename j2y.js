@@ -16,7 +16,13 @@ if (!!mod.subtitle) {
   header += `subtitle: ${mod.subtitle}\n`;
 }
 if (!!mod.description) {
-  header += `description: ${mod.description}\n`;
+  const description = mod.description
+    .split('\n')
+    .map(line => '  ' + line)
+    .join('\n');
+  header += `description: |
+${description}
+`;
 }
 header += '*/';
 
@@ -57,7 +63,7 @@ label: ${input.label}
   inputDefine += '*/';
 
   migrated.push(inputDefine);
-  migrated.push(line);
+  migrated.push(line + '\n');
 }
 
 fs.writeFileSync(`${modulePath}/module_migrated.rs2f`, migrated.join('\n'));

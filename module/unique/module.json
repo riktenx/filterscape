@@ -111,7 +111,7 @@
       }
     },
     {
-      "type": "includeExcludeList",
+      "type": "stringlist",
       "group": "c-tier-unique",
       "label": "C-Tier uniques.",
       "macroName": "VAR_UNIQUE_CTIER",

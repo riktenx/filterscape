@@ -3,35 +3,29 @@
   "rs2fPath": "module.rs2f",
   "inputs": [
     {
-      "type": "includeExcludeList",
+      "type": "stringlist",
       "group": "s-tier-unique",
       "label": "S-Tier uniques.",
-      "macroName": {
-        "includes": "VAR_UNIQUE_STIER_ADD",
-        "excludes": "VAR_UNIQUE_STIER_NOT"
-      },
-      "default": {
-        "includes": [
-          "Infernal cape",
-          "Fire cape",
-          "Dizana's quiver*",
-          "Unsired",
-          "Ancient blood ornament kit",
-          "Ultor vestige",
-          "Venator vestige",
-          "Bellator vestige",
-          "Magus vestige",
-          "Executioner's axe head",
-          "Leviathan's lure",
-          "Siren's staff",
-          "Eye of the duke",
-          "Slepey tablet",
-          "*max cape",
-          "*mutagen",
-          "*champion scroll"
-        ],
-        "excludes": []
-      }
+      "macroName": "VAR_UNIQUE_STIER",
+      "default": [
+        "Infernal cape",
+        "Fire cape",
+        "Dizana's quiver*",
+        "Unsired",
+        "Ancient blood ornament kit",
+        "Ultor vestige",
+        "Venator vestige",
+        "Bellator vestige",
+        "Magus vestige",
+        "Executioner's axe head",
+        "Leviathan's lure",
+        "Siren's staff",
+        "Eye of the duke",
+        "Slepey tablet",
+        "*max cape",
+        "*mutagen",
+        "*champion scroll"
+      ]
     },
     {
       "type": "style",
@@ -48,24 +42,18 @@
       }
     },
     {
-      "type": "includeExcludeList",
+      "type": "stringlist",
       "group": "a-tier-unique",
       "label": "A-Tier uniques.",
-      "macroName": {
-        "includes": "VAR_UNIQUE_ATIER_ADD",
-        "excludes": "VAR_UNIQUE_ATIER_NOT"
-      },
-      "default": {
-        "includes": [
-          "brimstone key",
-          "jar of*",
-          "noxious pommel",
-          "noxious point",
-          "noxious blade",
-          "*half of key (moon key)"
-        ],
-        "excludes": []
-      }
+      "macroName": "VAR_UNIQUE_ATIER",
+      "default": [
+        "brimstone key",
+        "jar of*",
+        "noxious pommel",
+        "noxious point",
+        "noxious blade",
+        "*half of key (moon key)"
+      ]
     },
     {
       "type": "style",
@@ -81,40 +69,34 @@
       }
     },
     {
-      "type": "includeExcludeList",
+      "type": "stringlist",
       "group": "b-tier-unique",
       "label": "B-Tier uniques.",
-      "macroName": {
-        "includes": "VAR_UNIQUE_BTIER_ADD",
-        "excludes": "VAR_UNIQUE_BTIER_NOT"
-      },
-      "default": {
-        "includes": [
-          "dark totem",
-          "mossy key",
-          "giant key",
-          "ecumenical key",
-          "abyssal head",
-          "araxyte head",
-          "alchemical hydra heads",
-          "kbd heads",
-          "kq head*",
-          "dark claw",
-          "bludgeon claw",
-          "bludgeon spine",
-          "bludgeon axon",
-          "hydra's eye",
-          "hydra's fang",
-          "hydra's heart",
-          "strangled tablet",
-          "scarred tablet",
-          "sirenic tablet",
-          "frozen tablet",
-          "scurrius' spine",
-          "vorkath's head"
-        ],
-        "excludes": []
-      }
+      "macroName": "VAR_UNIQUE_BTIER",
+      "default": [
+        "dark totem",
+        "mossy key",
+        "giant key",
+        "ecumenical key",
+        "abyssal head",
+        "araxyte head",
+        "alchemical hydra heads",
+        "kbd heads",
+        "kq head*",
+        "dark claw",
+        "bludgeon claw",
+        "bludgeon spine",
+        "bludgeon axon",
+        "hydra's eye",
+        "hydra's fang",
+        "hydra's heart",
+        "strangled tablet",
+        "scarred tablet",
+        "sirenic tablet",
+        "frozen tablet",
+        "scurrius' spine",
+        "vorkath's head"
+      ]
     },
     {
       "type": "style",
@@ -132,36 +114,30 @@
       "type": "includeExcludeList",
       "group": "c-tier-unique",
       "label": "C-Tier uniques.",
-      "macroName": {
-        "includes": "VAR_UNIQUE_CTIER_ADD",
-        "excludes": "VAR_UNIQUE_CTIER_NOT"
-      },
-      "default": {
-        "includes": [
-          "dark totem top",
-          "dark totem base",
-          "dark totem middle",
-          "long bone",
-          "curved bone",
-          "looting bag",
-          "unidentified small fossil",
-          "unidentified medium fossil",
-          "unidentified large fossil",
-          "unidentified rare fossil",
-          "key master teleport",
-          "chromium ingot",
-          "blood quartz",
-          "smoke quartz",
-          "shadow quartz",
-          "ice quartz",
-          "pendant of ates*",
-          "frozen cache",
-          "ancient icon",
-          "charged ice",
-          "parasitic egg"
-        ],
-        "excludes": []
-      }
+      "macroName": "VAR_UNIQUE_CTIER",
+      "default": [
+        "dark totem top",
+        "dark totem base",
+        "dark totem middle",
+        "long bone",
+        "curved bone",
+        "looting bag",
+        "unidentified small fossil",
+        "unidentified medium fossil",
+        "unidentified large fossil",
+        "unidentified rare fossil",
+        "key master teleport",
+        "chromium ingot",
+        "blood quartz",
+        "smoke quartz",
+        "shadow quartz",
+        "ice quartz",
+        "pendant of ates*",
+        "frozen cache",
+        "ancient icon",
+        "charged ice",
+        "parasitic egg"
+      ]
     },
     {
       "type": "style",

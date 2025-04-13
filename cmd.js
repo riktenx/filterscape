@@ -1,7 +1,7 @@
 import fs from 'fs';
 
 import { getWikiSource, buildDropTable, buildMapAreas } from './wikiscrape.js';
-import { generateRs2f, generateJson } from './modgen.js';
+import { generateRs2f } from './modgen.js';
 
 const toModuleName = (str) => str
   .toLowerCase()
@@ -42,7 +42,6 @@ export const cmdGenerateModGroup = async (groupName, index) => {
 
     const moduleName = toModuleName(mod.name);
     const rs2f = generateRs2f(mod.name, mod.area, dropTable, mod.transform);
-    const module = generateJson(rs2f);
 
     const modulePath = `module/${groupName}/${moduleName}`;
     if (!fs.existsSync(modulePath)) {
@@ -50,7 +49,6 @@ export const cmdGenerateModGroup = async (groupName, index) => {
     }
 
     fs.writeFileSync(`${modulePath}/module.rs2f`, rs2f);
-    fs.writeFileSync(`${modulePath}/module.json`, JSON.stringify(module, null, 2));
 
     fs.writeFileSync(`${modulePath}/wikiSource`, wikiSource);
     fs.writeFileSync(`${modulePath}/dropTable`, JSON.stringify(dropTable, null, 2));

@@ -1,4 +1,7 @@
-// module:Bloodveld
+
+/*@ define:module:bloodveld
+name: Bloodveld
+*/
 
 #define CONST_AREA_BLOODVELD0 [2845,5283,0,2935,5362,0] // [[God Wars Dungeon]]
 #define CONST_AREA_BLOODVELD1 [3564,9735,0,3574,9741,0] // [[Meiyerditch Laboratories]]
@@ -13,58 +16,76 @@
   area:CONST_AREA_BLOODVELD4 || \
   area:CONST_AREA_BLOODVELD5) && (_cond))
 
-// label:100%
-// group:Hide drops
-// enum:["Vile ashes"]
+
+/*@ define:
+type: stringlist
+label: 100%
+group: Hide drops
+enum: ["Vile ashes"]
+*/
 #define VAR_BLOODVELD_ENUMLIST_FILTER_100 []
 CONST_BLOODVELD_RULE (name:VAR_BLOODVELD_ENUMLIST_FILTER_100) {
   hidden = true;
 }
 
-// label:Weapons and armour
-// group:Hide drops
-// enum:["Steel axe","Steel full helm","Steel scimitar","Black boots","Mithril sq shield","Mithril chainbody","Rune med helm"]
+
+/*@ define:
+type: stringlist
+label: Weapons and armour
+group: Hide drops
+enum: ["Steel axe","Steel full helm","Steel scimitar","Black boots","Mithril sq shield","Mithril chainbody","Rune med helm"]
+*/
 #define VAR_BLOODVELD_ENUMLIST_FILTER_WEAPONSANDARMOUR ["Steel axe","Steel full helm","Steel scimitar","Mithril sq shield","Mithril chainbody"]
 CONST_BLOODVELD_RULE (name:VAR_BLOODVELD_ENUMLIST_FILTER_WEAPONSANDARMOUR) {
   hidden = true;
 }
 
-// label:Runes 
-// group:Hide drops
-// enum:["Fire rune","Blood rune"]
+
+/*@ define:
+type: stringlist
+label: Runes 
+group: Hide drops
+enum: ["Fire rune","Blood rune"]
+*/
 #define VAR_BLOODVELD_ENUMLIST_FILTER_RUNES []
 CONST_BLOODVELD_RULE (name:VAR_BLOODVELD_ENUMLIST_FILTER_RUNES) {
   hidden = true;
 }
 
 
-
-// label:Coins
-// group:Hide drops
-// enum:["Coins"]
+/*@ define:
+type: stringlist
+label: Coins
+group: Hide drops
+enum: ["Coins"]
+*/
 #define VAR_BLOODVELD_ENUMLIST_FILTER_COINS []
 CONST_BLOODVELD_RULE (name:VAR_BLOODVELD_ENUMLIST_FILTER_COINS) {
   hidden = true;
 }
 
-// label:Other
-// group:Hide drops
-// enum:["Bones","Big bones","Gold ore","Meat pizza"]
+
+/*@ define:
+type: stringlist
+label: Other
+group: Hide drops
+enum: ["Bones","Big bones","Gold ore","Meat pizza"]
+*/
 #define VAR_BLOODVELD_ENUMLIST_FILTER_OTHER ["Bones","Meat pizza"]
 CONST_BLOODVELD_RULE (name:VAR_BLOODVELD_ENUMLIST_FILTER_OTHER) {
   hidden = true;
 }
 
 
-
-// label:Tertiary
-// group:Hide drops
-// enum:["Clue scroll (elite)","Reward casket (elite)","Looting bag","Ensouled bloodveld head","Brimstone key"]
+/*@ define:
+type: stringlist
+label: Tertiary
+group: Hide drops
+enum: ["Clue scroll (elite)","Reward casket (elite)","Looting bag","Ensouled bloodveld head","Brimstone key"]
+*/
 #define VAR_BLOODVELD_ENUMLIST_FILTER_TERTIARY []
 CONST_BLOODVELD_RULE (name:VAR_BLOODVELD_ENUMLIST_FILTER_TERTIARY) {
   hidden = true;
 }
-
-
 
 // endmodule:Bloodveld

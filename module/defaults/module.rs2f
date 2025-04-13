@@ -1,7 +1,24 @@
+
+/*@ define:module:defaults
+---
+name: Defaults
+description: |
+  Global style defaults. These can be overriden by rules further down.
+*/
 //module:defaults
 
+/*@ define:input:defaults
+type: boolean
+label: Show item icons
+*/
 #define VAR_DEFAULTS_SHOWICONS false
-#define VAR_DEFAULTS_STYLE
+
+/*@ define:input:defaults
+type: style
+label: Default style
+*/
+#define VAR_DEFAULTS_STYLE 
+
 
 apply (VAR_DEFAULTS_SHOWICONS) {
   icon = CurrentItem();

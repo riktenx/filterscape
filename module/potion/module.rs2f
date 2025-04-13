@@ -1,4 +1,8 @@
-// module:potion
+
+/*@ define:module:potions
+---
+name: Potions
+*/
 
 #define CONST_POTION_HIGHLIGHT(_name, _color, _userstyle) \
   rule (name:_name && noted:false) {\
@@ -7,13 +11,62 @@
     _userstyle\
   }
 
-#define VAR_POTION_RESTORE_USERSTYLE
-#define VAR_POTION_BREW_USERSTYLE
-#define VAR_POTION_PRAYER_USERSTYLE
-#define VAR_POTION_SANFEW_USERSTYLE
-#define VAR_POTION_SUPERCOMBAT_USERSTYLE
-#define VAR_POTION_RANGE_USERSTYLE
-#define VAR_POTION_BASTION_USERSTYLE
+/*@ define:input:potions
+type: style
+label: Super restore
+*/
+#define VAR_POTION_RESTORE_USERSTYLE \
+  textColor = "#e91e63";\
+  textAccent = 2;
+
+/*@ define:input:potions
+type: style
+label: Saradomin brew
+*/
+#define VAR_POTION_BREW_USERSTYLE \
+  textColor = "#ffff00";\
+  textAccent = 2;
+
+/*@ define:input:potions
+type: style
+label: Prayer potion
+*/
+#define VAR_POTION_PRAYER_USERSTYLE \
+  textColor = "#59d6ae";\
+  textAccent = 2;
+
+/*@ define:input:potions
+type: style
+label: Sanfew serum
+*/
+#define VAR_POTION_SANFEW_USERSTYLE \
+  textColor = "#e59e9e";\
+  textAccent = 2;
+
+/*@ define:input:potions
+type: style
+label: Super combat potion
+*/
+#define VAR_POTION_SUPERCOMBAT_USERSTYLE \
+  textColor = "#2a9e16";\
+  textAccent = 2;
+
+/*@ define:input:potions
+type: style
+label: Ranging potion
+*/
+#define VAR_POTION_RANGE_USERSTYLE \
+  textColor = "#5fb7da";\
+  textAccent = 2;
+
+/*@ define:input:potions
+type: style
+label: Bastion potion
+*/
+#define VAR_POTION_BASTION_USERSTYLE \
+  textColor = "#db721c";\
+  textAccent = 2;
+
 
 CONST_POTION_HIGHLIGHT("super restore*", "#e91e63", VAR_POTION_RESTORE_USERSTYLE)
 CONST_POTION_HIGHLIGHT("saradomin brew*", "#ffff00", VAR_POTION_BREW_USERSTYLE)
@@ -23,4 +76,3 @@ CONST_POTION_HIGHLIGHT("*super combat potion*", "#2a9e16", VAR_POTION_SUPERCOMBA
 CONST_POTION_HIGHLIGHT("*ranging potion*", "#5fb7da", VAR_POTION_RANGE_USERSTYLE)
 CONST_POTION_HIGHLIGHT("*bastion potion*", "#db721c", VAR_POTION_BASTION_USERSTYLE)
 
-// endmodule:potion

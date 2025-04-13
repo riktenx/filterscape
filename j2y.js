@@ -123,4 +123,5 @@ label: ${input.label}
   migrated.push(`#define ${ident} ${renderDefault(input)}\n`);
 }
 
-fs.writeFileSync(`${modulePath}/${filename}_migrated.rs2f`, migrated.join('\n'));
+fs.writeFileSync(`${modulePath}/${filename}.rs2f`, migrated.join('\n'));
+fs.rmSync(`${modulePath}/${filename}.json`);

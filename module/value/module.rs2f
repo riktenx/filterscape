@@ -1,4 +1,8 @@
-// module:value
+
+/*@ define:module:item_values
+---
+name: Item values
+*/
 
 #define VAR_VALUE_T9_ENABLED false
 #define VAR_VALUE_T8_ENABLED false
@@ -15,23 +19,120 @@
 #define VAR_VALUE_T8_VALUE 0
 #define VAR_VALUE_T7_VALUE 0
 #define VAR_VALUE_T6_VALUE 0
-#define VAR_VALUE_T5_VALUE 100_000_000
-#define VAR_VALUE_T4_VALUE 10_000_000
-#define VAR_VALUE_T3_VALUE 1_000_000
-#define VAR_VALUE_T2_VALUE 500_000
-#define VAR_VALUE_T1_VALUE 100_000
-#define VAR_VALUE_T0_VALUE 10_000
+/*@ define:input:item_values
+type: number
+label: T5: Min value
+group: t5
+*/
+#define VAR_VALUE_T5_VALUE 100000000
+
+/*@ define:input:item_values
+type: number
+label: T4: Min value
+group: t4
+*/
+#define VAR_VALUE_T4_VALUE 10000000
+
+/*@ define:input:item_values
+type: number
+label: T3: Min value
+group: t3
+*/
+#define VAR_VALUE_T3_VALUE 1000000
+
+/*@ define:input:item_values
+type: number
+label: T2: Min value
+group: t2
+*/
+#define VAR_VALUE_T2_VALUE 500000
+
+/*@ define:input:item_values
+type: number
+label: T1: Min value
+group: t1
+*/
+#define VAR_VALUE_T1_VALUE 100000
+
+/*@ define:input:item_values
+type: number
+label: T0: Min value
+group: t0
+*/
+#define VAR_VALUE_T0_VALUE 10000
+
 
 #define VAR_VALUE_T9_CUSTOMSTYLE 
 #define VAR_VALUE_T8_CUSTOMSTYLE 
 #define VAR_VALUE_T7_CUSTOMSTYLE 
 #define VAR_VALUE_T6_CUSTOMSTYLE 
-#define VAR_VALUE_T5_CUSTOMSTYLE 
-#define VAR_VALUE_T4_CUSTOMSTYLE 
-#define VAR_VALUE_T3_CUSTOMSTYLE 
-#define VAR_VALUE_T2_CUSTOMSTYLE 
-#define VAR_VALUE_T1_CUSTOMSTYLE 
-#define VAR_VALUE_T0_CUSTOMSTYLE 
+/*@ define:input:item_values
+type: style
+label: T5: Display
+group: t5
+exampleItem: Divine Orb
+*/
+#define VAR_VALUE_T5_CUSTOMSTYLE \
+  textColor = "#ff0000";\
+  backgroundColor = "#ffffff";\
+  borderColor = "#ff0000";\
+  textAccent = 3;\
+  fontType = 2;\
+  showLootbeam = true;
+
+/*@ define:input:item_values
+type: style
+label: T4: Display
+group: t4
+*/
+#define VAR_VALUE_T4_CUSTOMSTYLE \
+  textColor = "#ffffff";\
+  backgroundColor = "#f0a523";\
+  borderColor = "#ffffff";\
+  textAccent = 3;\
+  showLootbeam = true;
+
+/*@ define:input:item_values
+type: style
+label: T3: Display
+group: t3
+*/
+#define VAR_VALUE_T3_CUSTOMSTYLE \
+  textColor = "#000000";\
+  backgroundColor = "#f0a523";\
+  borderColor = "#000000";\
+  lootbeamColor = "#f0a523";\
+  menuTextColor = "#f0a523";\
+  textAccent = 3;\
+  showLootbeam = true;
+
+/*@ define:input:item_values
+type: style
+label: T2: Display
+group: t2
+*/
+#define VAR_VALUE_T2_CUSTOMSTYLE \
+  textColor = "#f99619";\
+  borderColor = "#f99619";\
+  textAccent = 2;
+
+/*@ define:input:item_values
+type: style
+label: T1: Display
+group: t1
+*/
+#define VAR_VALUE_T1_CUSTOMSTYLE \
+  textColor = "#d59f00";\
+  textAccent = 2;
+
+/*@ define:input:item_values
+type: style
+label: T0: Display
+group: t0
+*/
+#define VAR_VALUE_T0_CUSTOMSTYLE \
+  textColor = "#beb287";
+
 
 rule (value:>=VAR_VALUE_T5_VALUE) {
   LIB_COLOR3(RED, WHITE)
@@ -68,4 +169,3 @@ rule (value:>=VAR_VALUE_T0_VALUE) {
   VAR_VALUE_T0_CUSTOMSTYLE
 }
 
-// endmodule:value

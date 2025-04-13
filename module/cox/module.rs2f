@@ -1,11 +1,47 @@
-// module:cox
+
+/*@ define:module:cox
+---
+name: CoX
+*/
 
 #define CONST_COX_AREA []
 
-#define VAR_COX_OVL_USERSTYLE 
-#define VAR_COX_PEH_USERSTYLE 
-#define VAR_COX_REV_USERSTYLE 
-#define VAR_COX_XER_USERSTYLE 
+/*@ define:input:cox
+type: style
+label: Overload
+group: potions
+*/
+#define VAR_COX_OVL_USERSTYLE \
+  textColor = "#1e88e5";\
+  textAccent = 4;
+
+/*@ define:input:cox
+type: style
+label: Prayer enhance
+group: potions
+*/
+#define VAR_COX_PEH_USERSTYLE \
+  textColor = "#ff00ff";\
+  textAccent = 4;
+
+/*@ define:input:cox
+type: style
+label: Revitalisation
+group: potions
+*/
+#define VAR_COX_REV_USERSTYLE \
+  textColor = "#e91e63";\
+  textAccent = 4;
+
+/*@ define:input:cox
+type: style
+label: Xeric's aid
+group: potions
+*/
+#define VAR_COX_XER_USERSTYLE \
+  textColor = "#ffff00";\
+  textAccent = 4;
+
 
 #define VAR_COX_HIGHLIGHT []
 #define VAR_COX_HIGHLIGHT_USERSTYLE 
@@ -38,4 +74,3 @@ rule (name:"xeric's aid*") {
   VAR_COX_XER_USERSTYLE
 }
 
-// endmodule:cox

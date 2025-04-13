@@ -1,4 +1,14 @@
-// module:herb
+
+/*@ define:module:herbs
+---
+name: Herbs
+description: |
+  # Herbs
+  
+  These rules apply to UNnoted herbs only.
+  
+  Noted herbs will fallthrough to value rules.
+*/
 
 #define CONST_HERB_HERBS [\
   "*guam leaf",\
@@ -20,10 +30,65 @@
 
 #define CONST_HERB_DEFAULTCOLOR GREEN
 
-#define VAR_HERB_MINVALUE 0
+/*@ define:input:herbs
+type: number
+label: Baseline minimum value at which to show herbs.
+*/
+#define VAR_HERB_MINVALUE 1
+
+/*@ define:input:herbs
+type: enumlist
+label: Herbs to always show regardless of value
+enum: [
+  "guam leaf",
+  "marrentill",
+  "tarromin",
+  "harralander",
+  "ranarr weed",
+  "toadflax",
+  "irit leaf",
+  "avantoe",
+  "kwuarm",
+  "huasca",
+  "snapdragon",
+  "cadantine",
+  "lantadyme",
+  "dwarf weed",
+  "torstol"
+]
+*/
 #define VAR_HERB_SHOW []
-#define VAR_HERB_HIDE []
-#define VAR_HERB_CUSTOMSTYLE 
+
+/*@ define:input:herbs
+type: enumlist
+label: Herbs to always hide regardless of value
+enum: [
+  "guam leaf",
+  "marrentill",
+  "tarromin",
+  "harralander",
+  "ranarr weed",
+  "toadflax",
+  "irit leaf",
+  "avantoe",
+  "kwuarm",
+  "huasca",
+  "snapdragon",
+  "cadantine",
+  "lantadyme",
+  "dwarf weed",
+  "torstol"
+]
+*/
+#define VAR_HERB_HIDE ["guam leaf","marrentill","tarromin"]
+
+/*@ define:input:herbs
+type: style
+label: Style
+*/
+#define VAR_HERB_CUSTOMSTYLE \
+  textColor = "#00ff00";
+
 
 apply (noted:false && name:CONST_HERB_HERBS) {
   textColor = CONST_HERB_DEFAULTCOLOR;
@@ -37,4 +102,3 @@ rule (noted:false && name:VAR_HERB_HIDE) { hidden = true; }
 
 rule (noted:false && name:CONST_HERB_HERBS) {}
 
-// endmodule:herb

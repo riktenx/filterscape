@@ -8,8 +8,7 @@ name: Aberrant spectre
 #define CONST_ABERRANTSPECTRE_RULE(_cond) rule ((area:CONST_AREA_ABERRANTSPECTRE0 || \
   area:CONST_AREA_ABERRANTSPECTRE1) && (_cond))
 
-
-/*@ define:
+/*@ define:input:aberrantspectre
 type: stringlist
 label: Weapons and armour
 group: Hide drops
@@ -20,8 +19,7 @@ CONST_ABERRANTSPECTRE_RULE (name:VAR_ABERRANTSPECTRE_ENUMLIST_FILTER_WEAPONSANDA
   hidden = true;
 }
 
-
-/*@ define:
+/*@ define:input:aberrantspectre
 type: stringlist
 label: Coins
 group: Hide drops

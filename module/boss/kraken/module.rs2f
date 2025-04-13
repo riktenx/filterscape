@@ -6,8 +6,7 @@ name: Kraken
 #define CONST_AREA_KRAKEN [2268,10021,0,2292,10045,0]
 #define CONST_KRAKEN_RULE(_cond) rule (area:CONST_AREA_KRAKEN && (_cond))
 
-
-/*@ define:
+/*@ define:input:kraken
 type: stringlist
 label: Weapons and armour
 group: Hide drops
@@ -18,8 +17,7 @@ CONST_KRAKEN_RULE (name:VAR_KRAKEN_ENUMLIST_FILTER_WEAPONSANDARMOUR) {
   hidden = true;
 }
 
-
-/*@ define:
+/*@ define:input:kraken
 type: stringlist
 label: Runes
 group: Hide drops
@@ -30,8 +28,7 @@ CONST_KRAKEN_RULE (name:VAR_KRAKEN_ENUMLIST_FILTER_RUNES) {
   hidden = true;
 }
 
-
-/*@ define:
+/*@ define:input:kraken
 type: stringlist
 label: Seeds
 group: Hide drops
@@ -42,8 +39,7 @@ CONST_KRAKEN_RULE (name:VAR_KRAKEN_ENUMLIST_FILTER_SEEDS) {
   hidden = true;
 }
 
-
-/*@ define:
+/*@ define:input:kraken
 type: stringlist
 label: Materials
 group: Hide drops
@@ -54,8 +50,7 @@ CONST_KRAKEN_RULE (name:VAR_KRAKEN_ENUMLIST_FILTER_MATERIALS) {
   hidden = true;
 }
 
-
-/*@ define:
+/*@ define:input:kraken
 type: stringlist
 label: Other
 group: Hide drops
@@ -66,8 +61,7 @@ CONST_KRAKEN_RULE (name:VAR_KRAKEN_ENUMLIST_FILTER_OTHER) {
   hidden = true;
 }
 
-
-/*@ define:
+/*@ define:input:kraken
 type: stringlist
 label: Tertiary
 group: Hide drops

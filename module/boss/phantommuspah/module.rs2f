@@ -6,8 +6,7 @@ name: Phantom Muspah
 #define CONST_AREA_PHANTOMMUSPAH [2816,4224,0,2879,4287,0]
 #define CONST_PHANTOMMUSPAH_RULE(_cond) rule (area:CONST_AREA_PHANTOMMUSPAH && (_cond))
 
-
-/*@ define:
+/*@ define:input:phantommuspah
 type: stringlist
 label: Unique
 group: Hide drops
@@ -18,8 +17,7 @@ CONST_PHANTOMMUSPAH_RULE (name:VAR_PHANTOMMUSPAH_ENUMLIST_FILTER_UNIQUE) {
   hidden = true;
 }
 
-
-/*@ define:
+/*@ define:input:phantommuspah
 type: stringlist
 label: Supplies
 group: Hide drops
@@ -30,8 +28,7 @@ CONST_PHANTOMMUSPAH_RULE (name:VAR_PHANTOMMUSPAH_ENUMLIST_FILTER_SUPPLIES) {
   hidden = true;
 }
 
-
-/*@ define:
+/*@ define:input:phantommuspah
 type: stringlist
 label: Weapons and armour
 group: Hide drops
@@ -42,8 +39,7 @@ CONST_PHANTOMMUSPAH_RULE (name:VAR_PHANTOMMUSPAH_ENUMLIST_FILTER_WEAPONSANDARMOU
   hidden = true;
 }
 
-
-/*@ define:
+/*@ define:input:phantommuspah
 type: stringlist
 label: Runes and ammunition
 group: Hide drops
@@ -54,8 +50,7 @@ CONST_PHANTOMMUSPAH_RULE (name:VAR_PHANTOMMUSPAH_ENUMLIST_FILTER_RUNESANDAMMUNIT
   hidden = true;
 }
 
-
-/*@ define:
+/*@ define:input:phantommuspah
 type: stringlist
 label: Herbs
 group: Hide drops
@@ -66,8 +61,7 @@ CONST_PHANTOMMUSPAH_RULE (name:VAR_PHANTOMMUSPAH_ENUMLIST_FILTER_HERBS) {
   hidden = true;
 }
 
-
-/*@ define:
+/*@ define:input:phantommuspah
 type: stringlist
 label: Seeds
 group: Hide drops
@@ -78,8 +72,7 @@ CONST_PHANTOMMUSPAH_RULE (name:VAR_PHANTOMMUSPAH_ENUMLIST_FILTER_SEEDS) {
   hidden = true;
 }
 
-
-/*@ define:
+/*@ define:input:phantommuspah
 type: stringlist
 label: Resources
 group: Hide drops
@@ -90,8 +83,7 @@ CONST_PHANTOMMUSPAH_RULE (name:VAR_PHANTOMMUSPAH_ENUMLIST_FILTER_RESOURCES) {
   hidden = true;
 }
 
-
-/*@ define:
+/*@ define:input:phantommuspah
 type: stringlist
 label: Other
 group: Hide drops
@@ -102,8 +94,7 @@ CONST_PHANTOMMUSPAH_RULE (name:VAR_PHANTOMMUSPAH_ENUMLIST_FILTER_OTHER) {
   hidden = true;
 }
 
-
-/*@ define:
+/*@ define:input:phantommuspah
 type: stringlist
 label: Tertiary
 group: Hide drops

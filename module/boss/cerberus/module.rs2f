@@ -6,8 +6,7 @@ name: Cerberus
 #define CONST_AREA_CERBERUS [1216,1343,0,1407,1216,0]
 #define CONST_CERBERUS_RULE(_cond) rule (area:CONST_AREA_CERBERUS && (_cond))
 
-
-/*@ define:
+/*@ define:input:cerberus
 type: stringlist
 label: 100%
 group: Hide drops
@@ -18,8 +17,7 @@ CONST_CERBERUS_RULE (name:VAR_CERBERUS_ENUMLIST_FILTER_100) {
   hidden = true;
 }
 
-
-/*@ define:
+/*@ define:input:cerberus
 type: stringlist
 label: Uniques
 group: Hide drops
@@ -30,8 +28,7 @@ CONST_CERBERUS_RULE (name:VAR_CERBERUS_ENUMLIST_FILTER_UNIQUES) {
   hidden = true;
 }
 
-
-/*@ define:
+/*@ define:input:cerberus
 type: stringlist
 label: Weapons and armour
 group: Hide drops
@@ -42,8 +39,7 @@ CONST_CERBERUS_RULE (name:VAR_CERBERUS_ENUMLIST_FILTER_WEAPONSANDARMOUR) {
   hidden = true;
 }
 
-
-/*@ define:
+/*@ define:input:cerberus
 type: stringlist
 label: Runes and ammunition
 group: Hide drops
@@ -54,8 +50,7 @@ CONST_CERBERUS_RULE (name:VAR_CERBERUS_ENUMLIST_FILTER_RUNESANDAMMUNITION) {
   hidden = true;
 }
 
-
-/*@ define:
+/*@ define:input:cerberus
 type: stringlist
 label: Other
 group: Hide drops
@@ -66,8 +61,7 @@ CONST_CERBERUS_RULE (name:VAR_CERBERUS_ENUMLIST_FILTER_OTHER) {
   hidden = true;
 }
 
-
-/*@ define:
+/*@ define:input:cerberus
 type: stringlist
 label: Tertiary
 group: Hide drops

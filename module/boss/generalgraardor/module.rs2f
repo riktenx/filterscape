@@ -6,8 +6,7 @@ name: General Graardor
 #define CONST_AREA_GENERALGRAARDOR [2863,5350,2,2877,5370,2]
 #define CONST_GENERALGRAARDOR_RULE(_cond) rule (area:CONST_AREA_GENERALGRAARDOR && (_cond))
 
-
-/*@ define:
+/*@ define:input:generalgraardor
 type: stringlist
 label: 100%
 group: Hide drops
@@ -18,8 +17,7 @@ CONST_GENERALGRAARDOR_RULE (name:VAR_GENERALGRAARDOR_ENUMLIST_FILTER_100) {
   hidden = true;
 }
 
-
-/*@ define:
+/*@ define:input:generalgraardor
 type: stringlist
 label: Uniques
 group: Hide drops
@@ -30,8 +28,7 @@ CONST_GENERALGRAARDOR_RULE (name:VAR_GENERALGRAARDOR_ENUMLIST_FILTER_UNIQUES) {
   hidden = true;
 }
 
-
-/*@ define:
+/*@ define:input:generalgraardor
 type: stringlist
 label: Weapons and armour
 group: Hide drops
@@ -42,8 +39,7 @@ CONST_GENERALGRAARDOR_RULE (name:VAR_GENERALGRAARDOR_ENUMLIST_FILTER_WEAPONSANDA
   hidden = true;
 }
 
-
-/*@ define:
+/*@ define:input:generalgraardor
 type: stringlist
 label: Other
 group: Hide drops
@@ -54,8 +50,7 @@ CONST_GENERALGRAARDOR_RULE (name:VAR_GENERALGRAARDOR_ENUMLIST_FILTER_OTHER) {
   hidden = true;
 }
 
-
-/*@ define:
+/*@ define:input:generalgraardor
 type: stringlist
 label: Tertiary
 group: Hide drops

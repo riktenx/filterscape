@@ -6,8 +6,7 @@ name: The Leviathan
 #define CONST_AREA_THELEVIATHAN [2053,6390,0,2110,6355,0]
 #define CONST_THELEVIATHAN_RULE(_cond) rule (area:CONST_AREA_THELEVIATHAN && (_cond))
 
-
-/*@ define:
+/*@ define:input:theleviathan
 type: stringlist
 label: Uniques
 group: Hide drops
@@ -18,8 +17,7 @@ CONST_THELEVIATHAN_RULE (name:VAR_THELEVIATHAN_ENUMLIST_FILTER_UNIQUES) {
   hidden = true;
 }
 
-
-/*@ define:
+/*@ define:input:theleviathan
 type: stringlist
 label: Secondary uniques
 group: Hide drops
@@ -30,8 +28,7 @@ CONST_THELEVIATHAN_RULE (name:VAR_THELEVIATHAN_ENUMLIST_FILTER_SECONDARYUNIQUES)
   hidden = true;
 }
 
-
-/*@ define:
+/*@ define:input:theleviathan
 type: stringlist
 label: Supplies
 group: Hide drops
@@ -42,8 +39,7 @@ CONST_THELEVIATHAN_RULE (name:VAR_THELEVIATHAN_ENUMLIST_FILTER_SUPPLIES) {
   hidden = true;
 }
 
-
-/*@ define:
+/*@ define:input:theleviathan
 type: stringlist
 label: Resources
 group: Hide drops
@@ -54,8 +50,7 @@ CONST_THELEVIATHAN_RULE (name:VAR_THELEVIATHAN_ENUMLIST_FILTER_RESOURCES) {
   hidden = true;
 }
 
-
-/*@ define:
+/*@ define:input:theleviathan
 type: stringlist
 label: Runes and ammunition
 group: Hide drops
@@ -66,8 +61,7 @@ CONST_THELEVIATHAN_RULE (name:VAR_THELEVIATHAN_ENUMLIST_FILTER_RUNESANDAMMUNITIO
   hidden = true;
 }
 
-
-/*@ define:
+/*@ define:input:theleviathan
 type: stringlist
 label: Tertiary
 group: Hide drops

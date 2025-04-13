@@ -6,8 +6,7 @@ name: Commander Zilyana
 #define CONST_AREA_COMMANDERZILYANA [2888,5257,0,2908,5276,0]
 #define CONST_COMMANDERZILYANA_RULE(_cond) rule (area:CONST_AREA_COMMANDERZILYANA && (_cond))
 
-
-/*@ define:
+/*@ define:input:commanderzilyana
 type: stringlist
 label: 100%
 group: Hide drops
@@ -18,8 +17,7 @@ CONST_COMMANDERZILYANA_RULE (name:VAR_COMMANDERZILYANA_ENUMLIST_FILTER_100) {
   hidden = true;
 }
 
-
-/*@ define:
+/*@ define:input:commanderzilyana
 type: stringlist
 label: Uniques
 group: Hide drops
@@ -30,8 +28,7 @@ CONST_COMMANDERZILYANA_RULE (name:VAR_COMMANDERZILYANA_ENUMLIST_FILTER_UNIQUES) 
   hidden = true;
 }
 
-
-/*@ define:
+/*@ define:input:commanderzilyana
 type: stringlist
 label: Weapons and armour
 group: Hide drops
@@ -42,8 +39,7 @@ CONST_COMMANDERZILYANA_RULE (name:VAR_COMMANDERZILYANA_ENUMLIST_FILTER_WEAPONSAN
   hidden = true;
 }
 
-
-/*@ define:
+/*@ define:input:commanderzilyana
 type: stringlist
 label: Potions
 group: Hide drops
@@ -54,8 +50,7 @@ CONST_COMMANDERZILYANA_RULE (name:VAR_COMMANDERZILYANA_ENUMLIST_FILTER_POTIONS) 
   hidden = true;
 }
 
-
-/*@ define:
+/*@ define:input:commanderzilyana
 type: stringlist
 label: Other
 group: Hide drops
@@ -66,8 +61,7 @@ CONST_COMMANDERZILYANA_RULE (name:VAR_COMMANDERZILYANA_ENUMLIST_FILTER_OTHER) {
   hidden = true;
 }
 
-
-/*@ define:
+/*@ define:input:commanderzilyana
 type: stringlist
 label: Tertiary
 group: Hide drops

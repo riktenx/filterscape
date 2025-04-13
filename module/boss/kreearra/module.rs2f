@@ -3,9 +3,11 @@
 name: Kree'arra
 */
 
-
-// group:General
-// label:Hide coin drops from bodyguards
+/*@ define:input:kreearra
+type: boolean
+group: General
+label: Hide coin drops from bodyguards
+*/
 #define VAR_KREEARRA_BOOLEAN_GENERAL_BGHIDECOINS true
 CONST_KREEARRA_RULE (VAR_KREEARRA_BOOLEAN_GENERAL_BGHIDECOINS && name:"coins" && quantity:<=1100) {
   hidden = true;
@@ -15,8 +17,7 @@ CONST_KREEARRA_RULE (VAR_KREEARRA_BOOLEAN_GENERAL_BGHIDECOINS && name:"coins" &&
 #define CONST_AREA_KREEARRA [2823,5295,2,2843,5309,2]
 #define CONST_KREEARRA_RULE(_cond) rule (area:CONST_AREA_KREEARRA && (_cond))
 
-
-/*@ define:
+/*@ define:input:kreearra
 type: stringlist
 label: 100%
 group: Hide drops
@@ -27,8 +28,7 @@ CONST_KREEARRA_RULE (name:VAR_KREEARRA_ENUMLIST_FILTER_100) {
   hidden = true;
 }
 
-
-/*@ define:
+/*@ define:input:kreearra
 type: stringlist
 label: Weapons and armour
 group: Hide drops
@@ -39,8 +39,7 @@ CONST_KREEARRA_RULE (name:VAR_KREEARRA_ENUMLIST_FILTER_WEAPONSANDARMOUR) {
   hidden = true;
 }
 
-
-/*@ define:
+/*@ define:input:kreearra
 type: stringlist
 label: Runes and ammunition
 group: Hide drops
@@ -51,8 +50,7 @@ CONST_KREEARRA_RULE (name:VAR_KREEARRA_ENUMLIST_FILTER_RUNESANDAMMUNITION) {
   hidden = true;
 }
 
-
-/*@ define:
+/*@ define:input:kreearra
 type: stringlist
 label: Other
 group: Hide drops
@@ -63,8 +61,7 @@ CONST_KREEARRA_RULE (name:VAR_KREEARRA_ENUMLIST_FILTER_OTHER) {
   hidden = true;
 }
 
-
-/*@ define:
+/*@ define:input:kreearra
 type: stringlist
 label: Tertiary
 group: Hide drops
@@ -75,8 +72,7 @@ CONST_KREEARRA_RULE (name:VAR_KREEARRA_ENUMLIST_FILTER_TERTIARY) {
   hidden = true;
 }
 
-
-/*@ define:
+/*@ define:input:kreearra
 type: stringlist
 label: Food and ammunition
 group: Hide drops
@@ -87,8 +83,7 @@ CONST_KREEARRA_RULE (name:VAR_KREEARRA_ENUMLIST_FILTER_FOODANDAMMUNITION) {
   hidden = true;
 }
 
-
-/*@ define:
+/*@ define:input:kreearra
 type: stringlist
 label: Other
 group: Hide drops

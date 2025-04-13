@@ -6,8 +6,7 @@ name: Grotesque Guardians
 #define CONST_AREA_GROTESQUEGUARDIANS [1664,4544,0,1727,4607,0]
 #define CONST_GROTESQUEGUARDIANS_RULE(_cond) rule (area:CONST_AREA_GROTESQUEGUARDIANS && (_cond))
 
-
-/*@ define:
+/*@ define:input:grotesqueguardians
 type: stringlist
 label: 100%
 group: Hide drops
@@ -18,8 +17,7 @@ CONST_GROTESQUEGUARDIANS_RULE (name:VAR_GROTESQUEGUARDIANS_ENUMLIST_FILTER_100) 
   hidden = true;
 }
 
-
-/*@ define:
+/*@ define:input:grotesqueguardians
 type: stringlist
 label: Unique
 group: Hide drops
@@ -30,8 +28,7 @@ CONST_GROTESQUEGUARDIANS_RULE (name:VAR_GROTESQUEGUARDIANS_ENUMLIST_FILTER_UNIQU
   hidden = true;
 }
 
-
-/*@ define:
+/*@ define:input:grotesqueguardians
 type: stringlist
 label: Weapons and armour
 group: Hide drops
@@ -42,8 +39,7 @@ CONST_GROTESQUEGUARDIANS_RULE (name:VAR_GROTESQUEGUARDIANS_ENUMLIST_FILTER_WEAPO
   hidden = true;
 }
 
-
-/*@ define:
+/*@ define:input:grotesqueguardians
 type: stringlist
 label: Supply Drop
 group: Hide drops
@@ -54,8 +50,7 @@ CONST_GROTESQUEGUARDIANS_RULE (name:VAR_GROTESQUEGUARDIANS_ENUMLIST_FILTER_SUPPL
   hidden = true;
 }
 
-
-/*@ define:
+/*@ define:input:grotesqueguardians
 type: stringlist
 label: Resources
 group: Hide drops
@@ -66,8 +61,7 @@ CONST_GROTESQUEGUARDIANS_RULE (name:VAR_GROTESQUEGUARDIANS_ENUMLIST_FILTER_RESOU
   hidden = true;
 }
 
-
-/*@ define:
+/*@ define:input:grotesqueguardians
 type: stringlist
 label: Other
 group: Hide drops
@@ -78,8 +72,7 @@ CONST_GROTESQUEGUARDIANS_RULE (name:VAR_GROTESQUEGUARDIANS_ENUMLIST_FILTER_OTHER
   hidden = true;
 }
 
-
-/*@ define:
+/*@ define:input:grotesqueguardians
 type: stringlist
 label: Tertiary
 group: Hide drops

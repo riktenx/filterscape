@@ -6,8 +6,7 @@ name: Scorpia
 #define CONST_AREA_SCORPIA [3214,10324,0,3252,10358,0]
 #define CONST_SCORPIA_RULE(_cond) rule (area:CONST_AREA_SCORPIA && (_cond))
 
-
-/*@ define:
+/*@ define:input:scorpia
 type: stringlist
 label: Pre-roll
 group: Hide drops
@@ -18,8 +17,7 @@ CONST_SCORPIA_RULE (name:VAR_SCORPIA_ENUMLIST_FILTER_PREROLL) {
   hidden = true;
 }
 
-
-/*@ define:
+/*@ define:input:scorpia
 type: stringlist
 label: Weapons and armour
 group: Hide drops
@@ -30,8 +28,7 @@ CONST_SCORPIA_RULE (name:VAR_SCORPIA_ENUMLIST_FILTER_WEAPONSANDARMOUR) {
   hidden = true;
 }
 
-
-/*@ define:
+/*@ define:input:scorpia
 type: stringlist
 label: Runes
 group: Hide drops
@@ -42,8 +39,7 @@ CONST_SCORPIA_RULE (name:VAR_SCORPIA_ENUMLIST_FILTER_RUNES) {
   hidden = true;
 }
 
-
-/*@ define:
+/*@ define:input:scorpia
 type: stringlist
 label: Herbs
 group: Hide drops
@@ -54,8 +50,7 @@ CONST_SCORPIA_RULE (name:VAR_SCORPIA_ENUMLIST_FILTER_HERBS) {
   hidden = true;
 }
 
-
-/*@ define:
+/*@ define:input:scorpia
 type: stringlist
 label: Materials
 group: Hide drops
@@ -66,8 +61,7 @@ CONST_SCORPIA_RULE (name:VAR_SCORPIA_ENUMLIST_FILTER_MATERIALS) {
   hidden = true;
 }
 
-
-/*@ define:
+/*@ define:input:scorpia
 type: stringlist
 label: Other
 group: Hide drops
@@ -78,8 +72,7 @@ CONST_SCORPIA_RULE (name:VAR_SCORPIA_ENUMLIST_FILTER_OTHER) {
   hidden = true;
 }
 
-
-/*@ define:
+/*@ define:input:scorpia
 type: stringlist
 label: Tertiary
 group: Hide drops

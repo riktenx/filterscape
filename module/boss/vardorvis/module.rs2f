@@ -6,8 +6,7 @@ name: Vardorvis
 #define CONST_AREA_VARDORVIS [1117,3428,0,1141,3408,0]
 #define CONST_VARDORVIS_RULE(_cond) rule (area:CONST_AREA_VARDORVIS && (_cond))
 
-
-/*@ define:
+/*@ define:input:vardorvis
 type: stringlist
 label: Uniques
 group: Hide drops
@@ -18,8 +17,7 @@ CONST_VARDORVIS_RULE (name:VAR_VARDORVIS_ENUMLIST_FILTER_UNIQUES) {
   hidden = true;
 }
 
-
-/*@ define:
+/*@ define:input:vardorvis
 type: stringlist
 label: Secondary uniques
 group: Hide drops
@@ -30,8 +28,7 @@ CONST_VARDORVIS_RULE (name:VAR_VARDORVIS_ENUMLIST_FILTER_SECONDARYUNIQUES) {
   hidden = true;
 }
 
-
-/*@ define:
+/*@ define:input:vardorvis
 type: stringlist
 label: Supplies
 group: Hide drops
@@ -42,8 +39,7 @@ CONST_VARDORVIS_RULE (name:VAR_VARDORVIS_ENUMLIST_FILTER_SUPPLIES) {
   hidden = true;
 }
 
-
-/*@ define:
+/*@ define:input:vardorvis
 type: stringlist
 label: Resources
 group: Hide drops
@@ -54,8 +50,7 @@ CONST_VARDORVIS_RULE (name:VAR_VARDORVIS_ENUMLIST_FILTER_RESOURCES) {
   hidden = true;
 }
 
-
-/*@ define:
+/*@ define:input:vardorvis
 type: stringlist
 label: Runes and ammunition
 group: Hide drops
@@ -66,8 +61,7 @@ CONST_VARDORVIS_RULE (name:VAR_VARDORVIS_ENUMLIST_FILTER_RUNESANDAMMUNITION) {
   hidden = true;
 }
 
-
-/*@ define:
+/*@ define:input:vardorvis
 type: stringlist
 label: Tertiary
 group: Hide drops

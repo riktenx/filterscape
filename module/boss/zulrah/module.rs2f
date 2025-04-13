@@ -6,8 +6,7 @@ name: Zulrah
 #define CONST_AREA_ZULRAH [2259,3065,0,2277,3080,0]
 #define CONST_ZULRAH_RULE(_cond) rule (area:CONST_AREA_ZULRAH && (_cond))
 
-
-/*@ define:
+/*@ define:input:zulrah
 type: stringlist
 label: 100% drops
 group: Hide drops
@@ -18,8 +17,7 @@ CONST_ZULRAH_RULE (name:VAR_ZULRAH_ENUMLIST_FILTER_100DROPS) {
   hidden = true;
 }
 
-
-/*@ define:
+/*@ define:input:zulrah
 type: stringlist
 label: Uniques
 group: Hide drops
@@ -30,8 +28,7 @@ CONST_ZULRAH_RULE (name:VAR_ZULRAH_ENUMLIST_FILTER_UNIQUES) {
   hidden = true;
 }
 
-
-/*@ define:
+/*@ define:input:zulrah
 type: stringlist
 label: Mutagens
 group: Hide drops
@@ -42,8 +39,7 @@ CONST_ZULRAH_RULE (name:VAR_ZULRAH_ENUMLIST_FILTER_MUTAGENS) {
   hidden = true;
 }
 
-
-/*@ define:
+/*@ define:input:zulrah
 type: stringlist
 label: Weapons and armour
 group: Hide drops
@@ -54,8 +50,7 @@ CONST_ZULRAH_RULE (name:VAR_ZULRAH_ENUMLIST_FILTER_WEAPONSANDARMOUR) {
   hidden = true;
 }
 
-
-/*@ define:
+/*@ define:input:zulrah
 type: stringlist
 label: Runes
 group: Hide drops
@@ -66,8 +61,7 @@ CONST_ZULRAH_RULE (name:VAR_ZULRAH_ENUMLIST_FILTER_RUNES) {
   hidden = true;
 }
 
-
-/*@ define:
+/*@ define:input:zulrah
 type: stringlist
 label: Herbs
 group: Hide drops
@@ -78,8 +72,7 @@ CONST_ZULRAH_RULE (name:VAR_ZULRAH_ENUMLIST_FILTER_HERBS) {
   hidden = true;
 }
 
-
-/*@ define:
+/*@ define:input:zulrah
 type: stringlist
 label: Seeds
 group: Hide drops
@@ -90,8 +83,7 @@ CONST_ZULRAH_RULE (name:VAR_ZULRAH_ENUMLIST_FILTER_SEEDS) {
   hidden = true;
 }
 
-
-/*@ define:
+/*@ define:input:zulrah
 type: stringlist
 label: Resources
 group: Hide drops
@@ -102,8 +94,7 @@ CONST_ZULRAH_RULE (name:VAR_ZULRAH_ENUMLIST_FILTER_RESOURCES) {
   hidden = true;
 }
 
-
-/*@ define:
+/*@ define:input:zulrah
 type: stringlist
 label: Other
 group: Hide drops
@@ -114,8 +105,7 @@ CONST_ZULRAH_RULE (name:VAR_ZULRAH_ENUMLIST_FILTER_OTHER) {
   hidden = true;
 }
 
-
-/*@ define:
+/*@ define:input:zulrah
 type: stringlist
 label: Tertiary
 group: Hide drops

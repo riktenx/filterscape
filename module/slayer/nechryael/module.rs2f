@@ -8,8 +8,7 @@ name: Nechryael
 #define CONST_NECHRYAEL_RULE(_cond) rule ((area:CONST_AREA_NECHRYAEL0 || \
   area:CONST_AREA_NECHRYAEL1) && (_cond))
 
-
-/*@ define:
+/*@ define:input:nechryael
 type: stringlist
 label: 100%
 group: Hide drops
@@ -20,8 +19,7 @@ CONST_NECHRYAEL_RULE (name:VAR_NECHRYAEL_ENUMLIST_FILTER_100) {
   hidden = true;
 }
 
-
-/*@ define:
+/*@ define:input:nechryael
 type: stringlist
 label: Weapons and armour
 group: Hide drops
@@ -32,8 +30,7 @@ CONST_NECHRYAEL_RULE (name:VAR_NECHRYAEL_ENUMLIST_FILTER_WEAPONSANDARMOUR) {
   hidden = true;
 }
 
-
-/*@ define:
+/*@ define:input:nechryael
 type: stringlist
 label: Runes
 group: Hide drops
@@ -44,8 +41,7 @@ CONST_NECHRYAEL_RULE (name:VAR_NECHRYAEL_ENUMLIST_FILTER_RUNES) {
   hidden = true;
 }
 
-
-/*@ define:
+/*@ define:input:nechryael
 type: stringlist
 label: Seeds
 group: Hide drops
@@ -56,8 +52,7 @@ CONST_NECHRYAEL_RULE (name:VAR_NECHRYAEL_ENUMLIST_FILTER_SEEDS) {
   hidden = true;
 }
 
-
-/*@ define:
+/*@ define:input:nechryael
 type: stringlist
 label: Coins
 group: Hide drops
@@ -68,8 +63,7 @@ CONST_NECHRYAEL_RULE (name:VAR_NECHRYAEL_ENUMLIST_FILTER_COINS) {
   hidden = true;
 }
 
-
-/*@ define:
+/*@ define:input:nechryael
 type: stringlist
 label: Other
 group: Hide drops
@@ -80,8 +74,7 @@ CONST_NECHRYAEL_RULE (name:VAR_NECHRYAEL_ENUMLIST_FILTER_OTHER) {
   hidden = true;
 }
 
-
-/*@ define:
+/*@ define:input:nechryael
 type: stringlist
 label: Tertiary
 group: Hide drops

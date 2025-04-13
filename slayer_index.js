@@ -168,9 +168,11 @@ const index = [
         };
       },
       preScript: (scope) => {
-        return `
-// group:Hide drops
-// label:Hide non-10k coin drops
+        return `/*@define:input:gargoyle
+type: boolean
+group: Hide drops
+label: Hide non-10k coin drops
+*/
 #define VAR_${scope}_BOOLEAN_HIDESMALLCOINS true
 CONST_${scope}_RULE (VAR_${scope}_BOOLEAN_HIDESMALLCOINS && name:"Coins" && value:<10_000) {
   hidden = true;

@@ -14,8 +14,7 @@ name: Abyssal demon
   area:CONST_AREA_ABYSSALDEMON3 || \
   area:CONST_AREA_ABYSSALDEMON4) && (_cond))
 
-
-/*@ define:
+/*@ define:input:abyssaldemon
 type: stringlist
 label: 100%
 group: Hide drops
@@ -26,8 +25,7 @@ CONST_ABYSSALDEMON_RULE (name:VAR_ABYSSALDEMON_ENUMLIST_FILTER_100) {
   hidden = true;
 }
 
-
-/*@ define:
+/*@ define:input:abyssaldemon
 type: stringlist
 label: Weapons and armour
 group: Hide drops
@@ -38,8 +36,7 @@ CONST_ABYSSALDEMON_RULE (name:VAR_ABYSSALDEMON_ENUMLIST_FILTER_WEAPONSANDARMOUR)
   hidden = true;
 }
 
-
-/*@ define:
+/*@ define:input:abyssaldemon
 type: stringlist
 label: Runes
 group: Hide drops
@@ -50,8 +47,7 @@ CONST_ABYSSALDEMON_RULE (name:VAR_ABYSSALDEMON_ENUMLIST_FILTER_RUNES) {
   hidden = true;
 }
 
-
-/*@ define:
+/*@ define:input:abyssaldemon
 type: stringlist
 label: Materials
 group: Hide drops
@@ -62,8 +58,7 @@ CONST_ABYSSALDEMON_RULE (name:VAR_ABYSSALDEMON_ENUMLIST_FILTER_MATERIALS) {
   hidden = true;
 }
 
-
-/*@ define:
+/*@ define:input:abyssaldemon
 type: stringlist
 label: Coins
 group: Hide drops
@@ -74,8 +69,7 @@ CONST_ABYSSALDEMON_RULE (name:VAR_ABYSSALDEMON_ENUMLIST_FILTER_COINS) {
   hidden = true;
 }
 
-
-/*@ define:
+/*@ define:input:abyssaldemon
 type: stringlist
 label: Other
 group: Hide drops
@@ -86,8 +80,7 @@ CONST_ABYSSALDEMON_RULE (name:VAR_ABYSSALDEMON_ENUMLIST_FILTER_OTHER) {
   hidden = true;
 }
 
-
-/*@ define:
+/*@ define:input:abyssaldemon
 type: stringlist
 label: Tertiary
 group: Hide drops

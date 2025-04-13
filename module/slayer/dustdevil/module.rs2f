@@ -10,8 +10,7 @@ name: Dust devil
   area:CONST_AREA_DUSTDEVIL1 || \
   area:CONST_AREA_DUSTDEVIL2) && (_cond))
 
-
-/*@ define:
+/*@ define:input:dustdevil
 type: stringlist
 label: 100%
 group: Hide drops
@@ -22,8 +21,7 @@ CONST_DUSTDEVIL_RULE (name:VAR_DUSTDEVIL_ENUMLIST_FILTER_100) {
   hidden = true;
 }
 
-
-/*@ define:
+/*@ define:input:dustdevil
 type: stringlist
 label: Weapons and armour
 group: Hide drops
@@ -34,8 +32,7 @@ CONST_DUSTDEVIL_RULE (name:VAR_DUSTDEVIL_ENUMLIST_FILTER_WEAPONSANDARMOUR) {
   hidden = true;
 }
 
-
-/*@ define:
+/*@ define:input:dustdevil
 type: stringlist
 label: Runes and ammunition
 group: Hide drops
@@ -46,8 +43,7 @@ CONST_DUSTDEVIL_RULE (name:VAR_DUSTDEVIL_ENUMLIST_FILTER_RUNESANDAMMUNITION) {
   hidden = true;
 }
 
-
-/*@ define:
+/*@ define:input:dustdevil
 type: stringlist
 label: Other
 group: Hide drops
@@ -58,8 +54,7 @@ CONST_DUSTDEVIL_RULE (name:VAR_DUSTDEVIL_ENUMLIST_FILTER_OTHER) {
   hidden = true;
 }
 
-
-/*@ define:
+/*@ define:input:dustdevil
 type: stringlist
 label: Tertiary
 group: Hide drops

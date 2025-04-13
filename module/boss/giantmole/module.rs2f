@@ -6,8 +6,7 @@ name: Giant Mole
 #define CONST_AREA_GIANTMOLE [1728,5120,0,1791,5247,0]
 #define CONST_GIANTMOLE_RULE(_cond) rule (area:CONST_AREA_GIANTMOLE && (_cond))
 
-
-/*@ define:
+/*@ define:input:giantmole
 type: stringlist
 label: 100%
 group: Hide drops
@@ -18,8 +17,7 @@ CONST_GIANTMOLE_RULE (name:VAR_GIANTMOLE_ENUMLIST_FILTER_100) {
   hidden = true;
 }
 
-
-/*@ define:
+/*@ define:input:giantmole
 type: stringlist
 label: Weapons and armour
 group: Hide drops
@@ -30,8 +28,7 @@ CONST_GIANTMOLE_RULE (name:VAR_GIANTMOLE_ENUMLIST_FILTER_WEAPONSANDARMOUR) {
   hidden = true;
 }
 
-
-/*@ define:
+/*@ define:input:giantmole
 type: stringlist
 label: Runes and ammunition
 group: Hide drops
@@ -42,8 +39,7 @@ CONST_GIANTMOLE_RULE (name:VAR_GIANTMOLE_ENUMLIST_FILTER_RUNESANDAMMUNITION) {
   hidden = true;
 }
 
-
-/*@ define:
+/*@ define:input:giantmole
 type: stringlist
 label: Other
 group: Hide drops
@@ -54,8 +50,7 @@ CONST_GIANTMOLE_RULE (name:VAR_GIANTMOLE_ENUMLIST_FILTER_OTHER) {
   hidden = true;
 }
 
-
-/*@ define:
+/*@ define:input:giantmole
 type: stringlist
 label: Tertiary
 group: Hide drops

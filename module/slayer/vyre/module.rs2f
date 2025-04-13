@@ -6,8 +6,7 @@ name: Vyre
 #define CONST_AREA_VYRE0 [3592,3324,0,3648,3389,0] // [[Darkmeyer]]
 #define CONST_VYRE_RULE(_cond) rule ((area:CONST_AREA_VYRE0) && (_cond))
 
-
-/*@ define:
+/*@ define:input:vyre
 type: stringlist
 label: 100%
 group: Hide drops
@@ -18,8 +17,7 @@ CONST_VYRE_RULE (name:VAR_VYRE_ENUMLIST_FILTER_100) {
   hidden = true;
 }
 
-
-/*@ define:
+/*@ define:input:vyre
 type: stringlist
 label: Weapons and armour
 group: Hide drops
@@ -30,8 +28,7 @@ CONST_VYRE_RULE (name:VAR_VYRE_ENUMLIST_FILTER_WEAPONSANDARMOUR) {
   hidden = true;
 }
 
-
-/*@ define:
+/*@ define:input:vyre
 type: stringlist
 label: Runes and ammunition
 group: Hide drops
@@ -42,8 +39,7 @@ CONST_VYRE_RULE (name:VAR_VYRE_ENUMLIST_FILTER_RUNESANDAMMUNITION) {
   hidden = true;
 }
 
-
-/*@ define:
+/*@ define:input:vyre
 type: stringlist
 label: Bolt tips
 group: Hide drops
@@ -54,8 +50,7 @@ CONST_VYRE_RULE (name:VAR_VYRE_ENUMLIST_FILTER_BOLTTIPS) {
   hidden = true;
 }
 
-
-/*@ define:
+/*@ define:input:vyre
 type: stringlist
 label: Materials
 group: Hide drops
@@ -66,8 +61,7 @@ CONST_VYRE_RULE (name:VAR_VYRE_ENUMLIST_FILTER_MATERIALS) {
   hidden = true;
 }
 
-
-/*@ define:
+/*@ define:input:vyre
 type: stringlist
 label: Coins
 group: Hide drops
@@ -78,8 +72,7 @@ CONST_VYRE_RULE (name:VAR_VYRE_ENUMLIST_FILTER_COINS) {
   hidden = true;
 }
 
-
-/*@ define:
+/*@ define:input:vyre
 type: stringlist
 label: Tertiary
 group: Hide drops

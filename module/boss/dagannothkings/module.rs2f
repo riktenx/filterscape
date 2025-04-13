@@ -6,8 +6,7 @@ name: Dagannoth Kings
 #define CONST_AREA_DAGANNOTHKINGS [2880,4478,0,2943,4353,0]
 #define CONST_DAGANNOTHKINGS_RULE(_cond) rule (area:CONST_AREA_DAGANNOTHKINGS && (_cond))
 
-
-/*@ define:
+/*@ define:input:dagannothkings
 type: stringlist
 label: 100%
 group: Hide drops
@@ -18,8 +17,7 @@ CONST_DAGANNOTHKINGS_RULE (name:VAR_DAGANNOTHKINGS_ENUMLIST_FILTER_100) {
   hidden = true;
 }
 
-
-/*@ define:
+/*@ define:input:dagannothkings
 type: stringlist
 label: Weapons and armour
 group: Hide drops
@@ -30,8 +28,7 @@ CONST_DAGANNOTHKINGS_RULE (name:VAR_DAGANNOTHKINGS_ENUMLIST_FILTER_WEAPONSANDARM
   hidden = true;
 }
 
-
-/*@ define:
+/*@ define:input:dagannothkings
 type: stringlist
 label: Potions
 group: Hide drops
@@ -42,8 +39,7 @@ CONST_DAGANNOTHKINGS_RULE (name:VAR_DAGANNOTHKINGS_ENUMLIST_FILTER_POTIONS) {
   hidden = true;
 }
 
-
-/*@ define:
+/*@ define:input:dagannothkings
 type: stringlist
 label: Ores and bars
 group: Hide drops
@@ -54,8 +50,7 @@ CONST_DAGANNOTHKINGS_RULE (name:VAR_DAGANNOTHKINGS_ENUMLIST_FILTER_ORESANDBARS) 
   hidden = true;
 }
 
-
-/*@ define:
+/*@ define:input:dagannothkings
 type: stringlist
 label: Other
 group: Hide drops
@@ -66,8 +61,7 @@ CONST_DAGANNOTHKINGS_RULE (name:VAR_DAGANNOTHKINGS_ENUMLIST_FILTER_OTHER) {
   hidden = true;
 }
 
-
-/*@ define:
+/*@ define:input:dagannothkings
 type: stringlist
 label: Tertiary
 group: Hide drops
@@ -78,8 +72,7 @@ CONST_DAGANNOTHKINGS_RULE (name:VAR_DAGANNOTHKINGS_ENUMLIST_FILTER_TERTIARY) {
   hidden = true;
 }
 
-
-/*@ define:
+/*@ define:input:dagannothkings
 type: stringlist
 label: Runes
 group: Hide drops
@@ -90,8 +83,7 @@ CONST_DAGANNOTHKINGS_RULE (name:VAR_DAGANNOTHKINGS_ENUMLIST_FILTER_RUNES) {
   hidden = true;
 }
 
-
-/*@ define:
+/*@ define:input:dagannothkings
 type: stringlist
 label: Talismans (noted)
 group: Hide drops
@@ -102,8 +94,7 @@ CONST_DAGANNOTHKINGS_RULE (name:VAR_DAGANNOTHKINGS_ENUMLIST_FILTER_TALISMANSNOTE
   hidden = true;
 }
 
-
-/*@ define:
+/*@ define:input:dagannothkings
 type: stringlist
 label: Ammunition
 group: Hide drops

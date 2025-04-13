@@ -6,8 +6,7 @@ name: Corporeal Beast
 #define CONST_AREA_CORPOREALBEAST [2961,4366,0,3001,4399,0]
 #define CONST_CORPOREALBEAST_RULE(_cond) rule (area:CONST_AREA_CORPOREALBEAST && (_cond))
 
-
-/*@ define:
+/*@ define:input:corporealbeast
 type: stringlist
 label: Weapons and armour
 group: Hide drops
@@ -18,8 +17,7 @@ CONST_CORPOREALBEAST_RULE (name:VAR_CORPOREALBEAST_ENUMLIST_FILTER_WEAPONSANDARM
   hidden = true;
 }
 
-
-/*@ define:
+/*@ define:input:corporealbeast
 type: stringlist
 label: Runes and ammunition
 group: Hide drops
@@ -30,8 +28,7 @@ CONST_CORPOREALBEAST_RULE (name:VAR_CORPOREALBEAST_ENUMLIST_FILTER_RUNESANDAMMUN
   hidden = true;
 }
 
-
-/*@ define:
+/*@ define:input:corporealbeast
 type: stringlist
 label: Resources
 group: Hide drops
@@ -42,8 +39,7 @@ CONST_CORPOREALBEAST_RULE (name:VAR_CORPOREALBEAST_ENUMLIST_FILTER_RESOURCES) {
   hidden = true;
 }
 
-
-/*@ define:
+/*@ define:input:corporealbeast
 type: stringlist
 label: Other
 group: Hide drops
@@ -54,8 +50,7 @@ CONST_CORPOREALBEAST_RULE (name:VAR_CORPOREALBEAST_ENUMLIST_FILTER_OTHER) {
   hidden = true;
 }
 
-
-/*@ define:
+/*@ define:input:corporealbeast
 type: stringlist
 label: Tertiary
 group: Hide drops

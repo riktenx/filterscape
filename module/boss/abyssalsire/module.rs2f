@@ -6,8 +6,7 @@ name: Abyssal Sire
 #define CONST_AREA_ABYSSALSIRE [2944,4863,0,3135,4736,0]
 #define CONST_ABYSSALSIRE_RULE(_cond) rule (area:CONST_AREA_ABYSSALSIRE && (_cond))
 
-
-/*@ define:
+/*@ define:input:abyssalsire
 type: stringlist
 label: 100%
 group: Hide drops
@@ -18,8 +17,7 @@ CONST_ABYSSALSIRE_RULE (name:VAR_ABYSSALSIRE_ENUMLIST_FILTER_100) {
   hidden = true;
 }
 
-
-/*@ define:
+/*@ define:input:abyssalsire
 type: stringlist
 label: Weapons and armour
 group: Hide drops
@@ -30,8 +28,7 @@ CONST_ABYSSALSIRE_RULE (name:VAR_ABYSSALSIRE_ENUMLIST_FILTER_WEAPONSANDARMOUR) {
   hidden = true;
 }
 
-
-/*@ define:
+/*@ define:input:abyssalsire
 type: stringlist
 label: Runes and ammunition
 group: Hide drops
@@ -42,8 +39,7 @@ CONST_ABYSSALSIRE_RULE (name:VAR_ABYSSALSIRE_ENUMLIST_FILTER_RUNESANDAMMUNITION)
   hidden = true;
 }
 
-
-/*@ define:
+/*@ define:input:abyssalsire
 type: stringlist
 label: Herbs
 group: Hide drops
@@ -54,8 +50,7 @@ CONST_ABYSSALSIRE_RULE (name:VAR_ABYSSALSIRE_ENUMLIST_FILTER_HERBS) {
   hidden = true;
 }
 
-
-/*@ define:
+/*@ define:input:abyssalsire
 type: stringlist
 label: Materials
 group: Hide drops
@@ -66,8 +61,7 @@ CONST_ABYSSALSIRE_RULE (name:VAR_ABYSSALSIRE_ENUMLIST_FILTER_MATERIALS) {
   hidden = true;
 }
 
-
-/*@ define:
+/*@ define:input:abyssalsire
 type: stringlist
 label: Other
 group: Hide drops
@@ -78,8 +72,7 @@ CONST_ABYSSALSIRE_RULE (name:VAR_ABYSSALSIRE_ENUMLIST_FILTER_OTHER) {
   hidden = true;
 }
 
-
-/*@ define:
+/*@ define:input:abyssalsire
 type: stringlist
 label: Tertiary
 group: Hide drops

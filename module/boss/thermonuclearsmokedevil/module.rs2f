@@ -6,8 +6,7 @@ name: Thermonuclear smoke devil
 #define CONST_AREA_THERMONUCLEARSMOKEDEVIL [2345,9464,0,2380,9434,0]
 #define CONST_THERMONUCLEARSMOKEDEVIL_RULE(_cond) rule (area:CONST_AREA_THERMONUCLEARSMOKEDEVIL && (_cond))
 
-
-/*@ define:
+/*@ define:input:thermonuclearsmokedevil
 type: stringlist
 label: 100%
 group: Hide drops
@@ -18,8 +17,7 @@ CONST_THERMONUCLEARSMOKEDEVIL_RULE (name:VAR_THERMONUCLEARSMOKEDEVIL_ENUMLIST_FI
   hidden = true;
 }
 
-
-/*@ define:
+/*@ define:input:thermonuclearsmokedevil
 type: stringlist
 label: Weapons and armour
 group: Hide drops
@@ -30,8 +28,7 @@ CONST_THERMONUCLEARSMOKEDEVIL_RULE (name:VAR_THERMONUCLEARSMOKEDEVIL_ENUMLIST_FI
   hidden = true;
 }
 
-
-/*@ define:
+/*@ define:input:thermonuclearsmokedevil
 type: stringlist
 label: Runes and ammunition
 group: Hide drops
@@ -42,8 +39,7 @@ CONST_THERMONUCLEARSMOKEDEVIL_RULE (name:VAR_THERMONUCLEARSMOKEDEVIL_ENUMLIST_FI
   hidden = true;
 }
 
-
-/*@ define:
+/*@ define:input:thermonuclearsmokedevil
 type: stringlist
 label: Consumables
 group: Hide drops
@@ -54,8 +50,7 @@ CONST_THERMONUCLEARSMOKEDEVIL_RULE (name:VAR_THERMONUCLEARSMOKEDEVIL_ENUMLIST_FI
   hidden = true;
 }
 
-
-/*@ define:
+/*@ define:input:thermonuclearsmokedevil
 type: stringlist
 label: Resources
 group: Hide drops
@@ -66,8 +61,7 @@ CONST_THERMONUCLEARSMOKEDEVIL_RULE (name:VAR_THERMONUCLEARSMOKEDEVIL_ENUMLIST_FI
   hidden = true;
 }
 
-
-/*@ define:
+/*@ define:input:thermonuclearsmokedevil
 type: stringlist
 label: Other
 group: Hide drops
@@ -78,8 +72,7 @@ CONST_THERMONUCLEARSMOKEDEVIL_RULE (name:VAR_THERMONUCLEARSMOKEDEVIL_ENUMLIST_FI
   hidden = true;
 }
 
-
-/*@ define:
+/*@ define:input:thermonuclearsmokedevil
 type: stringlist
 label: Tertiary
 group: Hide drops

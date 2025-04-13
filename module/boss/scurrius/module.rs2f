@@ -6,8 +6,7 @@ name: Scurrius
 #define CONST_AREA_SCURRIUS [3285,9856,0,3310,9879,0]
 #define CONST_SCURRIUS_RULE(_cond) rule (area:CONST_AREA_SCURRIUS && (_cond))
 
-
-/*@ define:
+/*@ define:input:scurrius
 type: stringlist
 label: 100%
 group: Hide drops
@@ -18,8 +17,7 @@ CONST_SCURRIUS_RULE (name:VAR_SCURRIUS_ENUMLIST_FILTER_100) {
   hidden = true;
 }
 
-
-/*@ define:
+/*@ define:input:scurrius
 type: stringlist
 label: Equipment
 group: Hide drops
@@ -30,8 +28,7 @@ CONST_SCURRIUS_RULE (name:VAR_SCURRIUS_ENUMLIST_FILTER_EQUIPMENT) {
   hidden = true;
 }
 
-
-/*@ define:
+/*@ define:input:scurrius
 type: stringlist
 label: Runes and ammunition
 group: Hide drops
@@ -42,8 +39,7 @@ CONST_SCURRIUS_RULE (name:VAR_SCURRIUS_ENUMLIST_FILTER_RUNESANDAMMUNITION) {
   hidden = true;
 }
 
-
-/*@ define:
+/*@ define:input:scurrius
 type: stringlist
 label: Food and potions
 group: Hide drops
@@ -54,8 +50,7 @@ CONST_SCURRIUS_RULE (name:VAR_SCURRIUS_ENUMLIST_FILTER_FOODANDPOTIONS) {
   hidden = true;
 }
 
-
-/*@ define:
+/*@ define:input:scurrius
 type: stringlist
 label: Other
 group: Hide drops
@@ -66,8 +61,7 @@ CONST_SCURRIUS_RULE (name:VAR_SCURRIUS_ENUMLIST_FILTER_OTHER) {
   hidden = true;
 }
 
-
-/*@ define:
+/*@ define:input:scurrius
 type: stringlist
 label: Tertiary drops
 group: Hide drops

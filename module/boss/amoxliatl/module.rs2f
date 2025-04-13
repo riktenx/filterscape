@@ -6,8 +6,7 @@ name: Amoxliatl
 #define CONST_AREA_AMOXLIATL [1347,4493,0,1383,4529,0]
 #define CONST_AMOXLIATL_RULE(_cond) rule (area:CONST_AREA_AMOXLIATL && (_cond))
 
-
-/*@ define:
+/*@ define:input:amoxliatl
 type: stringlist
 label: Frozen tears
 group: Hide drops
@@ -18,8 +17,7 @@ CONST_AMOXLIATL_RULE (name:VAR_AMOXLIATL_ENUMLIST_FILTER_FROZENTEARS) {
   hidden = true;
 }
 
-
-/*@ define:
+/*@ define:input:amoxliatl
 type: stringlist
 label: Weapons and armour
 group: Hide drops
@@ -30,8 +28,7 @@ CONST_AMOXLIATL_RULE (name:VAR_AMOXLIATL_ENUMLIST_FILTER_WEAPONSANDARMOUR) {
   hidden = true;
 }
 
-
-/*@ define:
+/*@ define:input:amoxliatl
 type: stringlist
 label: Runes and ammunition
 group: Hide drops
@@ -42,8 +39,7 @@ CONST_AMOXLIATL_RULE (name:VAR_AMOXLIATL_ENUMLIST_FILTER_RUNESANDAMMUNITION) {
   hidden = true;
 }
 
-
-/*@ define:
+/*@ define:input:amoxliatl
 type: stringlist
 label: Other
 group: Hide drops
@@ -54,8 +50,7 @@ CONST_AMOXLIATL_RULE (name:VAR_AMOXLIATL_ENUMLIST_FILTER_OTHER) {
   hidden = true;
 }
 
-
-/*@ define:
+/*@ define:input:amoxliatl
 type: stringlist
 label: Tertiary
 group: Hide drops

@@ -6,8 +6,7 @@ name: Smoke devil
 #define CONST_AREA_SMOKEDEVIL0 [2351,9421,0,2422,9465,0] // [[Smoke Devil Dungeon]]
 #define CONST_SMOKEDEVIL_RULE(_cond) rule ((area:CONST_AREA_SMOKEDEVIL0) && (_cond))
 
-
-/*@ define:
+/*@ define:input:smokedevil
 type: stringlist
 label: 100%
 group: Hide drops
@@ -18,8 +17,7 @@ CONST_SMOKEDEVIL_RULE (name:VAR_SMOKEDEVIL_ENUMLIST_FILTER_100) {
   hidden = true;
 }
 
-
-/*@ define:
+/*@ define:input:smokedevil
 type: stringlist
 label: Weapons and armour
 group: Hide drops
@@ -30,8 +28,7 @@ CONST_SMOKEDEVIL_RULE (name:VAR_SMOKEDEVIL_ENUMLIST_FILTER_WEAPONSANDARMOUR) {
   hidden = true;
 }
 
-
-/*@ define:
+/*@ define:input:smokedevil
 type: stringlist
 label: Runes and ammunition
 group: Hide drops
@@ -42,8 +39,7 @@ CONST_SMOKEDEVIL_RULE (name:VAR_SMOKEDEVIL_ENUMLIST_FILTER_RUNESANDAMMUNITION) {
   hidden = true;
 }
 
-
-/*@ define:
+/*@ define:input:smokedevil
 type: stringlist
 label: Coins
 group: Hide drops
@@ -54,8 +50,7 @@ CONST_SMOKEDEVIL_RULE (name:VAR_SMOKEDEVIL_ENUMLIST_FILTER_COINS) {
   hidden = true;
 }
 
-
-/*@ define:
+/*@ define:input:smokedevil
 type: stringlist
 label: Other
 group: Hide drops
@@ -66,8 +61,7 @@ CONST_SMOKEDEVIL_RULE (name:VAR_SMOKEDEVIL_ENUMLIST_FILTER_OTHER) {
   hidden = true;
 }
 
-
-/*@ define:
+/*@ define:input:smokedevil
 type: stringlist
 label: Tertiary
 group: Hide drops

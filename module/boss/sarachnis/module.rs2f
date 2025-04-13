@@ -6,8 +6,7 @@ name: Sarachnis
 #define CONST_AREA_SARACHNIS [1829,9890,0,1855,9911,0]
 #define CONST_SARACHNIS_RULE(_cond) rule (area:CONST_AREA_SARACHNIS && (_cond))
 
-
-/*@ define:
+/*@ define:input:sarachnis
 type: stringlist
 label: Pre-roll
 group: Hide drops
@@ -18,8 +17,7 @@ CONST_SARACHNIS_RULE (name:VAR_SARACHNIS_ENUMLIST_FILTER_PREROLL) {
   hidden = true;
 }
 
-
-/*@ define:
+/*@ define:input:sarachnis
 type: stringlist
 label: Weapons and armour
 group: Hide drops
@@ -30,8 +28,7 @@ CONST_SARACHNIS_RULE (name:VAR_SARACHNIS_ENUMLIST_FILTER_WEAPONSANDARMOUR) {
   hidden = true;
 }
 
-
-/*@ define:
+/*@ define:input:sarachnis
 type: stringlist
 label: Runes and ammunition
 group: Hide drops
@@ -42,8 +39,7 @@ CONST_SARACHNIS_RULE (name:VAR_SARACHNIS_ENUMLIST_FILTER_RUNESANDAMMUNITION) {
   hidden = true;
 }
 
-
-/*@ define:
+/*@ define:input:sarachnis
 type: stringlist
 label: Seeds
 group: Hide drops
@@ -54,8 +50,7 @@ CONST_SARACHNIS_RULE (name:VAR_SARACHNIS_ENUMLIST_FILTER_SEEDS) {
   hidden = true;
 }
 
-
-/*@ define:
+/*@ define:input:sarachnis
 type: stringlist
 label: Herbs
 group: Hide drops
@@ -66,8 +61,7 @@ CONST_SARACHNIS_RULE (name:VAR_SARACHNIS_ENUMLIST_FILTER_HERBS) {
   hidden = true;
 }
 
-
-/*@ define:
+/*@ define:input:sarachnis
 type: stringlist
 label: Materials
 group: Hide drops
@@ -78,8 +72,7 @@ CONST_SARACHNIS_RULE (name:VAR_SARACHNIS_ENUMLIST_FILTER_MATERIALS) {
   hidden = true;
 }
 
-
-/*@ define:
+/*@ define:input:sarachnis
 type: stringlist
 label: Other
 group: Hide drops
@@ -90,8 +83,7 @@ CONST_SARACHNIS_RULE (name:VAR_SARACHNIS_ENUMLIST_FILTER_OTHER) {
   hidden = true;
 }
 
-
-/*@ define:
+/*@ define:input:sarachnis
 type: stringlist
 label: Tertiary
 group: Hide drops

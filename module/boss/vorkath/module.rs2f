@@ -3,10 +3,20 @@
 name: Vorkath
 */
 
-// label:Hide un-noted blue d-hide
+/*@ define:input:vorkath
+type: boolean
+group: General
+label: Hide un-noted blue d-hide
+*/
 #define VAR_VORKATH_BOOLEAN_GENERAL_NOHIDE true
-// label:Hide superior dragon bones (why?)
+
+/*@ define:input:vorkath
+type: boolean
+group: General
+label: Hide superior dragon bones (why?)
+*/
 #define VAR_VORKATH_BOOLEAN_GENERAL_NOBONE false
+
 CONST_VORKATH_RULE (VAR_VORKATH_BOOLEAN_GENERAL_NOHIDE && name:"Blue dragonhide" && noted:false) {
   hidden = true;
 }
@@ -17,8 +27,7 @@ CONST_VORKATH_RULE (VAR_VORKATH_BOOLEAN_GENERAL_NOBONE && name:"Superior dragon 
 #define CONST_AREA_VORKATH [2256,4051,0,2288,4080,0]
 #define CONST_VORKATH_RULE(_cond) rule (area:CONST_AREA_VORKATH && (_cond))
 
-
-/*@ define:
+/*@ define:input:vorkath
 type: stringlist
 label: Weapons and armour
 group: Hide drops
@@ -29,8 +38,7 @@ CONST_VORKATH_RULE (name:VAR_VORKATH_ENUMLIST_FILTER_WEAPONSANDARMOUR) {
   hidden = true;
 }
 
-
-/*@ define:
+/*@ define:input:vorkath
 type: stringlist
 label: Runes
 group: Hide drops
@@ -41,8 +49,7 @@ CONST_VORKATH_RULE (name:VAR_VORKATH_ENUMLIST_FILTER_RUNES) {
   hidden = true;
 }
 
-
-/*@ define:
+/*@ define:input:vorkath
 type: stringlist
 label: Dragonhide
 group: Hide drops
@@ -53,8 +60,7 @@ CONST_VORKATH_RULE (name:VAR_VORKATH_ENUMLIST_FILTER_DRAGONHIDE) {
   hidden = true;
 }
 
-
-/*@ define:
+/*@ define:input:vorkath
 type: stringlist
 label: Fletching materials
 group: Hide drops
@@ -65,8 +71,7 @@ CONST_VORKATH_RULE (name:VAR_VORKATH_ENUMLIST_FILTER_FLETCHINGMATERIALS) {
   hidden = true;
 }
 
-
-/*@ define:
+/*@ define:input:vorkath
 type: stringlist
 label: Other
 group: Hide drops
@@ -77,8 +82,7 @@ CONST_VORKATH_RULE (name:VAR_VORKATH_ENUMLIST_FILTER_OTHER) {
   hidden = true;
 }
 
-
-/*@ define:
+/*@ define:input:vorkath
 type: stringlist
 label: Tertiary
 group: Hide drops

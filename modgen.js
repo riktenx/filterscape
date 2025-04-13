@@ -98,8 +98,7 @@ name: ${name}
     const jvalue = JSON.stringify(items);
     const ident = toMacroIdent(category);
     // some categories parse with additional = surrounding the mediawiki section, just chop that off for now
-    return `
-/*@ define:
+    return `/*@ define:input:${moduleName}
 type: stringlist
 label: ${category.startsWith('=') ? category.substring(1, category.length - 1) : category}
 group: Hide drops

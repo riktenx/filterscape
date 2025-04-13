@@ -6,8 +6,7 @@ name: Crazy archaeologist
 #define CONST_AREA_CRAZYARCHAEOLOGIST [2953,3679,0,2985,3708,0]
 #define CONST_CRAZYARCHAEOLOGIST_RULE(_cond) rule (area:CONST_AREA_CRAZYARCHAEOLOGIST && (_cond))
 
-
-/*@ define:
+/*@ define:input:crazyarchaeologist
 type: stringlist
 label: 100%
 group: Hide drops
@@ -18,8 +17,7 @@ CONST_CRAZYARCHAEOLOGIST_RULE (name:VAR_CRAZYARCHAEOLOGIST_ENUMLIST_FILTER_100) 
   hidden = true;
 }
 
-
-/*@ define:
+/*@ define:input:crazyarchaeologist
 type: stringlist
 label: Pre-roll
 group: Hide drops
@@ -30,8 +28,7 @@ CONST_CRAZYARCHAEOLOGIST_RULE (name:VAR_CRAZYARCHAEOLOGIST_ENUMLIST_FILTER_PRERO
   hidden = true;
 }
 
-
-/*@ define:
+/*@ define:input:crazyarchaeologist
 type: stringlist
 label: Weapons and armour
 group: Hide drops
@@ -42,8 +39,7 @@ CONST_CRAZYARCHAEOLOGIST_RULE (name:VAR_CRAZYARCHAEOLOGIST_ENUMLIST_FILTER_WEAPO
   hidden = true;
 }
 
-
-/*@ define:
+/*@ define:input:crazyarchaeologist
 type: stringlist
 label: Runes and ammunition
 group: Hide drops
@@ -54,8 +50,7 @@ CONST_CRAZYARCHAEOLOGIST_RULE (name:VAR_CRAZYARCHAEOLOGIST_ENUMLIST_FILTER_RUNES
   hidden = true;
 }
 
-
-/*@ define:
+/*@ define:input:crazyarchaeologist
 type: stringlist
 label: Consumables
 group: Hide drops
@@ -66,8 +61,7 @@ CONST_CRAZYARCHAEOLOGIST_RULE (name:VAR_CRAZYARCHAEOLOGIST_ENUMLIST_FILTER_CONSU
   hidden = true;
 }
 
-
-/*@ define:
+/*@ define:input:crazyarchaeologist
 type: stringlist
 label: Other
 group: Hide drops
@@ -78,8 +72,7 @@ CONST_CRAZYARCHAEOLOGIST_RULE (name:VAR_CRAZYARCHAEOLOGIST_ENUMLIST_FILTER_OTHER
   hidden = true;
 }
 
-
-/*@ define:
+/*@ define:input:crazyarchaeologist
 type: stringlist
 label: Tertiary
 group: Hide drops

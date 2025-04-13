@@ -6,8 +6,7 @@ name: The Whisperer
 #define CONST_AREA_THEWHISPERER [2631,6391,0,2684,6345,0]
 #define CONST_THEWHISPERER_RULE(_cond) rule (area:CONST_AREA_THEWHISPERER && (_cond))
 
-
-/*@ define:
+/*@ define:input:thewhisperer
 type: stringlist
 label: Uniques
 group: Hide drops
@@ -18,8 +17,7 @@ CONST_THEWHISPERER_RULE (name:VAR_THEWHISPERER_ENUMLIST_FILTER_UNIQUES) {
   hidden = true;
 }
 
-
-/*@ define:
+/*@ define:input:thewhisperer
 type: stringlist
 label: Secondary uniques
 group: Hide drops
@@ -30,8 +28,7 @@ CONST_THEWHISPERER_RULE (name:VAR_THEWHISPERER_ENUMLIST_FILTER_SECONDARYUNIQUES)
   hidden = true;
 }
 
-
-/*@ define:
+/*@ define:input:thewhisperer
 type: stringlist
 label: Supplies
 group: Hide drops
@@ -42,8 +39,7 @@ CONST_THEWHISPERER_RULE (name:VAR_THEWHISPERER_ENUMLIST_FILTER_SUPPLIES) {
   hidden = true;
 }
 
-
-/*@ define:
+/*@ define:input:thewhisperer
 type: stringlist
 label: Weapons and armour
 group: Hide drops
@@ -54,8 +50,7 @@ CONST_THEWHISPERER_RULE (name:VAR_THEWHISPERER_ENUMLIST_FILTER_WEAPONSANDARMOUR)
   hidden = true;
 }
 
-
-/*@ define:
+/*@ define:input:thewhisperer
 type: stringlist
 label: Resources
 group: Hide drops
@@ -66,8 +61,7 @@ CONST_THEWHISPERER_RULE (name:VAR_THEWHISPERER_ENUMLIST_FILTER_RESOURCES) {
   hidden = true;
 }
 
-
-/*@ define:
+/*@ define:input:thewhisperer
 type: stringlist
 label: Runes and ammunition
 group: Hide drops
@@ -78,8 +72,7 @@ CONST_THEWHISPERER_RULE (name:VAR_THEWHISPERER_ENUMLIST_FILTER_RUNESANDAMMUNITIO
   hidden = true;
 }
 
-
-/*@ define:
+/*@ define:input:thewhisperer
 type: stringlist
 label: Tertiary
 group: Hide drops

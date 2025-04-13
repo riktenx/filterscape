@@ -16,8 +16,7 @@ name: Bloodveld
   area:CONST_AREA_BLOODVELD4 || \
   area:CONST_AREA_BLOODVELD5) && (_cond))
 
-
-/*@ define:
+/*@ define:input:bloodveld
 type: stringlist
 label: 100%
 group: Hide drops
@@ -28,8 +27,7 @@ CONST_BLOODVELD_RULE (name:VAR_BLOODVELD_ENUMLIST_FILTER_100) {
   hidden = true;
 }
 
-
-/*@ define:
+/*@ define:input:bloodveld
 type: stringlist
 label: Weapons and armour
 group: Hide drops
@@ -40,8 +38,7 @@ CONST_BLOODVELD_RULE (name:VAR_BLOODVELD_ENUMLIST_FILTER_WEAPONSANDARMOUR) {
   hidden = true;
 }
 
-
-/*@ define:
+/*@ define:input:bloodveld
 type: stringlist
 label: Runes 
 group: Hide drops
@@ -52,8 +49,7 @@ CONST_BLOODVELD_RULE (name:VAR_BLOODVELD_ENUMLIST_FILTER_RUNES) {
   hidden = true;
 }
 
-
-/*@ define:
+/*@ define:input:bloodveld
 type: stringlist
 label: Coins
 group: Hide drops
@@ -64,8 +60,7 @@ CONST_BLOODVELD_RULE (name:VAR_BLOODVELD_ENUMLIST_FILTER_COINS) {
   hidden = true;
 }
 
-
-/*@ define:
+/*@ define:input:bloodveld
 type: stringlist
 label: Other
 group: Hide drops
@@ -76,8 +71,7 @@ CONST_BLOODVELD_RULE (name:VAR_BLOODVELD_ENUMLIST_FILTER_OTHER) {
   hidden = true;
 }
 
-
-/*@ define:
+/*@ define:input:bloodveld
 type: stringlist
 label: Tertiary
 group: Hide drops

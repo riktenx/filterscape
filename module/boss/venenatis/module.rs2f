@@ -6,8 +6,7 @@ name: Venenatis
 #define CONST_AREA_VENENATIS [3402,10181,2,3443,10225,2]
 #define CONST_VENENATIS_RULE(_cond) rule (area:CONST_AREA_VENENATIS && (_cond))
 
-
-/*@ define:
+/*@ define:input:venenatis
 type: stringlist
 label: 100%
 group: Hide drops
@@ -18,8 +17,7 @@ CONST_VENENATIS_RULE (name:VAR_VENENATIS_ENUMLIST_FILTER_100) {
   hidden = true;
 }
 
-
-/*@ define:
+/*@ define:input:venenatis
 type: stringlist
 label: Unique
 group: Hide drops
@@ -30,8 +28,7 @@ CONST_VENENATIS_RULE (name:VAR_VENENATIS_ENUMLIST_FILTER_UNIQUE) {
   hidden = true;
 }
 
-
-/*@ define:
+/*@ define:input:venenatis
 type: stringlist
 label: Weapons and armour
 group: Hide drops
@@ -42,8 +39,7 @@ CONST_VENENATIS_RULE (name:VAR_VENENATIS_ENUMLIST_FILTER_WEAPONSANDARMOUR) {
   hidden = true;
 }
 
-
-/*@ define:
+/*@ define:input:venenatis
 type: stringlist
 label: Runes and ammunition
 group: Hide drops
@@ -54,8 +50,7 @@ CONST_VENENATIS_RULE (name:VAR_VENENATIS_ENUMLIST_FILTER_RUNESANDAMMUNITION) {
   hidden = true;
 }
 
-
-/*@ define:
+/*@ define:input:venenatis
 type: stringlist
 label: Materials
 group: Hide drops
@@ -66,8 +61,7 @@ CONST_VENENATIS_RULE (name:VAR_VENENATIS_ENUMLIST_FILTER_MATERIALS) {
   hidden = true;
 }
 
-
-/*@ define:
+/*@ define:input:venenatis
 type: stringlist
 label: Other
 group: Hide drops
@@ -78,8 +72,7 @@ CONST_VENENATIS_RULE (name:VAR_VENENATIS_ENUMLIST_FILTER_OTHER) {
   hidden = true;
 }
 
-
-/*@ define:
+/*@ define:input:venenatis
 type: stringlist
 label: Secondary Supply roll
 group: Hide drops
@@ -90,8 +83,7 @@ CONST_VENENATIS_RULE (name:VAR_VENENATIS_ENUMLIST_FILTER_SECONDARYSUPPLYROLL) {
   hidden = true;
 }
 
-
-/*@ define:
+/*@ define:input:venenatis
 type: stringlist
 label: Tertiary
 group: Hide drops

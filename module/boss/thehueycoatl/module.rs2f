@@ -6,8 +6,7 @@ name: The Hueycoatl
 #define CONST_AREA_THEHUEYCOATL [1497,3301,0,1529,3271,0]
 #define CONST_THEHUEYCOATL_RULE(_cond) rule (area:CONST_AREA_THEHUEYCOATL && (_cond))
 
-
-/*@ define:
+/*@ define:input:thehueycoatl
 type: stringlist
 label: 100%
 group: Hide drops
@@ -18,8 +17,7 @@ CONST_THEHUEYCOATL_RULE (name:VAR_THEHUEYCOATL_ENUMLIST_FILTER_100) {
   hidden = true;
 }
 
-
-/*@ define:
+/*@ define:input:thehueycoatl
 type: stringlist
 label: Unique
 group: Hide drops
@@ -30,8 +28,7 @@ CONST_THEHUEYCOATL_RULE (name:VAR_THEHUEYCOATL_ENUMLIST_FILTER_UNIQUE) {
   hidden = true;
 }
 
-
-/*@ define:
+/*@ define:input:thehueycoatl
 type: stringlist
 label: Weapons and armour
 group: Hide drops
@@ -42,8 +39,7 @@ CONST_THEHUEYCOATL_RULE (name:VAR_THEHUEYCOATL_ENUMLIST_FILTER_WEAPONSANDARMOUR)
   hidden = true;
 }
 
-
-/*@ define:
+/*@ define:input:thehueycoatl
 type: stringlist
 label: Runes and ammunition
 group: Hide drops
@@ -54,8 +50,7 @@ CONST_THEHUEYCOATL_RULE (name:VAR_THEHUEYCOATL_ENUMLIST_FILTER_RUNESANDAMMUNITIO
   hidden = true;
 }
 
-
-/*@ define:
+/*@ define:input:thehueycoatl
 type: stringlist
 label: Seeds
 group: Hide drops
@@ -66,8 +61,7 @@ CONST_THEHUEYCOATL_RULE (name:VAR_THEHUEYCOATL_ENUMLIST_FILTER_SEEDS) {
   hidden = true;
 }
 
-
-/*@ define:
+/*@ define:input:thehueycoatl
 type: stringlist
 label: Other
 group: Hide drops
@@ -78,8 +72,7 @@ CONST_THEHUEYCOATL_RULE (name:VAR_THEHUEYCOATL_ENUMLIST_FILTER_OTHER) {
   hidden = true;
 }
 
-
-/*@ define:
+/*@ define:input:thehueycoatl
 type: stringlist
 label: Tertiary
 group: Hide drops

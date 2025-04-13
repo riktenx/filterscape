@@ -6,8 +6,7 @@ name: Deranged archaeologist
 #define CONST_AREA_DERANGEDARCHAEOLOGIST [3669,3694,0,3698,3722,0]
 #define CONST_DERANGEDARCHAEOLOGIST_RULE(_cond) rule (area:CONST_AREA_DERANGEDARCHAEOLOGIST && (_cond))
 
-
-/*@ define:
+/*@ define:input:derangedarchaeologist
 type: stringlist
 label: 100%
 group: Hide drops
@@ -18,8 +17,7 @@ CONST_DERANGEDARCHAEOLOGIST_RULE (name:VAR_DERANGEDARCHAEOLOGIST_ENUMLIST_FILTER
   hidden = true;
 }
 
-
-/*@ define:
+/*@ define:input:derangedarchaeologist
 type: stringlist
 label: Weapons and armour
 group: Hide drops
@@ -30,8 +28,7 @@ CONST_DERANGEDARCHAEOLOGIST_RULE (name:VAR_DERANGEDARCHAEOLOGIST_ENUMLIST_FILTER
   hidden = true;
 }
 
-
-/*@ define:
+/*@ define:input:derangedarchaeologist
 type: stringlist
 label: Runes and ammunition
 group: Hide drops
@@ -42,8 +39,7 @@ CONST_DERANGEDARCHAEOLOGIST_RULE (name:VAR_DERANGEDARCHAEOLOGIST_ENUMLIST_FILTER
   hidden = true;
 }
 
-
-/*@ define:
+/*@ define:input:derangedarchaeologist
 type: stringlist
 label: Materials
 group: Hide drops
@@ -54,8 +50,7 @@ CONST_DERANGEDARCHAEOLOGIST_RULE (name:VAR_DERANGEDARCHAEOLOGIST_ENUMLIST_FILTER
   hidden = true;
 }
 
-
-/*@ define:
+/*@ define:input:derangedarchaeologist
 type: stringlist
 label: Consumables
 group: Hide drops
@@ -66,8 +61,7 @@ CONST_DERANGEDARCHAEOLOGIST_RULE (name:VAR_DERANGEDARCHAEOLOGIST_ENUMLIST_FILTER
   hidden = true;
 }
 
-
-/*@ define:
+/*@ define:input:derangedarchaeologist
 type: stringlist
 label: Other
 group: Hide drops
@@ -78,8 +72,7 @@ CONST_DERANGEDARCHAEOLOGIST_RULE (name:VAR_DERANGEDARCHAEOLOGIST_ENUMLIST_FILTER
   hidden = true;
 }
 
-
-/*@ define:
+/*@ define:input:derangedarchaeologist
 type: stringlist
 label: Tertiary
 group: Hide drops

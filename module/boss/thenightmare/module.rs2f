@@ -6,8 +6,7 @@ name: The Nightmare
 #define CONST_AREA_THENIGHTMARE [3840,9920,3,3903,9983,3]
 #define CONST_THENIGHTMARE_RULE(_cond) rule (area:CONST_AREA_THENIGHTMARE && (_cond))
 
-
-/*@ define:
+/*@ define:input:thenightmare
 type: stringlist
 label: 100%
 group: Hide drops
@@ -18,8 +17,7 @@ CONST_THENIGHTMARE_RULE (name:VAR_THENIGHTMARE_ENUMLIST_FILTER_100) {
   hidden = true;
 }
 
-
-/*@ define:
+/*@ define:input:thenightmare
 type: stringlist
 label: Uniques
 group: Hide drops
@@ -30,8 +28,7 @@ CONST_THENIGHTMARE_RULE (name:VAR_THENIGHTMARE_ENUMLIST_FILTER_UNIQUES) {
   hidden = true;
 }
 
-
-/*@ define:
+/*@ define:input:thenightmare
 type: stringlist
 label: Runes and ammunition
 group: Hide drops
@@ -42,8 +39,7 @@ CONST_THENIGHTMARE_RULE (name:VAR_THENIGHTMARE_ENUMLIST_FILTER_RUNESANDAMMUNITIO
   hidden = true;
 }
 
-
-/*@ define:
+/*@ define:input:thenightmare
 type: stringlist
 label: Resources
 group: Hide drops
@@ -54,8 +50,7 @@ CONST_THENIGHTMARE_RULE (name:VAR_THENIGHTMARE_ENUMLIST_FILTER_RESOURCES) {
   hidden = true;
 }
 
-
-/*@ define:
+/*@ define:input:thenightmare
 type: stringlist
 label: Consumables
 group: Hide drops
@@ -66,8 +61,7 @@ CONST_THENIGHTMARE_RULE (name:VAR_THENIGHTMARE_ENUMLIST_FILTER_CONSUMABLES) {
   hidden = true;
 }
 
-
-/*@ define:
+/*@ define:input:thenightmare
 type: stringlist
 label: Coins
 group: Hide drops
@@ -78,8 +72,7 @@ CONST_THENIGHTMARE_RULE (name:VAR_THENIGHTMARE_ENUMLIST_FILTER_COINS) {
   hidden = true;
 }
 
-
-/*@ define:
+/*@ define:input:thenightmare
 type: stringlist
 label: Tertiary
 group: Hide drops

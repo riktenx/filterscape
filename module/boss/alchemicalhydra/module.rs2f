@@ -6,8 +6,7 @@ name: Alchemical Hydra
 #define CONST_AREA_ALCHEMICALHYDRA [1346,10287,0,1385,10251,0]
 #define CONST_ALCHEMICALHYDRA_RULE(_cond) rule (area:CONST_AREA_ALCHEMICALHYDRA && (_cond))
 
-
-/*@ define:
+/*@ define:input:alchemicalhydra
 type: stringlist
 label: 100%
 group: Hide drops
@@ -18,8 +17,7 @@ CONST_ALCHEMICALHYDRA_RULE (name:VAR_ALCHEMICALHYDRA_ENUMLIST_FILTER_100) {
   hidden = true;
 }
 
-
-/*@ define:
+/*@ define:input:alchemicalhydra
 type: stringlist
 label: Pre-roll
 group: Hide drops
@@ -30,8 +28,7 @@ CONST_ALCHEMICALHYDRA_RULE (name:VAR_ALCHEMICALHYDRA_ENUMLIST_FILTER_PREROLL) {
   hidden = true;
 }
 
-
-/*@ define:
+/*@ define:input:alchemicalhydra
 type: stringlist
 label: Weapons and armour
 group: Hide drops
@@ -42,8 +39,7 @@ CONST_ALCHEMICALHYDRA_RULE (name:VAR_ALCHEMICALHYDRA_ENUMLIST_FILTER_WEAPONSANDA
   hidden = true;
 }
 
-
-/*@ define:
+/*@ define:input:alchemicalhydra
 type: stringlist
 label: Runes and ammunition
 group: Hide drops
@@ -54,8 +50,7 @@ CONST_ALCHEMICALHYDRA_RULE (name:VAR_ALCHEMICALHYDRA_ENUMLIST_FILTER_RUNESANDAMM
   hidden = true;
 }
 
-
-/*@ define:
+/*@ define:input:alchemicalhydra
 type: stringlist
 label: Herbs
 group: Hide drops
@@ -66,8 +61,7 @@ CONST_ALCHEMICALHYDRA_RULE (name:VAR_ALCHEMICALHYDRA_ENUMLIST_FILTER_HERBS) {
   hidden = true;
 }
 
-
-/*@ define:
+/*@ define:input:alchemicalhydra
 type: stringlist
 label: Other
 group: Hide drops
@@ -78,8 +72,7 @@ CONST_ALCHEMICALHYDRA_RULE (name:VAR_ALCHEMICALHYDRA_ENUMLIST_FILTER_OTHER) {
   hidden = true;
 }
 
-
-/*@ define:
+/*@ define:input:alchemicalhydra
 type: stringlist
 label: Tertiary
 group: Hide drops

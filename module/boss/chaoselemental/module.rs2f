@@ -6,8 +6,7 @@ name: Chaos Elemental
 #define CONST_AREA_CHAOSELEMENTAL [3200,3967,0,3327,3904,0]
 #define CONST_CHAOSELEMENTAL_RULE(_cond) rule (area:CONST_AREA_CHAOSELEMENTAL && (_cond))
 
-
-/*@ define:
+/*@ define:input:chaoselemental
 type: stringlist
 label: Minor drops
 group: Hide drops
@@ -18,8 +17,7 @@ CONST_CHAOSELEMENTAL_RULE (name:VAR_CHAOSELEMENTAL_ENUMLIST_FILTER_MINORDROPS) {
   hidden = true;
 }
 
-
-/*@ define:
+/*@ define:input:chaoselemental
 type: stringlist
 label: Pre-roll
 group: Hide drops
@@ -30,8 +28,7 @@ CONST_CHAOSELEMENTAL_RULE (name:VAR_CHAOSELEMENTAL_ENUMLIST_FILTER_PREROLL) {
   hidden = true;
 }
 
-
-/*@ define:
+/*@ define:input:chaoselemental
 type: stringlist
 label: Weapons and armour
 group: Hide drops
@@ -42,8 +39,7 @@ CONST_CHAOSELEMENTAL_RULE (name:VAR_CHAOSELEMENTAL_ENUMLIST_FILTER_WEAPONSANDARM
   hidden = true;
 }
 
-
-/*@ define:
+/*@ define:input:chaoselemental
 type: stringlist
 label: Runes and ammunition
 group: Hide drops
@@ -54,8 +50,7 @@ CONST_CHAOSELEMENTAL_RULE (name:VAR_CHAOSELEMENTAL_ENUMLIST_FILTER_RUNESANDAMMUN
   hidden = true;
 }
 
-
-/*@ define:
+/*@ define:input:chaoselemental
 type: stringlist
 label: Herbs
 group: Hide drops
@@ -66,8 +61,7 @@ CONST_CHAOSELEMENTAL_RULE (name:VAR_CHAOSELEMENTAL_ENUMLIST_FILTER_HERBS) {
   hidden = true;
 }
 
-
-/*@ define:
+/*@ define:input:chaoselemental
 type: stringlist
 label: Resources
 group: Hide drops
@@ -78,8 +72,7 @@ CONST_CHAOSELEMENTAL_RULE (name:VAR_CHAOSELEMENTAL_ENUMLIST_FILTER_RESOURCES) {
   hidden = true;
 }
 
-
-/*@ define:
+/*@ define:input:chaoselemental
 type: stringlist
 label: Materials
 group: Hide drops
@@ -90,8 +83,7 @@ CONST_CHAOSELEMENTAL_RULE (name:VAR_CHAOSELEMENTAL_ENUMLIST_FILTER_MATERIALS) {
   hidden = true;
 }
 
-
-/*@ define:
+/*@ define:input:chaoselemental
 type: stringlist
 label: Tertiary
 group: Hide drops

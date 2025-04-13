@@ -6,8 +6,7 @@ name: Nex
 #define CONST_AREA_NEX [2910,5188,0,2940,5218,0]
 #define CONST_NEX_RULE(_cond) rule (area:CONST_AREA_NEX && (_cond))
 
-
-/*@ define:
+/*@ define:input:nex
 type: stringlist
 label: 100%
 group: Hide drops
@@ -18,8 +17,7 @@ CONST_NEX_RULE (name:VAR_NEX_ENUMLIST_FILTER_100) {
   hidden = true;
 }
 
-
-/*@ define:
+/*@ define:input:nex
 type: stringlist
 label: Uniques
 group: Hide drops
@@ -30,8 +28,7 @@ CONST_NEX_RULE (name:VAR_NEX_ENUMLIST_FILTER_UNIQUES) {
   hidden = true;
 }
 
-
-/*@ define:
+/*@ define:input:nex
 type: stringlist
 label: Runes & ammunition
 group: Hide drops
@@ -42,8 +39,7 @@ CONST_NEX_RULE (name:VAR_NEX_ENUMLIST_FILTER_RUNESAMMUNITION) {
   hidden = true;
 }
 
-
-/*@ define:
+/*@ define:input:nex
 type: stringlist
 label: Resources
 group: Hide drops
@@ -54,8 +50,7 @@ CONST_NEX_RULE (name:VAR_NEX_ENUMLIST_FILTER_RESOURCES) {
   hidden = true;
 }
 
-
-/*@ define:
+/*@ define:input:nex
 type: stringlist
 label: Consumables
 group: Hide drops
@@ -66,8 +61,7 @@ CONST_NEX_RULE (name:VAR_NEX_ENUMLIST_FILTER_CONSUMABLES) {
   hidden = true;
 }
 
-
-/*@ define:
+/*@ define:input:nex
 type: stringlist
 label: Other
 group: Hide drops
@@ -78,8 +72,7 @@ CONST_NEX_RULE (name:VAR_NEX_ENUMLIST_FILTER_OTHER) {
   hidden = true;
 }
 
-
-/*@ define:
+/*@ define:input:nex
 type: stringlist
 label: Tertiary
 group: Hide drops

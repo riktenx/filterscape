@@ -6,8 +6,7 @@ name: K'ril Tsutsaroth
 #define CONST_AREA_KRILTSUTSAROTH [2917,5317,2,2937,5332,2]
 #define CONST_KRILTSUTSAROTH_RULE(_cond) rule (area:CONST_AREA_KRILTSUTSAROTH && (_cond))
 
-
-/*@ define:
+/*@ define:input:kriltsutsaroth
 type: stringlist
 label: 100%
 group: Hide drops
@@ -18,8 +17,7 @@ CONST_KRILTSUTSAROTH_RULE (name:VAR_KRILTSUTSAROTH_ENUMLIST_FILTER_100) {
   hidden = true;
 }
 
-
-/*@ define:
+/*@ define:input:kriltsutsaroth
 type: stringlist
 label: Uniques
 group: Hide drops
@@ -30,8 +28,7 @@ CONST_KRILTSUTSAROTH_RULE (name:VAR_KRILTSUTSAROTH_ENUMLIST_FILTER_UNIQUES) {
   hidden = true;
 }
 
-
-/*@ define:
+/*@ define:input:kriltsutsaroth
 type: stringlist
 label: Weapons and armour
 group: Hide drops
@@ -42,8 +39,7 @@ CONST_KRILTSUTSAROTH_RULE (name:VAR_KRILTSUTSAROTH_ENUMLIST_FILTER_WEAPONSANDARM
   hidden = true;
 }
 
-
-/*@ define:
+/*@ define:input:kriltsutsaroth
 type: stringlist
 label: Potions
 group: Hide drops
@@ -54,8 +50,7 @@ CONST_KRILTSUTSAROTH_RULE (name:VAR_KRILTSUTSAROTH_ENUMLIST_FILTER_POTIONS) {
   hidden = true;
 }
 
-
-/*@ define:
+/*@ define:input:kriltsutsaroth
 type: stringlist
 label: Other
 group: Hide drops
@@ -66,8 +61,7 @@ CONST_KRILTSUTSAROTH_RULE (name:VAR_KRILTSUTSAROTH_ENUMLIST_FILTER_OTHER) {
   hidden = true;
 }
 
-
-/*@ define:
+/*@ define:input:kriltsutsaroth
 type: stringlist
 label: Tertiary
 group: Hide drops

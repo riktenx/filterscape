@@ -4,8 +4,6 @@
 name: ToA
 */
 
-#define CONST_TOA_AREA []
-
 /*@ define:input:toa
 type: style
 label: Ambrosia
@@ -42,35 +40,16 @@ group: potions
   textColor = "#e91e63";\
   textAccent = 4;
 
-
-#define VAR_TOA_HIGHLIGHT []
-#define VAR_TOA_HIGHLIGHT_USERSTYLE 
-
-rule (name:VAR_TOA_HIGHLIGHT) {
-  VAR_TOA_HIGHLIGHT_USERSTYLE
-}
-
 rule (name:"ambrosia*") {
-  textColor = "#e3ece3";
-  textAccent = 4;
   VAR_TOA_AMB_USERSTYLE
 }
-
 rule (name:"liquid adrenaline*") {
-  textColor = "#35c6d7";
-  textAccent = 4;
   VAR_TOA_LQA_USERSTYLE
 }
-
 rule (name:"nectar*") {
-  textColor = "#ffff00";
-  textAccent = 4;
   VAR_TOA_NEC_USERSTYLE
 }
-
 rule (name:"tears of elidinis*") {
-  textColor = "#e91e63";
-  textAccent = 4;
   VAR_TOA_TOE_USERSTYLE
 }
 

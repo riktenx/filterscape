@@ -4,8 +4,6 @@
 name: CoX
 */
 
-#define CONST_COX_AREA []
-
 /*@ define:input:cox
 type: style
 label: Overload
@@ -42,35 +40,16 @@ group: potions
   textColor = "#ffff00";\
   textAccent = 4;
 
-
-#define VAR_COX_HIGHLIGHT []
-#define VAR_COX_HIGHLIGHT_USERSTYLE 
-
-rule (name:VAR_COX_HIGHLIGHT) {
-  VAR_COX_HIGHLIGHT_USERSTYLE
-}
-
 rule (name:"overload*") {
-  textColor = "#1e88e5";
-  textAccent = 4;
   VAR_COX_OVL_USERSTYLE
 }
-
 rule (name:"prayer enhance*") {
-  textColor = "#ff00ff";
-  textAccent = 4;
   VAR_COX_PEH_USERSTYLE
 }
-
 rule (name:"revitalisation*") {
-  textColor = "#e91e63";
-  textAccent = 4;
   VAR_COX_REV_USERSTYLE
 }
-
 rule (name:"xeric's aid*") {
-  textColor = "#ffff00";
-  textAccent = 4;
   VAR_COX_XER_USERSTYLE
 }
 

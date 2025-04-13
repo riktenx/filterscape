@@ -7,9 +7,7 @@ description: |
   This filter uses dynamic font sizing and custom item value tiers.
   
   To get the full effects of this filter, you must do the following in plugin settings:
-  
   1. Set 'General -> Font mode' to 'plugin'.
-  
   2. Set 'Item value rules -> Enabled' to 'after filter'.
 */
 

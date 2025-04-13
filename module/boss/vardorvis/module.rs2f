@@ -1,55 +1,78 @@
-// module:Vardorvis
+
+/*@ define:module:vardorvis
+name: Vardorvis
+*/
 
 #define CONST_AREA_VARDORVIS [1117,3428,0,1141,3408,0]
 #define CONST_VARDORVIS_RULE(_cond) rule (area:CONST_AREA_VARDORVIS && (_cond))
 
 
-
-
-
-// label:Uniques
-// group:Hide drops
-// enum:["Ultor vestige","Chromium ingot","Executioner's axe head","Virtus mask","Virtus robe top","Virtus robe bottom"]
+/*@ define:
+type: stringlist
+label: Uniques
+group: Hide drops
+enum: ["Ultor vestige","Chromium ingot","Executioner's axe head","Virtus mask","Virtus robe top","Virtus robe bottom"]
+*/
 #define VAR_VARDORVIS_ENUMLIST_FILTER_UNIQUES []
 CONST_VARDORVIS_RULE (name:VAR_VARDORVIS_ENUMLIST_FILTER_UNIQUES) {
   hidden = true;
 }
 
-// label:Secondary uniques
-// group:Hide drops
-// enum:["Strangled tablet","Awakener's orb","Blood quartz"]
+
+/*@ define:
+type: stringlist
+label: Secondary uniques
+group: Hide drops
+enum: ["Strangled tablet","Awakener's orb","Blood quartz"]
+*/
 #define VAR_VARDORVIS_ENUMLIST_FILTER_SECONDARYUNIQUES []
 CONST_VARDORVIS_RULE (name:VAR_VARDORVIS_ENUMLIST_FILTER_SECONDARYUNIQUES) {
   hidden = true;
 }
 
-// label:Supplies
-// group:Hide drops
-// enum:["Tuna potato","Prayer potion(3)","Super combat potion(2)"]
+
+/*@ define:
+type: stringlist
+label: Supplies
+group: Hide drops
+enum: ["Tuna potato","Prayer potion(3)","Super combat potion(2)"]
+*/
 #define VAR_VARDORVIS_ENUMLIST_FILTER_SUPPLIES []
 CONST_VARDORVIS_RULE (name:VAR_VARDORVIS_ENUMLIST_FILTER_SUPPLIES) {
   hidden = true;
 }
 
-// label:Resources
-// group:Hide drops
-// enum:["Pure essence","Iron ore","Silver ore","Coal","Mithril ore","Adamantite ore","Runite ore","Sapphire","Emerald","Ruby","Uncut ruby","Uncut diamond","Rune javelin heads","Dragon javelin heads","Dragon dart tip","Raw shark"]
+
+/*@ define:
+type: stringlist
+label: Resources
+group: Hide drops
+enum: ["Pure essence","Iron ore","Silver ore","Coal","Mithril ore","Adamantite ore","Runite ore","Sapphire","Emerald","Ruby","Uncut ruby","Uncut diamond","Rune javelin heads","Dragon javelin heads","Dragon dart tip","Raw shark"]
+*/
 #define VAR_VARDORVIS_ENUMLIST_FILTER_RESOURCES []
 CONST_VARDORVIS_RULE (name:VAR_VARDORVIS_ENUMLIST_FILTER_RESOURCES) {
   hidden = true;
 }
 
-// label:Runes and ammunition
-// group:Hide drops
-// enum:["Bronze javelin","Mithril javelin","Adamant javelin","Onyx bolts (e)","Mind rune","Fire rune","Lava rune","Blood rune","Soul rune"]
+
+/*@ define:
+type: stringlist
+label: Runes and ammunition
+group: Hide drops
+enum: ["Bronze javelin","Mithril javelin","Adamant javelin","Onyx bolts (e)","Mind rune","Fire rune","Lava rune","Blood rune","Soul rune"]
+*/
 #define VAR_VARDORVIS_ENUMLIST_FILTER_RUNESANDAMMUNITION []
 CONST_VARDORVIS_RULE (name:VAR_VARDORVIS_ENUMLIST_FILTER_RUNESANDAMMUNITION) {
   hidden = true;
 }
 
-// label:Tertiary
-// group:Hide drops
-// enum:["Temple key (Desert Treasure II)","Brimstone key","Clue scroll (easy)","Clue scroll (medium)","Clue scroll (hard)","Clue scroll (elite)","Ancient blood ornament kit","Butch"]
+
+/*@ define:
+type: stringlist
+label: Tertiary
+group: Hide drops
+enum: ["Temple key (Desert Treasure II)","Brimstone key","Clue scroll (easy)","Clue scroll (medium)","Clue scroll (hard)","Clue scroll (elite)","Ancient blood ornament kit","Butch"]
+*/
 #define VAR_VARDORVIS_ENUMLIST_FILTER_TERTIARY []
 CONST_VARDORVIS_RULE (name:VAR_VARDORVIS_ENUMLIST_FILTER_TERTIARY) {
   hidden = true;

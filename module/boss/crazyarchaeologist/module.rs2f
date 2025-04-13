@@ -1,66 +1,93 @@
-// module:Crazy archaeologist
+
+/*@ define:module:crazyarchaeologist
+name: Crazy archaeologist
+*/
 
 #define CONST_AREA_CRAZYARCHAEOLOGIST [2953,3679,0,2985,3708,0]
 #define CONST_CRAZYARCHAEOLOGIST_RULE(_cond) rule (area:CONST_AREA_CRAZYARCHAEOLOGIST && (_cond))
 
-// label:100%
-// group:Hide drops
-// enum:["Bones"]
+
+/*@ define:
+type: stringlist
+label: 100%
+group: Hide drops
+enum: ["Bones"]
+*/
 #define VAR_CRAZYARCHAEOLOGIST_ENUMLIST_FILTER_100 []
 CONST_CRAZYARCHAEOLOGIST_RULE (name:VAR_CRAZYARCHAEOLOGIST_ENUMLIST_FILTER_100) {
   hidden = true;
 }
 
-// label:Pre-roll
-// group:Hide drops
-// enum:["Odium shard 2","Malediction shard 2"]
+
+/*@ define:
+type: stringlist
+label: Pre-roll
+group: Hide drops
+enum: ["Odium shard 2","Malediction shard 2"]
+*/
 #define VAR_CRAZYARCHAEOLOGIST_ENUMLIST_FILTER_PREROLL []
 CONST_CRAZYARCHAEOLOGIST_RULE (name:VAR_CRAZYARCHAEOLOGIST_ENUMLIST_FILTER_PREROLL) {
   hidden = true;
 }
 
-// label:Weapons and armour
-// group:Hide drops
-// enum:["Amulet of power","Rune crossbow","Red d'hide body","Rune knife"]
+
+/*@ define:
+type: stringlist
+label: Weapons and armour
+group: Hide drops
+enum: ["Amulet of power","Rune crossbow","Red d'hide body","Rune knife"]
+*/
 #define VAR_CRAZYARCHAEOLOGIST_ENUMLIST_FILTER_WEAPONSANDARMOUR []
 CONST_CRAZYARCHAEOLOGIST_RULE (name:VAR_CRAZYARCHAEOLOGIST_ENUMLIST_FILTER_WEAPONSANDARMOUR) {
   hidden = true;
 }
 
-// label:Runes and ammunition
-// group:Hide drops
-// enum:["Mud rune","Cannonball","Dragon arrow"]
+
+/*@ define:
+type: stringlist
+label: Runes and ammunition
+group: Hide drops
+enum: ["Mud rune","Cannonball","Dragon arrow"]
+*/
 #define VAR_CRAZYARCHAEOLOGIST_ENUMLIST_FILTER_RUNESANDAMMUNITION []
 CONST_CRAZYARCHAEOLOGIST_RULE (name:VAR_CRAZYARCHAEOLOGIST_ENUMLIST_FILTER_RUNESANDAMMUNITION) {
   hidden = true;
 }
 
-// label:Consumables
-// group:Hide drops
-// enum:["Shark","Potato with cheese","Prayer potion(4)","Anchovy pizza"]
+
+/*@ define:
+type: stringlist
+label: Consumables
+group: Hide drops
+enum: ["Shark","Potato with cheese","Prayer potion(4)","Anchovy pizza"]
+*/
 #define VAR_CRAZYARCHAEOLOGIST_ENUMLIST_FILTER_CONSUMABLES []
 CONST_CRAZYARCHAEOLOGIST_RULE (name:VAR_CRAZYARCHAEOLOGIST_ENUMLIST_FILTER_CONSUMABLES) {
   hidden = true;
 }
 
-// label:Other
-// group:Hide drops
-// enum:["Coins","Grimy dwarf weed","White berries","Silver ore","Uncut emerald","Uncut sapphire","Red dragonhide","Rusty sword","Muddy key","Onyx bolt tips","Long bone"]
+
+/*@ define:
+type: stringlist
+label: Other
+group: Hide drops
+enum: ["Coins","Grimy dwarf weed","White berries","Silver ore","Uncut emerald","Uncut sapphire","Red dragonhide","Rusty sword","Muddy key","Onyx bolt tips","Long bone"]
+*/
 #define VAR_CRAZYARCHAEOLOGIST_ENUMLIST_FILTER_OTHER []
 CONST_CRAZYARCHAEOLOGIST_RULE (name:VAR_CRAZYARCHAEOLOGIST_ENUMLIST_FILTER_OTHER) {
   hidden = true;
 }
 
 
-
-// label:Tertiary
-// group:Hide drops
-// enum:["Looting bag","Brimstone key","Fedora"]
+/*@ define:
+type: stringlist
+label: Tertiary
+group: Hide drops
+enum: ["Looting bag","Brimstone key","Fedora"]
+*/
 #define VAR_CRAZYARCHAEOLOGIST_ENUMLIST_FILTER_TERTIARY []
 CONST_CRAZYARCHAEOLOGIST_RULE (name:VAR_CRAZYARCHAEOLOGIST_ENUMLIST_FILTER_TERTIARY) {
   hidden = true;
 }
-
-
 
 // endmodule:Crazy archaeologist

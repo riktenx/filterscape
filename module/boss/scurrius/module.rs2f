@@ -1,51 +1,78 @@
-// module:Scurrius
+
+/*@ define:module:scurrius
+name: Scurrius
+*/
 
 #define CONST_AREA_SCURRIUS [3285,9856,0,3310,9879,0]
 #define CONST_SCURRIUS_RULE(_cond) rule (area:CONST_AREA_SCURRIUS && (_cond))
 
-// label:100%
-// group:Hide drops
-// enum:["Big bones","Raw rat meat"]
+
+/*@ define:
+type: stringlist
+label: 100%
+group: Hide drops
+enum: ["Big bones","Raw rat meat"]
+*/
 #define VAR_SCURRIUS_ENUMLIST_FILTER_100 []
 CONST_SCURRIUS_RULE (name:VAR_SCURRIUS_ENUMLIST_FILTER_100) {
   hidden = true;
 }
 
-// label:Equipment
-// group:Hide drops
-// enum:["Adamant platebody","Rune med helm","Rune full helm","Rune sq shield","Rune chainbody","Rune battleaxe"]
+
+/*@ define:
+type: stringlist
+label: Equipment
+group: Hide drops
+enum: ["Adamant platebody","Rune med helm","Rune full helm","Rune sq shield","Rune chainbody","Rune battleaxe"]
+*/
 #define VAR_SCURRIUS_ENUMLIST_FILTER_EQUIPMENT []
 CONST_SCURRIUS_RULE (name:VAR_SCURRIUS_ENUMLIST_FILTER_EQUIPMENT) {
   hidden = true;
 }
 
-// label:Runes and ammunition
-// group:Hide drops
-// enum:["Adamant arrow","Rune arrow","Chaos rune","Death rune","Law rune"]
+
+/*@ define:
+type: stringlist
+label: Runes and ammunition
+group: Hide drops
+enum: ["Adamant arrow","Rune arrow","Chaos rune","Death rune","Law rune"]
+*/
 #define VAR_SCURRIUS_ENUMLIST_FILTER_RUNESANDAMMUNITION []
 CONST_SCURRIUS_RULE (name:VAR_SCURRIUS_ENUMLIST_FILTER_RUNESANDAMMUNITION) {
   hidden = true;
 }
 
-// label:Food and potions
-// group:Hide drops
-// enum:["Trout","Tuna","Shark","Lobster","Ranging potion(1)","Super strength(1)","Cheese","Prayer potion(4)"]
+
+/*@ define:
+type: stringlist
+label: Food and potions
+group: Hide drops
+enum: ["Trout","Tuna","Shark","Lobster","Ranging potion(1)","Super strength(1)","Cheese","Prayer potion(4)"]
+*/
 #define VAR_SCURRIUS_ENUMLIST_FILTER_FOODANDPOTIONS []
 CONST_SCURRIUS_RULE (name:VAR_SCURRIUS_ENUMLIST_FILTER_FOODANDPOTIONS) {
   hidden = true;
 }
 
-// label:Other
-// group:Hide drops
-// enum:["Coins","Scurrius' spine"]
+
+/*@ define:
+type: stringlist
+label: Other
+group: Hide drops
+enum: ["Coins","Scurrius' spine"]
+*/
 #define VAR_SCURRIUS_ENUMLIST_FILTER_OTHER []
 CONST_SCURRIUS_RULE (name:VAR_SCURRIUS_ENUMLIST_FILTER_OTHER) {
   hidden = true;
 }
 
-// label:Tertiary drops
-// group:Hide drops
-// enum:["Scurrius' spine","Long bone","Curved bone","Scurry"]
+
+/*@ define:
+type: stringlist
+label: Tertiary drops
+group: Hide drops
+enum: ["Scurrius' spine","Long bone","Curved bone","Scurry"]
+*/
 #define VAR_SCURRIUS_ENUMLIST_FILTER_TERTIARYDROPS []
 CONST_SCURRIUS_RULE (name:VAR_SCURRIUS_ENUMLIST_FILTER_TERTIARYDROPS) {
   hidden = true;

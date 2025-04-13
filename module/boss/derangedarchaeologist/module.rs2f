@@ -1,63 +1,90 @@
-// module:Deranged archaeologist
+
+/*@ define:module:derangedarchaeologist
+name: Deranged archaeologist
+*/
 
 #define CONST_AREA_DERANGEDARCHAEOLOGIST [3669,3694,0,3698,3722,0]
 #define CONST_DERANGEDARCHAEOLOGIST_RULE(_cond) rule (area:CONST_AREA_DERANGEDARCHAEOLOGIST && (_cond))
 
-// label:100%
-// group:Hide drops
-// enum:["Bones"]
+
+/*@ define:
+type: stringlist
+label: 100%
+group: Hide drops
+enum: ["Bones"]
+*/
 #define VAR_DERANGEDARCHAEOLOGIST_ENUMLIST_FILTER_100 []
 CONST_DERANGEDARCHAEOLOGIST_RULE (name:VAR_DERANGEDARCHAEOLOGIST_ENUMLIST_FILTER_100) {
   hidden = true;
 }
 
-// label:Weapons and armour
-// group:Hide drops
-// enum:["Black d'hide body","Rune 2h sword","Rune sword"]
+
+/*@ define:
+type: stringlist
+label: Weapons and armour
+group: Hide drops
+enum: ["Black d'hide body","Rune 2h sword","Rune sword"]
+*/
 #define VAR_DERANGEDARCHAEOLOGIST_ENUMLIST_FILTER_WEAPONSANDARMOUR []
 CONST_DERANGEDARCHAEOLOGIST_RULE (name:VAR_DERANGEDARCHAEOLOGIST_ENUMLIST_FILTER_WEAPONSANDARMOUR) {
   hidden = true;
 }
 
-// label:Runes and ammunition
-// group:Hide drops
-// enum:["Water rune","Mud rune","Rune knife","Dragon arrow","Cannonball"]
+
+/*@ define:
+type: stringlist
+label: Runes and ammunition
+group: Hide drops
+enum: ["Water rune","Mud rune","Rune knife","Dragon arrow","Cannonball"]
+*/
 #define VAR_DERANGEDARCHAEOLOGIST_ENUMLIST_FILTER_RUNESANDAMMUNITION []
 CONST_DERANGEDARCHAEOLOGIST_RULE (name:VAR_DERANGEDARCHAEOLOGIST_ENUMLIST_FILTER_RUNESANDAMMUNITION) {
   hidden = true;
 }
 
 
-
-// label:Materials
-// group:Hide drops
-// enum:["Grimy dwarf weed","White berries","Runite limbs","Black dragonhide","Gold ore","Uncut diamond","Onyx bolt tips"]
+/*@ define:
+type: stringlist
+label: Materials
+group: Hide drops
+enum: ["Grimy dwarf weed","White berries","Runite limbs","Black dragonhide","Gold ore","Uncut diamond","Onyx bolt tips"]
+*/
 #define VAR_DERANGEDARCHAEOLOGIST_ENUMLIST_FILTER_MATERIALS []
 CONST_DERANGEDARCHAEOLOGIST_RULE (name:VAR_DERANGEDARCHAEOLOGIST_ENUMLIST_FILTER_MATERIALS) {
   hidden = true;
 }
 
-// label:Consumables
-// group:Hide drops
-// enum:["Anchovy pizza","Prayer potion(3)","Potato with cheese","Shark"]
+
+/*@ define:
+type: stringlist
+label: Consumables
+group: Hide drops
+enum: ["Anchovy pizza","Prayer potion(3)","Potato with cheese","Shark"]
+*/
 #define VAR_DERANGEDARCHAEOLOGIST_ENUMLIST_FILTER_CONSUMABLES []
 CONST_DERANGEDARCHAEOLOGIST_RULE (name:VAR_DERANGEDARCHAEOLOGIST_ENUMLIST_FILTER_CONSUMABLES) {
   hidden = true;
 }
 
-// label:Other
-// group:Hide drops
-// enum:["Crystal key","Long bone"]
+
+/*@ define:
+type: stringlist
+label: Other
+group: Hide drops
+enum: ["Crystal key","Long bone"]
+*/
 #define VAR_DERANGEDARCHAEOLOGIST_ENUMLIST_FILTER_OTHER []
 CONST_DERANGEDARCHAEOLOGIST_RULE (name:VAR_DERANGEDARCHAEOLOGIST_ENUMLIST_FILTER_OTHER) {
   hidden = true;
 }
 
 
-
-// label:Tertiary
-// group:Hide drops
-// enum:["Brimstone key"]
+/*@ define:
+type: stringlist
+label: Tertiary
+group: Hide drops
+enum: ["Brimstone key"]
+*/
 #define VAR_DERANGEDARCHAEOLOGIST_ENUMLIST_FILTER_TERTIARY []
 CONST_DERANGEDARCHAEOLOGIST_RULE (name:VAR_DERANGEDARCHAEOLOGIST_ENUMLIST_FILTER_TERTIARY) {
   hidden = true;

@@ -1,4 +1,7 @@
-// module:Kree'arra
+
+/*@ define:module:kreearra
+name: Kree'arra
+*/
 
 
 // group:General
@@ -13,62 +16,84 @@ CONST_KREEARRA_RULE (VAR_KREEARRA_BOOLEAN_GENERAL_BGHIDECOINS && name:"coins" &&
 #define CONST_KREEARRA_RULE(_cond) rule (area:CONST_AREA_KREEARRA && (_cond))
 
 
-
-// label:100%
-// group:Hide drops
-// enum:["Big bones","Feather","Frozen key piece (armadyl)","Bones"]
+/*@ define:
+type: stringlist
+label: 100%
+group: Hide drops
+enum: ["Big bones","Feather","Frozen key piece (armadyl)","Bones"]
+*/
 #define VAR_KREEARRA_ENUMLIST_FILTER_100 ["Big bones","Feather","Bones"]
 CONST_KREEARRA_RULE (name:VAR_KREEARRA_ENUMLIST_FILTER_100) {
   hidden = true;
 }
 
-// label:Weapons and armour
-// group:Hide drops
-// enum:["Black d'hide body","Rune crossbow"]
+
+/*@ define:
+type: stringlist
+label: Weapons and armour
+group: Hide drops
+enum: ["Black d'hide body","Rune crossbow"]
+*/
 #define VAR_KREEARRA_ENUMLIST_FILTER_WEAPONSANDARMOUR []
 CONST_KREEARRA_RULE (name:VAR_KREEARRA_ENUMLIST_FILTER_WEAPONSANDARMOUR) {
   hidden = true;
 }
 
-// label:Runes and ammunition
-// group:Hide drops
-// enum:["Mind rune","Rune arrow","Runite bolts","Dragonstone bolts (e)"]
+
+/*@ define:
+type: stringlist
+label: Runes and ammunition
+group: Hide drops
+enum: ["Mind rune","Rune arrow","Runite bolts","Dragonstone bolts (e)"]
+*/
 #define VAR_KREEARRA_ENUMLIST_FILTER_RUNESANDAMMUNITION []
 CONST_KREEARRA_RULE (name:VAR_KREEARRA_ENUMLIST_FILTER_RUNESANDAMMUNITION) {
   hidden = true;
 }
 
-// label:Other
-// group:Hide drops
-// enum:["Coins","Ranging potion(3)","Super defence(3)","Grimy dwarf weed","Dwarf weed seed","Crystal key","Yew seed"]
+
+/*@ define:
+type: stringlist
+label: Other
+group: Hide drops
+enum: ["Coins","Ranging potion(3)","Super defence(3)","Grimy dwarf weed","Dwarf weed seed","Crystal key","Yew seed"]
+*/
 #define VAR_KREEARRA_ENUMLIST_FILTER_OTHER []
 CONST_KREEARRA_RULE (name:VAR_KREEARRA_ENUMLIST_FILTER_OTHER) {
   hidden = true;
 }
 
 
-
-// label:Tertiary
-// group:Hide drops
-// enum:["Brimstone key","Long bone","Pet kree'arra","Curved bone","Frozen key piece (armadyl)"]
+/*@ define:
+type: stringlist
+label: Tertiary
+group: Hide drops
+enum: ["Brimstone key","Long bone","Pet kree'arra","Curved bone","Frozen key piece (armadyl)"]
+*/
 #define VAR_KREEARRA_ENUMLIST_FILTER_TERTIARY []
 CONST_KREEARRA_RULE (name:VAR_KREEARRA_ENUMLIST_FILTER_TERTIARY) {
   hidden = true;
 }
 
 
-
-// label:Food and ammunition
-// group:Hide drops
-// enum:["Steel arrow","Steel dart","Smoke rune","Manta ray","Mushroom potato"]
+/*@ define:
+type: stringlist
+label: Food and ammunition
+group: Hide drops
+enum: ["Steel arrow","Steel dart","Smoke rune","Manta ray","Mushroom potato"]
+*/
 #define VAR_KREEARRA_ENUMLIST_FILTER_FOODANDAMMUNITION ["Steel arrow","Steel dart","Smoke rune"]
 CONST_KREEARRA_RULE (name:VAR_KREEARRA_ENUMLIST_FILTER_FOODANDAMMUNITION) {
   hidden = true;
 }
 
-// label:Other
-// group:Hide drops
-// enum:["Coins","Crushed nest","Grimy kwuarm"]
+
+/*@ define:
+type: stringlist
+label: Other
+group: Hide drops
+enum: ["Coins","Crushed nest","Grimy kwuarm"]
+*/
 #define VAR_KREEARRA_ENUMLIST_FILTER_OTHER []
 CONST_KREEARRA_RULE (name:VAR_KREEARRA_ENUMLIST_FILTER_OTHER) {
   hidden = true;

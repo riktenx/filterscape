@@ -1,55 +1,78 @@
-// module:The Leviathan
+
+/*@ define:module:theleviathan
+name: The Leviathan
+*/
 
 #define CONST_AREA_THELEVIATHAN [2053,6390,0,2110,6355,0]
 #define CONST_THELEVIATHAN_RULE(_cond) rule (area:CONST_AREA_THELEVIATHAN && (_cond))
 
 
-
-
-
-// label:Uniques
-// group:Hide drops
-// enum:["Venator vestige","Chromium ingot","Leviathan's lure","Virtus mask","Virtus robe top","Virtus robe bottom"]
+/*@ define:
+type: stringlist
+label: Uniques
+group: Hide drops
+enum: ["Venator vestige","Chromium ingot","Leviathan's lure","Virtus mask","Virtus robe top","Virtus robe bottom"]
+*/
 #define VAR_THELEVIATHAN_ENUMLIST_FILTER_UNIQUES []
 CONST_THELEVIATHAN_RULE (name:VAR_THELEVIATHAN_ENUMLIST_FILTER_UNIQUES) {
   hidden = true;
 }
 
-// label:Secondary uniques
-// group:Hide drops
-// enum:["Scarred tablet","Awakener's orb","Smoke quartz"]
+
+/*@ define:
+type: stringlist
+label: Secondary uniques
+group: Hide drops
+enum: ["Scarred tablet","Awakener's orb","Smoke quartz"]
+*/
 #define VAR_THELEVIATHAN_ENUMLIST_FILTER_SECONDARYUNIQUES []
 CONST_THELEVIATHAN_RULE (name:VAR_THELEVIATHAN_ENUMLIST_FILTER_SECONDARYUNIQUES) {
   hidden = true;
 }
 
-// label:Supplies
-// group:Hide drops
-// enum:["Prayer potion(3)","Ranging potion(2)","Sea turtle"]
+
+/*@ define:
+type: stringlist
+label: Supplies
+group: Hide drops
+enum: ["Prayer potion(3)","Ranging potion(2)","Sea turtle"]
+*/
 #define VAR_THELEVIATHAN_ENUMLIST_FILTER_SUPPLIES []
 CONST_THELEVIATHAN_RULE (name:VAR_THELEVIATHAN_ENUMLIST_FILTER_SUPPLIES) {
   hidden = true;
 }
 
-// label:Resources
-// group:Hide drops
-// enum:["Pure essence","Iron ore","Silver ore","Coal","Gold ore","Adamantite ore","Runite ore","Sapphire","Emerald","Ruby","Uncut ruby","Uncut diamond","Dragon javelin heads","Dragon bolts (unf)","Onyx bolt tips","Raw manta ray","Anglerfish"]
+
+/*@ define:
+type: stringlist
+label: Resources
+group: Hide drops
+enum: ["Pure essence","Iron ore","Silver ore","Coal","Gold ore","Adamantite ore","Runite ore","Sapphire","Emerald","Ruby","Uncut ruby","Uncut diamond","Dragon javelin heads","Dragon bolts (unf)","Onyx bolt tips","Raw manta ray","Anglerfish"]
+*/
 #define VAR_THELEVIATHAN_ENUMLIST_FILTER_RESOURCES []
 CONST_THELEVIATHAN_RULE (name:VAR_THELEVIATHAN_ENUMLIST_FILTER_RESOURCES) {
   hidden = true;
 }
 
-// label:Runes and ammunition
-// group:Hide drops
-// enum:["Bronze arrow","Mithril arrow","Adamant arrow","Rune arrow","Body rune","Earth rune","Smoke rune","Soul rune"]
+
+/*@ define:
+type: stringlist
+label: Runes and ammunition
+group: Hide drops
+enum: ["Bronze arrow","Mithril arrow","Adamant arrow","Rune arrow","Body rune","Earth rune","Smoke rune","Soul rune"]
+*/
 #define VAR_THELEVIATHAN_ENUMLIST_FILTER_RUNESANDAMMUNITION []
 CONST_THELEVIATHAN_RULE (name:VAR_THELEVIATHAN_ENUMLIST_FILTER_RUNESANDAMMUNITION) {
   hidden = true;
 }
 
-// label:Tertiary
-// group:Hide drops
-// enum:["Brimstone key","Clue scroll (easy)","Clue scroll (medium)","Clue scroll (hard)","Clue scroll (elite)","Lil'viathan","Ancient blood ornament kit"]
+
+/*@ define:
+type: stringlist
+label: Tertiary
+group: Hide drops
+enum: ["Brimstone key","Clue scroll (easy)","Clue scroll (medium)","Clue scroll (hard)","Clue scroll (elite)","Lil'viathan","Ancient blood ornament kit"]
+*/
 #define VAR_THELEVIATHAN_ENUMLIST_FILTER_TERTIARY []
 CONST_THELEVIATHAN_RULE (name:VAR_THELEVIATHAN_ENUMLIST_FILTER_TERTIARY) {
   hidden = true;

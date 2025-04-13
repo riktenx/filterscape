@@ -1,47 +1,66 @@
-// module:Corporeal Beast
+
+/*@ define:module:corporealbeast
+name: Corporeal Beast
+*/
 
 #define CONST_AREA_CORPOREALBEAST [2961,4366,0,3001,4399,0]
 #define CONST_CORPOREALBEAST_RULE(_cond) rule (area:CONST_AREA_CORPOREALBEAST && (_cond))
 
 
-
-// label:Weapons and armour
-// group:Hide drops
-// enum:["Mystic robe top","Mystic robe bottom","Mystic air staff","Mystic water staff","Mystic earth staff","Mystic fire staff","Spirit shield"]
+/*@ define:
+type: stringlist
+label: Weapons and armour
+group: Hide drops
+enum: ["Mystic robe top","Mystic robe bottom","Mystic air staff","Mystic water staff","Mystic earth staff","Mystic fire staff","Spirit shield"]
+*/
 #define VAR_CORPOREALBEAST_ENUMLIST_FILTER_WEAPONSANDARMOUR []
 CONST_CORPOREALBEAST_RULE (name:VAR_CORPOREALBEAST_ENUMLIST_FILTER_WEAPONSANDARMOUR) {
   hidden = true;
 }
 
-// label:Runes and ammunition
-// group:Hide drops
-// enum:["Soul rune","Runite bolts","Death rune","Onyx bolts (e)","Cannonball","Adamant arrow","Law rune","Cosmic rune"]
+
+/*@ define:
+type: stringlist
+label: Runes and ammunition
+group: Hide drops
+enum: ["Soul rune","Runite bolts","Death rune","Onyx bolts (e)","Cannonball","Adamant arrow","Law rune","Cosmic rune"]
+*/
 #define VAR_CORPOREALBEAST_ENUMLIST_FILTER_RUNESANDAMMUNITION []
 CONST_CORPOREALBEAST_RULE (name:VAR_CORPOREALBEAST_ENUMLIST_FILTER_RUNESANDAMMUNITION) {
   hidden = true;
 }
 
-// label:Resources
-// group:Hide drops
-// enum:["Raw shark","Pure essence","Adamantite bar","Green dragonhide","Adamantite ore","Runite ore","Teak plank","Mahogany logs","Magic logs"]
+
+/*@ define:
+type: stringlist
+label: Resources
+group: Hide drops
+enum: ["Raw shark","Pure essence","Adamantite bar","Green dragonhide","Adamantite ore","Runite ore","Teak plank","Mahogany logs","Magic logs"]
+*/
 #define VAR_CORPOREALBEAST_ENUMLIST_FILTER_RESOURCES []
 CONST_CORPOREALBEAST_RULE (name:VAR_CORPOREALBEAST_ENUMLIST_FILTER_RESOURCES) {
   hidden = true;
 }
 
-// label:Other
-// group:Hide drops
-// enum:["Tuna potato","White berries","Desert goat horn","Watermelon seed","Coins","Antidote++(4)","Ranarr seed","Holy elixir"]
+
+/*@ define:
+type: stringlist
+label: Other
+group: Hide drops
+enum: ["Tuna potato","White berries","Desert goat horn","Watermelon seed","Coins","Antidote++(4)","Ranarr seed","Holy elixir"]
+*/
 #define VAR_CORPOREALBEAST_ENUMLIST_FILTER_OTHER []
 CONST_CORPOREALBEAST_RULE (name:VAR_CORPOREALBEAST_ENUMLIST_FILTER_OTHER) {
   hidden = true;
 }
 
 
-
-// label:Tertiary
-// group:Hide drops
-// enum:["Jar of spirits","Pet dark core"]
+/*@ define:
+type: stringlist
+label: Tertiary
+group: Hide drops
+enum: ["Jar of spirits","Pet dark core"]
+*/
 #define VAR_CORPOREALBEAST_ENUMLIST_FILTER_TERTIARY []
 CONST_CORPOREALBEAST_RULE (name:VAR_CORPOREALBEAST_ENUMLIST_FILTER_TERTIARY) {
   hidden = true;

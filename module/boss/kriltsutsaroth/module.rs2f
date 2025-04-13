@@ -1,55 +1,78 @@
-// module:K'ril Tsutsaroth
+
+/*@ define:module:kriltsutsaroth
+name: K'ril Tsutsaroth
+*/
 
 #define CONST_AREA_KRILTSUTSAROTH [2917,5317,2,2937,5332,2]
 #define CONST_KRILTSUTSAROTH_RULE(_cond) rule (area:CONST_AREA_KRILTSUTSAROTH && (_cond))
 
 
-
-// label:100%
-// group:Hide drops
-// enum:["Infernal ashes","Frozen key piece (zamorak)"]
+/*@ define:
+type: stringlist
+label: 100%
+group: Hide drops
+enum: ["Infernal ashes","Frozen key piece (zamorak)"]
+*/
 #define VAR_KRILTSUTSAROTH_ENUMLIST_FILTER_100 []
 CONST_KRILTSUTSAROTH_RULE (name:VAR_KRILTSUTSAROTH_ENUMLIST_FILTER_100) {
   hidden = true;
 }
 
-// label:Uniques
-// group:Hide drops
-// enum:["Steam battlestaff","Zamorakian spear","Staff of the dead","Zamorak hilt","Godsword shard 1","Godsword shard 2","Godsword shard 3"]
+
+/*@ define:
+type: stringlist
+label: Uniques
+group: Hide drops
+enum: ["Steam battlestaff","Zamorakian spear","Staff of the dead","Zamorak hilt","Godsword shard 1","Godsword shard 2","Godsword shard 3"]
+*/
 #define VAR_KRILTSUTSAROTH_ENUMLIST_FILTER_UNIQUES []
 CONST_KRILTSUTSAROTH_RULE (name:VAR_KRILTSUTSAROTH_ENUMLIST_FILTER_UNIQUES) {
   hidden = true;
 }
 
-// label:Weapons and armour
-// group:Hide drops
-// enum:["Adamant arrow(p++)","Rune scimitar","Adamant platebody","Rune platelegs","Dragon dagger(p++)"]
+
+/*@ define:
+type: stringlist
+label: Weapons and armour
+group: Hide drops
+enum: ["Adamant arrow(p++)","Rune scimitar","Adamant platebody","Rune platelegs","Dragon dagger(p++)"]
+*/
 #define VAR_KRILTSUTSAROTH_ENUMLIST_FILTER_WEAPONSANDARMOUR []
 CONST_KRILTSUTSAROTH_RULE (name:VAR_KRILTSUTSAROTH_ENUMLIST_FILTER_WEAPONSANDARMOUR) {
   hidden = true;
 }
 
-// label:Potions
-// group:Hide drops
-// enum:["Super attack(3)","Super strength(3)","Super restore(3)","Zamorak brew(3)"]
+
+/*@ define:
+type: stringlist
+label: Potions
+group: Hide drops
+enum: ["Super attack(3)","Super strength(3)","Super restore(3)","Zamorak brew(3)"]
+*/
 #define VAR_KRILTSUTSAROTH_ENUMLIST_FILTER_POTIONS []
 CONST_KRILTSUTSAROTH_RULE (name:VAR_KRILTSUTSAROTH_ENUMLIST_FILTER_POTIONS) {
   hidden = true;
 }
 
-// label:Other
-// group:Hide drops
-// enum:["Coins","Grimy lantadyme","Lantadyme seed","Death rune","Blood rune"]
+
+/*@ define:
+type: stringlist
+label: Other
+group: Hide drops
+enum: ["Coins","Grimy lantadyme","Lantadyme seed","Death rune","Blood rune"]
+*/
 #define VAR_KRILTSUTSAROTH_ENUMLIST_FILTER_OTHER []
 CONST_KRILTSUTSAROTH_RULE (name:VAR_KRILTSUTSAROTH_ENUMLIST_FILTER_OTHER) {
   hidden = true;
 }
 
 
-
-// label:Tertiary
-// group:Hide drops
-// enum:["Brimstone key","Pet k'ril tsutsaroth"]
+/*@ define:
+type: stringlist
+label: Tertiary
+group: Hide drops
+enum: ["Brimstone key","Pet k'ril tsutsaroth"]
+*/
 #define VAR_KRILTSUTSAROTH_ENUMLIST_FILTER_TERTIARY []
 CONST_KRILTSUTSAROTH_RULE (name:VAR_KRILTSUTSAROTH_ENUMLIST_FILTER_TERTIARY) {
   hidden = true;

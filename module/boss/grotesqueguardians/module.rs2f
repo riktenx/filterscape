@@ -1,59 +1,90 @@
-// module:Grotesque Guardians
+
+/*@ define:module:grotesqueguardians
+name: Grotesque Guardians
+*/
 
 #define CONST_AREA_GROTESQUEGUARDIANS [1664,4544,0,1727,4607,0]
 #define CONST_GROTESQUEGUARDIANS_RULE(_cond) rule (area:CONST_AREA_GROTESQUEGUARDIANS && (_cond))
 
-// label:100%
-// group:Hide drops
-// enum:["Granite dust"]
+
+/*@ define:
+type: stringlist
+label: 100%
+group: Hide drops
+enum: ["Granite dust"]
+*/
 #define VAR_GROTESQUEGUARDIANS_ENUMLIST_FILTER_100 []
 CONST_GROTESQUEGUARDIANS_RULE (name:VAR_GROTESQUEGUARDIANS_ENUMLIST_FILTER_100) {
   hidden = true;
 }
 
-// label:Unique
-// group:Hide drops
-// enum:["Granite maul","Granite gloves","Granite ring","Granite hammer","Black tourmaline core"]
+
+/*@ define:
+type: stringlist
+label: Unique
+group: Hide drops
+enum: ["Granite maul","Granite gloves","Granite ring","Granite hammer","Black tourmaline core"]
+*/
 #define VAR_GROTESQUEGUARDIANS_ENUMLIST_FILTER_UNIQUE []
 CONST_GROTESQUEGUARDIANS_RULE (name:VAR_GROTESQUEGUARDIANS_ENUMLIST_FILTER_UNIQUE) {
   hidden = true;
 }
 
-// label:Weapons and armour
-// group:Hide drops
-// enum:["Rune pickaxe","Rune full helm","Rune platelegs","Rune 2h sword","Rune battleaxe","Dragon longsword","Adamant boots","Dragon med helm"]
+
+/*@ define:
+type: stringlist
+label: Weapons and armour
+group: Hide drops
+enum: ["Rune pickaxe","Rune full helm","Rune platelegs","Rune 2h sword","Rune battleaxe","Dragon longsword","Adamant boots","Dragon med helm"]
+*/
 #define VAR_GROTESQUEGUARDIANS_ENUMLIST_FILTER_WEAPONSANDARMOUR []
 CONST_GROTESQUEGUARDIANS_RULE (name:VAR_GROTESQUEGUARDIANS_ENUMLIST_FILTER_WEAPONSANDARMOUR) {
   hidden = true;
 }
 
-// label:Supply Drop
-// group:Hide drops
-// enum:["Mushroom potato","Saradomin brew(4)","Magic potion(2)","Ranging potion(2)","Super combat potion(2)","Prayer potion(4)"]
+
+/*@ define:
+type: stringlist
+label: Supply Drop
+group: Hide drops
+enum: ["Mushroom potato","Saradomin brew(4)","Magic potion(2)","Ranging potion(2)","Super combat potion(2)","Prayer potion(4)"]
+*/
 #define VAR_GROTESQUEGUARDIANS_ENUMLIST_FILTER_SUPPLYDROP []
 CONST_GROTESQUEGUARDIANS_RULE (name:VAR_GROTESQUEGUARDIANS_ENUMLIST_FILTER_SUPPLYDROP) {
   hidden = true;
 }
 
-// label:Resources
-// group:Hide drops
-// enum:["Gold ore","Adamantite bar","Coal","Gold bar","Mithril bar","Runite ore","Runite bar"]
+
+/*@ define:
+type: stringlist
+label: Resources
+group: Hide drops
+enum: ["Gold ore","Adamantite bar","Coal","Gold bar","Mithril bar","Runite ore","Runite bar"]
+*/
 #define VAR_GROTESQUEGUARDIANS_ENUMLIST_FILTER_RESOURCES []
 CONST_GROTESQUEGUARDIANS_RULE (name:VAR_GROTESQUEGUARDIANS_ENUMLIST_FILTER_RESOURCES) {
   hidden = true;
 }
 
-// label:Other
-// group:Hide drops
-// enum:["Coins","Chaos rune","Crystal key","Death rune","Dragon dart tip","Diamond bolt tips","Dragonstone bolt tips","Onyx bolt tips","Dragon arrowtips"]
+
+/*@ define:
+type: stringlist
+label: Other
+group: Hide drops
+enum: ["Coins","Chaos rune","Crystal key","Death rune","Dragon dart tip","Diamond bolt tips","Dragonstone bolt tips","Onyx bolt tips","Dragon arrowtips"]
+*/
 #define VAR_GROTESQUEGUARDIANS_ENUMLIST_FILTER_OTHER []
 CONST_GROTESQUEGUARDIANS_RULE (name:VAR_GROTESQUEGUARDIANS_ENUMLIST_FILTER_OTHER) {
   hidden = true;
 }
 
-// label:Tertiary
-// group:Hide drops
-// enum:["Brimstone key","Noon","Jar of stone"]
+
+/*@ define:
+type: stringlist
+label: Tertiary
+group: Hide drops
+enum: ["Brimstone key","Noon","Jar of stone"]
+*/
 #define VAR_GROTESQUEGUARDIANS_ENUMLIST_FILTER_TERTIARY []
 CONST_GROTESQUEGUARDIANS_RULE (name:VAR_GROTESQUEGUARDIANS_ENUMLIST_FILTER_TERTIARY) {
   hidden = true;

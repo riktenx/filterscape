@@ -1,74 +1,105 @@
-// module:Kalphite Queen
+
+/*@ define:module:kalphitequeen
+name: Kalphite Queen
+*/
 
 #define CONST_AREA_KALPHITEQUEEN [3456,9472,0,3519,9535,0]
 #define CONST_KALPHITEQUEEN_RULE(_cond) rule (area:CONST_AREA_KALPHITEQUEEN && (_cond))
 
-// label:Consumables
-// group:Hide drops
-// enum:["Monkfish","Shark","Dark crab","Saradomin brew(4)","Prayer potion(4)","Super restore(4)","Super combat potion(2)","Ranging potion(3)","Superantipoison(2)"]
+
+/*@ define:
+type: stringlist
+label: Consumables
+group: Hide drops
+enum: ["Monkfish","Shark","Dark crab","Saradomin brew(4)","Prayer potion(4)","Super restore(4)","Super combat potion(2)","Ranging potion(3)","Superantipoison(2)"]
+*/
 #define VAR_KALPHITEQUEEN_ENUMLIST_FILTER_CONSUMABLES []
 CONST_KALPHITEQUEEN_RULE (name:VAR_KALPHITEQUEEN_ENUMLIST_FILTER_CONSUMABLES) {
   hidden = true;
 }
 
-// label:Weapons and armour
-// group:Hide drops
-// enum:["Battlestaff","Rune chainbody","Red d'hide body","Rune knife(p++)","Lava battlestaff"]
+
+/*@ define:
+type: stringlist
+label: Weapons and armour
+group: Hide drops
+enum: ["Battlestaff","Rune chainbody","Red d'hide body","Rune knife(p++)","Lava battlestaff"]
+*/
 #define VAR_KALPHITEQUEEN_ENUMLIST_FILTER_WEAPONSANDARMOUR []
 CONST_KALPHITEQUEEN_RULE (name:VAR_KALPHITEQUEEN_ENUMLIST_FILTER_WEAPONSANDARMOUR) {
   hidden = true;
 }
 
-// label:Runes and ammunition
-// group:Hide drops
-// enum:["Death rune","Blood rune","Mithril arrow","Rune arrow"]
+
+/*@ define:
+type: stringlist
+label: Runes and ammunition
+group: Hide drops
+enum: ["Death rune","Blood rune","Mithril arrow","Rune arrow"]
+*/
 #define VAR_KALPHITEQUEEN_ENUMLIST_FILTER_RUNESANDAMMUNITION []
 CONST_KALPHITEQUEEN_RULE (name:VAR_KALPHITEQUEEN_ENUMLIST_FILTER_RUNESANDAMMUNITION) {
   hidden = true;
 }
 
-// label:Herbs
-// group:Hide drops
-// enum:["Grimy toadflax","Grimy ranarr weed","Grimy snapdragon","Grimy torstol"]
+
+/*@ define:
+type: stringlist
+label: Herbs
+group: Hide drops
+enum: ["Grimy toadflax","Grimy ranarr weed","Grimy snapdragon","Grimy torstol"]
+*/
 #define VAR_KALPHITEQUEEN_ENUMLIST_FILTER_HERBS []
 CONST_KALPHITEQUEEN_RULE (name:VAR_KALPHITEQUEEN_ENUMLIST_FILTER_HERBS) {
   hidden = true;
 }
 
-// label:Seeds
-// group:Hide drops
-// enum:["Torstol seed","Watermelon seed","Papaya tree seed","Palm tree seed","Magic seed"]
+
+/*@ define:
+type: stringlist
+label: Seeds
+group: Hide drops
+enum: ["Torstol seed","Watermelon seed","Papaya tree seed","Palm tree seed","Magic seed"]
+*/
 #define VAR_KALPHITEQUEEN_ENUMLIST_FILTER_SEEDS []
 CONST_KALPHITEQUEEN_RULE (name:VAR_KALPHITEQUEEN_ENUMLIST_FILTER_SEEDS) {
   hidden = true;
 }
 
-// label:Resources
-// group:Hide drops
-// enum:["Runite bar","Bucket of sand","Gold ore","Magic logs","Uncut emerald","Uncut ruby","Uncut diamond"]
+
+/*@ define:
+type: stringlist
+label: Resources
+group: Hide drops
+enum: ["Runite bar","Bucket of sand","Gold ore","Magic logs","Uncut emerald","Uncut ruby","Uncut diamond"]
+*/
 #define VAR_KALPHITEQUEEN_ENUMLIST_FILTER_RESOURCES []
 CONST_KALPHITEQUEEN_RULE (name:VAR_KALPHITEQUEEN_ENUMLIST_FILTER_RESOURCES) {
   hidden = true;
 }
 
-// label:Other
-// group:Hide drops
-// enum:["Wine of zamorak","Potato cactus","Coins","Grapes","Weapon poison(++)","Cactus spine"]
+
+/*@ define:
+type: stringlist
+label: Other
+group: Hide drops
+enum: ["Wine of zamorak","Potato cactus","Coins","Grapes","Weapon poison(++)","Cactus spine"]
+*/
 #define VAR_KALPHITEQUEEN_ENUMLIST_FILTER_OTHER []
 CONST_KALPHITEQUEEN_RULE (name:VAR_KALPHITEQUEEN_ENUMLIST_FILTER_OTHER) {
   hidden = true;
 }
 
 
-
-// label:Tertiary
-// group:Hide drops
-// enum:["Kq head (tattered)","Ensouled kalphite head","Brimstone key","Kq head","Dragon chainbody","Dragon 2h sword","Dragon pickaxe","Jar of sand","Kalphite princess"]
+/*@ define:
+type: stringlist
+label: Tertiary
+group: Hide drops
+enum: ["Kq head (tattered)","Ensouled kalphite head","Brimstone key","Kq head","Dragon chainbody","Dragon 2h sword","Dragon pickaxe","Jar of sand","Kalphite princess"]
+*/
 #define VAR_KALPHITEQUEEN_ENUMLIST_FILTER_TERTIARY []
 CONST_KALPHITEQUEEN_RULE (name:VAR_KALPHITEQUEEN_ENUMLIST_FILTER_TERTIARY) {
   hidden = true;
 }
-
-
 
 // endmodule:Kalphite Queen

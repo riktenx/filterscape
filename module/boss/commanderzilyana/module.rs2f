@@ -1,55 +1,78 @@
-// module:Commander Zilyana
+
+/*@ define:module:commanderzilyana
+name: Commander Zilyana
+*/
 
 #define CONST_AREA_COMMANDERZILYANA [2888,5257,0,2908,5276,0]
 #define CONST_COMMANDERZILYANA_RULE(_cond) rule (area:CONST_AREA_COMMANDERZILYANA && (_cond))
 
 
-
-// label:100%
-// group:Hide drops
-// enum:["Bones","Frozen key piece (saradomin)"]
+/*@ define:
+type: stringlist
+label: 100%
+group: Hide drops
+enum: ["Bones","Frozen key piece (saradomin)"]
+*/
 #define VAR_COMMANDERZILYANA_ENUMLIST_FILTER_100 []
 CONST_COMMANDERZILYANA_RULE (name:VAR_COMMANDERZILYANA_ENUMLIST_FILTER_100) {
   hidden = true;
 }
 
-// label:Uniques
-// group:Hide drops
-// enum:["Saradomin sword","Saradomin's light","Armadyl crossbow","Saradomin hilt","Godsword shard 1","Godsword shard 2","Godsword shard 3"]
+
+/*@ define:
+type: stringlist
+label: Uniques
+group: Hide drops
+enum: ["Saradomin sword","Saradomin's light","Armadyl crossbow","Saradomin hilt","Godsword shard 1","Godsword shard 2","Godsword shard 3"]
+*/
 #define VAR_COMMANDERZILYANA_ENUMLIST_FILTER_UNIQUES []
 CONST_COMMANDERZILYANA_RULE (name:VAR_COMMANDERZILYANA_ENUMLIST_FILTER_UNIQUES) {
   hidden = true;
 }
 
-// label:Weapons and armour
-// group:Hide drops
-// enum:["Adamant platebody","Rune dart","Rune kiteshield","Rune plateskirt"]
+
+/*@ define:
+type: stringlist
+label: Weapons and armour
+group: Hide drops
+enum: ["Adamant platebody","Rune dart","Rune kiteshield","Rune plateskirt"]
+*/
 #define VAR_COMMANDERZILYANA_ENUMLIST_FILTER_WEAPONSANDARMOUR []
 CONST_COMMANDERZILYANA_RULE (name:VAR_COMMANDERZILYANA_ENUMLIST_FILTER_WEAPONSANDARMOUR) {
   hidden = true;
 }
 
-// label:Potions
-// group:Hide drops
-// enum:["Prayer potion(4)","Saradomin brew(3)","Super restore(4)","Super defence(3)","Magic potion(3)"]
+
+/*@ define:
+type: stringlist
+label: Potions
+group: Hide drops
+enum: ["Prayer potion(4)","Saradomin brew(3)","Super restore(4)","Super defence(3)","Magic potion(3)"]
+*/
 #define VAR_COMMANDERZILYANA_ENUMLIST_FILTER_POTIONS []
 CONST_COMMANDERZILYANA_RULE (name:VAR_COMMANDERZILYANA_ENUMLIST_FILTER_POTIONS) {
   hidden = true;
 }
 
-// label:Other
-// group:Hide drops
-// enum:["Coins","Diamond","Law rune","Grimy ranarr weed","Ranarr seed","Magic seed"]
+
+/*@ define:
+type: stringlist
+label: Other
+group: Hide drops
+enum: ["Coins","Diamond","Law rune","Grimy ranarr weed","Ranarr seed","Magic seed"]
+*/
 #define VAR_COMMANDERZILYANA_ENUMLIST_FILTER_OTHER []
 CONST_COMMANDERZILYANA_RULE (name:VAR_COMMANDERZILYANA_ENUMLIST_FILTER_OTHER) {
   hidden = true;
 }
 
 
-
-// label:Tertiary
-// group:Hide drops
-// enum:["Brimstone key","Pet zilyana"]
+/*@ define:
+type: stringlist
+label: Tertiary
+group: Hide drops
+enum: ["Brimstone key","Pet zilyana"]
+*/
 #define VAR_COMMANDERZILYANA_ENUMLIST_FILTER_TERTIARY []
 CONST_COMMANDERZILYANA_RULE (name:VAR_COMMANDERZILYANA_ENUMLIST_FILTER_TERTIARY) {
   hidden = true;

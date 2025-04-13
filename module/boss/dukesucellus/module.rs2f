@@ -1,63 +1,90 @@
-// module:Duke Sucellus
+
+/*@ define:module:dukesucellus
+name: Duke Sucellus
+*/
 
 #define CONST_AREA_DUKESUCELLUS [3027,6433,0,3051,6458,0]
 #define CONST_DUKESUCELLUS_RULE(_cond) rule (area:CONST_AREA_DUKESUCELLUS && (_cond))
 
 
-
-
-
-// label:Uniques
-// group:Hide drops
-// enum:["Magus vestige","Chromium ingot","Eye of the duke","Virtus mask","Virtus robe top","Virtus robe bottom"]
+/*@ define:
+type: stringlist
+label: Uniques
+group: Hide drops
+enum: ["Magus vestige","Chromium ingot","Eye of the duke","Virtus mask","Virtus robe top","Virtus robe bottom"]
+*/
 #define VAR_DUKESUCELLUS_ENUMLIST_FILTER_UNIQUES []
 CONST_DUKESUCELLUS_RULE (name:VAR_DUKESUCELLUS_ENUMLIST_FILTER_UNIQUES) {
   hidden = true;
 }
 
-// label:Secondary uniques
-// group:Hide drops
-// enum:["Frozen tablet","Awakener's orb","Ice quartz"]
+
+/*@ define:
+type: stringlist
+label: Secondary uniques
+group: Hide drops
+enum: ["Frozen tablet","Awakener's orb","Ice quartz"]
+*/
 #define VAR_DUKESUCELLUS_ENUMLIST_FILTER_SECONDARYUNIQUES []
 CONST_DUKESUCELLUS_RULE (name:VAR_DUKESUCELLUS_ENUMLIST_FILTER_SECONDARYUNIQUES) {
   hidden = true;
 }
 
-// label:Supplies
-// group:Hide drops
-// enum:["Pineapple pizza","Prayer potion(3)","Super combat potion(2)"]
+
+/*@ define:
+type: stringlist
+label: Supplies
+group: Hide drops
+enum: ["Pineapple pizza","Prayer potion(3)","Super combat potion(2)"]
+*/
 #define VAR_DUKESUCELLUS_ENUMLIST_FILTER_SUPPLIES []
 CONST_DUKESUCELLUS_RULE (name:VAR_DUKESUCELLUS_ENUMLIST_FILTER_SUPPLIES) {
   hidden = true;
 }
 
-// label:Weapons and armour
-// group:Hide drops
-// enum:["Bronze chainbody","Mithril chainbody","Adamant chainbody","Dragon platelegs"]
+
+/*@ define:
+type: stringlist
+label: Weapons and armour
+group: Hide drops
+enum: ["Bronze chainbody","Mithril chainbody","Adamant chainbody","Dragon platelegs"]
+*/
 #define VAR_DUKESUCELLUS_ENUMLIST_FILTER_WEAPONSANDARMOUR []
 CONST_DUKESUCELLUS_RULE (name:VAR_DUKESUCELLUS_ENUMLIST_FILTER_WEAPONSANDARMOUR) {
   hidden = true;
 }
 
-// label:Resources
-// group:Hide drops
-// enum:["Pure essence","Iron ore","Coal","Mithril ore","Adamantite ore","Runite ore","Sapphire","Emerald","Ruby","Uncut ruby","Uncut diamond","Bronze bar","Dragon arrowtips","Rune javelin heads","Dragon javelin heads","Raw sea turtle"]
+
+/*@ define:
+type: stringlist
+label: Resources
+group: Hide drops
+enum: ["Pure essence","Iron ore","Coal","Mithril ore","Adamantite ore","Runite ore","Sapphire","Emerald","Ruby","Uncut ruby","Uncut diamond","Bronze bar","Dragon arrowtips","Rune javelin heads","Dragon javelin heads","Raw sea turtle"]
+*/
 #define VAR_DUKESUCELLUS_ENUMLIST_FILTER_RESOURCES []
 CONST_DUKESUCELLUS_RULE (name:VAR_DUKESUCELLUS_ENUMLIST_FILTER_RESOURCES) {
   hidden = true;
 }
 
-// label:Runes and ammunition
-// group:Hide drops
-// enum:["Air rune","Mist rune","Chaos rune","Soul rune"]
+
+/*@ define:
+type: stringlist
+label: Runes and ammunition
+group: Hide drops
+enum: ["Air rune","Mist rune","Chaos rune","Soul rune"]
+*/
 #define VAR_DUKESUCELLUS_ENUMLIST_FILTER_RUNESANDAMMUNITION []
 CONST_DUKESUCELLUS_RULE (name:VAR_DUKESUCELLUS_ENUMLIST_FILTER_RUNESANDAMMUNITION) {
   hidden = true;
 }
 
-// label:Tertiary
-// group:Hide drops
-// enum:["Odd key","Brimstone key","Clue scroll (easy)","Clue scroll (medium)","Clue scroll (hard)","Clue scroll (elite)","Baron","Ancient blood ornament kit"]
+
+/*@ define:
+type: stringlist
+label: Tertiary
+group: Hide drops
+enum: ["Odd key","Brimstone key","Clue scroll (easy)","Clue scroll (medium)","Clue scroll (hard)","Clue scroll (elite)","Baron","Ancient blood ornament kit"]
+*/
 #define VAR_DUKESUCELLUS_ENUMLIST_FILTER_TERTIARY []
 CONST_DUKESUCELLUS_RULE (name:VAR_DUKESUCELLUS_ENUMLIST_FILTER_TERTIARY) {
   hidden = true;

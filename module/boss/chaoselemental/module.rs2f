@@ -1,76 +1,105 @@
-// module:Chaos Elemental
+
+/*@ define:module:chaoselemental
+name: Chaos Elemental
+*/
 
 #define CONST_AREA_CHAOSELEMENTAL [3200,3967,0,3327,3904,0]
 #define CONST_CHAOSELEMENTAL_RULE(_cond) rule (area:CONST_AREA_CHAOSELEMENTAL && (_cond))
 
-// label:Minor drops
-// group:Hide drops
-// enum:["Blighted anglerfish","Blighted karambwan","Blighted super restore(4)","Dragon bones","Super combat potion(1)"]
+
+/*@ define:
+type: stringlist
+label: Minor drops
+group: Hide drops
+enum: ["Blighted anglerfish","Blighted karambwan","Blighted super restore(4)","Dragon bones","Super combat potion(1)"]
+*/
 #define VAR_CHAOSELEMENTAL_ENUMLIST_FILTER_MINORDROPS []
 CONST_CHAOSELEMENTAL_RULE (name:VAR_CHAOSELEMENTAL_ENUMLIST_FILTER_MINORDROPS) {
   hidden = true;
 }
 
 
-
-// label:Pre-roll
-// group:Hide drops
-// enum:["Dragon pickaxe"]
+/*@ define:
+type: stringlist
+label: Pre-roll
+group: Hide drops
+enum: ["Dragon pickaxe"]
+*/
 #define VAR_CHAOSELEMENTAL_ENUMLIST_FILTER_PREROLL []
 CONST_CHAOSELEMENTAL_RULE (name:VAR_CHAOSELEMENTAL_ENUMLIST_FILTER_PREROLL) {
   hidden = true;
 }
 
-// label:Weapons and armour
-// group:Hide drops
-// enum:["Rune dart","Rune platelegs","Rune plateskirt","Rune 2h sword","Rune battleaxe","Rune full helm","Rune kiteshield","Mystic air staff","Mystic water staff","Mystic earth staff","Mystic fire staff","Dragon dagger","Dragon 2h sword","Dragon platelegs","Dragon plateskirt"]
+
+/*@ define:
+type: stringlist
+label: Weapons and armour
+group: Hide drops
+enum: ["Rune dart","Rune platelegs","Rune plateskirt","Rune 2h sword","Rune battleaxe","Rune full helm","Rune kiteshield","Mystic air staff","Mystic water staff","Mystic earth staff","Mystic fire staff","Dragon dagger","Dragon 2h sword","Dragon platelegs","Dragon plateskirt"]
+*/
 #define VAR_CHAOSELEMENTAL_ENUMLIST_FILTER_WEAPONSANDARMOUR []
 CONST_CHAOSELEMENTAL_RULE (name:VAR_CHAOSELEMENTAL_ENUMLIST_FILTER_WEAPONSANDARMOUR) {
   hidden = true;
 }
 
-// label:Runes and ammunition
-// group:Hide drops
-// enum:["Chaos rune","Blood rune","Rune arrow"]
+
+/*@ define:
+type: stringlist
+label: Runes and ammunition
+group: Hide drops
+enum: ["Chaos rune","Blood rune","Rune arrow"]
+*/
 #define VAR_CHAOSELEMENTAL_ENUMLIST_FILTER_RUNESANDAMMUNITION []
 CONST_CHAOSELEMENTAL_RULE (name:VAR_CHAOSELEMENTAL_ENUMLIST_FILTER_RUNESANDAMMUNITION) {
   hidden = true;
 }
 
-// label:Herbs
-// group:Hide drops
-// enum:["Grimy ranarr weed","Grimy snapdragon","Grimy avantoe","Grimy kwuarm"]
+
+/*@ define:
+type: stringlist
+label: Herbs
+group: Hide drops
+enum: ["Grimy ranarr weed","Grimy snapdragon","Grimy avantoe","Grimy kwuarm"]
+*/
 #define VAR_CHAOSELEMENTAL_ENUMLIST_FILTER_HERBS []
 CONST_CHAOSELEMENTAL_RULE (name:VAR_CHAOSELEMENTAL_ENUMLIST_FILTER_HERBS) {
   hidden = true;
 }
 
-// label:Resources
-// group:Hide drops
-// enum:["Coal","Mahogany plank","Runite bar","Adamantite bar"]
+
+/*@ define:
+type: stringlist
+label: Resources
+group: Hide drops
+enum: ["Coal","Mahogany plank","Runite bar","Adamantite bar"]
+*/
 #define VAR_CHAOSELEMENTAL_ENUMLIST_FILTER_RESOURCES []
 CONST_CHAOSELEMENTAL_RULE (name:VAR_CHAOSELEMENTAL_ENUMLIST_FILTER_RESOURCES) {
   hidden = true;
 }
 
-// label:Materials
-// group:Hide drops
-// enum:["Coins","Blighted ancient ice sack","Blighted karambwan","Blighted anglerfish","Wilderness crabs teleport"]
+
+/*@ define:
+type: stringlist
+label: Materials
+group: Hide drops
+enum: ["Coins","Blighted ancient ice sack","Blighted karambwan","Blighted anglerfish","Wilderness crabs teleport"]
+*/
 #define VAR_CHAOSELEMENTAL_ENUMLIST_FILTER_MATERIALS []
 CONST_CHAOSELEMENTAL_RULE (name:VAR_CHAOSELEMENTAL_ENUMLIST_FILTER_MATERIALS) {
   hidden = true;
 }
 
 
-
-// label:Tertiary
-// group:Hide drops
-// enum:["Weapon poison(++)","Looting bag","Brimstone key","Pet chaos elemental"]
+/*@ define:
+type: stringlist
+label: Tertiary
+group: Hide drops
+enum: ["Weapon poison(++)","Looting bag","Brimstone key","Pet chaos elemental"]
+*/
 #define VAR_CHAOSELEMENTAL_ENUMLIST_FILTER_TERTIARY []
 CONST_CHAOSELEMENTAL_RULE (name:VAR_CHAOSELEMENTAL_ENUMLIST_FILTER_TERTIARY) {
   hidden = true;
 }
-
-
 
 // endmodule:Chaos Elemental

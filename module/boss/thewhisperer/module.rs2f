@@ -1,63 +1,83 @@
-// module:The Whisperer
+
+/*@ define:module:thewhisperer
+name: The Whisperer
+*/
 
 #define CONST_AREA_THEWHISPERER [2631,6391,0,2684,6345,0]
 #define CONST_THEWHISPERER_RULE(_cond) rule (area:CONST_AREA_THEWHISPERER && (_cond))
 
-
-
-
-
-// label:Uniques
-// group:Hide drops
-// enum:["Bellator vestige","Chromium ingot","Siren's staff","Virtus mask","Virtus robe top","Virtus robe bottom"]
+/*@ define:input:thewhisperer
+type: stringlist
+label: Uniques
+group: Hide drops
+enum: ["Bellator vestige","Chromium ingot","Siren's staff","Virtus mask","Virtus robe top","Virtus robe bottom"]
+*/
 #define VAR_THEWHISPERER_ENUMLIST_FILTER_UNIQUES []
 CONST_THEWHISPERER_RULE (name:VAR_THEWHISPERER_ENUMLIST_FILTER_UNIQUES) {
   hidden = true;
 }
 
-// label:Secondary uniques
-// group:Hide drops
-// enum:["Sirenic tablet","Awakener's orb","Shadow quartz"]
+/*@ define:input:thewhisperer
+type: stringlist
+label: Secondary uniques
+group: Hide drops
+enum: ["Sirenic tablet","Awakener's orb","Shadow quartz"]
+*/
 #define VAR_THEWHISPERER_ENUMLIST_FILTER_SECONDARYUNIQUES []
 CONST_THEWHISPERER_RULE (name:VAR_THEWHISPERER_ENUMLIST_FILTER_SECONDARYUNIQUES) {
   hidden = true;
 }
 
-// label:Supplies
-// group:Hide drops
-// enum:["Ancient brew(2)","Prayer potion(3)","Manta ray"]
+/*@ define:input:thewhisperer
+type: stringlist
+label: Supplies
+group: Hide drops
+enum: ["Ancient brew(2)","Prayer potion(3)","Manta ray"]
+*/
 #define VAR_THEWHISPERER_ENUMLIST_FILTER_SUPPLIES []
 CONST_THEWHISPERER_RULE (name:VAR_THEWHISPERER_ENUMLIST_FILTER_SUPPLIES) {
   hidden = true;
 }
 
-// label:Weapons and armour
-// group:Hide drops
-// enum:["Bronze longsword","Mithril longsword","Adamant longsword","Battlestaff","Dragon plateskirt"]
+/*@ define:input:thewhisperer
+type: stringlist
+label: Weapons and armour
+group: Hide drops
+enum: ["Bronze longsword","Mithril longsword","Adamant longsword","Battlestaff","Dragon plateskirt"]
+*/
 #define VAR_THEWHISPERER_ENUMLIST_FILTER_WEAPONSANDARMOUR []
 CONST_THEWHISPERER_RULE (name:VAR_THEWHISPERER_ENUMLIST_FILTER_WEAPONSANDARMOUR) {
   hidden = true;
 }
 
-// label:Resources
-// group:Hide drops
-// enum:["Pure essence","Iron ore","Coal","Gold ore","Mithril ore","Adamantite ore","Runite ore","Sapphire","Emerald","Ruby","Uncut ruby","Uncut diamond","Dragon javelin heads","Runite bolts (unf)","Raw monkfish"]
+/*@ define:input:thewhisperer
+type: stringlist
+label: Resources
+group: Hide drops
+enum: ["Pure essence","Iron ore","Coal","Gold ore","Mithril ore","Adamantite ore","Runite ore","Sapphire","Emerald","Ruby","Uncut ruby","Uncut diamond","Dragon javelin heads","Runite bolts (unf)","Raw monkfish"]
+*/
 #define VAR_THEWHISPERER_ENUMLIST_FILTER_RESOURCES []
 CONST_THEWHISPERER_RULE (name:VAR_THEWHISPERER_ENUMLIST_FILTER_RESOURCES) {
   hidden = true;
 }
 
-// label:Runes and ammunition
-// group:Hide drops
-// enum:["Water rune","Steam rune","Chaos rune","Death rune","Soul rune"]
+/*@ define:input:thewhisperer
+type: stringlist
+label: Runes and ammunition
+group: Hide drops
+enum: ["Water rune","Steam rune","Chaos rune","Death rune","Soul rune"]
+*/
 #define VAR_THEWHISPERER_ENUMLIST_FILTER_RUNESANDAMMUNITION []
 CONST_THEWHISPERER_RULE (name:VAR_THEWHISPERER_ENUMLIST_FILTER_RUNESANDAMMUNITION) {
   hidden = true;
 }
 
-// label:Tertiary
-// group:Hide drops
-// enum:["Brimstone key","Clue scroll (easy)","Clue scroll (medium)","Clue scroll (hard)","Clue scroll (elite)","Ancient blood ornament kit","Wisp"]
+/*@ define:input:thewhisperer
+type: stringlist
+label: Tertiary
+group: Hide drops
+enum: ["Brimstone key","Clue scroll (easy)","Clue scroll (medium)","Clue scroll (hard)","Clue scroll (elite)","Ancient blood ornament kit","Wisp"]
+*/
 #define VAR_THEWHISPERER_ENUMLIST_FILTER_TERTIARY []
 CONST_THEWHISPERER_RULE (name:VAR_THEWHISPERER_ENUMLIST_FILTER_TERTIARY) {
   hidden = true;

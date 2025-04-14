@@ -1,64 +1,86 @@
-// module:Scorpia
+
+/*@ define:module:scorpia
+name: Scorpia
+*/
 
 #define CONST_AREA_SCORPIA [3214,10324,0,3252,10358,0]
 #define CONST_SCORPIA_RULE(_cond) rule (area:CONST_AREA_SCORPIA && (_cond))
 
-// label:Pre-roll
-// group:Hide drops
-// enum:["Odium shard 3","Malediction shard 3"]
+/*@ define:input:scorpia
+type: stringlist
+label: Pre-roll
+group: Hide drops
+enum: ["Odium shard 3","Malediction shard 3"]
+*/
 #define VAR_SCORPIA_ENUMLIST_FILTER_PREROLL []
 CONST_SCORPIA_RULE (name:VAR_SCORPIA_ENUMLIST_FILTER_PREROLL) {
   hidden = true;
 }
 
-// label:Weapons and armour
-// group:Hide drops
-// enum:["Battlestaff","Rune 2h sword","Rune pickaxe","Rune kiteshield","Rune chainbody","Rune platelegs","Rune scimitar","Rune warhammer","Mystic earth staff","Mystic robe top","Mystic robe bottom","Dragon scimitar","Dragon 2h sword"]
+/*@ define:input:scorpia
+type: stringlist
+label: Weapons and armour
+group: Hide drops
+enum: ["Battlestaff","Rune 2h sword","Rune pickaxe","Rune kiteshield","Rune chainbody","Rune platelegs","Rune scimitar","Rune warhammer","Mystic earth staff","Mystic robe top","Mystic robe bottom","Dragon scimitar","Dragon 2h sword"]
+*/
 #define VAR_SCORPIA_ENUMLIST_FILTER_WEAPONSANDARMOUR []
 CONST_SCORPIA_RULE (name:VAR_SCORPIA_ENUMLIST_FILTER_WEAPONSANDARMOUR) {
   hidden = true;
 }
 
-// label:Runes
-// group:Hide drops
-// enum:["Death rune","Blood rune","Chaos rune"]
+/*@ define:input:scorpia
+type: stringlist
+label: Runes
+group: Hide drops
+enum: ["Death rune","Blood rune","Chaos rune"]
+*/
 #define VAR_SCORPIA_ENUMLIST_FILTER_RUNES []
 CONST_SCORPIA_RULE (name:VAR_SCORPIA_ENUMLIST_FILTER_RUNES) {
   hidden = true;
 }
 
-// label:Herbs
-// group:Hide drops
-// enum:["Grimy kwuarm","Grimy dwarf weed","Grimy torstol","Grimy snapdragon"]
+/*@ define:input:scorpia
+type: stringlist
+label: Herbs
+group: Hide drops
+enum: ["Grimy kwuarm","Grimy dwarf weed","Grimy torstol","Grimy snapdragon"]
+*/
 #define VAR_SCORPIA_ENUMLIST_FILTER_HERBS []
 CONST_SCORPIA_RULE (name:VAR_SCORPIA_ENUMLIST_FILTER_HERBS) {
   hidden = true;
 }
 
-// label:Materials
-// group:Hide drops
-// enum:["Uncut ruby","Uncut diamond","Runite ore","Dragon javelin heads","Onyx bolt tips"]
+/*@ define:input:scorpia
+type: stringlist
+label: Materials
+group: Hide drops
+enum: ["Uncut ruby","Uncut diamond","Runite ore","Dragon javelin heads","Onyx bolt tips"]
+*/
 #define VAR_SCORPIA_ENUMLIST_FILTER_MATERIALS []
 CONST_SCORPIA_RULE (name:VAR_SCORPIA_ENUMLIST_FILTER_MATERIALS) {
   hidden = true;
 }
 
-// label:Other
-// group:Hide drops
-// enum:["Coins","Blighted anglerfish","Blighted super restore(4)","Wilderness crabs teleport"]
+/*@ define:input:scorpia
+type: stringlist
+label: Other
+group: Hide drops
+enum: ["Coins","Blighted anglerfish","Blighted super restore(4)","Wilderness crabs teleport"]
+*/
 #define VAR_SCORPIA_ENUMLIST_FILTER_OTHER []
 CONST_SCORPIA_RULE (name:VAR_SCORPIA_ENUMLIST_FILTER_OTHER) {
   hidden = true;
 }
 
-// label:Tertiary
-// group:Hide drops
-// enum:["Looting bag","Ensouled scorpion head","Brimstone key","Scorpia's offspring"]
+/*@ define:input:scorpia
+type: stringlist
+label: Tertiary
+group: Hide drops
+enum: ["Looting bag","Ensouled scorpion head","Brimstone key","Scorpia's offspring"]
+*/
 #define VAR_SCORPIA_ENUMLIST_FILTER_TERTIARY []
 CONST_SCORPIA_RULE (name:VAR_SCORPIA_ENUMLIST_FILTER_TERTIARY) {
   hidden = true;
 }
-
-
 
 // endmodule:Scorpia

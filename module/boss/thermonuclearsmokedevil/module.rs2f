@@ -1,66 +1,86 @@
-// module:Thermonuclear smoke devil
+
+/*@ define:module:thermonuclearsmokedevil
+name: Thermonuclear smoke devil
+*/
 
 #define CONST_AREA_THERMONUCLEARSMOKEDEVIL [2345,9464,0,2380,9434,0]
 #define CONST_THERMONUCLEARSMOKEDEVIL_RULE(_cond) rule (area:CONST_AREA_THERMONUCLEARSMOKEDEVIL && (_cond))
 
-// label:100%
-// group:Hide drops
-// enum:["Ashes"]
+/*@ define:input:thermonuclearsmokedevil
+type: stringlist
+label: 100%
+group: Hide drops
+enum: ["Ashes"]
+*/
 #define VAR_THERMONUCLEARSMOKEDEVIL_ENUMLIST_FILTER_100 []
 CONST_THERMONUCLEARSMOKEDEVIL_RULE (name:VAR_THERMONUCLEARSMOKEDEVIL_ENUMLIST_FILTER_100) {
   hidden = true;
 }
 
-// label:Weapons and armour
-// group:Hide drops
-// enum:["Rune dagger","Rune chainbody","Red d'hide body","Rune battleaxe","Mystic air staff","Mystic fire staff","Rune scimitar","Rune knife(p++)","Dragon scimitar","Ancient staff","Occult necklace","Smoke battlestaff","Dragon chainbody"]
+/*@ define:input:thermonuclearsmokedevil
+type: stringlist
+label: Weapons and armour
+group: Hide drops
+enum: ["Rune dagger","Rune chainbody","Red d'hide body","Rune battleaxe","Mystic air staff","Mystic fire staff","Rune scimitar","Rune knife(p++)","Dragon scimitar","Ancient staff","Occult necklace","Smoke battlestaff","Dragon chainbody"]
+*/
 #define VAR_THERMONUCLEARSMOKEDEVIL_ENUMLIST_FILTER_WEAPONSANDARMOUR []
 CONST_THERMONUCLEARSMOKEDEVIL_RULE (name:VAR_THERMONUCLEARSMOKEDEVIL_ENUMLIST_FILTER_WEAPONSANDARMOUR) {
   hidden = true;
 }
 
-// label:Runes and ammunition
-// group:Hide drops
-// enum:["Smoke rune","Air rune","Soul rune","Rune arrow"]
+/*@ define:input:thermonuclearsmokedevil
+type: stringlist
+label: Runes and ammunition
+group: Hide drops
+enum: ["Smoke rune","Air rune","Soul rune","Rune arrow"]
+*/
 #define VAR_THERMONUCLEARSMOKEDEVIL_ENUMLIST_FILTER_RUNESANDAMMUNITION []
 CONST_THERMONUCLEARSMOKEDEVIL_RULE (name:VAR_THERMONUCLEARSMOKEDEVIL_ENUMLIST_FILTER_RUNESANDAMMUNITION) {
   hidden = true;
 }
 
-// label:Consumables
-// group:Hide drops
-// enum:["Ugthanki kebab","Tuna potato","Sanfew serum(4)","Prayer potion(4)"]
+/*@ define:input:thermonuclearsmokedevil
+type: stringlist
+label: Consumables
+group: Hide drops
+enum: ["Ugthanki kebab","Tuna potato","Sanfew serum(4)","Prayer potion(4)"]
+*/
 #define VAR_THERMONUCLEARSMOKEDEVIL_ENUMLIST_FILTER_CONSUMABLES []
 CONST_THERMONUCLEARSMOKEDEVIL_RULE (name:VAR_THERMONUCLEARSMOKEDEVIL_ENUMLIST_FILTER_CONSUMABLES) {
   hidden = true;
 }
 
-// label:Resources
-// group:Hide drops
-// enum:["Pure essence","Molten glass","Mithril bar","Coal","Magic logs","Gold ore","Diamond"]
+/*@ define:input:thermonuclearsmokedevil
+type: stringlist
+label: Resources
+group: Hide drops
+enum: ["Pure essence","Molten glass","Mithril bar","Coal","Magic logs","Gold ore","Diamond"]
+*/
 #define VAR_THERMONUCLEARSMOKEDEVIL_ENUMLIST_FILTER_RESOURCES []
 CONST_THERMONUCLEARSMOKEDEVIL_RULE (name:VAR_THERMONUCLEARSMOKEDEVIL_ENUMLIST_FILTER_RESOURCES) {
   hidden = true;
 }
 
-// label:Other
-// group:Hide drops
-// enum:["Coins","Tinderbox","Fire talisman","Bullseye lantern","Desert goat horn","Grimy toadflax","Onyx bolt tips","Snapdragon seed","Grapes","Magic seed","Dragonstone ring","Crystal key"]
+/*@ define:input:thermonuclearsmokedevil
+type: stringlist
+label: Other
+group: Hide drops
+enum: ["Coins","Tinderbox","Fire talisman","Bullseye lantern","Desert goat horn","Grimy toadflax","Onyx bolt tips","Snapdragon seed","Grapes","Magic seed","Dragonstone ring","Crystal key"]
+*/
 #define VAR_THERMONUCLEARSMOKEDEVIL_ENUMLIST_FILTER_OTHER []
 CONST_THERMONUCLEARSMOKEDEVIL_RULE (name:VAR_THERMONUCLEARSMOKEDEVIL_ENUMLIST_FILTER_OTHER) {
   hidden = true;
 }
 
-
-
-// label:Tertiary
-// group:Hide drops
-// enum:["Brimstone key","Jar of smoke","Pet smoke devil"]
+/*@ define:input:thermonuclearsmokedevil
+type: stringlist
+label: Tertiary
+group: Hide drops
+enum: ["Brimstone key","Jar of smoke","Pet smoke devil"]
+*/
 #define VAR_THERMONUCLEARSMOKEDEVIL_ENUMLIST_FILTER_TERTIARY []
 CONST_THERMONUCLEARSMOKEDEVIL_RULE (name:VAR_THERMONUCLEARSMOKEDEVIL_ENUMLIST_FILTER_TERTIARY) {
   hidden = true;
 }
-
-
 
 // endmodule:Thermonuclear smoke devil

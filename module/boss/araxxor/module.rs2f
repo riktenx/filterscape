@@ -1,71 +1,94 @@
-// module:Araxxor
+
+/*@ define:module:araxxor
+name: Araxxor
+*/
 
 #define CONST_AREA_ARAXXOR [3608,9837,0,3651,9795,0]
 #define CONST_ARAXXOR_RULE(_cond) rule (area:CONST_AREA_ARAXXOR && (_cond))
 
-// label:Unique
-// group:Hide drops
-// enum:["Noxious pommel","Noxious point","Noxious blade","Araxyte fang"]
+/*@ define:input:araxxor
+type: stringlist
+label: Unique
+group: Hide drops
+enum: ["Noxious pommel","Noxious point","Noxious blade","Araxyte fang"]
+*/
 #define VAR_ARAXXOR_ENUMLIST_FILTER_UNIQUE []
 CONST_ARAXXOR_RULE (name:VAR_ARAXXOR_ENUMLIST_FILTER_UNIQUE) {
   hidden = true;
 }
 
-// label:Supplies
-// group:Hide drops
-// enum:["Araxyte venom sack","Super combat potion(1)","Prayer potion(4)","Shark","Wild pie"]
+/*@ define:input:araxxor
+type: stringlist
+label: Supplies
+group: Hide drops
+enum: ["Araxyte venom sack","Super combat potion(1)","Prayer potion(4)","Shark","Wild pie"]
+*/
 #define VAR_ARAXXOR_ENUMLIST_FILTER_SUPPLIES []
 CONST_ARAXXOR_RULE (name:VAR_ARAXXOR_ENUMLIST_FILTER_SUPPLIES) {
   hidden = true;
 }
 
-// label:Weapons and armour
-// group:Hide drops
-// enum:["Rune kiteshield","Rune platelegs","Dragon mace","Rune 2h sword","Dragon platelegs"]
+/*@ define:input:araxxor
+type: stringlist
+label: Weapons and armour
+group: Hide drops
+enum: ["Rune kiteshield","Rune platelegs","Dragon mace","Rune 2h sword","Dragon platelegs"]
+*/
 #define VAR_ARAXXOR_ENUMLIST_FILTER_WEAPONSANDARMOUR []
 CONST_ARAXXOR_RULE (name:VAR_ARAXXOR_ENUMLIST_FILTER_WEAPONSANDARMOUR) {
   hidden = true;
 }
 
-// label:Runes and ammunition
-// group:Hide drops
-// enum:["Death rune","Nature rune","Mud rune","Blood rune"]
+/*@ define:input:araxxor
+type: stringlist
+label: Runes and ammunition
+group: Hide drops
+enum: ["Death rune","Nature rune","Mud rune","Blood rune"]
+*/
 #define VAR_ARAXXOR_ENUMLIST_FILTER_RUNESANDAMMUNITION []
 CONST_ARAXXOR_RULE (name:VAR_ARAXXOR_ENUMLIST_FILTER_RUNESANDAMMUNITION) {
   hidden = true;
 }
 
-// label:Seeds
-// group:Hide drops
-// enum:["Yew seed","Toadflax seed","Ranarr seed","Snapdragon seed","Magic seed"]
+/*@ define:input:araxxor
+type: stringlist
+label: Seeds
+group: Hide drops
+enum: ["Yew seed","Toadflax seed","Ranarr seed","Snapdragon seed","Magic seed"]
+*/
 #define VAR_ARAXXOR_ENUMLIST_FILTER_SEEDS []
 CONST_ARAXXOR_RULE (name:VAR_ARAXXOR_ENUMLIST_FILTER_SEEDS) {
   hidden = true;
 }
 
-
-
-// label:Resources
-// group:Hide drops
-// enum:["Coal","Adamantite ore","Raw shark","Yew logs","Runite ore","Raw monkfish","Pure essence"]
+/*@ define:input:araxxor
+type: stringlist
+label: Resources
+group: Hide drops
+enum: ["Coal","Adamantite ore","Raw shark","Yew logs","Runite ore","Raw monkfish","Pure essence"]
+*/
 #define VAR_ARAXXOR_ENUMLIST_FILTER_RESOURCES []
 CONST_ARAXXOR_RULE (name:VAR_ARAXXOR_ENUMLIST_FILTER_RESOURCES) {
   hidden = true;
 }
 
-// label:Other
-// group:Hide drops
-// enum:["Spider cave teleport","Earth orb","Araxyte venom sack","Mort myre fungus","Antidote++(3)","Wine of zamorak","Red spiders' eggs","Bark","Araxyte head","Jar of venom"]
+/*@ define:input:araxxor
+type: stringlist
+label: Other
+group: Hide drops
+enum: ["Spider cave teleport","Earth orb","Araxyte venom sack","Mort myre fungus","Antidote++(3)","Wine of zamorak","Red spiders' eggs","Bark","Araxyte head","Jar of venom"]
+*/
 #define VAR_ARAXXOR_ENUMLIST_FILTER_OTHER []
 CONST_ARAXXOR_RULE (name:VAR_ARAXXOR_ENUMLIST_FILTER_OTHER) {
   hidden = true;
 }
 
-
-
-// label:Tertiary
-// group:Hide drops
-// enum:["Coagulated venom","Brimstone key","Nid"]
+/*@ define:input:araxxor
+type: stringlist
+label: Tertiary
+group: Hide drops
+enum: ["Coagulated venom","Brimstone key","Nid"]
+*/
 #define VAR_ARAXXOR_ENUMLIST_FILTER_TERTIARY []
 CONST_ARAXXOR_RULE (name:VAR_ARAXXOR_ENUMLIST_FILTER_TERTIARY) {
   hidden = true;

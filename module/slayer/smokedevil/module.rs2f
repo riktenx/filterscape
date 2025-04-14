@@ -1,55 +1,72 @@
-// module:Smoke devil
+
+/*@ define:module:smokedevil
+name: Smoke devil
+*/
 
 #define CONST_AREA_SMOKEDEVIL0 [2351,9421,0,2422,9465,0] // [[Smoke Devil Dungeon]]
 #define CONST_SMOKEDEVIL_RULE(_cond) rule ((area:CONST_AREA_SMOKEDEVIL0) && (_cond))
 
-// label:100%
-// group:Hide drops
-// enum:["Ashes"]
+/*@ define:input:smokedevil
+type: stringlist
+label: 100%
+group: Hide drops
+enum: ["Ashes"]
+*/
 #define VAR_SMOKEDEVIL_ENUMLIST_FILTER_100 ["Ashes"]
 CONST_SMOKEDEVIL_RULE (name:VAR_SMOKEDEVIL_ENUMLIST_FILTER_100) {
   hidden = true;
 }
 
-// label:Weapons and armour
-// group:Hide drops
-// enum:["Adamant battleaxe","Rune dagger","Air battlestaff","Black d'hide vambraces","Fire battlestaff","Mithril plateskirt","Rune full helm","Rune chainbody","Red d'hide body","Occult necklace","Dragon chainbody"]
+/*@ define:input:smokedevil
+type: stringlist
+label: Weapons and armour
+group: Hide drops
+enum: ["Adamant battleaxe","Rune dagger","Air battlestaff","Black d'hide vambraces","Fire battlestaff","Mithril plateskirt","Rune full helm","Rune chainbody","Red d'hide body","Occult necklace","Dragon chainbody"]
+*/
 #define VAR_SMOKEDEVIL_ENUMLIST_FILTER_WEAPONSANDARMOUR ["Adamant battleaxe","Rune dagger","Air battlestaff","Black d'hide vambraces","Fire battlestaff","Mithril plateskirt","Red d'hide body"]
 CONST_SMOKEDEVIL_RULE (name:VAR_SMOKEDEVIL_ENUMLIST_FILTER_WEAPONSANDARMOUR) {
   hidden = true;
 }
 
-// label:Runes and ammunition
-// group:Hide drops
-// enum:["Smoke rune","Runite bolts","Fire rune","Air rune","Soul rune","Rune arrow"]
+/*@ define:input:smokedevil
+type: stringlist
+label: Runes and ammunition
+group: Hide drops
+enum: ["Smoke rune","Runite bolts","Fire rune","Air rune","Soul rune","Rune arrow"]
+*/
 #define VAR_SMOKEDEVIL_ENUMLIST_FILTER_RUNESANDAMMUNITION ["Smoke rune","Runite bolts","Fire rune","Air rune","Soul rune","Rune arrow"]
 CONST_SMOKEDEVIL_RULE (name:VAR_SMOKEDEVIL_ENUMLIST_FILTER_RUNESANDAMMUNITION) {
   hidden = true;
 }
 
-
-
-// label:Coins
-// group:Hide drops
-// enum:["Coins"]
+/*@ define:input:smokedevil
+type: stringlist
+label: Coins
+group: Hide drops
+enum: ["Coins"]
+*/
 #define VAR_SMOKEDEVIL_ENUMLIST_FILTER_COINS ["Coins"]
 CONST_SMOKEDEVIL_RULE (name:VAR_SMOKEDEVIL_ENUMLIST_FILTER_COINS) {
   hidden = true;
 }
 
-// label:Other
-// group:Hide drops
-// enum:["Shark","Steel bar","Magic logs","Coal","Adamantite bar","Crossbow string","Ugthanki kebab"]
+/*@ define:input:smokedevil
+type: stringlist
+label: Other
+group: Hide drops
+enum: ["Shark","Steel bar","Magic logs","Coal","Adamantite bar","Crossbow string","Ugthanki kebab"]
+*/
 #define VAR_SMOKEDEVIL_ENUMLIST_FILTER_OTHER ["Shark","Steel bar","Magic logs","Coal","Adamantite bar","Crossbow string","Ugthanki kebab"]
 CONST_SMOKEDEVIL_RULE (name:VAR_SMOKEDEVIL_ENUMLIST_FILTER_OTHER) {
   hidden = true;
 }
 
-
-
-// label:Tertiary
-// group:Hide drops
-// enum:["Brimstone key"]
+/*@ define:input:smokedevil
+type: stringlist
+label: Tertiary
+group: Hide drops
+enum: ["Brimstone key"]
+*/
 #define VAR_SMOKEDEVIL_ENUMLIST_FILTER_TERTIARY []
 CONST_SMOKEDEVIL_RULE (name:VAR_SMOKEDEVIL_ENUMLIST_FILTER_TERTIARY) {
   hidden = true;

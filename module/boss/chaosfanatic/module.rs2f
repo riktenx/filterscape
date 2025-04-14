@@ -1,66 +1,86 @@
-// module:Chaos Fanatic
+
+/*@ define:module:chaosfanatic
+name: Chaos Fanatic
+*/
 
 #define CONST_AREA_CHAOSFANATIC [2973,3849,0,2988,3863,0]
 #define CONST_CHAOSFANATIC_RULE(_cond) rule (area:CONST_AREA_CHAOSFANATIC && (_cond))
 
-// label:100%
-// group:Hide drops
-// enum:["Bones"]
+/*@ define:input:chaosfanatic
+type: stringlist
+label: 100%
+group: Hide drops
+enum: ["Bones"]
+*/
 #define VAR_CHAOSFANATIC_ENUMLIST_FILTER_100 []
 CONST_CHAOSFANATIC_RULE (name:VAR_CHAOSFANATIC_ENUMLIST_FILTER_100) {
   hidden = true;
 }
 
-// label:Pre-roll
-// group:Hide drops
-// enum:["Odium shard 1","Malediction shard 1"]
+/*@ define:input:chaosfanatic
+type: stringlist
+label: Pre-roll
+group: Hide drops
+enum: ["Odium shard 1","Malediction shard 1"]
+*/
 #define VAR_CHAOSFANATIC_ENUMLIST_FILTER_PREROLL []
 CONST_CHAOSFANATIC_RULE (name:VAR_CHAOSFANATIC_ENUMLIST_FILTER_PREROLL) {
   hidden = true;
 }
 
-// label:Weapons and armour
-// group:Hide drops
-// enum:["Battlestaff","Splitbark body","Splitbark legs","Zamorak monk top","Zamorak monk bottom","Ancient staff"]
+/*@ define:input:chaosfanatic
+type: stringlist
+label: Weapons and armour
+group: Hide drops
+enum: ["Battlestaff","Splitbark body","Splitbark legs","Zamorak monk top","Zamorak monk bottom","Ancient staff"]
+*/
 #define VAR_CHAOSFANATIC_ENUMLIST_FILTER_WEAPONSANDARMOUR []
 CONST_CHAOSFANATIC_RULE (name:VAR_CHAOSFANATIC_ENUMLIST_FILTER_WEAPONSANDARMOUR) {
   hidden = true;
 }
 
-// label:Runes
-// group:Hide drops
-// enum:["Fire rune","Smoke rune","Chaos rune","Blood rune"]
+/*@ define:input:chaosfanatic
+type: stringlist
+label: Runes
+group: Hide drops
+enum: ["Fire rune","Smoke rune","Chaos rune","Blood rune"]
+*/
 #define VAR_CHAOSFANATIC_ENUMLIST_FILTER_RUNES []
 CONST_CHAOSFANATIC_RULE (name:VAR_CHAOSFANATIC_ENUMLIST_FILTER_RUNES) {
   hidden = true;
 }
 
-// label:Consumables
-// group:Hide drops
-// enum:["Monkfish","Shark","Prayer potion(4)","Anchovy pizza"]
+/*@ define:input:chaosfanatic
+type: stringlist
+label: Consumables
+group: Hide drops
+enum: ["Monkfish","Shark","Prayer potion(4)","Anchovy pizza"]
+*/
 #define VAR_CHAOSFANATIC_ENUMLIST_FILTER_CONSUMABLES []
 CONST_CHAOSFANATIC_RULE (name:VAR_CHAOSFANATIC_ENUMLIST_FILTER_CONSUMABLES) {
   hidden = true;
 }
 
-// label:Other
-// group:Hide drops
-// enum:["Coins","Grimy lantadyme","Ring of life","Chaos talisman","Wine of zamorak","Uncut emerald","Uncut sapphire","Sinister key","Pure essence"]
+/*@ define:input:chaosfanatic
+type: stringlist
+label: Other
+group: Hide drops
+enum: ["Coins","Grimy lantadyme","Ring of life","Chaos talisman","Wine of zamorak","Uncut emerald","Uncut sapphire","Sinister key","Pure essence"]
+*/
 #define VAR_CHAOSFANATIC_ENUMLIST_FILTER_OTHER []
 CONST_CHAOSFANATIC_RULE (name:VAR_CHAOSFANATIC_ENUMLIST_FILTER_OTHER) {
   hidden = true;
 }
 
-
-
-// label:Tertiary
-// group:Hide drops
-// enum:["Looting bag","Brimstone key","Pet chaos elemental"]
+/*@ define:input:chaosfanatic
+type: stringlist
+label: Tertiary
+group: Hide drops
+enum: ["Looting bag","Brimstone key","Pet chaos elemental"]
+*/
 #define VAR_CHAOSFANATIC_ENUMLIST_FILTER_TERTIARY []
 CONST_CHAOSFANATIC_RULE (name:VAR_CHAOSFANATIC_ENUMLIST_FILTER_TERTIARY) {
   hidden = true;
 }
-
-
 
 // endmodule:Chaos Fanatic

@@ -1,32 +1,33 @@
-// module:Aberrant spectre
+
+/*@ define:module:aberrantspectre
+name: Aberrant spectre
+*/
 
 #define CONST_AREA_ABERRANTSPECTRE0 [3411,3534,1,3442,3551,1] // [[Slayer Tower]] ({{FloorNumber|uk
 #define CONST_AREA_ABERRANTSPECTRE1 [2441,9774,0,2471,9794,0] // [[Stronghold Slayer Cave]]
 #define CONST_ABERRANTSPECTRE_RULE(_cond) rule ((area:CONST_AREA_ABERRANTSPECTRE0 || \
   area:CONST_AREA_ABERRANTSPECTRE1) && (_cond))
 
-
-
-// label:Weapons and armour
-// group:Hide drops
-// enum:["Steel axe","Mithril kiteshield","Lava battlestaff","Adamant platelegs","Rune full helm","Mystic robe bottom (dark)"]
+/*@ define:input:aberrantspectre
+type: stringlist
+label: Weapons and armour
+group: Hide drops
+enum: ["Steel axe","Mithril kiteshield","Lava battlestaff","Adamant platelegs","Rune full helm","Mystic robe bottom (dark)"]
+*/
 #define VAR_ABERRANTSPECTRE_ENUMLIST_FILTER_WEAPONSANDARMOUR ["Steel axe","Mithril kiteshield","Adamant platelegs"]
 CONST_ABERRANTSPECTRE_RULE (name:VAR_ABERRANTSPECTRE_ENUMLIST_FILTER_WEAPONSANDARMOUR) {
   hidden = true;
 }
 
-
-
-
-
-// label:Coins
-// group:Hide drops
-// enum:["Coins"]
+/*@ define:input:aberrantspectre
+type: stringlist
+label: Coins
+group: Hide drops
+enum: ["Coins"]
+*/
 #define VAR_ABERRANTSPECTRE_ENUMLIST_FILTER_COINS ["Coins"]
 CONST_ABERRANTSPECTRE_RULE (name:VAR_ABERRANTSPECTRE_ENUMLIST_FILTER_COINS) {
   hidden = true;
 }
-
-
 
 // endmodule:Aberrant spectre

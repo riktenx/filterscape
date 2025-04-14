@@ -1,63 +1,83 @@
-// module:Alchemical Hydra
+
+/*@ define:module:alchemicalhydra
+name: Alchemical Hydra
+*/
 
 #define CONST_AREA_ALCHEMICALHYDRA [1346,10287,0,1385,10251,0]
 #define CONST_ALCHEMICALHYDRA_RULE(_cond) rule (area:CONST_AREA_ALCHEMICALHYDRA && (_cond))
 
-// label:100%
-// group:Hide drops
-// enum:["Hydra bones"]
+/*@ define:input:alchemicalhydra
+type: stringlist
+label: 100%
+group: Hide drops
+enum: ["Hydra bones"]
+*/
 #define VAR_ALCHEMICALHYDRA_ENUMLIST_FILTER_100 []
 CONST_ALCHEMICALHYDRA_RULE (name:VAR_ALCHEMICALHYDRA_ENUMLIST_FILTER_100) {
   hidden = true;
 }
 
-// label:Pre-roll
-// group:Hide drops
-// enum:["Hydra's eye","Hydra's fang","Hydra's heart","Hydra tail","Hydra leather","Hydra's claw","Dragon thrownaxe","Dragon knife"]
+/*@ define:input:alchemicalhydra
+type: stringlist
+label: Pre-roll
+group: Hide drops
+enum: ["Hydra's eye","Hydra's fang","Hydra's heart","Hydra tail","Hydra leather","Hydra's claw","Dragon thrownaxe","Dragon knife"]
+*/
 #define VAR_ALCHEMICALHYDRA_ENUMLIST_FILTER_PREROLL []
 CONST_ALCHEMICALHYDRA_RULE (name:VAR_ALCHEMICALHYDRA_ENUMLIST_FILTER_PREROLL) {
   hidden = true;
 }
 
-// label:Weapons and armour
-// group:Hide drops
-// enum:["Mystic fire staff","Mystic water staff","Battlestaff","Black d'hide body","Dragon longsword","Dragon med helm","Rune platebody","Dragon battleaxe","Rune platelegs","Rune plateskirt","Mystic robe top (light)","Mystic robe bottom (light)"]
+/*@ define:input:alchemicalhydra
+type: stringlist
+label: Weapons and armour
+group: Hide drops
+enum: ["Mystic fire staff","Mystic water staff","Battlestaff","Black d'hide body","Dragon longsword","Dragon med helm","Rune platebody","Dragon battleaxe","Rune platelegs","Rune plateskirt","Mystic robe top (light)","Mystic robe bottom (light)"]
+*/
 #define VAR_ALCHEMICALHYDRA_ENUMLIST_FILTER_WEAPONSANDARMOUR []
 CONST_ALCHEMICALHYDRA_RULE (name:VAR_ALCHEMICALHYDRA_ENUMLIST_FILTER_WEAPONSANDARMOUR) {
   hidden = true;
 }
 
-// label:Runes and ammunition
-// group:Hide drops
-// enum:["Chaos rune","Death rune","Blood rune","Astral rune","Dragonstone bolts (e)","Onyx bolts (e)"]
+/*@ define:input:alchemicalhydra
+type: stringlist
+label: Runes and ammunition
+group: Hide drops
+enum: ["Chaos rune","Death rune","Blood rune","Astral rune","Dragonstone bolts (e)","Onyx bolts (e)"]
+*/
 #define VAR_ALCHEMICALHYDRA_ENUMLIST_FILTER_RUNESANDAMMUNITION []
 CONST_ALCHEMICALHYDRA_RULE (name:VAR_ALCHEMICALHYDRA_ENUMLIST_FILTER_RUNESANDAMMUNITION) {
   hidden = true;
 }
 
-// label:Herbs
-// group:Hide drops
-// enum:["Grimy avantoe","Grimy kwuarm","Grimy ranarr weed","Grimy snapdragon","Grimy cadantine","Grimy dwarf weed","Grimy lantadyme","Grimy torstol"]
+/*@ define:input:alchemicalhydra
+type: stringlist
+label: Herbs
+group: Hide drops
+enum: ["Grimy avantoe","Grimy kwuarm","Grimy ranarr weed","Grimy snapdragon","Grimy cadantine","Grimy dwarf weed","Grimy lantadyme","Grimy torstol"]
+*/
 #define VAR_ALCHEMICALHYDRA_ENUMLIST_FILTER_HERBS []
 CONST_ALCHEMICALHYDRA_RULE (name:VAR_ALCHEMICALHYDRA_ENUMLIST_FILTER_HERBS) {
   hidden = true;
 }
 
-
-
-// label:Other
-// group:Hide drops
-// enum:["Coins","Shark","Ranging potion(3)","Super restore(3)","Dragon bones","Crystal key"]
+/*@ define:input:alchemicalhydra
+type: stringlist
+label: Other
+group: Hide drops
+enum: ["Coins","Shark","Ranging potion(3)","Super restore(3)","Dragon bones","Crystal key"]
+*/
 #define VAR_ALCHEMICALHYDRA_ENUMLIST_FILTER_OTHER []
 CONST_ALCHEMICALHYDRA_RULE (name:VAR_ALCHEMICALHYDRA_ENUMLIST_FILTER_OTHER) {
   hidden = true;
 }
 
-
-
-// label:Tertiary
-// group:Hide drops
-// enum:["Brimstone key","Alchemical hydra heads","Jar of chemicals","Ikkle hydra"]
+/*@ define:input:alchemicalhydra
+type: stringlist
+label: Tertiary
+group: Hide drops
+enum: ["Brimstone key","Alchemical hydra heads","Jar of chemicals","Ikkle hydra"]
+*/
 #define VAR_ALCHEMICALHYDRA_ENUMLIST_FILTER_TERTIARY []
 CONST_ALCHEMICALHYDRA_RULE (name:VAR_ALCHEMICALHYDRA_ENUMLIST_FILTER_TERTIARY) {
   hidden = true;

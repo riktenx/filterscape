@@ -115,9 +115,11 @@ const index = [
         };
       },
       preScript: () => {
-        return `
-// group:General
-// label:Hide coin drops from bodyguards
+        return `/*@ define:input:kreearra
+type: boolean
+group: General
+label: Hide coin drops from bodyguards
+*/
 #define VAR_KREEARRA_BOOLEAN_GENERAL_BGHIDECOINS true
 CONST_KREEARRA_RULE (VAR_KREEARRA_BOOLEAN_GENERAL_BGHIDECOINS && name:"coins" && quantity:<=1100) {
   hidden = true;
@@ -239,10 +241,20 @@ CONST_KREEARRA_RULE (VAR_KREEARRA_BOOLEAN_GENERAL_BGHIDECOINS && name:"coins" &&
         };
       },
       preScript: () => {
-        return `// label:Hide un-noted blue d-hide
+        return `/*@ define:input:vorkath
+type: boolean
+group: General
+label: Hide un-noted blue d-hide
+*/
 #define VAR_VORKATH_BOOLEAN_GENERAL_NOHIDE true
-// label:Hide superior dragon bones (why?)
+
+/*@ define:input:vorkath
+type: boolean
+group: General
+label: Hide superior dragon bones (why?)
+*/
 #define VAR_VORKATH_BOOLEAN_GENERAL_NOBONE false
+
 CONST_VORKATH_RULE (VAR_VORKATH_BOOLEAN_GENERAL_NOHIDE && name:"Blue dragonhide" && noted:false) {
   hidden = true;
 }

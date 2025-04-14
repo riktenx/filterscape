@@ -1,47 +1,61 @@
-// module:General Graardor
+
+/*@ define:module:generalgraardor
+name: General Graardor
+*/
 
 #define CONST_AREA_GENERALGRAARDOR [2863,5350,2,2877,5370,2]
 #define CONST_GENERALGRAARDOR_RULE(_cond) rule (area:CONST_AREA_GENERALGRAARDOR && (_cond))
 
-
-
-// label:100%
-// group:Hide drops
-// enum:["Big bones","Frozen key piece (bandos)"]
+/*@ define:input:generalgraardor
+type: stringlist
+label: 100%
+group: Hide drops
+enum: ["Big bones","Frozen key piece (bandos)"]
+*/
 #define VAR_GENERALGRAARDOR_ENUMLIST_FILTER_100 []
 CONST_GENERALGRAARDOR_RULE (name:VAR_GENERALGRAARDOR_ENUMLIST_FILTER_100) {
   hidden = true;
 }
 
-// label:Uniques
-// group:Hide drops
-// enum:["Bandos chestplate","Bandos tassets","Bandos boots","Bandos hilt","Godsword shard 1","Godsword shard 2","Godsword shard 3"]
+/*@ define:input:generalgraardor
+type: stringlist
+label: Uniques
+group: Hide drops
+enum: ["Bandos chestplate","Bandos tassets","Bandos boots","Bandos hilt","Godsword shard 1","Godsword shard 2","Godsword shard 3"]
+*/
 #define VAR_GENERALGRAARDOR_ENUMLIST_FILTER_UNIQUES []
 CONST_GENERALGRAARDOR_RULE (name:VAR_GENERALGRAARDOR_ENUMLIST_FILTER_UNIQUES) {
   hidden = true;
 }
 
-// label:Weapons and armour
-// group:Hide drops
-// enum:["Rune longsword","Rune 2h sword","Rune platebody","Rune pickaxe"]
+/*@ define:input:generalgraardor
+type: stringlist
+label: Weapons and armour
+group: Hide drops
+enum: ["Rune longsword","Rune 2h sword","Rune platebody","Rune pickaxe"]
+*/
 #define VAR_GENERALGRAARDOR_ENUMLIST_FILTER_WEAPONSANDARMOUR []
 CONST_GENERALGRAARDOR_RULE (name:VAR_GENERALGRAARDOR_ENUMLIST_FILTER_WEAPONSANDARMOUR) {
   hidden = true;
 }
 
-// label:Other
-// group:Hide drops
-// enum:["Coins","Grimy snapdragon","Snapdragon seed","Super restore(4)","Adamantite ore","Coal","Magic logs","Nature rune"]
+/*@ define:input:generalgraardor
+type: stringlist
+label: Other
+group: Hide drops
+enum: ["Coins","Grimy snapdragon","Snapdragon seed","Super restore(4)","Adamantite ore","Coal","Magic logs","Nature rune"]
+*/
 #define VAR_GENERALGRAARDOR_ENUMLIST_FILTER_OTHER []
 CONST_GENERALGRAARDOR_RULE (name:VAR_GENERALGRAARDOR_ENUMLIST_FILTER_OTHER) {
   hidden = true;
 }
 
-
-
-// label:Tertiary
-// group:Hide drops
-// enum:["Brimstone key","Long bone","Pet general graardor","Curved bone"]
+/*@ define:input:generalgraardor
+type: stringlist
+label: Tertiary
+group: Hide drops
+enum: ["Brimstone key","Long bone","Pet general graardor","Curved bone"]
+*/
 #define VAR_GENERALGRAARDOR_ENUMLIST_FILTER_TERTIARY []
 CONST_GENERALGRAARDOR_RULE (name:VAR_GENERALGRAARDOR_ENUMLIST_FILTER_TERTIARY) {
   hidden = true;

@@ -1,69 +1,94 @@
-// module:Sarachnis
+
+/*@ define:module:sarachnis
+name: Sarachnis
+*/
 
 #define CONST_AREA_SARACHNIS [1829,9890,0,1855,9911,0]
 #define CONST_SARACHNIS_RULE(_cond) rule (area:CONST_AREA_SARACHNIS && (_cond))
 
-// label:Pre-roll
-// group:Hide drops
-// enum:["Dragon med helm","Sarachnis cudgel"]
+/*@ define:input:sarachnis
+type: stringlist
+label: Pre-roll
+group: Hide drops
+enum: ["Dragon med helm","Sarachnis cudgel"]
+*/
 #define VAR_SARACHNIS_ENUMLIST_FILTER_PREROLL []
 CONST_SARACHNIS_RULE (name:VAR_SARACHNIS_ENUMLIST_FILTER_PREROLL) {
   hidden = true;
 }
 
-// label:Weapons and armour
-// group:Hide drops
-// enum:["Battlestaff","Rune platebody","Rune med helm","Rune 2h sword"]
+/*@ define:input:sarachnis
+type: stringlist
+label: Weapons and armour
+group: Hide drops
+enum: ["Battlestaff","Rune platebody","Rune med helm","Rune 2h sword"]
+*/
 #define VAR_SARACHNIS_ENUMLIST_FILTER_WEAPONSANDARMOUR []
 CONST_SARACHNIS_RULE (name:VAR_SARACHNIS_ENUMLIST_FILTER_WEAPONSANDARMOUR) {
   hidden = true;
 }
 
-// label:Runes and ammunition
-// group:Hide drops
-// enum:["Blood rune","Chaos rune","Cosmic rune","Death rune","Soul rune","Mithril arrow","Mithril bolts"]
+/*@ define:input:sarachnis
+type: stringlist
+label: Runes and ammunition
+group: Hide drops
+enum: ["Blood rune","Chaos rune","Cosmic rune","Death rune","Soul rune","Mithril arrow","Mithril bolts"]
+*/
 #define VAR_SARACHNIS_ENUMLIST_FILTER_RUNESANDAMMUNITION []
 CONST_SARACHNIS_RULE (name:VAR_SARACHNIS_ENUMLIST_FILTER_RUNESANDAMMUNITION) {
   hidden = true;
 }
 
-// label:Seeds
-// group:Hide drops
-// enum:["Maple seed","Papaya tree seed","Yew seed"]
+/*@ define:input:sarachnis
+type: stringlist
+label: Seeds
+group: Hide drops
+enum: ["Maple seed","Papaya tree seed","Yew seed"]
+*/
 #define VAR_SARACHNIS_ENUMLIST_FILTER_SEEDS []
 CONST_SARACHNIS_RULE (name:VAR_SARACHNIS_ENUMLIST_FILTER_SEEDS) {
   hidden = true;
 }
 
-// label:Herbs
-// group:Hide drops
-// enum:["Grimy kwuarm","Grimy cadantine","Grimy dwarf weed","Grimy avantoe","Grimy lantadyme","Grimy ranarr weed","Grimy snapdragon","Grimy torstol"]
+/*@ define:input:sarachnis
+type: stringlist
+label: Herbs
+group: Hide drops
+enum: ["Grimy kwuarm","Grimy cadantine","Grimy dwarf weed","Grimy avantoe","Grimy lantadyme","Grimy ranarr weed","Grimy snapdragon","Grimy torstol"]
+*/
 #define VAR_SARACHNIS_ENUMLIST_FILTER_HERBS []
 CONST_SARACHNIS_RULE (name:VAR_SARACHNIS_ENUMLIST_FILTER_HERBS) {
   hidden = true;
 }
 
-// label:Materials
-// group:Hide drops
-// enum:["Mithril ore","Red dragonhide","Uncut sapphire","Adamantite ore","Uncut emerald","Onyx bolt tips","Uncut ruby","Runite ore","Uncut diamond"]
+/*@ define:input:sarachnis
+type: stringlist
+label: Materials
+group: Hide drops
+enum: ["Mithril ore","Red dragonhide","Uncut sapphire","Adamantite ore","Uncut emerald","Onyx bolt tips","Uncut ruby","Runite ore","Uncut diamond"]
+*/
 #define VAR_SARACHNIS_ENUMLIST_FILTER_MATERIALS []
 CONST_SARACHNIS_RULE (name:VAR_SARACHNIS_ENUMLIST_FILTER_MATERIALS) {
   hidden = true;
 }
 
-// label:Other
-// group:Hide drops
-// enum:["Coins","Dragon bones","Egg potato","Weapon poison(++)","Crystal key","Spider carcass"]
+/*@ define:input:sarachnis
+type: stringlist
+label: Other
+group: Hide drops
+enum: ["Coins","Dragon bones","Egg potato","Weapon poison(++)","Crystal key","Spider carcass"]
+*/
 #define VAR_SARACHNIS_ENUMLIST_FILTER_OTHER []
 CONST_SARACHNIS_RULE (name:VAR_SARACHNIS_ENUMLIST_FILTER_OTHER) {
   hidden = true;
 }
 
-
-
-// label:Tertiary
-// group:Hide drops
-// enum:["Tattered moon page","Tattered sun page","Tattered temple page","Giant egg sac(full)","Grubby key","Brimstone key","Jar of eyes","Sraracha"]
+/*@ define:input:sarachnis
+type: stringlist
+label: Tertiary
+group: Hide drops
+enum: ["Tattered moon page","Tattered sun page","Tattered temple page","Giant egg sac(full)","Grubby key","Brimstone key","Jar of eyes","Sraracha"]
+*/
 #define VAR_SARACHNIS_ENUMLIST_FILTER_TERTIARY []
 CONST_SARACHNIS_RULE (name:VAR_SARACHNIS_ENUMLIST_FILTER_TERTIARY) {
   hidden = true;

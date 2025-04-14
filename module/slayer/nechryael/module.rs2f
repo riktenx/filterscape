@@ -1,63 +1,85 @@
-// module:Nechryael
+
+/*@ define:module:nechryael
+name: Nechryael
+*/
 
 #define CONST_AREA_NECHRYAEL0 [3433,3560,2,3449,3574,2] // [[Slayer Tower]] Top Floor
 #define CONST_AREA_NECHRYAEL1 [3403,9954,3,3424,9971,3] // [[Slayer Tower]] Basement
 #define CONST_NECHRYAEL_RULE(_cond) rule ((area:CONST_AREA_NECHRYAEL0 || \
   area:CONST_AREA_NECHRYAEL1) && (_cond))
 
-// label:100%
-// group:Hide drops
-// enum:["Malicious ashes"]
+/*@ define:input:nechryael
+type: stringlist
+label: 100%
+group: Hide drops
+enum: ["Malicious ashes"]
+*/
 #define VAR_NECHRYAEL_ENUMLIST_FILTER_100 []
 CONST_NECHRYAEL_RULE (name:VAR_NECHRYAEL_ENUMLIST_FILTER_100) {
   hidden = true;
 }
 
-// label:Weapons and armour
-// group:Hide drops
-// enum:["Adamant platelegs","Rune 2h sword","Rune full helm","Adamant kiteshield","Rune boots"]
+/*@ define:input:nechryael
+type: stringlist
+label: Weapons and armour
+group: Hide drops
+enum: ["Adamant platelegs","Rune 2h sword","Rune full helm","Adamant kiteshield","Rune boots"]
+*/
 #define VAR_NECHRYAEL_ENUMLIST_FILTER_WEAPONSANDARMOUR []
 CONST_NECHRYAEL_RULE (name:VAR_NECHRYAEL_ENUMLIST_FILTER_WEAPONSANDARMOUR) {
   hidden = true;
 }
 
-// label:Runes
-// group:Hide drops
-// enum:["Chaos rune","Death rune","Law rune","Blood rune"]
+/*@ define:input:nechryael
+type: stringlist
+label: Runes
+group: Hide drops
+enum: ["Chaos rune","Death rune","Law rune","Blood rune"]
+*/
 #define VAR_NECHRYAEL_ENUMLIST_FILTER_RUNES []
 CONST_NECHRYAEL_RULE (name:VAR_NECHRYAEL_ENUMLIST_FILTER_RUNES) {
   hidden = true;
 }
 
-// label:Seeds
-// group:Hide drops
-// enum:["Limpwurt seed"]
+/*@ define:input:nechryael
+type: stringlist
+label: Seeds
+group: Hide drops
+enum: ["Limpwurt seed"]
+*/
 #define VAR_NECHRYAEL_ENUMLIST_FILTER_SEEDS []
 CONST_NECHRYAEL_RULE (name:VAR_NECHRYAEL_ENUMLIST_FILTER_SEEDS) {
   hidden = true;
 }
 
-// label:Coins
-// group:Hide drops
-// enum:["Coins"]
+/*@ define:input:nechryael
+type: stringlist
+label: Coins
+group: Hide drops
+enum: ["Coins"]
+*/
 #define VAR_NECHRYAEL_ENUMLIST_FILTER_COINS []
 CONST_NECHRYAEL_RULE (name:VAR_NECHRYAEL_ENUMLIST_FILTER_COINS) {
   hidden = true;
 }
 
-// label:Other
-// group:Hide drops
-// enum:["Soft clay","Tuna"]
+/*@ define:input:nechryael
+type: stringlist
+label: Other
+group: Hide drops
+enum: ["Soft clay","Tuna"]
+*/
 #define VAR_NECHRYAEL_ENUMLIST_FILTER_OTHER []
 CONST_NECHRYAEL_RULE (name:VAR_NECHRYAEL_ENUMLIST_FILTER_OTHER) {
   hidden = true;
 }
 
-
-
-// label:Tertiary
-// group:Hide drops
-// enum:["Brimstone key"]
+/*@ define:input:nechryael
+type: stringlist
+label: Tertiary
+group: Hide drops
+enum: ["Brimstone key"]
+*/
 #define VAR_NECHRYAEL_ENUMLIST_FILTER_TERTIARY []
 CONST_NECHRYAEL_RULE (name:VAR_NECHRYAEL_ENUMLIST_FILTER_TERTIARY) {
   hidden = true;

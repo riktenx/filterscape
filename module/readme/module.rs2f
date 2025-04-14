@@ -1,4 +1,15 @@
-// module:README
+
+/*@ define:module:readme
+---
+name: README
+subtitle: Recommended plugin configuration for this filter.
+description: |
+  This filter uses dynamic font sizing and custom item value tiers.
+  
+  To get the full effects of this filter, you must do the following in plugin settings:
+  1. Set 'General -> Font mode' to 'plugin'.
+  2. Set 'Item value rules -> Enabled' to 'after filter'.
+*/
 
 #define LIB_BROWN       "#d2b287"
 #define LIB_LIGHT_BROWN "#af6025"
@@ -15,4 +26,3 @@
 #define LIB_DARK_BG(_name, _color) rule (name:_name) { color = _color; borderColor = _color; backgroundColor = BLACK; }
 #define LIB_TEXT_HIGHLIGHT(_name, _color) rule (name:_name) { color = _color; textAccent = 2; }
 
-// endmodule:README

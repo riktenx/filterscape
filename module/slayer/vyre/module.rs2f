@@ -1,65 +1,83 @@
-// module:Vyre
+
+/*@ define:module:vyre
+name: Vyre
+*/
 
 #define CONST_AREA_VYRE0 [3592,3324,0,3648,3389,0] // [[Darkmeyer]]
 #define CONST_VYRE_RULE(_cond) rule ((area:CONST_AREA_VYRE0) && (_cond))
 
-// label:100%
-// group:Hide drops
-// enum:["Vampyre dust"]
+/*@ define:input:vyre
+type: stringlist
+label: 100%
+group: Hide drops
+enum: ["Vampyre dust"]
+*/
 #define VAR_VYRE_ENUMLIST_FILTER_100 []
 CONST_VYRE_RULE (name:VAR_VYRE_ENUMLIST_FILTER_100) {
   hidden = true;
 }
 
-// label:Weapons and armour
-// group:Hide drops
-// enum:["Rune dagger","Adamant platelegs","Adamant platebody","Rune full helm","Rune kiteshield"]
+/*@ define:input:vyre
+type: stringlist
+label: Weapons and armour
+group: Hide drops
+enum: ["Rune dagger","Adamant platelegs","Adamant platebody","Rune full helm","Rune kiteshield"]
+*/
 #define VAR_VYRE_ENUMLIST_FILTER_WEAPONSANDARMOUR []
 CONST_VYRE_RULE (name:VAR_VYRE_ENUMLIST_FILTER_WEAPONSANDARMOUR) {
   hidden = true;
 }
 
-// label:Runes and ammunition
-// group:Hide drops
-// enum:["Death rune","Blood rune","Nature rune","Rune arrow","Rune javelin"]
+/*@ define:input:vyre
+type: stringlist
+label: Runes and ammunition
+group: Hide drops
+enum: ["Death rune","Blood rune","Nature rune","Rune arrow","Rune javelin"]
+*/
 #define VAR_VYRE_ENUMLIST_FILTER_RUNESANDAMMUNITION []
 CONST_VYRE_RULE (name:VAR_VYRE_ENUMLIST_FILTER_RUNESANDAMMUNITION) {
   hidden = true;
 }
 
-
-
-
-
-// label:Bolt tips
-// group:Hide drops
-// enum:["Opal bolt tips","Jade bolt tips","Topaz bolt tips","Pearl bolt tips","Sapphire bolt tips","Emerald bolt tips","Ruby bolt tips","Diamond bolt tips","Dragonstone bolt tips","Onyx bolt tips"]
+/*@ define:input:vyre
+type: stringlist
+label: Bolt tips
+group: Hide drops
+enum: ["Opal bolt tips","Jade bolt tips","Topaz bolt tips","Pearl bolt tips","Sapphire bolt tips","Emerald bolt tips","Ruby bolt tips","Diamond bolt tips","Dragonstone bolt tips","Onyx bolt tips"]
+*/
 #define VAR_VYRE_ENUMLIST_FILTER_BOLTTIPS []
 CONST_VYRE_RULE (name:VAR_VYRE_ENUMLIST_FILTER_BOLTTIPS) {
   hidden = true;
 }
 
-// label:Materials
-// group:Hide drops
-// enum:["Bark","Coal","Runite bar","Yew logs","Runite ore"]
+/*@ define:input:vyre
+type: stringlist
+label: Materials
+group: Hide drops
+enum: ["Bark","Coal","Runite bar","Yew logs","Runite ore"]
+*/
 #define VAR_VYRE_ENUMLIST_FILTER_MATERIALS []
 CONST_VYRE_RULE (name:VAR_VYRE_ENUMLIST_FILTER_MATERIALS) {
   hidden = true;
 }
 
-// label:Coins
-// group:Hide drops
-// enum:["Coins"]
+/*@ define:input:vyre
+type: stringlist
+label: Coins
+group: Hide drops
+enum: ["Coins"]
+*/
 #define VAR_VYRE_ENUMLIST_FILTER_COINS []
 CONST_VYRE_RULE (name:VAR_VYRE_ENUMLIST_FILTER_COINS) {
   hidden = true;
 }
 
-
-
-// label:Tertiary
-// group:Hide drops
-// enum:["Brimstone key"]
+/*@ define:input:vyre
+type: stringlist
+label: Tertiary
+group: Hide drops
+enum: ["Brimstone key"]
+*/
 #define VAR_VYRE_ENUMLIST_FILTER_TERTIARY []
 CONST_VYRE_RULE (name:VAR_VYRE_ENUMLIST_FILTER_TERTIARY) {
   hidden = true;

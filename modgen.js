@@ -54,10 +54,20 @@ const generateMultiAreaCond = (moduleScope, areas) => {
   return rs2f;
 };
 
+const toModuleName = (str) => str
+  .toLowerCase()
+  .replace("'", '')
+  .replaceAll(' ', '');
+
 export const generateRs2f = (name, area, dropTable, transform) => {
+  const moduleName = toModuleName(name);
+
   let rs2f = '';
 
-  rs2f += `// module:${name}`;
+  rs2f += `
+/*@ define:module:${moduleName}
+name: ${name}
+*/`;
   rs2f += '\n\n';
 
   const moduleScope = toMacroIdent(name);
@@ -88,72 +98,20 @@ export const generateRs2f = (name, area, dropTable, transform) => {
     const jvalue = JSON.stringify(items);
     const ident = toMacroIdent(category);
     // some categories parse with additional = surrounding the mediawiki section, just chop that off for now
-    return `// label:${category.startsWith('=') ? category.substring(1, category.length - 1) : category}
-// group:Hide drops
-// enum:${jvalue}
+    return `/*@ define:input:${moduleName}
+type: stringlist
+label: ${category.startsWith('=') ? category.substring(1, category.length - 1) : category}
+group: Hide drops
+enum: ${jvalue}
+*/
 #define VAR_${moduleScope}_ENUMLIST_FILTER_${ident} ${JSON.stringify(defaults)}
 CONST_${moduleScope}_RULE (name:VAR_${moduleScope}_ENUMLIST_FILTER_${ident}) {
   hidden = true;
 }`;
-  }).join('\n\n');
+  }).filter(it => !!it).join('\n\n');
 
   rs2f += '\n\n';
   rs2f += `// endmodule:${name}`;
 
   return rs2f;
-};
-
-export const generateJson = (rs2f) => {
-  const lines = rs2f.split('\n');
-
-  const moduleData = {
-    name: 'TODO',
-    rs2fPath: 'module.rs2f',
-    inputs: [],
-  };
-
-  let nextProps = {};
-
-  lines.forEach(line => {
-    if (line.startsWith('// module:')) {
-      const [_, moduleName] = line.split(':');
-      moduleData.name = moduleName;
-      return;
-    }
-
-    if (line.startsWith('// ')) {
-      const [prop, value] = line.substring(3).split(':');
-      nextProps[prop] = value;
-      return;
-    }
-
-    if (!line.startsWith('#define')) {
-      return;
-    }
-
-    const [_, ident, ...vvalue] = line.split(' ');
-    const value = vvalue.join(' ');
-
-    const [decl, __, type, group] = ident.split('_', 4);
-    if (decl !== 'VAR') {
-      return;
-    }
-
-    const m = {
-      type: type.toLowerCase(),
-      group: group,
-      label: ident,
-      macroName: ident,
-      default: parseDefault(type, value),
-      ...nextProps,
-    };
-    if (!!m.enum) {
-      m.enum = JSON.parse(m.enum);
-    }
-
-    moduleData.inputs.push(m);
-    nextProps = {};
-  });
-
-  return moduleData;
 };

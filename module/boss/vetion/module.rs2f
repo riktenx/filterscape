@@ -1,74 +1,97 @@
-// module:Vet'ion
+
+/*@ define:module:vetion
+name: Vet'ion
+*/
 
 #define CONST_AREA_VETION [3282,10187,1,3307,10216,1]
 #define CONST_VETION_RULE(_cond) rule (area:CONST_AREA_VETION && (_cond))
 
-// label:100%
-// group:Hide drops
-// enum:["Big bones","Bones"]
+/*@ define:input:vetion
+type: stringlist
+label: 100%
+group: Hide drops
+enum: ["Big bones","Bones"]
+*/
 #define VAR_VETION_ENUMLIST_FILTER_100 []
 CONST_VETION_RULE (name:VAR_VETION_ENUMLIST_FILTER_100) {
   hidden = true;
 }
 
-// label:Unique
-// group:Hide drops
-// enum:["Skull of vet'ion","Dragon 2h sword","Dragon pickaxe","Voidwaker blade","Ring of the gods"]
+/*@ define:input:vetion
+type: stringlist
+label: Unique
+group: Hide drops
+enum: ["Skull of vet'ion","Dragon 2h sword","Dragon pickaxe","Voidwaker blade","Ring of the gods"]
+*/
 #define VAR_VETION_ENUMLIST_FILTER_UNIQUE []
 CONST_VETION_RULE (name:VAR_VETION_ENUMLIST_FILTER_UNIQUE) {
   hidden = true;
 }
 
-// label:Weapons and armour
-// group:Hide drops
-// enum:["Mystic fire staff","Mystic water staff","Mystic robe top","Mystic robe bottom","Rune full helm","Rune pickaxe","Rune dart","Rune knife"]
+/*@ define:input:vetion
+type: stringlist
+label: Weapons and armour
+group: Hide drops
+enum: ["Mystic fire staff","Mystic water staff","Mystic robe top","Mystic robe bottom","Rune full helm","Rune pickaxe","Rune dart","Rune knife"]
+*/
 #define VAR_VETION_ENUMLIST_FILTER_WEAPONSANDARMOUR []
 CONST_VETION_RULE (name:VAR_VETION_ENUMLIST_FILTER_WEAPONSANDARMOUR) {
   hidden = true;
 }
 
-// label:Runes and ammunition
-// group:Hide drops
-// enum:["Chaos rune","Death rune","Blood rune","Cannonball"]
+/*@ define:input:vetion
+type: stringlist
+label: Runes and ammunition
+group: Hide drops
+enum: ["Chaos rune","Death rune","Blood rune","Cannonball"]
+*/
 #define VAR_VETION_ENUMLIST_FILTER_RUNESANDAMMUNITION []
 CONST_VETION_RULE (name:VAR_VETION_ENUMLIST_FILTER_RUNESANDAMMUNITION) {
   hidden = true;
 }
 
-// label:Materials
-// group:Hide drops
-// enum:["Uncut ruby","Uncut diamond","Uncut dragonstone","Gold ore","Limpwurt root","Wine of zamorak","Magic logs","Oak plank","Dragon bones","Mort myre fungus","Grimy ranarr weed","Grimy dwarf weed","Grimy snapdragon","Grimy toadflax"]
+/*@ define:input:vetion
+type: stringlist
+label: Materials
+group: Hide drops
+enum: ["Uncut ruby","Uncut diamond","Uncut dragonstone","Gold ore","Limpwurt root","Wine of zamorak","Magic logs","Oak plank","Dragon bones","Mort myre fungus","Grimy ranarr weed","Grimy dwarf weed","Grimy snapdragon","Grimy toadflax"]
+*/
 #define VAR_VETION_ENUMLIST_FILTER_MATERIALS []
 CONST_VETION_RULE (name:VAR_VETION_ENUMLIST_FILTER_MATERIALS) {
   hidden = true;
 }
 
-// label:Other
-// group:Hide drops
-// enum:["Coins","Supercompost","Super restore(4)","Blighted anglerfish","Sanfew serum(4)","Dark crab","Wilderness crabs teleport"]
+/*@ define:input:vetion
+type: stringlist
+label: Other
+group: Hide drops
+enum: ["Coins","Supercompost","Super restore(4)","Blighted anglerfish","Sanfew serum(4)","Dark crab","Wilderness crabs teleport"]
+*/
 #define VAR_VETION_ENUMLIST_FILTER_OTHER []
 CONST_VETION_RULE (name:VAR_VETION_ENUMLIST_FILTER_OTHER) {
   hidden = true;
 }
 
-// label:Secondary Supply roll
-// group:Hide drops
-// enum:["Blighted anglerfish","Blighted karambwan","Blighted super restore(3)","Blighted super restore(4)","Ranging potion(2)","Super combat potion(2)"]
+/*@ define:input:vetion
+type: stringlist
+label: Secondary Supply roll
+group: Hide drops
+enum: ["Blighted anglerfish","Blighted karambwan","Blighted super restore(3)","Blighted super restore(4)","Ranging potion(2)","Super combat potion(2)"]
+*/
 #define VAR_VETION_ENUMLIST_FILTER_SECONDARYSUPPLYROLL []
 CONST_VETION_RULE (name:VAR_VETION_ENUMLIST_FILTER_SECONDARYSUPPLYROLL) {
   hidden = true;
 }
 
-// label:Tertiary
-// group:Hide drops
-// enum:["Looting bag","Brimstone key","Long bone","Vet'ion jr.","Skeleton champion scroll","Curved bone"]
+/*@ define:input:vetion
+type: stringlist
+label: Tertiary
+group: Hide drops
+enum: ["Looting bag","Brimstone key","Long bone","Vet'ion jr.","Skeleton champion scroll","Curved bone"]
+*/
 #define VAR_VETION_ENUMLIST_FILTER_TERTIARY []
 CONST_VETION_RULE (name:VAR_VETION_ENUMLIST_FILTER_TERTIARY) {
   hidden = true;
 }
-
-
-
-
 
 // endmodule:Vet'ion

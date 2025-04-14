@@ -1,64 +1,86 @@
-// module:The Nightmare
+
+/*@ define:module:thenightmare
+name: The Nightmare
+*/
 
 #define CONST_AREA_THENIGHTMARE [3840,9920,3,3903,9983,3]
 #define CONST_THENIGHTMARE_RULE(_cond) rule (area:CONST_AREA_THENIGHTMARE && (_cond))
 
-// label:100%
-// group:Hide drops
-// enum:["Big bones","Bones"]
+/*@ define:input:thenightmare
+type: stringlist
+label: 100%
+group: Hide drops
+enum: ["Big bones","Bones"]
+*/
 #define VAR_THENIGHTMARE_ENUMLIST_FILTER_100 []
 CONST_THENIGHTMARE_RULE (name:VAR_THENIGHTMARE_ENUMLIST_FILTER_100) {
   hidden = true;
 }
 
-// label:Uniques
-// group:Hide drops
-// enum:["Nightmare staff","Inquisitor's great helm","Inquisitor's hauberk","Inquisitor's plateskirt","Inquisitor's mace","Eldritch orb","Harmonised orb","Volatile orb"]
+/*@ define:input:thenightmare
+type: stringlist
+label: Uniques
+group: Hide drops
+enum: ["Nightmare staff","Inquisitor's great helm","Inquisitor's hauberk","Inquisitor's plateskirt","Inquisitor's mace","Eldritch orb","Harmonised orb","Volatile orb"]
+*/
 #define VAR_THENIGHTMARE_ENUMLIST_FILTER_UNIQUES []
 CONST_THENIGHTMARE_RULE (name:VAR_THENIGHTMARE_ENUMLIST_FILTER_UNIQUES) {
   hidden = true;
 }
 
-// label:Runes and ammunition
-// group:Hide drops
-// enum:["Cosmic rune","Nature rune","Death rune","Blood rune","Soul rune","Cannonball","Rune arrow"]
+/*@ define:input:thenightmare
+type: stringlist
+label: Runes and ammunition
+group: Hide drops
+enum: ["Cosmic rune","Nature rune","Death rune","Blood rune","Soul rune","Cannonball","Rune arrow"]
+*/
 #define VAR_THENIGHTMARE_ENUMLIST_FILTER_RUNESANDAMMUNITION []
 CONST_THENIGHTMARE_RULE (name:VAR_THENIGHTMARE_ENUMLIST_FILTER_RUNESANDAMMUNITION) {
   hidden = true;
 }
 
-// label:Resources
-// group:Hide drops
-// enum:["Mithril ore","Coal","Gold ore","Adamantite ore","Magic logs","Grimy cadantine","Grimy torstol","Snapdragon seed","Uncut emerald","Uncut ruby","Runite ore"]
+/*@ define:input:thenightmare
+type: stringlist
+label: Resources
+group: Hide drops
+enum: ["Mithril ore","Coal","Gold ore","Adamantite ore","Magic logs","Grimy cadantine","Grimy torstol","Snapdragon seed","Uncut emerald","Uncut ruby","Runite ore"]
+*/
 #define VAR_THENIGHTMARE_ENUMLIST_FILTER_RESOURCES []
 CONST_THENIGHTMARE_RULE (name:VAR_THENIGHTMARE_ENUMLIST_FILTER_RESOURCES) {
   hidden = true;
 }
 
-// label:Consumables
-// group:Hide drops
-// enum:["Bass","Shark","Prayer potion(3)","Sanfew serum(3)","Saradomin brew(3)","Zamorak brew(3)"]
+/*@ define:input:thenightmare
+type: stringlist
+label: Consumables
+group: Hide drops
+enum: ["Bass","Shark","Prayer potion(3)","Sanfew serum(3)","Saradomin brew(3)","Zamorak brew(3)"]
+*/
 #define VAR_THENIGHTMARE_ENUMLIST_FILTER_CONSUMABLES []
 CONST_THENIGHTMARE_RULE (name:VAR_THENIGHTMARE_ENUMLIST_FILTER_CONSUMABLES) {
   hidden = true;
 }
 
-// label:Coins
-// group:Hide drops
-// enum:["Coins"]
+/*@ define:input:thenightmare
+type: stringlist
+label: Coins
+group: Hide drops
+enum: ["Coins"]
+*/
 #define VAR_THENIGHTMARE_ENUMLIST_FILTER_COINS []
 CONST_THENIGHTMARE_RULE (name:VAR_THENIGHTMARE_ENUMLIST_FILTER_COINS) {
   hidden = true;
 }
 
-// label:Tertiary
-// group:Hide drops
-// enum:["Little nightmare","Jar of dreams"]
+/*@ define:input:thenightmare
+type: stringlist
+label: Tertiary
+group: Hide drops
+enum: ["Little nightmare","Jar of dreams"]
+*/
 #define VAR_THENIGHTMARE_ENUMLIST_FILTER_TERTIARY []
 CONST_THENIGHTMARE_RULE (name:VAR_THENIGHTMARE_ENUMLIST_FILTER_TERTIARY) {
   hidden = true;
 }
-
-
 
 // endmodule:The Nightmare

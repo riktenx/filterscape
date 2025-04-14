@@ -1,17 +1,93 @@
-// module:HIGHLIGHTGROUP
 
+/*@ define:module:global_highlight
+---
+name: Global highlight
+*/
+
+/*@ define:input:global_highlight
+type: boolean
+label: Enabled
+group: HIGHLIGHT1
+*/
 #define VAR_HHGROUP_BOOLEAN_HIGHLIGHT1_ENABLED false
+
+/*@ define:input:global_highlight
+type: boolean
+label: Enabled
+group: HIGHLIGHT2
+*/
 #define VAR_HHGROUP_BOOLEAN_HIGHLIGHT2_ENABLED false
+
+/*@ define:input:global_highlight
+type: boolean
+label: Enabled
+group: HIGHLIGHT3
+*/
 #define VAR_HHGROUP_BOOLEAN_HIGHLIGHT3_ENABLED false
+
+/*@ define:input:global_highlight
+type: boolean
+label: Enabled
+group: HIGHLIGHT4
+*/
 #define VAR_HHGROUP_BOOLEAN_HIGHLIGHT4_ENABLED false
+
+/*@ define:input:global_highlight
+type: stringlist
+label: Items
+group: HIGHLIGHT1
+*/
 #define VAR_HHGROUP_STRINGLIST_HIGHLIGHT1_ITEMS []
+
+/*@ define:input:global_highlight
+type: stringlist
+label: Items
+group: HIGHLIGHT2
+*/
 #define VAR_HHGROUP_STRINGLIST_HIGHLIGHT2_ITEMS []
+
+/*@ define:input:global_highlight
+type: stringlist
+label: Items
+group: HIGHLIGHT3
+*/
 #define VAR_HHGROUP_STRINGLIST_HIGHLIGHT3_ITEMS []
+
+/*@ define:input:global_highlight
+type: stringlist
+label: Items
+group: HIGHLIGHT4
+*/
 #define VAR_HHGROUP_STRINGLIST_HIGHLIGHT4_ITEMS []
-#define VAR_HHGROUP_STYLE_HIGHLIGHT1_STYLE
-#define VAR_HHGROUP_STYLE_HIGHLIGHT2_STYLE
-#define VAR_HHGROUP_STYLE_HIGHLIGHT3_STYLE
-#define VAR_HHGROUP_STYLE_HIGHLIGHT4_STYLE
+
+/*@ define:input:global_highlight
+type: style
+label: Style
+group: HIGHLIGHT1
+*/
+#define VAR_HHGROUP_STYLE_HIGHLIGHT1_STYLE 
+
+/*@ define:input:global_highlight
+type: style
+label: Style
+group: HIGHLIGHT2
+*/
+#define VAR_HHGROUP_STYLE_HIGHLIGHT2_STYLE 
+
+/*@ define:input:global_highlight
+type: style
+label: Style
+group: HIGHLIGHT3
+*/
+#define VAR_HHGROUP_STYLE_HIGHLIGHT3_STYLE 
+
+/*@ define:input:global_highlight
+type: style
+label: Style
+group: HIGHLIGHT4
+*/
+#define VAR_HHGROUP_STYLE_HIGHLIGHT4_STYLE 
+
 
 rule (VAR_HHGROUP_BOOLEAN_HIGHLIGHT1_ENABLED && name:VAR_HHGROUP_STRINGLIST_HIGHLIGHT1_ITEMS) {
   VAR_HHGROUP_STYLE_HIGHLIGHT1_STYLE
@@ -26,4 +102,3 @@ rule (VAR_HHGROUP_BOOLEAN_HIGHLIGHT4_ENABLED && name:VAR_HHGROUP_STRINGLIST_HIGH
   VAR_HHGROUP_STYLE_HIGHLIGHT4_STYLE
 }
 
-// endmodule:HIGHLIGHTGROUP

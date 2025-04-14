@@ -1,8 +1,13 @@
-// module:Gargoyle
 
+/*@ define:module:gargoyle
+name: Gargoyle
+*/
 
-// group:Hide drops
-// label:Hide non-10k coin drops
+/*@define:input:gargoyle
+type: boolean
+group: Hide drops
+label: Hide non-10k coin drops
+*/
 #define VAR_GARGOYLE_BOOLEAN_HIDESMALLCOINS true
 CONST_GARGOYLE_RULE (VAR_GARGOYLE_BOOLEAN_HIDESMALLCOINS && name:"Coins" && value:<10_000) {
   hidden = true;
@@ -14,51 +19,67 @@ CONST_GARGOYLE_RULE (VAR_GARGOYLE_BOOLEAN_HIDESMALLCOINS && name:"Coins" && valu
 #define CONST_GARGOYLE_RULE(_cond) rule ((area:CONST_AREA_GARGOYLE0 || \
   area:CONST_AREA_GARGOYLE1) && (_cond))
 
-// label:Pre-roll
-// group:Hide drops
-// enum:["Granite maul","Mystic robe top (dark)"]
+/*@ define:input:gargoyle
+type: stringlist
+label: Pre-roll
+group: Hide drops
+enum: ["Granite maul","Mystic robe top (dark)"]
+*/
 #define VAR_GARGOYLE_ENUMLIST_FILTER_PREROLL []
 CONST_GARGOYLE_RULE (name:VAR_GARGOYLE_ENUMLIST_FILTER_PREROLL) {
   hidden = true;
 }
 
-// label:Weapons and armour
-// group:Hide drops
-// enum:["Adamant platelegs","Rune full helm","Rune 2h sword","Adamant boots","Rune battleaxe","Rune platelegs"]
+/*@ define:input:gargoyle
+type: stringlist
+label: Weapons and armour
+group: Hide drops
+enum: ["Adamant platelegs","Rune full helm","Rune 2h sword","Adamant boots","Rune battleaxe","Rune platelegs"]
+*/
 #define VAR_GARGOYLE_ENUMLIST_FILTER_WEAPONSANDARMOUR ["Adamant platelegs","Adamant boots"]
 CONST_GARGOYLE_RULE (name:VAR_GARGOYLE_ENUMLIST_FILTER_WEAPONSANDARMOUR) {
   hidden = true;
 }
 
-// label:Runes
-// group:Hide drops
-// enum:["Fire rune","Chaos rune","Death rune"]
+/*@ define:input:gargoyle
+type: stringlist
+label: Runes
+group: Hide drops
+enum: ["Fire rune","Chaos rune","Death rune"]
+*/
 #define VAR_GARGOYLE_ENUMLIST_FILTER_RUNES ["Fire rune"]
 CONST_GARGOYLE_RULE (name:VAR_GARGOYLE_ENUMLIST_FILTER_RUNES) {
   hidden = true;
 }
 
-// label:Materials
-// group:Hide drops
-// enum:["Gold ore","Pure essence","Steel bar","Gold bar","Mithril bar","Runite ore"]
+/*@ define:input:gargoyle
+type: stringlist
+label: Materials
+group: Hide drops
+enum: ["Gold ore","Pure essence","Steel bar","Gold bar","Mithril bar","Runite ore"]
+*/
 #define VAR_GARGOYLE_ENUMLIST_FILTER_MATERIALS ["Gold ore","Pure essence","Gold bar"]
 CONST_GARGOYLE_RULE (name:VAR_GARGOYLE_ENUMLIST_FILTER_MATERIALS) {
   hidden = true;
 }
 
-// label:Coins
-// group:Hide drops
-// enum:["Coins"]
+/*@ define:input:gargoyle
+type: stringlist
+label: Coins
+group: Hide drops
+enum: ["Coins"]
+*/
 #define VAR_GARGOYLE_ENUMLIST_FILTER_COINS []
 CONST_GARGOYLE_RULE (name:VAR_GARGOYLE_ENUMLIST_FILTER_COINS) {
   hidden = true;
 }
 
-
-
-// label:Tertiary
-// group:Hide drops
-// enum:["Brimstone key","Brittle key"]
+/*@ define:input:gargoyle
+type: stringlist
+label: Tertiary
+group: Hide drops
+enum: ["Brimstone key","Brittle key"]
+*/
 #define VAR_GARGOYLE_ENUMLIST_FILTER_TERTIARY []
 CONST_GARGOYLE_RULE (name:VAR_GARGOYLE_ENUMLIST_FILTER_TERTIARY) {
   hidden = true;

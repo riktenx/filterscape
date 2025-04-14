@@ -1,9 +1,17 @@
-// module:hides
 
+/*@ define:module:global_hide
+---
+name: Global hide
+*/
+
+/*@ define:input:global_hide
+type: stringlist
+label: Hide items
+*/
 #define VAR_HIDES_STRINGLIST__HIDE []
+
 
 rule (name:VAR_HIDES_STRINGLIST__HIDE) {
   hidden = true;
 }
 
-// endmodule:hides

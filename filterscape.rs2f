@@ -4705,42 +4705,42 @@ name: Item values
 #define VAR_VALUE_T6_VALUE 0
 /*@ define:input:item_values
 type: number
-label: T5: Min value
+label: Value
 group: t5
 */
 #define VAR_VALUE_T5_VALUE 100000000
 
 /*@ define:input:item_values
 type: number
-label: T4: Min value
+label: Value
 group: t4
 */
 #define VAR_VALUE_T4_VALUE 10000000
 
 /*@ define:input:item_values
 type: number
-label: T3: Min value
+label: Value
 group: t3
 */
 #define VAR_VALUE_T3_VALUE 1000000
 
 /*@ define:input:item_values
 type: number
-label: T2: Min value
+label: Value
 group: t2
 */
 #define VAR_VALUE_T2_VALUE 500000
 
 /*@ define:input:item_values
 type: number
-label: T1: Min value
+label: Value
 group: t1
 */
 #define VAR_VALUE_T1_VALUE 100000
 
 /*@ define:input:item_values
 type: number
-label: T0: Min value
+label: Value
 group: t0
 */
 #define VAR_VALUE_T0_VALUE 10000
@@ -4752,7 +4752,7 @@ group: t0
 #define VAR_VALUE_T6_CUSTOMSTYLE 
 /*@ define:input:item_values
 type: style
-label: T5: Display
+label: Style
 group: t5
 exampleItem: Divine Orb
 */
@@ -4766,7 +4766,7 @@ exampleItem: Divine Orb
 
 /*@ define:input:item_values
 type: style
-label: T4: Display
+label: Style
 group: t4
 */
 #define VAR_VALUE_T4_CUSTOMSTYLE \
@@ -4778,7 +4778,7 @@ group: t4
 
 /*@ define:input:item_values
 type: style
-label: T3: Display
+label: Style
 group: t3
 */
 #define VAR_VALUE_T3_CUSTOMSTYLE \
@@ -4792,7 +4792,7 @@ group: t3
 
 /*@ define:input:item_values
 type: style
-label: T2: Display
+label: Style
 group: t2
 */
 #define VAR_VALUE_T2_CUSTOMSTYLE \
@@ -4802,7 +4802,7 @@ group: t2
 
 /*@ define:input:item_values
 type: style
-label: T1: Display
+label: Style
 group: t1
 */
 #define VAR_VALUE_T1_CUSTOMSTYLE \
@@ -4811,7 +4811,7 @@ group: t1
 
 /*@ define:input:item_values
 type: style
-label: T0: Display
+label: Style
 group: t0
 */
 #define VAR_VALUE_T0_CUSTOMSTYLE \

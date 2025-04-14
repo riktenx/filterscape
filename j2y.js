@@ -44,16 +44,16 @@ const renderStyle = (style) => {
 }
 
 const renderStyleColor = (name, value) =>
-  !!value ? `${name} = "${value}";` : '';
+  value !== undefined ? `${name} = "${value}";` : '';
 
 const renderStyleInt = (name, value) =>
-  !!value ? `${name} = ${value};` : '';
+  value !== undefined ? `${name} = ${value};` : '';
 
 const renderStyleBool = (name, value) =>
-  !!value ? `${name} = ${value};` : '';
+  value !== undefined ? `${name} = ${value};` : '';
 
 const renderStyleString = (name, value) =>
-  !!value ? `${name} = "${value}";` : '';
+  value !== undefined ? `${name} = "${value}";` : '';
 
 const modulePath = process.argv[2];
 
@@ -123,5 +123,5 @@ label: ${input.label}
   migrated.push(`#define ${ident} ${renderDefault(input)}\n`);
 }
 
-fs.writeFileSync(`${modulePath}/${filename}.rs2f`, migrated.join('\n'));
+fs.writeFileSync(`${modulePath}/module.rs2f`, migrated.join('\n'));
 fs.rmSync(`${modulePath}/${filename}.json`);

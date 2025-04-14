@@ -48,7 +48,7 @@ exampleItem: Executioner's axe head
 
 /*@ define:input:uniques
 type: style
-label: A-Tier: display
+label: Style
 group: a-tier-unique
 */
 #define VAR_UNIQUE_ATIER_CUSTOMSTYLE \
@@ -60,7 +60,7 @@ group: a-tier-unique
 
 /*@ define:input:uniques
 type: style
-label: B-Tier: display
+label: Style
 group: b-tier-unique
 */
 #define VAR_UNIQUE_BTIER_CUSTOMSTYLE \
@@ -71,7 +71,7 @@ group: b-tier-unique
 
 /*@ define:input:uniques
 type: style
-label: C-Tier: display
+label: Style
 group: c-tier-unique
 */
 #define VAR_UNIQUE_CTIER_CUSTOMSTYLE \

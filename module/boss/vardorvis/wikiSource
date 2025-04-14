@@ -126,16 +126,18 @@ During the [[Fifth Age]], an adventurer who sought his medallion eventually foun
 
 ==Fight overview==
 {{Main|Vardorvis/Strategies}}
-Vardorvis uses a standard melee attack, which is reduced by roughly ~75% when [[Protect from Melee]] is active; regardless, he will heal for 50% of the damage inflicted. Unlike the other members of the Forgotten Four, who use their special attacks in a rather slow and predictable manner, Vardorvis' special attacks are much quicker and at random upon falling below the trigger threshold.
+Vardorvis uses a standard melee attack, which is reduced by roughly ~75% when [[Protect from Melee]] is active; regardless, he will heal for 50% of the damage inflicted, rounded down. Unlike the other members of the Forgotten Four, who use their special attacks in a rather slow and predictable manner, Vardorvis uses them at random, which can make parts of the fight more hectic.
 
 [[File:Fighting Vardorvis.png|left|thumb|A player fighting Vardorvis.]]
-In addition, Vardorvis' Strength and Defence levels scales linearly with his remaining hitpoints; as his health falls, his Defence level is lowered while his Strength level is increased, increasing the potency of his auto-attacks though making him easier to hit.<ref>[https://imgur.com/a/ppJmNOl https://imgur.com/a/ppJmNOl]</ref> At 33% health, he will enter an enrage phase that results in his special attacks being used more frequently.
+In addition, Vardorvis' Strength and Defence levels scales linearly with his remaining hitpoints; as his health falls, his Defence level is lowered while his Strength level is increased, increasing the potency of his auto-attacks though making him easier to hit.<ref>[https://imgur.com/a/ppJmNOl https://imgur.com/a/ppJmNOl]</ref> Vardorvis' mechanics are adjusted accordingly as his health lowers.
 
-Vardorvis uses the following special attacks at random. Multiple may be used simultaneously as the fight progresses.
+Vardorvis uses the following special attacks:
 * '''Swinging Axes''': The Strangler's vines will swing up to three axes within the arena. Getting hit with this attack will deal up to 35 damage, and incur a damage-over-time "bleed" effect in which the player takes 3 bleed damage 5 times (more than 5 times if the player moves while bleeding). The bleed will persist even through teleportation. Using [[Protect from Melee]] will reduce the axes' initial hit by 50%, but will not reduce damage from the bleed.
 * '''Strangle''': Vardorvis will strike his arm into the ground and entangle the player in tendrils. Several spores will appear at the centre of the game screen, and the player must destroy them all within five seconds, otherwise the tendrils will tighten and deal high damage.
 * '''Head Gaze''': The Strangler's vines will use [[Vardorvis' Head]] to launch a single green projectile. If this projectile is not blocked with [[Protect from Missiles]], it will disable overhead protection prayers and drain the player's prayer points by 10. The head's attack always attack off-tick with the body, but failing to protect against it will leave the player vulnerable to nearby axes and the body.
 * '''Darting Spikes''': Vardorvis will dart around the player, causing cracks to appear. Vines will then erupt from them, dealing up to 25 damage if caught in one and healing him for half the amount. One crack will always appear underneath the player (if not standing by the edges), and more will appear if not standing around the edges.
+
+Upon reaching 33% of his health, Vardrovis will enter an enrage phase, significantly increasing the frequency of his special attacks.
 
 [[File:Vardorvis reviving.mp4|thumb|Vardorvis reviving]]
 Vardorvis respawns after 10 seconds upon dying.

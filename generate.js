@@ -35,5 +35,16 @@ const defaultFilterscape = [header, ...index.modules.map(module => {
   return fs.readFileSync(rs2fPath, 'utf-8');
 })].join('\n\n');
 
-fs.writeFileSync('index.json', JSON.stringify(index, null, 2));
 fs.writeFileSync('filterscape.rs2f', defaultFilterscape);
+
+const header2 = `meta {
+  name = "riktenx/filterscape";
+}
+`;
+
+const defaultFilterscape2 = [header2, ...index.modules.map(module => {
+  const rs2fPath = module.modulePath.replace('json', 'rs2f');
+  return fs.readFileSync(rs2fPath, 'utf-8');
+})].join('\n\n');
+
+fs.writeFileSync('filter.rs2f', defaultFilterscape2);

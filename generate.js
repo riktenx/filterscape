@@ -25,12 +25,7 @@ const index = {
   ],
 }
 
-const header = `
-// !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-// CODE-GENERATED DEFAULT FILTER, DO NOT EDIT
-// !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-
-meta {
+const header = `meta {
   name = "[default: FilterScape]";
 }
 `;

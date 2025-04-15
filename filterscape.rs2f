@@ -40,7 +40,7 @@ description: |
   Items on the ground have an "ownership" value which can be used to determine
   when to hide or show items.
 
-  The `Ownership filter` and `Item spawn filter` settings in plugin config
+  The "Ownership filter" and "Item spawn filter" settings in plugin config
   override ALL other filter rules. This is inconvenient for some items such as
   Dawnbringer in ToB.
 

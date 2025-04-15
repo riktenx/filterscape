@@ -17,7 +17,7 @@ name: Bloodveld
   area:CONST_AREA_BLOODVELD5) && (_cond))
 
 /*@ define:input:bloodveld
-type: stringlist
+type: enumlist
 label: 100%
 group: Hide drops
 enum: ["Vile ashes"]
@@ -28,7 +28,7 @@ CONST_BLOODVELD_RULE (name:VAR_BLOODVELD_ENUMLIST_FILTER_100) {
 }
 
 /*@ define:input:bloodveld
-type: stringlist
+type: enumlist
 label: Weapons and armour
 group: Hide drops
 enum: ["Steel axe","Steel full helm","Steel scimitar","Black boots","Mithril sq shield","Mithril chainbody","Rune med helm"]
@@ -39,7 +39,7 @@ CONST_BLOODVELD_RULE (name:VAR_BLOODVELD_ENUMLIST_FILTER_WEAPONSANDARMOUR) {
 }
 
 /*@ define:input:bloodveld
-type: stringlist
+type: enumlist
 label: Runes 
 group: Hide drops
 enum: ["Fire rune","Blood rune"]
@@ -50,7 +50,7 @@ CONST_BLOODVELD_RULE (name:VAR_BLOODVELD_ENUMLIST_FILTER_RUNES) {
 }
 
 /*@ define:input:bloodveld
-type: stringlist
+type: enumlist
 label: Coins
 group: Hide drops
 enum: ["Coins"]
@@ -61,7 +61,7 @@ CONST_BLOODVELD_RULE (name:VAR_BLOODVELD_ENUMLIST_FILTER_COINS) {
 }
 
 /*@ define:input:bloodveld
-type: stringlist
+type: enumlist
 label: Other
 group: Hide drops
 enum: ["Bones","Big bones","Gold ore","Meat pizza"]
@@ -72,7 +72,7 @@ CONST_BLOODVELD_RULE (name:VAR_BLOODVELD_ENUMLIST_FILTER_OTHER) {
 }
 
 /*@ define:input:bloodveld
-type: stringlist
+type: enumlist
 label: Tertiary
 group: Hide drops
 enum: ["Clue scroll (elite)","Reward casket (elite)","Looting bag","Ensouled bloodveld head","Brimstone key"]

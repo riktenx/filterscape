@@ -7,7 +7,7 @@ name: Zulrah
 #define CONST_ZULRAH_RULE(_cond) rule (area:CONST_AREA_ZULRAH && (_cond))
 
 /*@ define:input:zulrah
-type: stringlist
+type: enumlist
 label: 100% drops
 group: Hide drops
 enum: ["Zulrah's scales"]
@@ -18,7 +18,7 @@ CONST_ZULRAH_RULE (name:VAR_ZULRAH_ENUMLIST_FILTER_100DROPS) {
 }
 
 /*@ define:input:zulrah
-type: stringlist
+type: enumlist
 label: Uniques
 group: Hide drops
 enum: ["Tanzanite fang","Magic fang","Serpentine visage","Uncut onyx"]
@@ -29,7 +29,7 @@ CONST_ZULRAH_RULE (name:VAR_ZULRAH_ENUMLIST_FILTER_UNIQUES) {
 }
 
 /*@ define:input:zulrah
-type: stringlist
+type: enumlist
 label: Mutagens
 group: Hide drops
 enum: ["Tanzanite mutagen","Magma mutagen"]
@@ -40,7 +40,7 @@ CONST_ZULRAH_RULE (name:VAR_ZULRAH_ENUMLIST_FILTER_MUTAGENS) {
 }
 
 /*@ define:input:zulrah
-type: stringlist
+type: enumlist
 label: Weapons and armour
 group: Hide drops
 enum: ["Battlestaff","Dragon med helm","Dragon halberd"]
@@ -51,7 +51,7 @@ CONST_ZULRAH_RULE (name:VAR_ZULRAH_ENUMLIST_FILTER_WEAPONSANDARMOUR) {
 }
 
 /*@ define:input:zulrah
-type: stringlist
+type: enumlist
 label: Runes
 group: Hide drops
 enum: ["Death rune","Law rune","Chaos rune"]
@@ -62,7 +62,7 @@ CONST_ZULRAH_RULE (name:VAR_ZULRAH_ENUMLIST_FILTER_RUNES) {
 }
 
 /*@ define:input:zulrah
-type: stringlist
+type: enumlist
 label: Herbs
 group: Hide drops
 enum: ["Snapdragon","Dwarf weed","Toadflax","Torstol"]
@@ -73,7 +73,7 @@ CONST_ZULRAH_RULE (name:VAR_ZULRAH_ENUMLIST_FILTER_HERBS) {
 }
 
 /*@ define:input:zulrah
-type: stringlist
+type: enumlist
 label: Seeds
 group: Hide drops
 enum: ["Palm tree seed","Papaya tree seed","Calquat tree seed","Magic seed","Toadflax seed","Snapdragon seed","Dwarf weed seed","Torstol seed","Spirit seed"]
@@ -84,7 +84,7 @@ CONST_ZULRAH_RULE (name:VAR_ZULRAH_ENUMLIST_FILTER_SEEDS) {
 }
 
 /*@ define:input:zulrah
-type: stringlist
+type: enumlist
 label: Resources
 group: Hide drops
 enum: ["Snakeskin","Runite ore","Pure essence","Flax","Yew logs","Adamantite bar","Coal","Dragon bones","Mahogany logs"]
@@ -95,7 +95,7 @@ CONST_ZULRAH_RULE (name:VAR_ZULRAH_ENUMLIST_FILTER_RESOURCES) {
 }
 
 /*@ define:input:zulrah
-type: stringlist
+type: enumlist
 label: Other
 group: Hide drops
 enum: ["Zul-andra teleport","Manta ray","Antidote++(4)","Dragonstone bolt tips","Grapes","Coconut","Swamp tar","Zulrah's scales"]
@@ -106,7 +106,7 @@ CONST_ZULRAH_RULE (name:VAR_ZULRAH_ENUMLIST_FILTER_OTHER) {
 }
 
 /*@ define:input:zulrah
-type: stringlist
+type: enumlist
 label: Tertiary
 group: Hide drops
 enum: ["Brimstone key","Jar of swamp","Pet snakeling"]

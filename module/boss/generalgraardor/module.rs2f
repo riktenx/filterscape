@@ -7,7 +7,7 @@ name: General Graardor
 #define CONST_GENERALGRAARDOR_RULE(_cond) rule (area:CONST_AREA_GENERALGRAARDOR && (_cond))
 
 /*@ define:input:generalgraardor
-type: stringlist
+type: enumlist
 label: 100%
 group: Hide drops
 enum: ["Big bones","Frozen key piece (bandos)"]
@@ -18,7 +18,7 @@ CONST_GENERALGRAARDOR_RULE (name:VAR_GENERALGRAARDOR_ENUMLIST_FILTER_100) {
 }
 
 /*@ define:input:generalgraardor
-type: stringlist
+type: enumlist
 label: Uniques
 group: Hide drops
 enum: ["Bandos chestplate","Bandos tassets","Bandos boots","Bandos hilt","Godsword shard 1","Godsword shard 2","Godsword shard 3"]
@@ -29,7 +29,7 @@ CONST_GENERALGRAARDOR_RULE (name:VAR_GENERALGRAARDOR_ENUMLIST_FILTER_UNIQUES) {
 }
 
 /*@ define:input:generalgraardor
-type: stringlist
+type: enumlist
 label: Weapons and armour
 group: Hide drops
 enum: ["Rune longsword","Rune 2h sword","Rune platebody","Rune pickaxe"]
@@ -40,7 +40,7 @@ CONST_GENERALGRAARDOR_RULE (name:VAR_GENERALGRAARDOR_ENUMLIST_FILTER_WEAPONSANDA
 }
 
 /*@ define:input:generalgraardor
-type: stringlist
+type: enumlist
 label: Other
 group: Hide drops
 enum: ["Coins","Grimy snapdragon","Snapdragon seed","Super restore(4)","Adamantite ore","Coal","Magic logs","Nature rune"]
@@ -51,7 +51,7 @@ CONST_GENERALGRAARDOR_RULE (name:VAR_GENERALGRAARDOR_ENUMLIST_FILTER_OTHER) {
 }
 
 /*@ define:input:generalgraardor
-type: stringlist
+type: enumlist
 label: Tertiary
 group: Hide drops
 enum: ["Brimstone key","Long bone","Pet general graardor","Curved bone"]

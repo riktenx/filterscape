@@ -7,7 +7,7 @@ name: Callisto
 #define CONST_CALLISTO_RULE(_cond) rule (area:CONST_AREA_CALLISTO && (_cond))
 
 /*@ define:input:callisto
-type: stringlist
+type: enumlist
 label: 100%
 group: Hide drops
 enum: ["Big bones","Bones"]
@@ -18,7 +18,7 @@ CONST_CALLISTO_RULE (name:VAR_CALLISTO_ENUMLIST_FILTER_100) {
 }
 
 /*@ define:input:callisto
-type: stringlist
+type: enumlist
 label: Unique
 group: Hide drops
 enum: ["Claws of callisto","Dragon 2h sword","Dragon pickaxe","Voidwaker hilt","Tyrannical ring"]
@@ -29,7 +29,7 @@ CONST_CALLISTO_RULE (name:VAR_CALLISTO_ENUMLIST_FILTER_UNIQUE) {
 }
 
 /*@ define:input:callisto
-type: stringlist
+type: enumlist
 label: Weapons and armour
 group: Hide drops
 enum: ["Mystic earth staff","Mystic robe top","Mystic robe bottom","Rune pickaxe","Rune 2h sword","Rune kiteshield","Rune platebody"]
@@ -40,7 +40,7 @@ CONST_CALLISTO_RULE (name:VAR_CALLISTO_ENUMLIST_FILTER_WEAPONSANDARMOUR) {
 }
 
 /*@ define:input:callisto
-type: stringlist
+type: enumlist
 label: Runes and ammunition
 group: Hide drops
 enum: ["Blood rune","Death rune","Chaos rune","Soul rune","Cannonball"]
@@ -51,7 +51,7 @@ CONST_CALLISTO_RULE (name:VAR_CALLISTO_ENUMLIST_FILTER_RUNESANDAMMUNITION) {
 }
 
 /*@ define:input:callisto
-type: stringlist
+type: enumlist
 label: Materials
 group: Hide drops
 enum: ["Uncut ruby","Uncut diamond","Uncut dragonstone","Limpwurt root","Magic logs","Mahogany logs","Red dragonhide","Coconut","Grimy toadflax","Grimy dwarf weed","Grimy ranarr weed","Grimy snapdragon"]
@@ -62,7 +62,7 @@ CONST_CALLISTO_RULE (name:VAR_CALLISTO_ENUMLIST_FILTER_MATERIALS) {
 }
 
 /*@ define:input:callisto
-type: stringlist
+type: enumlist
 label: Seeds
 group: Hide drops
 enum: ["Ranarr seed","Snapdragon seed"]
@@ -73,7 +73,7 @@ CONST_CALLISTO_RULE (name:VAR_CALLISTO_ENUMLIST_FILTER_SEEDS) {
 }
 
 /*@ define:input:callisto
-type: stringlist
+type: enumlist
 label: Other
 group: Hide drops
 enum: ["Coins","Dark crab","Super restore(4)","Supercompost","Dragon bones","Blighted anglerfish","Wilderness crabs teleport"]
@@ -84,7 +84,7 @@ CONST_CALLISTO_RULE (name:VAR_CALLISTO_ENUMLIST_FILTER_OTHER) {
 }
 
 /*@ define:input:callisto
-type: stringlist
+type: enumlist
 label: Secondary Supply roll
 group: Hide drops
 enum: ["Blighted anglerfish","Blighted karambwan","Blighted super restore(3)","Blighted super restore(4)","Ranging potion(2)","Super combat potion(2)"]
@@ -95,7 +95,7 @@ CONST_CALLISTO_RULE (name:VAR_CALLISTO_ENUMLIST_FILTER_SECONDARYSUPPLYROLL) {
 }
 
 /*@ define:input:callisto
-type: stringlist
+type: enumlist
 label: Tertiary
 group: Hide drops
 enum: ["Looting bag","Brimstone key","Long bone","Callisto cub","Curved bone"]

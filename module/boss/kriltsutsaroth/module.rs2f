@@ -7,7 +7,7 @@ name: K'ril Tsutsaroth
 #define CONST_KRILTSUTSAROTH_RULE(_cond) rule (area:CONST_AREA_KRILTSUTSAROTH && (_cond))
 
 /*@ define:input:kriltsutsaroth
-type: stringlist
+type: enumlist
 label: 100%
 group: Hide drops
 enum: ["Infernal ashes","Frozen key piece (zamorak)"]
@@ -18,7 +18,7 @@ CONST_KRILTSUTSAROTH_RULE (name:VAR_KRILTSUTSAROTH_ENUMLIST_FILTER_100) {
 }
 
 /*@ define:input:kriltsutsaroth
-type: stringlist
+type: enumlist
 label: Uniques
 group: Hide drops
 enum: ["Steam battlestaff","Zamorakian spear","Staff of the dead","Zamorak hilt","Godsword shard 1","Godsword shard 2","Godsword shard 3"]
@@ -29,7 +29,7 @@ CONST_KRILTSUTSAROTH_RULE (name:VAR_KRILTSUTSAROTH_ENUMLIST_FILTER_UNIQUES) {
 }
 
 /*@ define:input:kriltsutsaroth
-type: stringlist
+type: enumlist
 label: Weapons and armour
 group: Hide drops
 enum: ["Adamant arrow(p++)","Rune scimitar","Adamant platebody","Rune platelegs","Dragon dagger(p++)"]
@@ -40,7 +40,7 @@ CONST_KRILTSUTSAROTH_RULE (name:VAR_KRILTSUTSAROTH_ENUMLIST_FILTER_WEAPONSANDARM
 }
 
 /*@ define:input:kriltsutsaroth
-type: stringlist
+type: enumlist
 label: Potions
 group: Hide drops
 enum: ["Super attack(3)","Super strength(3)","Super restore(3)","Zamorak brew(3)"]
@@ -51,7 +51,7 @@ CONST_KRILTSUTSAROTH_RULE (name:VAR_KRILTSUTSAROTH_ENUMLIST_FILTER_POTIONS) {
 }
 
 /*@ define:input:kriltsutsaroth
-type: stringlist
+type: enumlist
 label: Other
 group: Hide drops
 enum: ["Coins","Grimy lantadyme","Lantadyme seed","Death rune","Blood rune"]
@@ -62,7 +62,7 @@ CONST_KRILTSUTSAROTH_RULE (name:VAR_KRILTSUTSAROTH_ENUMLIST_FILTER_OTHER) {
 }
 
 /*@ define:input:kriltsutsaroth
-type: stringlist
+type: enumlist
 label: Tertiary
 group: Hide drops
 enum: ["Brimstone key","Pet k'ril tsutsaroth"]

@@ -7,7 +7,7 @@ name: Cerberus
 #define CONST_CERBERUS_RULE(_cond) rule (area:CONST_AREA_CERBERUS && (_cond))
 
 /*@ define:input:cerberus
-type: stringlist
+type: enumlist
 label: 100%
 group: Hide drops
 enum: ["Infernal ashes"]
@@ -18,7 +18,7 @@ CONST_CERBERUS_RULE (name:VAR_CERBERUS_ENUMLIST_FILTER_100) {
 }
 
 /*@ define:input:cerberus
-type: stringlist
+type: enumlist
 label: Uniques
 group: Hide drops
 enum: ["Primordial crystal","Pegasian crystal","Eternal crystal","Smouldering stone"]
@@ -29,7 +29,7 @@ CONST_CERBERUS_RULE (name:VAR_CERBERUS_ENUMLIST_FILTER_UNIQUES) {
 }
 
 /*@ define:input:cerberus
-type: stringlist
+type: enumlist
 label: Weapons and armour
 group: Hide drops
 enum: ["Rune platebody","Rune chainbody","Rune 2h sword","Black d'hide body","Rune axe","Rune pickaxe","Battlestaff","Rune full helm","Lava battlestaff","Rune halberd"]
@@ -40,7 +40,7 @@ CONST_CERBERUS_RULE (name:VAR_CERBERUS_ENUMLIST_FILTER_WEAPONSANDARMOUR) {
 }
 
 /*@ define:input:cerberus
-type: stringlist
+type: enumlist
 label: Runes and ammunition
 group: Hide drops
 enum: ["Fire rune","Soul rune","Pure essence","Blood rune","Cannonball","Runite bolts (unf)","Death rune"]
@@ -51,7 +51,7 @@ CONST_CERBERUS_RULE (name:VAR_CERBERUS_ENUMLIST_FILTER_RUNESANDAMMUNITION) {
 }
 
 /*@ define:input:cerberus
-type: stringlist
+type: enumlist
 label: Other
 group: Hide drops
 enum: ["Coal","Super restore(4)","Summer pie","Coins","Dragon bones","Unholy symbol","Wine of zamorak","Ashes","Fire orb","Grimy torstol","Runite ore","Uncut diamond","Key master teleport","Torstol seed"]
@@ -62,7 +62,7 @@ CONST_CERBERUS_RULE (name:VAR_CERBERUS_ENUMLIST_FILTER_OTHER) {
 }
 
 /*@ define:input:cerberus
-type: stringlist
+type: enumlist
 label: Tertiary
 group: Hide drops
 enum: ["Ensouled hellhound head","Brimstone key","Jar of souls","Hellpuppy"]

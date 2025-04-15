@@ -7,7 +7,7 @@ name: Skeletal wyvern
 #define CONST_SKELETALWYVERN_RULE(_cond) rule ((area:CONST_AREA_SKELETALWYVERN0) && (_cond))
 
 /*@ define:input:skeletalwyvern
-type: stringlist
+type: enumlist
 label: 100%
 group: Hide drops
 enum: ["Wyvern bones"]
@@ -18,7 +18,7 @@ CONST_SKELETALWYVERN_RULE (name:VAR_SKELETALWYVERN_ENUMLIST_FILTER_100) {
 }
 
 /*@ define:input:skeletalwyvern
-type: stringlist
+type: enumlist
 label: Pre-roll
 group: Hide drops
 enum: ["Granite legs","Dragon platelegs","Dragon plateskirt"]
@@ -29,7 +29,7 @@ CONST_SKELETALWYVERN_RULE (name:VAR_SKELETALWYVERN_ENUMLIST_FILTER_PREROLL) {
 }
 
 /*@ define:input:skeletalwyvern
-type: stringlist
+type: enumlist
 label: Weapons and armour
 group: Hide drops
 enum: ["Earth battlestaff","Battlestaff","Rune axe","Rune battleaxe","Rune warhammer","Rune full helm","Rune kiteshield"]
@@ -40,7 +40,7 @@ CONST_SKELETALWYVERN_RULE (name:VAR_SKELETALWYVERN_ENUMLIST_FILTER_WEAPONSANDARM
 }
 
 /*@ define:input:skeletalwyvern
-type: stringlist
+type: enumlist
 label: Runes and ammunition
 group: Hide drops
 enum: ["Air rune","Rune arrow","Water rune","Chaos rune","Law rune","Death rune","Blood rune","Adamant bolts","Runite bolts","Soul rune"]
@@ -51,7 +51,7 @@ CONST_SKELETALWYVERN_RULE (name:VAR_SKELETALWYVERN_ENUMLIST_FILTER_RUNESANDAMMUN
 }
 
 /*@ define:input:skeletalwyvern
-type: stringlist
+type: enumlist
 label: Resources
 group: Hide drops
 enum: ["Pure essence","Magic logs","Adamantite bar","Iron ore","Uncut ruby","Uncut diamond"]
@@ -62,7 +62,7 @@ CONST_SKELETALWYVERN_RULE (name:VAR_SKELETALWYVERN_ENUMLIST_FILTER_RESOURCES) {
 }
 
 /*@ define:input:skeletalwyvern
-type: stringlist
+type: enumlist
 label: Other
 group: Hide drops
 enum: ["Coins","Lobster","Prayer potion(4)","Unpowered orb","Runite crossbow (u)","Ranarr seed","Snapdragon seed"]
@@ -73,7 +73,7 @@ CONST_SKELETALWYVERN_RULE (name:VAR_SKELETALWYVERN_ENUMLIST_FILTER_OTHER) {
 }
 
 /*@ define:input:skeletalwyvern
-type: stringlist
+type: enumlist
 label: Tertiary
 group: Hide drops
 enum: ["Brimstone key","Draconic visage"]

@@ -28,7 +28,7 @@ CONST_VORKATH_RULE (VAR_VORKATH_BOOLEAN_GENERAL_NOBONE && name:"Superior dragon 
 #define CONST_VORKATH_RULE(_cond) rule (area:CONST_AREA_VORKATH && (_cond))
 
 /*@ define:input:vorkath
-type: stringlist
+type: enumlist
 label: Weapons and armour
 group: Hide drops
 enum: ["Rune longsword","Rune kiteshield","Battlestaff","Dragon battleaxe","Dragon longsword","Dragon platelegs","Dragon plateskirt"]
@@ -39,7 +39,7 @@ CONST_VORKATH_RULE (name:VAR_VORKATH_ENUMLIST_FILTER_WEAPONSANDARMOUR) {
 }
 
 /*@ define:input:vorkath
-type: stringlist
+type: enumlist
 label: Runes
 group: Hide drops
 enum: ["Chaos rune","Death rune","Wrath rune"]
@@ -50,7 +50,7 @@ CONST_VORKATH_RULE (name:VAR_VORKATH_ENUMLIST_FILTER_RUNES) {
 }
 
 /*@ define:input:vorkath
-type: stringlist
+type: enumlist
 label: Dragonhide
 group: Hide drops
 enum: ["Blue dragonhide","Green dragonhide","Red dragonhide","Black dragonhide"]
@@ -61,7 +61,7 @@ CONST_VORKATH_RULE (name:VAR_VORKATH_ENUMLIST_FILTER_DRAGONHIDE) {
 }
 
 /*@ define:input:vorkath
-type: stringlist
+type: enumlist
 label: Fletching materials
 group: Hide drops
 enum: ["Dragon bolts (unf)","Sapphire bolt tips","Emerald bolt tips","Ruby bolt tips","Diamond bolt tips","Dragonstone bolt tips","Onyx bolt tips","Rune dart tip","Dragon dart tip","Dragon arrowtips"]
@@ -72,7 +72,7 @@ CONST_VORKATH_RULE (name:VAR_VORKATH_ENUMLIST_FILTER_FLETCHINGMATERIALS) {
 }
 
 /*@ define:input:vorkath
-type: stringlist
+type: enumlist
 label: Other
 group: Hide drops
 enum: ["Adamantite ore","Coins","Grapes","Magic logs","Manta ray","Dragon bones","Diamond","Dragonstone","Wrath talisman"]
@@ -83,7 +83,7 @@ CONST_VORKATH_RULE (name:VAR_VORKATH_ENUMLIST_FILTER_OTHER) {
 }
 
 /*@ define:input:vorkath
-type: stringlist
+type: enumlist
 label: Tertiary
 group: Hide drops
 enum: ["Scaly blue dragonhide","Vorkath's head","Brimstone key","Dragonbone necklace","Jar of decay","Vorki","Draconic visage","Skeletal visage"]

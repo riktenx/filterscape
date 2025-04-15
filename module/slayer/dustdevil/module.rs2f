@@ -11,7 +11,7 @@ name: Dust devil
   area:CONST_AREA_DUSTDEVIL2) && (_cond))
 
 /*@ define:input:dustdevil
-type: stringlist
+type: enumlist
 label: 100%
 group: Hide drops
 enum: ["Bones"]
@@ -22,7 +22,7 @@ CONST_DUSTDEVIL_RULE (name:VAR_DUSTDEVIL_ENUMLIST_FILTER_100) {
 }
 
 /*@ define:input:dustdevil
-type: stringlist
+type: enumlist
 label: Weapons and armour
 group: Hide drops
 enum: ["Adamant axe","Rune dagger","Red d'hide vambraces","Black d'hide vambraces","Air battlestaff","Earth battlestaff","Mystic air staff","Mystic earth staff","Dragon dagger","Dust battlestaff","Dragon chainbody"]
@@ -33,7 +33,7 @@ CONST_DUSTDEVIL_RULE (name:VAR_DUSTDEVIL_ENUMLIST_FILTER_WEAPONSANDARMOUR) {
 }
 
 /*@ define:input:dustdevil
-type: stringlist
+type: enumlist
 label: Runes and ammunition
 group: Hide drops
 enum: ["Dust rune","Earth rune","Fire rune","Chaos rune","Rune arrow","Soul rune"]
@@ -44,7 +44,7 @@ CONST_DUSTDEVIL_RULE (name:VAR_DUSTDEVIL_ENUMLIST_FILTER_RUNESANDAMMUNITION) {
 }
 
 /*@ define:input:dustdevil
-type: stringlist
+type: enumlist
 label: Other
 group: Hide drops
 enum: ["Nothing","Coins","Ugthanki kebab","Mithril bar","Adamantite bar"]
@@ -55,7 +55,7 @@ CONST_DUSTDEVIL_RULE (name:VAR_DUSTDEVIL_ENUMLIST_FILTER_OTHER) {
 }
 
 /*@ define:input:dustdevil
-type: stringlist
+type: enumlist
 label: Tertiary
 group: Hide drops
 enum: ["Brimstone key"]

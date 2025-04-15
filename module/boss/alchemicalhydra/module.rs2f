@@ -7,7 +7,7 @@ name: Alchemical Hydra
 #define CONST_ALCHEMICALHYDRA_RULE(_cond) rule (area:CONST_AREA_ALCHEMICALHYDRA && (_cond))
 
 /*@ define:input:alchemicalhydra
-type: stringlist
+type: enumlist
 label: 100%
 group: Hide drops
 enum: ["Hydra bones"]
@@ -18,7 +18,7 @@ CONST_ALCHEMICALHYDRA_RULE (name:VAR_ALCHEMICALHYDRA_ENUMLIST_FILTER_100) {
 }
 
 /*@ define:input:alchemicalhydra
-type: stringlist
+type: enumlist
 label: Pre-roll
 group: Hide drops
 enum: ["Hydra's eye","Hydra's fang","Hydra's heart","Hydra tail","Hydra leather","Hydra's claw","Dragon thrownaxe","Dragon knife"]
@@ -29,7 +29,7 @@ CONST_ALCHEMICALHYDRA_RULE (name:VAR_ALCHEMICALHYDRA_ENUMLIST_FILTER_PREROLL) {
 }
 
 /*@ define:input:alchemicalhydra
-type: stringlist
+type: enumlist
 label: Weapons and armour
 group: Hide drops
 enum: ["Mystic fire staff","Mystic water staff","Battlestaff","Black d'hide body","Dragon longsword","Dragon med helm","Rune platebody","Dragon battleaxe","Rune platelegs","Rune plateskirt","Mystic robe top (light)","Mystic robe bottom (light)"]
@@ -40,7 +40,7 @@ CONST_ALCHEMICALHYDRA_RULE (name:VAR_ALCHEMICALHYDRA_ENUMLIST_FILTER_WEAPONSANDA
 }
 
 /*@ define:input:alchemicalhydra
-type: stringlist
+type: enumlist
 label: Runes and ammunition
 group: Hide drops
 enum: ["Chaos rune","Death rune","Blood rune","Astral rune","Dragonstone bolts (e)","Onyx bolts (e)"]
@@ -51,7 +51,7 @@ CONST_ALCHEMICALHYDRA_RULE (name:VAR_ALCHEMICALHYDRA_ENUMLIST_FILTER_RUNESANDAMM
 }
 
 /*@ define:input:alchemicalhydra
-type: stringlist
+type: enumlist
 label: Herbs
 group: Hide drops
 enum: ["Grimy avantoe","Grimy kwuarm","Grimy ranarr weed","Grimy snapdragon","Grimy cadantine","Grimy dwarf weed","Grimy lantadyme","Grimy torstol"]
@@ -62,7 +62,7 @@ CONST_ALCHEMICALHYDRA_RULE (name:VAR_ALCHEMICALHYDRA_ENUMLIST_FILTER_HERBS) {
 }
 
 /*@ define:input:alchemicalhydra
-type: stringlist
+type: enumlist
 label: Other
 group: Hide drops
 enum: ["Coins","Shark","Ranging potion(3)","Super restore(3)","Dragon bones","Crystal key"]
@@ -73,7 +73,7 @@ CONST_ALCHEMICALHYDRA_RULE (name:VAR_ALCHEMICALHYDRA_ENUMLIST_FILTER_OTHER) {
 }
 
 /*@ define:input:alchemicalhydra
-type: stringlist
+type: enumlist
 label: Tertiary
 group: Hide drops
 enum: ["Brimstone key","Alchemical hydra heads","Jar of chemicals","Ikkle hydra"]

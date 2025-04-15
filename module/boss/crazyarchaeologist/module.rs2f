@@ -7,7 +7,7 @@ name: Crazy archaeologist
 #define CONST_CRAZYARCHAEOLOGIST_RULE(_cond) rule (area:CONST_AREA_CRAZYARCHAEOLOGIST && (_cond))
 
 /*@ define:input:crazyarchaeologist
-type: stringlist
+type: enumlist
 label: 100%
 group: Hide drops
 enum: ["Bones"]
@@ -18,7 +18,7 @@ CONST_CRAZYARCHAEOLOGIST_RULE (name:VAR_CRAZYARCHAEOLOGIST_ENUMLIST_FILTER_100) 
 }
 
 /*@ define:input:crazyarchaeologist
-type: stringlist
+type: enumlist
 label: Pre-roll
 group: Hide drops
 enum: ["Odium shard 2","Malediction shard 2"]
@@ -29,7 +29,7 @@ CONST_CRAZYARCHAEOLOGIST_RULE (name:VAR_CRAZYARCHAEOLOGIST_ENUMLIST_FILTER_PRERO
 }
 
 /*@ define:input:crazyarchaeologist
-type: stringlist
+type: enumlist
 label: Weapons and armour
 group: Hide drops
 enum: ["Amulet of power","Rune crossbow","Red d'hide body","Rune knife"]
@@ -40,7 +40,7 @@ CONST_CRAZYARCHAEOLOGIST_RULE (name:VAR_CRAZYARCHAEOLOGIST_ENUMLIST_FILTER_WEAPO
 }
 
 /*@ define:input:crazyarchaeologist
-type: stringlist
+type: enumlist
 label: Runes and ammunition
 group: Hide drops
 enum: ["Mud rune","Cannonball","Dragon arrow"]
@@ -51,7 +51,7 @@ CONST_CRAZYARCHAEOLOGIST_RULE (name:VAR_CRAZYARCHAEOLOGIST_ENUMLIST_FILTER_RUNES
 }
 
 /*@ define:input:crazyarchaeologist
-type: stringlist
+type: enumlist
 label: Consumables
 group: Hide drops
 enum: ["Shark","Potato with cheese","Prayer potion(4)","Anchovy pizza"]
@@ -62,7 +62,7 @@ CONST_CRAZYARCHAEOLOGIST_RULE (name:VAR_CRAZYARCHAEOLOGIST_ENUMLIST_FILTER_CONSU
 }
 
 /*@ define:input:crazyarchaeologist
-type: stringlist
+type: enumlist
 label: Other
 group: Hide drops
 enum: ["Coins","Grimy dwarf weed","White berries","Silver ore","Uncut emerald","Uncut sapphire","Red dragonhide","Rusty sword","Muddy key","Onyx bolt tips","Long bone"]
@@ -73,7 +73,7 @@ CONST_CRAZYARCHAEOLOGIST_RULE (name:VAR_CRAZYARCHAEOLOGIST_ENUMLIST_FILTER_OTHER
 }
 
 /*@ define:input:crazyarchaeologist
-type: stringlist
+type: enumlist
 label: Tertiary
 group: Hide drops
 enum: ["Looting bag","Brimstone key","Fedora"]

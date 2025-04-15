@@ -7,7 +7,7 @@ name: Thermonuclear smoke devil
 #define CONST_THERMONUCLEARSMOKEDEVIL_RULE(_cond) rule (area:CONST_AREA_THERMONUCLEARSMOKEDEVIL && (_cond))
 
 /*@ define:input:thermonuclearsmokedevil
-type: stringlist
+type: enumlist
 label: 100%
 group: Hide drops
 enum: ["Ashes"]
@@ -18,7 +18,7 @@ CONST_THERMONUCLEARSMOKEDEVIL_RULE (name:VAR_THERMONUCLEARSMOKEDEVIL_ENUMLIST_FI
 }
 
 /*@ define:input:thermonuclearsmokedevil
-type: stringlist
+type: enumlist
 label: Weapons and armour
 group: Hide drops
 enum: ["Rune dagger","Rune chainbody","Red d'hide body","Rune battleaxe","Mystic air staff","Mystic fire staff","Rune scimitar","Rune knife(p++)","Dragon scimitar","Ancient staff","Occult necklace","Smoke battlestaff","Dragon chainbody"]
@@ -29,7 +29,7 @@ CONST_THERMONUCLEARSMOKEDEVIL_RULE (name:VAR_THERMONUCLEARSMOKEDEVIL_ENUMLIST_FI
 }
 
 /*@ define:input:thermonuclearsmokedevil
-type: stringlist
+type: enumlist
 label: Runes and ammunition
 group: Hide drops
 enum: ["Smoke rune","Air rune","Soul rune","Rune arrow"]
@@ -40,7 +40,7 @@ CONST_THERMONUCLEARSMOKEDEVIL_RULE (name:VAR_THERMONUCLEARSMOKEDEVIL_ENUMLIST_FI
 }
 
 /*@ define:input:thermonuclearsmokedevil
-type: stringlist
+type: enumlist
 label: Consumables
 group: Hide drops
 enum: ["Ugthanki kebab","Tuna potato","Sanfew serum(4)","Prayer potion(4)"]
@@ -51,7 +51,7 @@ CONST_THERMONUCLEARSMOKEDEVIL_RULE (name:VAR_THERMONUCLEARSMOKEDEVIL_ENUMLIST_FI
 }
 
 /*@ define:input:thermonuclearsmokedevil
-type: stringlist
+type: enumlist
 label: Resources
 group: Hide drops
 enum: ["Pure essence","Molten glass","Mithril bar","Coal","Magic logs","Gold ore","Diamond"]
@@ -62,7 +62,7 @@ CONST_THERMONUCLEARSMOKEDEVIL_RULE (name:VAR_THERMONUCLEARSMOKEDEVIL_ENUMLIST_FI
 }
 
 /*@ define:input:thermonuclearsmokedevil
-type: stringlist
+type: enumlist
 label: Other
 group: Hide drops
 enum: ["Coins","Tinderbox","Fire talisman","Bullseye lantern","Desert goat horn","Grimy toadflax","Onyx bolt tips","Snapdragon seed","Grapes","Magic seed","Dragonstone ring","Crystal key"]
@@ -73,7 +73,7 @@ CONST_THERMONUCLEARSMOKEDEVIL_RULE (name:VAR_THERMONUCLEARSMOKEDEVIL_ENUMLIST_FI
 }
 
 /*@ define:input:thermonuclearsmokedevil
-type: stringlist
+type: enumlist
 label: Tertiary
 group: Hide drops
 enum: ["Brimstone key","Jar of smoke","Pet smoke devil"]

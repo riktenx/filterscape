@@ -7,7 +7,7 @@ name: Araxxor
 #define CONST_ARAXXOR_RULE(_cond) rule (area:CONST_AREA_ARAXXOR && (_cond))
 
 /*@ define:input:araxxor
-type: stringlist
+type: enumlist
 label: Unique
 group: Hide drops
 enum: ["Noxious pommel","Noxious point","Noxious blade","Araxyte fang"]
@@ -18,7 +18,7 @@ CONST_ARAXXOR_RULE (name:VAR_ARAXXOR_ENUMLIST_FILTER_UNIQUE) {
 }
 
 /*@ define:input:araxxor
-type: stringlist
+type: enumlist
 label: Supplies
 group: Hide drops
 enum: ["Araxyte venom sack","Super combat potion(1)","Prayer potion(4)","Shark","Wild pie"]
@@ -29,7 +29,7 @@ CONST_ARAXXOR_RULE (name:VAR_ARAXXOR_ENUMLIST_FILTER_SUPPLIES) {
 }
 
 /*@ define:input:araxxor
-type: stringlist
+type: enumlist
 label: Weapons and armour
 group: Hide drops
 enum: ["Rune kiteshield","Rune platelegs","Dragon mace","Rune 2h sword","Dragon platelegs"]
@@ -40,7 +40,7 @@ CONST_ARAXXOR_RULE (name:VAR_ARAXXOR_ENUMLIST_FILTER_WEAPONSANDARMOUR) {
 }
 
 /*@ define:input:araxxor
-type: stringlist
+type: enumlist
 label: Runes and ammunition
 group: Hide drops
 enum: ["Death rune","Nature rune","Mud rune","Blood rune"]
@@ -51,7 +51,7 @@ CONST_ARAXXOR_RULE (name:VAR_ARAXXOR_ENUMLIST_FILTER_RUNESANDAMMUNITION) {
 }
 
 /*@ define:input:araxxor
-type: stringlist
+type: enumlist
 label: Seeds
 group: Hide drops
 enum: ["Yew seed","Toadflax seed","Ranarr seed","Snapdragon seed","Magic seed"]
@@ -62,7 +62,7 @@ CONST_ARAXXOR_RULE (name:VAR_ARAXXOR_ENUMLIST_FILTER_SEEDS) {
 }
 
 /*@ define:input:araxxor
-type: stringlist
+type: enumlist
 label: Resources
 group: Hide drops
 enum: ["Coal","Adamantite ore","Raw shark","Yew logs","Runite ore","Raw monkfish","Pure essence"]
@@ -73,7 +73,7 @@ CONST_ARAXXOR_RULE (name:VAR_ARAXXOR_ENUMLIST_FILTER_RESOURCES) {
 }
 
 /*@ define:input:araxxor
-type: stringlist
+type: enumlist
 label: Other
 group: Hide drops
 enum: ["Spider cave teleport","Earth orb","Araxyte venom sack","Mort myre fungus","Antidote++(3)","Wine of zamorak","Red spiders' eggs","Bark","Araxyte head","Jar of venom"]
@@ -84,7 +84,7 @@ CONST_ARAXXOR_RULE (name:VAR_ARAXXOR_ENUMLIST_FILTER_OTHER) {
 }
 
 /*@ define:input:araxxor
-type: stringlist
+type: enumlist
 label: Tertiary
 group: Hide drops
 enum: ["Coagulated venom","Brimstone key","Nid"]

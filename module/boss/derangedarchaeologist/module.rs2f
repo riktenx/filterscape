@@ -7,7 +7,7 @@ name: Deranged archaeologist
 #define CONST_DERANGEDARCHAEOLOGIST_RULE(_cond) rule (area:CONST_AREA_DERANGEDARCHAEOLOGIST && (_cond))
 
 /*@ define:input:derangedarchaeologist
-type: stringlist
+type: enumlist
 label: 100%
 group: Hide drops
 enum: ["Bones"]
@@ -18,7 +18,7 @@ CONST_DERANGEDARCHAEOLOGIST_RULE (name:VAR_DERANGEDARCHAEOLOGIST_ENUMLIST_FILTER
 }
 
 /*@ define:input:derangedarchaeologist
-type: stringlist
+type: enumlist
 label: Weapons and armour
 group: Hide drops
 enum: ["Black d'hide body","Rune 2h sword","Rune sword"]
@@ -29,7 +29,7 @@ CONST_DERANGEDARCHAEOLOGIST_RULE (name:VAR_DERANGEDARCHAEOLOGIST_ENUMLIST_FILTER
 }
 
 /*@ define:input:derangedarchaeologist
-type: stringlist
+type: enumlist
 label: Runes and ammunition
 group: Hide drops
 enum: ["Water rune","Mud rune","Rune knife","Dragon arrow","Cannonball"]
@@ -40,7 +40,7 @@ CONST_DERANGEDARCHAEOLOGIST_RULE (name:VAR_DERANGEDARCHAEOLOGIST_ENUMLIST_FILTER
 }
 
 /*@ define:input:derangedarchaeologist
-type: stringlist
+type: enumlist
 label: Materials
 group: Hide drops
 enum: ["Grimy dwarf weed","White berries","Runite limbs","Black dragonhide","Gold ore","Uncut diamond","Onyx bolt tips"]
@@ -51,7 +51,7 @@ CONST_DERANGEDARCHAEOLOGIST_RULE (name:VAR_DERANGEDARCHAEOLOGIST_ENUMLIST_FILTER
 }
 
 /*@ define:input:derangedarchaeologist
-type: stringlist
+type: enumlist
 label: Consumables
 group: Hide drops
 enum: ["Anchovy pizza","Prayer potion(3)","Potato with cheese","Shark"]
@@ -62,7 +62,7 @@ CONST_DERANGEDARCHAEOLOGIST_RULE (name:VAR_DERANGEDARCHAEOLOGIST_ENUMLIST_FILTER
 }
 
 /*@ define:input:derangedarchaeologist
-type: stringlist
+type: enumlist
 label: Other
 group: Hide drops
 enum: ["Crystal key","Long bone"]
@@ -73,7 +73,7 @@ CONST_DERANGEDARCHAEOLOGIST_RULE (name:VAR_DERANGEDARCHAEOLOGIST_ENUMLIST_FILTER
 }
 
 /*@ define:input:derangedarchaeologist
-type: stringlist
+type: enumlist
 label: Tertiary
 group: Hide drops
 enum: ["Brimstone key"]

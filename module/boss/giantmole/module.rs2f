@@ -7,7 +7,7 @@ name: Giant Mole
 #define CONST_GIANTMOLE_RULE(_cond) rule (area:CONST_AREA_GIANTMOLE && (_cond))
 
 /*@ define:input:giantmole
-type: stringlist
+type: enumlist
 label: 100%
 group: Hide drops
 enum: ["Big bones","Mole claw","Mole skin"]
@@ -18,7 +18,7 @@ CONST_GIANTMOLE_RULE (name:VAR_GIANTMOLE_ENUMLIST_FILTER_100) {
 }
 
 /*@ define:input:giantmole
-type: stringlist
+type: enumlist
 label: Weapons and armour
 group: Hide drops
 enum: ["Adamant longsword","Mithril platebody","Amulet of strength","Mithril axe","Mithril battleaxe","Rune med helm"]
@@ -29,7 +29,7 @@ CONST_GIANTMOLE_RULE (name:VAR_GIANTMOLE_ENUMLIST_FILTER_WEAPONSANDARMOUR) {
 }
 
 /*@ define:input:giantmole
-type: stringlist
+type: enumlist
 label: Runes and ammunition
 group: Hide drops
 enum: ["Air rune","Blood rune","Fire rune","Iron arrow","Law rune","Death rune"]
@@ -40,7 +40,7 @@ CONST_GIANTMOLE_RULE (name:VAR_GIANTMOLE_ENUMLIST_FILTER_RUNESANDAMMUNITION) {
 }
 
 /*@ define:input:giantmole
-type: stringlist
+type: enumlist
 label: Other
 group: Hide drops
 enum: ["Yew logs","Shark","Mithril bar","Iron ore","Oyster pearls"]
@@ -51,7 +51,7 @@ CONST_GIANTMOLE_RULE (name:VAR_GIANTMOLE_ENUMLIST_FILTER_OTHER) {
 }
 
 /*@ define:input:giantmole
-type: stringlist
+type: enumlist
 label: Tertiary
 group: Hide drops
 enum: ["Brimstone key","Long bone","Baby mole","Curved bone"]

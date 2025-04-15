@@ -7,7 +7,7 @@ name: Scurrius
 #define CONST_SCURRIUS_RULE(_cond) rule (area:CONST_AREA_SCURRIUS && (_cond))
 
 /*@ define:input:scurrius
-type: stringlist
+type: enumlist
 label: 100%
 group: Hide drops
 enum: ["Big bones","Raw rat meat"]
@@ -18,7 +18,7 @@ CONST_SCURRIUS_RULE (name:VAR_SCURRIUS_ENUMLIST_FILTER_100) {
 }
 
 /*@ define:input:scurrius
-type: stringlist
+type: enumlist
 label: Equipment
 group: Hide drops
 enum: ["Adamant platebody","Rune med helm","Rune full helm","Rune sq shield","Rune chainbody","Rune battleaxe"]
@@ -29,7 +29,7 @@ CONST_SCURRIUS_RULE (name:VAR_SCURRIUS_ENUMLIST_FILTER_EQUIPMENT) {
 }
 
 /*@ define:input:scurrius
-type: stringlist
+type: enumlist
 label: Runes and ammunition
 group: Hide drops
 enum: ["Adamant arrow","Rune arrow","Chaos rune","Death rune","Law rune"]
@@ -40,7 +40,7 @@ CONST_SCURRIUS_RULE (name:VAR_SCURRIUS_ENUMLIST_FILTER_RUNESANDAMMUNITION) {
 }
 
 /*@ define:input:scurrius
-type: stringlist
+type: enumlist
 label: Food and potions
 group: Hide drops
 enum: ["Trout","Tuna","Shark","Lobster","Ranging potion(1)","Super strength(1)","Cheese","Prayer potion(4)"]
@@ -51,7 +51,7 @@ CONST_SCURRIUS_RULE (name:VAR_SCURRIUS_ENUMLIST_FILTER_FOODANDPOTIONS) {
 }
 
 /*@ define:input:scurrius
-type: stringlist
+type: enumlist
 label: Other
 group: Hide drops
 enum: ["Coins","Scurrius' spine"]
@@ -62,7 +62,7 @@ CONST_SCURRIUS_RULE (name:VAR_SCURRIUS_ENUMLIST_FILTER_OTHER) {
 }
 
 /*@ define:input:scurrius
-type: stringlist
+type: enumlist
 label: Tertiary drops
 group: Hide drops
 enum: ["Scurrius' spine","Long bone","Curved bone","Scurry"]

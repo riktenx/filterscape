@@ -7,7 +7,7 @@ name: Commander Zilyana
 #define CONST_COMMANDERZILYANA_RULE(_cond) rule (area:CONST_AREA_COMMANDERZILYANA && (_cond))
 
 /*@ define:input:commanderzilyana
-type: stringlist
+type: enumlist
 label: 100%
 group: Hide drops
 enum: ["Bones","Frozen key piece (saradomin)"]
@@ -18,7 +18,7 @@ CONST_COMMANDERZILYANA_RULE (name:VAR_COMMANDERZILYANA_ENUMLIST_FILTER_100) {
 }
 
 /*@ define:input:commanderzilyana
-type: stringlist
+type: enumlist
 label: Uniques
 group: Hide drops
 enum: ["Saradomin sword","Saradomin's light","Armadyl crossbow","Saradomin hilt","Godsword shard 1","Godsword shard 2","Godsword shard 3"]
@@ -29,7 +29,7 @@ CONST_COMMANDERZILYANA_RULE (name:VAR_COMMANDERZILYANA_ENUMLIST_FILTER_UNIQUES) 
 }
 
 /*@ define:input:commanderzilyana
-type: stringlist
+type: enumlist
 label: Weapons and armour
 group: Hide drops
 enum: ["Adamant platebody","Rune dart","Rune kiteshield","Rune plateskirt"]
@@ -40,7 +40,7 @@ CONST_COMMANDERZILYANA_RULE (name:VAR_COMMANDERZILYANA_ENUMLIST_FILTER_WEAPONSAN
 }
 
 /*@ define:input:commanderzilyana
-type: stringlist
+type: enumlist
 label: Potions
 group: Hide drops
 enum: ["Prayer potion(4)","Saradomin brew(3)","Super restore(4)","Super defence(3)","Magic potion(3)"]
@@ -51,7 +51,7 @@ CONST_COMMANDERZILYANA_RULE (name:VAR_COMMANDERZILYANA_ENUMLIST_FILTER_POTIONS) 
 }
 
 /*@ define:input:commanderzilyana
-type: stringlist
+type: enumlist
 label: Other
 group: Hide drops
 enum: ["Coins","Diamond","Law rune","Grimy ranarr weed","Ranarr seed","Magic seed"]
@@ -62,7 +62,7 @@ CONST_COMMANDERZILYANA_RULE (name:VAR_COMMANDERZILYANA_ENUMLIST_FILTER_OTHER) {
 }
 
 /*@ define:input:commanderzilyana
-type: stringlist
+type: enumlist
 label: Tertiary
 group: Hide drops
 enum: ["Brimstone key","Pet zilyana"]

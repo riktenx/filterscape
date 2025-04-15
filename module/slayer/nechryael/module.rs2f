@@ -9,7 +9,7 @@ name: Nechryael
   area:CONST_AREA_NECHRYAEL1) && (_cond))
 
 /*@ define:input:nechryael
-type: stringlist
+type: enumlist
 label: 100%
 group: Hide drops
 enum: ["Malicious ashes"]
@@ -20,7 +20,7 @@ CONST_NECHRYAEL_RULE (name:VAR_NECHRYAEL_ENUMLIST_FILTER_100) {
 }
 
 /*@ define:input:nechryael
-type: stringlist
+type: enumlist
 label: Weapons and armour
 group: Hide drops
 enum: ["Adamant platelegs","Rune 2h sword","Rune full helm","Adamant kiteshield","Rune boots"]
@@ -31,7 +31,7 @@ CONST_NECHRYAEL_RULE (name:VAR_NECHRYAEL_ENUMLIST_FILTER_WEAPONSANDARMOUR) {
 }
 
 /*@ define:input:nechryael
-type: stringlist
+type: enumlist
 label: Runes
 group: Hide drops
 enum: ["Chaos rune","Death rune","Law rune","Blood rune"]
@@ -42,7 +42,7 @@ CONST_NECHRYAEL_RULE (name:VAR_NECHRYAEL_ENUMLIST_FILTER_RUNES) {
 }
 
 /*@ define:input:nechryael
-type: stringlist
+type: enumlist
 label: Seeds
 group: Hide drops
 enum: ["Limpwurt seed"]
@@ -53,7 +53,7 @@ CONST_NECHRYAEL_RULE (name:VAR_NECHRYAEL_ENUMLIST_FILTER_SEEDS) {
 }
 
 /*@ define:input:nechryael
-type: stringlist
+type: enumlist
 label: Coins
 group: Hide drops
 enum: ["Coins"]
@@ -64,7 +64,7 @@ CONST_NECHRYAEL_RULE (name:VAR_NECHRYAEL_ENUMLIST_FILTER_COINS) {
 }
 
 /*@ define:input:nechryael
-type: stringlist
+type: enumlist
 label: Other
 group: Hide drops
 enum: ["Soft clay","Tuna"]
@@ -75,7 +75,7 @@ CONST_NECHRYAEL_RULE (name:VAR_NECHRYAEL_ENUMLIST_FILTER_OTHER) {
 }
 
 /*@ define:input:nechryael
-type: stringlist
+type: enumlist
 label: Tertiary
 group: Hide drops
 enum: ["Brimstone key"]

@@ -7,7 +7,7 @@ name: Chaos Elemental
 #define CONST_CHAOSELEMENTAL_RULE(_cond) rule (area:CONST_AREA_CHAOSELEMENTAL && (_cond))
 
 /*@ define:input:chaoselemental
-type: stringlist
+type: enumlist
 label: Minor drops
 group: Hide drops
 enum: ["Blighted anglerfish","Blighted karambwan","Blighted super restore(4)","Dragon bones","Super combat potion(1)"]
@@ -18,7 +18,7 @@ CONST_CHAOSELEMENTAL_RULE (name:VAR_CHAOSELEMENTAL_ENUMLIST_FILTER_MINORDROPS) {
 }
 
 /*@ define:input:chaoselemental
-type: stringlist
+type: enumlist
 label: Pre-roll
 group: Hide drops
 enum: ["Dragon pickaxe"]
@@ -29,7 +29,7 @@ CONST_CHAOSELEMENTAL_RULE (name:VAR_CHAOSELEMENTAL_ENUMLIST_FILTER_PREROLL) {
 }
 
 /*@ define:input:chaoselemental
-type: stringlist
+type: enumlist
 label: Weapons and armour
 group: Hide drops
 enum: ["Rune dart","Rune platelegs","Rune plateskirt","Rune 2h sword","Rune battleaxe","Rune full helm","Rune kiteshield","Mystic air staff","Mystic water staff","Mystic earth staff","Mystic fire staff","Dragon dagger","Dragon 2h sword","Dragon platelegs","Dragon plateskirt"]
@@ -40,7 +40,7 @@ CONST_CHAOSELEMENTAL_RULE (name:VAR_CHAOSELEMENTAL_ENUMLIST_FILTER_WEAPONSANDARM
 }
 
 /*@ define:input:chaoselemental
-type: stringlist
+type: enumlist
 label: Runes and ammunition
 group: Hide drops
 enum: ["Chaos rune","Blood rune","Rune arrow"]
@@ -51,7 +51,7 @@ CONST_CHAOSELEMENTAL_RULE (name:VAR_CHAOSELEMENTAL_ENUMLIST_FILTER_RUNESANDAMMUN
 }
 
 /*@ define:input:chaoselemental
-type: stringlist
+type: enumlist
 label: Herbs
 group: Hide drops
 enum: ["Grimy ranarr weed","Grimy snapdragon","Grimy avantoe","Grimy kwuarm"]
@@ -62,7 +62,7 @@ CONST_CHAOSELEMENTAL_RULE (name:VAR_CHAOSELEMENTAL_ENUMLIST_FILTER_HERBS) {
 }
 
 /*@ define:input:chaoselemental
-type: stringlist
+type: enumlist
 label: Resources
 group: Hide drops
 enum: ["Coal","Mahogany plank","Runite bar","Adamantite bar"]
@@ -73,7 +73,7 @@ CONST_CHAOSELEMENTAL_RULE (name:VAR_CHAOSELEMENTAL_ENUMLIST_FILTER_RESOURCES) {
 }
 
 /*@ define:input:chaoselemental
-type: stringlist
+type: enumlist
 label: Materials
 group: Hide drops
 enum: ["Coins","Blighted ancient ice sack","Blighted karambwan","Blighted anglerfish","Wilderness crabs teleport"]
@@ -84,7 +84,7 @@ CONST_CHAOSELEMENTAL_RULE (name:VAR_CHAOSELEMENTAL_ENUMLIST_FILTER_MATERIALS) {
 }
 
 /*@ define:input:chaoselemental
-type: stringlist
+type: enumlist
 label: Tertiary
 group: Hide drops
 enum: ["Weapon poison(++)","Looting bag","Brimstone key","Pet chaos elemental"]

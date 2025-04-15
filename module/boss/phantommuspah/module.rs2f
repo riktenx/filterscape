@@ -7,7 +7,7 @@ name: Phantom Muspah
 #define CONST_PHANTOMMUSPAH_RULE(_cond) rule (area:CONST_AREA_PHANTOMMUSPAH && (_cond))
 
 /*@ define:input:phantommuspah
-type: stringlist
+type: enumlist
 label: Unique
 group: Hide drops
 enum: ["Ancient essence","Frozen cache","Ancient icon","Venator shard"]
@@ -18,7 +18,7 @@ CONST_PHANTOMMUSPAH_RULE (name:VAR_PHANTOMMUSPAH_ENUMLIST_FILTER_UNIQUE) {
 }
 
 /*@ define:input:phantommuspah
-type: stringlist
+type: enumlist
 label: Supplies
 group: Hide drops
 enum: ["Shark","Summer pie","Ancient brew(3)","Ranging potion(3)","Super restore(3)","Prayer potion(3)"]
@@ -29,7 +29,7 @@ CONST_PHANTOMMUSPAH_RULE (name:VAR_PHANTOMMUSPAH_ENUMLIST_FILTER_SUPPLIES) {
 }
 
 /*@ define:input:phantommuspah
-type: stringlist
+type: enumlist
 label: Weapons and armour
 group: Hide drops
 enum: ["Rune kiteshield","Dragon plateskirt","Rune platelegs","Black d'hide body","Dragon platelegs","Rune sword"]
@@ -40,7 +40,7 @@ CONST_PHANTOMMUSPAH_RULE (name:VAR_PHANTOMMUSPAH_ENUMLIST_FILTER_WEAPONSANDARMOU
 }
 
 /*@ define:input:phantommuspah
-type: stringlist
+type: enumlist
 label: Runes and ammunition
 group: Hide drops
 enum: ["Law rune","Soul rune","Death rune","Smoke rune","Chaos rune","Fire rune","Cannonball"]
@@ -51,7 +51,7 @@ CONST_PHANTOMMUSPAH_RULE (name:VAR_PHANTOMMUSPAH_ENUMLIST_FILTER_RUNESANDAMMUNIT
 }
 
 /*@ define:input:phantommuspah
-type: stringlist
+type: enumlist
 label: Herbs
 group: Hide drops
 enum: ["Grimy toadflax","Grimy kwuarm","Grimy cadantine","Grimy dwarf weed","Grimy lantadyme"]
@@ -62,7 +62,7 @@ CONST_PHANTOMMUSPAH_RULE (name:VAR_PHANTOMMUSPAH_ENUMLIST_FILTER_HERBS) {
 }
 
 /*@ define:input:phantommuspah
-type: stringlist
+type: enumlist
 label: Seeds
 group: Hide drops
 enum: ["Yew seed","Torstol seed","Palm tree seed","Ranarr seed","Snapdragon seed","Spirit seed"]
@@ -73,7 +73,7 @@ CONST_PHANTOMMUSPAH_RULE (name:VAR_PHANTOMMUSPAH_ENUMLIST_FILTER_SEEDS) {
 }
 
 /*@ define:input:phantommuspah
-type: stringlist
+type: enumlist
 label: Resources
 group: Hide drops
 enum: ["Adamantite ore","Gold ore","Teak plank","Molten glass","Pure essence","Coal","Runite ore","Silver ore"]
@@ -84,7 +84,7 @@ CONST_PHANTOMMUSPAH_RULE (name:VAR_PHANTOMMUSPAH_ENUMLIST_FILTER_RESOURCES) {
 }
 
 /*@ define:input:phantommuspah
-type: stringlist
+type: enumlist
 label: Other
 group: Hide drops
 enum: ["Manta ray","Water orb","Dragon bolts (unf)","Limpwurt root"]
@@ -95,7 +95,7 @@ CONST_PHANTOMMUSPAH_RULE (name:VAR_PHANTOMMUSPAH_ENUMLIST_FILTER_OTHER) {
 }
 
 /*@ define:input:phantommuspah
-type: stringlist
+type: enumlist
 label: Tertiary
 group: Hide drops
 enum: ["Brimstone key","Clue scroll (hard)","Clue scroll (elite)","Charged ice","Muphin"]

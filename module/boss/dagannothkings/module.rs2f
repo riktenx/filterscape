@@ -7,7 +7,7 @@ name: Dagannoth Kings
 #define CONST_DAGANNOTHKINGS_RULE(_cond) rule (area:CONST_AREA_DAGANNOTHKINGS && (_cond))
 
 /*@ define:input:dagannothkings
-type: stringlist
+type: enumlist
 label: 100%
 group: Hide drops
 enum: ["Dagannoth bones","Dagannoth hide"]
@@ -18,7 +18,7 @@ CONST_DAGANNOTHKINGS_RULE (name:VAR_DAGANNOTHKINGS_ENUMLIST_FILTER_100) {
 }
 
 /*@ define:input:dagannothkings
-type: stringlist
+type: enumlist
 label: Weapons and armour
 group: Hide drops
 enum: ["Steel kiteshield","Mithril warhammer","Adamant axe","Steel platebody","Mithril pickaxe","Adamant platebody","Fremennik blade","Dragon axe","Rune axe","Fremennik shield","Fremennik helm","Mithril 2h sword","Ring of life","Rock-shell plate","Rock-shell legs","Berserker ring","Warrior ring","Earth battlestaff","Water battlestaff","Air battlestaff","Battlestaff","Mud battlestaff","Farseer helm","Skeletal top","Skeletal bottoms","Seers ring","Mithril knife","Red d'hide vambraces","Rune thrownaxe","Adamant dart","Iron knife","Steel knife","Seercull","Archer helm","Spined body","Spined chaps","Archers ring"]
@@ -29,7 +29,7 @@ CONST_DAGANNOTHKINGS_RULE (name:VAR_DAGANNOTHKINGS_ENUMLIST_FILTER_WEAPONSANDARM
 }
 
 /*@ define:input:dagannothkings
-type: stringlist
+type: enumlist
 label: Potions
 group: Hide drops
 enum: ["Antifire potion(2)","Prayer potion(2)","Restore potion(2)","Super attack(2)","Super strength(2)","Super defence(2)","Zamorak brew(2)"]
@@ -40,7 +40,7 @@ CONST_DAGANNOTHKINGS_RULE (name:VAR_DAGANNOTHKINGS_ENUMLIST_FILTER_POTIONS) {
 }
 
 /*@ define:input:dagannothkings
-type: stringlist
+type: enumlist
 label: Ores and bars
 group: Hide drops
 enum: ["Mithril ore","Adamantite bar","Coal","Iron ore","Steel bar"]
@@ -51,7 +51,7 @@ CONST_DAGANNOTHKINGS_RULE (name:VAR_DAGANNOTHKINGS_ENUMLIST_FILTER_ORESANDBARS) 
 }
 
 /*@ define:input:dagannothkings
-type: stringlist
+type: enumlist
 label: Other
 group: Hide drops
 enum: ["Coins","Grimy ranarr weed","Bass","Swordfish","Shark","Oyster pearls","Pure essence","Opal bolt tips","Yew logs","Maple logs","Runite limbs","Feather"]
@@ -62,7 +62,7 @@ CONST_DAGANNOTHKINGS_RULE (name:VAR_DAGANNOTHKINGS_ENUMLIST_FILTER_OTHER) {
 }
 
 /*@ define:input:dagannothkings
-type: stringlist
+type: enumlist
 label: Tertiary
 group: Hide drops
 enum: ["Ensouled dagannoth head","Brimstone key"]
@@ -73,7 +73,7 @@ CONST_DAGANNOTHKINGS_RULE (name:VAR_DAGANNOTHKINGS_ENUMLIST_FILTER_TERTIARY) {
 }
 
 /*@ define:input:dagannothkings
-type: stringlist
+type: enumlist
 label: Runes
 group: Hide drops
 enum: ["Air rune","Earth rune","Blood rune","Law rune","Nature rune","Mud rune","Death rune"]
@@ -84,7 +84,7 @@ CONST_DAGANNOTHKINGS_RULE (name:VAR_DAGANNOTHKINGS_ENUMLIST_FILTER_RUNES) {
 }
 
 /*@ define:input:dagannothkings
-type: stringlist
+type: enumlist
 label: Talismans (noted)
 group: Hide drops
 enum: ["Earth talisman","Air talisman","Water talisman"]
@@ -95,7 +95,7 @@ CONST_DAGANNOTHKINGS_RULE (name:VAR_DAGANNOTHKINGS_ENUMLIST_FILTER_TALISMANSNOTE
 }
 
 /*@ define:input:dagannothkings
-type: stringlist
+type: enumlist
 label: Ammunition
 group: Hide drops
 enum: ["Steel arrow","Runite bolts","Iron arrow"]

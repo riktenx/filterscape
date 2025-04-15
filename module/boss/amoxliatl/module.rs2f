@@ -7,7 +7,7 @@ name: Amoxliatl
 #define CONST_AMOXLIATL_RULE(_cond) rule (area:CONST_AREA_AMOXLIATL && (_cond))
 
 /*@ define:input:amoxliatl
-type: stringlist
+type: enumlist
 label: Frozen tears
 group: Hide drops
 enum: ["Frozen tear"]
@@ -18,7 +18,7 @@ CONST_AMOXLIATL_RULE (name:VAR_AMOXLIATL_ENUMLIST_FILTER_FROZENTEARS) {
 }
 
 /*@ define:input:amoxliatl
-type: stringlist
+type: enumlist
 label: Weapons and armour
 group: Hide drops
 enum: ["Rune mace","Rune pickaxe","Rune platebody","Rune platelegs"]
@@ -29,7 +29,7 @@ CONST_AMOXLIATL_RULE (name:VAR_AMOXLIATL_ENUMLIST_FILTER_WEAPONSANDARMOUR) {
 }
 
 /*@ define:input:amoxliatl
-type: stringlist
+type: enumlist
 label: Runes and ammunition
 group: Hide drops
 enum: ["Water rune","Chaos rune","Death rune","Blood rune","Soul rune","Nature rune"]
@@ -40,7 +40,7 @@ CONST_AMOXLIATL_RULE (name:VAR_AMOXLIATL_ENUMLIST_FILTER_RUNESANDAMMUNITION) {
 }
 
 /*@ define:input:amoxliatl
-type: stringlist
+type: enumlist
 label: Other
 group: Hide drops
 enum: ["Coal","Gold ore","Adamantite ore","Prayer potion(3)","Runite ore","Blessed bone shards","Water orb","Water talisman"]
@@ -51,7 +51,7 @@ CONST_AMOXLIATL_RULE (name:VAR_AMOXLIATL_ENUMLIST_FILTER_OTHER) {
 }
 
 /*@ define:input:amoxliatl
-type: stringlist
+type: enumlist
 label: Tertiary
 group: Hide drops
 enum: ["Clue scroll (elite)","Reward casket (elite)","Pendant of ates (inert)","Glacial temotli","Tooth half of key (moon key)","Brimstone key","Moxi"]

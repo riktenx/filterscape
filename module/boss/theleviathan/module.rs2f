@@ -7,7 +7,7 @@ name: The Leviathan
 #define CONST_THELEVIATHAN_RULE(_cond) rule (area:CONST_AREA_THELEVIATHAN && (_cond))
 
 /*@ define:input:theleviathan
-type: stringlist
+type: enumlist
 label: Uniques
 group: Hide drops
 enum: ["Venator vestige","Chromium ingot","Leviathan's lure","Virtus mask","Virtus robe top","Virtus robe bottom"]
@@ -18,7 +18,7 @@ CONST_THELEVIATHAN_RULE (name:VAR_THELEVIATHAN_ENUMLIST_FILTER_UNIQUES) {
 }
 
 /*@ define:input:theleviathan
-type: stringlist
+type: enumlist
 label: Secondary uniques
 group: Hide drops
 enum: ["Scarred tablet","Awakener's orb","Smoke quartz"]
@@ -29,7 +29,7 @@ CONST_THELEVIATHAN_RULE (name:VAR_THELEVIATHAN_ENUMLIST_FILTER_SECONDARYUNIQUES)
 }
 
 /*@ define:input:theleviathan
-type: stringlist
+type: enumlist
 label: Supplies
 group: Hide drops
 enum: ["Prayer potion(3)","Ranging potion(2)","Sea turtle"]
@@ -40,7 +40,7 @@ CONST_THELEVIATHAN_RULE (name:VAR_THELEVIATHAN_ENUMLIST_FILTER_SUPPLIES) {
 }
 
 /*@ define:input:theleviathan
-type: stringlist
+type: enumlist
 label: Resources
 group: Hide drops
 enum: ["Pure essence","Iron ore","Silver ore","Coal","Gold ore","Adamantite ore","Runite ore","Sapphire","Emerald","Ruby","Uncut ruby","Uncut diamond","Dragon javelin heads","Dragon bolts (unf)","Onyx bolt tips","Raw manta ray","Anglerfish"]
@@ -51,7 +51,7 @@ CONST_THELEVIATHAN_RULE (name:VAR_THELEVIATHAN_ENUMLIST_FILTER_RESOURCES) {
 }
 
 /*@ define:input:theleviathan
-type: stringlist
+type: enumlist
 label: Runes and ammunition
 group: Hide drops
 enum: ["Bronze arrow","Mithril arrow","Adamant arrow","Rune arrow","Body rune","Earth rune","Smoke rune","Soul rune"]
@@ -62,7 +62,7 @@ CONST_THELEVIATHAN_RULE (name:VAR_THELEVIATHAN_ENUMLIST_FILTER_RUNESANDAMMUNITIO
 }
 
 /*@ define:input:theleviathan
-type: stringlist
+type: enumlist
 label: Tertiary
 group: Hide drops
 enum: ["Brimstone key","Clue scroll (easy)","Clue scroll (medium)","Clue scroll (hard)","Clue scroll (elite)","Lil'viathan","Ancient blood ornament kit"]

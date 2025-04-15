@@ -99,7 +99,7 @@ name: ${name}
     const ident = toMacroIdent(category);
     // some categories parse with additional = surrounding the mediawiki section, just chop that off for now
     return `/*@ define:input:${moduleName}
-type: stringlist
+type: enumlist
 label: ${category.startsWith('=') ? category.substring(1, category.length - 1) : category}
 group: Hide drops
 enum: ${jvalue}

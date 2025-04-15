@@ -7,7 +7,7 @@ name: Kraken
 #define CONST_KRAKEN_RULE(_cond) rule (area:CONST_AREA_KRAKEN && (_cond))
 
 /*@ define:input:kraken
-type: stringlist
+type: enumlist
 label: Weapons and armour
 group: Hide drops
 enum: ["Mystic water staff","Rune warhammer","Rune longsword","Mystic robe top","Mystic robe bottom","Trident of the seas (full)"]
@@ -18,7 +18,7 @@ CONST_KRAKEN_RULE (name:VAR_KRAKEN_ENUMLIST_FILTER_WEAPONSANDARMOUR) {
 }
 
 /*@ define:input:kraken
-type: stringlist
+type: enumlist
 label: Runes
 group: Hide drops
 enum: ["Water rune","Mist rune","Chaos rune","Death rune","Blood rune","Soul rune"]
@@ -29,7 +29,7 @@ CONST_KRAKEN_RULE (name:VAR_KRAKEN_ENUMLIST_FILTER_RUNES) {
 }
 
 /*@ define:input:kraken
-type: stringlist
+type: enumlist
 label: Seeds
 group: Hide drops
 enum: ["Watermelon seed","Torstol seed","Magic seed"]
@@ -40,7 +40,7 @@ CONST_KRAKEN_RULE (name:VAR_KRAKEN_ENUMLIST_FILTER_SEEDS) {
 }
 
 /*@ define:input:kraken
-type: stringlist
+type: enumlist
 label: Materials
 group: Hide drops
 enum: ["Seaweed","Battlestaff","Unpowered orb","Diamond","Oak plank","Runite bar","Raw shark","Raw monkfish","Grimy snapdragon"]
@@ -51,7 +51,7 @@ CONST_KRAKEN_RULE (name:VAR_KRAKEN_ENUMLIST_FILTER_MATERIALS) {
 }
 
 /*@ define:input:kraken
-type: stringlist
+type: enumlist
 label: Other
 group: Hide drops
 enum: ["Coins","Shark","Pirate boots","Sanfew serum(4)","Edible seaweed","Harpoon","Bucket","Crystal key","Rusty sword","Antidote++(4)","Dragonstone ring","Kraken tentacle"]
@@ -62,7 +62,7 @@ CONST_KRAKEN_RULE (name:VAR_KRAKEN_ENUMLIST_FILTER_OTHER) {
 }
 
 /*@ define:input:kraken
-type: stringlist
+type: enumlist
 label: Tertiary
 group: Hide drops
 enum: ["Brimstone key","Jar of dirt","Pet kraken"]

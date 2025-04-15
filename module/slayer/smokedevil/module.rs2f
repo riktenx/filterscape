@@ -7,7 +7,7 @@ name: Smoke devil
 #define CONST_SMOKEDEVIL_RULE(_cond) rule ((area:CONST_AREA_SMOKEDEVIL0) && (_cond))
 
 /*@ define:input:smokedevil
-type: stringlist
+type: enumlist
 label: 100%
 group: Hide drops
 enum: ["Ashes"]
@@ -18,7 +18,7 @@ CONST_SMOKEDEVIL_RULE (name:VAR_SMOKEDEVIL_ENUMLIST_FILTER_100) {
 }
 
 /*@ define:input:smokedevil
-type: stringlist
+type: enumlist
 label: Weapons and armour
 group: Hide drops
 enum: ["Adamant battleaxe","Rune dagger","Air battlestaff","Black d'hide vambraces","Fire battlestaff","Mithril plateskirt","Rune full helm","Rune chainbody","Red d'hide body","Occult necklace","Dragon chainbody"]
@@ -29,7 +29,7 @@ CONST_SMOKEDEVIL_RULE (name:VAR_SMOKEDEVIL_ENUMLIST_FILTER_WEAPONSANDARMOUR) {
 }
 
 /*@ define:input:smokedevil
-type: stringlist
+type: enumlist
 label: Runes and ammunition
 group: Hide drops
 enum: ["Smoke rune","Runite bolts","Fire rune","Air rune","Soul rune","Rune arrow"]
@@ -40,7 +40,7 @@ CONST_SMOKEDEVIL_RULE (name:VAR_SMOKEDEVIL_ENUMLIST_FILTER_RUNESANDAMMUNITION) {
 }
 
 /*@ define:input:smokedevil
-type: stringlist
+type: enumlist
 label: Coins
 group: Hide drops
 enum: ["Coins"]
@@ -51,7 +51,7 @@ CONST_SMOKEDEVIL_RULE (name:VAR_SMOKEDEVIL_ENUMLIST_FILTER_COINS) {
 }
 
 /*@ define:input:smokedevil
-type: stringlist
+type: enumlist
 label: Other
 group: Hide drops
 enum: ["Shark","Steel bar","Magic logs","Coal","Adamantite bar","Crossbow string","Ugthanki kebab"]
@@ -62,7 +62,7 @@ CONST_SMOKEDEVIL_RULE (name:VAR_SMOKEDEVIL_ENUMLIST_FILTER_OTHER) {
 }
 
 /*@ define:input:smokedevil
-type: stringlist
+type: enumlist
 label: Tertiary
 group: Hide drops
 enum: ["Brimstone key"]

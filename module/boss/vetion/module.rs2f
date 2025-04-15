@@ -7,7 +7,7 @@ name: Vet'ion
 #define CONST_VETION_RULE(_cond) rule (area:CONST_AREA_VETION && (_cond))
 
 /*@ define:input:vetion
-type: stringlist
+type: enumlist
 label: 100%
 group: Hide drops
 enum: ["Big bones","Bones"]
@@ -18,7 +18,7 @@ CONST_VETION_RULE (name:VAR_VETION_ENUMLIST_FILTER_100) {
 }
 
 /*@ define:input:vetion
-type: stringlist
+type: enumlist
 label: Unique
 group: Hide drops
 enum: ["Skull of vet'ion","Dragon 2h sword","Dragon pickaxe","Voidwaker blade","Ring of the gods"]
@@ -29,7 +29,7 @@ CONST_VETION_RULE (name:VAR_VETION_ENUMLIST_FILTER_UNIQUE) {
 }
 
 /*@ define:input:vetion
-type: stringlist
+type: enumlist
 label: Weapons and armour
 group: Hide drops
 enum: ["Mystic fire staff","Mystic water staff","Mystic robe top","Mystic robe bottom","Rune full helm","Rune pickaxe","Rune dart","Rune knife"]
@@ -40,7 +40,7 @@ CONST_VETION_RULE (name:VAR_VETION_ENUMLIST_FILTER_WEAPONSANDARMOUR) {
 }
 
 /*@ define:input:vetion
-type: stringlist
+type: enumlist
 label: Runes and ammunition
 group: Hide drops
 enum: ["Chaos rune","Death rune","Blood rune","Cannonball"]
@@ -51,7 +51,7 @@ CONST_VETION_RULE (name:VAR_VETION_ENUMLIST_FILTER_RUNESANDAMMUNITION) {
 }
 
 /*@ define:input:vetion
-type: stringlist
+type: enumlist
 label: Materials
 group: Hide drops
 enum: ["Uncut ruby","Uncut diamond","Uncut dragonstone","Gold ore","Limpwurt root","Wine of zamorak","Magic logs","Oak plank","Dragon bones","Mort myre fungus","Grimy ranarr weed","Grimy dwarf weed","Grimy snapdragon","Grimy toadflax"]
@@ -62,7 +62,7 @@ CONST_VETION_RULE (name:VAR_VETION_ENUMLIST_FILTER_MATERIALS) {
 }
 
 /*@ define:input:vetion
-type: stringlist
+type: enumlist
 label: Other
 group: Hide drops
 enum: ["Coins","Supercompost","Super restore(4)","Blighted anglerfish","Sanfew serum(4)","Dark crab","Wilderness crabs teleport"]
@@ -73,7 +73,7 @@ CONST_VETION_RULE (name:VAR_VETION_ENUMLIST_FILTER_OTHER) {
 }
 
 /*@ define:input:vetion
-type: stringlist
+type: enumlist
 label: Secondary Supply roll
 group: Hide drops
 enum: ["Blighted anglerfish","Blighted karambwan","Blighted super restore(3)","Blighted super restore(4)","Ranging potion(2)","Super combat potion(2)"]
@@ -84,7 +84,7 @@ CONST_VETION_RULE (name:VAR_VETION_ENUMLIST_FILTER_SECONDARYSUPPLYROLL) {
 }
 
 /*@ define:input:vetion
-type: stringlist
+type: enumlist
 label: Tertiary
 group: Hide drops
 enum: ["Looting bag","Brimstone key","Long bone","Vet'ion jr.","Skeleton champion scroll","Curved bone"]

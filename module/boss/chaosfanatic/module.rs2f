@@ -7,7 +7,7 @@ name: Chaos Fanatic
 #define CONST_CHAOSFANATIC_RULE(_cond) rule (area:CONST_AREA_CHAOSFANATIC && (_cond))
 
 /*@ define:input:chaosfanatic
-type: stringlist
+type: enumlist
 label: 100%
 group: Hide drops
 enum: ["Bones"]
@@ -18,7 +18,7 @@ CONST_CHAOSFANATIC_RULE (name:VAR_CHAOSFANATIC_ENUMLIST_FILTER_100) {
 }
 
 /*@ define:input:chaosfanatic
-type: stringlist
+type: enumlist
 label: Pre-roll
 group: Hide drops
 enum: ["Odium shard 1","Malediction shard 1"]
@@ -29,7 +29,7 @@ CONST_CHAOSFANATIC_RULE (name:VAR_CHAOSFANATIC_ENUMLIST_FILTER_PREROLL) {
 }
 
 /*@ define:input:chaosfanatic
-type: stringlist
+type: enumlist
 label: Weapons and armour
 group: Hide drops
 enum: ["Battlestaff","Splitbark body","Splitbark legs","Zamorak monk top","Zamorak monk bottom","Ancient staff"]
@@ -40,7 +40,7 @@ CONST_CHAOSFANATIC_RULE (name:VAR_CHAOSFANATIC_ENUMLIST_FILTER_WEAPONSANDARMOUR)
 }
 
 /*@ define:input:chaosfanatic
-type: stringlist
+type: enumlist
 label: Runes
 group: Hide drops
 enum: ["Fire rune","Smoke rune","Chaos rune","Blood rune"]
@@ -51,7 +51,7 @@ CONST_CHAOSFANATIC_RULE (name:VAR_CHAOSFANATIC_ENUMLIST_FILTER_RUNES) {
 }
 
 /*@ define:input:chaosfanatic
-type: stringlist
+type: enumlist
 label: Consumables
 group: Hide drops
 enum: ["Monkfish","Shark","Prayer potion(4)","Anchovy pizza"]
@@ -62,7 +62,7 @@ CONST_CHAOSFANATIC_RULE (name:VAR_CHAOSFANATIC_ENUMLIST_FILTER_CONSUMABLES) {
 }
 
 /*@ define:input:chaosfanatic
-type: stringlist
+type: enumlist
 label: Other
 group: Hide drops
 enum: ["Coins","Grimy lantadyme","Ring of life","Chaos talisman","Wine of zamorak","Uncut emerald","Uncut sapphire","Sinister key","Pure essence"]
@@ -73,7 +73,7 @@ CONST_CHAOSFANATIC_RULE (name:VAR_CHAOSFANATIC_ENUMLIST_FILTER_OTHER) {
 }
 
 /*@ define:input:chaosfanatic
-type: stringlist
+type: enumlist
 label: Tertiary
 group: Hide drops
 enum: ["Looting bag","Brimstone key","Pet chaos elemental"]

@@ -7,7 +7,7 @@ name: Grotesque Guardians
 #define CONST_GROTESQUEGUARDIANS_RULE(_cond) rule (area:CONST_AREA_GROTESQUEGUARDIANS && (_cond))
 
 /*@ define:input:grotesqueguardians
-type: stringlist
+type: enumlist
 label: 100%
 group: Hide drops
 enum: ["Granite dust"]
@@ -18,7 +18,7 @@ CONST_GROTESQUEGUARDIANS_RULE (name:VAR_GROTESQUEGUARDIANS_ENUMLIST_FILTER_100) 
 }
 
 /*@ define:input:grotesqueguardians
-type: stringlist
+type: enumlist
 label: Unique
 group: Hide drops
 enum: ["Granite maul","Granite gloves","Granite ring","Granite hammer","Black tourmaline core"]
@@ -29,7 +29,7 @@ CONST_GROTESQUEGUARDIANS_RULE (name:VAR_GROTESQUEGUARDIANS_ENUMLIST_FILTER_UNIQU
 }
 
 /*@ define:input:grotesqueguardians
-type: stringlist
+type: enumlist
 label: Weapons and armour
 group: Hide drops
 enum: ["Rune pickaxe","Rune full helm","Rune platelegs","Rune 2h sword","Rune battleaxe","Dragon longsword","Adamant boots","Dragon med helm"]
@@ -40,7 +40,7 @@ CONST_GROTESQUEGUARDIANS_RULE (name:VAR_GROTESQUEGUARDIANS_ENUMLIST_FILTER_WEAPO
 }
 
 /*@ define:input:grotesqueguardians
-type: stringlist
+type: enumlist
 label: Supply Drop
 group: Hide drops
 enum: ["Mushroom potato","Saradomin brew(4)","Magic potion(2)","Ranging potion(2)","Super combat potion(2)","Prayer potion(4)"]
@@ -51,7 +51,7 @@ CONST_GROTESQUEGUARDIANS_RULE (name:VAR_GROTESQUEGUARDIANS_ENUMLIST_FILTER_SUPPL
 }
 
 /*@ define:input:grotesqueguardians
-type: stringlist
+type: enumlist
 label: Resources
 group: Hide drops
 enum: ["Gold ore","Adamantite bar","Coal","Gold bar","Mithril bar","Runite ore","Runite bar"]
@@ -62,7 +62,7 @@ CONST_GROTESQUEGUARDIANS_RULE (name:VAR_GROTESQUEGUARDIANS_ENUMLIST_FILTER_RESOU
 }
 
 /*@ define:input:grotesqueguardians
-type: stringlist
+type: enumlist
 label: Other
 group: Hide drops
 enum: ["Coins","Chaos rune","Crystal key","Death rune","Dragon dart tip","Diamond bolt tips","Dragonstone bolt tips","Onyx bolt tips","Dragon arrowtips"]
@@ -73,7 +73,7 @@ CONST_GROTESQUEGUARDIANS_RULE (name:VAR_GROTESQUEGUARDIANS_ENUMLIST_FILTER_OTHER
 }
 
 /*@ define:input:grotesqueguardians
-type: stringlist
+type: enumlist
 label: Tertiary
 group: Hide drops
 enum: ["Brimstone key","Noon","Jar of stone"]

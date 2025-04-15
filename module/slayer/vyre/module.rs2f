@@ -7,7 +7,7 @@ name: Vyre
 #define CONST_VYRE_RULE(_cond) rule ((area:CONST_AREA_VYRE0) && (_cond))
 
 /*@ define:input:vyre
-type: stringlist
+type: enumlist
 label: 100%
 group: Hide drops
 enum: ["Vampyre dust"]
@@ -18,7 +18,7 @@ CONST_VYRE_RULE (name:VAR_VYRE_ENUMLIST_FILTER_100) {
 }
 
 /*@ define:input:vyre
-type: stringlist
+type: enumlist
 label: Weapons and armour
 group: Hide drops
 enum: ["Rune dagger","Adamant platelegs","Adamant platebody","Rune full helm","Rune kiteshield"]
@@ -29,7 +29,7 @@ CONST_VYRE_RULE (name:VAR_VYRE_ENUMLIST_FILTER_WEAPONSANDARMOUR) {
 }
 
 /*@ define:input:vyre
-type: stringlist
+type: enumlist
 label: Runes and ammunition
 group: Hide drops
 enum: ["Death rune","Blood rune","Nature rune","Rune arrow","Rune javelin"]
@@ -40,7 +40,7 @@ CONST_VYRE_RULE (name:VAR_VYRE_ENUMLIST_FILTER_RUNESANDAMMUNITION) {
 }
 
 /*@ define:input:vyre
-type: stringlist
+type: enumlist
 label: Bolt tips
 group: Hide drops
 enum: ["Opal bolt tips","Jade bolt tips","Topaz bolt tips","Pearl bolt tips","Sapphire bolt tips","Emerald bolt tips","Ruby bolt tips","Diamond bolt tips","Dragonstone bolt tips","Onyx bolt tips"]
@@ -51,7 +51,7 @@ CONST_VYRE_RULE (name:VAR_VYRE_ENUMLIST_FILTER_BOLTTIPS) {
 }
 
 /*@ define:input:vyre
-type: stringlist
+type: enumlist
 label: Materials
 group: Hide drops
 enum: ["Bark","Coal","Runite bar","Yew logs","Runite ore"]
@@ -62,7 +62,7 @@ CONST_VYRE_RULE (name:VAR_VYRE_ENUMLIST_FILTER_MATERIALS) {
 }
 
 /*@ define:input:vyre
-type: stringlist
+type: enumlist
 label: Coins
 group: Hide drops
 enum: ["Coins"]
@@ -73,7 +73,7 @@ CONST_VYRE_RULE (name:VAR_VYRE_ENUMLIST_FILTER_COINS) {
 }
 
 /*@ define:input:vyre
-type: stringlist
+type: enumlist
 label: Tertiary
 group: Hide drops
 enum: ["Brimstone key"]

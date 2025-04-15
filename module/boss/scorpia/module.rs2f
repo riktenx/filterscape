@@ -7,7 +7,7 @@ name: Scorpia
 #define CONST_SCORPIA_RULE(_cond) rule (area:CONST_AREA_SCORPIA && (_cond))
 
 /*@ define:input:scorpia
-type: stringlist
+type: enumlist
 label: Pre-roll
 group: Hide drops
 enum: ["Odium shard 3","Malediction shard 3"]
@@ -18,7 +18,7 @@ CONST_SCORPIA_RULE (name:VAR_SCORPIA_ENUMLIST_FILTER_PREROLL) {
 }
 
 /*@ define:input:scorpia
-type: stringlist
+type: enumlist
 label: Weapons and armour
 group: Hide drops
 enum: ["Battlestaff","Rune 2h sword","Rune pickaxe","Rune kiteshield","Rune chainbody","Rune platelegs","Rune scimitar","Rune warhammer","Mystic earth staff","Mystic robe top","Mystic robe bottom","Dragon scimitar","Dragon 2h sword"]
@@ -29,7 +29,7 @@ CONST_SCORPIA_RULE (name:VAR_SCORPIA_ENUMLIST_FILTER_WEAPONSANDARMOUR) {
 }
 
 /*@ define:input:scorpia
-type: stringlist
+type: enumlist
 label: Runes
 group: Hide drops
 enum: ["Death rune","Blood rune","Chaos rune"]
@@ -40,7 +40,7 @@ CONST_SCORPIA_RULE (name:VAR_SCORPIA_ENUMLIST_FILTER_RUNES) {
 }
 
 /*@ define:input:scorpia
-type: stringlist
+type: enumlist
 label: Herbs
 group: Hide drops
 enum: ["Grimy kwuarm","Grimy dwarf weed","Grimy torstol","Grimy snapdragon"]
@@ -51,7 +51,7 @@ CONST_SCORPIA_RULE (name:VAR_SCORPIA_ENUMLIST_FILTER_HERBS) {
 }
 
 /*@ define:input:scorpia
-type: stringlist
+type: enumlist
 label: Materials
 group: Hide drops
 enum: ["Uncut ruby","Uncut diamond","Runite ore","Dragon javelin heads","Onyx bolt tips"]
@@ -62,7 +62,7 @@ CONST_SCORPIA_RULE (name:VAR_SCORPIA_ENUMLIST_FILTER_MATERIALS) {
 }
 
 /*@ define:input:scorpia
-type: stringlist
+type: enumlist
 label: Other
 group: Hide drops
 enum: ["Coins","Blighted anglerfish","Blighted super restore(4)","Wilderness crabs teleport"]
@@ -73,7 +73,7 @@ CONST_SCORPIA_RULE (name:VAR_SCORPIA_ENUMLIST_FILTER_OTHER) {
 }
 
 /*@ define:input:scorpia
-type: stringlist
+type: enumlist
 label: Tertiary
 group: Hide drops
 enum: ["Looting bag","Ensouled scorpion head","Brimstone key","Scorpia's offspring"]

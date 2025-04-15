@@ -7,7 +7,7 @@ name: Abyssal Sire
 #define CONST_ABYSSALSIRE_RULE(_cond) rule (area:CONST_AREA_ABYSSALSIRE && (_cond))
 
 /*@ define:input:abyssalsire
-type: stringlist
+type: enumlist
 label: 100%
 group: Hide drops
 enum: ["Abyssal ashes"]
@@ -18,7 +18,7 @@ CONST_ABYSSALSIRE_RULE (name:VAR_ABYSSALSIRE_ENUMLIST_FILTER_100) {
 }
 
 /*@ define:input:abyssalsire
-type: stringlist
+type: enumlist
 label: Weapons and armour
 group: Hide drops
 enum: ["Battlestaff","Rune full helm","Mystic lava staff","Rune sword","Rune platebody","Rune kiteshield","Mystic air staff","Air battlestaff"]
@@ -29,7 +29,7 @@ CONST_ABYSSALSIRE_RULE (name:VAR_ABYSSALSIRE_ENUMLIST_FILTER_WEAPONSANDARMOUR) {
 }
 
 /*@ define:input:abyssalsire
-type: stringlist
+type: enumlist
 label: Runes and ammunition
 group: Hide drops
 enum: ["Blood rune","Death rune","Law rune","Soul rune","Cosmic rune","Cannonball"]
@@ -40,7 +40,7 @@ CONST_ABYSSALSIRE_RULE (name:VAR_ABYSSALSIRE_ENUMLIST_FILTER_RUNESANDAMMUNITION)
 }
 
 /*@ define:input:abyssalsire
-type: stringlist
+type: enumlist
 label: Herbs
 group: Hide drops
 enum: ["Grimy kwuarm","Grimy dwarf weed","Grimy cadantine","Grimy lantadyme"]
@@ -51,7 +51,7 @@ CONST_ABYSSALSIRE_RULE (name:VAR_ABYSSALSIRE_ENUMLIST_FILTER_HERBS) {
 }
 
 /*@ define:input:abyssalsire
-type: stringlist
+type: enumlist
 label: Materials
 group: Hide drops
 enum: ["Coal","Earth orb","Pure essence","Magic logs","Uncut diamond","Runite ore","Onyx bolt tips","Runite bar"]
@@ -62,7 +62,7 @@ CONST_ABYSSALSIRE_RULE (name:VAR_ABYSSALSIRE_ENUMLIST_FILTER_MATERIALS) {
 }
 
 /*@ define:input:abyssalsire
-type: stringlist
+type: enumlist
 label: Other
 group: Hide drops
 enum: ["Coins","Chilli potato","Super restore(4)","Binding necklace","Saradomin brew(3)","Jug of water","Unsired"]
@@ -73,7 +73,7 @@ CONST_ABYSSALSIRE_RULE (name:VAR_ABYSSALSIRE_ENUMLIST_FILTER_OTHER) {
 }
 
 /*@ define:input:abyssalsire
-type: stringlist
+type: enumlist
 label: Tertiary
 group: Hide drops
 enum: ["Brimstone key"]

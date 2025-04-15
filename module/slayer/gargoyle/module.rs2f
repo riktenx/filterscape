@@ -20,7 +20,7 @@ CONST_GARGOYLE_RULE (VAR_GARGOYLE_BOOLEAN_HIDESMALLCOINS && name:"Coins" && valu
   area:CONST_AREA_GARGOYLE1) && (_cond))
 
 /*@ define:input:gargoyle
-type: stringlist
+type: enumlist
 label: Pre-roll
 group: Hide drops
 enum: ["Granite maul","Mystic robe top (dark)"]
@@ -31,7 +31,7 @@ CONST_GARGOYLE_RULE (name:VAR_GARGOYLE_ENUMLIST_FILTER_PREROLL) {
 }
 
 /*@ define:input:gargoyle
-type: stringlist
+type: enumlist
 label: Weapons and armour
 group: Hide drops
 enum: ["Adamant platelegs","Rune full helm","Rune 2h sword","Adamant boots","Rune battleaxe","Rune platelegs"]
@@ -42,7 +42,7 @@ CONST_GARGOYLE_RULE (name:VAR_GARGOYLE_ENUMLIST_FILTER_WEAPONSANDARMOUR) {
 }
 
 /*@ define:input:gargoyle
-type: stringlist
+type: enumlist
 label: Runes
 group: Hide drops
 enum: ["Fire rune","Chaos rune","Death rune"]
@@ -53,7 +53,7 @@ CONST_GARGOYLE_RULE (name:VAR_GARGOYLE_ENUMLIST_FILTER_RUNES) {
 }
 
 /*@ define:input:gargoyle
-type: stringlist
+type: enumlist
 label: Materials
 group: Hide drops
 enum: ["Gold ore","Pure essence","Steel bar","Gold bar","Mithril bar","Runite ore"]
@@ -64,7 +64,7 @@ CONST_GARGOYLE_RULE (name:VAR_GARGOYLE_ENUMLIST_FILTER_MATERIALS) {
 }
 
 /*@ define:input:gargoyle
-type: stringlist
+type: enumlist
 label: Coins
 group: Hide drops
 enum: ["Coins"]
@@ -75,7 +75,7 @@ CONST_GARGOYLE_RULE (name:VAR_GARGOYLE_ENUMLIST_FILTER_COINS) {
 }
 
 /*@ define:input:gargoyle
-type: stringlist
+type: enumlist
 label: Tertiary
 group: Hide drops
 enum: ["Brimstone key","Brittle key"]

@@ -7,7 +7,7 @@ name: King Black Dragon
 #define CONST_KINGBLACKDRAGON_RULE(_cond) rule (area:CONST_AREA_KINGBLACKDRAGON && (_cond))
 
 /*@ define:input:kingblackdragon
-type: stringlist
+type: enumlist
 label: 100%
 group: Hide drops
 enum: ["Dragon bones","Black dragonhide"]
@@ -18,7 +18,7 @@ CONST_KINGBLACKDRAGON_RULE (name:VAR_KINGBLACKDRAGON_ENUMLIST_FILTER_100) {
 }
 
 /*@ define:input:kingblackdragon
-type: stringlist
+type: enumlist
 label: Pre-roll
 group: Hide drops
 enum: ["Dragon pickaxe"]
@@ -29,7 +29,7 @@ CONST_KINGBLACKDRAGON_RULE (name:VAR_KINGBLACKDRAGON_ENUMLIST_FILTER_PREROLL) {
 }
 
 /*@ define:input:kingblackdragon
-type: stringlist
+type: enumlist
 label: Weapons and armour
 group: Hide drops
 enum: ["Rune longsword","Adamant platebody","Adamant kiteshield","Dragon med helm"]
@@ -40,7 +40,7 @@ CONST_KINGBLACKDRAGON_RULE (name:VAR_KINGBLACKDRAGON_ENUMLIST_FILTER_WEAPONSANDA
 }
 
 /*@ define:input:kingblackdragon
-type: stringlist
+type: enumlist
 label: Runes and ammunition
 group: Hide drops
 enum: ["Fire rune","Air rune","Iron arrow","Runite bolts","Law rune","Blood rune"]
@@ -51,7 +51,7 @@ CONST_KINGBLACKDRAGON_RULE (name:VAR_KINGBLACKDRAGON_ENUMLIST_FILTER_RUNESANDAMM
 }
 
 /*@ define:input:kingblackdragon
-type: stringlist
+type: enumlist
 label: Resources
 group: Hide drops
 enum: ["Yew logs","Adamantite bar","Runite bar","Gold ore"]
@@ -62,7 +62,7 @@ CONST_KINGBLACKDRAGON_RULE (name:VAR_KINGBLACKDRAGON_ENUMLIST_FILTER_RESOURCES) 
 }
 
 /*@ define:input:kingblackdragon
-type: stringlist
+type: enumlist
 label: Other
 group: Hide drops
 enum: ["Amulet of power","Dragon arrowtips","Dragon dart tip","Dragon javelin heads","Runite limbs","Shark"]
@@ -73,7 +73,7 @@ CONST_KINGBLACKDRAGON_RULE (name:VAR_KINGBLACKDRAGON_ENUMLIST_FILTER_OTHER) {
 }
 
 /*@ define:input:kingblackdragon
-type: stringlist
+type: enumlist
 label: Tertiary
 group: Hide drops
 enum: ["Key (elite)","Brimstone key","Kbd heads","Prince black dragon","Draconic visage"]

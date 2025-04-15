@@ -7,7 +7,7 @@ name: Sarachnis
 #define CONST_SARACHNIS_RULE(_cond) rule (area:CONST_AREA_SARACHNIS && (_cond))
 
 /*@ define:input:sarachnis
-type: stringlist
+type: enumlist
 label: Pre-roll
 group: Hide drops
 enum: ["Dragon med helm","Sarachnis cudgel"]
@@ -18,7 +18,7 @@ CONST_SARACHNIS_RULE (name:VAR_SARACHNIS_ENUMLIST_FILTER_PREROLL) {
 }
 
 /*@ define:input:sarachnis
-type: stringlist
+type: enumlist
 label: Weapons and armour
 group: Hide drops
 enum: ["Battlestaff","Rune platebody","Rune med helm","Rune 2h sword"]
@@ -29,7 +29,7 @@ CONST_SARACHNIS_RULE (name:VAR_SARACHNIS_ENUMLIST_FILTER_WEAPONSANDARMOUR) {
 }
 
 /*@ define:input:sarachnis
-type: stringlist
+type: enumlist
 label: Runes and ammunition
 group: Hide drops
 enum: ["Blood rune","Chaos rune","Cosmic rune","Death rune","Soul rune","Mithril arrow","Mithril bolts"]
@@ -40,7 +40,7 @@ CONST_SARACHNIS_RULE (name:VAR_SARACHNIS_ENUMLIST_FILTER_RUNESANDAMMUNITION) {
 }
 
 /*@ define:input:sarachnis
-type: stringlist
+type: enumlist
 label: Seeds
 group: Hide drops
 enum: ["Maple seed","Papaya tree seed","Yew seed"]
@@ -51,7 +51,7 @@ CONST_SARACHNIS_RULE (name:VAR_SARACHNIS_ENUMLIST_FILTER_SEEDS) {
 }
 
 /*@ define:input:sarachnis
-type: stringlist
+type: enumlist
 label: Herbs
 group: Hide drops
 enum: ["Grimy kwuarm","Grimy cadantine","Grimy dwarf weed","Grimy avantoe","Grimy lantadyme","Grimy ranarr weed","Grimy snapdragon","Grimy torstol"]
@@ -62,7 +62,7 @@ CONST_SARACHNIS_RULE (name:VAR_SARACHNIS_ENUMLIST_FILTER_HERBS) {
 }
 
 /*@ define:input:sarachnis
-type: stringlist
+type: enumlist
 label: Materials
 group: Hide drops
 enum: ["Mithril ore","Red dragonhide","Uncut sapphire","Adamantite ore","Uncut emerald","Onyx bolt tips","Uncut ruby","Runite ore","Uncut diamond"]
@@ -73,7 +73,7 @@ CONST_SARACHNIS_RULE (name:VAR_SARACHNIS_ENUMLIST_FILTER_MATERIALS) {
 }
 
 /*@ define:input:sarachnis
-type: stringlist
+type: enumlist
 label: Other
 group: Hide drops
 enum: ["Coins","Dragon bones","Egg potato","Weapon poison(++)","Crystal key","Spider carcass"]
@@ -84,7 +84,7 @@ CONST_SARACHNIS_RULE (name:VAR_SARACHNIS_ENUMLIST_FILTER_OTHER) {
 }
 
 /*@ define:input:sarachnis
-type: stringlist
+type: enumlist
 label: Tertiary
 group: Hide drops
 enum: ["Tattered moon page","Tattered sun page","Tattered temple page","Giant egg sac(full)","Grubby key","Brimstone key","Jar of eyes","Sraracha"]

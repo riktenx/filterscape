@@ -7,7 +7,7 @@ name: Vardorvis
 #define CONST_VARDORVIS_RULE(_cond) rule (area:CONST_AREA_VARDORVIS && (_cond))
 
 /*@ define:input:vardorvis
-type: stringlist
+type: enumlist
 label: Uniques
 group: Hide drops
 enum: ["Ultor vestige","Chromium ingot","Executioner's axe head","Virtus mask","Virtus robe top","Virtus robe bottom"]
@@ -18,7 +18,7 @@ CONST_VARDORVIS_RULE (name:VAR_VARDORVIS_ENUMLIST_FILTER_UNIQUES) {
 }
 
 /*@ define:input:vardorvis
-type: stringlist
+type: enumlist
 label: Secondary uniques
 group: Hide drops
 enum: ["Strangled tablet","Awakener's orb","Blood quartz"]
@@ -29,7 +29,7 @@ CONST_VARDORVIS_RULE (name:VAR_VARDORVIS_ENUMLIST_FILTER_SECONDARYUNIQUES) {
 }
 
 /*@ define:input:vardorvis
-type: stringlist
+type: enumlist
 label: Supplies
 group: Hide drops
 enum: ["Tuna potato","Prayer potion(3)","Super combat potion(2)"]
@@ -40,7 +40,7 @@ CONST_VARDORVIS_RULE (name:VAR_VARDORVIS_ENUMLIST_FILTER_SUPPLIES) {
 }
 
 /*@ define:input:vardorvis
-type: stringlist
+type: enumlist
 label: Resources
 group: Hide drops
 enum: ["Pure essence","Iron ore","Silver ore","Coal","Mithril ore","Adamantite ore","Runite ore","Sapphire","Emerald","Ruby","Uncut ruby","Uncut diamond","Rune javelin heads","Dragon javelin heads","Dragon dart tip","Raw shark"]
@@ -51,7 +51,7 @@ CONST_VARDORVIS_RULE (name:VAR_VARDORVIS_ENUMLIST_FILTER_RESOURCES) {
 }
 
 /*@ define:input:vardorvis
-type: stringlist
+type: enumlist
 label: Runes and ammunition
 group: Hide drops
 enum: ["Bronze javelin","Mithril javelin","Adamant javelin","Onyx bolts (e)","Mind rune","Fire rune","Lava rune","Blood rune","Soul rune"]
@@ -62,7 +62,7 @@ CONST_VARDORVIS_RULE (name:VAR_VARDORVIS_ENUMLIST_FILTER_RUNESANDAMMUNITION) {
 }
 
 /*@ define:input:vardorvis
-type: stringlist
+type: enumlist
 label: Tertiary
 group: Hide drops
 enum: ["Temple key (Desert Treasure II)","Brimstone key","Clue scroll (easy)","Clue scroll (medium)","Clue scroll (hard)","Clue scroll (elite)","Ancient blood ornament kit","Butch"]

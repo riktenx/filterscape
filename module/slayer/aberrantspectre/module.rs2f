@@ -9,7 +9,7 @@ name: Aberrant spectre
   area:CONST_AREA_ABERRANTSPECTRE1) && (_cond))
 
 /*@ define:input:aberrantspectre
-type: stringlist
+type: enumlist
 label: Weapons and armour
 group: Hide drops
 enum: ["Steel axe","Mithril kiteshield","Lava battlestaff","Adamant platelegs","Rune full helm","Mystic robe bottom (dark)"]
@@ -20,7 +20,7 @@ CONST_ABERRANTSPECTRE_RULE (name:VAR_ABERRANTSPECTRE_ENUMLIST_FILTER_WEAPONSANDA
 }
 
 /*@ define:input:aberrantspectre
-type: stringlist
+type: enumlist
 label: Coins
 group: Hide drops
 enum: ["Coins"]

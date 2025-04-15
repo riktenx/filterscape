@@ -15,7 +15,7 @@ name: Abyssal demon
   area:CONST_AREA_ABYSSALDEMON4) && (_cond))
 
 /*@ define:input:abyssaldemon
-type: stringlist
+type: enumlist
 label: 100%
 group: Hide drops
 enum: ["Abyssal ashes"]
@@ -26,7 +26,7 @@ CONST_ABYSSALDEMON_RULE (name:VAR_ABYSSALDEMON_ENUMLIST_FILTER_100) {
 }
 
 /*@ define:input:abyssaldemon
-type: stringlist
+type: enumlist
 label: Weapons and armour
 group: Hide drops
 enum: ["Black sword","Steel battleaxe","Black axe","Mithril kiteshield","Rune chainbody","Rune med helm","Abyssal whip","Abyssal dagger"]
@@ -37,7 +37,7 @@ CONST_ABYSSALDEMON_RULE (name:VAR_ABYSSALDEMON_ENUMLIST_FILTER_WEAPONSANDARMOUR)
 }
 
 /*@ define:input:abyssaldemon
-type: stringlist
+type: enumlist
 label: Runes
 group: Hide drops
 enum: ["Air rune","Chaos rune","Blood rune","Law rune"]
@@ -48,7 +48,7 @@ CONST_ABYSSALDEMON_RULE (name:VAR_ABYSSALDEMON_ENUMLIST_FILTER_RUNES) {
 }
 
 /*@ define:input:abyssaldemon
-type: stringlist
+type: enumlist
 label: Materials
 group: Hide drops
 enum: ["Pure essence","Adamantite bar"]
@@ -59,7 +59,7 @@ CONST_ABYSSALDEMON_RULE (name:VAR_ABYSSALDEMON_ENUMLIST_FILTER_MATERIALS) {
 }
 
 /*@ define:input:abyssaldemon
-type: stringlist
+type: enumlist
 label: Coins
 group: Hide drops
 enum: ["Coins"]
@@ -70,7 +70,7 @@ CONST_ABYSSALDEMON_RULE (name:VAR_ABYSSALDEMON_ENUMLIST_FILTER_COINS) {
 }
 
 /*@ define:input:abyssaldemon
-type: stringlist
+type: enumlist
 label: Other
 group: Hide drops
 enum: ["Lobster","Cosmic talisman","Chaos talisman","Defence potion(3)"]
@@ -81,7 +81,7 @@ CONST_ABYSSALDEMON_RULE (name:VAR_ABYSSALDEMON_ENUMLIST_FILTER_OTHER) {
 }
 
 /*@ define:input:abyssaldemon
-type: stringlist
+type: enumlist
 label: Tertiary
 group: Hide drops
 enum: ["Ensouled abyssal head","Brimstone key","Abyssal head"]

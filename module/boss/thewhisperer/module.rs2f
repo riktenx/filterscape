@@ -7,7 +7,7 @@ name: The Whisperer
 #define CONST_THEWHISPERER_RULE(_cond) rule (area:CONST_AREA_THEWHISPERER && (_cond))
 
 /*@ define:input:thewhisperer
-type: stringlist
+type: enumlist
 label: Uniques
 group: Hide drops
 enum: ["Bellator vestige","Chromium ingot","Siren's staff","Virtus mask","Virtus robe top","Virtus robe bottom"]
@@ -18,7 +18,7 @@ CONST_THEWHISPERER_RULE (name:VAR_THEWHISPERER_ENUMLIST_FILTER_UNIQUES) {
 }
 
 /*@ define:input:thewhisperer
-type: stringlist
+type: enumlist
 label: Secondary uniques
 group: Hide drops
 enum: ["Sirenic tablet","Awakener's orb","Shadow quartz"]
@@ -29,7 +29,7 @@ CONST_THEWHISPERER_RULE (name:VAR_THEWHISPERER_ENUMLIST_FILTER_SECONDARYUNIQUES)
 }
 
 /*@ define:input:thewhisperer
-type: stringlist
+type: enumlist
 label: Supplies
 group: Hide drops
 enum: ["Ancient brew(2)","Prayer potion(3)","Manta ray"]
@@ -40,7 +40,7 @@ CONST_THEWHISPERER_RULE (name:VAR_THEWHISPERER_ENUMLIST_FILTER_SUPPLIES) {
 }
 
 /*@ define:input:thewhisperer
-type: stringlist
+type: enumlist
 label: Weapons and armour
 group: Hide drops
 enum: ["Bronze longsword","Mithril longsword","Adamant longsword","Battlestaff","Dragon plateskirt"]
@@ -51,7 +51,7 @@ CONST_THEWHISPERER_RULE (name:VAR_THEWHISPERER_ENUMLIST_FILTER_WEAPONSANDARMOUR)
 }
 
 /*@ define:input:thewhisperer
-type: stringlist
+type: enumlist
 label: Resources
 group: Hide drops
 enum: ["Pure essence","Iron ore","Coal","Gold ore","Mithril ore","Adamantite ore","Runite ore","Sapphire","Emerald","Ruby","Uncut ruby","Uncut diamond","Dragon javelin heads","Runite bolts (unf)","Raw monkfish"]
@@ -62,7 +62,7 @@ CONST_THEWHISPERER_RULE (name:VAR_THEWHISPERER_ENUMLIST_FILTER_RESOURCES) {
 }
 
 /*@ define:input:thewhisperer
-type: stringlist
+type: enumlist
 label: Runes and ammunition
 group: Hide drops
 enum: ["Water rune","Steam rune","Chaos rune","Death rune","Soul rune"]
@@ -73,7 +73,7 @@ CONST_THEWHISPERER_RULE (name:VAR_THEWHISPERER_ENUMLIST_FILTER_RUNESANDAMMUNITIO
 }
 
 /*@ define:input:thewhisperer
-type: stringlist
+type: enumlist
 label: Tertiary
 group: Hide drops
 enum: ["Brimstone key","Clue scroll (easy)","Clue scroll (medium)","Clue scroll (hard)","Clue scroll (elite)","Ancient blood ornament kit","Wisp"]

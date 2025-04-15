@@ -7,7 +7,7 @@ name: Venenatis
 #define CONST_VENENATIS_RULE(_cond) rule (area:CONST_AREA_VENENATIS && (_cond))
 
 /*@ define:input:venenatis
-type: stringlist
+type: enumlist
 label: 100%
 group: Hide drops
 enum: ["Big bones","Bones"]
@@ -18,7 +18,7 @@ CONST_VENENATIS_RULE (name:VAR_VENENATIS_ENUMLIST_FILTER_100) {
 }
 
 /*@ define:input:venenatis
-type: stringlist
+type: enumlist
 label: Unique
 group: Hide drops
 enum: ["Fangs of venenatis","Dragon 2h sword","Dragon pickaxe","Voidwaker gem","Treasonous ring"]
@@ -29,7 +29,7 @@ CONST_VENENATIS_RULE (name:VAR_VENENATIS_ENUMLIST_FILTER_UNIQUE) {
 }
 
 /*@ define:input:venenatis
-type: stringlist
+type: enumlist
 label: Weapons and armour
 group: Hide drops
 enum: ["Mystic air staff","Rune pickaxe","Rune dart","Rune knife","Rune platelegs","Rune sq shield","Dragon dagger"]
@@ -40,7 +40,7 @@ CONST_VENENATIS_RULE (name:VAR_VENENATIS_ENUMLIST_FILTER_WEAPONSANDARMOUR) {
 }
 
 /*@ define:input:venenatis
-type: stringlist
+type: enumlist
 label: Runes and ammunition
 group: Hide drops
 enum: ["Chaos rune","Death rune","Blood rune","Diamond bolts (e)","Cannonball"]
@@ -51,7 +51,7 @@ CONST_VENENATIS_RULE (name:VAR_VENENATIS_ENUMLIST_FILTER_RUNESANDAMMUNITION) {
 }
 
 /*@ define:input:venenatis
-type: stringlist
+type: enumlist
 label: Materials
 group: Hide drops
 enum: ["Uncut ruby","Uncut diamond","Gold ore","Onyx bolt tips","Magic logs","Limpwurt root","Red spiders' eggs","Unicorn horn","Uncut dragonstone","Grimy ranarr weed","Grimy snapdragon","Grimy toadflax","Battlestaff"]
@@ -62,7 +62,7 @@ CONST_VENENATIS_RULE (name:VAR_VENENATIS_ENUMLIST_FILTER_MATERIALS) {
 }
 
 /*@ define:input:venenatis
-type: stringlist
+type: enumlist
 label: Other
 group: Hide drops
 enum: ["Coins","Supercompost","Antidote++(4)","Super restore(4)","Dark crab","Blighted anglerfish","Wilderness crabs teleport"]
@@ -73,7 +73,7 @@ CONST_VENENATIS_RULE (name:VAR_VENENATIS_ENUMLIST_FILTER_OTHER) {
 }
 
 /*@ define:input:venenatis
-type: stringlist
+type: enumlist
 label: Secondary Supply roll
 group: Hide drops
 enum: ["Blighted anglerfish","Blighted karambwan","Blighted super restore(3)","Blighted super restore(4)","Ranging potion(2)","Super combat potion(2)"]
@@ -84,7 +84,7 @@ CONST_VENENATIS_RULE (name:VAR_VENENATIS_ENUMLIST_FILTER_SECONDARYSUPPLYROLL) {
 }
 
 /*@ define:input:venenatis
-type: stringlist
+type: enumlist
 label: Tertiary
 group: Hide drops
 enum: ["Looting bag","Strange fruit","Brimstone key","Long bone","Venenatis spiderling","Curved bone"]

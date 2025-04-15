@@ -1,0 +1,40 @@
+/*@ define:module:ownership
+---
+name: Advanced ownership filter
+description: |
+  Items on the ground have an "ownership" value which can be used to determine
+  when to hide or show items.
+
+  The `Ownership filter` and `Item spawn filter` settings in plugin config
+  override ALL other filter rules. This is inconvenient for some items such as
+  Dawnbringer in ToB.
+
+  If you want to instead use ownership/spawn filters with
+  an override list, disable those and configure this module instead.
+*/
+
+/*@ define:input:ownership
+type: boolean
+label: "Hide others' drops"
+*/
+#define VAR_OWNERSHIP_HIDEOTHER false
+
+/*@ define:input:ownership
+type: boolean
+label: Hide world spawns
+*/
+#define VAR_OWNERSHIP_HIDESPAWN false
+
+/*@ define:input:ownership
+type: stringlist
+label: Ignore ownership value for these items
+*/
+#define VAR_OWNERSHIP_IGNORE ["Dawnbringer", "Water container"]
+
+rule (VAR_OWNERSHIP_HIDEOTHER && ownership:2 && !name:VAR_OWNERSHIP_IGNORE) {
+  hidden = true;
+}
+
+rule (VAR_OWNERSHIP_HIDESPAWN && ownership:0 && !name:VAR_OWNERSHIP_IGNORE) {
+  hidden = true;
+}

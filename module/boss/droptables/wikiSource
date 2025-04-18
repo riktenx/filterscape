@@ -1,0 +1,311 @@
+{{External|rs}}
+[[File:Drop table.png|thumb|300px|A player receives loot from a monster's drop table.]]
+A '''drop table''' represents a list of [[drops]] that a monster is able to drop. Most monsters have their own drop table that is largely determined by the requirements to reach them, their difficulty to kill, and how quickly they are killed; for example, most [[slayer boss]]es have a fairly generous drop table as they can only be killed while on the appropriate [[Slayer task]].
+
+==Sub-Tables==
+While most monsters in ''Old School RuneScape'' have their own drop table, a large majority have several universal sub-tables that are called upon within their main drop table, such as the herb and [[rare drop table]]. However, there are many other drop tables that are shared between various monsters.
+
+Tables included on monster's drop tables show the actual drop rate of the item for that monster. On this page, or any individual sub-table page, are described as the table has already been rolled and does not consider the rarity of any particular monster to hit that sub-table.
+
+For example, on the rare drop table, a sapphire is normally a 1/4 drop chance. In the context of a monster, the rare drop table must be hit first, which in this example has a 1/50 chance, then it must hit the sapphire's 1/4 after that. This brings the chance of a sapphire to a 1/200 drop rate for that particular monster.
+
+==Pre-roll==
+A '''pre-roll''' is a drop table which is rolled before rolling the main drop table. Typically, pre-rolls will go down a list of items in a predetermined order and if no pre-rolled items are hit, the main table is then rolled.
+
+An example of a pre-roll would be loot from a [[supply crate]], in which the player first rolls for a [[dragon axe]]. If that roll fails, then the player will roll for a [[Phoenix]], then a [[tome of fire]], [[warm gloves]], [[bruma torch]], and lastly a piece of the [[pyromancer outfit]] in which the player has the least of (though players will receive the garb, hood, robe, and boots in that order if they do not have any pieces of the outfit). Only when the player fails all six rolls will they roll the main supply crate drop table.
+
+Certain monsters are also known to perform a pre-roll, such as [[slayer monster]]s and [[Wilderness boss]]es. For example, [[gargoyle]]s will first roll for a [[dark mystic robe top]], then a [[granite maul]] before rolling the main drop table, while Wilderness bosses will roll for their unique drops before rolling their main drop tables.
+
+==Tertiary drops==
+Tertiary drops are drops that are rolled independently of the main drop table; examples include [[pet]]s, [[clue scroll]]s, and [[looting bag]]s. Unlike the main drop, multiple tertiary drops can be obtained in a single kill. The [[long bone]] and [[curved bone]] are unique among tertiary drops in that the curved bone is only rolled if the long bone is not given: both these items cannot be received from the same kill.
+
+Some monsters also access a set of tertiary drops, such as [[superior slayer monster]]s, who roll a tertiary drop table alongside three rolls on their standard counterpart's drop table.
+
+==Seed tables==
+===Allotment seed drop table===
+{{DropsTableHead}}
+{{DropsLine|name=Potato seed|quantity=1-4|rarity=64/128|smw=No}}
+{{DropsLine|name=Onion seed|quantity=1-3|rarity=32/128|smw=No}}
+{{DropsLine|name=Cabbage seed|quantity=1-3|rarity=16/128|smw=No}}
+{{DropsLine|name=Tomato seed|quantity=1-2|rarity=8/128|smw=No}}
+{{DropsLine|name=Sweetcorn seed|quantity=1-2|rarity=4/128|smw=No}}
+{{DropsLine|name=Strawberry seed|quantity=1|rarity=2/128|smw=No}}
+{{DropsLine|name=Watermelon seed|quantity=1|rarity=1/128|smw=No}}
+{{DropsLine|name=Snape grass seed|quantity=1|rarity=1/128|smw=No}}
+{{DropsTableBottom}}
+
+===General seed drop table===
+If the monster can be found in [[free-to-play]], the roll on the general seed drop table is replaced by 5 [[coins]] when killed on free-to-play worlds.
+
+The general seed drop table is unique because the seeds that are available are dependent on the combat level of monster that has access to this table. The formula to calculate which subtables the player will have access to when rolled for is as follows: <math>CombatCalculation = CombatLevel * 10</math>. A random number between 0 and <math>CombatCalculation</math> is rolled in order to determine which of the sub-tables is accessed.
+
+:''If the <math>random(CombatCalculation)</math> is less than 485, the player will roll this subtable.''
+{{DropsTableHead}}
+{{DropsLine|name=Potato seed|quantity=4|rarity=368/1008|smw=No}}
+{{DropsLine|name=Onion seed|quantity=4|rarity=276/1008|smw=No}}
+{{DropsLine|name=Cabbage seed|quantity=4|rarity=184/1008|smw=No}}
+{{DropsLine|name=Tomato seed|quantity=3|rarity=92/1008|smw=No}}
+{{DropsLine|name=Sweetcorn seed|quantity=3|rarity=46/1008|smw=No}}
+{{DropsLine|name=Strawberry seed|quantity=2|rarity=23/1008|smw=No}}
+{{DropsLine|name=Watermelon seed|quantity=2|rarity=11/1008|smw=No}}
+{{DropsLine|name=Snape grass seed|quantity=2|rarity=8/1008|smw=No}}
+{{DropsTableBottom}}
+
+:''If the <math>random(CombatCalculation)</math> is 485 or greater, and less than 728, the player will roll this subtable.''
+{{DropsTableHead}}
+{{DropsLine|name=Barley seed|quantity=4|rarity=229/1000|smw=No}}
+{{DropsLine|name=Hammerstone seed|quantity=3|rarity=228/1000|smw=No}}
+{{DropsLine|name=Asgarnian seed|quantity=3|rarity=172/1000|smw=No}}
+{{DropsLine|name=Jute seed|quantity=2|rarity=171/1000|smw=No}}
+{{DropsLine|name=Yanillian seed|quantity=2|rarity=114/1000|smw=No}}
+{{DropsLine|name=Krandorian seed|quantity=2|rarity=57/1000|smw=No}}
+{{DropsLine|name=Wildblood seed|quantity=1|rarity=29/1000|smw=No}}
+{{DropsTableBottom}}
+
+:''If the <math>random(CombatCalculation)</math> is 728 or greater, and less than 850, the player will roll this subtable.''
+{{DropsTableHead}}
+{{DropsLine|name=Marigold seed|quantity=1|rarity=376/1000|smw=No}}
+{{DropsLine|name=Nasturtium seed|quantity=1|rarity=249/1000|smw=No}}
+{{DropsLine|name=Rosemary seed|quantity=1|rarity=161/1000|smw=No}}
+{{DropsLine|name=Woad seed|quantity=1|rarity=119/1000|smw=No}}
+{{DropsLine|name=Limpwurt seed|quantity=1|rarity=95/1000|smw=No}}
+{{DropsTableBottom}}
+
+:''If the <math>random(CombatCalculation)</math> is 850 or greater, and less than 947, the player will roll this subtable.''
+{{DropsTableHead}}
+{{DropsLine|name=Redberry seed|quantity=1|rarity=400/1000|smw=No}}
+{{DropsLine|name=Cadavaberry seed|quantity=1|rarity=280/1000|smw=No}}
+{{DropsLine|name=Dwellberry seed|quantity=1|rarity=200/1000|smw=No}}
+{{DropsLine|name=Jangerberry seed|quantity=1|rarity=80/1000|smw=No}}
+{{DropsLine|name=Whiteberry seed|quantity=1|rarity=29/1000|smw=No}}
+{{DropsLine|name=Poison ivy seed|quantity=1|rarity=11/1000|smw=No}}
+{{DropsTableBottom}}
+
+:''If the <math>random(CombatCalculation)</math> is 947 or greater, and less than 995, the player will roll this subtable.''
+{{DropsTableHead}}
+{{DropsLine|name=Guam seed|quantity=1|rarity=320/1000|smw=No}}
+{{DropsLine|name=Marrentill seed|quantity=1|rarity=218/1000|smw=No}}
+{{DropsLine|name=Tarromin seed|quantity=1|rarity=149/1000|smw=No}}
+{{DropsLine|name=Harralander seed|quantity=1|rarity=101/1000|smw=No}}
+{{DropsLine|name=Ranarr seed|quantity=1|rarity=69/1000|smw=No}}
+{{DropsLine|name=Toadflax seed|quantity=1|rarity=47/1000|smw=No}}
+{{DropsLine|name=Irit seed|quantity=1|rarity=32/1000|smw=No}}
+{{DropsLine|name=Avantoe seed|quantity=1|rarity=22/1000|smw=No}}
+{{DropsLine|name=Kwuarm seed|quantity=1|rarity=15/1000|smw=No}}
+{{DropsLine|name=Snapdragon seed|quantity=1|rarity=10/1000|smw=No}}
+{{DropsLine|name=Cadantine seed|quantity=1|rarity=7/1000|smw=No}}
+{{DropsLine|name=Lantadyme seed|quantity=1|rarity=5/1000|smw=No}}
+{{DropsLine|name=Dwarf weed seed|quantity=1|rarity=3/1000|smw=No}}
+{{DropsLine|name=Torstol seed|quantity=1|rarity=2/1000|smw=No}}
+{{DropsTableBottom}}
+
+:''If the <math>random(CombatCalculation)</math> is 995 or greater, the player will roll this subtable.''
+{{DropsTableHead}}
+{{DropsLine|name=Mushroom spore|quantity=1|rarity=500/1100|smw=No}}
+{{DropsLine|name=Belladonna seed|quantity=1|rarity=300/1100|smw=No}}
+{{DropsLine|name=Cactus seed|quantity=1|rarity=200/1100|smw=No}}
+{{DropsLine|name=Potato cactus seed|quantity=1|rarity=100/1100|smw=No}}
+{{DropsTableBottom}}
+
+===Rare seed drop table===
+{{DropsTableHead}}
+{{DropsLine|name=Toadflax seed|quantity=1|rarity=47/238|smw=No}}
+{{DropsLine|name=Irit seed|quantity=1|rarity=32/238|smw=No}}
+{{DropsLine|name=Belladonna seed|quantity=1|rarity=31/238|smw=No}}
+{{DropsLine|name=Avantoe seed|quantity=1|rarity=22/238|smw=No}}
+{{DropsLine|name=Poison ivy seed|quantity=1|rarity=22/238|smw=No}}
+{{DropsLine|name=Cactus seed|quantity=1|rarity=21/238|smw=No}}
+{{DropsLine|name=Kwuarm seed|quantity=1|rarity=15/238|smw=No}}
+{{DropsLine|name=Potato cactus seed|quantity=1|rarity=15/238|smw=No}}
+{{DropsLine|name=Snapdragon seed|quantity=1|rarity=10/238|smw=No}}
+{{DropsLine|name=Cadantine seed|quantity=1|rarity=7/238|smw=No}}
+{{DropsLine|name=Lantadyme seed|quantity=1|rarity=5/238|smw=No}}
+{{DropsLine|name=Snape grass seed|quantity=3|rarity=4/238|smw=No}}
+{{DropsLine|name=Dwarf weed seed|quantity=1|rarity=3/238|smw=No}}
+{{DropsLine|name=Torstol seed|quantity=1|rarity=2/238|smw=No}}
+{{DropsTableBottom}}
+
+===Tree-herb seed drop table===
+{{DropsTableHead}}
+{{DropsLine|name=Ranarr seed|quantity=1|rarity=30/250|smw=No}}
+{{DropsLine|name=Snapdragon seed|quantity=1|rarity=28/250|smw=No}}
+{{DropsLine|name=Torstol seed|quantity=1|rarity=22/250|smw=No}}
+{{DropsLine|name=Watermelon seed|quantity=15|rarity=21/250|smw=No}}
+{{DropsLine|name=Willow seed|quantity=1|rarity=20/250|smw=No}}
+{{DropsLine|name=Mahogany seed|quantity=1|rarity=18/250|smw=No}}
+{{DropsLine|name=Maple seed|quantity=1|rarity=18/250|smw=No}}
+{{DropsLine|name=Teak seed|quantity=1|rarity=18/250|smw=No}}
+{{DropsLine|name=Yew seed|quantity=1|rarity=18/250|smw=No}}
+{{DropsLine|name=Papaya tree seed|quantity=1|rarity=14/250|smw=No}}
+{{DropsLine|name=Magic seed|quantity=1|rarity=11/250|smw=No}}
+{{DropsLine|name=Palm tree seed|quantity=1|rarity=10/250|smw=No}}
+{{DropsLine|name=Spirit seed|quantity=1|rarity=8/250|gemw=No|smw=No}}
+{{DropsLine|name=Dragonfruit tree seed|quantity=1|rarity=6/250|smw=No}}
+{{DropsLine|name=Celastrus seed|quantity=1|rarity=4/250|smw=No}}
+{{DropsLine|name=Redwood tree seed|quantity=1|rarity=4/250|smw=No}}
+{{DropsTableBottom}}
+
+===Uncommon seed drop table===
+If the monster can be found in [[free-to-play]], the roll on the uncommon seed drop table is replaced by 5 [[coins]] when killed on free-to-play worlds.
+
+{{DropsTableHead}}
+{{DropsLine|name=Limpwurt seed|quantity=1|rarity=137/1048|smw=No}}
+{{DropsLine|name=Strawberry seed|quantity=1|rarity=131/1048|smw=No}}
+{{DropsLine|name=Marrentill seed|quantity=1|rarity=125/1048|smw=No}}
+{{DropsLine|name=Jangerberry seed|quantity=1|rarity=92/1048|smw=No}}
+{{DropsLine|name=Tarromin seed|quantity=1|rarity=85/1048|smw=No}}
+{{DropsLine|name=Wildblood seed|quantity=1|rarity=83/1048|smw=No}}
+{{DropsLine|name=Watermelon seed|quantity=1|rarity=63/1048|smw=No}}
+{{DropsLine|name=Harralander seed|quantity=1|rarity=56/1048|smw=No}}
+{{DropsLine|name=Snape grass seed|quantity=1|rarity=40/1048|smw=No}}
+{{DropsLine|name=Ranarr seed|quantity=1|rarity=39/1048|smw=No}}
+{{DropsLine|name=Whiteberry seed|quantity=1|rarity=34/1048|smw=No}}
+{{DropsLine|name=Mushroom spore|quantity=1|rarity=29/1048|smw=No}}
+{{DropsLine|name=Toadflax seed|quantity=1|rarity=27/1048|smw=No}}
+{{DropsLine|name=Belladonna seed|quantity=1|rarity=18/1048|smw=No}}
+{{DropsLine|name=Irit seed|quantity=1|rarity=18/1048|smw=No}}
+{{DropsLine|name=Poison ivy seed|quantity=1|rarity=13/1048|smw=No}}
+{{DropsLine|name=Avantoe seed|quantity=1|rarity=12/1048|smw=No}}
+{{DropsLine|name=Cactus seed|quantity=1|rarity=12/1048|smw=No}}
+{{DropsLine|name=Kwuarm seed|quantity=1|rarity=9/1048|smw=No}}
+{{DropsLine|name=Potato cactus seed|quantity=1|rarity=8/1048|smw=No}}
+{{DropsLine|name=Snapdragon seed|quantity=1|rarity=5/1048|smw=No}}
+{{DropsLine|name=Cadantine seed|quantity=1|rarity=4/1048|smw=No}}
+{{DropsLine|name=Lantadyme seed|quantity=1|rarity=3/1048|smw=No}}
+{{DropsLine|name=Dwarf weed seed|quantity=1|rarity=2/1048|smw=No}}
+{{DropsLine|name=Torstol seed|quantity=1|rarity=1/1048|smw=No}}
+{{DropsTableBottom}}
+
+==Herb tables==
+===Herb drop table===
+This standardized list of herb drops is shared by many monsters across Gielinor. If the monster is killed on a [[free-to-play]] world, the roll on the herb drop table is replaced by 10 [[coins]] instead.
+
+{{DropsTableHead}}
+{{DropsLine|name=Grimy guam leaf|quantity=1|rarity=32/128|smw=No}}
+{{DropsLine|name=Grimy marrentill|quantity=1|rarity=24/128|smw=No}}
+{{DropsLine|name=Grimy tarromin|quantity=1|rarity=18/128|smw=No}}
+{{DropsLine|name=Grimy harralander|quantity=1|rarity=14/128|smw=No}}
+{{DropsLine|name=Grimy ranarr weed|quantity=1|rarity=11/128|smw=No}}
+{{DropsLine|name=Grimy irit leaf|quantity=1|rarity=8/128|smw=No}}
+{{DropsLine|name=Grimy avantoe|quantity=1|rarity=6/128|smw=No}}
+{{DropsLine|name=Grimy kwuarm|quantity=1|rarity=5/128|smw=No}}
+{{DropsLine|name=Grimy cadantine|quantity=1|rarity=4/128|smw=No}}
+{{DropsLine|name=Grimy lantadyme|quantity=1|rarity=3/128|smw=No}}
+{{DropsLine|name=Grimy dwarf weed|quantity=1|rarity=3/128|smw=No}}
+{{DropsTableBottom}}
+
+===Useful herb drop table===
+{{DropsTableHead}}
+{{DropsLine|name=Grimy avantoe|quantity=1 (noted)|rarity=5/16|smw=No}}
+{{DropsLine|name=Grimy snapdragon|quantity=1 (noted)|rarity=4/16|smw=No}}
+{{DropsLine|name=Grimy ranarr weed|quantity=1 (noted)|rarity=4/16|smw=No}}
+{{DropsLine|name=Grimy torstol|quantity=1 (noted)|rarity=3/16|smw=No}}
+{{DropsTableBottom}}
+
+==Rare drop table==
+{{main|Rare drop table}}
+
+===Runes and ammunition===
+{{DropsTableHead}}
+{{DropsLine|name=Nature rune|quantity=67|rarity=3/128|smw=No}}
+{{DropsLine|name=Adamant javelin|quantity=20|rarity=2/128|smw=No}}
+{{DropsLine|name=Death rune|quantity=45|rarity=2/128|smw=No}}
+{{DropsLine|name=Law rune|quantity=45|rarity=2/128|smw=No}}
+{{DropsLine|name=Rune arrow|quantity=42|rarity=2/128|smw=No}}
+{{DropsLine|name=Steel arrow|quantity=150|rarity=2/128|smw=No}}
+{{DropsTableBottom}}
+
+===Weapons and armour===
+{{DropsTableHead}}
+{{DropsLine|name=Rune 2h sword|quantity=1|rarity=3/128|smw=No}}
+{{DropsLine|name=Rune battleaxe|quantity=1|rarity=3/128|smw=No}}
+{{DropsLine|name=Rune sq shield|quantity=1|rarity=2/128|smw=No}}
+{{DropsLine|name=Dragon med helm|quantity=1|rarity=1/128|smw=No}}
+{{DropsLine|name=Rune kiteshield|quantity=1|rarity=1/128|smw=No}}
+{{DropsTableBottom}}
+
+===Other===
+{{DropsTableHead}}
+{{DropsLine|name=Coins|quantity=3000|rarity=21/128|gemw=No|smw=No}}
+{{DropsLine|name=Loop half of key|quantity=1|rarity=20/128|smw=No}}
+{{DropsLine|name=Tooth half of key|quantity=1|rarity=20/128|smw=No}}
+{{DropsLine|name=Runite bar|quantity=1|rarity=5/128|smw=No}}
+{{DropsLine|name=Dragonstone|quantity=1|rarity=2/128|smw=No}}
+{{DropsLine|name=Silver ore|quantity=100 (noted)|rarity=2/128|smw=No}}
+{{DropsTableBottom}}
+
+===Subtables===
+{{DropsTableHead}}
+{{DropsLine|name=Gem drop table|quantity=1|rarity=20/128|gemw=No|smw=No}}
+{{DropsLine|name=Mega-rare drop table|quantity=1|rarity=15/128|gemw=No|smw=No}}
+{{DropsTableBottom}}
+
+==Gem drop table==
+{{main|Gem drop table}}
+{{DropsTableHead}}
+{{DropsLine|name=Nothing|rarity=63/128|altrarity=Never|raritynotes=<ref group=d>The nothing drop is removed when wearing a [[ring of wealth]].</ref>|image=Bank filler.png}}
+{{DropsLine|name=Uncut sapphire|quantity=1|rarity=32/128|raritynotes=<ref name=row group=d>The drop rate is increased when wearing a [[ring of wealth]].</ref>|altrarity=32/65|smw=No}}
+{{DropsLine|name=Uncut emerald|quantity=1|rarity=16/128|raritynotes=<ref name=row group=d />|altrarity=16/65|smw=No}}
+{{DropsLine|name=Uncut ruby|quantity=1|rarity=8/128|raritynotes=<ref name=row group=d />|altrarity=8/65|smw=No}}
+{{DropsLine|name=Talisman|namenotes=<br/>(Chaos/Nature)|quantity=1|rarity=3/128|raritynotes=<ref name=row group=d />|altrarity=3/65|smw=No|gemw=No|image=Rare drop table talisman.png}}
+{{DropsLine|name=Uncut diamond|quantity=1|rarity=2/128|raritynotes=<ref name=row group=d />|altrarity=2/65|smw=No}}
+{{DropsLine|name=Rune javelin|quantity=5|rarity=1/128|raritynotes=<ref name=row group=d />|altrarity=1/65|smw=No}}
+{{DropsLine|name=Loop half of key|quantity=1|rarity=1/128|raritynotes=<ref name=row group=d />|altrarity=1/65|smw=No}}
+{{DropsLine|name=Tooth half of key|quantity=1|rarity=1/128|raritynotes=<ref name=row group=d />|altrarity=1/65|smw=No}}
+{{DropsLine|name=Mega-rare drop table|quantity=1|rarity=1/128|raritynotes=<ref name=row group=d />|altrarity=1/65|gemw=No|smw=No}}
+{{DropsTableBottom}}
+{{Reflist|group=d}}
+
+==Mega-rare drop table==
+{{main|Rare drop table#Mega-rare drop table}}
+{{DropsTableHead}}
+{{DropsLine|name=Nothing|rarity=113/128|altrarity=Never|raritynotes=<ref group=d>The nothing drop is removed when wearing a [[ring of wealth]].</ref>|image=Bank filler.png}}
+{{DropsLine|name=Rune spear|quantity=1|rarity=8/128|raritynotes=<ref name=row group=d>The drop rate is increased when wearing a [[ring of wealth]].</ref>|altrarity=8/15|smw=No}}
+{{DropsLine|name=Shield left half|quantity=1|rarity=4/128|raritynotes=<ref name=row group=d />|altrarity=4/15|smw=No}}
+{{DropsLine|name=Dragon spear|quantity=1|rarity=3/128|raritynotes=<ref name=row group=d />|altrarity=3/15|smw=No}}
+{{DropsTableBottom}}
+{{Reflist|group=d}}
+
+==Miscellaneous tables==
+===Fossil drop table===
+{{DropsTableHead}}
+{{DropsLine|name=Unidentified small fossil|quantity=1|rarity=1/2|gemw=No|smw=No}}
+{{DropsLine|name=Unidentified medium fossil|quantity=1|rarity=1/4|gemw=No|smw=No}}
+{{DropsLine|name=Unidentified large fossil|quantity=1|rarity=1/5|gemw=No|smw=No}}
+{{DropsLine|name=Unidentified rare fossil|quantity=1|rarity=1/20|gemw=No|smw=No}}
+{{DropsTableBottom}}
+
+===Superior drop table===
+This table is accessed by [[superior slayer monster]]s. The chance of landing the Superior drop table is <math>\frac{1}{200 - \frac{(SlayerReq+55)^2}{125}}</math>.
+{{DropsTableHead}}
+{{DropsLine|name=Dust battlestaff|quantity=1|rarity=3/8|smw=No}}
+{{DropsLine|name=Mist battlestaff|quantity=1|rarity=3/8|smw=No}}
+{{DropsLine|name=Imbued heart|quantity=1|rarity=1/8|smw=No}}
+{{DropsLine|name=Eternal gem|quantity=1|rarity=1/8|smw=No}}
+{{DropsTableBottom}}
+
+===Talisman drop table===
+This table is accessed mostly by monsters inhabiting the [[Waterbirth Island Dungeon]]. It is not to be confused with the talisman drop table accessed from the [[Rewards Guardian]].
+
+{{DropsTableHead}}
+{{DropsLine|name=Air talisman|quantity=1|rarity=10/70|smw=No}}
+{{DropsLine|name=Body talisman|quantity=1|rarity=10/70|smw=No}}
+{{DropsLine|name=Earth talisman|quantity=1|rarity=10/70|smw=No}}
+{{DropsLine|name=Fire talisman|quantity=1|rarity=10/70|smw=No}}
+{{DropsLine|name=Mind talisman|quantity=1|rarity=10/70|smw=No}}
+{{DropsLine|name=Water talisman|quantity=1|rarity=10/70|smw=No}}
+{{DropsLine|name=Cosmic talisman|quantity=1|rarity=4/70|smw=No}}
+{{DropsLine|name=Chaos talisman|quantity=1|rarity=3/70|smw=No}}
+{{DropsLine|name=Nature talisman|quantity=1|rarity=3/70|smw=No}}
+{{DropsTableBottom}}
+
+==Deadman Mode==
+===Deadman: Reborn===
+{{Main|Deadman: Reborn drop table}}
+===Deadman: Apocalypse===
+{{Main|Deadman: Apocalypse/Global_loot_table}}
+
+==See also==
+* [[Drop rate]]
+
+[[Category:Mechanics]]

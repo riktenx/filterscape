@@ -1,0 +1,63 @@
+{
+  "100%": [
+    "Hydra bones"
+  ],
+  "Pre-roll": [
+    "Hydra's eye",
+    "Hydra's fang",
+    "Hydra's heart",
+    "Hydra tail",
+    "Hydra leather",
+    "Hydra's claw",
+    "Dragon thrownaxe",
+    "Dragon knife"
+  ],
+  "Weapons and armour": [
+    "Mystic fire staff",
+    "Mystic water staff",
+    "Battlestaff",
+    "Black d'hide body",
+    "Dragon longsword",
+    "Dragon med helm",
+    "Rune platebody",
+    "Dragon battleaxe",
+    "Rune platelegs",
+    "Rune plateskirt",
+    "Mystic robe top (light)",
+    "Mystic robe bottom (light)"
+  ],
+  "Runes and ammunition": [
+    "Chaos rune",
+    "Death rune",
+    "Blood rune",
+    "Astral rune",
+    "Dragonstone bolts (e)",
+    "Onyx bolts (e)"
+  ],
+  "Herbs": [
+    "Grimy avantoe",
+    "Grimy kwuarm",
+    "Grimy ranarr weed",
+    "Grimy snapdragon",
+    "Grimy cadantine",
+    "Grimy dwarf weed",
+    "Grimy lantadyme",
+    "Grimy torstol"
+  ],
+  "Seeds": [],
+  "Other": [
+    "Coins",
+    "Shark",
+    "Ranging potion(3)",
+    "Super restore(3)",
+    "Dragon bones",
+    "Crystal key"
+  ],
+  "Rare drop table": [],
+  "Tertiary": [
+    "Brimstone key",
+    "Alchemical hydra heads",
+    "Jar of chemicals",
+    "Ikkle hydra"
+  ]
+}

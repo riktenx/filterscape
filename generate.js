@@ -1,7 +1,6 @@
 import fs from 'fs';
 
 import slayerIndex from './module/slayer/index.json' with { type: 'json' };
-import bossIndex from './module/boss/index.json' with { type: 'json' };
 
 const index = {
   type: 'filter',
@@ -14,7 +13,7 @@ const index = {
     { 'modulePath': 'module/highlights/module.json' },
     { 'modulePath': 'module/hides/module.json' },
     ...slayerIndex,
-    ...bossIndex,
+    { 'modulePath': 'module/boss/module.json' },
     { "modulePath": "module/cox/module.json" },
     { "modulePath": "module/toa/module.json" },
     { "modulePath": "module/unique/module.json" },

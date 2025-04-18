@@ -9,7 +9,14 @@ const toModuleName = (str) => str
   .replaceAll(' ', '');
 
 export const cmdGenerateModGroup = async (groupName, index) => {
-  const moduleIndex = [];
+  const modulePath = `module/${groupName}`
+
+  const rs2fs = [];
+  rs2fs.push(`/*@ define:module:boss
+name: PvM: ${groupName}
+*/
+
+`);
 
   for (const mod of index) {
     if (!mod.url) {
@@ -41,21 +48,15 @@ export const cmdGenerateModGroup = async (groupName, index) => {
     }
 
     const moduleName = toModuleName(mod.name);
+
     const rs2f = generateRs2f(mod.name, mod.area, dropTable, mod.transform);
+    rs2fs.push(rs2f);
 
-    const modulePath = `module/${groupName}/${moduleName}`;
-    if (!fs.existsSync(modulePath)) {
-      fs.mkdirSync(modulePath);
-    }
 
-    fs.writeFileSync(`${modulePath}/module.rs2f`, rs2f);
-
-    fs.writeFileSync(`${modulePath}/wikiSource`, wikiSource);
-    fs.writeFileSync(`${modulePath}/dropTable`, JSON.stringify(dropTable, null, 2));
-    fs.writeFileSync(`${modulePath}/mapAreas`, JSON.stringify(mapAreas, null, 2));
-
-    moduleIndex.push({ modulePath: `${modulePath}/module.json` });
+    fs.writeFileSync(`${modulePath}/${groupName}.wikiSource`, wikiSource);
+    fs.writeFileSync(`${modulePath}/${groupName}.dropTable`, JSON.stringify(dropTable, null, 2));
+    fs.writeFileSync(`${modulePath}/${groupName}.mapAreas`, JSON.stringify(mapAreas, null, 2));
   }
 
-  fs.writeFileSync(`module/${groupName}/index.json`, JSON.stringify(moduleIndex, null, 2));
+  fs.writeFileSync(`${modulePath}/module.rs2f`, rs2fs.join('\n'));
 }

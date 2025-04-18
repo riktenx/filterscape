@@ -26,7 +26,11 @@ const index = {
   ],
 }
 
-const header = `meta {
+const header = `/*@ define:module:header
+hidden: true
+name: header
+*/
+meta {
   name = "[default: FilterScape]";
 }
 `;

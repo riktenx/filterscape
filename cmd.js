@@ -12,8 +12,8 @@ export const cmdGenerateModGroup = async (groupName, index) => {
   const modulePath = `module/${groupName}`
 
   const rs2fs = [];
-  rs2fs.push(`/*@ define:module:boss
-name: PvM: ${groupName}
+  rs2fs.push(`/*@ define:module:${groupName}
+name: 'PvM: ${groupName}'
 */
 
 `);

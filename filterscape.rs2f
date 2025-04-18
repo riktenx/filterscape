@@ -950,7 +950,7 @@ CONST_ABYSSALDEMON_RULE (name:VAR_ABYSSALDEMON_ENUMLIST_FILTER_TERTIARY) {
 // endmodule:Abyssal demon
 
 /*@ define:module:boss
-name: PvM: boss
+name: 'PvM: boss'
 */
 
 

@@ -210,6 +210,35 @@ CONST_${scope}_RULE (VAR_${scope}_BOOLEAN_HIDESMALLCOINS && name:"Coins" && valu
       },
     },
   },
+  {
+    name: 'Araxyte',
+    url: 'https://oldschool.runescape.wiki/w/Araxyte',
+    transform: {
+      getDefaults: () => {
+        return {
+          "=Weapons and armour=": [
+            "Black sword",
+            "Steel battleaxe",
+            "Black axe",
+            "Mithril kiteshield",
+          ],
+          "=Runes=": [
+            "Air rune",
+            "Chaos rune",
+            "Blood rune",
+            "Law rune",
+          ],
+          "=Materials=": [
+            "Pure essence",
+            "Adamantite bar",
+          ],
+          "=Coins=": [
+            "Coins",
+          ],
+        };
+      },
+    },
+  },
 ];
 
 await cmdGenerateModGroup('slayer', index);

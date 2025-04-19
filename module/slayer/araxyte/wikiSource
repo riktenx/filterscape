@@ -1,0 +1,276 @@
+{{External|rs=Araxyte}}
+{{HasTask|Araxytes}}
+{{Otheruses|the Slayer monster|the boss|Araxxor|the superior variant|Dreadborn Araxyte|other Araxytes|Araxyte (disambiguation)}}
+{{Infobox Monster
+|version1 = Level 96
+|version2 = Level 146
+|name = Araxyte
+|image1 = [[File:Araxyte (lv 96).png|280px]]
+|image2 = [[File:Araxyte (lv 146).png|280px]]
+|release = [[28 July]] [[2021]]
+|update = A Night At The Theatre Rework
+|members = Yes
+|combat1 = 96
+|combat2 = 146
+|size1 = 1
+|size2 = 2
+|examine1 = A large odd-looking spider.
+|examine2 = A very large odd-looking spider.
+|max hit1 = 13
+|max hit2 = 17
+|aggressive = Yes
+|poisonous = Yes ([[venom]])
+|attack style = [[Crush]]
+|attack speed = 4
+|slayxp1 = 60
+|slayxp2 = 100
+|slaylvl = 92
+|cat = Spiders, Araxytes
+|assignedby = turael,spria,nieve,duradel
+|hitpoints1 = 60
+|hitpoints2 = 100
+|att1 = 80
+|str1 = 125
+|def1 = 60
+|att2 = 160
+|str2 = 160
+|def2 = 70
+|mage1 = 60
+|mage2 = 80
+|range = 1
+|attbns = 0
+|strbns = 0
+|amagic = 0
+|mbns = 0
+|arange = 0
+|rngbns = 0
+|dstab = 60
+|dslash = 30
+|dcrush = 20
+|dmagic = 20
+|drange = 20
+|elementalweaknesstype1 = Fire
+|elementalweaknesspercent1 = 50
+|elementalweaknesstype2 = Fire
+|elementalweaknesspercent2 = 50
+|immunepoison = Not immune
+|immunevenom = Not immune
+|dropversion1 = Level 96
+|dropversion2 = Level 146
+|respawn2 = 50
+|respawn1 = 50
+|id1 = 11175,13666
+|id2 = 11176,13667
+|leagueRegion = Morytania
+}}
+'''Araxytes''' are a rare species of arachnid found exclusively in the [[Morytania Spider Cave]], requiring level 92 [[Slayer]] to kill. As they are abundant in numbers, able to inflict [[venom]], and in a [[multicombat area]], it is dangerous to fight them without prayer and a method to stave off venom.
+
+Only the larger level 146 araxytes are able to spawn the [[Dreadborn Araxyte|superior variant]].{{CiteReddit|author=JagexBlossom|url=https://www.reddit.com/r/2007scape/comments/1f8p7wx/araxxor_tweaks_poll_82_updates/llg26dy/|title=Araxxor Tweaks & Poll 82 Updates|quote=Hey there :) I can confirm that lvl 96 araxxytes don't spawn superiors, so it is indeed working correctly. |date=|4 September 2024}}
+
+They play a minor role in the quest [[A Night at the Theatre]], where players must steal some [[strange spider eggs]] from their cave.
+
+==Locations==
+{{LocTableHead|league=yes}}
+{{LocLine
+|name = Araxyte
+|location = [[Morytania Spider Cave]]
+|levels = 96
+|members = Yes
+|x:3658,y:9842|x:3663,y:9831|x:3664,y:9837|x:3665,y:9826|x:3667,y:9812|x:3670,y:9817|x:3672,y:9818|x:3673,y:9837|x:3674,y:9807|x:3678,y:9804|x:3679,y:9834|x:3680,y:9840|x:3681,y:9802|x:3684,y:9835|x:3687,y:9836
+|mapID = -1
+|icon = bluePin
+|dropversion = Level 96
+|leagueRegion = Morytania
+}}
+{{LocLine
+|name = Araxyte
+|location = [[Morytania Spider Cave]] (task-only area)
+|levels = 96
+|members = Yes
+|x:3693,y:9845|x:3696,y:9847|x:3697,y:9841|x:3700,y:9835|x:3700,y:9838|x:3700,y:9843|x:3700,y:9845|x:3702,y:9832|x:3703,y:9845|x:3704,y:9837|x:3705,y:9834|x:3705,y:9840
+|mapID = -1
+|icon = bluePin
+|dropversion = Level 96
+|leagueRegion = Morytania
+}}
+{{LocLine
+|name = Araxyte
+|location = [[Morytania Spider Cave]]
+|levels = 146
+|members = Yes
+|x:3660,y:9841|x:3663,y:9835|x:3664,y:9824|x:3667,y:9817|x:3674,y:9834|x:3675,y:9837|x:3681,y:9835
+|mapID = -1
+|dropversion = Level 146
+|leagueRegion = Morytania
+}}
+{{LocLine
+|name = Araxyte
+|location = [[Morytania Spider Cave]] (task-only area)
+|levels = 146
+|members = Yes
+|x:3668,y:9851|x:3675,y:9855|x:3677,y:9852|x:3681,y:9853|x:3686,y:9822|x:3689,y:9817|x:3691,y:9820|x:3692,y:9813|x:3695,y:9821|x:3697,y:9814|x:3700,y:9817|x:3701,y:9820|x:3702,y:9812|x:3666,y:9858|x:3669,y:9859|x:3675,y:9859|x:3679,y:9859|x:3683,y:9859|x:3687,y:9857|x:3692,y:9856|x:3696,y:9858
+|mapID = -1
+|dropversion = Level 146
+|leagueRegion = Morytania
+}}
+{{LocTableBottom}}
+
+==Level 96 drops==
+
+When on a slayer task, the average araxyte kill is worth {{Coins|floor(({{Average drop value|Araxyte#Level 96|mobname=araxyte|raw=y}}-{{GEP|Aranea boots}}*1*(1/4000))+({{GEP|Aranea boots}}*1*(1/1600)))}}.
+
+When not on a slayer task, the average araxyte kill is worth {{Coins|floor({{Average drop value|Araxyte#Level 96|mobname=araxyte|raw=y}})}}.
+
+===100%===
+{{DropsTableHead|dropversion=Level 96}}
+{{DropsLine|name=Araxyte venom sack|quantity=1|rarity=Always}}
+{{DropsTableBottom}}
+
+===Weapons and armour===
+{{DropsTableHead|dropversion=Level 96}}
+{{DropsLine|name=Adamant longsword|quantity=1|rarity=5/127}}
+{{DropsLine|name=Adamant battleaxe|quantity=1|rarity=5/127}}
+{{DropsLine|name=Rune dagger|quantity=1|rarity=3/127}}
+{{DropsLine|name=Rune med helm|quantity=1|rarity=2/127}}
+{{DropsLine|name=Rune platelegs|quantity=1|rarity=2/127}}
+{{DropsLine|name=Aranea boots|quantity=1|rarity=1/4000|altrarity=1/1600|raritynotes=<ref group=d>The drop rate of aranea boots is 1/1,600 while on an araxyte or spider [[Slayer task]].</ref>}}
+{{DropsTableBottom}}
+{{Reflist|group=d}}
+
+===Runes===
+{{DropsTableHead|dropversion=Level 96}}
+{{DropsLine|name=Air rune|quantity=120-140|rarity=10/127}}
+{{DropsLine|name=Water rune|quantity=120-140|rarity=10/127}}
+{{DropsLine|name=Earth rune|quantity=120-140|rarity=10/127}}
+{{DropsLine|name=Fire rune|quantity=120-140|rarity=10/127}}
+{{DropsLine|name=Cosmic rune|quantity=7-12|rarity=5/127}}
+{{DropsLine|name=Chaos rune|quantity=10-15|rarity=5/127}}
+{{DropsLine|name=Nature rune|quantity=15-20|rarity=5/127}}
+{{DropsLine|name=Death rune|quantity=20-25|rarity=5/127}}
+{{DropsLine|name=Law rune|quantity=12-15|rarity=5/127}}
+{{DropsLine|name=Blood rune|quantity=15-18|rarity=5/127}}
+{{DropsLine|name=Soul rune|quantity=9-12|rarity=5/127}}
+{{DropsTableBottom}}
+
+===Herbs===
+{{HerbDropTableInfo|10/127}}
+{{DropsTableHead|dropversion=Level 96}}
+{{HerbDropLines|10/127}}
+{{DropsTableBottom}}
+
+===Seeds===
+{{UncommonSeedDropTableInfo|10/127}}
+{{DropsTableHead|dropversion=Level 96}}
+{{UncommonSeedDropLines|10/127}}
+{{DropsTableBottom}}
+
+===Other===
+{{DropsTableHead|dropversion=Level 96}}
+{{DropsLine|name=Araxyte venom sack|quantity=2|rarity=5/127}}
+{{DropsLine|name=Coins|quantity=800-1200|rarity=10/127}}
+{{DropsLine|name=Araxyte head|quantity=1|rarity=1/2000}}
+{{DropsTableBottom}}
+
+===Tertiary===
+{{DropsTableHead|dropversion=Level 96}}
+{{DropsLineClue|type=hard|rarity=1/128}}
+{{DropsTableBottom}}
+
+==Level 146 drops==
+
+When on a slayer task, the average araxyte kill is worth {{Coins|floor(({{Average drop value|Araxyte#Level 146|mobname=araxyte|raw=y}}-{{GEP|Aranea boots}}*1*(1/2000))+({{GEP|Aranea boots}}*1*(1/800)))}}.
+
+When not on a slayer task, the average araxyte kill is worth {{Coins|floor({{Average drop value|Araxyte#Level 146|mobname=araxyte|raw=y}})}}.
+
+===100%===
+{{DropsTableHead|dropversion=Level 146}}
+{{DropsLine|name=Araxyte venom sack|quantity=1|rarity=Always}}
+{{DropsTableBottom}}
+
+===Weapons and armour===
+{{DropsTableHead|dropversion=Level 146}}
+{{DropsLine|name=Adamant longsword|quantity=2|rarity=5/127}}
+{{DropsLine|name=Adamant battleaxe|quantity=2|rarity=5/127}}
+{{DropsLine|name=Rune dagger|quantity=2|rarity=3/127}}
+{{DropsLine|name=Rune med helm|quantity=2|rarity=2/127}}
+{{DropsLine|name=Rune platelegs|quantity=2|rarity=2/127}}
+{{DropsLine|name=Aranea boots|quantity=1|rarity=1/2000|altrarity=1/800|raritynotes=<ref group=d>The drop rate of aranea boots is 1/800 while on an araxyte or spider [[Slayer task]].</ref>}}
+{{DropsTableBottom}}
+{{Reflist|group=d}}
+
+===Runes===
+{{DropsTableHead|dropversion=Level 146}}
+{{DropsLine|name=Air rune|quantity=240-280|rarity=10/127}}
+{{DropsLine|name=Water rune|quantity=240-280|rarity=10/127}}
+{{DropsLine|name=Earth rune|quantity=240-280|rarity=10/127}}
+{{DropsLine|name=Fire rune|quantity=240-280|rarity=10/127}}
+{{DropsLine|name=Cosmic rune|quantity=14-24|rarity=5/127}}
+{{DropsLine|name=Chaos rune|quantity=20-30|rarity=5/127}}
+{{DropsLine|name=Nature rune|quantity=30-40|rarity=5/127}}
+{{DropsLine|name=Death rune|quantity=40-50|rarity=5/127}}
+{{DropsLine|name=Law rune|quantity=24-30|rarity=5/127}}
+{{DropsLine|name=Blood rune|quantity=30-36|rarity=5/127}}
+{{DropsLine|name=Soul rune|quantity=18-24|rarity=5/127}}
+{{DropsTableBottom}}
+
+===Herbs===
+{{HerbDropTableInfo|10/127}}
+{{DropsTableHead|dropversion=Level 146}}
+{{HerbDropLines|10/127|2}}
+{{DropsTableBottom}}
+
+===Seeds===
+{{UncommonSeedDropTableInfo|10/127}}
+{{DropsTableHead|dropversion=Level 146}}
+{{UncommonSeedDropLines|10/127|2}}
+{{DropsTableBottom}}
+
+===Other===
+{{DropsTableHead|dropversion=Level 146}}
+{{DropsLine|name=Araxyte venom sack|quantity=4|rarity=5/127}}
+{{DropsLine|name=Coins|quantity=1600-2400|rarity=10/127}}
+{{DropsLine|name=Araxyte head|quantity=1|rarity=1/2000}}
+{{DropsTableBottom}}
+
+===Tertiary===
+{{DropsTableHead|dropversion=Level 146}}
+{{DropsLineClue|type=hard|rarity=1/128}}
+{{DropsTableBottom}}
+
+==Gallery==
+<gallery mode="packed" heights="180" style="text-align:left">
+Araxyte concept art.jpg|Concept art for araxytes (left) and the [[Nylocas Queen]] (right) by [[Mod Jerv]].
+</gallery>
+
+==Changes==
+{{Subject changes header}}
+{{Subject changes
+|date = 28 August 2024
+|update = Araxxor
+|poll = Araxyte Slayer Boss
+|change = 
+* The NPC's name was changed from "Spider" to "Araxyte".
+* Araxytes have had their combat stats increased, and now require 92 [[Slayer]] in order to be harmed.
+* Araxytes have been made slightly brighter.
+}}
+{{Subject changes footer}}
+
+===Gallery (historical)===
+{|style="text-align: center" cellpadding="15"
+|[[File:Araxyte v1.png|center|300x150px]]
+|[[File:Araxyte (lv 146).png|center|300x150px]]
+|-
+|28 July 2021 –<br/>28 August 2024
+|28 August 2024 –<br/>present
+|}
+
+==Trivia==
+* Their appearance is similar to {{RSL|Pulsing spider}}s from ''RuneScape''. 
+* A Slayer Master's task hint for them is simply "Try not to die.".
+
+==References==
+{{reflist}}
+
+{{Slayer monsters}}
+{{Araxxor}}
+{{Spiders}}

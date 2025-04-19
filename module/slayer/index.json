@@ -25,5 +25,8 @@
   },
   {
     "modulePath": "module/slayer/abyssaldemon/module.json"
+  },
+  {
+    "modulePath": "module/slayer/araxyte/module.json"
   }
 ]

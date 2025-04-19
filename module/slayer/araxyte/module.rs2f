@@ -1,0 +1,55 @@
+
+/*@ define:module:araxyte
+name: Araxyte
+*/
+
+#define CONST_AREA_ARAXYTE0 [3660,9817,-1,3681,9841,-1] // [[Morytania Spider Cave]]
+#define CONST_AREA_ARAXYTE1 [3666,9812,-1,3702,9859,-1] // [[Morytania Spider Cave]] (task-only area)
+#define CONST_ARAXYTE_RULE(_cond) rule ((area:CONST_AREA_ARAXYTE0 || \
+  area:CONST_AREA_ARAXYTE1) && (_cond))
+
+/*@ define:input:araxyte
+type: enumlist
+label: 100%
+group: Hide drops
+enum: ["Araxyte venom sack"]
+*/
+#define VAR_ARAXYTE_ENUMLIST_FILTER_100 []
+CONST_ARAXYTE_RULE (name:VAR_ARAXYTE_ENUMLIST_FILTER_100) {
+  hidden = true;
+}
+
+/*@ define:input:araxyte
+type: enumlist
+label: Weapons and armour
+group: Hide drops
+enum: ["Adamant longsword","Adamant battleaxe","Rune dagger","Rune med helm","Rune platelegs","Aranea boots"]
+*/
+#define VAR_ARAXYTE_ENUMLIST_FILTER_WEAPONSANDARMOUR []
+CONST_ARAXYTE_RULE (name:VAR_ARAXYTE_ENUMLIST_FILTER_WEAPONSANDARMOUR) {
+  hidden = true;
+}
+
+/*@ define:input:araxyte
+type: enumlist
+label: Runes
+group: Hide drops
+enum: ["Air rune","Water rune","Earth rune","Fire rune","Cosmic rune","Chaos rune","Nature rune","Death rune","Law rune","Blood rune","Soul rune"]
+*/
+#define VAR_ARAXYTE_ENUMLIST_FILTER_RUNES []
+CONST_ARAXYTE_RULE (name:VAR_ARAXYTE_ENUMLIST_FILTER_RUNES) {
+  hidden = true;
+}
+
+/*@ define:input:araxyte
+type: enumlist
+label: Other
+group: Hide drops
+enum: ["Araxyte venom sack","Coins","Araxyte head"]
+*/
+#define VAR_ARAXYTE_ENUMLIST_FILTER_OTHER []
+CONST_ARAXYTE_RULE (name:VAR_ARAXYTE_ENUMLIST_FILTER_OTHER) {
+  hidden = true;
+}
+
+// endmodule:Araxyte

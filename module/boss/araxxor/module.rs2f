@@ -94,4 +94,3 @@ CONST_ARAXXOR_RULE (name:VAR_ARAXXOR_ENUMLIST_FILTER_TERTIARY) {
   hidden = true;
 }
 
-// endmodule:Araxxor

@@ -72,4 +72,3 @@ CONST_SCURRIUS_RULE (name:VAR_SCURRIUS_ENUMLIST_FILTER_TERTIARYDROPS) {
   hidden = true;
 }
 
-// endmodule:Scurrius

@@ -30,4 +30,3 @@ CONST_ABERRANTSPECTRE_RULE (name:VAR_ABERRANTSPECTRE_ENUMLIST_FILTER_COINS) {
   hidden = true;
 }
 
-// endmodule:Aberrant spectre

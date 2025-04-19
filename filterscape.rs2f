@@ -339,7 +339,7 @@ CONST_BLOODVELD_RULE (name:VAR_BLOODVELD_ENUMLIST_FILTER_TERTIARY) {
   hidden = true;
 }
 
-// endmodule:Bloodveld
+
 
 
 /*@ define:module:nechryael
@@ -428,7 +428,7 @@ CONST_NECHRYAEL_RULE (name:VAR_NECHRYAEL_ENUMLIST_FILTER_TERTIARY) {
   hidden = true;
 }
 
-// endmodule:Nechryael
+
 
 
 /*@ define:module:vyre
@@ -515,7 +515,7 @@ CONST_VYRE_RULE (name:VAR_VYRE_ENUMLIST_FILTER_TERTIARY) {
   hidden = true;
 }
 
-// endmodule:Vyre
+
 
 
 /*@ define:module:aberrantspectre
@@ -549,7 +549,7 @@ CONST_ABERRANTSPECTRE_RULE (name:VAR_ABERRANTSPECTRE_ENUMLIST_FILTER_COINS) {
   hidden = true;
 }
 
-// endmodule:Aberrant spectre
+
 
 
 /*@ define:module:dustdevil
@@ -618,7 +618,7 @@ CONST_DUSTDEVIL_RULE (name:VAR_DUSTDEVIL_ENUMLIST_FILTER_TERTIARY) {
   hidden = true;
 }
 
-// endmodule:Dust devil
+
 
 
 /*@ define:module:smokedevil
@@ -694,7 +694,7 @@ CONST_SMOKEDEVIL_RULE (name:VAR_SMOKEDEVIL_ENUMLIST_FILTER_TERTIARY) {
   hidden = true;
 }
 
-// endmodule:Smoke devil
+
 
 
 /*@ define:module:skeletalwyvern
@@ -781,7 +781,7 @@ CONST_SKELETALWYVERN_RULE (name:VAR_SKELETALWYVERN_ENUMLIST_FILTER_TERTIARY) {
   hidden = true;
 }
 
-// endmodule:Skeletal wyvern
+
 
 
 /*@ define:module:gargoyle
@@ -870,7 +870,7 @@ CONST_GARGOYLE_RULE (name:VAR_GARGOYLE_ENUMLIST_FILTER_TERTIARY) {
   hidden = true;
 }
 
-// endmodule:Gargoyle
+
 
 
 /*@ define:module:abyssaldemon
@@ -965,7 +965,61 @@ CONST_ABYSSALDEMON_RULE (name:VAR_ABYSSALDEMON_ENUMLIST_FILTER_TERTIARY) {
   hidden = true;
 }
 
-// endmodule:Abyssal demon
+
+
+
+/*@ define:module:araxyte
+name: Araxyte
+*/
+
+#define CONST_AREA_ARAXYTE0 [3653,9793,0,3710,9868,0] // [[Morytania Spider Cave]]
+#define CONST_ARAXYTE_RULE(_cond) rule ((area:CONST_AREA_ARAXYTE0) && (_cond))
+
+/*@ define:input:araxyte
+type: enumlist
+label: 100%
+group: Hide drops
+enum: ["Araxyte venom sack"]
+*/
+#define VAR_ARAXYTE_ENUMLIST_FILTER_100 []
+CONST_ARAXYTE_RULE (name:VAR_ARAXYTE_ENUMLIST_FILTER_100) {
+  hidden = true;
+}
+
+/*@ define:input:araxyte
+type: enumlist
+label: Weapons and armour
+group: Hide drops
+enum: ["Adamant longsword","Adamant battleaxe","Rune dagger","Rune med helm","Rune platelegs","Aranea boots"]
+*/
+#define VAR_ARAXYTE_ENUMLIST_FILTER_WEAPONSANDARMOUR ["Adamant longsword","Adamant battleaxe"]
+CONST_ARAXYTE_RULE (name:VAR_ARAXYTE_ENUMLIST_FILTER_WEAPONSANDARMOUR) {
+  hidden = true;
+}
+
+/*@ define:input:araxyte
+type: enumlist
+label: Runes
+group: Hide drops
+enum: ["Air rune","Water rune","Earth rune","Fire rune","Cosmic rune","Chaos rune","Nature rune","Death rune","Law rune","Blood rune","Soul rune"]
+*/
+#define VAR_ARAXYTE_ENUMLIST_FILTER_RUNES []
+CONST_ARAXYTE_RULE (name:VAR_ARAXYTE_ENUMLIST_FILTER_RUNES) {
+  hidden = true;
+}
+
+/*@ define:input:araxyte
+type: enumlist
+label: Other
+group: Hide drops
+enum: ["Coins","Araxyte head"]
+*/
+#define VAR_ARAXYTE_ENUMLIST_FILTER_OTHER []
+CONST_ARAXYTE_RULE (name:VAR_ARAXYTE_ENUMLIST_FILTER_OTHER) {
+  hidden = true;
+}
+
+
 
 
 /*@ define:module:scurrius
@@ -1041,7 +1095,7 @@ CONST_SCURRIUS_RULE (name:VAR_SCURRIUS_ENUMLIST_FILTER_TERTIARYDROPS) {
   hidden = true;
 }
 
-// endmodule:Scurrius
+
 
 
 /*@ define:module:giantmole
@@ -1106,7 +1160,7 @@ CONST_GIANTMOLE_RULE (name:VAR_GIANTMOLE_ENUMLIST_FILTER_TERTIARY) {
   hidden = true;
 }
 
-// endmodule:Giant Mole
+
 
 
 /*@ define:module:derangedarchaeologist
@@ -1193,7 +1247,7 @@ CONST_DERANGEDARCHAEOLOGIST_RULE (name:VAR_DERANGEDARCHAEOLOGIST_ENUMLIST_FILTER
   hidden = true;
 }
 
-// endmodule:Deranged archaeologist
+
 
 
 /*@ define:module:dagannothkings
@@ -1302,7 +1356,7 @@ CONST_DAGANNOTHKINGS_RULE (name:VAR_DAGANNOTHKINGS_ENUMLIST_FILTER_AMMUNITION) {
   hidden = true;
 }
 
-// endmodule:Dagannoth Kings
+
 
 
 /*@ define:module:sarachnis
@@ -1400,7 +1454,7 @@ CONST_SARACHNIS_RULE (name:VAR_SARACHNIS_ENUMLIST_FILTER_TERTIARY) {
   hidden = true;
 }
 
-// endmodule:Sarachnis
+
 
 
 /*@ define:module:kalphitequeen
@@ -1498,7 +1552,7 @@ CONST_KALPHITEQUEEN_RULE (name:VAR_KALPHITEQUEEN_ENUMLIST_FILTER_TERTIARY) {
   hidden = true;
 }
 
-// endmodule:Kalphite Queen
+
 
 
 /*@ define:module:kreearra
@@ -1596,7 +1650,7 @@ CONST_KREEARRA_RULE (name:VAR_KREEARRA_ENUMLIST_FILTER_OTHER) {
   hidden = true;
 }
 
-// endmodule:Kree'arra
+
 
 
 /*@ define:module:commanderzilyana
@@ -1672,7 +1726,7 @@ CONST_COMMANDERZILYANA_RULE (name:VAR_COMMANDERZILYANA_ENUMLIST_FILTER_TERTIARY)
   hidden = true;
 }
 
-// endmodule:Commander Zilyana
+
 
 
 /*@ define:module:generalgraardor
@@ -1737,7 +1791,7 @@ CONST_GENERALGRAARDOR_RULE (name:VAR_GENERALGRAARDOR_ENUMLIST_FILTER_TERTIARY) {
   hidden = true;
 }
 
-// endmodule:General Graardor
+
 
 
 /*@ define:module:kriltsutsaroth
@@ -1813,7 +1867,7 @@ CONST_KRILTSUTSAROTH_RULE (name:VAR_KRILTSUTSAROTH_ENUMLIST_FILTER_TERTIARY) {
   hidden = true;
 }
 
-// endmodule:K'ril Tsutsaroth
+
 
 
 /*@ define:module:thehueycoatl
@@ -1900,7 +1954,7 @@ CONST_THEHUEYCOATL_RULE (name:VAR_THEHUEYCOATL_ENUMLIST_FILTER_TERTIARY) {
   hidden = true;
 }
 
-// endmodule:The Hueycoatl
+
 
 
 /*@ define:module:corporealbeast
@@ -1965,7 +2019,7 @@ CONST_CORPOREALBEAST_RULE (name:VAR_CORPOREALBEAST_ENUMLIST_FILTER_TERTIARY) {
   hidden = true;
 }
 
-// endmodule:Corporeal Beast
+
 
 
 /*@ define:module:nex
@@ -2052,7 +2106,7 @@ CONST_NEX_RULE (name:VAR_NEX_ENUMLIST_FILTER_TERTIARY) {
   hidden = true;
 }
 
-// endmodule:Nex
+
 
 
 /*@ define:module:chaosfanatic
@@ -2139,7 +2193,7 @@ CONST_CHAOSFANATIC_RULE (name:VAR_CHAOSFANATIC_ENUMLIST_FILTER_TERTIARY) {
   hidden = true;
 }
 
-// endmodule:Chaos Fanatic
+
 
 
 /*@ define:module:crazyarchaeologist
@@ -2226,7 +2280,7 @@ CONST_CRAZYARCHAEOLOGIST_RULE (name:VAR_CRAZYARCHAEOLOGIST_ENUMLIST_FILTER_TERTI
   hidden = true;
 }
 
-// endmodule:Crazy archaeologist
+
 
 
 /*@ define:module:scorpia
@@ -2313,7 +2367,7 @@ CONST_SCORPIA_RULE (name:VAR_SCORPIA_ENUMLIST_FILTER_TERTIARY) {
   hidden = true;
 }
 
-// endmodule:Scorpia
+
 
 
 /*@ define:module:kingblackdragon
@@ -2400,7 +2454,7 @@ CONST_KINGBLACKDRAGON_RULE (name:VAR_KINGBLACKDRAGON_ENUMLIST_FILTER_TERTIARY) {
   hidden = true;
 }
 
-// endmodule:King Black Dragon
+
 
 
 /*@ define:module:chaoselemental
@@ -2498,7 +2552,7 @@ CONST_CHAOSELEMENTAL_RULE (name:VAR_CHAOSELEMENTAL_ENUMLIST_FILTER_TERTIARY) {
   hidden = true;
 }
 
-// endmodule:Chaos Elemental
+
 
 
 /*@ define:module:vetion
@@ -2596,7 +2650,7 @@ CONST_VETION_RULE (name:VAR_VETION_ENUMLIST_FILTER_TERTIARY) {
   hidden = true;
 }
 
-// endmodule:Vet'ion
+
 
 
 /*@ define:module:venenatis
@@ -2694,7 +2748,7 @@ CONST_VENENATIS_RULE (name:VAR_VENENATIS_ENUMLIST_FILTER_TERTIARY) {
   hidden = true;
 }
 
-// endmodule:Venenatis
+
 
 
 /*@ define:module:callisto
@@ -2803,7 +2857,7 @@ CONST_CALLISTO_RULE (name:VAR_CALLISTO_ENUMLIST_FILTER_TERTIARY) {
   hidden = true;
 }
 
-// endmodule:Callisto
+
 
 
 /*@ define:module:amoxliatl
@@ -2868,7 +2922,7 @@ CONST_AMOXLIATL_RULE (name:VAR_AMOXLIATL_ENUMLIST_FILTER_TERTIARY) {
   hidden = true;
 }
 
-// endmodule:Amoxliatl
+
 
 
 /*@ define:module:zulrah
@@ -2988,7 +3042,7 @@ CONST_ZULRAH_RULE (name:VAR_ZULRAH_ENUMLIST_FILTER_TERTIARY) {
   hidden = true;
 }
 
-// endmodule:Zulrah
+
 
 
 /*@ define:module:vorkath
@@ -3085,7 +3139,7 @@ CONST_VORKATH_RULE (name:VAR_VORKATH_ENUMLIST_FILTER_TERTIARY) {
   hidden = true;
 }
 
-// endmodule:Vorkath
+
 
 
 /*@ define:module:phantommuspah
@@ -3194,7 +3248,7 @@ CONST_PHANTOMMUSPAH_RULE (name:VAR_PHANTOMMUSPAH_ENUMLIST_FILTER_TERTIARY) {
   hidden = true;
 }
 
-// endmodule:Phantom Muspah
+
 
 
 /*@ define:module:thenightmare
@@ -3281,7 +3335,7 @@ CONST_THENIGHTMARE_RULE (name:VAR_THENIGHTMARE_ENUMLIST_FILTER_TERTIARY) {
   hidden = true;
 }
 
-// endmodule:The Nightmare
+
 
 
 /*@ define:module:dukesucellus
@@ -3368,7 +3422,7 @@ CONST_DUKESUCELLUS_RULE (name:VAR_DUKESUCELLUS_ENUMLIST_FILTER_TERTIARY) {
   hidden = true;
 }
 
-// endmodule:Duke Sucellus
+
 
 
 /*@ define:module:theleviathan
@@ -3444,7 +3498,7 @@ CONST_THELEVIATHAN_RULE (name:VAR_THELEVIATHAN_ENUMLIST_FILTER_TERTIARY) {
   hidden = true;
 }
 
-// endmodule:The Leviathan
+
 
 
 /*@ define:module:thewhisperer
@@ -3531,7 +3585,7 @@ CONST_THEWHISPERER_RULE (name:VAR_THEWHISPERER_ENUMLIST_FILTER_TERTIARY) {
   hidden = true;
 }
 
-// endmodule:The Whisperer
+
 
 
 /*@ define:module:vardorvis
@@ -3607,7 +3661,7 @@ CONST_VARDORVIS_RULE (name:VAR_VARDORVIS_ENUMLIST_FILTER_TERTIARY) {
   hidden = true;
 }
 
-// endmodule:Vardorvis
+
 
 
 /*@ define:module:grotesqueguardians
@@ -3694,7 +3748,7 @@ CONST_GROTESQUEGUARDIANS_RULE (name:VAR_GROTESQUEGUARDIANS_ENUMLIST_FILTER_TERTI
   hidden = true;
 }
 
-// endmodule:Grotesque Guardians
+
 
 
 /*@ define:module:abyssalsire
@@ -3781,7 +3835,7 @@ CONST_ABYSSALSIRE_RULE (name:VAR_ABYSSALSIRE_ENUMLIST_FILTER_TERTIARY) {
   hidden = true;
 }
 
-// endmodule:Abyssal Sire
+
 
 
 /*@ define:module:kraken
@@ -3857,7 +3911,7 @@ CONST_KRAKEN_RULE (name:VAR_KRAKEN_ENUMLIST_FILTER_TERTIARY) {
   hidden = true;
 }
 
-// endmodule:Kraken
+
 
 
 /*@ define:module:cerberus
@@ -3933,7 +3987,7 @@ CONST_CERBERUS_RULE (name:VAR_CERBERUS_ENUMLIST_FILTER_TERTIARY) {
   hidden = true;
 }
 
-// endmodule:Cerberus
+
 
 
 /*@ define:module:araxxor
@@ -4031,7 +4085,7 @@ CONST_ARAXXOR_RULE (name:VAR_ARAXXOR_ENUMLIST_FILTER_TERTIARY) {
   hidden = true;
 }
 
-// endmodule:Araxxor
+
 
 
 /*@ define:module:thermonuclearsmokedevil
@@ -4118,7 +4172,7 @@ CONST_THERMONUCLEARSMOKEDEVIL_RULE (name:VAR_THERMONUCLEARSMOKEDEVIL_ENUMLIST_FI
   hidden = true;
 }
 
-// endmodule:Thermonuclear smoke devil
+
 
 
 /*@ define:module:alchemicalhydra
@@ -4205,7 +4259,7 @@ CONST_ALCHEMICALHYDRA_RULE (name:VAR_ALCHEMICALHYDRA_ENUMLIST_FILTER_TERTIARY) {
   hidden = true;
 }
 
-// endmodule:Alchemical Hydra
+
 
 
 /*@ define:module:cox

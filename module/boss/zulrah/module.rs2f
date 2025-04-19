@@ -116,4 +116,3 @@ CONST_ZULRAH_RULE (name:VAR_ZULRAH_ENUMLIST_FILTER_TERTIARY) {
   hidden = true;
 }
 
-// endmodule:Zulrah

@@ -85,4 +85,3 @@ CONST_NECHRYAEL_RULE (name:VAR_NECHRYAEL_ENUMLIST_FILTER_TERTIARY) {
   hidden = true;
 }
 
-// endmodule:Nechryael

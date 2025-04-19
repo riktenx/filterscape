@@ -94,4 +94,3 @@ CONST_VENENATIS_RULE (name:VAR_VENENATIS_ENUMLIST_FILTER_TERTIARY) {
   hidden = true;
 }
 
-// endmodule:Venenatis

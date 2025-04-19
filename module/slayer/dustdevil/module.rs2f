@@ -65,4 +65,3 @@ CONST_DUSTDEVIL_RULE (name:VAR_DUSTDEVIL_ENUMLIST_FILTER_TERTIARY) {
   hidden = true;
 }
 
-// endmodule:Dust devil

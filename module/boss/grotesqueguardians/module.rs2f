@@ -83,4 +83,3 @@ CONST_GROTESQUEGUARDIANS_RULE (name:VAR_GROTESQUEGUARDIANS_ENUMLIST_FILTER_TERTI
   hidden = true;
 }
 
-// endmodule:Grotesque Guardians

@@ -83,4 +83,3 @@ CONST_KINGBLACKDRAGON_RULE (name:VAR_KINGBLACKDRAGON_ENUMLIST_FILTER_TERTIARY) {
   hidden = true;
 }
 
-// endmodule:King Black Dragon

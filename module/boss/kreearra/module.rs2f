@@ -94,4 +94,3 @@ CONST_KREEARRA_RULE (name:VAR_KREEARRA_ENUMLIST_FILTER_OTHER) {
   hidden = true;
 }
 
-// endmodule:Kree'arra

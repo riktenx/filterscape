@@ -94,4 +94,3 @@ CONST_CHAOSELEMENTAL_RULE (name:VAR_CHAOSELEMENTAL_ENUMLIST_FILTER_TERTIARY) {
   hidden = true;
 }
 
-// endmodule:Chaos Elemental

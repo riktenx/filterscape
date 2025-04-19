@@ -83,4 +83,3 @@ CONST_ABYSSALSIRE_RULE (name:VAR_ABYSSALSIRE_ENUMLIST_FILTER_TERTIARY) {
   hidden = true;
 }
 
-// endmodule:Abyssal Sire

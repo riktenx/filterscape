@@ -82,4 +82,3 @@ CONST_BLOODVELD_RULE (name:VAR_BLOODVELD_ENUMLIST_FILTER_TERTIARY) {
   hidden = true;
 }
 
-// endmodule:Bloodveld

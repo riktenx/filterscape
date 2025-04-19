@@ -105,4 +105,3 @@ CONST_PHANTOMMUSPAH_RULE (name:VAR_PHANTOMMUSPAH_ENUMLIST_FILTER_TERTIARY) {
   hidden = true;
 }
 
-// endmodule:Phantom Muspah

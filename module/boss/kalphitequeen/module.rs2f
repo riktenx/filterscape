@@ -94,4 +94,3 @@ CONST_KALPHITEQUEEN_RULE (name:VAR_KALPHITEQUEEN_ENUMLIST_FILTER_TERTIARY) {
   hidden = true;
 }
 
-// endmodule:Kalphite Queen

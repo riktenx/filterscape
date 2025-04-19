@@ -105,4 +105,3 @@ CONST_DAGANNOTHKINGS_RULE (name:VAR_DAGANNOTHKINGS_ENUMLIST_FILTER_AMMUNITION) {
   hidden = true;
 }
 
-// endmodule:Dagannoth Kings

@@ -83,4 +83,3 @@ CONST_SKELETALWYVERN_RULE (name:VAR_SKELETALWYVERN_ENUMLIST_FILTER_TERTIARY) {
   hidden = true;
 }
 
-// endmodule:Skeletal wyvern

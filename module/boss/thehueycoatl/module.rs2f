@@ -83,4 +83,3 @@ CONST_THEHUEYCOATL_RULE (name:VAR_THEHUEYCOATL_ENUMLIST_FILTER_TERTIARY) {
   hidden = true;
 }
 
-// endmodule:The Hueycoatl

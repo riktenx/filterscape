@@ -83,4 +83,3 @@ CONST_NEX_RULE (name:VAR_NEX_ENUMLIST_FILTER_TERTIARY) {
   hidden = true;
 }
 
-// endmodule:Nex

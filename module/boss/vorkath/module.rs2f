@@ -93,4 +93,3 @@ CONST_VORKATH_RULE (name:VAR_VORKATH_ENUMLIST_FILTER_TERTIARY) {
   hidden = true;
 }
 
-// endmodule:Vorkath

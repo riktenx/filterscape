@@ -83,4 +83,3 @@ CONST_THENIGHTMARE_RULE (name:VAR_THENIGHTMARE_ENUMLIST_FILTER_TERTIARY) {
   hidden = true;
 }
 
-// endmodule:The Nightmare

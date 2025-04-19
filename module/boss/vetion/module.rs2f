@@ -94,4 +94,3 @@ CONST_VETION_RULE (name:VAR_VETION_ENUMLIST_FILTER_TERTIARY) {
   hidden = true;
 }
 
-// endmodule:Vet'ion

@@ -210,6 +210,30 @@ CONST_${scope}_RULE (VAR_${scope}_BOOLEAN_HIDESMALLCOINS && name:"Coins" && valu
       },
     },
   },
+  {
+    name: 'Araxyte',
+    url: 'https://oldschool.runescape.wiki/w/Araxyte',
+    transform: {
+      updateMapAreas: (table) => { // wiki source is cooked here, just do our own
+        delete table['[[Morytania Spider Cave]] (task-only area)'];
+        table['[[Morytania Spider Cave]]'] = [
+          3653, 9793, 0, 3710, 9868, 0
+        ];
+      },
+      updateDropTable: (table) => {
+        table['Other'] = table['Other']
+          .filter(item => item !== 'Araxyte venom sack');
+      },
+      getDefaults: () => {
+        return {
+          "Weapons and armour": [
+            "Adamant longsword",
+            "Adamant battleaxe",
+          ],
+        };
+      },
+    },
+  },
 ];
 
 await cmdGenerateModGroup('slayer', index);

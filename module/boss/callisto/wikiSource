@@ -11,7 +11,7 @@
 |size = 5
 |examine = I wouldn't want to eat his Porridge.
 |xpbonus = 30
-|max hit = 55 ([[Crush]]), 31 ([[Ranged]]), 60 (Special)
+|max hit = 55 ([[Crush]]), 31 ([[Ranged]]), 50 (Special)
 |aggressive = Yes
 |poisonous = No
 |attack style = [[Crush]], [[Magic]], [[Ranged]]

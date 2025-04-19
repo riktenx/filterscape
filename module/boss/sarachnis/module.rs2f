@@ -94,4 +94,3 @@ CONST_SARACHNIS_RULE (name:VAR_SARACHNIS_ENUMLIST_FILTER_TERTIARY) {
   hidden = true;
 }
 
-// endmodule:Sarachnis

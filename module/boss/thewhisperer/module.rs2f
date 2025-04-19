@@ -83,4 +83,3 @@ CONST_THEWHISPERER_RULE (name:VAR_THEWHISPERER_ENUMLIST_FILTER_TERTIARY) {
   hidden = true;
 }
 
-// endmodule:The Whisperer

@@ -83,4 +83,3 @@ CONST_THERMONUCLEARSMOKEDEVIL_RULE (name:VAR_THERMONUCLEARSMOKEDEVIL_ENUMLIST_FI
   hidden = true;
 }
 
-// endmodule:Thermonuclear smoke devil

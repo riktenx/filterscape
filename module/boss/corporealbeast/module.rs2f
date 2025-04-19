@@ -61,4 +61,3 @@ CONST_CORPOREALBEAST_RULE (name:VAR_CORPOREALBEAST_ENUMLIST_FILTER_TERTIARY) {
   hidden = true;
 }
 
-// endmodule:Corporeal Beast

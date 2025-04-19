@@ -91,4 +91,3 @@ CONST_ABYSSALDEMON_RULE (name:VAR_ABYSSALDEMON_ENUMLIST_FILTER_TERTIARY) {
   hidden = true;
 }
 
-// endmodule:Abyssal demon

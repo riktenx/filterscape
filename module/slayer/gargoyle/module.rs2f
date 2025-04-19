@@ -85,4 +85,3 @@ CONST_GARGOYLE_RULE (name:VAR_GARGOYLE_ENUMLIST_FILTER_TERTIARY) {
   hidden = true;
 }
 
-// endmodule:Gargoyle

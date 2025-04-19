@@ -83,4 +83,3 @@ CONST_ALCHEMICALHYDRA_RULE (name:VAR_ALCHEMICALHYDRA_ENUMLIST_FILTER_TERTIARY) {
   hidden = true;
 }
 
-// endmodule:Alchemical Hydra

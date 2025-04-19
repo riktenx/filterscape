@@ -61,4 +61,3 @@ CONST_GENERALGRAARDOR_RULE (name:VAR_GENERALGRAARDOR_ENUMLIST_FILTER_TERTIARY) {
   hidden = true;
 }
 
-// endmodule:General Graardor

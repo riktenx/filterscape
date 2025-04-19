@@ -83,4 +83,3 @@ CONST_DERANGEDARCHAEOLOGIST_RULE (name:VAR_DERANGEDARCHAEOLOGIST_ENUMLIST_FILTER
   hidden = true;
 }
 
-// endmodule:Deranged archaeologist

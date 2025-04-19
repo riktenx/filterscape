@@ -61,4 +61,3 @@ CONST_GIANTMOLE_RULE (name:VAR_GIANTMOLE_ENUMLIST_FILTER_TERTIARY) {
   hidden = true;
 }
 
-// endmodule:Giant Mole

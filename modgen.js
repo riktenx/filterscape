@@ -111,7 +111,6 @@ CONST_${moduleScope}_RULE (name:VAR_${moduleScope}_ENUMLIST_FILTER_${ident}) {
   }).filter(it => !!it).join('\n\n');
 
   rs2f += '\n\n';
-  rs2f += `// endmodule:${name}`;
 
   return rs2f;
 };

@@ -83,4 +83,3 @@ CONST_VYRE_RULE (name:VAR_VYRE_ENUMLIST_FILTER_TERTIARY) {
   hidden = true;
 }
 
-// endmodule:Vyre

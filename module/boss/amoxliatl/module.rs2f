@@ -61,4 +61,3 @@ CONST_AMOXLIATL_RULE (name:VAR_AMOXLIATL_ENUMLIST_FILTER_TERTIARY) {
   hidden = true;
 }
 
-// endmodule:Amoxliatl

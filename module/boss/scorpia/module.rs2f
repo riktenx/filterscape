@@ -83,4 +83,3 @@ CONST_SCORPIA_RULE (name:VAR_SCORPIA_ENUMLIST_FILTER_TERTIARY) {
   hidden = true;
 }
 
-// endmodule:Scorpia

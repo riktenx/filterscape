@@ -83,4 +83,3 @@ CONST_DUKESUCELLUS_RULE (name:VAR_DUKESUCELLUS_ENUMLIST_FILTER_TERTIARY) {
   hidden = true;
 }
 
-// endmodule:Duke Sucellus

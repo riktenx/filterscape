@@ -83,4 +83,3 @@ CONST_CHAOSFANATIC_RULE (name:VAR_CHAOSFANATIC_ENUMLIST_FILTER_TERTIARY) {
   hidden = true;
 }
 
-// endmodule:Chaos Fanatic

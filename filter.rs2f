@@ -222,14 +222,32 @@ rule (VAR_HHGROUP_BOOLEAN_HIGHLIGHT4_ENABLED && name:VAR_HHGROUP_STRINGLIST_HIGH
 /*@ define:module:global_hide
 ---
 name: Global hide
+description: |
+  This module supports configuration of two lists:
+
+  1. "Hide by default" - Will hide based on item name by default, but later
+     rules in the filter (e.g. item value) can override this.
+  2. "Always hide" - Will hide based on item name, no matter what. Later rules
+     cannot override.
 */
 
-/*@ define:input:global_hide
+/*@ define:input
 type: stringlist
-label: Hide items
+group: Hide by default
+label: Items
+*/
+#define VAR_HIDES_HIDEBYDEFAULT ["Vial", "Ashes", "Bones", "Bucket", "Jug", "Seaweed"]
+
+/*@ define:input
+type: stringlist
+group: Always hide
+label: Items
 */
 #define VAR_HIDES_STRINGLIST__HIDE []
 
+apply (name:VAR_HIDES_HIDEBYDEFAULT) {
+  hidden = true;
+}
 
 rule (name:VAR_HIDES_STRINGLIST__HIDE) {
   hidden = true;
@@ -4387,25 +4405,19 @@ group: c-tier-unique
 
 
 rule (name:VAR_UNIQUE_STIER) {
-  LIB_COLOR3(RED, WHITE)
-  fontType = 3;
-  showLootbeam = true;
+  hidden = false;
   VAR_UNIQUE_STIER_CUSTOMSTYLE
 }
 rule (name:VAR_UNIQUE_ATIER) {
-  LIB_COLOR3(WHITE, LIB_LIGHT_BROWN)
-  textAccent = 3;
-  showLootBeam = true;
+  hidden = false;
   VAR_UNIQUE_ATIER_CUSTOMSTYLE
 }
 rule (name:VAR_UNIQUE_BTIER) {
-  LIB_COLOR3(BLACK, LIB_LIGHT_BROWN)
-  textAccent = 3;
+  hidden = false;
   VAR_UNIQUE_BTIER_CUSTOMSTYLE
 }
 rule (name:VAR_UNIQUE_CTIER) {
-  LIB_COLOR3(LIB_LIGHT_BROWN, LIB_BURGUNDY)
-  textAccent = 3;
+  hidden = false;
   VAR_UNIQUE_CTIER_CUSTOMSTYLE
 }
 
@@ -4858,39 +4870,28 @@ group: t0
 #define VAR_VALUE_T0_CUSTOMSTYLE \
   textColor = "#beb287";
 
-
 rule (value:>=VAR_VALUE_T5_VALUE) {
-  LIB_COLOR3(RED, WHITE)
-  fontType = 2;
-  textAccent = 3;
-  showLootBeam = true;
+  hidden = false;
   VAR_VALUE_T5_CUSTOMSTYLE
 }
 rule (value:>=VAR_VALUE_T4_VALUE) {
-  LIB_COLOR3(WHITE, LIB_ORANGE)
-  showLootBeam = true;
+  hidden = false;
   VAR_VALUE_T4_CUSTOMSTYLE
 }
 rule (value:>=VAR_VALUE_T3_VALUE) {
-  LIB_COLOR3(BLACK, LIB_ORANGE)
-  textAccent = 3;
-  showLootbeam = true;
-  lootbeamColor = LIB_ORANGE;
-  menuTextColor = LIB_ORANGE;
+  hidden = false;
   VAR_VALUE_T3_CUSTOMSTYLE
 }
 rule (value:>=VAR_VALUE_T2_VALUE) {
-  LIB_COLOR2(LIB_CARAMEL)
-  textAccent = 2;
+  hidden = false;
   VAR_VALUE_T2_CUSTOMSTYLE
 }
 rule (value:>=VAR_VALUE_T1_VALUE) {
-  textColor = LIB_GOLD;
-  textAccent = 2;
+  hidden = false;
   VAR_VALUE_T1_CUSTOMSTYLE
 }
 rule (value:>=VAR_VALUE_T0_VALUE) {
-  textColor = LIB_KHAKI;
+  hidden = false;
   VAR_VALUE_T0_CUSTOMSTYLE
 }
 

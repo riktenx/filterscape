@@ -133,39 +133,28 @@ group: t0
 #define VAR_VALUE_T0_CUSTOMSTYLE \
   textColor = "#beb287";
 
-
 rule (value:>=VAR_VALUE_T5_VALUE) {
-  LIB_COLOR3(RED, WHITE)
-  fontType = 2;
-  textAccent = 3;
-  showLootBeam = true;
+  hidden = false;
   VAR_VALUE_T5_CUSTOMSTYLE
 }
 rule (value:>=VAR_VALUE_T4_VALUE) {
-  LIB_COLOR3(WHITE, LIB_ORANGE)
-  showLootBeam = true;
+  hidden = false;
   VAR_VALUE_T4_CUSTOMSTYLE
 }
 rule (value:>=VAR_VALUE_T3_VALUE) {
-  LIB_COLOR3(BLACK, LIB_ORANGE)
-  textAccent = 3;
-  showLootbeam = true;
-  lootbeamColor = LIB_ORANGE;
-  menuTextColor = LIB_ORANGE;
+  hidden = false;
   VAR_VALUE_T3_CUSTOMSTYLE
 }
 rule (value:>=VAR_VALUE_T2_VALUE) {
-  LIB_COLOR2(LIB_CARAMEL)
-  textAccent = 2;
+  hidden = false;
   VAR_VALUE_T2_CUSTOMSTYLE
 }
 rule (value:>=VAR_VALUE_T1_VALUE) {
-  textColor = LIB_GOLD;
-  textAccent = 2;
+  hidden = false;
   VAR_VALUE_T1_CUSTOMSTYLE
 }
 rule (value:>=VAR_VALUE_T0_VALUE) {
-  textColor = LIB_KHAKI;
+  hidden = false;
   VAR_VALUE_T0_CUSTOMSTYLE
 }
 

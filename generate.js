@@ -42,7 +42,11 @@ const defaultFilterscape = [header, ...index.modules.map(module => {
 
 fs.writeFileSync('filterscape.rs2f', defaultFilterscape);
 
-const header2 = `meta {
+const header2 = `/*@ define:module:header
+hidden: true
+name: header
+*/
+meta {
   name = "riktenx/filterscape";
 }
 `;

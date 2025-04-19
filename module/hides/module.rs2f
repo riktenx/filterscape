@@ -2,14 +2,32 @@
 /*@ define:module:global_hide
 ---
 name: Global hide
+description: |
+  This module supports configuration of two lists:
+
+  1. "Hide by default" - Will hide based on item name by default, but later
+     rules in the filter (e.g. item value) can override this.
+  2. "Always hide" - Will hide based on item name, no matter what. Later rules
+     cannot override.
 */
 
-/*@ define:input:global_hide
+/*@ define:input
 type: stringlist
-label: Hide items
+group: Hide by default
+label: Items
+*/
+#define VAR_HIDES_HIDEBYDEFAULT ["Vial", "Ashes", "Bones", "Bucket", "Jug", "Seaweed"]
+
+/*@ define:input
+type: stringlist
+group: Always hide
+label: Items
 */
 #define VAR_HIDES_STRINGLIST__HIDE []
 
+apply (name:VAR_HIDES_HIDEBYDEFAULT) {
+  hidden = true;
+}
 
 rule (name:VAR_HIDES_STRINGLIST__HIDE) {
   hidden = true;

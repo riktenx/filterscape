@@ -82,25 +82,19 @@ group: c-tier-unique
 
 
 rule (name:VAR_UNIQUE_STIER) {
-  LIB_COLOR3(RED, WHITE)
-  fontType = 3;
-  showLootbeam = true;
+  hidden = false;
   VAR_UNIQUE_STIER_CUSTOMSTYLE
 }
 rule (name:VAR_UNIQUE_ATIER) {
-  LIB_COLOR3(WHITE, LIB_LIGHT_BROWN)
-  textAccent = 3;
-  showLootBeam = true;
+  hidden = false;
   VAR_UNIQUE_ATIER_CUSTOMSTYLE
 }
 rule (name:VAR_UNIQUE_BTIER) {
-  LIB_COLOR3(BLACK, LIB_LIGHT_BROWN)
-  textAccent = 3;
+  hidden = false;
   VAR_UNIQUE_BTIER_CUSTOMSTYLE
 }
 rule (name:VAR_UNIQUE_CTIER) {
-  LIB_COLOR3(LIB_LIGHT_BROWN, LIB_BURGUNDY)
-  textAccent = 3;
+  hidden = false;
   VAR_UNIQUE_CTIER_CUSTOMSTYLE
 }
 

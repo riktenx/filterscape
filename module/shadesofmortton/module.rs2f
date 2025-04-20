@@ -1,0 +1,345 @@
+/*@ define:module:shadesofmortton
+name: "Shades of Mort'ton"
+*/
+
+/*@ define:input
+type: style
+group: Bronze keys
+label: Bronze key black
+*/
+#define VAR_SOM_BRONZEBLACK_STYLE \
+  textColor = "#ffffff";\
+  backgroundColor = "#5b462a";\
+  borderColor = "#000000";
+
+/*@ define:input
+type: style
+group: Bronze keys
+label: Bronze key purple
+*/
+#define VAR_SOM_BRONZEPURPLE_STYLE \
+  textColor = "#ffffff";\
+  backgroundColor = "#5b462a";\
+  borderColor = "#800080";
+
+/*@ define:input
+type: style
+group: Bronze keys
+label: Bronze key red
+*/
+#define VAR_SOM_BRONZERED_STYLE \
+  textColor = "#ffffff";\
+  backgroundColor = "#5b462a";\
+  borderColor = "#a00000";
+
+/*@ define:input
+type: style
+group: Bronze keys
+label: Bronze key brown
+*/
+#define VAR_SOM_BRONZEBROWN_STYLE \
+  textColor = "#ffffff";\
+  backgroundColor = "#5b462a";\
+  borderColor = "#964b00";
+
+/*@ define:input
+type: style
+group: Bronze keys
+label: Bronze key crimson
+*/
+#define VAR_SOM_BRONZECRIMSON_STYLE \
+  textColor = "#ffffff";\
+  backgroundColor = "#5b462a";\
+  borderColor = "#ff143c";
+
+/*@ define:input
+type: style
+group: Steel keys
+label: Steel key black
+*/
+#define VAR_SOM_STEELBLACK_STYLE \
+  textColor = "#ffffff";\
+  backgroundColor = "#908686";\
+  borderColor = "#000000";
+
+/*@ define:input
+type: style
+group: Steel keys
+label: Steel key purple
+*/
+#define VAR_SOM_STEELPURPLE_STYLE \
+  textColor = "#ffffff";\
+  backgroundColor = "#908686";\
+  borderColor = "#800080";
+
+/*@ define:input
+type: style
+group: Steel keys
+label: Steel key red
+*/
+#define VAR_SOM_STEELRED_STYLE \
+  textColor = "#ffffff";\
+  backgroundColor = "#908686";\
+  borderColor = "#a00000";
+
+/*@ define:input
+type: style
+group: Steel keys
+label: Steel key brown
+*/
+#define VAR_SOM_STEELBROWN_STYLE \
+  textColor = "#ffffff";\
+  backgroundColor = "#908686";\
+  borderColor = "#964b00";
+
+/*@ define:input
+type: style
+group: Steel keys
+label: Steel key crimson
+*/
+#define VAR_SOM_STEELCRIMSON_STYLE \
+  textColor = "#ffffff";\
+  backgroundColor = "#908686";\
+  borderColor = "#ff143c";
+
+/*@ define:input
+type: style
+group: Black keys
+label: Black key black
+*/
+#define VAR_SOM_BLACKBLACK_STYLE \
+  textColor = "#ffffff";\
+  backgroundColor = "#000000";\
+  borderColor = "#000000";
+
+/*@ define:input
+type: style
+group: Black keys
+label: Black key purple
+*/
+#define VAR_SOM_BLACKPURPLE_STYLE \
+  textColor = "#ffffff";\
+  backgroundColor = "#000000";\
+  borderColor = "#800080";
+
+/*@ define:input
+type: style
+group: Black keys
+label: Black key red
+*/
+#define VAR_SOM_BLACKRED_STYLE \
+  textColor = "#ffffff";\
+  backgroundColor = "#000000";\
+  borderColor = "#a00000";
+
+/*@ define:input
+type: style
+group: Black keys
+label: Black key brown
+*/
+#define VAR_SOM_BLACKBROWN_STYLE \
+  textColor = "#ffffff";\
+  backgroundColor = "#000000";\
+  borderColor = "#964b00";
+
+/*@ define:input
+type: style
+group: Black keys
+label: Black key crimson
+*/
+#define VAR_SOM_BLACKCRIMSON_STYLE \
+  textColor = "#ffffff";\
+  backgroundColor = "#000000";\
+  borderColor = "#ff143c";
+
+/*@ define:input
+type: style
+group: Silver keys
+label: Silver key black
+*/
+#define VAR_SOM_SILVERBLACK_STYLE \
+  textColor = "#ffffff";\
+  backgroundColor = "#a8a8b4";\
+  borderColor = "#000000";
+
+/*@ define:input
+type: style
+group: Silver keys
+label: Silver key purple
+*/
+#define VAR_SOM_SILVERPURPLE_STYLE \
+  textColor = "#ffffff";\
+  backgroundColor = "#a8a8b4";\
+  borderColor = "#800080";
+
+/*@ define:input
+type: style
+group: Silver keys
+label: Silver key red
+*/
+#define VAR_SOM_SILVERRED_STYLE \
+  textColor = "#ffffff";\
+  backgroundColor = "#a8a8b4";\
+  borderColor = "#a00000";
+
+/*@ define:input
+type: style
+group: Silver keys
+label: Silver key brown
+*/
+#define VAR_SOM_SILVERBROWN_STYLE \
+  textColor = "#ffffff";\
+  backgroundColor = "#a8a8b4";\
+  borderColor = "#964b00";
+
+/*@ define:input
+type: style
+group: Silver keys
+label: Silver key crimson
+*/
+#define VAR_SOM_SILVERCRIMSON_STYLE \
+  textColor = "#ffffff";\
+  backgroundColor = "#a8a8b4";\
+  borderColor = "#ff143c";
+
+/*@ define:input
+type: style
+group: Gold keys
+label: Gold key black
+*/
+#define VAR_SOM_GOLDBLACK_STYLE \
+  textColor = "#ffffff";\
+  backgroundColor = "#d8b01a";\
+  borderColor = "#000000";
+
+/*@ define:input
+type: style
+group: Gold keys
+label: Gold key purple
+*/
+#define VAR_SOM_GOLDPURPLE_STYLE \
+  textColor = "#ffffff";\
+  backgroundColor = "#d8b01a";\
+  borderColor = "#800080";
+
+/*@ define:input
+type: style
+group: Gold keys
+label: Gold key red
+*/
+#define VAR_SOM_GOLDRED_STYLE \
+  textColor = "#ffffff";\
+  backgroundColor = "#d8b01a";\
+  borderColor = "#a00000";
+
+/*@ define:input
+type: style
+group: Gold keys
+label: Gold key brown
+*/
+#define VAR_SOM_GOLDBROWN_STYLE \
+  textColor = "#ffffff";\
+  backgroundColor = "#d8b01a";\
+  borderColor = "#964b00";
+
+/*@ define:input
+type: style
+group: Gold keys
+label: Gold key crimson
+*/
+#define VAR_SOM_GOLDCRIMSON_STYLE \
+  textColor = "#ffffff";\
+  backgroundColor = "#d8b01a";\
+  borderColor = "#ff143c";
+
+
+/*@ define:input
+type: style
+group: Shades
+label: Loar remains
+*/
+#define VAR_SOM_LOAR_STYLE \
+  textColor = "#ffffff";\
+  backgroundColor = "#905b462a";
+
+/*@ define:input
+type: style
+group: Shades
+label: Phrin remains
+*/
+#define VAR_SOM_PHRIN_STYLE \
+  textColor = "#ffffff";\
+  backgroundColor = "#905b462a";
+  
+/*@ define:input
+type: style
+group: Shades
+label: Riyl remains
+*/
+#define VAR_SOM_RIYL_STYLE \
+  textColor = "#ffffff";\
+  backgroundColor = "#90908686";
+
+/*@ define:input
+type: style
+group: Shades
+label: Asyn remains
+*/
+#define VAR_SOM_ASYN_STYLE \
+  textColor = "#ffffff";\
+  backgroundColor = "#90000000";
+
+/*@ define:input
+type: style
+group: Shades
+label: Fiyr remains
+*/
+#define VAR_SOM_FIYR_STYLE \
+  textColor = "#ffffff";\
+  backgroundColor = "#90a8a8b4";
+
+/*@ define:input
+type: style
+group: Shades
+label: Urium remains
+*/
+#define VAR_SOM_URIUM_STYLE \
+  textColor = "#ffffff";\
+  backgroundColor = "#90d8b01a";
+
+rule (name:"Bronze key black")   { VAR_SOM_BRONZEBLACK_STYLE }
+rule (name:"Bronze key purple")  { VAR_SOM_BRONZEPURPLE_STYLE }
+rule (name:"Bronze key red")     { VAR_SOM_BRONZERED_STYLE }
+rule (name:"Bronze key brown")   { VAR_SOM_BRONZEBROWN_STYLE }
+rule (name:"Bronze key crimson") { VAR_SOM_BRONZECRIMSON_STYLE }
+
+rule (name:"Steel key black")   { VAR_SOM_STEELBLACK_STYLE }
+rule (name:"Steel key purple")  { VAR_SOM_STEELPURPLE_STYLE }
+rule (name:"Steel key red")     { VAR_SOM_STEELRED_STYLE }
+rule (name:"Steel key brown")   { VAR_SOM_STEELBROWN_STYLE }
+rule (name:"Steel key crimson") { VAR_SOM_STEELCRIMSON_STYLE }
+
+rule (name:"Black key black")   { VAR_SOM_BLACKBLACK_STYLE }
+rule (name:"Black key purple")  { VAR_SOM_BLACKPURPLE_STYLE }
+rule (name:"Black key red")     { VAR_SOM_BLACKRED_STYLE }
+rule (name:"Black key brown")   { VAR_SOM_BLACKBROWN_STYLE }
+rule (name:"Black key crimson") { VAR_SOM_BLACKCRIMSON_STYLE }
+
+rule (name:"Silver key black")   { VAR_SOM_SILVERBLACK_STYLE }
+rule (name:"Silver key purple")  { VAR_SOM_SILVERPURPLE_STYLE }
+rule (name:"Silver key red")     { VAR_SOM_SILVERRED_STYLE }
+rule (name:"Silver key brown")   { VAR_SOM_SILVERBROWN_STYLE }
+rule (name:"Silver key crimson") { VAR_SOM_SILVERCRIMSON_STYLE }
+
+rule (name:"Gold key black")   { VAR_SOM_GOLDBLACK_STYLE }
+rule (name:"Gold key purple")  { VAR_SOM_GOLDPURPLE_STYLE }
+rule (name:"Gold key red")     { VAR_SOM_GOLDRED_STYLE }
+rule (name:"Gold key brown")   { VAR_SOM_GOLDBROWN_STYLE }
+rule (name:"Gold key crimson") { VAR_SOM_GOLDCRIMSON_STYLE }
+
+rule (name:"Loar remains")  { VAR_SOM_LOAR_STYLE }
+rule (name:"Phrin remains") { VAR_SOM_PHRIN_STYLE }
+rule (name:"Riyl remains")  { VAR_SOM_RIYL_STYLE }
+rule (name:"Asyn remains")  { VAR_SOM_ASYN_STYLE }
+rule (name:"Fiyr remains")  { VAR_SOM_FIYR_STYLE }
+rule (name:"Urium remains") { VAR_SOM_URIUM_STYLE }

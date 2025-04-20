@@ -3,7 +3,7 @@
 name: Alchemical Hydra
 */
 
-#define CONST_AREA_ALCHEMICALHYDRA [1346,10287,0,1385,10251,0]
+#define CONST_AREA_ALCHEMICALHYDRA [1346,10251,0,1385,10287,0]
 #define CONST_ALCHEMICALHYDRA_RULE(_cond) rule (area:CONST_AREA_ALCHEMICALHYDRA && (_cond))
 
 /*@ define:input:alchemicalhydra

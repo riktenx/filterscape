@@ -3,7 +3,7 @@
 name: Chaos Elemental
 */
 
-#define CONST_AREA_CHAOSELEMENTAL [3200,3967,0,3327,3904,0]
+#define CONST_AREA_CHAOSELEMENTAL [3200,3904,0,3327,3967,0]
 #define CONST_CHAOSELEMENTAL_RULE(_cond) rule (area:CONST_AREA_CHAOSELEMENTAL && (_cond))
 
 /*@ define:input:chaoselemental

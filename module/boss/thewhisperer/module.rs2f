@@ -3,7 +3,7 @@
 name: The Whisperer
 */
 
-#define CONST_AREA_THEWHISPERER [2631,6391,0,2684,6345,0]
+#define CONST_AREA_THEWHISPERER [2631,6345,0,2684,6391,0]
 #define CONST_THEWHISPERER_RULE(_cond) rule (area:CONST_AREA_THEWHISPERER && (_cond))
 
 /*@ define:input:thewhisperer

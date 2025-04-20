@@ -3,7 +3,7 @@
 name: The Leviathan
 */
 
-#define CONST_AREA_THELEVIATHAN [2053,6390,0,2110,6355,0]
+#define CONST_AREA_THELEVIATHAN [2053,6355,0,2110,6390,0]
 #define CONST_THELEVIATHAN_RULE(_cond) rule (area:CONST_AREA_THELEVIATHAN && (_cond))
 
 /*@ define:input:theleviathan

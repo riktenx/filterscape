@@ -3,7 +3,7 @@
 name: Dagannoth Kings
 */
 
-#define CONST_AREA_DAGANNOTHKINGS [2880,4478,0,2943,4353,0]
+#define CONST_AREA_DAGANNOTHKINGS [2880,4353,0,2943,4478,0]
 #define CONST_DAGANNOTHKINGS_RULE(_cond) rule (area:CONST_AREA_DAGANNOTHKINGS && (_cond))
 
 /*@ define:input:dagannothkings

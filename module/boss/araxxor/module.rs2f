@@ -3,7 +3,7 @@
 name: Araxxor
 */
 
-#define CONST_AREA_ARAXXOR [3608,9837,0,3651,9795,0]
+#define CONST_AREA_ARAXXOR [3608,9795,0,3651,9837,0]
 #define CONST_ARAXXOR_RULE(_cond) rule (area:CONST_AREA_ARAXXOR && (_cond))
 
 /*@ define:input:araxxor

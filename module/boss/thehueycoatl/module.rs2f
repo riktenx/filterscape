@@ -3,7 +3,7 @@
 name: The Hueycoatl
 */
 
-#define CONST_AREA_THEHUEYCOATL [1497,3301,0,1529,3271,0]
+#define CONST_AREA_THEHUEYCOATL [1497,3271,0,1529,3301,0]
 #define CONST_THEHUEYCOATL_RULE(_cond) rule (area:CONST_AREA_THEHUEYCOATL && (_cond))
 
 /*@ define:input:thehueycoatl

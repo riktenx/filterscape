@@ -3,7 +3,7 @@
 name: Thermonuclear smoke devil
 */
 
-#define CONST_AREA_THERMONUCLEARSMOKEDEVIL [2345,9464,0,2380,9434,0]
+#define CONST_AREA_THERMONUCLEARSMOKEDEVIL [2345,9434,0,2380,9464,0]
 #define CONST_THERMONUCLEARSMOKEDEVIL_RULE(_cond) rule (area:CONST_AREA_THERMONUCLEARSMOKEDEVIL && (_cond))
 
 /*@ define:input:thermonuclearsmokedevil

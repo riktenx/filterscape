@@ -3,7 +3,7 @@
 name: Vardorvis
 */
 
-#define CONST_AREA_VARDORVIS [1117,3428,0,1141,3408,0]
+#define CONST_AREA_VARDORVIS [1117,3408,0,1141,3428,0]
 #define CONST_VARDORVIS_RULE(_cond) rule (area:CONST_AREA_VARDORVIS && (_cond))
 
 /*@ define:input:vardorvis

@@ -29,7 +29,7 @@ const index = [
   },
   {
     name: 'Dagannoth Kings',
-    area: [2880, 4478, 0, 2943, 4353, 0],
+    area: [2880, 4353, 0, 2943, 4478, 0],
     url: [
       'https://oldschool.runescape.wiki/w/Dagannoth_Rex',
       'https://oldschool.runescape.wiki/w/Dagannoth_Prime',
@@ -146,7 +146,7 @@ CONST_KREEARRA_RULE (VAR_KREEARRA_BOOLEAN_GENERAL_BGHIDECOINS && name:"coins" &&
   },
   {
     name: 'The Hueycoatl',
-    area: [1497, 3301, 0, 1529, 3271, 0],
+    area: [1497, 3271, 0, 1529, 3301, 0],
     url: 'https://oldschool.runescape.wiki/w/The_Hueycoatl',
   },
   {
@@ -181,7 +181,7 @@ CONST_KREEARRA_RULE (VAR_KREEARRA_BOOLEAN_GENERAL_BGHIDECOINS && name:"coins" &&
   },
   {
     name: 'Chaos Elemental',
-    area: [3200, 3967, 0, 3327, 3904, 0],
+    area: [3200, 3904, 0, 3327, 3967, 0],
     url: 'https://oldschool.runescape.wiki/w/Chaos_Elemental',
   },
 //{
@@ -281,17 +281,17 @@ CONST_VORKATH_RULE (VAR_VORKATH_BOOLEAN_GENERAL_NOBONE && name:"Superior dragon 
   },
   {
     name: 'The Leviathan',
-    area: [2053, 6390, 0, 2110, 6355, 0],
+    area: [2053, 6355, 0, 2110, 6390, 0],
     url: 'https://oldschool.runescape.wiki/w/The_Leviathan',
   },
   {
     name: 'The Whisperer',
-    area: [2631, 6391, 0, 2684, 6345, 0],
+    area: [2631, 6345, 0, 2684, 6391, 0],
     url: 'https://oldschool.runescape.wiki/w/The_Whisperer',
   },
   {
     name: 'Vardorvis',
-    area: [1117, 3428, 0, 1141, 3408, 0],
+    area: [1117, 3408, 0, 1141, 3428, 0],
     url: 'https://oldschool.runescape.wiki/w/Vardorvis',
   },
   // skip: Sporadic bosses
@@ -302,7 +302,7 @@ CONST_VORKATH_RULE (VAR_VORKATH_BOOLEAN_GENERAL_NOBONE && name:"Superior dragon 
   },
   {
     name: 'Abyssal Sire',
-    area: [2944, 4863, 0, 3135, 4736, 0],
+    area: [2944, 4736, 0, 3135, 4863, 0],
     url: 'https://oldschool.runescape.wiki/w/Abyssal_Sire',
   },
   {
@@ -312,22 +312,22 @@ CONST_VORKATH_RULE (VAR_VORKATH_BOOLEAN_GENERAL_NOBONE && name:"Superior dragon 
   },
   {
     name: 'Cerberus',
-    area: [1216, 1343, 0, 1407, 1216, 0],
+    area: [1208, 1215, 0, 1394, 1340, 0],
     url: 'https://oldschool.runescape.wiki/w/Cerberus',
   },  
   {
     name: 'Araxxor',
-    area: [3608, 9837, 0, 3651, 9795, 0],
+    area: [3608, 9795, 0, 3651, 9837, 0],
     url: 'https://oldschool.runescape.wiki/w/Araxxor',
   },
   {
     name: 'Thermonuclear smoke devil',
-    area: [2345, 9464, 0, 2380, 9434, 0],
+    area: [2345, 9434, 0, 2380, 9464, 0],
     url: 'https://oldschool.runescape.wiki/w/Thermonuclear_smoke_devil',
   },
   {
     name: 'Alchemical Hydra',
-    area: [1346, 10287, 0, 1385, 10251, 0],
+    area: [1346, 10251, 0, 1385, 10287, 0],
     url: 'https://oldschool.runescape.wiki/w/Alchemical_Hydra',
   },
 ];

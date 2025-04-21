@@ -3,6 +3,17 @@
 name: Commander Zilyana
 */
 
+/*@ define:input
+type: boolean
+group: General
+label: Hide coin drops from bodyguards
+*/
+#define VAR_COMMANDERZILYANA_BGHIDECOINS true
+CONST_COMMANDERZILYANA_RULE (VAR_COMMANDERZILYANA_BGHIDECOINS && name:"coins" && quantity:<=3000) {
+  hidden = true;
+}
+
+
 #define CONST_AREA_COMMANDERZILYANA [2888,5257,0,2908,5276,0]
 #define CONST_COMMANDERZILYANA_RULE(_cond) rule (area:CONST_AREA_COMMANDERZILYANA && (_cond))
 
@@ -14,17 +25,6 @@ enum: ["Bones","Frozen key piece (saradomin)"]
 */
 #define VAR_COMMANDERZILYANA_ENUMLIST_FILTER_100 []
 CONST_COMMANDERZILYANA_RULE (name:VAR_COMMANDERZILYANA_ENUMLIST_FILTER_100) {
-  hidden = true;
-}
-
-/*@ define:input:commanderzilyana
-type: enumlist
-label: Uniques
-group: Hide drops
-enum: ["Saradomin sword","Saradomin's light","Armadyl crossbow","Saradomin hilt","Godsword shard 1","Godsword shard 2","Godsword shard 3"]
-*/
-#define VAR_COMMANDERZILYANA_ENUMLIST_FILTER_UNIQUES []
-CONST_COMMANDERZILYANA_RULE (name:VAR_COMMANDERZILYANA_ENUMLIST_FILTER_UNIQUES) {
   hidden = true;
 }
 
@@ -54,7 +54,7 @@ CONST_COMMANDERZILYANA_RULE (name:VAR_COMMANDERZILYANA_ENUMLIST_FILTER_POTIONS) 
 type: enumlist
 label: Other
 group: Hide drops
-enum: ["Coins","Diamond","Law rune","Grimy ranarr weed","Ranarr seed","Magic seed"]
+enum: ["Coins","Diamond","Law rune","Grimy ranarr weed","Ranarr seed","Magic seed","Snape grass","Unicorn horn"]
 */
 #define VAR_COMMANDERZILYANA_ENUMLIST_FILTER_OTHER []
 CONST_COMMANDERZILYANA_RULE (name:VAR_COMMANDERZILYANA_ENUMLIST_FILTER_OTHER) {
@@ -65,10 +65,21 @@ CONST_COMMANDERZILYANA_RULE (name:VAR_COMMANDERZILYANA_ENUMLIST_FILTER_OTHER) {
 type: enumlist
 label: Tertiary
 group: Hide drops
-enum: ["Brimstone key","Pet zilyana"]
+enum: ["Brimstone key","Pet zilyana","Frozen key piece (saradomin)"]
 */
 #define VAR_COMMANDERZILYANA_ENUMLIST_FILTER_TERTIARY []
 CONST_COMMANDERZILYANA_RULE (name:VAR_COMMANDERZILYANA_ENUMLIST_FILTER_TERTIARY) {
+  hidden = true;
+}
+
+/*@ define:input:commanderzilyana
+type: enumlist
+label: Food and ammunition
+group: Hide drops
+enum: ["Steel arrow","Steel dart","Law rune","Monkfish","Summer pie"]
+*/
+#define VAR_COMMANDERZILYANA_ENUMLIST_FILTER_FOODANDAMMUNITION []
+CONST_COMMANDERZILYANA_RULE (name:VAR_COMMANDERZILYANA_ENUMLIST_FILTER_FOODANDAMMUNITION) {
   hidden = true;
 }
 

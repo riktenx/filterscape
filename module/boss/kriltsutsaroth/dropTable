@@ -2,16 +2,8 @@
   "Bodyguards": [],
   "100%": [
     "Infernal ashes",
-    "Frozen key piece (zamorak)"
-  ],
-  "Uniques": [
-    "Steam battlestaff",
-    "Zamorakian spear",
-    "Staff of the dead",
-    "Zamorak hilt",
-    "Godsword shard 1",
-    "Godsword shard 2",
-    "Godsword shard 3"
+    "Frozen key piece (zamorak)",
+    "Malicious ashes"
   ],
   "Weapons and armour": [
     "Adamant arrow(p++)",
@@ -31,11 +23,25 @@
     "Grimy lantadyme",
     "Lantadyme seed",
     "Death rune",
-    "Blood rune"
+    "Blood rune",
+    "Shark",
+    "Tuna potato",
+    "Wine of zamorak",
+    "Super attack(3)",
+    "Super strength(3)"
   ],
   "Rare drop table": [],
   "Tertiary": [
     "Brimstone key",
-    "Pet k'ril tsutsaroth"
+    "Pet k'ril tsutsaroth",
+    "Frozen key piece (zamorak)",
+    "Lesser demon champion scroll"
+  ],
+  "Regular drops": [],
+  "Runes and ammunition": [
+    "Steel arrow",
+    "Steel dart",
+    "Death rune",
+    "Blood rune"
   ]
 }

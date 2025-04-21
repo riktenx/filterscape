@@ -80,10 +80,10 @@ const index = [
     transform: {
       getDefaults: (_) => {
         return {
-          "=100%=": [
+          "100%": [
             "Bones",
           ],
-          "=Weapons and armour=": [
+          "Weapons and armour": [
             "Adamant axe",
             "Rune dagger",
             "Red d'hide vambraces",
@@ -91,10 +91,10 @@ const index = [
             "Air battlestaff",
             "Earth battlestaff",
           ],
-          "=Runes and ammunition=": [
+          "Runes and ammunition": [
             "Rune arrow",
           ],
-          "=Other=": [
+          "Other": [
             "Ugthanki kebab",
           ],
         };
@@ -187,23 +187,23 @@ CONST_${scope}_RULE (VAR_${scope}_BOOLEAN_HIDESMALLCOINS && name:"Coins" && valu
     transform: {
       getDefaults: () => {
         return {
-          "=Weapons and armour=": [
+          "Weapons and armour": [
             "Black sword",
             "Steel battleaxe",
             "Black axe",
             "Mithril kiteshield",
           ],
-          "=Runes=": [
+          "Runes": [
             "Air rune",
             "Chaos rune",
             "Blood rune",
             "Law rune",
           ],
-          "=Materials=": [
+          "Materials": [
             "Pure essence",
             "Adamantite bar",
           ],
-          "=Coins=": [
+          "Coins": [
             "Coins",
           ],
         };

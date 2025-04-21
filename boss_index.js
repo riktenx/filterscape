@@ -10,6 +10,34 @@ const useAllowlist = (list) => {
   };
 };
 
+const useGWDTransforms = (transforms) => ({
+  updateDropTable: (table) => {
+    delete table['Uniques'];
+    delete table['Unique table'];
+    delete table['Godsword shard table'];
+    if (!!transforms.updateDropTable) {
+      transforms.updateDropTable(table);
+    }
+  },
+  getDefaults: (table) => {
+    return !!transforms.getDefaults
+      ? transforms.getDefaults(table)
+      : {};
+  },
+  preScript: (scope) => {
+    return `/*@ define:input
+type: boolean
+group: General
+label: Hide coin drops from bodyguards
+*/
+#define VAR_${scope}_BGHIDECOINS true
+CONST_${scope}_RULE (VAR_${scope}_BGHIDECOINS && name:"coins" && quantity:<=3000) {
+  hidden = true;
+}
+`;
+  },
+});
+
 const index = [
   // skip: barrows (they don't drop anything)
   {
@@ -93,13 +121,7 @@ const index = [
       'https://oldschool.runescape.wiki/w/Wingman_Skree',
       'https://oldschool.runescape.wiki/w/Flockleader_Geerin',
     ],
-    transform: {
-      updateDropTable: (table) => {
-        delete table['Uniques'];
-        delete table['Unique table'];
-        delete table['Godsword shard table'];
-
-      },
+    transform: useGWDTransforms({
       getDefaults: (_) => {
         return {
           "100%": [
@@ -107,42 +129,69 @@ const index = [
             "Feather",
             "Bones"
           ],
-          "=Food and ammunition=": [
+          "Food and ammunition": [
             "Steel arrow",
             "Steel dart",
             "Smoke rune",
           ],
         };
       },
-      preScript: () => {
-        return `/*@ define:input:kreearra
-type: boolean
-group: General
-label: Hide coin drops from bodyguards
-*/
-#define VAR_KREEARRA_BOOLEAN_GENERAL_BGHIDECOINS true
-CONST_KREEARRA_RULE (VAR_KREEARRA_BOOLEAN_GENERAL_BGHIDECOINS && name:"coins" && quantity:<=1100) {
-  hidden = true;
-}
-`;
-      },
-
-    },
+    }),
   },
   {
     name: 'Commander Zilyana',
     area: [2888, 5257, 0, 2908, 5276, 0],
-    url: 'https://oldschool.runescape.wiki/w/Commander_Zilyana',
+    url: [
+      'https://oldschool.runescape.wiki/w/Commander_Zilyana',
+      'https://oldschool.runescape.wiki/w/Starlight',
+      'https://oldschool.runescape.wiki/w/Bree',
+      'https://oldschool.runescape.wiki/w/Growler',
+    ],
+    transform: useGWDTransforms({}),
   },
   {
     name: 'General Graardor',
     area: [2863, 5350, 2, 2877, 5370, 2],
-    url: 'https://oldschool.runescape.wiki/w/General_Graardor',
+    url: [
+      'https://oldschool.runescape.wiki/w/General_Graardor',
+      'https://oldschool.runescape.wiki/w/Sergeant_Strongstack',
+      'https://oldschool.runescape.wiki/w/Sergeant_Steelwill',
+      'https://oldschool.runescape.wiki/w/Sergeant_Grimspike',
+    ],
+    transform: useGWDTransforms({
+      getDefaults: () => ({
+        "100%": [
+          "Big bones",
+          "Bones",
+        ],
+        "Tertiary": [
+          "Kebab",
+          "Beer",
+          "Right eye patch",
+        ],
+        "Food and ammunition": [
+          "Steel arrow",
+          "Steel dart",
+          "Chilli potato",
+        ],
+        "Other": [
+          "Limpwurt root",
+          "Combat potion(3)",
+          "Super strength(3)",
+        ],
+      }),
+    }),
   },
   {
     name: "K'ril Tsutsaroth",
     area: [2917, 5317, 2, 2937, 5332, 2],
-    url: 'https://oldschool.runescape.wiki/w/K%27ril_Tsutsaroth',
+    url: [
+      'https://oldschool.runescape.wiki/w/K%27ril_Tsutsaroth',
+      'https://oldschool.runescape.wiki/w/Balfrug_Kreeyath',
+      'https://oldschool.runescape.wiki/w/Tstanon_Karlak',
+      'https://oldschool.runescape.wiki/w/Zakl%27n_Gritch',
+    ],
+    transform: useGWDTransforms({}),
   },
   {
     name: 'The Hueycoatl',

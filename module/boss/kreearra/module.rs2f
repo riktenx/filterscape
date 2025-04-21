@@ -3,13 +3,13 @@
 name: Kree'arra
 */
 
-/*@ define:input:kreearra
+/*@ define:input
 type: boolean
 group: General
 label: Hide coin drops from bodyguards
 */
-#define VAR_KREEARRA_BOOLEAN_GENERAL_BGHIDECOINS true
-CONST_KREEARRA_RULE (VAR_KREEARRA_BOOLEAN_GENERAL_BGHIDECOINS && name:"coins" && quantity:<=1100) {
+#define VAR_KREEARRA_BGHIDECOINS true
+CONST_KREEARRA_RULE (VAR_KREEARRA_BGHIDECOINS && name:"coins" && quantity:<=3000) {
   hidden = true;
 }
 
@@ -54,7 +54,7 @@ CONST_KREEARRA_RULE (name:VAR_KREEARRA_ENUMLIST_FILTER_RUNESANDAMMUNITION) {
 type: enumlist
 label: Other
 group: Hide drops
-enum: ["Coins","Ranging potion(3)","Super defence(3)","Grimy dwarf weed","Dwarf weed seed","Crystal key","Yew seed"]
+enum: ["Coins","Ranging potion(3)","Super defence(3)","Grimy dwarf weed","Dwarf weed seed","Crystal key","Yew seed","Crushed nest","Grimy kwuarm"]
 */
 #define VAR_KREEARRA_ENUMLIST_FILTER_OTHER []
 CONST_KREEARRA_RULE (name:VAR_KREEARRA_ENUMLIST_FILTER_OTHER) {
@@ -80,17 +80,6 @@ enum: ["Steel arrow","Steel dart","Smoke rune","Manta ray","Mushroom potato"]
 */
 #define VAR_KREEARRA_ENUMLIST_FILTER_FOODANDAMMUNITION ["Steel arrow","Steel dart","Smoke rune"]
 CONST_KREEARRA_RULE (name:VAR_KREEARRA_ENUMLIST_FILTER_FOODANDAMMUNITION) {
-  hidden = true;
-}
-
-/*@ define:input:kreearra
-type: enumlist
-label: Other
-group: Hide drops
-enum: ["Coins","Crushed nest","Grimy kwuarm"]
-*/
-#define VAR_KREEARRA_ENUMLIST_FILTER_OTHER []
-CONST_KREEARRA_RULE (name:VAR_KREEARRA_ENUMLIST_FILTER_OTHER) {
   hidden = true;
 }
 

@@ -221,8 +221,7 @@ The average Corporeal Beast kill, including its unique drops, is estimated to be
 {{DropsTableBottom}}
 
 ===Gem drop table===
-{{GemDropTable|12/512|naturetalisman=yes|Rolls=10|override=There is a 12/512 chance of rolling the [[gem drop table]], whereupon its contents are rolled 10 times.'{{NamedRef|corprateash}}'}}
-
+{{GemDropTable|12/512|naturetalisman=yes|Rolls=10|override=There is a 12/512 chance of rolling the [[gem drop table]], whereupon its contents are rolled 10 times.{{NamedRef|corprateash}}}}
 
 ===Tertiary===
 {{DropsTableHead}}

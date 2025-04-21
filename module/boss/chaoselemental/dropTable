@@ -7,10 +7,10 @@
     "Super combat potion(1)"
   ],
   "Major drops": [],
-  "=Pre-roll=": [
+  "Pre-roll": [
     "Dragon pickaxe"
   ],
-  "=Weapons and armour=": [
+  "Weapons and armour": [
     "Rune dart",
     "Rune platelegs",
     "Rune plateskirt",
@@ -27,36 +27,36 @@
     "Dragon platelegs",
     "Dragon plateskirt"
   ],
-  "=Runes and ammunition=": [
+  "Runes and ammunition": [
     "Chaos rune",
     "Blood rune",
     "Rune arrow"
   ],
-  "=Herbs=": [
+  "Herbs": [
     "Grimy ranarr weed",
     "Grimy snapdragon",
     "Grimy avantoe",
     "Grimy kwuarm"
   ],
-  "=Resources=": [
+  "Resources": [
     "Coal",
     "Mahogany plank",
     "Runite bar",
     "Adamantite bar"
   ],
-  "=Materials=": [
+  "Materials": [
     "Coins",
     "Blighted ancient ice sack",
     "Blighted karambwan",
     "Blighted anglerfish",
     "Wilderness crabs teleport"
   ],
-  "=Rare drop table=": [],
-  "=Tertiary=": [
+  "Rare drop table": [],
+  "Tertiary": [
     "Weapon poison(++)",
     "Looting bag",
     "Brimstone key",
     "Pet chaos elemental"
   ],
-  "=Wilderness Slayer tertiary=": []
+  "Wilderness Slayer tertiary": []
 }

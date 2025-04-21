@@ -23,7 +23,9 @@
     "Grimy dwarf weed",
     "Dwarf weed seed",
     "Crystal key",
-    "Yew seed"
+    "Yew seed",
+    "Crushed nest",
+    "Grimy kwuarm"
   ],
   "Rare drop table": [],
   "Tertiary": [
@@ -34,16 +36,11 @@
     "Frozen key piece (armadyl)"
   ],
   "Regular drops": [],
-  "=Food and ammunition=": [
+  "Food and ammunition": [
     "Steel arrow",
     "Steel dart",
     "Smoke rune",
     "Manta ray",
     "Mushroom potato"
-  ],
-  "=Other=": [
-    "Coins",
-    "Crushed nest",
-    "Grimy kwuarm"
   ]
 }

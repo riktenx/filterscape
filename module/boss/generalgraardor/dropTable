@@ -2,16 +2,8 @@
   "Bodyguards": [],
   "100%": [
     "Big bones",
-    "Frozen key piece (bandos)"
-  ],
-  "Uniques": [
-    "Bandos chestplate",
-    "Bandos tassets",
-    "Bandos boots",
-    "Bandos hilt",
-    "Godsword shard 1",
-    "Godsword shard 2",
-    "Godsword shard 3"
+    "Frozen key piece (bandos)",
+    "Bones"
   ],
   "Weapons and armour": [
     "Rune longsword",
@@ -27,13 +19,30 @@
     "Adamantite ore",
     "Coal",
     "Magic logs",
-    "Nature rune"
+    "Nature rune",
+    "Limpwurt root",
+    "Combat potion(3)",
+    "Super strength(3)"
   ],
   "Rare drop table": [],
   "Tertiary": [
     "Brimstone key",
     "Long bone",
     "Pet general graardor",
-    "Curved bone"
+    "Curved bone",
+    "Kebab",
+    "Frozen key piece (bandos)",
+    "Goblin champion scroll",
+    "Beer",
+    "Right eye patch"
+  ],
+  "Regular drops": [],
+  "Food and ammunition": [
+    "Steel arrow",
+    "Steel dart",
+    "Nature rune",
+    "Cosmic rune",
+    "Shark",
+    "Chilli potato"
   ]
 }

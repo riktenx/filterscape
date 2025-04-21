@@ -1,9 +1,9 @@
 {
   "Standard and Catacombs of Kourend": [],
-  "=100%=": [
+  "100%": [
     "Abyssal ashes"
   ],
-  "=Weapons and armour=": [
+  "Weapons and armour": [
     "Black sword",
     "Steel battleaxe",
     "Black axe",
@@ -13,34 +13,34 @@
     "Abyssal whip",
     "Abyssal dagger"
   ],
-  "=Runes=": [
+  "Runes": [
     "Air rune",
     "Chaos rune",
     "Blood rune",
     "Law rune"
   ],
-  "=Herbs=": [],
-  "=Materials=": [
+  "Herbs": [],
+  "Materials": [
     "Pure essence",
     "Adamantite bar"
   ],
-  "=Coins=": [
+  "Coins": [
     "Coins"
   ],
-  "=Other=": [
+  "Other": [
     "Lobster",
     "Cosmic talisman",
     "Chaos talisman",
     "Defence potion(3)"
   ],
-  "=Rare and Gem drop table=": [],
-  "=Tertiary=": [
+  "Rare and Gem drop table": [],
+  "Tertiary": [
     "Ensouled abyssal head",
     "Brimstone key",
     "Abyssal head"
   ],
-  "=Catacombs tertiary=": [],
+  "Catacombs tertiary": [],
   "Wilderness Slayer Cave": [],
-  "=Wilderness Slayer tertiary=": [],
-  "=Wilderness Slayer Cave tertiary=": []
+  "Wilderness Slayer tertiary": [],
+  "Wilderness Slayer Cave tertiary": []
 }

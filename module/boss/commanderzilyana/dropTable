@@ -4,15 +4,6 @@
     "Bones",
     "Frozen key piece (saradomin)"
   ],
-  "Uniques": [
-    "Saradomin sword",
-    "Saradomin's light",
-    "Armadyl crossbow",
-    "Saradomin hilt",
-    "Godsword shard 1",
-    "Godsword shard 2",
-    "Godsword shard 3"
-  ],
   "Weapons and armour": [
     "Adamant platebody",
     "Rune dart",
@@ -32,11 +23,22 @@
     "Law rune",
     "Grimy ranarr weed",
     "Ranarr seed",
-    "Magic seed"
+    "Magic seed",
+    "Snape grass",
+    "Unicorn horn"
   ],
   "Rare drop table": [],
   "Tertiary": [
     "Brimstone key",
-    "Pet zilyana"
+    "Pet zilyana",
+    "Frozen key piece (saradomin)"
+  ],
+  "Regular drops": [],
+  "Food and ammunition": [
+    "Steel arrow",
+    "Steel dart",
+    "Law rune",
+    "Monkfish",
+    "Summer pie"
   ]
 }

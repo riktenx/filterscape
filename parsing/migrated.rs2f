@@ -1,0 +1,25 @@
+meta {
+  name = "migrated-area-filter";
+}
+
+// start: vyre.rs2f
+
+#define RULE_VYRE(_cond) rule (area:[1,2,3,4,5,6] && (_cond))
+
+#define APPLY_VYRE(_cond) apply (area:[1,2,3,4,5,6] && (_cond))
+
+
+
+APPLY_VYRE (name:"foo") {
+  hidden = true;
+}
+
+RULE_VYRE (name:"bar" && quantity:>5) {
+  showLootbeam = true;
+}
+
+RULE_VYRE (name:"baz" || quantity:>5) {
+  textColor = "#aabbff";
+}
+
+// end: vyre.rs2f

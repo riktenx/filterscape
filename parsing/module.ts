@@ -26,7 +26,7 @@ export type Module = {
   name: string;
   subtitle?: string;
   description?: string;
-  src: ModuleSource;
+  src: ModuleSource[];
 };
 
 export type ModuleSource = {
@@ -42,30 +42,32 @@ export type SourceCapture = {
 const clueStep: Module = {
   id: 'cluestep',
   name: 'Clue step items',
-  src: {
-    url: 'https://oldschool.runescape.wiki/w/STASH',
-    capture: [
-      {
-        pattern: /{{GEP\|[A-Za-z0-9' ]+}}/g, // {{GEP|Leather gloves}}
-        transform: (match: string): string =>
-          match.replace('{{GEP|', '').replace('}}', ''),
-      },
-    ],
-  },
+  src: [
+    {
+      url: 'https://oldschool.runescape.wiki/w/STASH',
+      capture: [
+        {
+          pattern: /{{GEP\|[A-Za-z0-9' ]+}}/g, // {{GEP|Leather gloves}}
+          transform: (match: string): string =>
+            match.replace('{{GEP|', '').replace('}}', ''),
+        },
+      ],
+    },
+  ],
 };
 
-export const generate = async (module: Module): Promise<string> => {
+export const generateTable = async (src: ModuleSource): Promise<string> => {
   const source =
-    typeof module.src.url === 'string'
-      ? await getWikiSource(module.src.url)
-      : (await Promise.all(module.src.url.map(getWikiSource))).join('\n');
+    typeof src.url === 'string'
+      ? await getWikiSource(src.url)
+      : (await Promise.all(src.url.map(getWikiSource))).join('\n');
 
   const sections = mediawiki.parseSections(source);
   const model: Record<string, string[]> = {};
 
   for (const section of sections) {
     model[section.name] = [];
-    for (const capture of module.src.capture) {
+    for (const capture of src.capture) {
       const match = section.text.match(capture.pattern);
       if (match === null) {
         continue;
@@ -88,8 +90,7 @@ export const generate = async (module: Module): Promise<string> => {
 
   console.log(model);
 
-  const rs2f = module.id;
-  return rs2f;
+  return '';
 };
 
-generate(clueStep);
+generateTable(clueStep.src[0]);

@@ -195,12 +195,12 @@ export const isWhitespace = (token: Token): boolean =>
   token.type === TokenType.TAB ||
   token.type === TokenType.NEWLINE;
 
-type WikiSection = {
+export type WikiSection = {
   name: string;
   text: string;
 };
 
-const parseSections = (input: string): WikiSection[] => {
+export const parseSections = (input: string): WikiSection[] => {
   const sections: WikiSection[] = [
     {
       name: '__pre__',
@@ -268,13 +268,3 @@ const countEnd = (str: string, want: string): number => {
   }
   return count;
 };
-
-/*
-const sections = parseSections('');
-for (const section of sections) {
-  console.log(section.name);
-
-  const matches = section.text.match(/{{GEP\|[A-Za-z0-9' ]+}}/g);
-  console.log(matches);
-}
-*/

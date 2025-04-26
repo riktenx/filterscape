@@ -1,22 +1,23 @@
-import https from 'https';
+import https from "https";
 
-export const getWikiSource = (url) => new Promise((resolve, reject) => {
-  const options = {
-    headers: { 'user-agent': 'riktenx/filterscape' },
-  };
+export const getWikiSource = (url) =>
+  new Promise((resolve, reject) => {
+    const options = {
+      headers: { "user-agent": "riktenx/filterscape" },
+    };
 
-  https.get(`${url}?action=raw`, options, resp => {
-    if (resp.statusCode !== 200) {
-      return reject(new Error('http ' + resp.statusCode));
-    }
+    https.get(`${url}?action=raw`, options, (resp) => {
+      if (resp.statusCode !== 200) {
+        return reject(new Error("http " + resp.statusCode));
+      }
 
-    let data = '';
-    resp.on('data', d => {
-      data += d;
+      let data = "";
+      resp.on("data", (d) => {
+        data += d;
+      });
+      resp.on("end", () => resolve(data));
     });
-    resp.on('end', () => resolve(data));
   });
-});
 
 const computeMapArea = (points, plane) => {
   if (points.length === 0) {
@@ -39,17 +40,17 @@ const computeMapArea = (points, plane) => {
 };
 
 const parseLocLineProperty = (line) => {
-  const [_, value] = line.substring(1).split('=');
+  const [_, value] = line.substring(1).split("=");
   return value.trim();
-}
+};
 
 const parseLocLinePoints = (line) => {
   var pointDecls = line.substring(1);
-  var parts = pointDecls.split('|');
-  return parts.map(part => {
-    const [xDecl, yDecl] = part.split(',');
-    const [_, xStr] = xDecl.split(':');
-    const [__, yStr] = yDecl.split(':');
+  var parts = pointDecls.split("|");
+  return parts.map((part) => {
+    const [xDecl, yDecl] = part.split(",");
+    const [_, xStr] = xDecl.split(":");
+    const [__, yStr] = yDecl.split(":");
     const x = parseInt(xStr);
     const y = parseInt(yStr);
     return { x, y };
@@ -57,52 +58,53 @@ const parseLocLinePoints = (line) => {
 };
 
 export const buildMapAreas = (wikiSource) => {
-  const lines = wikiSource.split('\n');
+  const lines = wikiSource.split("\n");
   let areas = {};
 
   let inLocLine = false;
   let current;
   for (const line of lines) {
-    if (line === '{{LocLine') {
+    if (line === "{{LocLine") {
       inLocLine = true;
-      current = { name: '', plane: -1, points: [] };
+      current = { name: "", plane: -1, points: [] };
     }
 
     if (!inLocLine) {
       continue;
     }
 
-    if (line.startsWith('|location')) {
+    if (line.startsWith("|location")) {
       current.name = parseLocLineProperty(line);
-    } else if (line.startsWith('|plane')) {
+    } else if (line.startsWith("|plane")) {
       current.plane = parseInt(parseLocLineProperty(line));
-    } else if (line.startsWith('|x')) {
+    } else if (line.startsWith("|x")) {
       current.points = parseLocLinePoints(line);
     }
 
-    if (line === '}}' && inLocLine) { // flush
+    if (line === "}}" && inLocLine) {
+      // flush
       inLocLine = false;
       areas[current.name] = computeMapArea(current.points, current.plane);
     }
   }
 
   return areas;
-}
+};
 
 export const buildDropTable = (wikiSource) => {
-  const lines = wikiSource.split('\n');
+  const lines = wikiSource.split("\n");
   let currentList;
   let lists = {};
 
   for (const line of lines) {
-    if (line.startsWith('====') && line.endsWith('====')) {
+    if (line.startsWith("====") && line.endsWith("====")) {
       currentList = line.substring(4, line.length - 4);
       if (!lists[currentList]) {
         lists[currentList] = [];
       }
       continue;
     }
-    if (line.startsWith('===') && line.endsWith('===')) {
+    if (line.startsWith("===") && line.endsWith("===")) {
       currentList = line.substring(3, line.length - 3);
       if (!lists[currentList]) {
         lists[currentList] = [];
@@ -110,12 +112,16 @@ export const buildDropTable = (wikiSource) => {
       continue;
     }
 
-    const [preamble, nameDecl] = line.split('|');
-    if (preamble !== '{{DropsLine' || !nameDecl || !nameDecl.startsWith('name=')) {
+    const [preamble, nameDecl] = line.split("|");
+    if (
+      preamble !== "{{DropsLine" ||
+      !nameDecl ||
+      !nameDecl.startsWith("name=")
+    ) {
       continue;
     }
 
-    const [_, name] = nameDecl.split('=');
+    const [_, name] = nameDecl.split("=");
     if (!lists[currentList].includes(name)) {
       lists[currentList].push(name);
     }

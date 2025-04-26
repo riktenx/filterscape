@@ -133,6 +133,20 @@ group: t0
 #define VAR_VALUE_T0_CUSTOMSTYLE \
   textColor = "#beb287";
 
+/*@ define:input
+type: number
+group: Minimum value
+label: Hide below value
+*/
+#define VAR_VALUE_MINVALUE 0
+
+/*@ define:input
+type: boolean
+group: Minimum value
+label: "Always show untradeables"
+*/
+#define VAR_VALUE_SHOWUNTRADEABLE true
+
 rule (value:>=VAR_VALUE_T5_VALUE) {
   hidden = false;
   VAR_VALUE_T5_CUSTOMSTYLE
@@ -156,5 +170,8 @@ rule (value:>=VAR_VALUE_T1_VALUE) {
 rule (value:>=VAR_VALUE_T0_VALUE) {
   hidden = false;
   VAR_VALUE_T0_CUSTOMSTYLE
+}
+rule ((tradeable:true || !VAR_VALUE_SHOWUNTRADEABLE) && value:<VAR_VALUE_MINVALUE) {
+  hidden = true;
 }
 

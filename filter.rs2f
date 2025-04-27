@@ -625,7 +625,7 @@ CONST_DUSTDEVIL_RULE (name:VAR_DUSTDEVIL_ENUMLIST_FILTER_TERTIARY) {
 name: Smoke devil
 */
 
-#define CONST_AREA_SMOKEDEVIL0 [2351,9421,0,2422,9465,0] // [[Smoke Devil Dungeon]]
+#define CONST_AREA_SMOKEDEVIL0 [2377,9412,0,2427,9471,0] // [[Smoke Devil Dungeon]]
 #define CONST_SMOKEDEVIL_RULE(_cond) rule ((area:CONST_AREA_SMOKEDEVIL0) && (_cond))
 
 /*@ define:input:smokedevil

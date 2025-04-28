@@ -10,3 +10,7 @@ export type FilterDBItemList = {
 export type Item = {
   name: string;
 };
+
+export interface FragmentGenerator {
+  generate(db: FilterDB): string;
+}

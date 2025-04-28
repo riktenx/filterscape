@@ -174,6 +174,7 @@ const gepList = (
     equipmentList('EQUIP_IRON', 'Iron_equipment'),
     equipmentList('EQUIP_STEEL', 'Steel_equipment'),
     equipmentList('EQUIP_BLACK', 'Black_equipment'),
+    equipmentList('EQUIP_MITHRIL', '_equipment'),
     equipmentList('EQUIP_ADAMANT', 'Adamant_equipment'),
     equipmentList('EQUIP_RUNE', 'Rune_equipment'),
 

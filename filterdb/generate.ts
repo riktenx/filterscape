@@ -11,6 +11,7 @@ export type ItemListSource = {
 };
 
 export type SourceCapture = {
+  sections?: string[];
   pattern: RegExp;
   transform: (match: string) => string[];
 };
@@ -50,6 +51,13 @@ const generateItemList = async (
 
   for (const section of sections) {
     for (const capture of src.capture) {
+      if (
+        capture.sections !== undefined &&
+        !capture.sections.includes(section.name)
+      ) {
+        continue;
+      }
+
       const match = section.text.match(capture.pattern);
       if (match === null) {
         continue;
@@ -123,6 +131,43 @@ const petList: ItemListSource = {
   ],
 };
 
+const dropList = (
+  name: string,
+  path: string | string[],
+  sections?: string[]
+): ItemListSource => ({
+  name,
+  url: wikiURL(path),
+  capture: [
+    {
+      sections,
+      pattern: /{{DropsLineReward\|name=[^|]+/g,
+      transform: (match: string): string[] => [
+        match.replace('{{DropsLineReward|name=', ''),
+      ],
+    },
+  ],
+});
+
+const gepList = (
+  // {{GEP|<item name>}}
+  name: string,
+  path: string | string[],
+  sections?: string[]
+): ItemListSource => ({
+  name,
+  url: wikiURL(path),
+  capture: [
+    {
+      sections,
+      pattern: /{{GEP\|[A-Za-z0-9' ]+}}/g,
+      transform: (match: string): string[] => [
+        match.replace('{{GEP|', '').replace('}}', ''),
+      ],
+    },
+  ],
+});
+
 (async function () {
   const sources: ItemListSource[] = [
     equipmentList('EQUIP_BRONZE', 'Bronze_equipment'),
@@ -131,6 +176,7 @@ const petList: ItemListSource = {
     equipmentList('EQUIP_BLACK', 'Black_equipment'),
     equipmentList('EQUIP_ADAMANT', 'Adamant_equipment'),
     equipmentList('EQUIP_RUNE', 'Rune_equipment'),
+
     seedList('SEED_ALLOTMENT', 'Allotment_patch/Seeds'),
     seedList('SEED_FLOWER', 'Flower_patch/Seeds'),
     seedList('SEED_HERB', 'Herb_patch/Seeds'),
@@ -142,7 +188,30 @@ const petList: ItemListSource = {
     //seedList('SEED_SPECIAL_ANIMA', ''),
     //seedList('SEED_SPECIAL_TREE', ''),
     //seedList('SEED_SPECIAL_CACTI', ''),
+
     petList,
+
+    dropList('UNIQUE_CLUE_BEGINNER', 'Reward_casket_(beginner)', [
+      'Beginner clue uniques',
+    ]),
+    dropList('UNIQUE_CLUE_EASY', 'Reward_casket_(easy)', ['Easy clue uniques']),
+    dropList('UNIQUE_CLUE_MEDIUM', 'Reward_casket_(medium)', [
+      'Medium clue uniques',
+    ]),
+    dropList('UNIQUE_CLUE_HARD', 'Reward_casket_(hard)', ['Hard clue uniques']),
+    dropList('UNIQUE_CLUE_ELITE', 'Reward_casket_(elite)', [
+      'Elite clue uniques',
+    ]),
+    dropList('UNIQUE_CLUE_MASTER', 'Reward_casket_(master)', [
+      'Master clue uniques',
+    ]),
+
+    gepList('CLUE_STEP_BEGINNER', 'STASH', ['Beginner']),
+    gepList('CLUE_STEP_EASY', 'STASH', ['Easy']),
+    gepList('CLUE_STEP_MEDIUM', 'STASH', ['Medium']),
+    gepList('CLUE_STEP_HARD', 'STASH', ['Hard']),
+    gepList('CLUE_STEP_ELITE', 'STASH', ['Elite']),
+    gepList('CLUE_STEP_MASTER', 'STASH', ['Master']),
   ];
 
   const filterDB: FilterDB = {

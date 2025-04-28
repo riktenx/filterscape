@@ -1080,6 +1080,2448 @@
           "name": "Wisp"
         }
       ]
+    },
+    "UNIQUE_CLUE_BEGINNER": {
+      "name": "UNIQUE_CLUE_BEGINNER",
+      "items": [
+        {
+          "name": "Mole slippers"
+        },
+        {
+          "name": "Frog slippers"
+        },
+        {
+          "name": "Bear feet"
+        },
+        {
+          "name": "Demon feet"
+        },
+        {
+          "name": "Jester cape"
+        },
+        {
+          "name": "Shoulder parrot"
+        },
+        {
+          "name": "Monk's robe top (t)"
+        },
+        {
+          "name": "Monk's robe (t)"
+        },
+        {
+          "name": "Amulet of defence (t)"
+        },
+        {
+          "name": "Sandwich lady hat"
+        },
+        {
+          "name": "Sandwich lady top"
+        },
+        {
+          "name": "Sandwich lady bottom"
+        },
+        {
+          "name": "Rune scimitar ornament kit (guthix)"
+        },
+        {
+          "name": "Rune scimitar ornament kit (saradomin)"
+        },
+        {
+          "name": "Rune scimitar ornament kit (zamorak)"
+        }
+      ]
+    },
+    "UNIQUE_CLUE_EASY": {
+      "name": "UNIQUE_CLUE_EASY",
+      "items": [
+        {
+          "name": "Team cape zero"
+        },
+        {
+          "name": "Team cape i"
+        },
+        {
+          "name": "Team cape x"
+        },
+        {
+          "name": "Cape of skulls"
+        },
+        {
+          "name": "Golden chef's hat"
+        },
+        {
+          "name": "Golden apron"
+        },
+        {
+          "name": "Wooden shield (g)"
+        },
+        {
+          "name": "Black full helm (t)"
+        },
+        {
+          "name": "Black platebody (t)"
+        },
+        {
+          "name": "Black platelegs (t)"
+        },
+        {
+          "name": "Black plateskirt (t)"
+        },
+        {
+          "name": "Black kiteshield (t)"
+        },
+        {
+          "name": "Black full helm (g)"
+        },
+        {
+          "name": "Black platebody (g)"
+        },
+        {
+          "name": "Black platelegs (g)"
+        },
+        {
+          "name": "Black plateskirt (g)"
+        },
+        {
+          "name": "Black kiteshield (g)"
+        },
+        {
+          "name": "Black shield (h1)"
+        },
+        {
+          "name": "Black shield (h2)"
+        },
+        {
+          "name": "Black shield (h3)"
+        },
+        {
+          "name": "Black shield (h4)"
+        },
+        {
+          "name": "Black shield (h5)"
+        },
+        {
+          "name": "Black helm (h1)"
+        },
+        {
+          "name": "Black helm (h2)"
+        },
+        {
+          "name": "Black helm (h3)"
+        },
+        {
+          "name": "Black helm (h4)"
+        },
+        {
+          "name": "Black helm (h5)"
+        },
+        {
+          "name": "Black platebody (h1)"
+        },
+        {
+          "name": "Black platebody (h2)"
+        },
+        {
+          "name": "Black platebody (h3)"
+        },
+        {
+          "name": "Black platebody (h4)"
+        },
+        {
+          "name": "Black platebody (h5)"
+        },
+        {
+          "name": "Steel full helm (t)"
+        },
+        {
+          "name": "Steel platebody (t)"
+        },
+        {
+          "name": "Steel platelegs (t)"
+        },
+        {
+          "name": "Steel plateskirt (t)"
+        },
+        {
+          "name": "Steel kiteshield (t)"
+        },
+        {
+          "name": "Steel full helm (g)"
+        },
+        {
+          "name": "Steel platebody (g)"
+        },
+        {
+          "name": "Steel platelegs (g)"
+        },
+        {
+          "name": "Steel plateskirt (g)"
+        },
+        {
+          "name": "Steel kiteshield (g)"
+        },
+        {
+          "name": "Iron full helm (t)"
+        },
+        {
+          "name": "Iron platebody (t)"
+        },
+        {
+          "name": "Iron platelegs (t)"
+        },
+        {
+          "name": "Iron plateskirt (t)"
+        },
+        {
+          "name": "Iron kiteshield (t)"
+        },
+        {
+          "name": "Iron full helm (g)"
+        },
+        {
+          "name": "Iron platebody (g)"
+        },
+        {
+          "name": "Iron platelegs (g)"
+        },
+        {
+          "name": "Iron plateskirt (g)"
+        },
+        {
+          "name": "Iron kiteshield (g)"
+        },
+        {
+          "name": "Bronze full helm (t)"
+        },
+        {
+          "name": "Bronze platebody (t)"
+        },
+        {
+          "name": "Bronze platelegs (t)"
+        },
+        {
+          "name": "Bronze plateskirt (t)"
+        },
+        {
+          "name": "Bronze kiteshield (t)"
+        },
+        {
+          "name": "Bronze full helm (g)"
+        },
+        {
+          "name": "Bronze platebody (g)"
+        },
+        {
+          "name": "Bronze platelegs (g)"
+        },
+        {
+          "name": "Bronze plateskirt (g)"
+        },
+        {
+          "name": "Bronze kiteshield (g)"
+        },
+        {
+          "name": "Studded body (g)"
+        },
+        {
+          "name": "Studded chaps (g)"
+        },
+        {
+          "name": "Studded body (t)"
+        },
+        {
+          "name": "Studded chaps (t)"
+        },
+        {
+          "name": "Leather body (g)"
+        },
+        {
+          "name": "Leather chaps (g)"
+        },
+        {
+          "name": "Blue wizard hat (g)"
+        },
+        {
+          "name": "Blue wizard robe (g)"
+        },
+        {
+          "name": "Blue skirt (g)"
+        },
+        {
+          "name": "Blue wizard hat (t)"
+        },
+        {
+          "name": "Blue wizard robe (t)"
+        },
+        {
+          "name": "Blue skirt (t)"
+        },
+        {
+          "name": "Black wizard hat (g)"
+        },
+        {
+          "name": "Black wizard robe (g)"
+        },
+        {
+          "name": "Black skirt (g)"
+        },
+        {
+          "name": "Black wizard hat (t)"
+        },
+        {
+          "name": "Black wizard robe (t)"
+        },
+        {
+          "name": "Black skirt (t)"
+        },
+        {
+          "name": "Coins"
+        },
+        {
+          "name": "Monk's robe top (g)"
+        },
+        {
+          "name": "Monk's robe (g)"
+        },
+        {
+          "name": "Saradomin robe top"
+        },
+        {
+          "name": "Saradomin robe legs"
+        },
+        {
+          "name": "Guthix robe top"
+        },
+        {
+          "name": "Guthix robe legs"
+        },
+        {
+          "name": "Zamorak robe top"
+        },
+        {
+          "name": "Zamorak robe legs"
+        },
+        {
+          "name": "Ancient robe top"
+        },
+        {
+          "name": "Ancient robe legs"
+        },
+        {
+          "name": "Armadyl robe top"
+        },
+        {
+          "name": "Armadyl robe legs"
+        },
+        {
+          "name": "Bandos robe top"
+        },
+        {
+          "name": "Bandos robe legs"
+        },
+        {
+          "name": "Bob's red shirt"
+        },
+        {
+          "name": "Bob's green shirt"
+        },
+        {
+          "name": "Bob's blue shirt"
+        },
+        {
+          "name": "Bob's black shirt"
+        },
+        {
+          "name": "Bob's purple shirt"
+        },
+        {
+          "name": "Highwayman mask"
+        },
+        {
+          "name": "Blue beret"
+        },
+        {
+          "name": "Black beret"
+        },
+        {
+          "name": "Red beret"
+        },
+        {
+          "name": "White beret"
+        },
+        {
+          "name": "A powdered wig"
+        },
+        {
+          "name": "Beanie"
+        },
+        {
+          "name": "Imp mask"
+        },
+        {
+          "name": "Goblin mask"
+        },
+        {
+          "name": "Sleeping cap"
+        },
+        {
+          "name": "Flared trousers"
+        },
+        {
+          "name": "Pantaloons"
+        },
+        {
+          "name": "Black cane"
+        },
+        {
+          "name": "Staff of bob the cat"
+        },
+        {
+          "name": "Red elegant shirt"
+        },
+        {
+          "name": "Red elegant blouse"
+        },
+        {
+          "name": "Red elegant legs"
+        },
+        {
+          "name": "Red elegant skirt"
+        },
+        {
+          "name": "Green elegant shirt"
+        },
+        {
+          "name": "Green elegant blouse"
+        },
+        {
+          "name": "Green elegant legs"
+        },
+        {
+          "name": "Green elegant skirt"
+        },
+        {
+          "name": "Blue elegant shirt"
+        },
+        {
+          "name": "Blue elegant blouse"
+        },
+        {
+          "name": "Blue elegant legs"
+        },
+        {
+          "name": "Blue elegant skirt"
+        },
+        {
+          "name": "Amulet of power (t)"
+        },
+        {
+          "name": "Ham joint"
+        },
+        {
+          "name": "Rain bow"
+        }
+      ]
+    },
+    "UNIQUE_CLUE_MEDIUM": {
+      "name": "UNIQUE_CLUE_MEDIUM",
+      "items": [
+        {
+          "name": "Ranger boots"
+        },
+        {
+          "name": "Wizard boots"
+        },
+        {
+          "name": "Holy sandals"
+        },
+        {
+          "name": "Spiked manacles"
+        },
+        {
+          "name": "Climbing boots (g)"
+        },
+        {
+          "name": "Adamant full helm (t)"
+        },
+        {
+          "name": "Adamant platebody (t)"
+        },
+        {
+          "name": "Adamant platelegs (t)"
+        },
+        {
+          "name": "Adamant plateskirt (t)"
+        },
+        {
+          "name": "Adamant kiteshield (t)"
+        },
+        {
+          "name": "Adamant full helm (g)"
+        },
+        {
+          "name": "Adamant platebody (g)"
+        },
+        {
+          "name": "Adamant platelegs (g)"
+        },
+        {
+          "name": "Adamant plateskirt (g)"
+        },
+        {
+          "name": "Adamant kiteshield (g)"
+        },
+        {
+          "name": "Adamant shield (h1)"
+        },
+        {
+          "name": "Adamant shield (h2)"
+        },
+        {
+          "name": "Adamant shield (h3)"
+        },
+        {
+          "name": "Adamant shield (h4)"
+        },
+        {
+          "name": "Adamant shield (h5)"
+        },
+        {
+          "name": "Adamant helm (h1)"
+        },
+        {
+          "name": "Adamant helm (h2)"
+        },
+        {
+          "name": "Adamant helm (h3)"
+        },
+        {
+          "name": "Adamant helm (h4)"
+        },
+        {
+          "name": "Adamant helm (h5)"
+        },
+        {
+          "name": "Adamant platebody (h1)"
+        },
+        {
+          "name": "Adamant platebody (h2)"
+        },
+        {
+          "name": "Adamant platebody (h3)"
+        },
+        {
+          "name": "Adamant platebody (h4)"
+        },
+        {
+          "name": "Adamant platebody (h5)"
+        },
+        {
+          "name": "Mithril full helm (g)"
+        },
+        {
+          "name": "Mithril platebody (g)"
+        },
+        {
+          "name": "Mithril platelegs (g)"
+        },
+        {
+          "name": "Mithril plateskirt (g)"
+        },
+        {
+          "name": "Mithril kiteshield (g)"
+        },
+        {
+          "name": "Mithril full helm (t)"
+        },
+        {
+          "name": "Mithril platebody (t)"
+        },
+        {
+          "name": "Mithril platelegs (t)"
+        },
+        {
+          "name": "Mithril plateskirt (t)"
+        },
+        {
+          "name": "Mithril kiteshield (t)"
+        },
+        {
+          "name": "Green d'hide body (g)"
+        },
+        {
+          "name": "Green d'hide body (t)"
+        },
+        {
+          "name": "Green d'hide chaps (g)"
+        },
+        {
+          "name": "Green d'hide chaps (t)"
+        },
+        {
+          "name": "Saradomin mitre"
+        },
+        {
+          "name": "Saradomin cloak"
+        },
+        {
+          "name": "Guthix mitre"
+        },
+        {
+          "name": "Guthix cloak"
+        },
+        {
+          "name": "Zamorak mitre"
+        },
+        {
+          "name": "Zamorak cloak"
+        },
+        {
+          "name": "Ancient mitre"
+        },
+        {
+          "name": "Ancient cloak"
+        },
+        {
+          "name": "Ancient stole"
+        },
+        {
+          "name": "Ancient crozier"
+        },
+        {
+          "name": "Armadyl mitre"
+        },
+        {
+          "name": "Armadyl cloak"
+        },
+        {
+          "name": "Armadyl stole"
+        },
+        {
+          "name": "Armadyl crozier"
+        },
+        {
+          "name": "Bandos mitre"
+        },
+        {
+          "name": "Bandos cloak"
+        },
+        {
+          "name": "Bandos stole"
+        },
+        {
+          "name": "Bandos crozier"
+        },
+        {
+          "name": "Red boater"
+        },
+        {
+          "name": "Green boater"
+        },
+        {
+          "name": "Orange boater"
+        },
+        {
+          "name": "Black boater"
+        },
+        {
+          "name": "Blue boater"
+        },
+        {
+          "name": "Pink boater"
+        },
+        {
+          "name": "Purple boater"
+        },
+        {
+          "name": "White boater"
+        },
+        {
+          "name": "Red headband"
+        },
+        {
+          "name": "Black headband"
+        },
+        {
+          "name": "Brown headband"
+        },
+        {
+          "name": "White headband"
+        },
+        {
+          "name": "Blue headband"
+        },
+        {
+          "name": "Gold headband"
+        },
+        {
+          "name": "Pink headband"
+        },
+        {
+          "name": "Green headband"
+        },
+        {
+          "name": "Crier hat"
+        },
+        {
+          "name": "Crier coat"
+        },
+        {
+          "name": "Crier bell"
+        },
+        {
+          "name": "Adamant cane"
+        },
+        {
+          "name": "Arceuus banner"
+        },
+        {
+          "name": "Piscarilius banner"
+        },
+        {
+          "name": "Hosidius banner"
+        },
+        {
+          "name": "Shayzien banner"
+        },
+        {
+          "name": "Lovakengj banner"
+        },
+        {
+          "name": "Cabbage round shield"
+        },
+        {
+          "name": "Black unicorn mask"
+        },
+        {
+          "name": "White unicorn mask"
+        },
+        {
+          "name": "Cat mask"
+        },
+        {
+          "name": "Penguin mask"
+        },
+        {
+          "name": "Leprechaun hat"
+        },
+        {
+          "name": "Black leprechaun hat"
+        },
+        {
+          "name": "Wolf mask"
+        },
+        {
+          "name": "Wolf cloak"
+        },
+        {
+          "name": "Purple elegant shirt"
+        },
+        {
+          "name": "Purple elegant blouse"
+        },
+        {
+          "name": "Purple elegant legs"
+        },
+        {
+          "name": "Purple elegant skirt"
+        },
+        {
+          "name": "Black elegant shirt"
+        },
+        {
+          "name": "White elegant blouse"
+        },
+        {
+          "name": "Black elegant legs"
+        },
+        {
+          "name": "White elegant skirt"
+        },
+        {
+          "name": "Pink elegant shirt"
+        },
+        {
+          "name": "Pink elegant blouse"
+        },
+        {
+          "name": "Pink elegant legs"
+        },
+        {
+          "name": "Pink elegant skirt"
+        },
+        {
+          "name": "Gold elegant shirt"
+        },
+        {
+          "name": "Gold elegant blouse"
+        },
+        {
+          "name": "Gold elegant legs"
+        },
+        {
+          "name": "Gold elegant skirt"
+        }
+      ]
+    },
+    "UNIQUE_CLUE_HARD": {
+      "name": "UNIQUE_CLUE_HARD",
+      "items": [
+        {
+          "name": "Amulet of glory (t4)"
+        },
+        {
+          "name": "Robin hood hat"
+        },
+        {
+          "name": "Enchanted hat"
+        },
+        {
+          "name": "Enchanted top"
+        },
+        {
+          "name": "Enchanted robe"
+        },
+        {
+          "name": "Dragon boots ornament kit"
+        },
+        {
+          "name": "Rune full helm (t)"
+        },
+        {
+          "name": "Rune platebody (t)"
+        },
+        {
+          "name": "Rune platelegs (t)"
+        },
+        {
+          "name": "Rune plateskirt (t)"
+        },
+        {
+          "name": "Rune kiteshield (t)"
+        },
+        {
+          "name": "Rune full helm (g)"
+        },
+        {
+          "name": "Rune platebody (g)"
+        },
+        {
+          "name": "Rune platelegs (g)"
+        },
+        {
+          "name": "Rune plateskirt (g)"
+        },
+        {
+          "name": "Rune kiteshield (g)"
+        },
+        {
+          "name": "Rune shield (h1)"
+        },
+        {
+          "name": "Rune shield (h2)"
+        },
+        {
+          "name": "Rune shield (h3)"
+        },
+        {
+          "name": "Rune shield (h4)"
+        },
+        {
+          "name": "Rune shield (h5)"
+        },
+        {
+          "name": "Rune helm (h1)"
+        },
+        {
+          "name": "Rune helm (h2)"
+        },
+        {
+          "name": "Rune helm (h3)"
+        },
+        {
+          "name": "Rune helm (h4)"
+        },
+        {
+          "name": "Rune helm (h5)"
+        },
+        {
+          "name": "Rune platebody (h1)"
+        },
+        {
+          "name": "Rune platebody (h2)"
+        },
+        {
+          "name": "Rune platebody (h3)"
+        },
+        {
+          "name": "Rune platebody (h4)"
+        },
+        {
+          "name": "Rune platebody (h5)"
+        },
+        {
+          "name": "Zamorak full helm"
+        },
+        {
+          "name": "Zamorak platebody"
+        },
+        {
+          "name": "Zamorak platelegs"
+        },
+        {
+          "name": "Zamorak plateskirt"
+        },
+        {
+          "name": "Zamorak kiteshield"
+        },
+        {
+          "name": "Guthix full helm"
+        },
+        {
+          "name": "Guthix platebody"
+        },
+        {
+          "name": "Guthix platelegs"
+        },
+        {
+          "name": "Guthix plateskirt"
+        },
+        {
+          "name": "Guthix kiteshield"
+        },
+        {
+          "name": "Saradomin full helm"
+        },
+        {
+          "name": "Saradomin platebody"
+        },
+        {
+          "name": "Saradomin platelegs"
+        },
+        {
+          "name": "Saradomin plateskirt"
+        },
+        {
+          "name": "Saradomin kiteshield"
+        },
+        {
+          "name": "Ancient full helm"
+        },
+        {
+          "name": "Ancient platebody"
+        },
+        {
+          "name": "Ancient platelegs"
+        },
+        {
+          "name": "Ancient plateskirt"
+        },
+        {
+          "name": "Ancient kiteshield"
+        },
+        {
+          "name": "Armadyl full helm"
+        },
+        {
+          "name": "Armadyl platebody"
+        },
+        {
+          "name": "Armadyl platelegs"
+        },
+        {
+          "name": "Armadyl plateskirt"
+        },
+        {
+          "name": "Armadyl kiteshield"
+        },
+        {
+          "name": "Bandos full helm"
+        },
+        {
+          "name": "Bandos platebody"
+        },
+        {
+          "name": "Bandos platelegs"
+        },
+        {
+          "name": "Bandos plateskirt"
+        },
+        {
+          "name": "Bandos kiteshield"
+        },
+        {
+          "name": "Red d'hide body (g)"
+        },
+        {
+          "name": "Red d'hide body (t)"
+        },
+        {
+          "name": "Red d'hide chaps (g)"
+        },
+        {
+          "name": "Red d'hide chaps (t)"
+        },
+        {
+          "name": "Blue d'hide body (g)"
+        },
+        {
+          "name": "Blue d'hide body (t)"
+        },
+        {
+          "name": "Blue d'hide chaps (g)"
+        },
+        {
+          "name": "Blue d'hide chaps (t)"
+        },
+        {
+          "name": "Saradomin coif"
+        },
+        {
+          "name": "Saradomin d'hide body"
+        },
+        {
+          "name": "Saradomin chaps"
+        },
+        {
+          "name": "Saradomin bracers"
+        },
+        {
+          "name": "Saradomin d'hide boots"
+        },
+        {
+          "name": "Saradomin d'hide shield"
+        },
+        {
+          "name": "Guthix coif"
+        },
+        {
+          "name": "Guthix d'hide body"
+        },
+        {
+          "name": "Guthix chaps"
+        },
+        {
+          "name": "Guthix bracers"
+        },
+        {
+          "name": "Guthix d'hide boots"
+        },
+        {
+          "name": "Guthix d'hide shield"
+        },
+        {
+          "name": "Zamorak coif"
+        },
+        {
+          "name": "Zamorak d'hide body"
+        },
+        {
+          "name": "Zamorak chaps"
+        },
+        {
+          "name": "Zamorak bracers"
+        },
+        {
+          "name": "Zamorak d'hide boots"
+        },
+        {
+          "name": "Zamorak d'hide shield"
+        },
+        {
+          "name": "Bandos coif"
+        },
+        {
+          "name": "Bandos d'hide body"
+        },
+        {
+          "name": "Bandos chaps"
+        },
+        {
+          "name": "Bandos bracers"
+        },
+        {
+          "name": "Bandos d'hide boots"
+        },
+        {
+          "name": "Bandos d'hide shield"
+        },
+        {
+          "name": "Armadyl coif"
+        },
+        {
+          "name": "Armadyl d'hide body"
+        },
+        {
+          "name": "Armadyl chaps"
+        },
+        {
+          "name": "Armadyl bracers"
+        },
+        {
+          "name": "Armadyl d'hide boots"
+        },
+        {
+          "name": "Armadyl d'hide shield"
+        },
+        {
+          "name": "Ancient coif"
+        },
+        {
+          "name": "Ancient d'hide body"
+        },
+        {
+          "name": "Ancient chaps"
+        },
+        {
+          "name": "Ancient bracers"
+        },
+        {
+          "name": "Ancient d'hide boots"
+        },
+        {
+          "name": "Ancient d'hide shield"
+        },
+        {
+          "name": "Saradomin stole"
+        },
+        {
+          "name": "Saradomin crozier"
+        },
+        {
+          "name": "Guthix stole"
+        },
+        {
+          "name": "Guthix crozier"
+        },
+        {
+          "name": "Zamorak stole"
+        },
+        {
+          "name": "Zamorak crozier"
+        },
+        {
+          "name": "Zombie head (Treasure Trails)"
+        },
+        {
+          "name": "Cyclops head"
+        },
+        {
+          "name": "Pirate's hat"
+        },
+        {
+          "name": "Red cavalier"
+        },
+        {
+          "name": "White cavalier"
+        },
+        {
+          "name": "Navy cavalier"
+        },
+        {
+          "name": "Tan cavalier"
+        },
+        {
+          "name": "Dark cavalier"
+        },
+        {
+          "name": "Black cavalier"
+        },
+        {
+          "name": "Pith helmet"
+        },
+        {
+          "name": "Explorer backpack"
+        },
+        {
+          "name": "Green dragon mask"
+        },
+        {
+          "name": "Blue dragon mask"
+        },
+        {
+          "name": "Red dragon mask"
+        },
+        {
+          "name": "Black dragon mask"
+        },
+        {
+          "name": "Nunchaku"
+        },
+        {
+          "name": "Rune cane"
+        },
+        {
+          "name": "Dual sai"
+        },
+        {
+          "name": "Thieving bag"
+        },
+        {
+          "name": "Rune defender ornament kit"
+        },
+        {
+          "name": "Berserker necklace ornament kit"
+        },
+        {
+          "name": "Tzhaar-ket-om ornament kit"
+        }
+      ]
+    },
+    "UNIQUE_CLUE_ELITE": {
+      "name": "UNIQUE_CLUE_ELITE",
+      "items": [
+        {
+          "name": "Dragon full helm ornament kit"
+        },
+        {
+          "name": "Dragon chainbody ornament kit"
+        },
+        {
+          "name": "Dragon legs/skirt ornament kit"
+        },
+        {
+          "name": "Dragon sq shield ornament kit"
+        },
+        {
+          "name": "Dragon scimitar ornament kit"
+        },
+        {
+          "name": "Fury ornament kit"
+        },
+        {
+          "name": "Light infinity colour kit"
+        },
+        {
+          "name": "Dark infinity colour kit"
+        },
+        {
+          "name": "Royal crown"
+        },
+        {
+          "name": "Royal gown top"
+        },
+        {
+          "name": "Royal gown bottom"
+        },
+        {
+          "name": "Royal sceptre"
+        },
+        {
+          "name": "Musketeer hat"
+        },
+        {
+          "name": "Musketeer tabard"
+        },
+        {
+          "name": "Musketeer pants"
+        },
+        {
+          "name": "Black d'hide body (g)"
+        },
+        {
+          "name": "Black d'hide body (t)"
+        },
+        {
+          "name": "Black d'hide chaps (g)"
+        },
+        {
+          "name": "Black d'hide chaps (t)"
+        },
+        {
+          "name": "Rangers' tunic"
+        },
+        {
+          "name": "Ranger gloves"
+        },
+        {
+          "name": "Holy wraps"
+        },
+        {
+          "name": "Bronze dragon mask"
+        },
+        {
+          "name": "Iron dragon mask"
+        },
+        {
+          "name": "Steel dragon mask"
+        },
+        {
+          "name": "Mithril dragon mask"
+        },
+        {
+          "name": "Adamant dragon mask"
+        },
+        {
+          "name": "Rune dragon mask"
+        },
+        {
+          "name": "Arceuus scarf"
+        },
+        {
+          "name": "Hosidius scarf"
+        },
+        {
+          "name": "Lovakengj scarf"
+        },
+        {
+          "name": "Piscarilius scarf"
+        },
+        {
+          "name": "Shayzien scarf"
+        },
+        {
+          "name": "Katana"
+        },
+        {
+          "name": "Dragon cane"
+        },
+        {
+          "name": "Bucket helm"
+        },
+        {
+          "name": "Blacksmith's helm"
+        },
+        {
+          "name": "Deerstalker"
+        },
+        {
+          "name": "Afro"
+        },
+        {
+          "name": "Big pirate hat"
+        },
+        {
+          "name": "Top hat"
+        },
+        {
+          "name": "Monocle"
+        },
+        {
+          "name": "Briefcase"
+        },
+        {
+          "name": "Sagacious spectacles"
+        },
+        {
+          "name": "Dark bow tie"
+        },
+        {
+          "name": "Dark tuxedo jacket"
+        },
+        {
+          "name": "Dark tuxedo cuffs"
+        },
+        {
+          "name": "Dark trousers"
+        },
+        {
+          "name": "Dark tuxedo shoes"
+        },
+        {
+          "name": "Light bow tie"
+        },
+        {
+          "name": "Light tuxedo jacket"
+        },
+        {
+          "name": "Light tuxedo cuffs"
+        },
+        {
+          "name": "Light trousers"
+        },
+        {
+          "name": "Light tuxedo shoes"
+        },
+        {
+          "name": "Rangers' tights"
+        },
+        {
+          "name": "Uri's hat"
+        },
+        {
+          "name": "Giant boot"
+        },
+        {
+          "name": "Fremennik kilt"
+        }
+      ]
+    },
+    "UNIQUE_CLUE_MASTER": {
+      "name": "UNIQUE_CLUE_MASTER",
+      "items": [
+        {
+          "name": "Occult ornament kit"
+        },
+        {
+          "name": "Torture ornament kit"
+        },
+        {
+          "name": "Anguish ornament kit"
+        },
+        {
+          "name": "Tormented ornament kit"
+        },
+        {
+          "name": "Dragon defender ornament kit"
+        },
+        {
+          "name": "Dragon kiteshield ornament kit"
+        },
+        {
+          "name": "Dragon platebody ornament kit"
+        },
+        {
+          "name": "Hood of darkness"
+        },
+        {
+          "name": "Robe top of darkness"
+        },
+        {
+          "name": "Gloves of darkness"
+        },
+        {
+          "name": "Robe bottom of darkness"
+        },
+        {
+          "name": "Boots of darkness"
+        },
+        {
+          "name": "Samurai kasa"
+        },
+        {
+          "name": "Samurai shirt"
+        },
+        {
+          "name": "Samurai gloves"
+        },
+        {
+          "name": "Samurai greaves"
+        },
+        {
+          "name": "Samurai boots"
+        },
+        {
+          "name": "Arceuus hood"
+        },
+        {
+          "name": "Hosidius hood"
+        },
+        {
+          "name": "Lovakengj hood"
+        },
+        {
+          "name": "Piscarilius hood"
+        },
+        {
+          "name": "Shayzien hood"
+        },
+        {
+          "name": "Old demon mask"
+        },
+        {
+          "name": "Lesser demon mask"
+        },
+        {
+          "name": "Greater demon mask"
+        },
+        {
+          "name": "Black demon mask"
+        },
+        {
+          "name": "Jungle demon mask"
+        },
+        {
+          "name": "Left eye patch"
+        },
+        {
+          "name": "Bowl wig"
+        },
+        {
+          "name": "Ale of the gods"
+        },
+        {
+          "name": "Obsidian cape (r)"
+        },
+        {
+          "name": "Fancy tiara"
+        },
+        {
+          "name": "Half moon spectacles"
+        },
+        {
+          "name": "Armadyl godsword ornament kit"
+        },
+        {
+          "name": "Bandos godsword ornament kit"
+        },
+        {
+          "name": "Saradomin godsword ornament kit"
+        },
+        {
+          "name": "Zamorak godsword ornament kit"
+        },
+        {
+          "name": "Ankou mask"
+        },
+        {
+          "name": "Ankou top"
+        },
+        {
+          "name": "Ankou gloves"
+        },
+        {
+          "name": "Ankou's leggings"
+        },
+        {
+          "name": "Ankou socks"
+        },
+        {
+          "name": "Mummy's head"
+        },
+        {
+          "name": "Mummy's body"
+        },
+        {
+          "name": "Mummy's hands"
+        },
+        {
+          "name": "Mummy's legs"
+        },
+        {
+          "name": "Mummy's feet"
+        }
+      ]
+    },
+    "CLUE_STEP_BEGINNER": {
+      "name": "CLUE_STEP_BEGINNER",
+      "items": [
+        {
+          "name": "Gold ring"
+        },
+        {
+          "name": "Gold necklace"
+        },
+        {
+          "name": "Leather boots"
+        },
+        {
+          "name": "Bronze axe"
+        },
+        {
+          "name": "Chef's hat"
+        },
+        {
+          "name": "Red cape"
+        }
+      ]
+    },
+    "CLUE_STEP_EASY": {
+      "name": "CLUE_STEP_EASY",
+      "items": [
+        {
+          "name": "Bronze dagger"
+        },
+        {
+          "name": "Iron full helm"
+        },
+        {
+          "name": "Gold ring"
+        },
+        {
+          "name": "Studded chaps"
+        },
+        {
+          "name": "Iron kiteshield"
+        },
+        {
+          "name": "Steel longsword"
+        },
+        {
+          "name": "Iron platelegs"
+        },
+        {
+          "name": "Emerald amulet"
+        },
+        {
+          "name": "Oak longbow"
+        },
+        {
+          "name": "Coif"
+        },
+        {
+          "name": "Steel plateskirt"
+        },
+        {
+          "name": "Sapphire necklace"
+        },
+        {
+          "name": "Iron platebody"
+        },
+        {
+          "name": "Studded chaps"
+        },
+        {
+          "name": "Bronze full helm"
+        },
+        {
+          "name": "Iron chainbody"
+        },
+        {
+          "name": "Sapphire ring"
+        },
+        {
+          "name": "Longbow"
+        },
+        {
+          "name": "Green robe top"
+        },
+        {
+          "name": "Ham robe"
+        },
+        {
+          "name": "Iron warhammer"
+        },
+        {
+          "name": "Steel full helm"
+        },
+        {
+          "name": "Steel platebody"
+        },
+        {
+          "name": "Iron plateskirt"
+        },
+        {
+          "name": "Desert shirt"
+        },
+        {
+          "name": "Green robe bottoms"
+        },
+        {
+          "name": "Steel axe"
+        },
+        {
+          "name": "Green hat"
+        },
+        {
+          "name": "Cream robe top"
+        },
+        {
+          "name": "Leather chaps"
+        },
+        {
+          "name": "Coif"
+        },
+        {
+          "name": "Iron platebody"
+        },
+        {
+          "name": "Leather gloves"
+        },
+        {
+          "name": "White apron"
+        },
+        {
+          "name": "Green boots"
+        },
+        {
+          "name": "Leather gloves"
+        },
+        {
+          "name": "Iron chainbody"
+        },
+        {
+          "name": "Leather chaps"
+        },
+        {
+          "name": "Coif"
+        },
+        {
+          "name": "Mithril pickaxe"
+        },
+        {
+          "name": "Black platebody"
+        },
+        {
+          "name": "Iron kiteshield"
+        },
+        {
+          "name": "Air tiara"
+        },
+        {
+          "name": "Staff of water"
+        },
+        {
+          "name": "Iron med helm"
+        },
+        {
+          "name": "Emerald ring"
+        },
+        {
+          "name": "White apron"
+        },
+        {
+          "name": "Bronze platelegs"
+        },
+        {
+          "name": "Steel pickaxe"
+        },
+        {
+          "name": "Steel med helm"
+        },
+        {
+          "name": "Black cape"
+        },
+        {
+          "name": "Leather chaps"
+        },
+        {
+          "name": "Steel mace"
+        },
+        {
+          "name": "Desert shirt"
+        },
+        {
+          "name": "Leather gloves"
+        },
+        {
+          "name": "Leather boots"
+        },
+        {
+          "name": "Blue robe top"
+        },
+        {
+          "name": "Turquoise robe bottoms"
+        },
+        {
+          "name": "Oak shortbow"
+        },
+        {
+          "name": "Gold necklace"
+        },
+        {
+          "name": "Gold ring"
+        },
+        {
+          "name": "Bronze spear"
+        },
+        {
+          "name": "Blue robe top"
+        },
+        {
+          "name": "Ham robe"
+        },
+        {
+          "name": "Tiara"
+        },
+        {
+          "name": "Blue wizard hat"
+        },
+        {
+          "name": "Bronze 2h sword"
+        },
+        {
+          "name": "Ham boots"
+        },
+        {
+          "name": "Studded body"
+        },
+        {
+          "name": "Bronze platelegs"
+        },
+        {
+          "name": "Staff"
+        },
+        {
+          "name": "Emerald ring"
+        },
+        {
+          "name": "Sapphire amulet"
+        },
+        {
+          "name": "Bronze chainbody"
+        },
+        {
+          "name": "Leather cowl"
+        },
+        {
+          "name": "Iron scimitar"
+        },
+        {
+          "name": "Blue wizard robe"
+        },
+        {
+          "name": "Hardleather body"
+        },
+        {
+          "name": "Leather chaps"
+        },
+        {
+          "name": "Bronze axe"
+        },
+        {
+          "name": "Black axe"
+        },
+        {
+          "name": "Coif"
+        },
+        {
+          "name": "Ruby ring"
+        },
+        {
+          "name": "Pink skirt"
+        },
+        {
+          "name": "Pink robe top"
+        },
+        {
+          "name": "Body tiara"
+        },
+        {
+          "name": "Turquoise robe top"
+        },
+        {
+          "name": "Blue skirt"
+        },
+        {
+          "name": "Emerald necklace"
+        }
+      ]
+    },
+    "CLUE_STEP_MEDIUM": {
+      "name": "CLUE_STEP_MEDIUM",
+      "items": [
+        {
+          "name": "Green robe top"
+        },
+        {
+          "name": "Mithril platelegs"
+        },
+        {
+          "name": "Iron 2h sword"
+        },
+        {
+          "name": "Purple gloves"
+        },
+        {
+          "name": "Steel kiteshield"
+        },
+        {
+          "name": "Mithril full helm"
+        },
+        {
+          "name": "Ruby amulet"
+        },
+        {
+          "name": "Mithril scimitar"
+        },
+        {
+          "name": "Steel kiteshield"
+        },
+        {
+          "name": "Green d'hide chaps"
+        },
+        {
+          "name": "Ring of forging"
+        },
+        {
+          "name": "Mithril chainbody"
+        },
+        {
+          "name": "Green d'hide chaps"
+        },
+        {
+          "name": "Ruby amulet"
+        },
+        {
+          "name": "Green hat"
+        },
+        {
+          "name": "Snakeskin boots"
+        },
+        {
+          "name": "Iron pickaxe"
+        },
+        {
+          "name": "Pointed bruise blue snelm"
+        },
+        {
+          "name": "Staff of air"
+        },
+        {
+          "name": "Bronze sq shield"
+        },
+        {
+          "name": "Maple longbow"
+        },
+        {
+          "name": "Green d'hide chaps"
+        },
+        {
+          "name": "Iron med helm"
+        },
+        {
+          "name": "Adamant sq shield"
+        },
+        {
+          "name": "Bone dagger"
+        },
+        {
+          "name": "Mithril platebody"
+        },
+        {
+          "name": "Brown apron"
+        },
+        {
+          "name": "Leather boots"
+        },
+        {
+          "name": "Leather gloves"
+        },
+        {
+          "name": "Blue d'hide vambraces"
+        },
+        {
+          "name": "Adamant boots"
+        },
+        {
+          "name": "Adamant dagger"
+        },
+        {
+          "name": "Adamant warhammer"
+        },
+        {
+          "name": "Mithril boots"
+        },
+        {
+          "name": "Ring of life"
+        },
+        {
+          "name": "Blue wizard hat"
+        },
+        {
+          "name": "Blue wizard robe"
+        },
+        {
+          "name": "Mithril plateskirt"
+        },
+        {
+          "name": "Maple longbow"
+        },
+        {
+          "name": "Green d'hide chaps"
+        },
+        {
+          "name": "Mithril med helm"
+        },
+        {
+          "name": "Steel platebody"
+        },
+        {
+          "name": "Maple shortbow"
+        },
+        {
+          "name": "Brown apron"
+        },
+        {
+          "name": "Adamant med helm"
+        },
+        {
+          "name": "Snakeskin chaps"
+        },
+        {
+          "name": "Green d'hide body"
+        },
+        {
+          "name": "Green d'hide chaps"
+        },
+        {
+          "name": "Steel sq shield"
+        },
+        {
+          "name": "Blue boots"
+        },
+        {
+          "name": "Hardleather body"
+        },
+        {
+          "name": "Silver sickle"
+        },
+        {
+          "name": "Staff of air"
+        },
+        {
+          "name": "Bronze full helm"
+        },
+        {
+          "name": "Amulet of power"
+        },
+        {
+          "name": "Adamant halberd"
+        },
+        {
+          "name": "Mystic robe bottom"
+        },
+        {
+          "name": "Diamond ring"
+        },
+        {
+          "name": "Steel longsword"
+        },
+        {
+          "name": "Blue d'hide body"
+        },
+        {
+          "name": "Mystic gloves"
+        },
+        {
+          "name": "Adamant platebody"
+        },
+        {
+          "name": "Adamant full helm"
+        },
+        {
+          "name": "Adamant platelegs"
+        },
+        {
+          "name": "Adamant sword"
+        },
+        {
+          "name": "Sapphire amulet"
+        },
+        {
+          "name": "Adamant plateskirt"
+        },
+        {
+          "name": "Maple longbow"
+        },
+        {
+          "name": "Ruby amulet"
+        },
+        {
+          "name": "Steel platelegs"
+        }
+      ]
+    },
+    "CLUE_STEP_HARD": {
+      "name": "CLUE_STEP_HARD",
+      "items": [
+        {
+          "name": "Rune platelegs"
+        },
+        {
+          "name": "Iron platebody"
+        },
+        {
+          "name": "Blue d'hide vambraces"
+        },
+        {
+          "name": "Blue d'hide body"
+        },
+        {
+          "name": "Blue d'hide vambraces"
+        },
+        {
+          "name": "Adamant sq shield"
+        },
+        {
+          "name": "Blue d'hide vambraces"
+        },
+        {
+          "name": "Rune pickaxe"
+        },
+        {
+          "name": "Rune full helm"
+        },
+        {
+          "name": "Blue d'hide chaps"
+        },
+        {
+          "name": "Fire battlestaff"
+        },
+        {
+          "name": "Mystic hat"
+        },
+        {
+          "name": "Bone spear"
+        },
+        {
+          "name": "Rune platebody"
+        },
+        {
+          "name": "Zamorak stole"
+        },
+        {
+          "name": "Rune spear"
+        },
+        {
+          "name": "Rune platelegs"
+        },
+        {
+          "name": "Rune halberd"
+        },
+        {
+          "name": "Rune platebody"
+        },
+        {
+          "name": "Amulet of strength"
+        },
+        {
+          "name": "Elemental shield"
+        },
+        {
+          "name": "Blue d'hide chaps"
+        },
+        {
+          "name": "Rune warhammer"
+        },
+        {
+          "name": "Ring of life"
+        },
+        {
+          "name": "Amulet of glory"
+        },
+        {
+          "name": "Adamant 2h sword"
+        },
+        {
+          "name": "Diamond ring"
+        },
+        {
+          "name": "Amulet of power"
+        },
+        {
+          "name": "Mithril platelegs"
+        },
+        {
+          "name": "Ring of life"
+        },
+        {
+          "name": "Rune axe"
+        },
+        {
+          "name": "Mystic fire staff"
+        },
+        {
+          "name": "Diamond bracelet"
+        },
+        {
+          "name": "Rune boots"
+        },
+        {
+          "name": "White headband"
+        },
+        {
+          "name": "Saradomin crozier"
+        },
+        {
+          "name": "Mystic robe top"
+        },
+        {
+          "name": "Rune longsword"
+        },
+        {
+          "name": "Rune platebody"
+        },
+        {
+          "name": "Rune plateskirt"
+        }
+      ]
+    },
+    "CLUE_STEP_ELITE": {
+      "name": "CLUE_STEP_ELITE",
+      "items": [
+        {
+          "name": "Dragon spear"
+        },
+        {
+          "name": "Red d'hide chaps"
+        },
+        {
+          "name": "Black d'hide chaps"
+        },
+        {
+          "name": "Spotted cape"
+        },
+        {
+          "name": "Rolling pin"
+        },
+        {
+          "name": "Black salamander"
+        },
+        {
+          "name": "Dragon med helm"
+        },
+        {
+          "name": "Amulet of glory"
+        },
+        {
+          "name": "Lava battlestaff"
+        },
+        {
+          "name": "Black d'hide vambraces"
+        },
+        {
+          "name": "Mind shield"
+        },
+        {
+          "name": "Granite shield"
+        },
+        {
+          "name": "Splitbark body"
+        },
+        {
+          "name": "Mystic robe bottom"
+        },
+        {
+          "name": "Rune kiteshield"
+        },
+        {
+          "name": "Bob's black shirt"
+        },
+        {
+          "name": "Dragonstone amulet"
+        },
+        {
+          "name": "Ring of forging"
+        },
+        {
+          "name": "Rune boots"
+        },
+        {
+          "name": "Proselyte hauberk"
+        },
+        {
+          "name": "Dragonstone ring"
+        },
+        {
+          "name": "Rune crossbow"
+        },
+        {
+          "name": "Climbing boots"
+        },
+        {
+          "name": "Zamorak mitre"
+        },
+        {
+          "name": "Guthix page 1"
+        },
+        {
+          "name": "Guthix page 2"
+        },
+        {
+          "name": "Guthix page 3"
+        },
+        {
+          "name": "Guthix page 4"
+        },
+        {
+          "name": "Seercull"
+        },
+        {
+          "name": "Combat bracelet"
+        },
+        {
+          "name": "Helm of neitiznot"
+        },
+        {
+          "name": "Splitbark legs"
+        },
+        {
+          "name": "Dragon boots"
+        },
+        {
+          "name": "Rune longsword"
+        },
+        {
+          "name": "Blue d'hide vambraces"
+        },
+        {
+          "name": "Dragon spear"
+        },
+        {
+          "name": "Rune plateskirt"
+        },
+        {
+          "name": "Dragon battleaxe"
+        },
+        {
+          "name": "Amulet of glory"
+        },
+        {
+          "name": "Dragon necklace"
+        },
+        {
+          "name": "Magic longbow"
+        },
+        {
+          "name": "Sunfire fanatic helm"
+        },
+        {
+          "name": "Sunfire fanatic cuirass"
+        },
+        {
+          "name": "Sunfire fanatic chausses"
+        }
+      ]
+    },
+    "CLUE_STEP_MASTER": {
+      "name": "CLUE_STEP_MASTER",
+      "items": [
+        {
+          "name": "Dragon med helm"
+        },
+        {
+          "name": "Rune platebody"
+        },
+        {
+          "name": "Brine sabre"
+        },
+        {
+          "name": "Amulet of glory"
+        },
+        {
+          "name": "Torag's hammers"
+        },
+        {
+          "name": "Torag's helm"
+        },
+        {
+          "name": "Torag's platebody"
+        },
+        {
+          "name": "Torag's platelegs"
+        },
+        {
+          "name": "Red boater"
+        },
+        {
+          "name": "Splitbark body"
+        },
+        {
+          "name": "Dragon sq shield"
+        },
+        {
+          "name": "Dragon pickaxe"
+        },
+        {
+          "name": "Helm of neitiznot"
+        },
+        {
+          "name": "Rune boots"
+        },
+        {
+          "name": "Crystal weapon seed"
+        },
+        {
+          "name": "Zamorak full helm"
+        },
+        {
+          "name": "Flared trousers"
+        },
+        {
+          "name": "Death tiara"
+        },
+        {
+          "name": "Dragon axe"
+        },
+        {
+          "name": "Blue moon helm"
+        },
+        {
+          "name": "Blue moon chestplate"
+        },
+        {
+          "name": "Blue moon tassets"
+        },
+        {
+          "name": "Blue moon spear"
+        },
+        {
+          "name": "Dragon 2h sword"
+        },
+        {
+          "name": "Bandos boots"
+        },
+        {
+          "name": "Obsidian cape"
+        },
+        {
+          "name": "Menaphite purple hat"
+        },
+        {
+          "name": "Menaphite purple top"
+        },
+        {
+          "name": "Menaphite purple robe"
+        },
+        {
+          "name": "Dragon battleaxe"
+        },
+        {
+          "name": "Black mask"
+        },
+        {
+          "name": "Earmuffs"
+        },
+        {
+          "name": "Facemask"
+        },
+        {
+          "name": "Nose peg"
+        },
+        {
+          "name": "Spiny helmet"
+        },
+        {
+          "name": "Bandos platebody"
+        },
+        {
+          "name": "Bandos cloak"
+        },
+        {
+          "name": "Bandos godsword"
+        },
+        {
+          "name": "Black d'hide body"
+        },
+        {
+          "name": "Black d'hide vambraces"
+        },
+        {
+          "name": "Black dragon mask"
+        },
+        {
+          "name": "Zamorak godsword"
+        },
+        {
+          "name": "Cooked oomlie wrap"
+        },
+        {
+          "name": "Dragon plateskirt"
+        },
+        {
+          "name": "Climbing boots"
+        },
+        {
+          "name": "Dragon chainbody"
+        },
+        {
+          "name": "Abyssal whip"
+        },
+        {
+          "name": "Spined chaps"
+        },
+        {
+          "name": "Nature tiara"
+        },
+        {
+          "name": "Hueycoatl hide vambraces"
+        },
+        {
+          "name": "Hueycoatl hide coif"
+        }
+      ]
     }
   }
 }

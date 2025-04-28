@@ -1,0 +1,622 @@
+{
+  "items": {
+    "EQUIP_BRONZE": {
+      "name": "EQUIP_BRONZE",
+      "items": [
+        {
+          "name": "Bronze dagger"
+        },
+        {
+          "name": "Bronze axe"
+        },
+        {
+          "name": "Bronze mace"
+        },
+        {
+          "name": "Bronze sword"
+        },
+        {
+          "name": "Bronze longsword"
+        },
+        {
+          "name": "Bronze scimitar"
+        },
+        {
+          "name": "Bronze hasta"
+        },
+        {
+          "name": "Bronze warhammer"
+        },
+        {
+          "name": "Bronze battleaxe"
+        },
+        {
+          "name": "Bronze pickaxe"
+        },
+        {
+          "name": "Bronze claws"
+        },
+        {
+          "name": "Bronze spear"
+        },
+        {
+          "name": "Bronze 2h sword"
+        },
+        {
+          "name": "Bronze halberd"
+        },
+        {
+          "name": "Bronze crossbow"
+        },
+        {
+          "name": "Bronze bolts"
+        },
+        {
+          "name": "Bronze arrow"
+        },
+        {
+          "name": "Bronze brutal"
+        },
+        {
+          "name": "Bronze dart"
+        },
+        {
+          "name": "Bronze javelin"
+        },
+        {
+          "name": "Bronze thrownaxe"
+        },
+        {
+          "name": "Bronze knife"
+        },
+        {
+          "name": "Bronze med helm"
+        },
+        {
+          "name": "Bronze full helm"
+        },
+        {
+          "name": "Bronze chainbody"
+        },
+        {
+          "name": "Bronze platebody"
+        },
+        {
+          "name": "Bronze platelegs"
+        },
+        {
+          "name": "Bronze plateskirt"
+        },
+        {
+          "name": "Bronze sq shield"
+        },
+        {
+          "name": "Bronze kiteshield"
+        },
+        {
+          "name": "Bronze boots"
+        },
+        {
+          "name": "Bronze gloves"
+        },
+        {
+          "name": "Bronze defender"
+        }
+      ]
+    },
+    "EQUIP_IRON": {
+      "name": "EQUIP_IRON",
+      "items": [
+        {
+          "name": "Iron dagger"
+        },
+        {
+          "name": "Iron axe"
+        },
+        {
+          "name": "Iron mace"
+        },
+        {
+          "name": "Iron sword"
+        },
+        {
+          "name": "Iron longsword"
+        },
+        {
+          "name": "Iron scimitar"
+        },
+        {
+          "name": "Iron hasta"
+        },
+        {
+          "name": "Iron warhammer"
+        },
+        {
+          "name": "Iron battleaxe"
+        },
+        {
+          "name": "Iron pickaxe"
+        },
+        {
+          "name": "Iron claws"
+        },
+        {
+          "name": "Iron spear"
+        },
+        {
+          "name": "Iron 2h sword"
+        },
+        {
+          "name": "Iron halberd"
+        },
+        {
+          "name": "Iron crossbow"
+        },
+        {
+          "name": "Iron bolts"
+        },
+        {
+          "name": "Iron arrow"
+        },
+        {
+          "name": "Iron brutal"
+        },
+        {
+          "name": "Iron dart"
+        },
+        {
+          "name": "Iron javelin"
+        },
+        {
+          "name": "Iron thrownaxe"
+        },
+        {
+          "name": "Iron knife"
+        },
+        {
+          "name": "Iron med helm"
+        },
+        {
+          "name": "Iron full helm"
+        },
+        {
+          "name": "Iron chainbody"
+        },
+        {
+          "name": "Iron platebody"
+        },
+        {
+          "name": "Iron platelegs"
+        },
+        {
+          "name": "Iron plateskirt"
+        },
+        {
+          "name": "Iron sq shield"
+        },
+        {
+          "name": "Iron kiteshield"
+        },
+        {
+          "name": "Iron boots"
+        },
+        {
+          "name": "Iron gloves"
+        },
+        {
+          "name": "Iron defender"
+        }
+      ]
+    },
+    "EQUIP_STEEL": {
+      "name": "EQUIP_STEEL",
+      "items": [
+        {
+          "name": "Steel dagger"
+        },
+        {
+          "name": "Steel axe"
+        },
+        {
+          "name": "Steel mace"
+        },
+        {
+          "name": "Steel sword"
+        },
+        {
+          "name": "Steel longsword"
+        },
+        {
+          "name": "Steel scimitar"
+        },
+        {
+          "name": "Steel hasta"
+        },
+        {
+          "name": "Steel warhammer"
+        },
+        {
+          "name": "Steel battleaxe"
+        },
+        {
+          "name": "Steel pickaxe"
+        },
+        {
+          "name": "Steel claws"
+        },
+        {
+          "name": "Steel spear"
+        },
+        {
+          "name": "Steel 2h sword"
+        },
+        {
+          "name": "Steel halberd"
+        },
+        {
+          "name": "Steel crossbow"
+        },
+        {
+          "name": "Steel bolts"
+        },
+        {
+          "name": "Steel arrow"
+        },
+        {
+          "name": "Steel brutal"
+        },
+        {
+          "name": "Steel dart"
+        },
+        {
+          "name": "Steel javelin"
+        },
+        {
+          "name": "Steel thrownaxe"
+        },
+        {
+          "name": "Steel knife"
+        },
+        {
+          "name": "Steel med helm"
+        },
+        {
+          "name": "Steel full helm"
+        },
+        {
+          "name": "Steel chainbody"
+        },
+        {
+          "name": "Steel platebody"
+        },
+        {
+          "name": "Steel platelegs"
+        },
+        {
+          "name": "Steel plateskirt"
+        },
+        {
+          "name": "Steel sq shield"
+        },
+        {
+          "name": "Steel kiteshield"
+        },
+        {
+          "name": "Steel boots"
+        },
+        {
+          "name": "Steel gloves"
+        },
+        {
+          "name": "Steel defender"
+        }
+      ]
+    },
+    "EQUIP_BLACK": {
+      "name": "EQUIP_BLACK",
+      "items": [
+        {
+          "name": "Black dagger"
+        },
+        {
+          "name": "Black axe"
+        },
+        {
+          "name": "Black mace"
+        },
+        {
+          "name": "Black sword"
+        },
+        {
+          "name": "Black longsword"
+        },
+        {
+          "name": "Black scimitar"
+        },
+        {
+          "name": "Black warhammer"
+        },
+        {
+          "name": "Black battleaxe"
+        },
+        {
+          "name": "Black pickaxe"
+        },
+        {
+          "name": "Black claws"
+        },
+        {
+          "name": "Black spear"
+        },
+        {
+          "name": "Black 2h sword"
+        },
+        {
+          "name": "Black halberd"
+        },
+        {
+          "name": "Black brutal"
+        },
+        {
+          "name": "Black dart"
+        },
+        {
+          "name": "Black knife"
+        },
+        {
+          "name": "Black med helm"
+        },
+        {
+          "name": "Black full helm"
+        },
+        {
+          "name": "Black chainbody"
+        },
+        {
+          "name": "Black platebody"
+        },
+        {
+          "name": "Black platelegs"
+        },
+        {
+          "name": "Black plateskirt"
+        },
+        {
+          "name": "Black sq shield"
+        },
+        {
+          "name": "Black kiteshield"
+        },
+        {
+          "name": "Black boots"
+        },
+        {
+          "name": "Black gloves"
+        },
+        {
+          "name": "Black defender"
+        },
+        {
+          "name": "Elite black full helm"
+        },
+        {
+          "name": "Elite black platebody"
+        },
+        {
+          "name": "Elite black platelegs"
+        }
+      ]
+    },
+    "EQUIP_ADAMANT": {
+      "name": "EQUIP_ADAMANT",
+      "items": [
+        {
+          "name": "Adamant dagger"
+        },
+        {
+          "name": "Adamant axe"
+        },
+        {
+          "name": "Adamant mace"
+        },
+        {
+          "name": "Adamant sword"
+        },
+        {
+          "name": "Adamant longsword"
+        },
+        {
+          "name": "Adamant scimitar"
+        },
+        {
+          "name": "Adamant hasta"
+        },
+        {
+          "name": "Adamant warhammer"
+        },
+        {
+          "name": "Adamant battleaxe"
+        },
+        {
+          "name": "Adamant pickaxe"
+        },
+        {
+          "name": "Adamant cane"
+        },
+        {
+          "name": "Adamant claws"
+        },
+        {
+          "name": "Adamant spear"
+        },
+        {
+          "name": "Adamant 2h sword"
+        },
+        {
+          "name": "Adamant halberd"
+        },
+        {
+          "name": "Adamant crossbow"
+        },
+        {
+          "name": "Adamant bolts"
+        },
+        {
+          "name": "Adamant arrow"
+        },
+        {
+          "name": "Adamant brutal"
+        },
+        {
+          "name": "Adamant dart"
+        },
+        {
+          "name": "Adamant javelin"
+        },
+        {
+          "name": "Adamant thrownaxe"
+        },
+        {
+          "name": "Adamant knife"
+        },
+        {
+          "name": "Adamant med helm"
+        },
+        {
+          "name": "Adamant full helm"
+        },
+        {
+          "name": "Adamant chainbody"
+        },
+        {
+          "name": "Adamant platebody"
+        },
+        {
+          "name": "Adamant platelegs"
+        },
+        {
+          "name": "Adamant plateskirt"
+        },
+        {
+          "name": "Adamant sq shield"
+        },
+        {
+          "name": "Adamant kiteshield"
+        },
+        {
+          "name": "Adamant boots"
+        },
+        {
+          "name": "Adamant gloves"
+        },
+        {
+          "name": "Adamant defender"
+        }
+      ]
+    },
+    "EQUIP_RUNE": {
+      "name": "EQUIP_RUNE",
+      "items": [
+        {
+          "name": "Rune dagger"
+        },
+        {
+          "name": "Rune axe"
+        },
+        {
+          "name": "Rune mace"
+        },
+        {
+          "name": "Rune sword"
+        },
+        {
+          "name": "Rune longsword"
+        },
+        {
+          "name": "Rune scimitar"
+        },
+        {
+          "name": "Rune hasta"
+        },
+        {
+          "name": "Rune warhammer"
+        },
+        {
+          "name": "Rune battleaxe"
+        },
+        {
+          "name": "Rune pickaxe"
+        },
+        {
+          "name": "Rune claws"
+        },
+        {
+          "name": "Rune spear"
+        },
+        {
+          "name": "Rune 2h sword"
+        },
+        {
+          "name": "Rune halberd"
+        },
+        {
+          "name": "Rune crossbow"
+        },
+        {
+          "name": "Runite bolts"
+        },
+        {
+          "name": "Rune arrow"
+        },
+        {
+          "name": "Rune brutal"
+        },
+        {
+          "name": "Rune dart"
+        },
+        {
+          "name": "Rune javelin"
+        },
+        {
+          "name": "Rune thrownaxe"
+        },
+        {
+          "name": "Rune knife"
+        },
+        {
+          "name": "Rune med helm"
+        },
+        {
+          "name": "Rune full helm"
+        },
+        {
+          "name": "Rune chainbody"
+        },
+        {
+          "name": "Rune platebody"
+        },
+        {
+          "name": "Rune platelegs"
+        },
+        {
+          "name": "Rune plateskirt"
+        },
+        {
+          "name": "Rune sq shield"
+        },
+        {
+          "name": "Rune kiteshield"
+        },
+        {
+          "name": "Rune boots"
+        },
+        {
+          "name": "Rune gloves"
+        },
+        {
+          "name": "Rune defender"
+        }
+      ]
+    }
+  }
+}

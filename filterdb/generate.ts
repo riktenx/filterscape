@@ -71,16 +71,19 @@ const generateItemList = async (
 
 const WIKI = 'https://oldschool.runescape.wiki/w/';
 
+const wikiURL = (path: string | string[]): string | string[] =>
+  typeof path === 'string' ? WIKI + path : path.map((p) => WIKI + p);
+
 const equipmentList = (
   name: string,
-  url: string | string[]
+  path: string | string[]
 ): ItemListSource => ({
   name,
-  url: typeof url === 'string' ? WIKI + url : url.map((u) => WIKI + u),
+  url: wikiURL(path),
   capture: [
     {
       pattern: /{{Infotable Bonuses\|.+}}/g,
-      transform: (match) =>
+      transform: (match: string): string[] =>
         match
           .replace('{{Infotable Bonuses|', '')
           .replace('}}', '')
@@ -94,6 +97,32 @@ const equipmentList = (
   ],
 });
 
+const seedList = (name: string, path: string | string[]) => ({
+  name,
+  url: wikiURL(path),
+  capture: [
+    {
+      pattern: /{{plinkp\|.+ seed}}/g,
+      transform: (match: string): string[] => [
+        match.replace('{{plinkp|', '').replace('}}', ''),
+      ],
+    },
+  ],
+});
+
+const petList: ItemListSource = {
+  name: 'PET',
+  url: wikiURL('Pet'),
+  capture: [
+    {
+      pattern: /{{plinkt\|[- A-Za-z]+}}/g,
+      transform: (match: string): string[] => [
+        match.replace('{{plinkt|', '').replace('}}', ''),
+      ],
+    },
+  ],
+};
+
 (async function () {
   const sources: ItemListSource[] = [
     equipmentList('EQUIP_BRONZE', 'Bronze_equipment'),
@@ -102,6 +131,18 @@ const equipmentList = (
     equipmentList('EQUIP_BLACK', 'Black_equipment'),
     equipmentList('EQUIP_ADAMANT', 'Adamant_equipment'),
     equipmentList('EQUIP_RUNE', 'Rune_equipment'),
+    seedList('SEED_ALLOTMENT', 'Allotment_patch/Seeds'),
+    seedList('SEED_FLOWER', 'Flower_patch/Seeds'),
+    seedList('SEED_HERB', 'Herb_patch/Seeds'),
+    seedList('SEED_HOPS', 'Hops_patch/Seeds'),
+    seedList('SEED_BUSH', 'Bush_patch/Seeds'),
+    seedList('SEED_TREE', 'Tree_patch/Seeds'),
+    seedList('SEED_FRUITTREE', 'Fruit_tree_patch/Seeds'),
+    //seedList('SEED_SPECIAL_MISC', ''),
+    //seedList('SEED_SPECIAL_ANIMA', ''),
+    //seedList('SEED_SPECIAL_TREE', ''),
+    //seedList('SEED_SPECIAL_CACTI', ''),
+    petList,
   ];
 
   const filterDB: FilterDB = {

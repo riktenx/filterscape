@@ -617,6 +617,469 @@
           "name": "Rune defender"
         }
       ]
+    },
+    "SEED_ALLOTMENT": {
+      "name": "SEED_ALLOTMENT",
+      "items": [
+        {
+          "name": "Potato seed"
+        },
+        {
+          "name": "Onion seed"
+        },
+        {
+          "name": "Cabbage seed"
+        },
+        {
+          "name": "Tomato seed"
+        },
+        {
+          "name": "Sweetcorn seed"
+        },
+        {
+          "name": "Strawberry seed"
+        },
+        {
+          "name": "Watermelon seed"
+        },
+        {
+          "name": "Snape grass seed"
+        }
+      ]
+    },
+    "SEED_FLOWER": {
+      "name": "SEED_FLOWER",
+      "items": [
+        {
+          "name": "Marigold seed"
+        },
+        {
+          "name": "Rosemary seed"
+        },
+        {
+          "name": "Nasturtium seed"
+        },
+        {
+          "name": "Woad seed"
+        },
+        {
+          "name": "Limpwurt seed"
+        },
+        {
+          "name": "White lily seed"
+        }
+      ]
+    },
+    "SEED_HERB": {
+      "name": "SEED_HERB",
+      "items": [
+        {
+          "name": "Guam seed"
+        },
+        {
+          "name": "Marrentill seed"
+        },
+        {
+          "name": "Tarromin seed"
+        },
+        {
+          "name": "Harralander seed"
+        },
+        {
+          "name": "Ranarr seed"
+        },
+        {
+          "name": "Toadflax seed"
+        },
+        {
+          "name": "Irit seed"
+        },
+        {
+          "name": "Avantoe seed"
+        },
+        {
+          "name": "Kwuarm seed"
+        },
+        {
+          "name": "Snapdragon seed"
+        },
+        {
+          "name": "Huasca seed"
+        },
+        {
+          "name": "Cadantine seed"
+        },
+        {
+          "name": "Lantadyme seed"
+        },
+        {
+          "name": "Dwarf weed seed"
+        },
+        {
+          "name": "Torstol seed"
+        }
+      ]
+    },
+    "SEED_HOPS": {
+      "name": "SEED_HOPS",
+      "items": [
+        {
+          "name": "Barley seed"
+        },
+        {
+          "name": "Hammerstone seed"
+        },
+        {
+          "name": "Asgarnian seed"
+        },
+        {
+          "name": "Jute seed"
+        },
+        {
+          "name": "Yanillian seed"
+        },
+        {
+          "name": "Krandorian seed"
+        },
+        {
+          "name": "Wildblood seed"
+        }
+      ]
+    },
+    "SEED_BUSH": {
+      "name": "SEED_BUSH",
+      "items": [
+        {
+          "name": "Redberry seed"
+        },
+        {
+          "name": "Cadavaberry seed"
+        },
+        {
+          "name": "Dwellberry seed"
+        },
+        {
+          "name": "Jangerberry seed"
+        },
+        {
+          "name": "Whiteberry seed"
+        },
+        {
+          "name": "Poison ivy seed"
+        }
+      ]
+    },
+    "SEED_TREE": {
+      "name": "SEED_TREE",
+      "items": [
+        {
+          "name": "Willow seed"
+        },
+        {
+          "name": "Maple seed"
+        },
+        {
+          "name": "Yew seed"
+        },
+        {
+          "name": "Magic seed"
+        }
+      ]
+    },
+    "SEED_FRUITTREE": {
+      "name": "SEED_FRUITTREE",
+      "items": [
+        {
+          "name": "Apple tree seed"
+        },
+        {
+          "name": "Banana tree seed"
+        },
+        {
+          "name": "Orange tree seed"
+        },
+        {
+          "name": "Curry tree seed"
+        },
+        {
+          "name": "Pineapple seed"
+        },
+        {
+          "name": "Papaya tree seed"
+        },
+        {
+          "name": "Palm tree seed"
+        },
+        {
+          "name": "Dragonfruit tree seed"
+        }
+      ]
+    },
+    "PET": {
+      "name": "PET",
+      "items": [
+        {
+          "name": "Abyssal orphan"
+        },
+        {
+          "name": "Baby mole"
+        },
+        {
+          "name": "Baron"
+        },
+        {
+          "name": "Bran"
+        },
+        {
+          "name": "Butch"
+        },
+        {
+          "name": "Callisto cub"
+        },
+        {
+          "name": "Hellpuppy"
+        },
+        {
+          "name": "Huberte"
+        },
+        {
+          "name": "Jal-nib-rek"
+        },
+        {
+          "name": "Kalphite princess"
+        },
+        {
+          "name": "Little nightmare"
+        },
+        {
+          "name": "Moxi"
+        },
+        {
+          "name": "Nexling"
+        },
+        {
+          "name": "Nid"
+        },
+        {
+          "name": "Noon"
+        },
+        {
+          "name": "Olmlet"
+        },
+        {
+          "name": "Pet chaos elemental"
+        },
+        {
+          "name": "Pet dagannoth prime"
+        },
+        {
+          "name": "Pet dagannoth rex"
+        },
+        {
+          "name": "Pet dagannoth supreme"
+        },
+        {
+          "name": "Pet dark core"
+        },
+        {
+          "name": "Pet general graardor"
+        },
+        {
+          "name": "Pet kraken"
+        },
+        {
+          "name": "Pet smoke devil"
+        },
+        {
+          "name": "Pet snakeling"
+        },
+        {
+          "name": "Pet zilyana"
+        },
+        {
+          "name": "Phoenix"
+        },
+        {
+          "name": "Prince black dragon"
+        },
+        {
+          "name": "Scurry"
+        },
+        {
+          "name": "Skotos"
+        },
+        {
+          "name": "Smolcano"
+        },
+        {
+          "name": "Smol heredit"
+        },
+        {
+          "name": "Sraracha"
+        },
+        {
+          "name": "Tiny tempor"
+        },
+        {
+          "name": "Tzrek-jad"
+        },
+        {
+          "name": "Venenatis spiderling"
+        },
+        {
+          "name": "Vorki"
+        },
+        {
+          "name": "Wisp"
+        },
+        {
+          "name": "Youngllef"
+        },
+        {
+          "name": "Beaver"
+        },
+        {
+          "name": "Giant squirrel"
+        },
+        {
+          "name": "Heron"
+        },
+        {
+          "name": "Rock golem"
+        },
+        {
+          "name": "Rocky"
+        },
+        {
+          "name": "Tangleroot"
+        },
+        {
+          "name": "Abyssal protector"
+        },
+        {
+          "name": "Bloodhound"
+        },
+        {
+          "name": "Broav"
+        },
+        {
+          "name": "Chompy chick"
+        },
+        {
+          "name": "Herbi"
+        },
+        {
+          "name": "Pet penance queen"
+        },
+        {
+          "name": "Pet rock"
+        },
+        {
+          "name": "Quetzin"
+        },
+        {
+          "name": "Toy cat"
+        },
+        {
+          "name": "Baby mole"
+        },
+        {
+          "name": "Kalphite princess"
+        },
+        {
+          "name": "Prince black dragon"
+        },
+        {
+          "name": "Chompy chick"
+        },
+        {
+          "name": "Venenatis spiderling"
+        },
+        {
+          "name": "Callisto cub"
+        },
+        {
+          "name": "Tzrek-jad"
+        },
+        {
+          "name": "Hellpuppy"
+        },
+        {
+          "name": "Abyssal orphan"
+        },
+        {
+          "name": "Heron"
+        },
+        {
+          "name": "Rock golem"
+        },
+        {
+          "name": "Beaver"
+        },
+        {
+          "name": "Bloodhound"
+        },
+        {
+          "name": "Giant squirrel"
+        },
+        {
+          "name": "Tangleroot"
+        },
+        {
+          "name": "Rocky"
+        },
+        {
+          "name": "Phoenix"
+        },
+        {
+          "name": "Olmlet"
+        },
+        {
+          "name": "Skotos"
+        },
+        {
+          "name": "Jal-nib-rek"
+        },
+        {
+          "name": "Herbi"
+        },
+        {
+          "name": "Noon"
+        },
+        {
+          "name": "Vorki"
+        },
+        {
+          "name": "Sraracha"
+        },
+        {
+          "name": "Smolcano"
+        },
+        {
+          "name": "Youngllef"
+        },
+        {
+          "name": "Little nightmare"
+        },
+        {
+          "name": "Tiny tempor"
+        },
+        {
+          "name": "Abyssal protector"
+        },
+        {
+          "name": "Nexling"
+        },
+        {
+          "name": "Baron"
+        },
+        {
+          "name": "Butch"
+        },
+        {
+          "name": "Wisp"
+        }
+      ]
     }
   }
 }

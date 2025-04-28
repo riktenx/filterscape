@@ -2,15 +2,6 @@ import { FilterDB, FilterDBItemList, FragmentGenerator } from './types.ts';
 
 export class JunkHideModule implements FragmentGenerator {
   generate(db: FilterDB): string {
-    const lists = [
-      db['EQUIP_BRONZE'],
-      db['EQUIP_IRON'],
-      db['EQUIP_STEEL'],
-      db['EQUIP_BLACK'],
-      db['EQUIP_MITHRIL'],
-      db['EQUIP_ADAMANT'],
-      db['EQUIP_RUNE'],
-    ];
     return `/*@ define:module:hidejunk
 name: Hide junk
 description: |

@@ -18,7 +18,7 @@ export type SourceCapture = {
 const getWikiSource = (url: string): Promise<string> =>
   new Promise((resolve, reject) => {
     const options = {
-      headers: { 'user-agent': 'riktenx/filterscape' },
+      headers: { 'user-agent': 'github.com/riktenx/filterscape' },
     };
 
     https.get(`${url}?action=raw`, options, (resp) => {

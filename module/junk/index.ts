@@ -12,21 +12,36 @@ description: |
 
   All of these rules hide BY DEFAULT. Value rules and other things can override
   them.
+
+  Section notes:
+
+  * Equipment - Hides ammo, does not hide boots / defenders.
+  * Clue uniques - Hides ALL unique clue rewards by default. Items with enough
+    value to match your value rules will then be shown. These are disabled by
+    default, DO NOT configure them without double-checking your value rules
+    first.
 */
 
 ${hideCheckbox('JUNK', 'Equipment', 'Hide bronze equipment', true, db.items['EQUIP_BRONZE']!!)}
-
 ${hideCheckbox('JUNK', 'Equipment', 'Hide iron equipment', true, db.items['EQUIP_IRON']!!)}
-
 ${hideCheckbox('JUNK', 'Equipment', 'Hide steel equipment', true, db.items['EQUIP_STEEL']!!)}
-
 ${hideCheckbox('JUNK', 'Equipment', 'Hide black equipment', true, db.items['EQUIP_BLACK']!!)}
-
 ${hideCheckbox('JUNK', 'Equipment', 'Hide mithril equipment', true, db.items['EQUIP_MITHRIL']!!)}
-
 ${hideCheckbox('JUNK', 'Equipment', 'Hide adamant equipment', true, db.items['EQUIP_ADAMANT']!!)}
+${hideCheckbox('JUNK', 'Equipment', 'Hide rune equipment', false, db.items['EQUIP_RUNE']!!)}
 
-${hideCheckbox('JUNK', 'Equipment', 'Hide rune equipment', false, db.items['EQUIP_RUNE']!!)}`;
+${hideCheckbox('JUNK', 'Seeds', 'Hide allotment seeds', true, db.items['SEED_ALLOTMENT']!!)}
+${hideCheckbox('JUNK', 'Seeds', 'Hide flower seeds', true, db.items['SEED_FLOWER']!!)}
+${hideCheckbox('JUNK', 'Seeds', 'Hide hops seeds', true, db.items['SEED_HOPS']!!)}
+${hideCheckbox('JUNK', 'Seeds', 'Hide bush seeds', true, db.items['SEED_BUSH']!!)}
+
+${hideCheckbox('JUNK', 'Clue uniques', 'Hide beginner uniques', false, db.items['UNIQUE_CLUE_BEGINNER']!!)}
+${hideCheckbox('JUNK', 'Clue uniques', 'Hide easy uniques', false, db.items['UNIQUE_CLUE_EASY']!!)}
+${hideCheckbox('JUNK', 'Clue uniques', 'Hide medium uniques', false, db.items['UNIQUE_CLUE_MEDIUM']!!)}
+${hideCheckbox('JUNK', 'Clue uniques', 'Hide hard uniques', false, db.items['UNIQUE_CLUE_HARD']!!)}
+${hideCheckbox('JUNK', 'Clue uniques', 'Hide elite uniques', false, db.items['UNIQUE_CLUE_ELITE']!!)}
+${hideCheckbox('JUNK', 'Clue uniques', 'Hide master uniques', false, db.items['UNIQUE_CLUE_MASTER']!!)}
+`;
   }
 }
 

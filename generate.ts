@@ -21,7 +21,6 @@ const MODULE_PATH = './module';
     const Generator = (await import(`${mod}/index.ts`)).default!!;
     const generator = new Generator();
     if (!(generator instanceof FragmentGeneratorBase)) {
-      console.log(generator);
       throw new Error(
         `${mod}: generator does not implement FragmentGeneratorBase`
       );

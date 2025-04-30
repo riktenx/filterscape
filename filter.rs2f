@@ -247,6 +247,14 @@ description: |
 
   All of these rules hide BY DEFAULT. Value rules and other things can override
   them.
+
+  Section notes:
+
+  * Equipment - Hides ammo, does not hide boots / defenders.
+  * Clue uniques - Hides ALL unique clue rewards by default. Items with enough
+    value to match your value rules will then be shown. These are disabled by
+    default, DO NOT configure them without double-checking your value rules
+    first.
 */
 
 /*@ define:input
@@ -258,7 +266,6 @@ label: 'Hide bronze equipment'
 
 #define CONST_JUNK_EQUIP_BRONZE ["Bronze dagger","Bronze axe","Bronze mace","Bronze sword","Bronze longsword","Bronze scimitar","Bronze hasta","Bronze warhammer","Bronze battleaxe","Bronze pickaxe","Bronze claws","Bronze spear","Bronze 2h sword","Bronze halberd","Bronze crossbow","Bronze bolts","Bronze arrow","Bronze brutal","Bronze dart","Bronze javelin","Bronze thrownaxe","Bronze knife","Bronze med helm","Bronze full helm","Bronze chainbody","Bronze platebody","Bronze platelegs","Bronze plateskirt","Bronze sq shield","Bronze kiteshield","Bronze gloves"]
 apply (VAR_JUNK_HIDE_EQUIP_BRONZE && name:CONST_JUNK_EQUIP_BRONZE) { hidden = true; }
-
 /*@ define:input
 type: boolean
 group: 'Equipment'
@@ -268,7 +275,6 @@ label: 'Hide iron equipment'
 
 #define CONST_JUNK_EQUIP_IRON ["Iron dagger","Iron axe","Iron mace","Iron sword","Iron longsword","Iron scimitar","Iron hasta","Iron warhammer","Iron battleaxe","Iron pickaxe","Iron claws","Iron spear","Iron 2h sword","Iron halberd","Iron crossbow","Iron bolts","Iron arrow","Iron brutal","Iron dart","Iron javelin","Iron thrownaxe","Iron knife","Iron med helm","Iron full helm","Iron chainbody","Iron platebody","Iron platelegs","Iron plateskirt","Iron sq shield","Iron kiteshield","Iron gloves"]
 apply (VAR_JUNK_HIDE_EQUIP_IRON && name:CONST_JUNK_EQUIP_IRON) { hidden = true; }
-
 /*@ define:input
 type: boolean
 group: 'Equipment'
@@ -278,7 +284,6 @@ label: 'Hide steel equipment'
 
 #define CONST_JUNK_EQUIP_STEEL ["Steel dagger","Steel axe","Steel mace","Steel sword","Steel longsword","Steel scimitar","Steel hasta","Steel warhammer","Steel battleaxe","Steel pickaxe","Steel claws","Steel spear","Steel 2h sword","Steel halberd","Steel crossbow","Steel bolts","Steel arrow","Steel brutal","Steel dart","Steel javelin","Steel thrownaxe","Steel knife","Steel med helm","Steel full helm","Steel chainbody","Steel platebody","Steel platelegs","Steel plateskirt","Steel sq shield","Steel kiteshield","Steel gloves"]
 apply (VAR_JUNK_HIDE_EQUIP_STEEL && name:CONST_JUNK_EQUIP_STEEL) { hidden = true; }
-
 /*@ define:input
 type: boolean
 group: 'Equipment'
@@ -288,7 +293,6 @@ label: 'Hide black equipment'
 
 #define CONST_JUNK_EQUIP_BLACK ["Black dagger","Black axe","Black mace","Black sword","Black longsword","Black scimitar","Black warhammer","Black battleaxe","Black pickaxe","Black claws","Black spear","Black 2h sword","Black halberd","Black brutal","Black dart","Black knife","Black med helm","Black full helm","Black chainbody","Black platebody","Black platelegs","Black plateskirt","Black sq shield","Black kiteshield","Black gloves","Elite black full helm","Elite black platebody","Elite black platelegs"]
 apply (VAR_JUNK_HIDE_EQUIP_BLACK && name:CONST_JUNK_EQUIP_BLACK) { hidden = true; }
-
 /*@ define:input
 type: boolean
 group: 'Equipment'
@@ -298,7 +302,6 @@ label: 'Hide mithril equipment'
 
 #define CONST_JUNK_EQUIP_MITHRIL []
 apply (VAR_JUNK_HIDE_EQUIP_MITHRIL && name:CONST_JUNK_EQUIP_MITHRIL) { hidden = true; }
-
 /*@ define:input
 type: boolean
 group: 'Equipment'
@@ -308,7 +311,6 @@ label: 'Hide adamant equipment'
 
 #define CONST_JUNK_EQUIP_ADAMANT ["Adamant dagger","Adamant axe","Adamant mace","Adamant sword","Adamant longsword","Adamant scimitar","Adamant hasta","Adamant warhammer","Adamant battleaxe","Adamant pickaxe","Adamant cane","Adamant claws","Adamant spear","Adamant 2h sword","Adamant halberd","Adamant crossbow","Adamant bolts","Adamant arrow","Adamant brutal","Adamant dart","Adamant javelin","Adamant thrownaxe","Adamant knife","Adamant med helm","Adamant full helm","Adamant chainbody","Adamant platebody","Adamant platelegs","Adamant plateskirt","Adamant sq shield","Adamant kiteshield","Adamant gloves"]
 apply (VAR_JUNK_HIDE_EQUIP_ADAMANT && name:CONST_JUNK_EQUIP_ADAMANT) { hidden = true; }
-
 /*@ define:input
 type: boolean
 group: 'Equipment'
@@ -318,6 +320,99 @@ label: 'Hide rune equipment'
 
 #define CONST_JUNK_EQUIP_RUNE ["Rune dagger","Rune axe","Rune mace","Rune sword","Rune longsword","Rune scimitar","Rune hasta","Rune warhammer","Rune battleaxe","Rune pickaxe","Rune claws","Rune spear","Rune 2h sword","Rune halberd","Rune crossbow","Runite bolts","Rune arrow","Rune brutal","Rune dart","Rune javelin","Rune thrownaxe","Rune knife","Rune med helm","Rune full helm","Rune chainbody","Rune platebody","Rune platelegs","Rune plateskirt","Rune sq shield","Rune kiteshield","Rune gloves"]
 apply (VAR_JUNK_HIDE_EQUIP_RUNE && name:CONST_JUNK_EQUIP_RUNE) { hidden = true; }
+
+/*@ define:input
+type: boolean
+group: 'Seeds'
+label: 'Hide allotment seeds'
+*/
+#define VAR_JUNK_HIDE_SEED_ALLOTMENT true
+
+#define CONST_JUNK_SEED_ALLOTMENT ["Potato seed","Onion seed","Cabbage seed","Tomato seed","Sweetcorn seed","Strawberry seed","Watermelon seed","Snape grass seed"]
+apply (VAR_JUNK_HIDE_SEED_ALLOTMENT && name:CONST_JUNK_SEED_ALLOTMENT) { hidden = true; }
+/*@ define:input
+type: boolean
+group: 'Seeds'
+label: 'Hide flower seeds'
+*/
+#define VAR_JUNK_HIDE_SEED_FLOWER true
+
+#define CONST_JUNK_SEED_FLOWER ["Marigold seed","Rosemary seed","Nasturtium seed","Woad seed","Limpwurt seed","White lily seed"]
+apply (VAR_JUNK_HIDE_SEED_FLOWER && name:CONST_JUNK_SEED_FLOWER) { hidden = true; }
+/*@ define:input
+type: boolean
+group: 'Seeds'
+label: 'Hide hops seeds'
+*/
+#define VAR_JUNK_HIDE_SEED_HOPS true
+
+#define CONST_JUNK_SEED_HOPS ["Barley seed","Hammerstone seed","Asgarnian seed","Jute seed","Yanillian seed","Krandorian seed","Wildblood seed"]
+apply (VAR_JUNK_HIDE_SEED_HOPS && name:CONST_JUNK_SEED_HOPS) { hidden = true; }
+/*@ define:input
+type: boolean
+group: 'Seeds'
+label: 'Hide bush seeds'
+*/
+#define VAR_JUNK_HIDE_SEED_BUSH true
+
+#define CONST_JUNK_SEED_BUSH ["Redberry seed","Cadavaberry seed","Dwellberry seed","Jangerberry seed","Whiteberry seed","Poison ivy seed"]
+apply (VAR_JUNK_HIDE_SEED_BUSH && name:CONST_JUNK_SEED_BUSH) { hidden = true; }
+
+/*@ define:input
+type: boolean
+group: 'Clue uniques'
+label: 'Hide beginner uniques'
+*/
+#define VAR_JUNK_HIDE_UNIQUE_CLUE_BEGINNER false
+
+#define CONST_JUNK_UNIQUE_CLUE_BEGINNER ["Mole slippers","Frog slippers","Bear feet","Demon feet","Jester cape","Shoulder parrot","Monk's robe top (t)","Monk's robe (t)","Amulet of defence (t)","Sandwich lady hat","Sandwich lady top","Sandwich lady bottom","Rune scimitar ornament kit (guthix)","Rune scimitar ornament kit (saradomin)","Rune scimitar ornament kit (zamorak)"]
+apply (VAR_JUNK_HIDE_UNIQUE_CLUE_BEGINNER && name:CONST_JUNK_UNIQUE_CLUE_BEGINNER) { hidden = true; }
+/*@ define:input
+type: boolean
+group: 'Clue uniques'
+label: 'Hide easy uniques'
+*/
+#define VAR_JUNK_HIDE_UNIQUE_CLUE_EASY false
+
+#define CONST_JUNK_UNIQUE_CLUE_EASY ["Team cape zero","Team cape i","Team cape x","Cape of skulls","Golden chef's hat","Golden apron","Wooden shield (g)","Black full helm (t)","Black platebody (t)","Black platelegs (t)","Black plateskirt (t)","Black kiteshield (t)","Black full helm (g)","Black platebody (g)","Black platelegs (g)","Black plateskirt (g)","Black kiteshield (g)","Black shield (h1)","Black shield (h2)","Black shield (h3)","Black shield (h4)","Black shield (h5)","Black helm (h1)","Black helm (h2)","Black helm (h3)","Black helm (h4)","Black helm (h5)","Black platebody (h1)","Black platebody (h2)","Black platebody (h3)","Black platebody (h4)","Black platebody (h5)","Steel full helm (t)","Steel platebody (t)","Steel platelegs (t)","Steel plateskirt (t)","Steel kiteshield (t)","Steel full helm (g)","Steel platebody (g)","Steel platelegs (g)","Steel plateskirt (g)","Steel kiteshield (g)","Iron full helm (t)","Iron platebody (t)","Iron platelegs (t)","Iron plateskirt (t)","Iron kiteshield (t)","Iron full helm (g)","Iron platebody (g)","Iron platelegs (g)","Iron plateskirt (g)","Iron kiteshield (g)","Bronze full helm (t)","Bronze platebody (t)","Bronze platelegs (t)","Bronze plateskirt (t)","Bronze kiteshield (t)","Bronze full helm (g)","Bronze platebody (g)","Bronze platelegs (g)","Bronze plateskirt (g)","Bronze kiteshield (g)","Studded body (g)","Studded chaps (g)","Studded body (t)","Studded chaps (t)","Leather body (g)","Leather chaps (g)","Blue wizard hat (g)","Blue wizard robe (g)","Blue skirt (g)","Blue wizard hat (t)","Blue wizard robe (t)","Blue skirt (t)","Black wizard hat (g)","Black wizard robe (g)","Black skirt (g)","Black wizard hat (t)","Black wizard robe (t)","Black skirt (t)","Coins","Monk's robe top (g)","Monk's robe (g)","Saradomin robe top","Saradomin robe legs","Guthix robe top","Guthix robe legs","Zamorak robe top","Zamorak robe legs","Ancient robe top","Ancient robe legs","Armadyl robe top","Armadyl robe legs","Bandos robe top","Bandos robe legs","Bob's red shirt","Bob's green shirt","Bob's blue shirt","Bob's black shirt","Bob's purple shirt","Highwayman mask","Blue beret","Black beret","Red beret","White beret","A powdered wig","Beanie","Imp mask","Goblin mask","Sleeping cap","Flared trousers","Pantaloons","Black cane","Staff of bob the cat","Red elegant shirt","Red elegant blouse","Red elegant legs","Red elegant skirt","Green elegant shirt","Green elegant blouse","Green elegant legs","Green elegant skirt","Blue elegant shirt","Blue elegant blouse","Blue elegant legs","Blue elegant skirt","Amulet of power (t)","Ham joint","Rain bow"]
+apply (VAR_JUNK_HIDE_UNIQUE_CLUE_EASY && name:CONST_JUNK_UNIQUE_CLUE_EASY) { hidden = true; }
+/*@ define:input
+type: boolean
+group: 'Clue uniques'
+label: 'Hide medium uniques'
+*/
+#define VAR_JUNK_HIDE_UNIQUE_CLUE_MEDIUM false
+
+#define CONST_JUNK_UNIQUE_CLUE_MEDIUM ["Holy sandals","Spiked manacles","Climbing boots (g)","Adamant full helm (t)","Adamant platebody (t)","Adamant platelegs (t)","Adamant plateskirt (t)","Adamant kiteshield (t)","Adamant full helm (g)","Adamant platebody (g)","Adamant platelegs (g)","Adamant plateskirt (g)","Adamant kiteshield (g)","Adamant shield (h1)","Adamant shield (h2)","Adamant shield (h3)","Adamant shield (h4)","Adamant shield (h5)","Adamant helm (h1)","Adamant helm (h2)","Adamant helm (h3)","Adamant helm (h4)","Adamant helm (h5)","Adamant platebody (h1)","Adamant platebody (h2)","Adamant platebody (h3)","Adamant platebody (h4)","Adamant platebody (h5)","Mithril full helm (g)","Mithril platebody (g)","Mithril platelegs (g)","Mithril plateskirt (g)","Mithril kiteshield (g)","Mithril full helm (t)","Mithril platebody (t)","Mithril platelegs (t)","Mithril plateskirt (t)","Mithril kiteshield (t)","Green d'hide body (g)","Green d'hide body (t)","Green d'hide chaps (g)","Green d'hide chaps (t)","Saradomin mitre","Saradomin cloak","Guthix mitre","Guthix cloak","Zamorak mitre","Zamorak cloak","Ancient mitre","Ancient cloak","Ancient stole","Ancient crozier","Armadyl mitre","Armadyl cloak","Armadyl stole","Armadyl crozier","Bandos mitre","Bandos cloak","Bandos stole","Bandos crozier","Red boater","Green boater","Orange boater","Black boater","Blue boater","Pink boater","Purple boater","White boater","Red headband","Black headband","Brown headband","White headband","Blue headband","Gold headband","Pink headband","Green headband","Crier hat","Crier coat","Crier bell","Adamant cane","Arceuus banner","Piscarilius banner","Hosidius banner","Shayzien banner","Lovakengj banner","Cabbage round shield","Black unicorn mask","White unicorn mask","Cat mask","Penguin mask","Leprechaun hat","Black leprechaun hat","Wolf mask","Wolf cloak","Purple elegant shirt","Purple elegant blouse","Purple elegant legs","Purple elegant skirt","Black elegant shirt","White elegant blouse","Black elegant legs","White elegant skirt","Pink elegant shirt","Pink elegant blouse","Pink elegant legs","Pink elegant skirt","Gold elegant shirt","Gold elegant blouse","Gold elegant legs","Gold elegant skirt"]
+apply (VAR_JUNK_HIDE_UNIQUE_CLUE_MEDIUM && name:CONST_JUNK_UNIQUE_CLUE_MEDIUM) { hidden = true; }
+/*@ define:input
+type: boolean
+group: 'Clue uniques'
+label: 'Hide hard uniques'
+*/
+#define VAR_JUNK_HIDE_UNIQUE_CLUE_HARD false
+
+#define CONST_JUNK_UNIQUE_CLUE_HARD ["Amulet of glory (t4)","Robin hood hat","Enchanted hat","Enchanted top","Enchanted robe","Dragon boots ornament kit","Rune full helm (t)","Rune platebody (t)","Rune platelegs (t)","Rune plateskirt (t)","Rune kiteshield (t)","Rune full helm (g)","Rune platebody (g)","Rune platelegs (g)","Rune plateskirt (g)","Rune kiteshield (g)","Rune shield (h1)","Rune shield (h2)","Rune shield (h3)","Rune shield (h4)","Rune shield (h5)","Rune helm (h1)","Rune helm (h2)","Rune helm (h3)","Rune helm (h4)","Rune helm (h5)","Rune platebody (h1)","Rune platebody (h2)","Rune platebody (h3)","Rune platebody (h4)","Rune platebody (h5)","Zamorak full helm","Zamorak platebody","Zamorak platelegs","Zamorak plateskirt","Zamorak kiteshield","Guthix full helm","Guthix platebody","Guthix platelegs","Guthix plateskirt","Guthix kiteshield","Saradomin full helm","Saradomin platebody","Saradomin platelegs","Saradomin plateskirt","Saradomin kiteshield","Ancient full helm","Ancient platebody","Ancient platelegs","Ancient plateskirt","Ancient kiteshield","Armadyl full helm","Armadyl platebody","Armadyl platelegs","Armadyl plateskirt","Armadyl kiteshield","Bandos full helm","Bandos platebody","Bandos platelegs","Bandos plateskirt","Bandos kiteshield","Red d'hide body (g)","Red d'hide body (t)","Red d'hide chaps (g)","Red d'hide chaps (t)","Blue d'hide body (g)","Blue d'hide body (t)","Blue d'hide chaps (g)","Blue d'hide chaps (t)","Saradomin coif","Saradomin d'hide body","Saradomin chaps","Saradomin bracers","Saradomin d'hide shield","Guthix coif","Guthix d'hide body","Guthix chaps","Guthix bracers","Guthix d'hide shield","Zamorak coif","Zamorak d'hide body","Zamorak chaps","Zamorak bracers","Zamorak d'hide shield","Bandos coif","Bandos d'hide body","Bandos chaps","Bandos bracers","Bandos d'hide shield","Armadyl coif","Armadyl d'hide body","Armadyl chaps","Armadyl bracers","Armadyl d'hide shield","Ancient coif","Ancient d'hide body","Ancient chaps","Ancient bracers","Ancient d'hide shield","Saradomin stole","Saradomin crozier","Guthix stole","Guthix crozier","Zamorak stole","Zamorak crozier","Zombie head (Treasure Trails)","Cyclops head","Pirate's hat","Red cavalier","White cavalier","Navy cavalier","Tan cavalier","Dark cavalier","Black cavalier","Pith helmet","Explorer backpack","Green dragon mask","Blue dragon mask","Red dragon mask","Black dragon mask","Nunchaku","Rune cane","Dual sai","Thieving bag","Rune defender ornament kit","Berserker necklace ornament kit","Tzhaar-ket-om ornament kit"]
+apply (VAR_JUNK_HIDE_UNIQUE_CLUE_HARD && name:CONST_JUNK_UNIQUE_CLUE_HARD) { hidden = true; }
+/*@ define:input
+type: boolean
+group: 'Clue uniques'
+label: 'Hide elite uniques'
+*/
+#define VAR_JUNK_HIDE_UNIQUE_CLUE_ELITE false
+
+#define CONST_JUNK_UNIQUE_CLUE_ELITE ["Dragon full helm ornament kit","Dragon chainbody ornament kit","Dragon legs/skirt ornament kit","Dragon sq shield ornament kit","Dragon scimitar ornament kit","Fury ornament kit","Light infinity colour kit","Dark infinity colour kit","Royal crown","Royal gown top","Royal gown bottom","Royal sceptre","Musketeer hat","Musketeer tabard","Musketeer pants","Black d'hide body (g)","Black d'hide body (t)","Black d'hide chaps (g)","Black d'hide chaps (t)","Rangers' tunic","Ranger gloves","Holy wraps","Bronze dragon mask","Iron dragon mask","Steel dragon mask","Mithril dragon mask","Adamant dragon mask","Rune dragon mask","Arceuus scarf","Hosidius scarf","Lovakengj scarf","Piscarilius scarf","Shayzien scarf","Katana","Dragon cane","Bucket helm","Blacksmith's helm","Deerstalker","Afro","Big pirate hat","Top hat","Monocle","Briefcase","Sagacious spectacles","Dark bow tie","Dark tuxedo jacket","Dark tuxedo cuffs","Dark trousers","Dark tuxedo shoes","Light bow tie","Light tuxedo jacket","Light tuxedo cuffs","Light trousers","Light tuxedo shoes","Rangers' tights","Uri's hat","Giant boot","Fremennik kilt"]
+apply (VAR_JUNK_HIDE_UNIQUE_CLUE_ELITE && name:CONST_JUNK_UNIQUE_CLUE_ELITE) { hidden = true; }
+/*@ define:input
+type: boolean
+group: 'Clue uniques'
+label: 'Hide master uniques'
+*/
+#define VAR_JUNK_HIDE_UNIQUE_CLUE_MASTER false
+
+#define CONST_JUNK_UNIQUE_CLUE_MASTER ["Occult ornament kit","Torture ornament kit","Anguish ornament kit","Tormented ornament kit","Dragon defender ornament kit","Dragon kiteshield ornament kit","Dragon platebody ornament kit","Hood of darkness","Robe top of darkness","Gloves of darkness","Robe bottom of darkness","Boots of darkness","Samurai kasa","Samurai shirt","Samurai gloves","Samurai greaves","Arceuus hood","Hosidius hood","Lovakengj hood","Piscarilius hood","Shayzien hood","Old demon mask","Lesser demon mask","Greater demon mask","Black demon mask","Jungle demon mask","Left eye patch","Bowl wig","Ale of the gods","Obsidian cape (r)","Fancy tiara","Half moon spectacles","Armadyl godsword ornament kit","Bandos godsword ornament kit","Saradomin godsword ornament kit","Zamorak godsword ornament kit","Ankou mask","Ankou top","Ankou gloves","Ankou's leggings","Ankou socks","Mummy's head","Mummy's body","Mummy's hands","Mummy's legs","Mummy's feet"]
+apply (VAR_JUNK_HIDE_UNIQUE_CLUE_MASTER && name:CONST_JUNK_UNIQUE_CLUE_MASTER) { hidden = true; }
+
 
 
 /*@ define:module:bloodveld

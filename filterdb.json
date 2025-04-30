@@ -407,6 +407,10 @@
         }
       ]
     },
+    "EQUIP_MITHRIL": {
+      "name": "EQUIP_MITHRIL",
+      "items": []
+    },
     "EQUIP_ADAMANT": {
       "name": "EQUIP_ADAMANT",
       "items": [

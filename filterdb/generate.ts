@@ -1,7 +1,7 @@
 import * as https from 'https';
 import * as fs from 'fs';
 
-import { FilterDB, FilterDBItemList } from './types.ts';
+import type { FilterDB, FilterDBItemList } from './types.ts';
 import * as mediawiki from './mediawiki.ts';
 
 export type ItemListSource = {

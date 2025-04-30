@@ -1,7 +1,10 @@
 {
   "compilerOptions": {
-    "allowImportingTsExtensions": true,
-    "lib": ["esnext", "dom"],
-    "target": "esnext"
+    "noEmit": true,
+    "target": "esnext",
+    "module": "nodenext",
+    "rewriteRelativeImportExtensions": true,
+    "verbatimModuleSyntax": true,
+    "resolveJsonModule": true
   }
 }

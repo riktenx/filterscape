@@ -1,6 +1,6 @@
-import { FilterDB, FilterDBItemList, FragmentGenerator } from './types.ts';
+import type { FilterDB, FilterDBItemList, FragmentGenerator } from './types.ts';
 
-export class JunkHideModule implements FragmentGenerator {
+export default class JunkHideModule implements FragmentGenerator {
   generate(db: FilterDB): string {
     return `/*@ define:module:hidejunk
 name: Hide junk
@@ -8,7 +8,8 @@ description: |
   Hide junk items in bulk. This should generally eliminate the need for a
   massive hide list in your plugin config.
 
-  All of these rules hide BY DEFAULT. Value rules can override them.
+  All of these rules hide BY DEFAULT. Value rules and other things can override
+  them.
 */
 
 ${hideCheckbox('JUNK', 'Equipment', 'Hide bronze equipment', true, db['EQUIP_BRONZE'])}

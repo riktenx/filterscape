@@ -19,6 +19,7 @@ const index = {
     { modulePath: 'module/cox/module.json' },
     { modulePath: 'module/toa/module.json' },
     { modulePath: 'module/shadesofmortton/module.json' },
+    { modulePath: 'module/defender/module.json' },
     { modulePath: 'module/unique/module.json' },
     { modulePath: 'module/potion/module.json' },
     { modulePath: 'module/clue/module.json' },

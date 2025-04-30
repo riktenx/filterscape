@@ -1,0 +1,28 @@
+/*@ define:module:defender
+name: Defenders
+*/
+
+
+/*@ define:input
+type: enumlist
+group: 'Defenders'
+label: Items
+enum: ["Bronze defender","Iron defender","Steel defender","Black defender","Mithril defender","Adamant defender","Rune defender","Dragon defender"]
+*/
+#define VAR_DEFENDER_EQUIP_DEFENDER_LIST ["Bronze defender","Iron defender","Steel defender","Black defender","Mithril defender","Adamant defender","Rune defender","Dragon defender"]
+
+/*@ define:input
+type: style
+group: 'Defenders'
+label: Items
+exampleItem: 'Dragon defender'
+exampleItemId: 12954
+*/
+#define VAR_DEFENDER_EQUIP_DEFENDER_STYLE \
+  showLootbeam = true; \
+  icon = CurrentItem(); \
+  sound = 6765; \
+  backgroundColor = "#80000000";
+
+rule (name:VAR_DEFENDER_EQUIP_DEFENDER_LIST) { hidden = false; VAR_DEFENDER_EQUIP_DEFENDER_STYLE }
+

@@ -37,9 +37,14 @@ const hideCheckbox = (
   defaultValue: boolean,
   list: FilterDBItemList
 ): string => {
+  // manual filter for now
+  const items = list.items.filter(
+    (i) => !i.name.endsWith('defender') && !i.name.endsWith('boots')
+  );
+
   const listName = `CONST_${scope}_${list.name}`;
   const varName = `VAR_${scope}_HIDE_${list.name}`;
-  const listValue = JSON.stringify(list.items.map((item) => item.name));
+  const listValue = JSON.stringify(items.map((item) => item.name));
   return `/*@ define:input
 type: boolean
 group: '${group}'

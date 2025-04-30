@@ -82,14 +82,16 @@ const WIKI = 'https://oldschool.runescape.wiki/w/';
 const wikiURL = (path: string | string[]): string | string[] =>
   typeof path === 'string' ? WIKI + path : path.map((p) => WIKI + p);
 
-const equipmentList = (
+const infotableList = (
   name: string,
-  path: string | string[]
+  path: string | string[],
+  sections?: string[]
 ): ItemListSource => ({
   name,
   url: wikiURL(path),
   capture: [
     {
+      sections,
       pattern: /{{Infotable Bonuses\|.+}}/g,
       transform: (match: string): string[] =>
         match
@@ -170,13 +172,14 @@ const gepList = (
 
 (async function () {
   const sources: ItemListSource[] = [
-    equipmentList('EQUIP_BRONZE', 'Bronze_equipment'),
-    equipmentList('EQUIP_IRON', 'Iron_equipment'),
-    equipmentList('EQUIP_STEEL', 'Steel_equipment'),
-    equipmentList('EQUIP_BLACK', 'Black_equipment'),
-    equipmentList('EQUIP_MITHRIL', '_equipment'),
-    equipmentList('EQUIP_ADAMANT', 'Adamant_equipment'),
-    equipmentList('EQUIP_RUNE', 'Rune_equipment'),
+    infotableList('EQUIP_BRONZE', 'Bronze_equipment'),
+    infotableList('EQUIP_IRON', 'Iron_equipment'),
+    infotableList('EQUIP_STEEL', 'Steel_equipment'),
+    infotableList('EQUIP_BLACK', 'Black_equipment'),
+    infotableList('EQUIP_MITHRIL', '_equipment'),
+    infotableList('EQUIP_ADAMANT', 'Adamant_equipment'),
+    infotableList('EQUIP_RUNE', 'Rune_equipment'),
+    infotableList('EQUIP_DEFENDER', 'Defender', ['Standard defenders']),
 
     seedList('SEED_ALLOTMENT', 'Allotment_patch/Seeds'),
     seedList('SEED_FLOWER', 'Flower_patch/Seeds'),

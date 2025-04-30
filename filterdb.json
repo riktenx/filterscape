@@ -622,6 +622,35 @@
         }
       ]
     },
+    "EQUIP_DEFENDER": {
+      "name": "EQUIP_DEFENDER",
+      "items": [
+        {
+          "name": "Bronze defender"
+        },
+        {
+          "name": "Iron defender"
+        },
+        {
+          "name": "Steel defender"
+        },
+        {
+          "name": "Black defender"
+        },
+        {
+          "name": "Mithril defender"
+        },
+        {
+          "name": "Adamant defender"
+        },
+        {
+          "name": "Rune defender"
+        },
+        {
+          "name": "Dragon defender"
+        }
+      ]
+    },
     "SEED_ALLOTMENT": {
       "name": "SEED_ALLOTMENT",
       "items": [

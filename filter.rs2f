@@ -307,7 +307,7 @@ type: boolean
 group: 'Equipment'
 label: 'Hide adamant equipment'
 */
-#define VAR_JUNK_HIDE_EQUIP_ADAMANT true
+#define VAR_JUNK_HIDE_EQUIP_ADAMANT false
 
 #define CONST_JUNK_EQUIP_ADAMANT ["Adamant dagger","Adamant axe","Adamant mace","Adamant sword","Adamant longsword","Adamant scimitar","Adamant hasta","Adamant warhammer","Adamant battleaxe","Adamant pickaxe","Adamant cane","Adamant claws","Adamant spear","Adamant 2h sword","Adamant halberd","Adamant crossbow","Adamant bolts","Adamant arrow","Adamant brutal","Adamant dart","Adamant javelin","Adamant thrownaxe","Adamant knife","Adamant med helm","Adamant full helm","Adamant chainbody","Adamant platebody","Adamant platelegs","Adamant plateskirt","Adamant sq shield","Adamant kiteshield","Adamant gloves"]
 apply (VAR_JUNK_HIDE_EQUIP_ADAMANT && name:CONST_JUNK_EQUIP_ADAMANT) { hidden = true; }

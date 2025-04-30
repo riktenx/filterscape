@@ -27,7 +27,7 @@ ${hideCheckbox('JUNK', 'Equipment', 'Hide iron equipment', true, db.items['EQUIP
 ${hideCheckbox('JUNK', 'Equipment', 'Hide steel equipment', true, db.items['EQUIP_STEEL']!!)}
 ${hideCheckbox('JUNK', 'Equipment', 'Hide black equipment', true, db.items['EQUIP_BLACK']!!)}
 ${hideCheckbox('JUNK', 'Equipment', 'Hide mithril equipment', true, db.items['EQUIP_MITHRIL']!!)}
-${hideCheckbox('JUNK', 'Equipment', 'Hide adamant equipment', true, db.items['EQUIP_ADAMANT']!!)}
+${hideCheckbox('JUNK', 'Equipment', 'Hide adamant equipment', false, db.items['EQUIP_ADAMANT']!!)}
 ${hideCheckbox('JUNK', 'Equipment', 'Hide rune equipment', false, db.items['EQUIP_RUNE']!!)}
 
 ${hideCheckbox('JUNK', 'Seeds', 'Hide allotment seeds', true, db.items['SEED_ALLOTMENT']!!)}

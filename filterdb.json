@@ -651,6 +651,236 @@
         }
       ]
     },
+    "EQUIP_AXE_WC": {
+      "name": "EQUIP_AXE_WC",
+      "items": [
+        {
+          "name": "Bronze axe"
+        },
+        {
+          "name": "Iron axe"
+        },
+        {
+          "name": "Steel axe"
+        },
+        {
+          "name": "Black axe"
+        },
+        {
+          "name": "Mithril axe"
+        },
+        {
+          "name": "Adamant axe"
+        },
+        {
+          "name": "Rune axe"
+        },
+        {
+          "name": "Dragon axe"
+        },
+        {
+          "name": "Crystal axe"
+        },
+        {
+          "name": "Bronze felling axe"
+        },
+        {
+          "name": "Iron felling axe"
+        },
+        {
+          "name": "Steel felling axe"
+        },
+        {
+          "name": "Black felling axe"
+        },
+        {
+          "name": "Mithril felling axe"
+        },
+        {
+          "name": "Adamant felling axe"
+        },
+        {
+          "name": "Rune felling axe"
+        },
+        {
+          "name": "Dragon felling axe"
+        },
+        {
+          "name": "Crystal felling axe"
+        },
+        {
+          "name": "Blessed axe"
+        },
+        {
+          "name": "Gilded axe"
+        },
+        {
+          "name": "Infernal axe"
+        },
+        {
+          "name": "3rd age axe"
+        },
+        {
+          "name": "3rd age felling axe"
+        }
+      ]
+    },
+    "EQUIP_METAL_BOOTS": {
+      "name": "EQUIP_METAL_BOOTS",
+      "items": [
+        {
+          "name": "Bronze boots"
+        },
+        {
+          "name": "Iron boots"
+        },
+        {
+          "name": "Steel boots"
+        },
+        {
+          "name": "Black boots"
+        },
+        {
+          "name": "White boots"
+        },
+        {
+          "name": "Mithril boots"
+        },
+        {
+          "name": "Adamant boots"
+        },
+        {
+          "name": "Rune boots"
+        },
+        {
+          "name": "Dragonstone boots"
+        },
+        {
+          "name": "Gilded boots"
+        },
+        {
+          "name": "Spiked menacles"
+        },
+        {
+          "name": "Dragon boots"
+        },
+        {
+          "name": "Primordial boots"
+        },
+        {
+          "name": "Bandos boots"
+        },
+        {
+          "name": "Guardian boots"
+        },
+        {
+          "name": "Echo boots"
+        }
+      ]
+    },
+    "EQUIP_PICKAXE": {
+      "name": "EQUIP_PICKAXE",
+      "items": [
+        {
+          "name": "Bronze pickaxe"
+        },
+        {
+          "name": "Iron pickaxe"
+        },
+        {
+          "name": "Steel pickaxe"
+        },
+        {
+          "name": "Black pickaxe"
+        },
+        {
+          "name": "Mithril pickaxe"
+        },
+        {
+          "name": "Adamant pickaxe"
+        },
+        {
+          "name": "Rune pickaxe"
+        },
+        {
+          "name": "Dragon pickaxe"
+        },
+        {
+          "name": "Crystal pickaxe"
+        },
+        {
+          "name": "Gilded pickaxe"
+        },
+        {
+          "name": "Dragon pickaxe (or)"
+        },
+        {
+          "name": "Dragon pickaxe (or) (Trailblazer)"
+        },
+        {
+          "name": "Dragon pickaxe (or) (Trailblazer)"
+        },
+        {
+          "name": "Infernal pickaxe (or)"
+        },
+        {
+          "name": "3rd age pickaxe"
+        },
+        {
+          "name": "Dragon pickaxe (upgraded)"
+        },
+        {
+          "name": "Infernal pickaxe"
+        }
+      ]
+    },
+    "EQUIP_SPEAR": {
+      "name": "EQUIP_SPEAR",
+      "items": [
+        {
+          "name": "Bronze spear"
+        },
+        {
+          "name": "Iron spear"
+        },
+        {
+          "name": "Steel spear"
+        },
+        {
+          "name": "Black spear"
+        },
+        {
+          "name": "Mithril spear"
+        },
+        {
+          "name": "Adamant spear"
+        },
+        {
+          "name": "Rune spear"
+        },
+        {
+          "name": "Dragon spear"
+        },
+        {
+          "name": "Anger spear"
+        },
+        {
+          "name": "Bone spear"
+        },
+        {
+          "name": "Gilded spear"
+        },
+        {
+          "name": "Leaf-bladed spear"
+        },
+        {
+          "name": "Guthan's warspear"
+        },
+        {
+          "name": "Zamorakian spear"
+        }
+      ]
+    },
     "SEED_ALLOTMENT": {
       "name": "SEED_ALLOTMENT",
       "items": [

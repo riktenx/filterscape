@@ -1,7 +1,8 @@
 {
   "type": "module",
   "scripts": {
-    "generate": "node generate.ts && node generate.js"
+    "generate": "node generate.ts && node generate.js",
+    "db": "node --experimental-transform-types filterdb/generate.ts"
   },
   "dependencies": {
     "@types/node": "^22.15.0"

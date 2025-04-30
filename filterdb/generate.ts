@@ -180,6 +180,10 @@ const gepList = (
     infotableList('EQUIP_ADAMANT', 'Adamant_equipment'),
     infotableList('EQUIP_RUNE', 'Rune_equipment'),
     infotableList('EQUIP_DEFENDER', 'Defender', ['Standard defenders']),
+    infotableList('EQUIP_AXE_WC', 'Axe'),
+    infotableList('EQUIP_METAL_BOOTS', 'Metal_boots'),
+    infotableList('EQUIP_PICKAXE', 'Pickaxe'),
+    infotableList('EQUIP_SPEAR', 'Spear'),
 
     seedList('SEED_ALLOTMENT', 'Allotment_patch/Seeds'),
     seedList('SEED_FLOWER', 'Flower_patch/Seeds'),

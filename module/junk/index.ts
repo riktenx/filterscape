@@ -54,7 +54,11 @@ const hideCheckbox = (
 ): string => {
   // manual filter for now
   const items = list.items.filter(
-    (i) => !i.name.endsWith('defender') && !i.name.endsWith('boots')
+    (i) =>
+      !i.name.endsWith('defender') &&
+      !i.name.endsWith('boots') &&
+      !i.name.endsWith('axe') &&
+      !i.name.endsWith('spear')
   );
 
   const listName = `CONST_${scope}_${list.name}`;

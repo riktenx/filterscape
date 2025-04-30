@@ -239,6 +239,86 @@ rule (name:VAR_HIDES_STRINGLIST__HIDE) {
 
 
 
+/*@ define:module:hidejunk
+name: Hide junk
+description: |
+  Hide junk items in bulk. This should generally eliminate the need for a
+  massive hide list in your plugin config.
+
+  All of these rules hide BY DEFAULT. Value rules and other things can override
+  them.
+*/
+
+/*@ define:input
+type: boolean
+group: 'Equipment'
+label: 'Hide bronze equipment'
+*/
+#define VAR_JUNK_HIDE_EQUIP_BRONZE true
+
+#define CONST_JUNK_EQUIP_BRONZE ["Bronze dagger","Bronze axe","Bronze mace","Bronze sword","Bronze longsword","Bronze scimitar","Bronze hasta","Bronze warhammer","Bronze battleaxe","Bronze pickaxe","Bronze claws","Bronze spear","Bronze 2h sword","Bronze halberd","Bronze crossbow","Bronze bolts","Bronze arrow","Bronze brutal","Bronze dart","Bronze javelin","Bronze thrownaxe","Bronze knife","Bronze med helm","Bronze full helm","Bronze chainbody","Bronze platebody","Bronze platelegs","Bronze plateskirt","Bronze sq shield","Bronze kiteshield","Bronze boots","Bronze gloves","Bronze defender"]
+apply (VAR_JUNK_HIDE_EQUIP_BRONZE && name:CONST_JUNK_EQUIP_BRONZE) { hidden = true; }
+
+/*@ define:input
+type: boolean
+group: 'Equipment'
+label: 'Hide iron equipment'
+*/
+#define VAR_JUNK_HIDE_EQUIP_IRON true
+
+#define CONST_JUNK_EQUIP_IRON ["Iron dagger","Iron axe","Iron mace","Iron sword","Iron longsword","Iron scimitar","Iron hasta","Iron warhammer","Iron battleaxe","Iron pickaxe","Iron claws","Iron spear","Iron 2h sword","Iron halberd","Iron crossbow","Iron bolts","Iron arrow","Iron brutal","Iron dart","Iron javelin","Iron thrownaxe","Iron knife","Iron med helm","Iron full helm","Iron chainbody","Iron platebody","Iron platelegs","Iron plateskirt","Iron sq shield","Iron kiteshield","Iron boots","Iron gloves","Iron defender"]
+apply (VAR_JUNK_HIDE_EQUIP_IRON && name:CONST_JUNK_EQUIP_IRON) { hidden = true; }
+
+/*@ define:input
+type: boolean
+group: 'Equipment'
+label: 'Hide steel equipment'
+*/
+#define VAR_JUNK_HIDE_EQUIP_STEEL true
+
+#define CONST_JUNK_EQUIP_STEEL ["Steel dagger","Steel axe","Steel mace","Steel sword","Steel longsword","Steel scimitar","Steel hasta","Steel warhammer","Steel battleaxe","Steel pickaxe","Steel claws","Steel spear","Steel 2h sword","Steel halberd","Steel crossbow","Steel bolts","Steel arrow","Steel brutal","Steel dart","Steel javelin","Steel thrownaxe","Steel knife","Steel med helm","Steel full helm","Steel chainbody","Steel platebody","Steel platelegs","Steel plateskirt","Steel sq shield","Steel kiteshield","Steel boots","Steel gloves","Steel defender"]
+apply (VAR_JUNK_HIDE_EQUIP_STEEL && name:CONST_JUNK_EQUIP_STEEL) { hidden = true; }
+
+/*@ define:input
+type: boolean
+group: 'Equipment'
+label: 'Hide black equipment'
+*/
+#define VAR_JUNK_HIDE_EQUIP_BLACK true
+
+#define CONST_JUNK_EQUIP_BLACK ["Black dagger","Black axe","Black mace","Black sword","Black longsword","Black scimitar","Black warhammer","Black battleaxe","Black pickaxe","Black claws","Black spear","Black 2h sword","Black halberd","Black brutal","Black dart","Black knife","Black med helm","Black full helm","Black chainbody","Black platebody","Black platelegs","Black plateskirt","Black sq shield","Black kiteshield","Black boots","Black gloves","Black defender","Elite black full helm","Elite black platebody","Elite black platelegs"]
+apply (VAR_JUNK_HIDE_EQUIP_BLACK && name:CONST_JUNK_EQUIP_BLACK) { hidden = true; }
+
+/*@ define:input
+type: boolean
+group: 'Equipment'
+label: 'Hide mithril equipment'
+*/
+#define VAR_JUNK_HIDE_EQUIP_MITHRIL true
+
+#define CONST_JUNK_EQUIP_MITHRIL []
+apply (VAR_JUNK_HIDE_EQUIP_MITHRIL && name:CONST_JUNK_EQUIP_MITHRIL) { hidden = true; }
+
+/*@ define:input
+type: boolean
+group: 'Equipment'
+label: 'Hide adamant equipment'
+*/
+#define VAR_JUNK_HIDE_EQUIP_ADAMANT true
+
+#define CONST_JUNK_EQUIP_ADAMANT ["Adamant dagger","Adamant axe","Adamant mace","Adamant sword","Adamant longsword","Adamant scimitar","Adamant hasta","Adamant warhammer","Adamant battleaxe","Adamant pickaxe","Adamant cane","Adamant claws","Adamant spear","Adamant 2h sword","Adamant halberd","Adamant crossbow","Adamant bolts","Adamant arrow","Adamant brutal","Adamant dart","Adamant javelin","Adamant thrownaxe","Adamant knife","Adamant med helm","Adamant full helm","Adamant chainbody","Adamant platebody","Adamant platelegs","Adamant plateskirt","Adamant sq shield","Adamant kiteshield","Adamant boots","Adamant gloves","Adamant defender"]
+apply (VAR_JUNK_HIDE_EQUIP_ADAMANT && name:CONST_JUNK_EQUIP_ADAMANT) { hidden = true; }
+
+/*@ define:input
+type: boolean
+group: 'Equipment'
+label: 'Hide rune equipment'
+*/
+#define VAR_JUNK_HIDE_EQUIP_RUNE false
+
+#define CONST_JUNK_EQUIP_RUNE ["Rune dagger","Rune axe","Rune mace","Rune sword","Rune longsword","Rune scimitar","Rune hasta","Rune warhammer","Rune battleaxe","Rune pickaxe","Rune claws","Rune spear","Rune 2h sword","Rune halberd","Rune crossbow","Runite bolts","Rune arrow","Rune brutal","Rune dart","Rune javelin","Rune thrownaxe","Rune knife","Rune med helm","Rune full helm","Rune chainbody","Rune platebody","Rune platelegs","Rune plateskirt","Rune sq shield","Rune kiteshield","Rune boots","Rune gloves","Rune defender"]
+apply (VAR_JUNK_HIDE_EQUIP_RUNE && name:CONST_JUNK_EQUIP_RUNE) { hidden = true; }
+
 
 /*@ define:module:bloodveld
 name: Bloodveld

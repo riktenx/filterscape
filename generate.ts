@@ -1,7 +1,5 @@
 import fs from 'fs';
 
-import type { FilterDB } from './filterdb/types.ts';
-
 import { FragmentGeneratorBase } from './filterdb/fragmentgenerator.ts';
 
 import db from './filterdb.json' with { type: 'json' };
@@ -9,9 +7,6 @@ import db from './filterdb.json' with { type: 'json' };
 const MODULE_PATH = './module';
 
 (async function () {
-  db as FilterDB;
-  console.log(db);
-
   const files = fs.readdirSync(MODULE_PATH, {
     recursive: true,
     withFileTypes: true,

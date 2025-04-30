@@ -32,8 +32,8 @@ ${hideCheckbox('JUNK', 'Equipment', 'Hide rune equipment', false, db.items['EQUI
 
 const hideCheckbox = (
   scope: string,
-  label: string,
   group: string,
+  label: string,
   defaultValue: boolean,
   list: FilterDBItemList
 ): string => {

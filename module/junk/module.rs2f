@@ -10,8 +10,8 @@ description: |
 
 /*@ define:input
 type: boolean
-group: 'Hide bronze equipment'
-label: 'Equipment'
+group: 'Equipment'
+label: 'Hide bronze equipment'
 */
 #define VAR_JUNK_HIDE_EQUIP_BRONZE true
 
@@ -20,8 +20,8 @@ apply (VAR_JUNK_HIDE_EQUIP_BRONZE && name:CONST_JUNK_EQUIP_BRONZE) { hidden = tr
 
 /*@ define:input
 type: boolean
-group: 'Hide iron equipment'
-label: 'Equipment'
+group: 'Equipment'
+label: 'Hide iron equipment'
 */
 #define VAR_JUNK_HIDE_EQUIP_IRON true
 
@@ -30,8 +30,8 @@ apply (VAR_JUNK_HIDE_EQUIP_IRON && name:CONST_JUNK_EQUIP_IRON) { hidden = true; 
 
 /*@ define:input
 type: boolean
-group: 'Hide steel equipment'
-label: 'Equipment'
+group: 'Equipment'
+label: 'Hide steel equipment'
 */
 #define VAR_JUNK_HIDE_EQUIP_STEEL true
 
@@ -40,8 +40,8 @@ apply (VAR_JUNK_HIDE_EQUIP_STEEL && name:CONST_JUNK_EQUIP_STEEL) { hidden = true
 
 /*@ define:input
 type: boolean
-group: 'Hide black equipment'
-label: 'Equipment'
+group: 'Equipment'
+label: 'Hide black equipment'
 */
 #define VAR_JUNK_HIDE_EQUIP_BLACK true
 
@@ -50,8 +50,8 @@ apply (VAR_JUNK_HIDE_EQUIP_BLACK && name:CONST_JUNK_EQUIP_BLACK) { hidden = true
 
 /*@ define:input
 type: boolean
-group: 'Hide mithril equipment'
-label: 'Equipment'
+group: 'Equipment'
+label: 'Hide mithril equipment'
 */
 #define VAR_JUNK_HIDE_EQUIP_MITHRIL true
 
@@ -60,8 +60,8 @@ apply (VAR_JUNK_HIDE_EQUIP_MITHRIL && name:CONST_JUNK_EQUIP_MITHRIL) { hidden = 
 
 /*@ define:input
 type: boolean
-group: 'Hide adamant equipment'
-label: 'Equipment'
+group: 'Equipment'
+label: 'Hide adamant equipment'
 */
 #define VAR_JUNK_HIDE_EQUIP_ADAMANT true
 
@@ -70,8 +70,8 @@ apply (VAR_JUNK_HIDE_EQUIP_ADAMANT && name:CONST_JUNK_EQUIP_ADAMANT) { hidden = 
 
 /*@ define:input
 type: boolean
-group: 'Hide rune equipment'
-label: 'Equipment'
+group: 'Equipment'
+label: 'Hide rune equipment'
 */
 #define VAR_JUNK_HIDE_EQUIP_RUNE false
 

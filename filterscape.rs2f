@@ -5397,7 +5397,7 @@ group: Low tier
 /*@ define:input:item_values
 type: style
 label: Style
-group: Insane tier
+group: '++Insane tier'
 exampleItem: Torva platebody (damaged)
 */
 #define VAR_VALUE_T5_CUSTOMSTYLE \
@@ -5410,7 +5410,7 @@ exampleItem: Torva platebody (damaged)
 /*@ define:input:item_values
 type: style
 label: Style
-group: Insane tier
+group: '+Insane tier'
 exampleItem: Zaryte vambraces
 */
 #define VAR_VALUE_T4_CUSTOMSTYLE \

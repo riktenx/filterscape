@@ -5347,140 +5347,123 @@ apply (name:VAR_CURRENCY_ITEMS) {
 
 
 
-
 /*@ define:module:item_values
 ---
 name: Item values
 */
 
-#define VAR_VALUE_T9_ENABLED false
-#define VAR_VALUE_T8_ENABLED false
-#define VAR_VALUE_T7_ENABLED false
-#define VAR_VALUE_T6_ENABLED false
-#define VAR_VALUE_T5_ENABLED true
-#define VAR_VALUE_T4_ENABLED true
-#define VAR_VALUE_T3_ENABLED true
-#define VAR_VALUE_T2_ENABLED true
-#define VAR_VALUE_T1_ENABLED true
-#define VAR_VALUE_T0_ENABLED true
-
-#define VAR_VALUE_T9_VALUE 0
-#define VAR_VALUE_T8_VALUE 0
-#define VAR_VALUE_T7_VALUE 0
-#define VAR_VALUE_T6_VALUE 0
 /*@ define:input:item_values
 type: number
 label: Value
-group: t5
+group: '++Insane tier'
 */
 #define VAR_VALUE_T5_VALUE 100000000
 
 /*@ define:input:item_values
 type: number
 label: Value
-group: t4
+group: '+Insane tier'
 */
-#define VAR_VALUE_T4_VALUE 10000000
+#define VAR_VALUE_T4_VALUE 50000000
 
 /*@ define:input:item_values
 type: number
 label: Value
-group: t3
+group: Insane tier
 */
-#define VAR_VALUE_T3_VALUE 1000000
+#define VAR_VALUE_T3_VALUE 10000000
 
 /*@ define:input:item_values
 type: number
 label: Value
-group: t2
+group: High tier
 */
-#define VAR_VALUE_T2_VALUE 500000
+#define VAR_VALUE_T2_VALUE 1000000
 
 /*@ define:input:item_values
 type: number
 label: Value
-group: t1
+group: Medium tier
 */
 #define VAR_VALUE_T1_VALUE 100000
 
 /*@ define:input:item_values
 type: number
 label: Value
-group: t0
+group: Low tier
 */
-#define VAR_VALUE_T0_VALUE 10000
+#define VAR_VALUE_T0_VALUE 20000
 
-
-#define VAR_VALUE_T9_CUSTOMSTYLE 
-#define VAR_VALUE_T8_CUSTOMSTYLE 
-#define VAR_VALUE_T7_CUSTOMSTYLE 
-#define VAR_VALUE_T6_CUSTOMSTYLE 
 /*@ define:input:item_values
 type: style
 label: Style
-group: t5
-exampleItem: Divine Orb
+group: Insane tier
+exampleItem: Torva platebody (damaged)
 */
 #define VAR_VALUE_T5_CUSTOMSTYLE \
   textColor = "#ff0000";\
-  backgroundColor = "#ffffff";\
   borderColor = "#ff0000";\
+  backgroundColor = "#ffffff";\
   textAccent = 3;\
-  fontType = 2;\
   showLootbeam = true;
 
 /*@ define:input:item_values
 type: style
 label: Style
-group: t4
+group: Insane tier
+exampleItem: Zaryte vambraces
 */
 #define VAR_VALUE_T4_CUSTOMSTYLE \
   textColor = "#ffffff";\
-  backgroundColor = "#f0a523";\
   borderColor = "#ffffff";\
-  textAccent = 3;\
-  showLootbeam = true;
+  backgroundColor = "#80ff0000";\
+  showLootbeam = true;\
+  lootbeamColor = "#ff0000";
 
 /*@ define:input:item_values
 type: style
 label: Style
-group: t3
+group: Insane tier
+exampleItem: Bandos tassets
 */
 #define VAR_VALUE_T3_CUSTOMSTYLE \
-  textColor = "#000000";\
-  backgroundColor = "#f0a523";\
-  borderColor = "#000000";\
-  lootbeamColor = "#f0a523";\
-  menuTextColor = "#f0a523";\
-  textAccent = 3;\
+  textColor = "#ff66b2";\
+  borderColor = "#ff66b2";\
+  backgroundColor = "#80ffffff";\
+  textAccent = 4;\
   showLootbeam = true;
 
 /*@ define:input:item_values
 type: style
 label: Style
-group: t2
+group: High tier
+exampleItem: Abyssal whip
 */
 #define VAR_VALUE_T2_CUSTOMSTYLE \
-  textColor = "#f99619";\
-  borderColor = "#f99619";\
-  textAccent = 2;
+  textColor = "#ff9600";\
+  borderColor = "#ff9600";\
+  backgroundColor = "#80ffffff";\
+  textAccent = 4;\
+  showLootbeam = true;
 
 /*@ define:input:item_values
 type: style
 label: Style
-group: t1
+group: Medium tier
+exampleItem: Dragon pickaxe
 */
 #define VAR_VALUE_T1_CUSTOMSTYLE \
-  textColor = "#d59f00";\
-  textAccent = 2;
+  textColor = "#99ff99";\
+  borderColor = "#99ff99";
 
 /*@ define:input:item_values
 type: style
 label: Style
-group: t0
+group: Low tier
+exampleItem: Rune platebody
 */
 #define VAR_VALUE_T0_CUSTOMSTYLE \
-  textColor = "#beb287";
+  textColor = "#66b2ff";
 
 /*@ define:input
 type: number
@@ -5496,30 +5479,13 @@ label: "Always show untradeables"
 */
 #define VAR_VALUE_SHOWUNTRADEABLE true
 
-rule (value:>=VAR_VALUE_T5_VALUE) {
-  hidden = false;
-  VAR_VALUE_T5_CUSTOMSTYLE
-}
-rule (value:>=VAR_VALUE_T4_VALUE) {
-  hidden = false;
-  VAR_VALUE_T4_CUSTOMSTYLE
-}
-rule (value:>=VAR_VALUE_T3_VALUE) {
-  hidden = false;
-  VAR_VALUE_T3_CUSTOMSTYLE
-}
-rule (value:>=VAR_VALUE_T2_VALUE) {
-  hidden = false;
-  VAR_VALUE_T2_CUSTOMSTYLE
-}
-rule (value:>=VAR_VALUE_T1_VALUE) {
-  hidden = false;
-  VAR_VALUE_T1_CUSTOMSTYLE
-}
-rule (value:>=VAR_VALUE_T0_VALUE) {
-  hidden = false;
-  VAR_VALUE_T0_CUSTOMSTYLE
-}
+rule (value:>=VAR_VALUE_T5_VALUE) { hidden = false; VAR_VALUE_T5_CUSTOMSTYLE }
+rule (value:>=VAR_VALUE_T4_VALUE) { hidden = false; VAR_VALUE_T4_CUSTOMSTYLE }
+rule (value:>=VAR_VALUE_T3_VALUE) { hidden = false; VAR_VALUE_T3_CUSTOMSTYLE }
+rule (value:>=VAR_VALUE_T2_VALUE) { hidden = false; VAR_VALUE_T2_CUSTOMSTYLE }
+rule (value:>=VAR_VALUE_T1_VALUE) { hidden = false; VAR_VALUE_T1_CUSTOMSTYLE }
+rule (value:>=VAR_VALUE_T0_VALUE) { hidden = false; VAR_VALUE_T0_CUSTOMSTYLE }
+
 rule ((tradeable:true || !VAR_VALUE_SHOWUNTRADEABLE) && value:<VAR_VALUE_MINVALUE) {
   hidden = true;
 }

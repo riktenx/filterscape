@@ -142,6 +142,9 @@ const index = [
     name: 'Gargoyle',
     url: 'https://oldschool.runescape.wiki/w/Gargoyle',
     transform: {
+      updateMapAreas: (areas) => {
+        setPlane(areas, '[[Slayer Tower]] basement (Slayer task only)', 3); // wiki is wrong
+      },
       getDefaults: () => {
         return {
           'Weapons and armour': ['Adamant platelegs', 'Adamant boots'],

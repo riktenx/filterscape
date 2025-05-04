@@ -3,11 +3,10 @@
 ---
 name: Herbs
 description: |
-  # Herbs
+  Handles both grimy and cleaned herbs.
   
-  These rules apply to UNnoted herbs only.
-  
-  Noted herbs will fallthrough to value rules.
+  These rules apply to unnoted herbs only. Noted ones will fallthrough to value
+  rules.
 */
 
 #define CONST_HERB_HERBS [\
@@ -32,59 +31,60 @@ description: |
 
 /*@ define:input:herbs
 type: number
-label: Baseline minimum value at which to show herbs.
+label: Minimum value
 */
 #define VAR_HERB_MINVALUE 1
 
 /*@ define:input:herbs
 type: enumlist
-label: Herbs to always show regardless of value
+label: Always show
 enum: [
-  "guam leaf",
-  "marrentill",
-  "tarromin",
-  "harralander",
-  "ranarr weed",
-  "toadflax",
-  "irit leaf",
-  "avantoe",
-  "kwuarm",
-  "huasca",
-  "snapdragon",
-  "cadantine",
-  "lantadyme",
-  "dwarf weed",
-  "torstol"
+  {"label":"Guam leaf","value":"*guam leaf"},
+  {"label":"Marrentill","value":"*marrentill"},
+  {"label":"Tarromin","value":"*tarromin"},
+  {"label":"Harralander","value":"*harralander"},
+  {"label":"Ranarr weed","value":"*ranarr weed"},
+  {"label":"Toadflax","value":"*toadflax"},
+  {"label":"Irit leaf","value":"*irit leaf"},
+  {"label":"Avantoe","value":"*avantoe"},
+  {"label":"Kwuarm","value":"*kwuarm"},
+  {"label":"Huasca","value":"*huasca"},
+  {"label":"Snapdragon","value":"*snapdragon"},
+  {"label":"Cadantine","value":"*cadantine"},
+  {"label":"Lantadyme","value":"*lantadyme"},
+  {"label":"Dwarf weed","value":"*dwarf weed"},
+  {"label":"Torstol","value":"*torstol"}
 ]
 */
 #define VAR_HERB_SHOW []
 
 /*@ define:input:herbs
 type: enumlist
-label: Herbs to always hide regardless of value
+label: Always hide
 enum: [
-  "guam leaf",
-  "marrentill",
-  "tarromin",
-  "harralander",
-  "ranarr weed",
-  "toadflax",
-  "irit leaf",
-  "avantoe",
-  "kwuarm",
-  "huasca",
-  "snapdragon",
-  "cadantine",
-  "lantadyme",
-  "dwarf weed",
-  "torstol"
+  {"label":"Guam leaf","value":"*guam leaf"},
+  {"label":"Marrentill","value":"*marrentill"},
+  {"label":"Tarromin","value":"*tarromin"},
+  {"label":"Harralander","value":"*harralander"},
+  {"label":"Ranarr weed","value":"*ranarr weed"},
+  {"label":"Toadflax","value":"*toadflax"},
+  {"label":"Irit leaf","value":"*irit leaf"},
+  {"label":"Avantoe","value":"*avantoe"},
+  {"label":"Kwuarm","value":"*kwuarm"},
+  {"label":"Huasca","value":"*huasca"},
+  {"label":"Snapdragon","value":"*snapdragon"},
+  {"label":"Cadantine","value":"*cadantine"},
+  {"label":"Lantadyme","value":"*lantadyme"},
+  {"label":"Dwarf weed","value":"*dwarf weed"},
+  {"label":"Torstol","value":"*torstol"}
 ]
 */
-#define VAR_HERB_HIDE ["guam leaf","marrentill","tarromin"]
+#define VAR_HERB_HIDE ["*guam leaf","*marrentill","*tarromin"]
 
 /*@ define:input:herbs
 type: style
 label: Style
+exampleItem: Grimy torstol
 */
 #define VAR_HERB_CUSTOMSTYLE \
   textColor = "#00ff00";

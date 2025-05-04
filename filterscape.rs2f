@@ -221,8 +221,10 @@ group: Hide by default
 label: Items
 */
 #define VAR_HIDES_HIDEBYDEFAULT [\
-  "Vial", "Ashes", "Bones", "Bucket", "Jug", "Seaweed",\
-  "Big bones"\
+  "Vial", "Bucket", "Jug", "Beer glass",\
+  "Vial of water", "Bucket of water", "Jug of water",\
+  "Bones", "Big bones", "Ashes",\
+  "Seaweed", "Broken arrow",\
   ]
 
 /*@ define:input

@@ -3,9 +3,9 @@
 name: Gargoyle
 */
 
-/*@define:input:gargoyle
+/*@ define:input
 type: boolean
-group: Hide drops
+group: General
 label: Hide non-10k coin drops
 */
 #define VAR_GARGOYLE_BOOLEAN_HIDESMALLCOINS true

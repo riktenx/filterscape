@@ -952,9 +952,9 @@ CONST_SKELETALWYVERN_RULE (name:VAR_SKELETALWYVERN_ENUMLIST_FILTER_TERTIARY) {
 name: Gargoyle
 */
 
-/*@define:input:gargoyle
+/*@ define:input
 type: boolean
-group: Hide drops
+group: General
 label: Hide non-10k coin drops
 */
 #define VAR_GARGOYLE_BOOLEAN_HIDESMALLCOINS true

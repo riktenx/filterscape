@@ -14,7 +14,7 @@ CONST_GARGOYLE_RULE (VAR_GARGOYLE_BOOLEAN_HIDESMALLCOINS && name:"Coins" && valu
 }
 
 
-#define CONST_AREA_GARGOYLE0 [3432,3535,2,3446,3548,2] // [[Slayer Tower]] top floor
+#define CONST_AREA_GARGOYLE0 [3430,3554,2,3452,3531,2] // [[Slayer Tower]] top floor
 #define CONST_AREA_GARGOYLE1 [3427,9928,3,3444,9948,3] // [[Slayer Tower]] basement (Slayer task only)
 #define CONST_GARGOYLE_RULE(_cond) rule ((area:CONST_AREA_GARGOYLE0 || \
   area:CONST_AREA_GARGOYLE1) && (_cond))

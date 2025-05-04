@@ -143,6 +143,7 @@ const index = [
     url: 'https://oldschool.runescape.wiki/w/Gargoyle',
     transform: {
       updateMapAreas: (areas) => {
+        areas['[[Slayer Tower]] top floor'] = [3430, 3554, 2, 3452, 3531, 2];
         setPlane(areas, '[[Slayer Tower]] basement (Slayer task only)', 3); // wiki is wrong
       },
       getDefaults: () => {

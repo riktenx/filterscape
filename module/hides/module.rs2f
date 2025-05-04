@@ -16,7 +16,10 @@ type: stringlist
 group: Hide by default
 label: Items
 */
-#define VAR_HIDES_HIDEBYDEFAULT ["Vial", "Ashes", "Bones", "Bucket", "Jug", "Seaweed"]
+#define VAR_HIDES_HIDEBYDEFAULT [\
+  "Vial", "Ashes", "Bones", "Bucket", "Jug", "Seaweed",\
+  "Big bones"\
+  ]
 
 /*@ define:input
 type: stringlist

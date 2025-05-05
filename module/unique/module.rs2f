@@ -7,7 +7,7 @@ name: Uniques
 /*@ define:input:uniques
 type: stringlist
 label: Items
-group: Tier B
+group: Tier S
 */
 #define VAR_UNIQUE_STIER ["Infernal cape","Fire cape","Dizana's quiver*","Unsired","Ancient blood ornament kit","Ultor vestige","Venator vestige","Bellator vestige","Magus vestige","Executioner's axe head","Leviathan's lure","Siren's staff","Eye of the duke","Slepey tablet","*max cape","*mutagen","*champion scroll"]
 

@@ -6,29 +6,29 @@ name: Uniques
 
 /*@ define:input:uniques
 type: stringlist
-label: S-Tier uniques.
-group: s-tier-unique
+label: Items
+group: Tier B
 */
 #define VAR_UNIQUE_STIER ["Infernal cape","Fire cape","Dizana's quiver*","Unsired","Ancient blood ornament kit","Ultor vestige","Venator vestige","Bellator vestige","Magus vestige","Executioner's axe head","Leviathan's lure","Siren's staff","Eye of the duke","Slepey tablet","*max cape","*mutagen","*champion scroll"]
 
 /*@ define:input:uniques
 type: stringlist
-label: A-Tier uniques.
-group: a-tier-unique
+label: Items
+group: Tier A
 */
 #define VAR_UNIQUE_ATIER ["brimstone key","jar of*","noxious pommel","noxious point","noxious blade","*half of key (moon key)"]
 
 /*@ define:input:uniques
 type: stringlist
-label: B-Tier uniques.
-group: b-tier-unique
+label: Items
+group: Tier B
 */
 #define VAR_UNIQUE_BTIER ["dark totem","mossy key","giant key","ecumenical key","abyssal head","araxyte head","alchemical hydra heads","kbd heads","kq head*","dark claw","bludgeon claw","bludgeon spine","bludgeon axon","hydra's eye","hydra's fang","hydra's heart","strangled tablet","scarred tablet","sirenic tablet","frozen tablet","scurrius' spine","vorkath's head"]
 
 /*@ define:input:uniques
 type: stringlist
-label: C-Tier uniques.
-group: c-tier-unique
+label: Items
+group: Tier C
 */
 #define VAR_UNIQUE_CTIER ["dark totem top","dark totem base","dark totem middle","long bone","curved bone","looting bag","unidentified small fossil","unidentified medium fossil","unidentified large fossil","unidentified rare fossil","key master teleport","chromium ingot","blood quartz","smoke quartz","shadow quartz","ice quartz","pendant of ates*","frozen cache","ancient icon","charged ice","parasitic egg"]
 
@@ -36,7 +36,7 @@ group: c-tier-unique
 /*@ define:input:uniques
 type: style
 label: Style
-group: s-tier-unique
+group: Tier S
 exampleItem: Executioner's axe head
 */
 #define VAR_UNIQUE_STIER_CUSTOMSTYLE \
@@ -49,7 +49,8 @@ exampleItem: Executioner's axe head
 /*@ define:input:uniques
 type: style
 label: Style
-group: a-tier-unique
+group: Tier A
+exampleItem: Brimstone key
 */
 #define VAR_UNIQUE_ATIER_CUSTOMSTYLE \
   textColor = "#ffffff";\
@@ -61,7 +62,8 @@ group: a-tier-unique
 /*@ define:input:uniques
 type: style
 label: Style
-group: b-tier-unique
+group: Tier B
+exampleItem: Araxyte head
 */
 #define VAR_UNIQUE_BTIER_CUSTOMSTYLE \
   textColor = "#000000";\
@@ -72,7 +74,8 @@ group: b-tier-unique
 /*@ define:input:uniques
 type: style
 label: Style
-group: c-tier-unique
+group: Tier C
+exampleItem: Dark totem top
 */
 #define VAR_UNIQUE_CTIER_CUSTOMSTYLE \
   textColor = "#af6025";\

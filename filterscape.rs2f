@@ -5337,18 +5337,17 @@ label: Currency / Token items
 */
 #define VAR_CURRENCY_ITEMS ["Mole claw","Mole skin","Trading sticks","Numulite","Abyssal pearls","Anima-infused bark","Barronite shards","Blood money","Ecto-token","Frog token","Golden nugget","Glistening tear","Hallowed mark","Intelligence","Mark of grace","Mermaid's tear","Minnow","Molch pearl","Nuggets","Rare creature parts","Reward token credits","Stardust","Tokkul","Termites","Unidentified minerals","Warrior guild token","Blessed bone shards","Sun-kissed bones","Ecumenical key shard"]
 
-
 /*@ define:input:currency_/_tokens
 type: style
-label: Display
+label: Style
+exampleItem: Mark of grace
+exampleItemId: 11849
 */
 #define VAR_CURRENCY_USERSTYLE \
-  textColor = "#beb287";
+  textColor = "#beb287"; \
+  icon = CurrentItem();
 
-
-apply (name:VAR_CURRENCY_ITEMS) {
-  VAR_CURRENCY_USERSTYLE
-}
+apply (name:VAR_CURRENCY_ITEMS) { VAR_CURRENCY_USERSTYLE }
 
 
 

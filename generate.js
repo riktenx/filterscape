@@ -1,8 +1,5 @@
 import fs from 'fs';
 
-import slayerIndex from './module/slayer/index.json' with { type: 'json' };
-import bossIndex from './module/boss/index.json' with { type: 'json' };
-
 const index = {
   type: 'filter',
   name: 'riktenx/filterscape',
@@ -14,8 +11,8 @@ const index = {
     { modulePath: 'module/highlights/module.json' },
     { modulePath: 'module/hides/module.json' },
     { modulePath: 'module/junk/module.json' },
-    ...slayerIndex,
-    ...bossIndex,
+    { modulePath: 'module/slayer/module.json' },
+    { modulePath: 'module/boss/module.json' },
     { modulePath: 'module/cox/module.json' },
     { modulePath: 'module/toa/module.json' },
     { modulePath: 'module/shadesofmortton/module.json' },

@@ -4,13 +4,13 @@ const useAllowlist = (list) => {
   return (table) => {
     const excludes = {};
     for (const [category, items] of Object.entries(table)) {
-      excludes[category] = items.filter(item => !list.includes(item));
+      excludes[category] = items.filter((item) => !list.includes(item));
     }
     return excludes;
   };
 };
 
-const useGWDTransforms = (transforms) => ({
+const useGWDTransforms = (name, transforms) => ({
   updateDropTable: (table) => {
     delete table['Uniques'];
     delete table['Unique table'];
@@ -20,14 +20,12 @@ const useGWDTransforms = (transforms) => ({
     }
   },
   getDefaults: (table) => {
-    return !!transforms.getDefaults
-      ? transforms.getDefaults(table)
-      : {};
+    return !!transforms.getDefaults ? transforms.getDefaults(table) : {};
   },
   preScript: (scope) => {
     return `/*@ define:input
 type: boolean
-group: General
+group: "${name}"
 label: Hide coin drops from bodyguards
 */
 #define VAR_${scope}_BGHIDECOINS true
@@ -65,39 +63,36 @@ const index = [
     ],
     transform: {
       updateDropTable: (table) => {
-        table["Tertiary"] = [
-          "Ensouled dagannoth head",
-          "Brimstone key",
-        ];
+        table['Tertiary'] = ['Ensouled dagannoth head', 'Brimstone key'];
       },
       getDefaults: useAllowlist([
         // 100%
-        "Dagannoth bones",
+        'Dagannoth bones',
         // Weapons and armour
-        "Dragon axe",
-        "Berserker ring",
-        "Warrior ring",
-        "Mud battlestaff",
-        "Battlestaff",
-        "Seers ring",
-        "Archers ring",
-        "Archer helm",
-        "Farseer helm",
-        "Seercull",
-        "Mithril knife",
-        "Iron knife",
-        "Steel knife",
+        'Dragon axe',
+        'Berserker ring',
+        'Warrior ring',
+        'Mud battlestaff',
+        'Battlestaff',
+        'Seers ring',
+        'Archers ring',
+        'Archer helm',
+        'Farseer helm',
+        'Seercull',
+        'Mithril knife',
+        'Iron knife',
+        'Steel knife',
         // Ores and bars
-        "Coal",
-        "Iron ore",
-        "Steel bar",
+        'Coal',
+        'Iron ore',
+        'Steel bar',
         // Talismans (noted)
-        "Earth talisman",
-        "Air talisman",
-        "Water talisman",
+        'Earth talisman',
+        'Air talisman',
+        'Water talisman',
         // Tertiary
-        "Ensouled dagannoth head",
-        "Brimstone key",
+        'Ensouled dagannoth head',
+        'Brimstone key',
       ]),
     },
   },
@@ -121,19 +116,11 @@ const index = [
       'https://oldschool.runescape.wiki/w/Wingman_Skree',
       'https://oldschool.runescape.wiki/w/Flockleader_Geerin',
     ],
-    transform: useGWDTransforms({
+    transform: useGWDTransforms("Kree'arra", {
       getDefaults: (_) => {
         return {
-          "100%": [
-            "Big bones",
-            "Feather",
-            "Bones"
-          ],
-          "Food and ammunition": [
-            "Steel arrow",
-            "Steel dart",
-            "Smoke rune",
-          ],
+          '100%': ['Big bones', 'Feather', 'Bones'],
+          'Food and ammunition': ['Steel arrow', 'Steel dart', 'Smoke rune'],
         };
       },
     }),
@@ -147,7 +134,7 @@ const index = [
       'https://oldschool.runescape.wiki/w/Bree',
       'https://oldschool.runescape.wiki/w/Growler',
     ],
-    transform: useGWDTransforms({}),
+    transform: useGWDTransforms('Commander Zilyana', {}),
   },
   {
     name: 'General Graardor',
@@ -158,27 +145,12 @@ const index = [
       'https://oldschool.runescape.wiki/w/Sergeant_Steelwill',
       'https://oldschool.runescape.wiki/w/Sergeant_Grimspike',
     ],
-    transform: useGWDTransforms({
+    transform: useGWDTransforms('General Graardor', {
       getDefaults: () => ({
-        "100%": [
-          "Big bones",
-          "Bones",
-        ],
-        "Tertiary": [
-          "Kebab",
-          "Beer",
-          "Right eye patch",
-        ],
-        "Food and ammunition": [
-          "Steel arrow",
-          "Steel dart",
-          "Chilli potato",
-        ],
-        "Other": [
-          "Limpwurt root",
-          "Combat potion(3)",
-          "Super strength(3)",
-        ],
+        '100%': ['Big bones', 'Bones'],
+        Tertiary: ['Kebab', 'Beer', 'Right eye patch'],
+        'Food and ammunition': ['Steel arrow', 'Steel dart', 'Chilli potato'],
+        Other: ['Limpwurt root', 'Combat potion(3)', 'Super strength(3)'],
       }),
     }),
   },
@@ -191,7 +163,7 @@ const index = [
       'https://oldschool.runescape.wiki/w/Tstanon_Karlak',
       'https://oldschool.runescape.wiki/w/Zakl%27n_Gritch',
     ],
-    transform: useGWDTransforms({}),
+    transform: useGWDTransforms("K'ril Tsutsaroth", {}),
   },
   {
     name: 'The Hueycoatl',
@@ -233,11 +205,11 @@ const index = [
     area: [3200, 3904, 0, 3327, 3967, 0],
     url: 'https://oldschool.runescape.wiki/w/Chaos_Elemental',
   },
-//{
-//  name: 'Revenant maledictus',
-//  area: [3136, 10048, 0, 3263, 10239, 0],
-//  url: '', // drop table doesn't work without ref support
-//},
+  //{
+  //  name: 'Revenant maledictus',
+  //  area: [3136, 10048, 0, 3263, 10239, 0],
+  //  url: '', // drop table doesn't work without ref support
+  //},
   {
     name: "Vet'ion",
     area: [3282, 10187, 1, 3307, 10216, 1],
@@ -274,32 +246,27 @@ const index = [
       },
       getDefaults: (_) => {
         return {
-          "Fletching materials": [
-            "Sapphire bolt tips",
-            "Emerald bolt tips",
-            "Ruby bolt tips",
-            "Diamond bolt tips",
+          'Fletching materials': [
+            'Sapphire bolt tips',
+            'Emerald bolt tips',
+            'Ruby bolt tips',
+            'Diamond bolt tips',
           ],
-          "Other": [
-            "Grapes",
-            "Wrath talisman",
-          ],
-          "Tertiary": [
-            "Scaly blue dragonhide",
-          ],
+          Other: ['Grapes', 'Wrath talisman'],
+          Tertiary: ['Scaly blue dragonhide'],
         };
       },
       preScript: () => {
         return `/*@ define:input:vorkath
 type: boolean
-group: General
+group: Vorkath
 label: Hide un-noted blue d-hide
 */
 #define VAR_VORKATH_BOOLEAN_GENERAL_NOHIDE true
 
 /*@ define:input:vorkath
 type: boolean
-group: General
+group: Vorkath
 label: Hide superior dragon bones (why?)
 */
 #define VAR_VORKATH_BOOLEAN_GENERAL_NOBONE false
@@ -363,7 +330,7 @@ CONST_VORKATH_RULE (VAR_VORKATH_BOOLEAN_GENERAL_NOBONE && name:"Superior dragon 
     name: 'Cerberus',
     area: [1208, 1215, 0, 1394, 1340, 0],
     url: 'https://oldschool.runescape.wiki/w/Cerberus',
-  },  
+  },
   {
     name: 'Araxxor',
     area: [3608, 9795, 0, 3651, 9837, 0],
@@ -381,4 +348,8 @@ CONST_VORKATH_RULE (VAR_VORKATH_BOOLEAN_GENERAL_NOBONE && name:"Superior dragon 
   },
 ];
 
-await cmdGenerateModGroup('boss', index);
+const desc = `These sections allow you to filter out drops on a per-boss basis.
+
+Not all of them have defaults yet, they're being added over time.`;
+
+await cmdGenerateModGroup('boss', desc, index);

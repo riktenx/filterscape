@@ -1,0 +1,162 @@
+
+/*@ define:module:droptables
+name: droptables
+*/
+
+#define CONST_DROPTABLES_RULE(_cond) rule (() && (_cond))
+
+/*@ define:input:droptables
+type: enumlist
+label: Allotment seed drop table
+group: Hide drops
+enum: ["Potato seed","Onion seed","Cabbage seed","Tomato seed","Sweetcorn seed","Strawberry seed","Watermelon seed","Snape grass seed"]
+*/
+#define VAR_DROPTABLES_ENUMLIST_FILTER_ALLOTMENTSEEDDROPTABLE []
+CONST_DROPTABLES_RULE (name:VAR_DROPTABLES_ENUMLIST_FILTER_ALLOTMENTSEEDDROPTABLE) {
+  hidden = true;
+}
+
+/*@ define:input:droptables
+type: enumlist
+label: General seed drop table
+group: Hide drops
+enum: ["Potato seed","Onion seed","Cabbage seed","Tomato seed","Sweetcorn seed","Strawberry seed","Watermelon seed","Snape grass seed","Barley seed","Hammerstone seed","Asgarnian seed","Jute seed","Yanillian seed","Krandorian seed","Wildblood seed","Marigold seed","Nasturtium seed","Rosemary seed","Woad seed","Limpwurt seed","Redberry seed","Cadavaberry seed","Dwellberry seed","Jangerberry seed","Whiteberry seed","Poison ivy seed","Guam seed","Marrentill seed","Tarromin seed","Harralander seed","Ranarr seed","Toadflax seed","Irit seed","Avantoe seed","Kwuarm seed","Snapdragon seed","Cadantine seed","Lantadyme seed","Dwarf weed seed","Torstol seed","Mushroom spore","Belladonna seed","Cactus seed","Potato cactus seed"]
+*/
+#define VAR_DROPTABLES_ENUMLIST_FILTER_GENERALSEEDDROPTABLE []
+CONST_DROPTABLES_RULE (name:VAR_DROPTABLES_ENUMLIST_FILTER_GENERALSEEDDROPTABLE) {
+  hidden = true;
+}
+
+/*@ define:input:droptables
+type: enumlist
+label: Rare seed drop table
+group: Hide drops
+enum: ["Toadflax seed","Irit seed","Belladonna seed","Avantoe seed","Poison ivy seed","Cactus seed","Kwuarm seed","Potato cactus seed","Snapdragon seed","Cadantine seed","Lantadyme seed","Snape grass seed","Dwarf weed seed","Torstol seed"]
+*/
+#define VAR_DROPTABLES_ENUMLIST_FILTER_RARESEEDDROPTABLE []
+CONST_DROPTABLES_RULE (name:VAR_DROPTABLES_ENUMLIST_FILTER_RARESEEDDROPTABLE) {
+  hidden = true;
+}
+
+/*@ define:input:droptables
+type: enumlist
+label: Tree-herb seed drop table
+group: Hide drops
+enum: ["Ranarr seed","Snapdragon seed","Torstol seed","Watermelon seed","Willow seed","Mahogany seed","Maple seed","Teak seed","Yew seed","Papaya tree seed","Magic seed","Palm tree seed","Spirit seed","Dragonfruit tree seed","Celastrus seed","Redwood tree seed"]
+*/
+#define VAR_DROPTABLES_ENUMLIST_FILTER_TREEHERBSEEDDROPTABLE []
+CONST_DROPTABLES_RULE (name:VAR_DROPTABLES_ENUMLIST_FILTER_TREEHERBSEEDDROPTABLE) {
+  hidden = true;
+}
+
+/*@ define:input:droptables
+type: enumlist
+label: Uncommon seed drop table
+group: Hide drops
+enum: ["Limpwurt seed","Strawberry seed","Marrentill seed","Jangerberry seed","Tarromin seed","Wildblood seed","Watermelon seed","Harralander seed","Snape grass seed","Ranarr seed","Whiteberry seed","Mushroom spore","Toadflax seed","Belladonna seed","Irit seed","Poison ivy seed","Avantoe seed","Cactus seed","Kwuarm seed","Potato cactus seed","Snapdragon seed","Cadantine seed","Lantadyme seed","Dwarf weed seed","Torstol seed"]
+*/
+#define VAR_DROPTABLES_ENUMLIST_FILTER_UNCOMMONSEEDDROPTABLE []
+CONST_DROPTABLES_RULE (name:VAR_DROPTABLES_ENUMLIST_FILTER_UNCOMMONSEEDDROPTABLE) {
+  hidden = true;
+}
+
+/*@ define:input:droptables
+type: enumlist
+label: Herb drop table
+group: Hide drops
+enum: ["Grimy guam leaf","Grimy marrentill","Grimy tarromin","Grimy harralander","Grimy ranarr weed","Grimy irit leaf","Grimy avantoe","Grimy kwuarm","Grimy cadantine","Grimy lantadyme","Grimy dwarf weed"]
+*/
+#define VAR_DROPTABLES_ENUMLIST_FILTER_HERBDROPTABLE []
+CONST_DROPTABLES_RULE (name:VAR_DROPTABLES_ENUMLIST_FILTER_HERBDROPTABLE) {
+  hidden = true;
+}
+
+/*@ define:input:droptables
+type: enumlist
+label: Useful herb drop table
+group: Hide drops
+enum: ["Grimy avantoe","Grimy snapdragon","Grimy ranarr weed","Grimy torstol"]
+*/
+#define VAR_DROPTABLES_ENUMLIST_FILTER_USEFULHERBDROPTABLE []
+CONST_DROPTABLES_RULE (name:VAR_DROPTABLES_ENUMLIST_FILTER_USEFULHERBDROPTABLE) {
+  hidden = true;
+}
+
+/*@ define:input:droptables
+type: enumlist
+label: Runes and ammunition
+group: Hide drops
+enum: ["Nature rune","Adamant javelin","Death rune","Law rune","Rune arrow","Steel arrow"]
+*/
+#define VAR_DROPTABLES_ENUMLIST_FILTER_RUNESANDAMMUNITION []
+CONST_DROPTABLES_RULE (name:VAR_DROPTABLES_ENUMLIST_FILTER_RUNESANDAMMUNITION) {
+  hidden = true;
+}
+
+/*@ define:input:droptables
+type: enumlist
+label: Weapons and armour
+group: Hide drops
+enum: ["Rune 2h sword","Rune battleaxe","Rune sq shield","Dragon med helm","Rune kiteshield"]
+*/
+#define VAR_DROPTABLES_ENUMLIST_FILTER_WEAPONSANDARMOUR []
+CONST_DROPTABLES_RULE (name:VAR_DROPTABLES_ENUMLIST_FILTER_WEAPONSANDARMOUR) {
+  hidden = true;
+}
+
+/*@ define:input:droptables
+type: enumlist
+label: Other
+group: Hide drops
+enum: ["Coins","Loop half of key","Tooth half of key","Runite bar","Dragonstone","Silver ore"]
+*/
+#define VAR_DROPTABLES_ENUMLIST_FILTER_OTHER []
+CONST_DROPTABLES_RULE (name:VAR_DROPTABLES_ENUMLIST_FILTER_OTHER) {
+  hidden = true;
+}
+
+/*@ define:input:droptables
+type: enumlist
+label: Subtables
+group: Hide drops
+enum: ["Gem drop table","Mega-rare drop table","Nothing","Uncut sapphire","Uncut emerald","Uncut ruby","Talisman","Uncut diamond","Rune javelin","Loop half of key","Tooth half of key","Rune spear","Shield left half","Dragon spear"]
+*/
+#define VAR_DROPTABLES_ENUMLIST_FILTER_SUBTABLES []
+CONST_DROPTABLES_RULE (name:VAR_DROPTABLES_ENUMLIST_FILTER_SUBTABLES) {
+  hidden = true;
+}
+
+/*@ define:input:droptables
+type: enumlist
+label: Fossil drop table
+group: Hide drops
+enum: ["Unidentified small fossil","Unidentified medium fossil","Unidentified large fossil","Unidentified rare fossil"]
+*/
+#define VAR_DROPTABLES_ENUMLIST_FILTER_FOSSILDROPTABLE []
+CONST_DROPTABLES_RULE (name:VAR_DROPTABLES_ENUMLIST_FILTER_FOSSILDROPTABLE) {
+  hidden = true;
+}
+
+/*@ define:input:droptables
+type: enumlist
+label: Superior drop table
+group: Hide drops
+enum: ["Dust battlestaff","Mist battlestaff","Imbued heart","Eternal gem"]
+*/
+#define VAR_DROPTABLES_ENUMLIST_FILTER_SUPERIORDROPTABLE []
+CONST_DROPTABLES_RULE (name:VAR_DROPTABLES_ENUMLIST_FILTER_SUPERIORDROPTABLE) {
+  hidden = true;
+}
+
+/*@ define:input:droptables
+type: enumlist
+label: Talisman drop table
+group: Hide drops
+enum: ["Air talisman","Body talisman","Earth talisman","Fire talisman","Mind talisman","Water talisman","Cosmic talisman","Chaos talisman","Nature talisman"]
+*/
+#define VAR_DROPTABLES_ENUMLIST_FILTER_TALISMANDROPTABLE []
+CONST_DROPTABLES_RULE (name:VAR_DROPTABLES_ENUMLIST_FILTER_TALISMANDROPTABLE) {
+  hidden = true;
+}
+
+// endmodule:droptables

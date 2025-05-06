@@ -3,13 +3,26 @@ import fs from 'fs';
 import { getWikiSource, buildDropTable, buildMapAreas } from './wikiscrape.js';
 import { generateRs2f } from './modgen.js';
 
-const toModuleName = (str) => str
-  .toLowerCase()
-  .replace("'", '')
-  .replaceAll(' ', '');
+const toModuleName = (str) =>
+  str.toLowerCase().replace("'", '').replaceAll(' ', '');
 
-export const cmdGenerateModGroup = async (groupName, index) => {
-  const moduleIndex = [];
+const indent = (str) =>
+  str
+    .split('\n')
+    .map((s) => '  ' + s)
+    .join('\n');
+
+export const cmdGenerateModGroup = async (groupName, description, index) => {
+  const modulePath = `module/${groupName}`;
+
+  const rs2fs = [];
+  rs2fs.push(`/*@ define:module:${groupName}
+name: 'PvM: ${groupName}'
+description: |
+${indent(description)}
+*/
+
+`);
 
   for (const mod of index) {
     if (!mod.url) {
@@ -23,9 +36,12 @@ export const cmdGenerateModGroup = async (groupName, index) => {
       mod.transform = {};
     }
 
-    const wikiSource = typeof mod.url === 'string'
-      ? await getWikiSource(mod.url)
-      : (await Promise.all(mod.url.map(url => getWikiSource(url)))).join('\n');
+    const wikiSource =
+      typeof mod.url === 'string'
+        ? await getWikiSource(mod.url)
+        : (await Promise.all(mod.url.map((url) => getWikiSource(url)))).join(
+            '\n'
+          );
 
     const dropTable = buildDropTable(wikiSource);
     const mapAreas = buildMapAreas(wikiSource);
@@ -41,21 +57,20 @@ export const cmdGenerateModGroup = async (groupName, index) => {
     }
 
     const moduleName = toModuleName(mod.name);
+
     const rs2f = generateRs2f(mod.name, mod.area, dropTable, mod.transform);
+    rs2fs.push(rs2f);
 
-    const modulePath = `module/${groupName}/${moduleName}`;
-    if (!fs.existsSync(modulePath)) {
-      fs.mkdirSync(modulePath);
-    }
-
-    fs.writeFileSync(`${modulePath}/module.rs2f`, rs2f);
-
-    fs.writeFileSync(`${modulePath}/wikiSource`, wikiSource);
-    fs.writeFileSync(`${modulePath}/dropTable`, JSON.stringify(dropTable, null, 2));
-    fs.writeFileSync(`${modulePath}/mapAreas`, JSON.stringify(mapAreas, null, 2));
-
-    moduleIndex.push({ modulePath: `${modulePath}/module.json` });
+    fs.writeFileSync(`${modulePath}/${groupName}.wikiSource`, wikiSource);
+    fs.writeFileSync(
+      `${modulePath}/${groupName}.dropTable`,
+      JSON.stringify(dropTable, null, 2)
+    );
+    fs.writeFileSync(
+      `${modulePath}/${groupName}.mapAreas`,
+      JSON.stringify(mapAreas, null, 2)
+    );
   }
 
-  fs.writeFileSync(`module/${groupName}/index.json`, JSON.stringify(moduleIndex, null, 2));
-}
+  fs.writeFileSync(`${modulePath}/module.rs2f`, rs2fs.join('\n'));
+};

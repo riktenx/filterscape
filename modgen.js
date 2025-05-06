@@ -64,12 +64,6 @@ export const generateRs2f = (name, area, dropTable, transform) => {
 
   let rs2f = '';
 
-  rs2f += `
-/*@ define:module:${moduleName}
-name: ${name}
-*/`;
-  rs2f += '\n\n';
-
   const moduleScope = toMacroIdent(name);
   if (!!transform.preScript) {
     rs2f += transform.preScript(moduleScope);
@@ -98,10 +92,10 @@ name: ${name}
     const jvalue = JSON.stringify(items);
     const ident = toMacroIdent(category);
     // some categories parse with additional = surrounding the mediawiki section, just chop that off for now
-    return `/*@ define:input:${moduleName}
+    return `/*@ define:input
 type: enumlist
-label: ${category.startsWith('=') ? category.substring(1, category.length - 1) : category}
-group: Hide drops
+label: 'Hide drops: ${category.startsWith('=') ? category.substring(1, category.length - 1) : category}'
+group: ${name}
 enum: ${jvalue}
 */
 #define VAR_${moduleScope}_ENUMLIST_FILTER_${ident} ${JSON.stringify(defaults)}

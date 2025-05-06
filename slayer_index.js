@@ -156,7 +156,7 @@ const index = [
       preScript: (scope) => {
         return `/*@ define:input
 type: boolean
-group: General
+group: Gargoyle
 label: Hide non-10k coin drops
 */
 #define VAR_${scope}_BOOLEAN_HIDESMALLCOINS true
@@ -209,4 +209,4 @@ CONST_${scope}_RULE (VAR_${scope}_BOOLEAN_HIDESMALLCOINS && name:"Coins" && valu
   },
 ];
 
-await cmdGenerateModGroup('slayer', index);
+await cmdGenerateModGroup('slayer', 'penis', index);

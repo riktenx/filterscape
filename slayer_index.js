@@ -209,4 +209,10 @@ CONST_${scope}_RULE (VAR_${scope}_BOOLEAN_HIDESMALLCOINS && name:"Coins" && valu
   },
 ];
 
-await cmdGenerateModGroup('slayer', 'penis', index);
+const desc = `Provides per-monster filtering for common slayer tasks. Defaults are being added over time.
+
+Please contact Rikten X in the filterscape discord if:
+* this section is missing a mob you'd like to see
+* the filter isn't working for a specific mob`;
+
+await cmdGenerateModGroup('slayer', desc, index);

@@ -1,7 +1,11 @@
 /*@ define:module:slayer
 name: 'PvM: slayer'
 description: |
-  penis
+  Provides per-monster filtering for common slayer tasks. Defaults are being added over time.
+  
+  Please contact Rikten X in the filterscape discord if:
+  * this section is missing a mob you'd like to see
+  * the filter isn't working for a specific mob
 */
 
 

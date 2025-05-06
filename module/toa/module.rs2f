@@ -1,55 +1,77 @@
-
 /*@ define:module:toa
 ---
 name: ToA
 */
 
-/*@ define:input:toa
+/*@ define:input
 type: style
 label: Ambrosia
-group: potions
 */
 #define VAR_TOA_AMB_USERSTYLE \
-  textColor = "#e3ece3";\
+  textColor = "#acffac";\
   textAccent = 4;
 
-/*@ define:input:toa
+/*@ define:input
 type: style
 label: Liquid adrenaline
-group: potions
 */
 #define VAR_TOA_LQA_USERSTYLE \
   textColor = "#35c6d7";\
   textAccent = 4;
 
-/*@ define:input:toa
+/*@ define:input
 type: style
 label: Nectar
-group: potions
 */
 #define VAR_TOA_NEC_USERSTYLE \
   textColor = "#ffff00";\
   textAccent = 4;
 
-/*@ define:input:toa
+/*@ define:input
 type: style
 label: Tears of elidinis
-group: potions
 */
 #define VAR_TOA_TOE_USERSTYLE \
   textColor = "#e91e63";\
   textAccent = 4;
 
-rule (name:"ambrosia*") {
-  VAR_TOA_AMB_USERSTYLE
-}
-rule (name:"liquid adrenaline*") {
-  VAR_TOA_LQA_USERSTYLE
-}
-rule (name:"nectar*") {
-  VAR_TOA_NEC_USERSTYLE
-}
-rule (name:"tears of elidinis*") {
-  VAR_TOA_TOE_USERSTYLE
-}
+/*@ define:input
+type: style
+label: Smelling salts
+*/
+#define VAR_TOA_SMS_STYLE \
+  textColor = "#d8b01a";\
+  textAccent = 4;
 
+/*@ define:input
+type: style
+label: Silk dressing
+*/
+#define VAR_TOA_SLD_STYLE \
+  textColor = "#d0ffff";\
+  textAccent = 4;
+
+/*@ define:input
+type: style
+label: Blessed crystal scarab
+*/
+#define VAR_TOA_BCS_STYLE \
+  textColor = "#ffffff";\
+  textAccent = 4;
+
+/*@ define:input
+type: style
+label: Honey locust
+*/
+#define VAR_TOA_HNL_STYLE \
+  textColor = "#b17f00";\
+  textAccent = 4;
+
+rule (name:"ambrosia*") { VAR_TOA_AMB_USERSTYLE }
+rule (name:"liquid adrenaline*") { VAR_TOA_LQA_USERSTYLE }
+rule (name:"nectar*") { VAR_TOA_NEC_USERSTYLE }
+rule (name:"tears of elidinis*") { VAR_TOA_TOE_USERSTYLE }
+rule (name:"smelling salts*") { VAR_TOA_SMS_STYLE }
+rule (name:"silk dressing*") { VAR_TOA_SLD_STYLE }
+rule (name:"blessed crystal scarab*") { VAR_TOA_BCS_STYLE }
+rule (name:"honey locust*") { VAR_TOA_HNL_STYLE }

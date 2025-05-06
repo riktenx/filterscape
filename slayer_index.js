@@ -32,6 +32,31 @@ const index = [
     },
   },
   {
+    name: 'Kurask',
+    url: 'https://oldschool.runescape.wiki/w/Kurask',
+    transform: {
+      getDefaults: () => {
+        return {
+          '100%': ['Bones'],
+          'Weapons and armour': ['Mithril kiteshield'],
+          Other: ['Flax'],
+        };
+      },
+      preScript: (scope) => {
+        return `/*@ define:input
+type: boolean
+group: Kurask
+label: Hide non-10k coin drops
+*/
+#define VAR_${scope}_BOOLEAN_HIDESMALLCOINS true
+CONST_${scope}_RULE (VAR_${scope}_BOOLEAN_HIDESMALLCOINS && name:"Coins" && value:<10_000) {
+  hidden = true;
+}
+`;
+      },
+    },
+  },
+  {
     name: 'Nechryael',
     url: 'https://oldschool.runescape.wiki/w/Nechryael',
     transform: {

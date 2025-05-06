@@ -89,6 +89,91 @@ CONST_BLOODVELD_RULE (name:VAR_BLOODVELD_ENUMLIST_FILTER_TERTIARY) {
 }
 
 
+/*@ define:input
+type: boolean
+group: Kurask
+label: Hide non-10k coin drops
+*/
+#define VAR_KURASK_BOOLEAN_HIDESMALLCOINS true
+CONST_KURASK_RULE (VAR_KURASK_BOOLEAN_HIDESMALLCOINS && name:"Coins" && value:<10_000) {
+  hidden = true;
+}
+
+
+#define CONST_AREA_KURASK0 [2694,9992,0,2701,10001,0] // [[Fremennik Slayer Dungeon]] {{Fairycode|AJR}}
+#define CONST_AREA_KURASK1 [2696,9959,0,2716,9977,0] // [[Fremennik Slayer Dungeon]] ([[Slayer task]] only)
+#define CONST_AREA_KURASK2 [3208,12357,0,3258,12389,0] // [[Iorwerth Dungeon]]
+#define CONST_KURASK_RULE(_cond) rule ((area:CONST_AREA_KURASK0 || \
+  area:CONST_AREA_KURASK1 || \
+  area:CONST_AREA_KURASK2) && (_cond))
+
+/*@ define:input
+type: enumlist
+label: 'Hide drops: 100%'
+group: Kurask
+enum: ["Bones"]
+*/
+#define VAR_KURASK_ENUMLIST_FILTER_100 ["Bones"]
+CONST_KURASK_RULE (name:VAR_KURASK_ENUMLIST_FILTER_100) {
+  hidden = true;
+}
+
+/*@ define:input
+type: enumlist
+label: 'Hide drops: Weapons and armour'
+group: Kurask
+enum: ["Mithril kiteshield","Rune longsword","Adamant platebody","Rune axe","Leaf-bladed sword","Mystic robe top (light)","Leaf-bladed battleaxe"]
+*/
+#define VAR_KURASK_ENUMLIST_FILTER_WEAPONSANDARMOUR ["Mithril kiteshield"]
+CONST_KURASK_RULE (name:VAR_KURASK_ENUMLIST_FILTER_WEAPONSANDARMOUR) {
+  hidden = true;
+}
+
+/*@ define:input
+type: enumlist
+label: 'Hide drops: Runes'
+group: Kurask
+enum: ["Nature rune"]
+*/
+#define VAR_KURASK_ENUMLIST_FILTER_RUNES []
+CONST_KURASK_RULE (name:VAR_KURASK_ENUMLIST_FILTER_RUNES) {
+  hidden = true;
+}
+
+/*@ define:input
+type: enumlist
+label: 'Hide drops: Seeds'
+group: Kurask
+enum: ["Limpwurt seed"]
+*/
+#define VAR_KURASK_ENUMLIST_FILTER_SEEDS []
+CONST_KURASK_RULE (name:VAR_KURASK_ENUMLIST_FILTER_SEEDS) {
+  hidden = true;
+}
+
+/*@ define:input
+type: enumlist
+label: 'Hide drops: Other'
+group: Kurask
+enum: ["Coins","Flax","White berries","Papaya fruit","Coconut","Big bones"]
+*/
+#define VAR_KURASK_ENUMLIST_FILTER_OTHER ["Flax"]
+CONST_KURASK_RULE (name:VAR_KURASK_ENUMLIST_FILTER_OTHER) {
+  hidden = true;
+}
+
+/*@ define:input
+type: enumlist
+label: 'Hide drops: Tertiary'
+group: Kurask
+enum: ["Crystal shard","Brimstone key","Kurask head"]
+*/
+#define VAR_KURASK_ENUMLIST_FILTER_TERTIARY []
+CONST_KURASK_RULE (name:VAR_KURASK_ENUMLIST_FILTER_TERTIARY) {
+  hidden = true;
+}
+
+
 #define CONST_AREA_NECHRYAEL0 [3433,3560,2,3449,3574,2] // [[Slayer Tower]] Top Floor
 #define CONST_AREA_NECHRYAEL1 [3403,9954,3,3424,9971,3] // [[Slayer Tower]] Basement
 #define CONST_NECHRYAEL_RULE(_cond) rule ((area:CONST_AREA_NECHRYAEL0 || \

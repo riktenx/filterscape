@@ -232,6 +232,16 @@ CONST_${scope}_RULE (VAR_${scope}_BOOLEAN_HIDESMALLCOINS && name:"Coins" && valu
       },
     },
   },
+  {
+    name: 'Demonic gorilla',
+    url: 'https://oldschool.runescape.wiki/w/Demonic_gorilla',
+    transform: {},
+  },
+  {
+    name: 'Tormented demon',
+    url: 'https://oldschool.runescape.wiki/w/Tormented_Demon',
+    transform: {},
+  },
 ];
 
 const desc = `Provides per-monster filtering for common slayer tasks. Defaults are being added over time.

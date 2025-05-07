@@ -1,276 +1,410 @@
-{{External|rs=Araxyte}}
-{{HasTask|Araxytes}}
-{{Otheruses|the Slayer monster|the boss|Araxxor|the superior variant|Dreadborn Araxyte|other Araxytes|Araxyte (disambiguation)}}
+{{External|rs=Tormented demon}}
+{{HasStrategy}}
+{{HasTask|Greater demons}}
 {{Infobox Monster
-|version1 = Level 96
-|version2 = Level 146
-|name = Araxyte
-|image1 = [[File:Araxyte (lv 96).png|280px]]
-|image2 = [[File:Araxyte (lv 146).png|280px]]
-|release = [[28 July]] [[2021]]
-|update = A Night At The Theatre Rework
+|version1 = 1
+|version2 = 2
+|version3 = 3
+|version4 = 4
+|name = Tormented Demon
+|image1 = [[File:Tormented Demon (1).png|200px]]
+|image2 = [[File:Tormented Demon (2).png|200px]]
+|image3 = [[File:Tormented Demon (3).png|200px]]
+|image4 = [[File:Tormented Demon (4).png|200px]]
+|release = [[10 July]] [[2024]]
+|update = While Guthix Sleeps
 |members = Yes
-|combat1 = 96
-|combat2 = 146
-|size1 = 1
-|size2 = 2
-|examine1 = A large odd-looking spider.
-|examine2 = A very large odd-looking spider.
-|max hit1 = 13
-|max hit2 = 17
-|aggressive = Yes
-|poisonous = Yes ([[venom]])
-|attack style = [[Crush]]
-|attack speed = 4
-|slayxp1 = 60
-|slayxp2 = 100
-|slaylvl = 92
-|cat = Spiders, Araxytes
-|assignedby = turael,spria,nieve,duradel
-|hitpoints1 = 60
-|hitpoints2 = 100
-|att1 = 80
-|str1 = 125
-|def1 = 60
-|att2 = 160
-|str2 = 160
-|def2 = 70
-|mage1 = 60
-|mage2 = 80
-|range = 1
-|attbns = 0
-|strbns = 0
-|amagic = 0
-|mbns = 0
-|arange = 0
-|rngbns = 0
-|dstab = 60
-|dslash = 30
-|dcrush = 20
-|dmagic = 20
-|drange = 20
-|elementalweaknesstype1 = Fire
-|elementalweaknesspercent1 = 50
-|elementalweaknesstype2 = Fire
-|elementalweaknesspercent2 = 50
-|immunepoison = Not immune
-|immunevenom = Not immune
-|dropversion1 = Level 96
-|dropversion2 = Level 146
-|respawn2 = 50
-|respawn1 = 50
-|id1 = 11175,13666
-|id2 = 11176,13667
-|leagueRegion = Morytania
+|combat = 450
+|size = 3
+|examine = Lucien must be incredibly powerful if he can bind such demons to his will.
+|attributes = demon
+|xpbonus = 77.5
+|max hit = 31 (auto) <br/> 45 (special)
+|aggressive = No
+|poisonous = No
+|attack style = All
+|attack speed = 6
+|slayxp = 1065
+|cat = Greater demons
+|assignedby = chaeldar,nieve,kuradal
+|hitpoints = 600
+|att = 255
+|str = 255
+|def = 150
+|mage = 255
+|range = 255
+|attbns = 400
+|strbns = 10
+|amagic = 300
+|mbns = 5
+|arange = 300
+|rngbns = 5
+|dstab = 75
+|dslash = 175
+|dcrush = 68
+|dmagic = 5
+|dlight = 140
+|dstandard = 150
+|dheavy = 90
+|elementalweaknesstype = 
+|elementalweaknesspercent = 
+|immunepoison = No
+|immunevenom = No
+|immunecannon = Yes
+|immunethrall = No
+|respawn = 21
+|id1 = 13599
+|id2 = 13600
+|id3 = 13601
+|id4 = 13602
+|leagueRegion = Misthalin
 }}
-'''Araxytes''' are a rare species of arachnid found exclusively in the [[Morytania Spider Cave]], requiring level 92 [[Slayer]] to kill. As they are abundant in numbers, able to inflict [[venom]], and in a [[multicombat area]], it is dangerous to fight them without prayer and a method to stave off venom.
+'''Tormented demons''' are extremely powerful [[demons]] bound into a state of perpetual agony, healing their bodies as they burn, summoned by the [[Mahjarrat]] [[Lucien]] after he teleports away the [[Stone of Jas]] during [[While Guthix Sleeps]]. They can be found throughout the [[Ancient Guthixian Temple]] after completion of the quest.
 
-Only the larger level 146 araxytes are able to spawn the [[Dreadborn Araxyte|superior variant]].{{CiteReddit|author=JagexBlossom|url=https://www.reddit.com/r/2007scape/comments/1f8p7wx/araxxor_tweaks_poll_82_updates/llg26dy/|title=Araxxor Tweaks & Poll 82 Updates|quote=Hey there :) I can confirm that lvl 96 araxxytes don't spawn superiors, so it is indeed working correctly. |date=|4 September 2024}}
+Tormented demons count as [[greater demons]] for the progression of [[Slayer task]]s. As demons, they are susceptible to the effects of [[demonbane weapons]].
 
-They play a minor role in the quest [[A Night at the Theatre]], where players must steal some [[strange spider eggs]] from their cave.
+They are primarily killed for their [[tormented synapse]]s, which are used to create high-tier demonbane weapons, as well as their [[burning claw]] drop, two of which are combined into the [[burning claws]], a [[special attack]] weapon that sits in between the [[dragon dagger]] and [[dragon claws]] in terms of power.
 
 ==Locations==
 {{LocTableHead|league=yes}}
 {{LocLine
-|name = Araxyte
-|location = [[Morytania Spider Cave]]
-|levels = 96
+|name = Tormented Demon
+|location = [[Ancient Guthixian Temple]]
+|levels = 450
 |members = Yes
-|x:3658,y:9842|x:3663,y:9831|x:3664,y:9837|x:3665,y:9826|x:3667,y:9812|x:3670,y:9817|x:3672,y:9818|x:3673,y:9837|x:3674,y:9807|x:3678,y:9804|x:3679,y:9834|x:3680,y:9840|x:3681,y:9802|x:3684,y:9835|x:3687,y:9836
 |mapID = -1
-|icon = bluePin
-|dropversion = Level 96
-|leagueRegion = Morytania
-}}
-{{LocLine
-|name = Araxyte
-|location = [[Morytania Spider Cave]] (task-only area)
-|levels = 96
-|members = Yes
-|x:3693,y:9845|x:3696,y:9847|x:3697,y:9841|x:3700,y:9835|x:3700,y:9838|x:3700,y:9843|x:3700,y:9845|x:3702,y:9832|x:3703,y:9845|x:3704,y:9837|x:3705,y:9834|x:3705,y:9840
-|mapID = -1
-|icon = bluePin
-|dropversion = Level 96
-|leagueRegion = Morytania
-}}
-{{LocLine
-|name = Araxyte
-|location = [[Morytania Spider Cave]]
-|levels = 146
-|members = Yes
-|x:3660,y:9841|x:3663,y:9835|x:3664,y:9824|x:3667,y:9817|x:3674,y:9834|x:3675,y:9837|x:3681,y:9835
-|mapID = -1
-|dropversion = Level 146
-|leagueRegion = Morytania
-}}
-{{LocLine
-|name = Araxyte
-|location = [[Morytania Spider Cave]] (task-only area)
-|levels = 146
-|members = Yes
-|x:3668,y:9851|x:3675,y:9855|x:3677,y:9852|x:3681,y:9853|x:3686,y:9822|x:3689,y:9817|x:3691,y:9820|x:3692,y:9813|x:3695,y:9821|x:3697,y:9814|x:3700,y:9817|x:3701,y:9820|x:3702,y:9812|x:3666,y:9858|x:3669,y:9859|x:3675,y:9859|x:3679,y:9859|x:3683,y:9859|x:3687,y:9857|x:3692,y:9856|x:3696,y:9858
-|mapID = -1
-|dropversion = Level 146
-|leagueRegion = Morytania
+|plane = 0
+|x:4136,y:4372
+|x:4117,y:4385
+|x:4149,y:4430
+|x:4088,y:4379
+|x:4038,y:4379
+|x:4039,y:4391
+|x:4134,y:4466
+|x:4147,y:4452
+|x:4112,y:4466
+|x:4135,y:4399
+|x:4040,y:4419
+|x:4148,y:4381
+|x:4083,y:4373
+|x:4123,y:4381
+|x:4104,y:4467
+|x:4146,y:4366
+|x:4088,y:4367
+|x:4131,y:4363
+|x:4140,y:4392
+|x:4139,y:4450
+|x:4038,y:4449
+|x:4151,y:4425
+|x:4041,y:4385
+|x:4141,y:4464
+|x:4071,y:4426
+|x:4079,y:4430
+|mtype = pin
+|leagueRegion = Misthalin
 }}
 {{LocTableBottom}}
 
-==Level 96 drops==
+==Multi-combat mechanics==
+[[File:Ancient Guthixian Temple multicombat areas.png|thumb|left|180px|Each multiway region of the temple.]]
+Although the entire [[Ancient Guthixian Temple]] is considered a [[single-way combat]] zone by the game, the temple is a unique outlier in the fact that some areas are pseudo-[[multicombat area]]s. While in the temple, an icon that depicts a tormented demon's head can be seen in the user interface, indicating the amount of demons the player can attack at a time: either one, two, or three.
 
-When on a slayer task, the average araxyte kill is worth {{Coins|floor(({{Average drop value|Araxyte#Level 96|mobname=araxyte|raw=y}}-{{GEP|Aranea boots}}*1*(1/4000))+({{GEP|Aranea boots}}*1*(1/1600)))}}.
-
-When not on a slayer task, the average araxyte kill is worth {{Coins|floor({{Average drop value|Araxyte#Level 96|mobname=araxyte|raw=y}})}}.
-
-===100%===
-{{DropsTableHead|dropversion=Level 96}}
-{{DropsLine|name=Araxyte venom sack|quantity=1|rarity=Always}}
-{{DropsTableBottom}}
-
-===Weapons and armour===
-{{DropsTableHead|dropversion=Level 96}}
-{{DropsLine|name=Adamant longsword|quantity=1|rarity=5/127}}
-{{DropsLine|name=Adamant battleaxe|quantity=1|rarity=5/127}}
-{{DropsLine|name=Rune dagger|quantity=1|rarity=3/127}}
-{{DropsLine|name=Rune med helm|quantity=1|rarity=2/127}}
-{{DropsLine|name=Rune platelegs|quantity=1|rarity=2/127}}
-{{DropsLine|name=Aranea boots|quantity=1|rarity=1/4000|altrarity=1/1600|raritynotes=<ref group=d>The drop rate of aranea boots is 1/1,600 while on an araxyte or spider [[Slayer task]].</ref>}}
-{{DropsTableBottom}}
-{{Reflist|group=d}}
-
-===Runes===
-{{DropsTableHead|dropversion=Level 96}}
-{{DropsLine|name=Air rune|quantity=120-140|rarity=10/127}}
-{{DropsLine|name=Water rune|quantity=120-140|rarity=10/127}}
-{{DropsLine|name=Earth rune|quantity=120-140|rarity=10/127}}
-{{DropsLine|name=Fire rune|quantity=120-140|rarity=10/127}}
-{{DropsLine|name=Cosmic rune|quantity=7-12|rarity=5/127}}
-{{DropsLine|name=Chaos rune|quantity=10-15|rarity=5/127}}
-{{DropsLine|name=Nature rune|quantity=15-20|rarity=5/127}}
-{{DropsLine|name=Death rune|quantity=20-25|rarity=5/127}}
-{{DropsLine|name=Law rune|quantity=12-15|rarity=5/127}}
-{{DropsLine|name=Blood rune|quantity=15-18|rarity=5/127}}
-{{DropsLine|name=Soul rune|quantity=9-12|rarity=5/127}}
-{{DropsTableBottom}}
-
-===Herbs===
-{{HerbDropTableInfo|10/127}}
-{{DropsTableHead|dropversion=Level 96}}
-{{HerbDropLines|10/127}}
-{{DropsTableBottom}}
-
-===Seeds===
-{{UncommonSeedDropTableInfo|10/127}}
-{{DropsTableHead|dropversion=Level 96}}
-{{UncommonSeedDropLines|10/127}}
-{{DropsTableBottom}}
-
-===Other===
-{{DropsTableHead|dropversion=Level 96}}
-{{DropsLine|name=Araxyte venom sack|quantity=2|rarity=5/127}}
-{{DropsLine|name=Coins|quantity=800-1200|rarity=10/127}}
-{{DropsLine|name=Araxyte head|quantity=1|rarity=1/2000}}
-{{DropsTableBottom}}
-
-===Tertiary===
-{{DropsTableHead|dropversion=Level 96}}
-{{DropsLineClue|type=hard|rarity=1/128}}
-{{DropsTableBottom}}
-
-==Level 146 drops==
-
-When on a slayer task, the average araxyte kill is worth {{Coins|floor(({{Average drop value|Araxyte#Level 146|mobname=araxyte|raw=y}}-{{GEP|Aranea boots}}*1*(1/2000))+({{GEP|Aranea boots}}*1*(1/800)))}}.
-
-When not on a slayer task, the average araxyte kill is worth {{Coins|floor({{Average drop value|Araxyte#Level 146|mobname=araxyte|raw=y}})}}.
-
-===100%===
-{{DropsTableHead|dropversion=Level 146}}
-{{DropsLine|name=Araxyte venom sack|quantity=1|rarity=Always}}
-{{DropsTableBottom}}
-
-===Weapons and armour===
-{{DropsTableHead|dropversion=Level 146}}
-{{DropsLine|name=Adamant longsword|quantity=2|rarity=5/127}}
-{{DropsLine|name=Adamant battleaxe|quantity=2|rarity=5/127}}
-{{DropsLine|name=Rune dagger|quantity=2|rarity=3/127}}
-{{DropsLine|name=Rune med helm|quantity=2|rarity=2/127}}
-{{DropsLine|name=Rune platelegs|quantity=2|rarity=2/127}}
-{{DropsLine|name=Aranea boots|quantity=1|rarity=1/2000|altrarity=1/800|raritynotes=<ref group=d>The drop rate of aranea boots is 1/800 while on an araxyte or spider [[Slayer task]].</ref>}}
-{{DropsTableBottom}}
-{{Reflist|group=d}}
-
-===Runes===
-{{DropsTableHead|dropversion=Level 146}}
-{{DropsLine|name=Air rune|quantity=240-280|rarity=10/127}}
-{{DropsLine|name=Water rune|quantity=240-280|rarity=10/127}}
-{{DropsLine|name=Earth rune|quantity=240-280|rarity=10/127}}
-{{DropsLine|name=Fire rune|quantity=240-280|rarity=10/127}}
-{{DropsLine|name=Cosmic rune|quantity=14-24|rarity=5/127}}
-{{DropsLine|name=Chaos rune|quantity=20-30|rarity=5/127}}
-{{DropsLine|name=Nature rune|quantity=30-40|rarity=5/127}}
-{{DropsLine|name=Death rune|quantity=40-50|rarity=5/127}}
-{{DropsLine|name=Law rune|quantity=24-30|rarity=5/127}}
-{{DropsLine|name=Blood rune|quantity=30-36|rarity=5/127}}
-{{DropsLine|name=Soul rune|quantity=18-24|rarity=5/127}}
-{{DropsTableBottom}}
-
-===Herbs===
-{{HerbDropTableInfo|10/127}}
-{{DropsTableHead|dropversion=Level 146}}
-{{HerbDropLines|10/127|2}}
-{{DropsTableBottom}}
-
-===Seeds===
-{{UncommonSeedDropTableInfo|10/127}}
-{{DropsTableHead|dropversion=Level 146}}
-{{UncommonSeedDropLines|10/127|2}}
-{{DropsTableBottom}}
-
-===Other===
-{{DropsTableHead|dropversion=Level 146}}
-{{DropsLine|name=Araxyte venom sack|quantity=4|rarity=5/127}}
-{{DropsLine|name=Coins|quantity=1600-2400|rarity=10/127}}
-{{DropsLine|name=Araxyte head|quantity=1|rarity=1/2000}}
-{{DropsTableBottom}}
-
-===Tertiary===
-{{DropsTableHead|dropversion=Level 146}}
-{{DropsLineClue|type=hard|rarity=1/128}}
-{{DropsTableBottom}}
-
-==Gallery==
-<gallery mode="packed" heights="180" style="text-align:left">
-Araxyte concept art.jpg|Concept art for araxytes (left) and the [[Nylocas Queen]] (right) by [[Mod Jerv]].
+<gallery widths="25" heights="25">
+Tormented demons multicombat I.png
+Tormented demons multicombat II.png
+Tormented demons multicombat III.png
 </gallery>
+
+* The north-western section of the dungeon (each containing a single demon) and the inner chamber where the Stone of Jas was once held is a proper single-way combat zone.
+* The east and north-eastern sections of the dungeon is a doubles zone.
+* The south-western section of the dungeon is a triples zone.
+
+Tormented demons are unaggressive and will not attack unless attacked first.
+
+==Fight overview==
+{{main|Tormented Demon/Strategies}}
+
+Tormented demons can pray against and attack using every [[combat style]]. They possess smart pathing, allowing them to move around objects, and can also stack on top of each other. If they cannot reach the player when attempting to melee, they will instead randomly fire magic and ranged attacks.
+
+Every 150 health lost since their last prayer swap (roughly 25% of their max health), they will change their protection prayer to the last combat style they were damaged with, and will stop attacking for 6 [[tick]]s (3.6s).
+
+They will briefly bind the player in place roughly every 60 ticks (36s) and disable run ({{Key press|Ctrl}} clicking still allows running), then release two fire bombs: one on the player's position as of the start of the attack, and a second on a random one of the 8 adjacent squares, assuming that it is a walkable tile. The bind will then be released and players have 2 ticks to move off of the target tiles before they explode. Demons always change their combat style after this attack.
+
+Tormented demons usually have a fire shield that reduces damage done by non-[[demonbane weapons]]/[[demonbane spells|spells]] and non-[[abyssal weapons]] by 20%. They will drop this shield after their first attack and after each fire bomb attack; the shield remains down until they are attacked once. Slower weapons will deal significant bonus damage to unshielded tormented demons. They also become defenseless from approximately 30 ticks (18s) into the fight until after their fire bomb attack, after which the 30 tick timer begins again. Attacking them while defenseless will provide 100% accuracy meaning guaranteed hits.
+
+If the player chooses to attack multiple tormented demons simultaneously, their attack behaviour changes: one will use melee if possible, and the other magic or ranged, and their attacks start out staggered so they can be prayed against. If three or more demons are attacking the player, the third and any more demons will release single bombs at the player.
+
+If demons are forced out of combat due to teleportation or being unable to attack their target, they will restore their health to full.
+
+==Money making==
+{{Mmgsection|Killing Tormented Demons|mobname=Tormented Demons}}
+
+==Drops==
+{{DropLogProject|kills=110286}}
+
+The average Tormented Demon kill is worth {{Coins|{{Average drop value|raw=y|round=0}}}}.
+
+Excluding unique drops, the average Tormented Demon kill is worth {{Coins|{{#expr:{{Average drop value|raw=y}}-(1/500)*{{GEP|Burning claw}}-(1/500)*{{GEP|Tormented synapse}} round 0}}}}. 
+
+Upon death, a drop will be rolled until the roll results in a success, as described below:{{CiteNews|url=https://secure.runescape.com/m=news/deadman-armageddon--while-guthix-sleeps-tweaks?oldschool=1|title=Deadman: Armageddon & While Guthix Sleeps Tweaks|newsdate=24 July 2024}}
+*Roll 1/500 for the tormented synapse drop.
+**If unsuccessful, roll for a burning claw drop.
+**If unsuccessful, roll for a [[smouldering]] item drop.
+*If all the above rolls are unsuccessful, the standard drop table is rolled.
+
+===100%===
+{{DropsTableHead}}
+{{DropsLine|name=Infernal ashes|quantity=1|rarity=Always}}
+{{DropsTableBottom}}
+
+===Unique===
+{{DropsTableHead}}
+{{DropsLine|name=Burning claw|quantity=1|rarity=499/250000}}
+{{DropsLine|name=Tormented synapse|quantity=1|rarity=1/500}}
+{{DropsTableBottom}}
+
+===Weapons and armour===
+{{DropsTableHead}}
+{{DropsLine|name=Dragon dagger|quantity=1|rarity=3/51|approx=Yes}}
+{{DropsLine|name=Rune kiteshield|quantity=1|rarity=2/51|approx=Yes}}
+{{DropsLine|name=Battlestaff|quantity=1 (noted)|rarity=3/51|approx=Yes}}
+{{DropsLine|name=Rune platebody|quantity=1|rarity=4/51|approx=Yes}}
+{{DropsTableBottom}}
+
+===Runes and ammunition===
+{{DropsTableHead}}
+{{DropsLine|name=Chaos rune|quantity=25-100|rarity=4/51|approx=Yes}}
+{{DropsLine|name=Soul rune|quantity=50-75|rarity=2/51|approx=Yes}}
+{{DropsLine|name=Rune arrow|quantity=65-125|rarity=4/51|approx=Yes}}
+{{DropsTableBottom}}
+
+===Herbs===
+{{DropsTableHead}}
+{{DropsLine|name=Grimy kwuarm|quantity=1|rarity=10/408|approx=Yes}}
+{{DropsLine|name=Grimy dwarf weed|quantity=1|rarity=8/408|approx=Yes}}
+{{DropsLine|name=Grimy cadantine|quantity=1|rarity=8/408|approx=Yes}}
+{{DropsLine|name=Grimy lantadyme|quantity=1|rarity=6/408|approx=Yes}}
+{{DropsLine|name=Grimy avantoe|quantity=1|rarity=5/408|approx=Yes}}
+{{DropsLine|name=Grimy ranarr weed|quantity=1|rarity=4/408|approx=Yes}}
+{{DropsLine|name=Grimy snapdragon|quantity=1|rarity=4/408|approx=Yes}}
+{{DropsLine|name=Grimy torstol|quantity=1|rarity=3/408|approx=Yes}}
+{{DropsTableBottom}}
+
+===Seeds===
+{{TreeHerbSeedDropTableInfo|1/51}}
+{{DropsTableHead}}
+{{TreeHerbSeedDropLines|1/51|approx=Yes}}
+{{DropsTableBottom}}
+
+===Consumables===
+{{DropsTableHead}}
+{{DropsLine|name=Smouldering gland|quantity=1|rarity=1/25|approx=Yes}}
+{{DropsLine|name=Smouldering pile of flesh|quantity=1|rarity=1/25|approx=Yes}}
+{{DropsLine|name=Smouldering heart|quantity=1|rarity=1/125|approx=Yes}}
+{{DropsLine|name=Manta ray|quantity=1-2|rarity=4/51|approx=Yes}}
+{{DropsLine|name=Prayer potion(4)|quantity=1|rarity=1/51|approx=Yes}}
+{{DropsLine|name=Prayer potion(2)|quantity=2|rarity=1/51|approx=Yes}}
+{{DropsTableBottom}}
+
+===Other===
+{{DropsTableHead}}
+{{DropsLine|name=Guthixian temple teleport|quantity=2|rarity=1/12}}
+{{DropsLine|name=Magic shortbow (u)|quantity=1 (noted)|rarity=29/255|approx=Yes}}
+{{DropsLine|name=Magic longbow (u)|quantity=1|rarity=1/255|approx=y}}
+{{DropsLine|name=Malicious ashes|quantity=2-3|rarity=2/51|approx=Yes}}
+{{DropsLine|name=Fire orb|quantity=5-7 (noted)|rarity=2/51|approx=Yes}}
+{{DropsLine|name=Dragon arrowtips|quantity=30-40|rarity=1/51|approx=Yes}}
+{{DropsTableBottom}}
+
+===Tertiary===
+{{DropsTableHead}}
+{{DropsLine|name=Clue scroll (elite)|quantity=1|rarity=1/128}}
+{{DropsTableBottom}}
+
+==Combat Achievements==
+{{Sync}}
+{{Combat Achievements list|Tormented Demon|mobname=tormented demons}}
 
 ==Changes==
 {{Subject changes header}}
 {{Subject changes
-|date = 28 August 2024
-|update = Araxxor
-|poll = Araxyte Slayer Boss
+|date = 8 January 2025
+|update = Run Energy Changes
+|change = Tormented Demons now correctly appear in the Combat Achievements monster drop-down list. 
+}}
+{{Subject changes
+|date = 23 October 2024
+|update = Halloween Fixes & Miscellaneous Changes
+|change = The flames on the tormented demons are now visually extinguished to indicate that the player's attacks are 100% accurate.
+}}
+{{Subject changes
+|date = 21 August 2024
+|type = hotfix
+|change = * Fixed an issue with the demons' overhead prayers not appearing properly upon respawning.
+}}
+{{Subject changes
+|date = 7 August 2024
+|update = Poll 82 Changes
+|change = Tormented demons are now less likely to lose aggression with the player when they run out of range. If they do, they will attack the player correctly if the player re-engages them.
+}}
+{{Subject changes
+|date = 31 July 2024
+|update = QoL Improvements & Further Deadman: Armageddon Tweaks
+|change = The visuals on the tormented demon's fire shield effect has been adjusted to alleviate reports of eye strain and motion sickness by players:
+* Shifted the hue from yellow to orange.
+* Added more transparency.
+* Reduced the turning speed of the shield by 50%.
+* The shield animation now plays for two ticks instead of three.
+* Removed the floor symbol and fire circle elements during the shield formation animation.
+}}
+{{Subject changes
+|date = 24 July 2024
+|update = Deadman: Armageddon & While Guthix Sleeps Tweaks
+|change =
+* The [[Guthixian temple teleport]] has been added as a drop with a rate of 1/12.
+* A new multi-combat icon has been added within the temple, which indicates how many demons a player can simultaneously fight.
+}}
+{{Subject changes
+|date = 18 July 2024
+|type = hotfix
+|change =
+* Tormented demons are no longer permanently [[aggressive]].
+* [[Magic longbow (u)|Unstrung magic longbows]] were added to the drop table.
+* The malicious ashes drop is no longer noted.
+}}
+{{Subject changes
+|date = 17 July 2024
+|type = hotfix
+|change = * The following changes have been made to the Tormented Demon's drop table:
+** Removed low tier herbs
+** Removed some lower value seeds
+** Removed [[fire rune]]s
+** Removed [[vile ashes]]
+** [[Adamant]] alchables have become rune
+** [[Rune]] alchables have become dragon
+** Additional rune alchables have been added
+** [[Shortbows]], [[battlestaves]], and [[malicious ashes]] now drop as noted
+** Improved the drop rate of a [[burning claw]] by ~17%.
+}}
+{{Subject changes
+|date = 17 July 2024
+|update = Deadman: Armageddon & While Guthix Sleeps Updates
 |change = 
-* The NPC's name was changed from "Spider" to "Araxyte".
-* Araxytes have had their combat stats increased, and now require 92 [[Slayer]] in order to be harmed.
-* Araxytes have been made slightly brighter.
+* Tormented Demons will now no longer lose focus on their original target when a new player enters the area.
+* Tormented Demons will no longer switch to another player during their special attack if the player they’re already attacking has been in the area a long time.
 }}
 {{Subject changes footer}}
 
-===Gallery (historical)===
-{|style="text-align: center" cellpadding="15"
-|[[File:Araxyte v1.png|center|300x150px]]
-|[[File:Araxyte (lv 146).png|center|300x150px]]
+==Historical==
+Tormented demons were released alongside While Guthix Sleeps on [[26 November]] [[2008]]. They are nearly the same as their ''RuneScape'' counterparts but with several differences:
+
+*There are significantly more tormented demons throughout the entirety of the Ancient Guthixian Temple. In ''RuneScape'', there are only six demons, all of whom are near the plinth where the Stone of Jas once was, while in ''Old School RuneScape'', there are twenty-six; eight by the plinth, two by the door leading to the inner section of the temple, eight to the western section of the temple (one each to the north-western chambers, and two sets of three to the southwest) and another eight to the eastern dolmens, in four sets of two.
+*The tormented demons in ''Old School RuneScape'' are unaggressive, whereas those in ''RuneScape'' never become tolerant to the player.
+*In ''Old School RuneScape'', tormented demons are considered [[greater demon]]s for the purpose of a slayer assignment. In ''RuneScape'', tormented demons were not an assignable Slayer task for a considerable amount of time after release. Later on, they were allowed to be assigned as part of a Slayer task, though the player had to pay 50 slayer points to be assigned them; they could also be killed as part of a {{RSL|demons (Slayer assignment)|demon cluster task}} on [[8 July]] [[2019]].
+*While the demons in both games attack with multiple combat styles, their special attacks are quite different:
+**The demons in ''RuneScape'' would periodically throw an AoE magic attack when changing combat styles. In ''Old School RuneScape'', they instead bind the player before launching magical fire around them, dealing heavy damage if not avoided.
+**If the demon was using melee but was attacked from a distance, in ''RuneScape'' it would change combat styles immediately. In ''Old School RuneScape'', they will only do so if they cannot reach their target, but would quickly revert to melee once they returned in range.
+*The demons in ''RuneScape'' would change overhead prayers after taking a minimum of 30 (3,000) damage, while the demons in ''Old School RuneScape'' do so after taking a minimum of 150 damage.
+*The demons' shield effects were much stronger in ''RuneScape'', it would reduce damage by 75% of the original amount, necessitating {{RSL|darklight}} or {{RSL|holy water}} to remove it. In ''Old School RuneScape'', the shield only reduces non-demonic damage by 20%.
+*The demons in ''Old School RuneScape'' take additional damage from 5/6/7-tick weapons at specific intervals (which likewise attack faster at these intervals), whereas this mechanic is not featured in ''RuneScape''.
+*The demons in ''RuneScape'' originally had four unique drops on release: in addition to the {{RSL|dragon claws}}, they also dropped the {{RSL|ruined dragon armour slice}}, {{RSL|ruined dragon armour lump}} and {{RSL|ruined dragon armour shard}}, which would be used to create the {{RSL|dragon platebody}}. A fifth drop, {{RSL|dragon limbs}}, was added on [[20 November]] [[2012]]. As these rewards were already present in ''Old School RuneScape'' (the [[dragon claws]] from the [[Chambers of Xeric]], the [[dragon platebody]] from [[Dragon Slayer II]] with a [[dragon metal shard]] and [[dragon metal lump]], and the [[dragon limbs]] from [[Adamant dragon|adamant]] and [[Rune dragon|rune dragons]]), the demons were instead given different rewards, namely the [[tormented synapse]] and [[burning claw]], as their unique drops.
+*Tormented demons in ''RuneScape'' were originally released with 326 hitpoints and zero offensive or defensive stats. The demons in ''Old School RuneScape'' have 600 hitpoints and have offensive and defensive stats added to give them a distinct weakness:{{CiteTwitter|author=Mod Ash|url=https://x.com/JagexAsh/status/1749777281675907450|date=23 January 2024|archiveurl=https://archive.ph/3svFq|archivedate=11 July 2024|quote=[I was wondering what stats they had before then. Is it possible to find out please?] Attack 255
+Strength 166
+Defence 300
+Magic 255
+Ranged 255
+Lifepoints 3260 (presumably that's 326 HP)
+No defensive bonuses.|name=Tormented demon 2008 stats}}
+:{|class=wikitable style="text-align:center;"
+! colspan="43" |Combat stats
 |-
-|28 July 2021 –<br/>28 August 2024
-|28 August 2024 –<br/>present
+!
+! colspan="7" | {{plinkp|Hitpoints|pic=Hitpoints icon}}
+! colspan="7" | {{plinkp|Attack|pic=Attack icon}}
+! colspan="7" | {{plinkp|Strength|pic=Strength icon}}
+! colspan="7" | {{plinkp|Defence|pic=Defence icon}}
+! colspan="7" | {{plinkp|Magic|pic=Magic icon}}
+! colspan="7" | {{plinkp|Ranged|pic=Ranged icon}}
+|-
+!2008
+| colspan="7" | 326
+| colspan="7" | 255
+| colspan="7" | 166
+| colspan="7" | 300
+| colspan="7" | 255
+| colspan="7" | 255
+|-
+!2024
+| colspan="7" | 600
+| colspan="7" | 255
+| colspan="7" | 255
+| colspan="7" | 150
+| colspan="7" | 255
+| colspan="7" | 255
+|-
+! colspan="43" |Aggressive stats
+|-
+!
+! colspan="7" | {{plinkp|Attack|pic=Attack icon}}
+! colspan="7" | {{plinkp|Strength|pic=Strength icon}}
+! colspan="7" | {{plinkp|Magic|pic=Magic icon}}
+! colspan="7" | {{plinkp|Magic Damage|pic=Magic Damage icon}}
+! colspan="7" | {{plinkp|Ranged|pic=Ranged icon}}
+! colspan="7" | {{plinkp|Ranged Strength|pic=Ranged Strength icon}}
+|-
+!2008
+| colspan="7" | +0
+| colspan="7" | +0
+| colspan="7" | +0
+| colspan="7" | +0
+| colspan="7" | +0
+| colspan="7" | +0
+|-
+!2024
+| colspan="7" | +400
+| colspan="7" | +10
+| colspan="7" | +300
+| colspan="7" | +5
+| colspan="7" | +300
+| colspan="7" | +5
+|-
+! colspan="43" |Defensive stats
+|-
+!
+! colspan="6" | {{plinkp|Stab|pic=White dagger}}
+! colspan="6" | {{plinkp|Slash|pic=White scimitar}}
+! colspan="6" | {{plinkp|Crush|pic=White warhammer}}
+! colspan="6" | {{plinkp|Magic|pic=Magic icon}}
+! colspan="6" | {{plinkp|Ranged|pic=Steel dart}}
+! colspan="6" | {{plinkp|Ranged|pic=Steel arrow 5}}
+! colspan="6" | {{plinkp|Ranged|pic=Steel bolts 5}}
+|-
+!2008
+| colspan="6" | +0
+| colspan="6" | +0
+| colspan="6" | +0
+| colspan="6" | +0
+| colspan="6" | +0
+| colspan="6" | +0
+| colspan="6" | +0
+|-
+!2024
+| colspan="6" | +75
+| colspan="6" | +175
+| colspan="6" | +68
+| colspan="6" | +5
+| colspan="6" | +140
+| colspan="6" | +150
+| colspan="6" | +90
 |}
 
 ==Trivia==
-* Their appearance is similar to {{RSL|Pulsing spider}}s from ''RuneScape''. 
-* A Slayer Master's task hint for them is simply "Try not to die.".
+*Tormented demons are the second non-boss monster to have a [[Combat Achievements/Master|Master Combat Achievement]] ([[Three Times the Thrashing]]) the other being the [[Deathly ranger]]s and [[Deathly mage]]s from the [[Chambers of Xeric]] ([[No Time for Death]]), though they are the first non-boss monster that requires the player to actually kill them in order to complete the task.
+
 
 ==References==
 {{reflist}}
 
-{{Slayer monsters}}
-{{Araxxor}}
-{{Spiders}}
+{{Tormented Demons}}
+{{While Guthix Sleeps}}
+{{Demons}}

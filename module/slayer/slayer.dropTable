@@ -1,34 +1,50 @@
 {
   "100%": [
-    "Araxyte venom sack"
+    "Infernal ashes"
+  ],
+  "Unique": [
+    "Burning claw",
+    "Tormented synapse"
   ],
   "Weapons and armour": [
-    "Adamant longsword",
-    "Adamant battleaxe",
-    "Rune dagger",
-    "Rune med helm",
-    "Rune platelegs",
-    "Aranea boots"
+    "Dragon dagger",
+    "Rune kiteshield",
+    "Battlestaff",
+    "Rune platebody"
   ],
-  "Runes": [
-    "Air rune",
-    "Water rune",
-    "Earth rune",
-    "Fire rune",
-    "Cosmic rune",
+  "Runes and ammunition": [
     "Chaos rune",
-    "Nature rune",
-    "Death rune",
-    "Law rune",
-    "Blood rune",
-    "Soul rune"
+    "Soul rune",
+    "Rune arrow"
   ],
-  "Herbs": [],
+  "Herbs": [
+    "Grimy kwuarm",
+    "Grimy dwarf weed",
+    "Grimy cadantine",
+    "Grimy lantadyme",
+    "Grimy avantoe",
+    "Grimy ranarr weed",
+    "Grimy snapdragon",
+    "Grimy torstol"
+  ],
   "Seeds": [],
-  "Other": [
-    "Coins",
-    "Araxyte head"
+  "Consumables": [
+    "Smouldering gland",
+    "Smouldering pile of flesh",
+    "Smouldering heart",
+    "Manta ray",
+    "Prayer potion(4)",
+    "Prayer potion(2)"
   ],
-  "Tertiary": [],
-  "Gallery (historical)": []
+  "Other": [
+    "Guthixian temple teleport",
+    "Magic shortbow (u)",
+    "Magic longbow (u)",
+    "Malicious ashes",
+    "Fire orb",
+    "Dragon arrowtips"
+  ],
+  "Tertiary": [
+    "Clue scroll (elite)"
+  ]
 }

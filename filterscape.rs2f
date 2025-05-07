@@ -1224,6 +1224,168 @@ CONST_ARAXYTE_RULE (name:VAR_ARAXYTE_ENUMLIST_FILTER_OTHER) {
 }
 
 
+#define CONST_AREA_DEMONICGORILLA0 [2072,5641,0,2157,5681,0] // [[Crash Site Cavern]]
+#define CONST_DEMONICGORILLA_RULE(_cond) rule ((area:CONST_AREA_DEMONICGORILLA0) && (_cond))
+
+/*@ define:input
+type: enumlist
+label: 'Hide drops: 100%'
+group: Demonic gorilla
+enum: ["Malicious ashes"]
+*/
+#define VAR_DEMONICGORILLA_ENUMLIST_FILTER_100 []
+CONST_DEMONICGORILLA_RULE (name:VAR_DEMONICGORILLA_ENUMLIST_FILTER_100) {
+  hidden = true;
+}
+
+/*@ define:input
+type: enumlist
+label: 'Hide drops: Uniques'
+group: Demonic gorilla
+enum: ["Zenyte shard","Ballista limbs","Ballista spring","Light frame","Heavy frame","Monkey tail"]
+*/
+#define VAR_DEMONICGORILLA_ENUMLIST_FILTER_UNIQUES []
+CONST_DEMONICGORILLA_RULE (name:VAR_DEMONICGORILLA_ENUMLIST_FILTER_UNIQUES) {
+  hidden = true;
+}
+
+/*@ define:input
+type: enumlist
+label: 'Hide drops: Weapons and armour'
+group: Demonic gorilla
+enum: ["Rune platelegs","Rune plateskirt","Rune chainbody","Dragon scimitar"]
+*/
+#define VAR_DEMONICGORILLA_ENUMLIST_FILTER_WEAPONSANDARMOUR []
+CONST_DEMONICGORILLA_RULE (name:VAR_DEMONICGORILLA_ENUMLIST_FILTER_WEAPONSANDARMOUR) {
+  hidden = true;
+}
+
+/*@ define:input
+type: enumlist
+label: 'Hide drops: Runes and ammunition'
+group: Demonic gorilla
+enum: ["Law rune","Death rune","Runite bolts"]
+*/
+#define VAR_DEMONICGORILLA_ENUMLIST_FILTER_RUNESANDAMMUNITION []
+CONST_DEMONICGORILLA_RULE (name:VAR_DEMONICGORILLA_ENUMLIST_FILTER_RUNESANDAMMUNITION) {
+  hidden = true;
+}
+
+/*@ define:input
+type: enumlist
+label: 'Hide drops: Herbs'
+group: Demonic gorilla
+enum: ["Grimy kwuarm","Grimy cadantine","Grimy lantadyme","Grimy dwarf weed"]
+*/
+#define VAR_DEMONICGORILLA_ENUMLIST_FILTER_HERBS []
+CONST_DEMONICGORILLA_RULE (name:VAR_DEMONICGORILLA_ENUMLIST_FILTER_HERBS) {
+  hidden = true;
+}
+
+/*@ define:input
+type: enumlist
+label: 'Hide drops: Other'
+group: Demonic gorilla
+enum: ["Prayer potion(3)","Shark","Coins","Saradomin brew(2)","Adamantite bar","Javelin shaft","Rune javelin heads","Dragon javelin heads","Diamond","Runite bar"]
+*/
+#define VAR_DEMONICGORILLA_ENUMLIST_FILTER_OTHER []
+CONST_DEMONICGORILLA_RULE (name:VAR_DEMONICGORILLA_ENUMLIST_FILTER_OTHER) {
+  hidden = true;
+}
+
+
+#define CONST_AREA_TORMENTEDDEMON0 [4079,4430,0,4079,4430,0] // [[Ancient Guthixian Temple]]
+#define CONST_TORMENTEDDEMON_RULE(_cond) rule ((area:CONST_AREA_TORMENTEDDEMON0) && (_cond))
+
+/*@ define:input
+type: enumlist
+label: 'Hide drops: 100%'
+group: Tormented demon
+enum: ["Infernal ashes"]
+*/
+#define VAR_TORMENTEDDEMON_ENUMLIST_FILTER_100 []
+CONST_TORMENTEDDEMON_RULE (name:VAR_TORMENTEDDEMON_ENUMLIST_FILTER_100) {
+  hidden = true;
+}
+
+/*@ define:input
+type: enumlist
+label: 'Hide drops: Unique'
+group: Tormented demon
+enum: ["Burning claw","Tormented synapse"]
+*/
+#define VAR_TORMENTEDDEMON_ENUMLIST_FILTER_UNIQUE []
+CONST_TORMENTEDDEMON_RULE (name:VAR_TORMENTEDDEMON_ENUMLIST_FILTER_UNIQUE) {
+  hidden = true;
+}
+
+/*@ define:input
+type: enumlist
+label: 'Hide drops: Weapons and armour'
+group: Tormented demon
+enum: ["Dragon dagger","Rune kiteshield","Battlestaff","Rune platebody"]
+*/
+#define VAR_TORMENTEDDEMON_ENUMLIST_FILTER_WEAPONSANDARMOUR []
+CONST_TORMENTEDDEMON_RULE (name:VAR_TORMENTEDDEMON_ENUMLIST_FILTER_WEAPONSANDARMOUR) {
+  hidden = true;
+}
+
+/*@ define:input
+type: enumlist
+label: 'Hide drops: Runes and ammunition'
+group: Tormented demon
+enum: ["Chaos rune","Soul rune","Rune arrow"]
+*/
+#define VAR_TORMENTEDDEMON_ENUMLIST_FILTER_RUNESANDAMMUNITION []
+CONST_TORMENTEDDEMON_RULE (name:VAR_TORMENTEDDEMON_ENUMLIST_FILTER_RUNESANDAMMUNITION) {
+  hidden = true;
+}
+
+/*@ define:input
+type: enumlist
+label: 'Hide drops: Herbs'
+group: Tormented demon
+enum: ["Grimy kwuarm","Grimy dwarf weed","Grimy cadantine","Grimy lantadyme","Grimy avantoe","Grimy ranarr weed","Grimy snapdragon","Grimy torstol"]
+*/
+#define VAR_TORMENTEDDEMON_ENUMLIST_FILTER_HERBS []
+CONST_TORMENTEDDEMON_RULE (name:VAR_TORMENTEDDEMON_ENUMLIST_FILTER_HERBS) {
+  hidden = true;
+}
+
+/*@ define:input
+type: enumlist
+label: 'Hide drops: Consumables'
+group: Tormented demon
+enum: ["Smouldering gland","Smouldering pile of flesh","Smouldering heart","Manta ray","Prayer potion(4)","Prayer potion(2)"]
+*/
+#define VAR_TORMENTEDDEMON_ENUMLIST_FILTER_CONSUMABLES []
+CONST_TORMENTEDDEMON_RULE (name:VAR_TORMENTEDDEMON_ENUMLIST_FILTER_CONSUMABLES) {
+  hidden = true;
+}
+
+/*@ define:input
+type: enumlist
+label: 'Hide drops: Other'
+group: Tormented demon
+enum: ["Guthixian temple teleport","Magic shortbow (u)","Magic longbow (u)","Malicious ashes","Fire orb","Dragon arrowtips"]
+*/
+#define VAR_TORMENTEDDEMON_ENUMLIST_FILTER_OTHER []
+CONST_TORMENTEDDEMON_RULE (name:VAR_TORMENTEDDEMON_ENUMLIST_FILTER_OTHER) {
+  hidden = true;
+}
+
+/*@ define:input
+type: enumlist
+label: 'Hide drops: Tertiary'
+group: Tormented demon
+enum: ["Clue scroll (elite)"]
+*/
+#define VAR_TORMENTEDDEMON_ENUMLIST_FILTER_TERTIARY []
+CONST_TORMENTEDDEMON_RULE (name:VAR_TORMENTEDDEMON_ENUMLIST_FILTER_TERTIARY) {
+  hidden = true;
+}
+
+
 
 /*@ define:module:boss
 name: 'PvM: boss'

@@ -1319,7 +1319,7 @@ label: Smouldering heart
 rule (name:"Smouldering heart") { VAR_TORMENTEDDEMON_HEARTSTYLE }
 
 
-#define CONST_AREA_TORMENTEDDEMON0 [4079,4430,0,4079,4430,0] // [[Ancient Guthixian Temple]]
+#define CONST_AREA_TORMENTEDDEMON0 [4032,4352,0,4159,4479,0] // [[Ancient Guthixian Temple]]
 #define CONST_TORMENTEDDEMON_RULE(_cond) rule ((area:CONST_AREA_TORMENTEDDEMON0) && (_cond))
 
 /*@ define:input

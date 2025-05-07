@@ -241,6 +241,11 @@ CONST_${scope}_RULE (VAR_${scope}_BOOLEAN_HIDESMALLCOINS && name:"Coins" && valu
     name: 'Tormented demon',
     url: 'https://oldschool.runescape.wiki/w/Tormented_Demon',
     transform: {
+      updateMapAreas: (areas) => {
+        // wiki has the spawns but the script didn't compute the right thing,
+        // not sure why
+        areas['[[Ancient Guthixian Temple]]'] = [4032, 4352, 0, 4159, 4479, 0];
+      },
       preScript: (scope) => {
         return `/*@ define:input
 type: style

@@ -1294,6 +1294,31 @@ CONST_DEMONICGORILLA_RULE (name:VAR_DEMONICGORILLA_ENUMLIST_FILTER_OTHER) {
 }
 
 
+/*@ define:input
+type: style
+group: Tormented demon 
+label: Smouldering pile of flesh
+*/
+#define VAR_TORMENTEDDEMON_FLESHSTYLE   textColor = "#000000";  backgroundColor = "#aaff0000";  textAccent = 3;
+rule (name:"Smouldering pile of flesh") { VAR_TORMENTEDDEMON_FLESHSTYLE }
+
+/*@ define:input
+type: style
+group: Tormented demon 
+label: Smouldering gland
+*/
+#define VAR_TORMENTEDDEMON_GLANDSTYLE   textColor = "#000000";  backgroundColor = "#aa00ffff";  textAccent = 3;
+rule (name:"Smouldering gland") { VAR_TORMENTEDDEMON_GLANDSTYLE }
+
+/*@ define:input
+type: style
+group: Tormented demon 
+label: Smouldering heart
+*/
+#define VAR_TORMENTEDDEMON_HEARTSTYLE   textColor = "#000000";  backgroundColor = "#aaff00ff";  textAccent = 3;
+rule (name:"Smouldering heart") { VAR_TORMENTEDDEMON_HEARTSTYLE }
+
+
 #define CONST_AREA_TORMENTEDDEMON0 [4079,4430,0,4079,4430,0] // [[Ancient Guthixian Temple]]
 #define CONST_TORMENTEDDEMON_RULE(_cond) rule ((area:CONST_AREA_TORMENTEDDEMON0) && (_cond))
 

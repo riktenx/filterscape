@@ -240,7 +240,43 @@ CONST_${scope}_RULE (VAR_${scope}_BOOLEAN_HIDESMALLCOINS && name:"Coins" && valu
   {
     name: 'Tormented demon',
     url: 'https://oldschool.runescape.wiki/w/Tormented_Demon',
-    transform: {},
+    transform: {
+      preScript: (scope) => {
+        return `/*@ define:input
+type: style
+group: Tormented demon 
+label: Smouldering pile of flesh
+*/
+#define VAR_${scope}_FLESHSTYLE \
+  textColor = "#000000";\
+  backgroundColor = "#aaff0000";\
+  textAccent = 3;
+rule (name:"Smouldering pile of flesh") { VAR_${scope}_FLESHSTYLE }
+
+/*@ define:input
+type: style
+group: Tormented demon 
+label: Smouldering gland
+*/
+#define VAR_${scope}_GLANDSTYLE \
+  textColor = "#000000";\
+  backgroundColor = "#aa00ffff";\
+  textAccent = 3;
+rule (name:"Smouldering gland") { VAR_${scope}_GLANDSTYLE }
+
+/*@ define:input
+type: style
+group: Tormented demon 
+label: Smouldering heart
+*/
+#define VAR_${scope}_HEARTSTYLE \
+  textColor = "#000000";\
+  backgroundColor = "#aaff00ff";\
+  textAccent = 3;
+rule (name:"Smouldering heart") { VAR_${scope}_HEARTSTYLE }
+`;
+      },
+    },
   },
 ];
 

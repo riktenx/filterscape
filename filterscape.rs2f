@@ -598,10 +598,22 @@ CONST_KURASK_RULE (name:VAR_KURASK_ENUMLIST_FILTER_TERTIARY) {
 }
 
 
+/*@ define:group
+name: Nechryael
+description: |
+  Includes Greater nechryaels.
+*/
+
 #define CONST_AREA_NECHRYAEL0 [3433,3560,2,3449,3574,2] // [[Slayer Tower]] Top Floor
 #define CONST_AREA_NECHRYAEL1 [3403,9954,3,3424,9971,3] // [[Slayer Tower]] Basement
+#define CONST_AREA_NECHRYAEL2 [1691,10078,0,1709,10085,0] // [[Catacombs of Kourend]]
+#define CONST_AREA_NECHRYAEL3 [3218,12417,0,3234,12461,0] // [[Iorwerth Dungeon]]
+#define CONST_AREA_NECHRYAEL4 [3332,10101,0,3341,10114,0] // [[Wilderness Slayer Cave]]
 #define CONST_NECHRYAEL_RULE(_cond) rule ((area:CONST_AREA_NECHRYAEL0 || \
-  area:CONST_AREA_NECHRYAEL1) && (_cond))
+  area:CONST_AREA_NECHRYAEL1 || \
+  area:CONST_AREA_NECHRYAEL2 || \
+  area:CONST_AREA_NECHRYAEL3 || \
+  area:CONST_AREA_NECHRYAEL4) && (_cond))
 
 /*@ define:input
 type: enumlist
@@ -618,7 +630,7 @@ CONST_NECHRYAEL_RULE (name:VAR_NECHRYAEL_ENUMLIST_FILTER_100) {
 type: enumlist
 label: 'Hide drops: Weapons and armour'
 group: Nechryael
-enum: ["Adamant platelegs","Rune 2h sword","Rune full helm","Adamant kiteshield","Rune boots"]
+enum: ["Adamant platelegs","Rune 2h sword","Rune full helm","Adamant kiteshield","Rune boots","Rune axe","Rune sq shield","Adamant battleaxe","Rune med helm","Mystic air staff","Rune chainbody"]
 */
 #define VAR_NECHRYAEL_ENUMLIST_FILTER_WEAPONSANDARMOUR []
 CONST_NECHRYAEL_RULE (name:VAR_NECHRYAEL_ENUMLIST_FILTER_WEAPONSANDARMOUR) {
@@ -629,7 +641,7 @@ CONST_NECHRYAEL_RULE (name:VAR_NECHRYAEL_ENUMLIST_FILTER_WEAPONSANDARMOUR) {
 type: enumlist
 label: 'Hide drops: Runes'
 group: Nechryael
-enum: ["Chaos rune","Death rune","Law rune","Blood rune"]
+enum: ["Chaos rune","Death rune","Law rune","Blood rune","Air rune","Soul rune"]
 */
 #define VAR_NECHRYAEL_ENUMLIST_FILTER_RUNES []
 CONST_NECHRYAEL_RULE (name:VAR_NECHRYAEL_ENUMLIST_FILTER_RUNES) {
@@ -662,7 +674,7 @@ CONST_NECHRYAEL_RULE (name:VAR_NECHRYAEL_ENUMLIST_FILTER_COINS) {
 type: enumlist
 label: 'Hide drops: Other'
 group: Nechryael
-enum: ["Soft clay","Tuna"]
+enum: ["Soft clay","Tuna","Lobster","Coins","Gold bar","Wine of zamorak"]
 */
 #define VAR_NECHRYAEL_ENUMLIST_FILTER_OTHER []
 CONST_NECHRYAEL_RULE (name:VAR_NECHRYAEL_ENUMLIST_FILTER_OTHER) {
@@ -673,7 +685,7 @@ CONST_NECHRYAEL_RULE (name:VAR_NECHRYAEL_ENUMLIST_FILTER_OTHER) {
 type: enumlist
 label: 'Hide drops: Tertiary'
 group: Nechryael
-enum: ["Brimstone key"]
+enum: ["Brimstone key","Crystal shard"]
 */
 #define VAR_NECHRYAEL_ENUMLIST_FILTER_TERTIARY []
 CONST_NECHRYAEL_RULE (name:VAR_NECHRYAEL_ENUMLIST_FILTER_TERTIARY) {

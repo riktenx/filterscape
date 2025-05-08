@@ -58,8 +58,18 @@ CONST_${scope}_RULE (VAR_${scope}_BOOLEAN_HIDESMALLCOINS && name:"Coins" && valu
   },
   {
     name: 'Nechryael',
-    url: 'https://oldschool.runescape.wiki/w/Nechryael',
+    url: [
+      'https://oldschool.runescape.wiki/w/Nechryael',
+      'https://oldschool.runescape.wiki/w/Greater_Nechryael',
+    ],
     transform: {
+      preScript: () => {
+        return `/*@ define:group
+name: Nechryael
+description: |
+  Includes Greater nechryaels.
+*/`;
+      },
       updateMapAreas: (areas) => {
         setPlane(areas, '[[Slayer Tower]] Basement', 3); // wiki is wrong
       },

@@ -5015,7 +5015,7 @@ type: stringlist
 label: Items
 group: Tier A
 */
-#define VAR_UNIQUE_ATIER ["brimstone key","jar of*","noxious pommel","noxious point","noxious blade","*half of key (moon key)"]
+#define VAR_UNIQUE_ATIER ["Larran's key", "Brimstone key","Jar of *","Noxious pommel","Noxious point","Noxious blade","* half of key (moon key)"]
 
 /*@ define:input:uniques
 type: stringlist

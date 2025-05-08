@@ -8,8 +8,18 @@ const setPlane = (mapAreas, key, plane) => {
 const index = [
   {
     name: 'Bloodveld',
-    url: 'https://oldschool.runescape.wiki/w/Bloodveld',
+    url: [
+      'https://oldschool.runescape.wiki/w/Bloodveld',
+      'https://oldschool.runescape.wiki/w/Mutated_Bloodveld',
+    ],
     transform: {
+      preScript: () => {
+        return `/*@ define:group
+name: Bloodveld
+description: |
+  Includes Mutated bloodvelds.
+*/`;
+      },
       updateMapAreas: (areas) => {
         // wiki is wrong
         setPlane(areas, '[[Slayer Tower]] (basement)', 3);

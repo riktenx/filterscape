@@ -9,18 +9,28 @@ description: |
 */
 
 
+/*@ define:group
+name: Bloodveld
+description: |
+  Includes Mutated bloodvelds.
+*/
+
 #define CONST_AREA_BLOODVELD0 [2845,5283,0,2935,5362,0] // [[God Wars Dungeon]]
-#define CONST_AREA_BLOODVELD1 [3564,9735,0,3574,9741,0] // [[Meiyerditch Laboratories]]
+#define CONST_AREA_BLOODVELD1 [3588,9735,0,3600,9750,0] // [[Meiyerditch Laboratories]]
 #define CONST_AREA_BLOODVELD2 [3403,9929,3,3423,9949,3] // [[Slayer Tower]] (basement)
 #define CONST_AREA_BLOODVELD3 [2434,9817,0,2489,9834,0] // [[Stronghold Slayer Cave]]
 #define CONST_AREA_BLOODVELD4 [2950,10085,0,2968,10101,0] // [[Wilderness God Wars Dungeon]]
-#define CONST_AREA_BLOODVELD5 [3404,3556,1,3429,3579,1] // Slayer tower (upstairs)
+#define CONST_AREA_BLOODVELD5 [1625,10013,0,1694,10077,0] // [[Catacombs of Kourend]]
+#define CONST_AREA_BLOODVELD6 [3230,12414,0,3256,12443,0] // [[Iorwerth Dungeon]]
+#define CONST_AREA_BLOODVELD7 [3404,3556,1,3429,3579,1] // Slayer tower (upstairs)
 #define CONST_BLOODVELD_RULE(_cond) rule ((area:CONST_AREA_BLOODVELD0 || \
   area:CONST_AREA_BLOODVELD1 || \
   area:CONST_AREA_BLOODVELD2 || \
   area:CONST_AREA_BLOODVELD3 || \
   area:CONST_AREA_BLOODVELD4 || \
-  area:CONST_AREA_BLOODVELD5) && (_cond))
+  area:CONST_AREA_BLOODVELD5 || \
+  area:CONST_AREA_BLOODVELD6 || \
+  area:CONST_AREA_BLOODVELD7) && (_cond))
 
 /*@ define:input
 type: enumlist
@@ -37,7 +47,7 @@ CONST_BLOODVELD_RULE (name:VAR_BLOODVELD_ENUMLIST_FILTER_100) {
 type: enumlist
 label: 'Hide drops: Weapons and armour'
 group: Bloodveld
-enum: ["Steel axe","Steel full helm","Steel scimitar","Black boots","Mithril sq shield","Mithril chainbody","Rune med helm"]
+enum: ["Steel axe","Steel full helm","Steel scimitar","Black boots","Mithril sq shield","Mithril chainbody","Rune med helm","Mithril full helm","Mithril battleaxe","Black med helm","Mithril axe","Adamant knife","Adamant chainbody","Adamant scimitar","Mithril platebody","Adamant longsword","Rune dagger","Rune battleaxe"]
 */
 #define VAR_BLOODVELD_ENUMLIST_FILTER_WEAPONSANDARMOUR ["Steel axe","Steel full helm","Steel scimitar","Mithril sq shield","Mithril chainbody"]
 CONST_BLOODVELD_RULE (name:VAR_BLOODVELD_ENUMLIST_FILTER_WEAPONSANDARMOUR) {
@@ -46,9 +56,9 @@ CONST_BLOODVELD_RULE (name:VAR_BLOODVELD_ENUMLIST_FILTER_WEAPONSANDARMOUR) {
 
 /*@ define:input
 type: enumlist
-label: 'Hide drops: Runes '
+label: 'Hide drops: Runes'
 group: Bloodveld
-enum: ["Fire rune","Blood rune"]
+enum: ["Fire rune","Blood rune","Air rune","Soul rune"]
 */
 #define VAR_BLOODVELD_ENUMLIST_FILTER_RUNES []
 CONST_BLOODVELD_RULE (name:VAR_BLOODVELD_ENUMLIST_FILTER_RUNES) {
@@ -70,7 +80,7 @@ CONST_BLOODVELD_RULE (name:VAR_BLOODVELD_ENUMLIST_FILTER_COINS) {
 type: enumlist
 label: 'Hide drops: Other'
 group: Bloodveld
-enum: ["Bones","Big bones","Gold ore","Meat pizza"]
+enum: ["Bones","Big bones","Gold ore","Meat pizza","Coins","Bow string","Meat pie","Mithril bar","Ruby amulet"]
 */
 #define VAR_BLOODVELD_ENUMLIST_FILTER_OTHER ["Bones","Meat pizza"]
 CONST_BLOODVELD_RULE (name:VAR_BLOODVELD_ENUMLIST_FILTER_OTHER) {
@@ -81,7 +91,7 @@ CONST_BLOODVELD_RULE (name:VAR_BLOODVELD_ENUMLIST_FILTER_OTHER) {
 type: enumlist
 label: 'Hide drops: Tertiary'
 group: Bloodveld
-enum: ["Clue scroll (elite)","Reward casket (elite)","Looting bag","Ensouled bloodveld head","Brimstone key"]
+enum: ["Clue scroll (elite)","Reward casket (elite)","Looting bag","Ensouled bloodveld head","Brimstone key","Crystal shard"]
 */
 #define VAR_BLOODVELD_ENUMLIST_FILTER_TERTIARY []
 CONST_BLOODVELD_RULE (name:VAR_BLOODVELD_ENUMLIST_FILTER_TERTIARY) {

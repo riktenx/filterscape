@@ -98,14 +98,14 @@ export const buildDropTable = (wikiSource) => {
 
   for (const line of lines) {
     if (line.startsWith("====") && line.endsWith("====")) {
-      currentList = line.substring(4, line.length - 4);
+      currentList = line.substring(4, line.length - 4).trim();
       if (!lists[currentList]) {
         lists[currentList] = [];
       }
       continue;
     }
     if (line.startsWith("===") && line.endsWith("===")) {
-      currentList = line.substring(3, line.length - 3);
+      currentList = line.substring(3, line.length - 3).trim();
       if (!lists[currentList]) {
         lists[currentList] = [];
       }

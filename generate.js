@@ -5,11 +5,7 @@ const index = {
   name: 'riktenx/filterscape',
   description: 'All-in-one loot filter for main account gameplay.',
   modules: [
-    { modulePath: 'module/readme/module.json' },
-    { modulePath: 'module/ownership/module.json' },
-    { modulePath: 'module/defaults/module.json' },
-    { modulePath: 'module/highlights/module.json' },
-    { modulePath: 'module/hides/module.json' },
+    { modulePath: 'module/general/module.json' },
     { modulePath: 'module/junk/module.json' },
     { modulePath: 'module/slayer/module.json' },
     { modulePath: 'module/boss/module.json' },

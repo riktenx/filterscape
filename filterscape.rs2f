@@ -7,44 +7,16 @@ meta {
 }
 
 
-
-/*@ define:module:readme
----
-name: README
-description: |
-  This filter uses dynamic font sizing.
-  
-  To get the full effects of this filter, you must do the following in plugin settings:
-  1. Set 'General -> Font mode' to 'plugin'.
+/*@ define:module:general
+name: General options
 */
 
-#define LIB_BROWN       "#d2b287"
-#define LIB_LIGHT_BROWN "#af6025"
-#define LIB_ORANGE      "#f05a23"
-#define LIB_CARAMEL     "#f99619"
-#define LIB_GOLD        "#d59f00"
-#define LIB_BURGUNDY    "#350d0d"
-#define LIB_DARK_GREEN  "#09600d"
-#define LIB_KHAKI       "#beb287"
-
-#define LIB_COLOR2(_fg) textColor = _fg; borderColor = _fg;
-#define LIB_COLOR3(_fg, _bg) textColor = _fg; borderColor = _fg; backgroundColor = _bg;
-#define LIB_HIDE1(_name) rule (name:_name && quantity:==1) { hidden = true; }
-#define LIB_DARK_BG(_name, _color) rule (name:_name) { color = _color; borderColor = _color; backgroundColor = BLACK; }
-#define LIB_TEXT_HIGHLIGHT(_name, _color) rule (name:_name) { color = _color; textAccent = 2; }
-
-
-
-/*@ define:module:ownership
+/*@ define:group
 ---
 name: Ownership filter
 description: |
-  The "Ownership filter" and "Item spawn filter" settings in plugin config
-  override ALL other filter rules. This breaks things in raids because items
-  like Dawnbringer and CoX mob drops have weird ownership values.
-
-  If you're using this filter, you should disable those two settings and let
-  this module handle it instead.
+  Turn off "Ownership filter" and "Item spawn filter" settings in plugin config
+  and use these instead.
 */
 
 #define CONST_AREA_COX [3200, 5120, 0, 3391, 5759, 3]
@@ -55,18 +27,21 @@ description: |
 
 /*@ define:input:ownership
 type: boolean
+group: Ownership filter
 label: 'Hide untakeable items (no effect if account is non-ironman)'
 */
 #define VAR_OWNERSHIP_HIDEOTHER true
 
 /*@ define:input:ownership
 type: boolean
+group: Ownership filter
 label: 'Hide world spawns (ignores raids)'
 */
 #define VAR_OWNERSHIP_HIDESPAWN false
 
 /*@ define:input:ownership
 type: stringlist
+group: Ownership filter
 label: Ignore ownership value for these items
 */
 #define VAR_OWNERSHIP_IGNORE ["Dawnbringer"]
@@ -79,192 +54,138 @@ rule (!CONST_AREA_RAID(0) && VAR_OWNERSHIP_HIDESPAWN && ownership:0 && !name:VAR
   hidden = true;
 }
 
-
-
-/*@ define:module:defaults
+/*@ define:group
 ---
-name: Defaults
+name: Default style
 description: |
-  Global style defaults. These can be overriden by rules further down.
+  Global style defaults for items that don't match any other rules.
 */
 
 /*@ define:input:defaults
 type: style
+group: Default style
 label: Default style
 */
 #define VAR_DEFAULTS_STYLE 
 
-apply (true) {
-  VAR_DEFAULTS_STYLE
-}
+apply (true) { VAR_DEFAULTS_STYLE }
 
-
-
-/*@ define:module:global_highlight
+/*@ define:group
 ---
-name: Global highlight
+name: Custom highlight groups
+description: |
+  These are free-form highlight groups that you can configure as desired. Items
+  in these groups ignore everything else in this filter.
+expanded: false
 */
 
-/*@ define:input:global_highlight
-type: boolean
-label: Enabled
-group: HIGHLIGHT1
-*/
-#define VAR_HHGROUP_BOOLEAN_HIGHLIGHT1_ENABLED false
-
-/*@ define:input:global_highlight
-type: boolean
-label: Enabled
-group: HIGHLIGHT2
-*/
-#define VAR_HHGROUP_BOOLEAN_HIGHLIGHT2_ENABLED false
-
-/*@ define:input:global_highlight
-type: boolean
-label: Enabled
-group: HIGHLIGHT3
-*/
-#define VAR_HHGROUP_BOOLEAN_HIGHLIGHT3_ENABLED false
-
-/*@ define:input:global_highlight
-type: boolean
-label: Enabled
-group: HIGHLIGHT4
-*/
-#define VAR_HHGROUP_BOOLEAN_HIGHLIGHT4_ENABLED false
-
-/*@ define:input:global_highlight
+/*@ define:input
 type: stringlist
-label: Items
-group: HIGHLIGHT1
+label: Custom group 1
+group: Custom highlight groups
 */
 #define VAR_HHGROUP_STRINGLIST_HIGHLIGHT1_ITEMS []
 
-/*@ define:input:global_highlight
+/*@ define:input
 type: stringlist
-label: Items
-group: HIGHLIGHT2
+label: Custom group 2
+group: Custom highlight groups
 */
 #define VAR_HHGROUP_STRINGLIST_HIGHLIGHT2_ITEMS []
 
-/*@ define:input:global_highlight
+/*@ define:input
 type: stringlist
-label: Items
-group: HIGHLIGHT3
+label: Custom group 3
+group: Custom highlight groups
 */
 #define VAR_HHGROUP_STRINGLIST_HIGHLIGHT3_ITEMS []
 
-/*@ define:input:global_highlight
+/*@ define:input
 type: stringlist
-label: Items
-group: HIGHLIGHT4
+label: Custom group 4
+group: Custom highlight groups
 */
 #define VAR_HHGROUP_STRINGLIST_HIGHLIGHT4_ITEMS []
 
-/*@ define:input:global_highlight
-type: style
-label: Style
-group: HIGHLIGHT1
+/*@ define:input
+type: stringlist
+label: Custom group 5
+group: Custom highlight groups
 */
-#define VAR_HHGROUP_STYLE_HIGHLIGHT1_STYLE 
-
-/*@ define:input:global_highlight
-type: style
-label: Style
-group: HIGHLIGHT2
-*/
-#define VAR_HHGROUP_STYLE_HIGHLIGHT2_STYLE 
-
-/*@ define:input:global_highlight
-type: style
-label: Style
-group: HIGHLIGHT3
-*/
-#define VAR_HHGROUP_STYLE_HIGHLIGHT3_STYLE 
-
-/*@ define:input:global_highlight
-type: style
-label: Style
-group: HIGHLIGHT4
-*/
-#define VAR_HHGROUP_STYLE_HIGHLIGHT4_STYLE 
-
-
-rule (VAR_HHGROUP_BOOLEAN_HIGHLIGHT1_ENABLED && name:VAR_HHGROUP_STRINGLIST_HIGHLIGHT1_ITEMS) {
-  VAR_HHGROUP_STYLE_HIGHLIGHT1_STYLE
-}
-rule (VAR_HHGROUP_BOOLEAN_HIGHLIGHT2_ENABLED && name:VAR_HHGROUP_STRINGLIST_HIGHLIGHT2_ITEMS) {
-  VAR_HHGROUP_STYLE_HIGHLIGHT2_STYLE
-}
-rule (VAR_HHGROUP_BOOLEAN_HIGHLIGHT3_ENABLED && name:VAR_HHGROUP_STRINGLIST_HIGHLIGHT3_ITEMS) {
-  VAR_HHGROUP_STYLE_HIGHLIGHT3_STYLE
-}
-rule (VAR_HHGROUP_BOOLEAN_HIGHLIGHT4_ENABLED && name:VAR_HHGROUP_STRINGLIST_HIGHLIGHT4_ITEMS) {
-  VAR_HHGROUP_STYLE_HIGHLIGHT4_STYLE
-}
-
-
-
-
-/*@ define:module:global_hide
----
-name: Global hide
-description: |
-  This module supports configuration of two lists:
-
-  1. "Hide by default" - Will hide based on item name by default, but later
-     rules in the filter (e.g. item value) can override this.
-  2. "Always hide" - Will hide based on item name, no matter what. Later rules
-     cannot override.
-*/
+#define VAR_GENERAL_ITEMS5 []
 
 /*@ define:input
 type: stringlist
-group: Hide by default
-label: Items
+label: Custom group 6
+group: Custom highlight groups
 */
-#define VAR_HIDES_HIDEBYDEFAULT [\
-  "Vial", "Bucket", "Jug", "Beer glass",\
-  "Vial of water", "Bucket of water", "Jug of water",\
-  "Bones", "Big bones", "Ashes",\
-  "Seaweed", "Broken arrow",\
-  ]
+#define VAR_GENERAL_ITEMS6 []
 
 /*@ define:input
-type: stringlist
-group: Always hide
-label: Items
+type: style
+label: Custom group 1
+group: Custom highlight groups
 */
-#define VAR_HIDES_STRINGLIST__HIDE []
+#define VAR_HHGROUP_STYLE_HIGHLIGHT1_STYLE textColor = "#ff0000";
 
-apply (name:VAR_HIDES_HIDEBYDEFAULT) {
-  hidden = true;
-}
+/*@ define:input
+type: style
+label: Custom group 2
+group: Custom highlight groups
+*/
+#define VAR_HHGROUP_STYLE_HIGHLIGHT2_STYLE textColor = "#00ff00";
 
-rule (name:VAR_HIDES_STRINGLIST__HIDE) {
-  hidden = true;
-}
+/*@ define:input
+type: style
+label: Custom group 3
+group: Custom highlight groups
+*/
+#define VAR_HHGROUP_STYLE_HIGHLIGHT3_STYLE textColor = "#0000ff";
 
+/*@ define:input
+type: style
+label: Custom group 4
+group: Custom highlight groups
+*/
+#define VAR_HHGROUP_STYLE_HIGHLIGHT4_STYLE textColor = "#00ffff";
+
+/*@ define:input
+type: style
+label: Custom group 5
+group: Custom highlight groups
+*/
+#define VAR_GENERAL_STYLE5 textColor = "#ff00ff";
+
+/*@ define:input
+type: style
+label: Custom group 6
+group: Custom highlight groups
+*/
+#define VAR_GENERAL_STYLE6 textColor = "#ffff00";
+
+rule (name:VAR_HHGROUP_STRINGLIST_HIGHLIGHT1_ITEMS) { VAR_HHGROUP_STYLE_HIGHLIGHT1_STYLE }
+rule (name:VAR_HHGROUP_STRINGLIST_HIGHLIGHT2_ITEMS) { VAR_HHGROUP_STYLE_HIGHLIGHT2_STYLE }
+rule (name:VAR_HHGROUP_STRINGLIST_HIGHLIGHT3_ITEMS) { VAR_HHGROUP_STYLE_HIGHLIGHT3_STYLE }
+rule (name:VAR_HHGROUP_STRINGLIST_HIGHLIGHT4_ITEMS) { VAR_HHGROUP_STYLE_HIGHLIGHT4_STYLE }
+rule (name:VAR_GENERAL_ITEMS5) { VAR_GENERAL_STYLE5 }
+rule (name:VAR_GENERAL_ITEMS6) { VAR_GENERAL_STYLE6 }
 
 
 /*@ define:module:hidejunk
-name: Hide junk
+name: Junk filtering
 description: |
-  Hide junk items in bulk. This should generally eliminate the need for a
-  massive hide list in your plugin config.
+  Filters junk items. This should generally eliminate the need for a massive
+  hide list in your plugin config.
 
-  All of these rules hide BY DEFAULT. Value rules and other things can override
-  them.
-
-  Section notes:
-
-  * Equipment - Hides ammo, does not hide boots / defenders.
-  * Clue uniques - Hides ALL unique clue rewards by default. Items with enough
-    value to match your value rules will then be shown. These are disabled by
-    default, DO NOT configure them without double-checking your value rules
-    first.
+  All of these rules hide BY DEFAULT unless otherwise stated. Value rules and
+  other things can override them.
 */
 
+/*@ define:group
+name: Equipment
+description: Will not hide defenders, boots, axes, or spears.
+expanded: true
+*/
 /*@ define:input
 type: boolean
 group: 'Equipment'
@@ -329,6 +250,10 @@ label: 'Hide rune equipment'
 #define CONST_JUNK_EQUIP_RUNE ["Rune dagger","Rune mace","Rune sword","Rune longsword","Rune scimitar","Rune hasta","Rune warhammer","Rune claws","Rune 2h sword","Rune halberd","Rune crossbow","Runite bolts","Rune arrow","Rune brutal","Rune dart","Rune javelin","Rune knife","Rune med helm","Rune full helm","Rune chainbody","Rune platebody","Rune platelegs","Rune plateskirt","Rune sq shield","Rune kiteshield","Rune gloves"]
 apply (VAR_JUNK_HIDE_EQUIP_RUNE && name:CONST_JUNK_EQUIP_RUNE) { hidden = true; }
 
+/*@ define:group
+name: Seeds
+expanded: true
+*/
 /*@ define:input
 type: boolean
 group: 'Seeds'
@@ -366,12 +291,15 @@ label: 'Hide bush seeds'
 #define CONST_JUNK_SEED_BUSH ["Redberry seed","Cadavaberry seed","Dwellberry seed","Jangerberry seed","Whiteberry seed","Poison ivy seed"]
 apply (VAR_JUNK_HIDE_SEED_BUSH && name:CONST_JUNK_SEED_BUSH) { hidden = true; }
 
+/*@ define:group
+name: Clue uniques
+*/
 /*@ define:input
 type: boolean
 group: 'Clue uniques'
 label: 'Hide beginner uniques'
 */
-#define VAR_JUNK_HIDE_UNIQUE_CLUE_BEGINNER false
+#define VAR_JUNK_HIDE_UNIQUE_CLUE_BEGINNER true
 
 #define CONST_JUNK_UNIQUE_CLUE_BEGINNER ["Mole slippers","Frog slippers","Bear feet","Demon feet","Jester cape","Shoulder parrot","Monk's robe top (t)","Monk's robe (t)","Amulet of defence (t)","Sandwich lady hat","Sandwich lady top","Sandwich lady bottom","Rune scimitar ornament kit (guthix)","Rune scimitar ornament kit (saradomin)","Rune scimitar ornament kit (zamorak)"]
 apply (VAR_JUNK_HIDE_UNIQUE_CLUE_BEGINNER && name:CONST_JUNK_UNIQUE_CLUE_BEGINNER) { hidden = true; }
@@ -380,7 +308,7 @@ type: boolean
 group: 'Clue uniques'
 label: 'Hide easy uniques'
 */
-#define VAR_JUNK_HIDE_UNIQUE_CLUE_EASY false
+#define VAR_JUNK_HIDE_UNIQUE_CLUE_EASY true
 
 #define CONST_JUNK_UNIQUE_CLUE_EASY ["Team cape zero","Team cape i","Team cape x","Cape of skulls","Golden chef's hat","Golden apron","Wooden shield (g)","Black full helm (t)","Black platebody (t)","Black platelegs (t)","Black plateskirt (t)","Black kiteshield (t)","Black full helm (g)","Black platebody (g)","Black platelegs (g)","Black plateskirt (g)","Black kiteshield (g)","Black shield (h1)","Black shield (h2)","Black shield (h3)","Black shield (h4)","Black shield (h5)","Black helm (h1)","Black helm (h2)","Black helm (h3)","Black helm (h4)","Black helm (h5)","Black platebody (h1)","Black platebody (h2)","Black platebody (h3)","Black platebody (h4)","Black platebody (h5)","Steel full helm (t)","Steel platebody (t)","Steel platelegs (t)","Steel plateskirt (t)","Steel kiteshield (t)","Steel full helm (g)","Steel platebody (g)","Steel platelegs (g)","Steel plateskirt (g)","Steel kiteshield (g)","Iron full helm (t)","Iron platebody (t)","Iron platelegs (t)","Iron plateskirt (t)","Iron kiteshield (t)","Iron full helm (g)","Iron platebody (g)","Iron platelegs (g)","Iron plateskirt (g)","Iron kiteshield (g)","Bronze full helm (t)","Bronze platebody (t)","Bronze platelegs (t)","Bronze plateskirt (t)","Bronze kiteshield (t)","Bronze full helm (g)","Bronze platebody (g)","Bronze platelegs (g)","Bronze plateskirt (g)","Bronze kiteshield (g)","Studded body (g)","Studded chaps (g)","Studded body (t)","Studded chaps (t)","Leather body (g)","Leather chaps (g)","Blue wizard hat (g)","Blue wizard robe (g)","Blue skirt (g)","Blue wizard hat (t)","Blue wizard robe (t)","Blue skirt (t)","Black wizard hat (g)","Black wizard robe (g)","Black skirt (g)","Black wizard hat (t)","Black wizard robe (t)","Black skirt (t)","Coins","Monk's robe top (g)","Monk's robe (g)","Saradomin robe top","Saradomin robe legs","Guthix robe top","Guthix robe legs","Zamorak robe top","Zamorak robe legs","Ancient robe top","Ancient robe legs","Armadyl robe top","Armadyl robe legs","Bandos robe top","Bandos robe legs","Bob's red shirt","Bob's green shirt","Bob's blue shirt","Bob's black shirt","Bob's purple shirt","Highwayman mask","Blue beret","Black beret","Red beret","White beret","A powdered wig","Beanie","Imp mask","Goblin mask","Sleeping cap","Flared trousers","Pantaloons","Black cane","Staff of bob the cat","Red elegant shirt","Red elegant blouse","Red elegant legs","Red elegant skirt","Green elegant shirt","Green elegant blouse","Green elegant legs","Green elegant skirt","Blue elegant shirt","Blue elegant blouse","Blue elegant legs","Blue elegant skirt","Amulet of power (t)","Ham joint","Rain bow"]
 apply (VAR_JUNK_HIDE_UNIQUE_CLUE_EASY && name:CONST_JUNK_UNIQUE_CLUE_EASY) { hidden = true; }
@@ -420,6 +348,18 @@ label: 'Hide master uniques'
 
 #define CONST_JUNK_UNIQUE_CLUE_MASTER ["Occult ornament kit","Torture ornament kit","Anguish ornament kit","Tormented ornament kit","Dragon defender ornament kit","Dragon kiteshield ornament kit","Dragon platebody ornament kit","Hood of darkness","Robe top of darkness","Gloves of darkness","Robe bottom of darkness","Boots of darkness","Samurai kasa","Samurai shirt","Samurai gloves","Samurai greaves","Arceuus hood","Hosidius hood","Lovakengj hood","Piscarilius hood","Shayzien hood","Old demon mask","Lesser demon mask","Greater demon mask","Black demon mask","Jungle demon mask","Left eye patch","Bowl wig","Ale of the gods","Obsidian cape (r)","Fancy tiara","Half moon spectacles","Armadyl godsword ornament kit","Bandos godsword ornament kit","Saradomin godsword ornament kit","Zamorak godsword ornament kit","Ankou mask","Ankou top","Ankou gloves","Ankou's leggings","Ankou socks","Mummy's head","Mummy's body","Mummy's hands","Mummy's legs","Mummy's feet"]
 apply (VAR_JUNK_HIDE_UNIQUE_CLUE_MASTER && name:CONST_JUNK_UNIQUE_CLUE_MASTER) { hidden = true; }
+
+/*@ define:group
+name: Misc
+*/
+
+/*@ define:input
+type: stringlist
+group: Misc
+label: Hide these items
+*/
+#define VAR_HIDES_HIDEBYDEFAULT [  "Vial", "Bucket", "Jug", "Beer glass",  "Vial of water", "Bucket of water", "Jug of water",  "Bones", "Big bones", "Ashes",  "Seaweed", "Broken arrow",  ]
+apply (name:VAR_HIDES_HIDEBYDEFAULT) { hidden = true; }
 
 
 /*@ define:module:slayer

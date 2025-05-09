@@ -1,0 +1,162 @@
+/*@ define:module:general
+name: General options
+*/
+
+/*@ define:group
+---
+name: Ownership filter
+description: |
+  Turn off "Ownership filter" and "Item spawn filter" settings in plugin config
+  and use these instead.
+*/
+
+#define CONST_AREA_COX [3200, 5120, 0, 3391, 5759, 3]
+#define CONST_AREA_TOB [3136, 4224, 0, 3327, 4479, 3]
+#define CONST_AREA_TOA [3520, 5120, 0, 3967, 5439, 3]
+#define CONST_AREA_RAID(_) (area:CONST_AREA_COX || area:CONST_AREA_TOB || area:CONST_AREA_TOA)
+#define CONST_TAKEABLE(_) (accountType:0 || !ownership:2)
+
+/*@ define:input:ownership
+type: boolean
+group: Ownership filter
+label: 'Hide untakeable items (no effect if account is non-ironman)'
+*/
+#define VAR_OWNERSHIP_HIDEOTHER true
+
+/*@ define:input:ownership
+type: boolean
+group: Ownership filter
+label: 'Hide world spawns (ignores raids)'
+*/
+#define VAR_OWNERSHIP_HIDESPAWN false
+
+/*@ define:input:ownership
+type: stringlist
+group: Ownership filter
+label: Ignore ownership value for these items
+*/
+#define VAR_OWNERSHIP_IGNORE ["Dawnbringer"]
+
+rule (!CONST_TAKEABLE(0) && VAR_OWNERSHIP_HIDEOTHER && !name:VAR_OWNERSHIP_IGNORE) {
+  hidden = true;
+}
+
+rule (!CONST_AREA_RAID(0) && VAR_OWNERSHIP_HIDESPAWN && ownership:0 && !name:VAR_OWNERSHIP_IGNORE) {
+  hidden = true;
+}
+
+/*@ define:group
+---
+name: Default style
+description: |
+  Global style defaults for items that don't match any other rules.
+*/
+
+/*@ define:input:defaults
+type: style
+group: Default style
+label: Default style
+*/
+#define VAR_DEFAULTS_STYLE 
+
+apply (true) { VAR_DEFAULTS_STYLE }
+
+/*@ define:group
+---
+name: Custom highlight groups
+description: |
+  These are free-form highlight groups that you can configure as desired. Items
+  in these groups ignore everything else in this filter.
+expanded: false
+*/
+
+/*@ define:input
+type: stringlist
+label: Custom group 1
+group: Custom highlight groups
+*/
+#define VAR_HHGROUP_STRINGLIST_HIGHLIGHT1_ITEMS []
+
+/*@ define:input
+type: stringlist
+label: Custom group 2
+group: Custom highlight groups
+*/
+#define VAR_HHGROUP_STRINGLIST_HIGHLIGHT2_ITEMS []
+
+/*@ define:input
+type: stringlist
+label: Custom group 3
+group: Custom highlight groups
+*/
+#define VAR_HHGROUP_STRINGLIST_HIGHLIGHT3_ITEMS []
+
+/*@ define:input
+type: stringlist
+label: Custom group 4
+group: Custom highlight groups
+*/
+#define VAR_HHGROUP_STRINGLIST_HIGHLIGHT4_ITEMS []
+
+/*@ define:input
+type: stringlist
+label: Custom group 5
+group: Custom highlight groups
+*/
+#define VAR_GENERAL_ITEMS5 []
+
+/*@ define:input
+type: stringlist
+label: Custom group 6
+group: Custom highlight groups
+*/
+#define VAR_GENERAL_ITEMS6 []
+
+/*@ define:input
+type: style
+label: Custom group 1
+group: Custom highlight groups
+*/
+#define VAR_HHGROUP_STYLE_HIGHLIGHT1_STYLE textColor = "#ff0000";
+
+/*@ define:input
+type: style
+label: Custom group 2
+group: Custom highlight groups
+*/
+#define VAR_HHGROUP_STYLE_HIGHLIGHT2_STYLE textColor = "#00ff00";
+
+/*@ define:input
+type: style
+label: Custom group 3
+group: Custom highlight groups
+*/
+#define VAR_HHGROUP_STYLE_HIGHLIGHT3_STYLE textColor = "#0000ff";
+
+/*@ define:input
+type: style
+label: Custom group 4
+group: Custom highlight groups
+*/
+#define VAR_HHGROUP_STYLE_HIGHLIGHT4_STYLE textColor = "#00ffff";
+
+/*@ define:input
+type: style
+label: Custom group 5
+group: Custom highlight groups
+*/
+#define VAR_GENERAL_STYLE5 textColor = "#ff00ff";
+
+/*@ define:input
+type: style
+label: Custom group 6
+group: Custom highlight groups
+*/
+#define VAR_GENERAL_STYLE6 textColor = "#ffff00";
+
+rule (name:VAR_HHGROUP_STRINGLIST_HIGHLIGHT1_ITEMS) { VAR_HHGROUP_STYLE_HIGHLIGHT1_STYLE }
+rule (name:VAR_HHGROUP_STRINGLIST_HIGHLIGHT2_ITEMS) { VAR_HHGROUP_STYLE_HIGHLIGHT2_STYLE }
+rule (name:VAR_HHGROUP_STRINGLIST_HIGHLIGHT3_ITEMS) { VAR_HHGROUP_STYLE_HIGHLIGHT3_STYLE }
+rule (name:VAR_HHGROUP_STRINGLIST_HIGHLIGHT4_ITEMS) { VAR_HHGROUP_STYLE_HIGHLIGHT4_STYLE }
+rule (name:VAR_GENERAL_ITEMS5) { VAR_GENERAL_STYLE5 }
+rule (name:VAR_GENERAL_ITEMS6) { VAR_GENERAL_STYLE6 }

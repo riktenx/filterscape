@@ -32,7 +32,6 @@ group: Tier C
 */
 #define VAR_UNIQUE_CTIER ["dark totem top","dark totem base","dark totem middle","long bone","curved bone","looting bag","unidentified small fossil","unidentified medium fossil","unidentified large fossil","unidentified rare fossil","key master teleport","chromium ingot","blood quartz","smoke quartz","shadow quartz","ice quartz","pendant of ates*","frozen cache","ancient icon","charged ice","parasitic egg"]
 
-
 /*@ define:input:uniques
 type: style
 label: Style
@@ -40,6 +39,7 @@ group: Tier S
 exampleItem: Executioner's axe head
 */
 #define VAR_UNIQUE_STIER_CUSTOMSTYLE \
+  hidden = false;\
   textColor = "#ff0000";\
   backgroundColor = "#ffffff";\
   borderColor = "#ff0000";\
@@ -53,6 +53,7 @@ group: Tier A
 exampleItem: Brimstone key
 */
 #define VAR_UNIQUE_ATIER_CUSTOMSTYLE \
+  hidden = false;\
   textColor = "#ffffff";\
   backgroundColor = "#af6025";\
   borderColor = "#ffffff";\
@@ -66,6 +67,7 @@ group: Tier B
 exampleItem: Araxyte head
 */
 #define VAR_UNIQUE_BTIER_CUSTOMSTYLE \
+  hidden = false;\
   textColor = "#000000";\
   backgroundColor = "#af6025";\
   borderColor = "#000000";\
@@ -78,26 +80,14 @@ group: Tier C
 exampleItem: Dark totem top
 */
 #define VAR_UNIQUE_CTIER_CUSTOMSTYLE \
+  hidden = false;\
   textColor = "#af6025";\
   backgroundColor = "#350d0d";\
   borderColor = "#af6025";\
   textAccent = 3;
 
-
-rule (name:VAR_UNIQUE_STIER) {
-  hidden = false;
-  VAR_UNIQUE_STIER_CUSTOMSTYLE
-}
-rule (name:VAR_UNIQUE_ATIER) {
-  hidden = false;
-  VAR_UNIQUE_ATIER_CUSTOMSTYLE
-}
-rule (name:VAR_UNIQUE_BTIER) {
-  hidden = false;
-  VAR_UNIQUE_BTIER_CUSTOMSTYLE
-}
-rule (name:VAR_UNIQUE_CTIER) {
-  hidden = false;
-  VAR_UNIQUE_CTIER_CUSTOMSTYLE
-}
+rule (name:VAR_UNIQUE_STIER) { VAR_UNIQUE_STIER_CUSTOMSTYLE }
+rule (name:VAR_UNIQUE_ATIER) { VAR_UNIQUE_ATIER_CUSTOMSTYLE }
+rule (name:VAR_UNIQUE_BTIER) { VAR_UNIQUE_BTIER_CUSTOMSTYLE }
+rule (name:VAR_UNIQUE_CTIER) { VAR_UNIQUE_CTIER_CUSTOMSTYLE }
 

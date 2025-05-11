@@ -87,13 +87,10 @@ label: Style
 exampleItem: Grimy torstol
 */
 #define VAR_HERB_CUSTOMSTYLE \
+  hidden = false;\
   textColor = "#00ff00";
 
-
-apply (noted:false && name:CONST_HERB_HERBS) {
-  textColor = CONST_HERB_DEFAULTCOLOR;
-  VAR_HERB_CUSTOMSTYLE
-}
+apply (noted:false && name:CONST_HERB_HERBS) { VAR_HERB_CUSTOMSTYLE }
 
 apply (noted:false && name:CONST_HERB_HERBS && value:<VAR_HERB_MINVALUE) { hidden = true; }
 

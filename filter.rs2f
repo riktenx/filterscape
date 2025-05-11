@@ -66,7 +66,7 @@ type: style
 group: Default style
 label: Default style
 */
-#define VAR_DEFAULTS_STYLE 
+#define VAR_DEFAULTS_STYLE hidden = false;
 
 apply (true) { VAR_DEFAULTS_STYLE }
 
@@ -126,42 +126,42 @@ type: style
 label: Custom group 1
 group: Custom highlight groups
 */
-#define VAR_HHGROUP_STYLE_HIGHLIGHT1_STYLE textColor = "#ff0000";
+#define VAR_HHGROUP_STYLE_HIGHLIGHT1_STYLE hidden = false; textColor = "#ff0000";
 
 /*@ define:input
 type: style
 label: Custom group 2
 group: Custom highlight groups
 */
-#define VAR_HHGROUP_STYLE_HIGHLIGHT2_STYLE textColor = "#00ff00";
+#define VAR_HHGROUP_STYLE_HIGHLIGHT2_STYLE hidden = false; textColor = "#00ff00";
 
 /*@ define:input
 type: style
 label: Custom group 3
 group: Custom highlight groups
 */
-#define VAR_HHGROUP_STYLE_HIGHLIGHT3_STYLE textColor = "#0000ff";
+#define VAR_HHGROUP_STYLE_HIGHLIGHT3_STYLE hidden = false; textColor = "#0000ff";
 
 /*@ define:input
 type: style
 label: Custom group 4
 group: Custom highlight groups
 */
-#define VAR_HHGROUP_STYLE_HIGHLIGHT4_STYLE textColor = "#00ffff";
+#define VAR_HHGROUP_STYLE_HIGHLIGHT4_STYLE hidden = false; textColor = "#00ffff";
 
 /*@ define:input
 type: style
 label: Custom group 5
 group: Custom highlight groups
 */
-#define VAR_GENERAL_STYLE5 textColor = "#ff00ff";
+#define VAR_GENERAL_STYLE5 hidden = false; textColor = "#ff00ff";
 
 /*@ define:input
 type: style
 label: Custom group 6
 group: Custom highlight groups
 */
-#define VAR_GENERAL_STYLE6 textColor = "#ffff00";
+#define VAR_GENERAL_STYLE6 hidden = false; textColor = "#ffff00";
 
 rule (name:VAR_HHGROUP_STRINGLIST_HIGHLIGHT1_ITEMS) { VAR_HHGROUP_STYLE_HIGHLIGHT1_STYLE }
 rule (name:VAR_HHGROUP_STRINGLIST_HIGHLIGHT2_ITEMS) { VAR_HHGROUP_STYLE_HIGHLIGHT2_STYLE }
@@ -4570,6 +4570,7 @@ group: Bronze keys
 label: Bronze key black
 */
 #define VAR_SOM_BRONZEBLACK_STYLE \
+  hidden = false;\
   textColor = "#ffffff";\
   backgroundColor = "#5b462a";\
   borderColor = "#000000";
@@ -4580,6 +4581,7 @@ group: Bronze keys
 label: Bronze key purple
 */
 #define VAR_SOM_BRONZEPURPLE_STYLE \
+  hidden = false;\
   textColor = "#ffffff";\
   backgroundColor = "#5b462a";\
   borderColor = "#800080";
@@ -4590,6 +4592,7 @@ group: Bronze keys
 label: Bronze key red
 */
 #define VAR_SOM_BRONZERED_STYLE \
+  hidden = false;\
   textColor = "#ffffff";\
   backgroundColor = "#5b462a";\
   borderColor = "#a00000";
@@ -4600,6 +4603,7 @@ group: Bronze keys
 label: Bronze key brown
 */
 #define VAR_SOM_BRONZEBROWN_STYLE \
+  hidden = false;\
   textColor = "#ffffff";\
   backgroundColor = "#5b462a";\
   borderColor = "#964b00";
@@ -4610,6 +4614,7 @@ group: Bronze keys
 label: Bronze key crimson
 */
 #define VAR_SOM_BRONZECRIMSON_STYLE \
+  hidden = false;\
   textColor = "#ffffff";\
   backgroundColor = "#5b462a";\
   borderColor = "#ff143c";
@@ -4620,6 +4625,7 @@ group: Steel keys
 label: Steel key black
 */
 #define VAR_SOM_STEELBLACK_STYLE \
+  hidden = false;\
   textColor = "#ffffff";\
   backgroundColor = "#908686";\
   borderColor = "#000000";
@@ -4630,6 +4636,7 @@ group: Steel keys
 label: Steel key purple
 */
 #define VAR_SOM_STEELPURPLE_STYLE \
+  hidden = false;\
   textColor = "#ffffff";\
   backgroundColor = "#908686";\
   borderColor = "#800080";
@@ -4640,6 +4647,7 @@ group: Steel keys
 label: Steel key red
 */
 #define VAR_SOM_STEELRED_STYLE \
+  hidden = false;\
   textColor = "#ffffff";\
   backgroundColor = "#908686";\
   borderColor = "#a00000";
@@ -4650,6 +4658,7 @@ group: Steel keys
 label: Steel key brown
 */
 #define VAR_SOM_STEELBROWN_STYLE \
+  hidden = false;\
   textColor = "#ffffff";\
   backgroundColor = "#908686";\
   borderColor = "#964b00";
@@ -4660,6 +4669,7 @@ group: Steel keys
 label: Steel key crimson
 */
 #define VAR_SOM_STEELCRIMSON_STYLE \
+  hidden = false;\
   textColor = "#ffffff";\
   backgroundColor = "#908686";\
   borderColor = "#ff143c";
@@ -4670,6 +4680,7 @@ group: Black keys
 label: Black key black
 */
 #define VAR_SOM_BLACKBLACK_STYLE \
+  hidden = false;\
   textColor = "#ffffff";\
   backgroundColor = "#000000";\
   borderColor = "#000000";
@@ -4680,6 +4691,7 @@ group: Black keys
 label: Black key purple
 */
 #define VAR_SOM_BLACKPURPLE_STYLE \
+  hidden = false;\
   textColor = "#ffffff";\
   backgroundColor = "#000000";\
   borderColor = "#800080";
@@ -4690,6 +4702,7 @@ group: Black keys
 label: Black key red
 */
 #define VAR_SOM_BLACKRED_STYLE \
+  hidden = false;\
   textColor = "#ffffff";\
   backgroundColor = "#000000";\
   borderColor = "#a00000";
@@ -4700,6 +4713,7 @@ group: Black keys
 label: Black key brown
 */
 #define VAR_SOM_BLACKBROWN_STYLE \
+  hidden = false;\
   textColor = "#ffffff";\
   backgroundColor = "#000000";\
   borderColor = "#964b00";
@@ -4710,6 +4724,7 @@ group: Black keys
 label: Black key crimson
 */
 #define VAR_SOM_BLACKCRIMSON_STYLE \
+  hidden = false;\
   textColor = "#ffffff";\
   backgroundColor = "#000000";\
   borderColor = "#ff143c";
@@ -4720,6 +4735,7 @@ group: Silver keys
 label: Silver key black
 */
 #define VAR_SOM_SILVERBLACK_STYLE \
+  hidden = false;\
   textColor = "#ffffff";\
   backgroundColor = "#a8a8b4";\
   borderColor = "#000000";
@@ -4730,6 +4746,7 @@ group: Silver keys
 label: Silver key purple
 */
 #define VAR_SOM_SILVERPURPLE_STYLE \
+  hidden = false;\
   textColor = "#ffffff";\
   backgroundColor = "#a8a8b4";\
   borderColor = "#800080";
@@ -4740,6 +4757,7 @@ group: Silver keys
 label: Silver key red
 */
 #define VAR_SOM_SILVERRED_STYLE \
+  hidden = false;\
   textColor = "#ffffff";\
   backgroundColor = "#a8a8b4";\
   borderColor = "#a00000";
@@ -4750,6 +4768,7 @@ group: Silver keys
 label: Silver key brown
 */
 #define VAR_SOM_SILVERBROWN_STYLE \
+  hidden = false;\
   textColor = "#ffffff";\
   backgroundColor = "#a8a8b4";\
   borderColor = "#964b00";
@@ -4760,6 +4779,7 @@ group: Silver keys
 label: Silver key crimson
 */
 #define VAR_SOM_SILVERCRIMSON_STYLE \
+  hidden = false;\
   textColor = "#ffffff";\
   backgroundColor = "#a8a8b4";\
   borderColor = "#ff143c";
@@ -4770,6 +4790,7 @@ group: Gold keys
 label: Gold key black
 */
 #define VAR_SOM_GOLDBLACK_STYLE \
+  hidden = false;\
   textColor = "#ffffff";\
   backgroundColor = "#d8b01a";\
   borderColor = "#000000";
@@ -4780,6 +4801,7 @@ group: Gold keys
 label: Gold key purple
 */
 #define VAR_SOM_GOLDPURPLE_STYLE \
+  hidden = false;\
   textColor = "#ffffff";\
   backgroundColor = "#d8b01a";\
   borderColor = "#800080";
@@ -4790,6 +4812,7 @@ group: Gold keys
 label: Gold key red
 */
 #define VAR_SOM_GOLDRED_STYLE \
+  hidden = false;\
   textColor = "#ffffff";\
   backgroundColor = "#d8b01a";\
   borderColor = "#a00000";
@@ -4800,6 +4823,7 @@ group: Gold keys
 label: Gold key brown
 */
 #define VAR_SOM_GOLDBROWN_STYLE \
+  hidden = false;\
   textColor = "#ffffff";\
   backgroundColor = "#d8b01a";\
   borderColor = "#964b00";
@@ -4810,6 +4834,7 @@ group: Gold keys
 label: Gold key crimson
 */
 #define VAR_SOM_GOLDCRIMSON_STYLE \
+  hidden = false;\
   textColor = "#ffffff";\
   backgroundColor = "#d8b01a";\
   borderColor = "#ff143c";
@@ -4821,6 +4846,7 @@ group: Shades
 label: Loar remains
 */
 #define VAR_SOM_LOAR_STYLE \
+  hidden = false;\
   textColor = "#ffffff";\
   backgroundColor = "#905b462a";
 
@@ -4830,6 +4856,7 @@ group: Shades
 label: Phrin remains
 */
 #define VAR_SOM_PHRIN_STYLE \
+  hidden = false;\
   textColor = "#ffffff";\
   backgroundColor = "#905b462a";
   
@@ -4839,6 +4866,7 @@ group: Shades
 label: Riyl remains
 */
 #define VAR_SOM_RIYL_STYLE \
+  hidden = false;\
   textColor = "#ffffff";\
   backgroundColor = "#90908686";
 
@@ -4848,6 +4876,7 @@ group: Shades
 label: Asyn remains
 */
 #define VAR_SOM_ASYN_STYLE \
+  hidden = false;\
   textColor = "#ffffff";\
   backgroundColor = "#90000000";
 
@@ -4857,6 +4886,7 @@ group: Shades
 label: Fiyr remains
 */
 #define VAR_SOM_FIYR_STYLE \
+  hidden = false;\
   textColor = "#ffffff";\
   backgroundColor = "#90a8a8b4";
 
@@ -4866,6 +4896,7 @@ group: Shades
 label: Urium remains
 */
 #define VAR_SOM_URIUM_STYLE \
+  hidden = false;\
   textColor = "#ffffff";\
   backgroundColor = "#90d8b01a";
 
@@ -4971,7 +5002,6 @@ group: Tier C
 */
 #define VAR_UNIQUE_CTIER ["dark totem top","dark totem base","dark totem middle","long bone","curved bone","looting bag","unidentified small fossil","unidentified medium fossil","unidentified large fossil","unidentified rare fossil","key master teleport","chromium ingot","blood quartz","smoke quartz","shadow quartz","ice quartz","pendant of ates*","frozen cache","ancient icon","charged ice","parasitic egg"]
 
-
 /*@ define:input:uniques
 type: style
 label: Style
@@ -4979,6 +5009,7 @@ group: Tier S
 exampleItem: Executioner's axe head
 */
 #define VAR_UNIQUE_STIER_CUSTOMSTYLE \
+  hidden = false;\
   textColor = "#ff0000";\
   backgroundColor = "#ffffff";\
   borderColor = "#ff0000";\
@@ -4992,6 +5023,7 @@ group: Tier A
 exampleItem: Brimstone key
 */
 #define VAR_UNIQUE_ATIER_CUSTOMSTYLE \
+  hidden = false;\
   textColor = "#ffffff";\
   backgroundColor = "#af6025";\
   borderColor = "#ffffff";\
@@ -5005,6 +5037,7 @@ group: Tier B
 exampleItem: Araxyte head
 */
 #define VAR_UNIQUE_BTIER_CUSTOMSTYLE \
+  hidden = false;\
   textColor = "#000000";\
   backgroundColor = "#af6025";\
   borderColor = "#000000";\
@@ -5017,28 +5050,16 @@ group: Tier C
 exampleItem: Dark totem top
 */
 #define VAR_UNIQUE_CTIER_CUSTOMSTYLE \
+  hidden = false;\
   textColor = "#af6025";\
   backgroundColor = "#350d0d";\
   borderColor = "#af6025";\
   textAccent = 3;
 
-
-rule (name:VAR_UNIQUE_STIER) {
-  hidden = false;
-  VAR_UNIQUE_STIER_CUSTOMSTYLE
-}
-rule (name:VAR_UNIQUE_ATIER) {
-  hidden = false;
-  VAR_UNIQUE_ATIER_CUSTOMSTYLE
-}
-rule (name:VAR_UNIQUE_BTIER) {
-  hidden = false;
-  VAR_UNIQUE_BTIER_CUSTOMSTYLE
-}
-rule (name:VAR_UNIQUE_CTIER) {
-  hidden = false;
-  VAR_UNIQUE_CTIER_CUSTOMSTYLE
-}
+rule (name:VAR_UNIQUE_STIER) { VAR_UNIQUE_STIER_CUSTOMSTYLE }
+rule (name:VAR_UNIQUE_ATIER) { VAR_UNIQUE_ATIER_CUSTOMSTYLE }
+rule (name:VAR_UNIQUE_BTIER) { VAR_UNIQUE_BTIER_CUSTOMSTYLE }
+rule (name:VAR_UNIQUE_CTIER) { VAR_UNIQUE_CTIER_CUSTOMSTYLE }
 
 
 
@@ -5048,10 +5069,8 @@ rule (name:VAR_UNIQUE_CTIER) {
 name: Potions
 */
 
-#define CONST_POTION_HIGHLIGHT(_name, _color, _userstyle) \
+#define CONST_POTION_HIGHLIGHT(_name, _userstyle) \
   rule (name:_name && noted:false) {\
-    textColor = _color;\
-    textAccent = TEXTACCENT_OUTLINE;\
     _userstyle\
   }
 
@@ -5060,6 +5079,7 @@ type: style
 label: Super restore
 */
 #define VAR_POTION_RESTORE_USERSTYLE \
+  hidden = false;\
   textColor = "#e91e63";\
   textAccent = 2;
 
@@ -5068,6 +5088,7 @@ type: style
 label: Saradomin brew
 */
 #define VAR_POTION_BREW_USERSTYLE \
+  hidden = false;\
   textColor = "#ffff00";\
   textAccent = 2;
 
@@ -5076,6 +5097,7 @@ type: style
 label: Prayer potion
 */
 #define VAR_POTION_PRAYER_USERSTYLE \
+  hidden = false;\
   textColor = "#59d6ae";\
   textAccent = 2;
 
@@ -5084,6 +5106,7 @@ type: style
 label: Sanfew serum
 */
 #define VAR_POTION_SANFEW_USERSTYLE \
+  hidden = false;\
   textColor = "#e59e9e";\
   textAccent = 2;
 
@@ -5092,6 +5115,7 @@ type: style
 label: Super combat potion
 */
 #define VAR_POTION_SUPERCOMBAT_USERSTYLE \
+  hidden = false;\
   textColor = "#2a9e16";\
   textAccent = 2;
 
@@ -5100,6 +5124,7 @@ type: style
 label: Ranging potion
 */
 #define VAR_POTION_RANGE_USERSTYLE \
+  hidden = false;\
   textColor = "#5fb7da";\
   textAccent = 2;
 
@@ -5108,17 +5133,17 @@ type: style
 label: Bastion potion
 */
 #define VAR_POTION_BASTION_USERSTYLE \
+  hidden = false;\
   textColor = "#db721c";\
   textAccent = 2;
 
-
-CONST_POTION_HIGHLIGHT("super restore*", "#e91e63", VAR_POTION_RESTORE_USERSTYLE)
-CONST_POTION_HIGHLIGHT("saradomin brew*", "#ffff00", VAR_POTION_BREW_USERSTYLE)
-CONST_POTION_HIGHLIGHT("prayer potion*", "#59d6ae", VAR_POTION_PRAYER_USERSTYLE)
-CONST_POTION_HIGHLIGHT("sanfew serum*", "#e59e9e", VAR_POTION_SANFEW_USERSTYLE)
-CONST_POTION_HIGHLIGHT("*super combat potion*", "#2a9e16", VAR_POTION_SUPERCOMBAT_USERSTYLE)
-CONST_POTION_HIGHLIGHT("*ranging potion*", "#5fb7da", VAR_POTION_RANGE_USERSTYLE)
-CONST_POTION_HIGHLIGHT("*bastion potion*", "#db721c", VAR_POTION_BASTION_USERSTYLE)
+CONST_POTION_HIGHLIGHT("super restore*",        VAR_POTION_RESTORE_USERSTYLE)
+CONST_POTION_HIGHLIGHT("saradomin brew*",       VAR_POTION_BREW_USERSTYLE)
+CONST_POTION_HIGHLIGHT("prayer potion*",        VAR_POTION_PRAYER_USERSTYLE)
+CONST_POTION_HIGHLIGHT("sanfew serum*",         VAR_POTION_SANFEW_USERSTYLE)
+CONST_POTION_HIGHLIGHT("*super combat potion*", VAR_POTION_SUPERCOMBAT_USERSTYLE)
+CONST_POTION_HIGHLIGHT("*ranging potion*",      VAR_POTION_RANGE_USERSTYLE)
+CONST_POTION_HIGHLIGHT("*bastion potion*",      VAR_POTION_BASTION_USERSTYLE)
 
 
 
@@ -5299,13 +5324,10 @@ label: Style
 exampleItem: Grimy torstol
 */
 #define VAR_HERB_CUSTOMSTYLE \
+  hidden = false;\
   textColor = "#00ff00";
 
-
-apply (noted:false && name:CONST_HERB_HERBS) {
-  textColor = CONST_HERB_DEFAULTCOLOR;
-  VAR_HERB_CUSTOMSTYLE
-}
+apply (noted:false && name:CONST_HERB_HERBS) { VAR_HERB_CUSTOMSTYLE }
 
 apply (noted:false && name:CONST_HERB_HERBS && value:<VAR_HERB_MINVALUE) { hidden = true; }
 

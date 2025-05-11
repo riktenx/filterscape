@@ -57,7 +57,7 @@ type: style
 group: Default style
 label: Default style
 */
-#define VAR_DEFAULTS_STYLE 
+#define VAR_DEFAULTS_STYLE hidden = false;
 
 apply (true) { VAR_DEFAULTS_STYLE }
 
@@ -117,42 +117,42 @@ type: style
 label: Custom group 1
 group: Custom highlight groups
 */
-#define VAR_HHGROUP_STYLE_HIGHLIGHT1_STYLE textColor = "#ff0000";
+#define VAR_HHGROUP_STYLE_HIGHLIGHT1_STYLE hidden = false; textColor = "#ff0000";
 
 /*@ define:input
 type: style
 label: Custom group 2
 group: Custom highlight groups
 */
-#define VAR_HHGROUP_STYLE_HIGHLIGHT2_STYLE textColor = "#00ff00";
+#define VAR_HHGROUP_STYLE_HIGHLIGHT2_STYLE hidden = false; textColor = "#00ff00";
 
 /*@ define:input
 type: style
 label: Custom group 3
 group: Custom highlight groups
 */
-#define VAR_HHGROUP_STYLE_HIGHLIGHT3_STYLE textColor = "#0000ff";
+#define VAR_HHGROUP_STYLE_HIGHLIGHT3_STYLE hidden = false; textColor = "#0000ff";
 
 /*@ define:input
 type: style
 label: Custom group 4
 group: Custom highlight groups
 */
-#define VAR_HHGROUP_STYLE_HIGHLIGHT4_STYLE textColor = "#00ffff";
+#define VAR_HHGROUP_STYLE_HIGHLIGHT4_STYLE hidden = false; textColor = "#00ffff";
 
 /*@ define:input
 type: style
 label: Custom group 5
 group: Custom highlight groups
 */
-#define VAR_GENERAL_STYLE5 textColor = "#ff00ff";
+#define VAR_GENERAL_STYLE5 hidden = false; textColor = "#ff00ff";
 
 /*@ define:input
 type: style
 label: Custom group 6
 group: Custom highlight groups
 */
-#define VAR_GENERAL_STYLE6 textColor = "#ffff00";
+#define VAR_GENERAL_STYLE6 hidden = false; textColor = "#ffff00";
 
 rule (name:VAR_HHGROUP_STRINGLIST_HIGHLIGHT1_ITEMS) { VAR_HHGROUP_STYLE_HIGHLIGHT1_STYLE }
 rule (name:VAR_HHGROUP_STRINGLIST_HIGHLIGHT2_ITEMS) { VAR_HHGROUP_STYLE_HIGHLIGHT2_STYLE }

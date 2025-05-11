@@ -8,6 +8,7 @@ group: Bronze keys
 label: Bronze key black
 */
 #define VAR_SOM_BRONZEBLACK_STYLE \
+  hidden = false;\
   textColor = "#ffffff";\
   backgroundColor = "#5b462a";\
   borderColor = "#000000";
@@ -18,6 +19,7 @@ group: Bronze keys
 label: Bronze key purple
 */
 #define VAR_SOM_BRONZEPURPLE_STYLE \
+  hidden = false;\
   textColor = "#ffffff";\
   backgroundColor = "#5b462a";\
   borderColor = "#800080";
@@ -28,6 +30,7 @@ group: Bronze keys
 label: Bronze key red
 */
 #define VAR_SOM_BRONZERED_STYLE \
+  hidden = false;\
   textColor = "#ffffff";\
   backgroundColor = "#5b462a";\
   borderColor = "#a00000";
@@ -38,6 +41,7 @@ group: Bronze keys
 label: Bronze key brown
 */
 #define VAR_SOM_BRONZEBROWN_STYLE \
+  hidden = false;\
   textColor = "#ffffff";\
   backgroundColor = "#5b462a";\
   borderColor = "#964b00";
@@ -48,6 +52,7 @@ group: Bronze keys
 label: Bronze key crimson
 */
 #define VAR_SOM_BRONZECRIMSON_STYLE \
+  hidden = false;\
   textColor = "#ffffff";\
   backgroundColor = "#5b462a";\
   borderColor = "#ff143c";
@@ -58,6 +63,7 @@ group: Steel keys
 label: Steel key black
 */
 #define VAR_SOM_STEELBLACK_STYLE \
+  hidden = false;\
   textColor = "#ffffff";\
   backgroundColor = "#908686";\
   borderColor = "#000000";
@@ -68,6 +74,7 @@ group: Steel keys
 label: Steel key purple
 */
 #define VAR_SOM_STEELPURPLE_STYLE \
+  hidden = false;\
   textColor = "#ffffff";\
   backgroundColor = "#908686";\
   borderColor = "#800080";
@@ -78,6 +85,7 @@ group: Steel keys
 label: Steel key red
 */
 #define VAR_SOM_STEELRED_STYLE \
+  hidden = false;\
   textColor = "#ffffff";\
   backgroundColor = "#908686";\
   borderColor = "#a00000";
@@ -88,6 +96,7 @@ group: Steel keys
 label: Steel key brown
 */
 #define VAR_SOM_STEELBROWN_STYLE \
+  hidden = false;\
   textColor = "#ffffff";\
   backgroundColor = "#908686";\
   borderColor = "#964b00";
@@ -98,6 +107,7 @@ group: Steel keys
 label: Steel key crimson
 */
 #define VAR_SOM_STEELCRIMSON_STYLE \
+  hidden = false;\
   textColor = "#ffffff";\
   backgroundColor = "#908686";\
   borderColor = "#ff143c";
@@ -108,6 +118,7 @@ group: Black keys
 label: Black key black
 */
 #define VAR_SOM_BLACKBLACK_STYLE \
+  hidden = false;\
   textColor = "#ffffff";\
   backgroundColor = "#000000";\
   borderColor = "#000000";
@@ -118,6 +129,7 @@ group: Black keys
 label: Black key purple
 */
 #define VAR_SOM_BLACKPURPLE_STYLE \
+  hidden = false;\
   textColor = "#ffffff";\
   backgroundColor = "#000000";\
   borderColor = "#800080";
@@ -128,6 +140,7 @@ group: Black keys
 label: Black key red
 */
 #define VAR_SOM_BLACKRED_STYLE \
+  hidden = false;\
   textColor = "#ffffff";\
   backgroundColor = "#000000";\
   borderColor = "#a00000";
@@ -138,6 +151,7 @@ group: Black keys
 label: Black key brown
 */
 #define VAR_SOM_BLACKBROWN_STYLE \
+  hidden = false;\
   textColor = "#ffffff";\
   backgroundColor = "#000000";\
   borderColor = "#964b00";
@@ -148,6 +162,7 @@ group: Black keys
 label: Black key crimson
 */
 #define VAR_SOM_BLACKCRIMSON_STYLE \
+  hidden = false;\
   textColor = "#ffffff";\
   backgroundColor = "#000000";\
   borderColor = "#ff143c";
@@ -158,6 +173,7 @@ group: Silver keys
 label: Silver key black
 */
 #define VAR_SOM_SILVERBLACK_STYLE \
+  hidden = false;\
   textColor = "#ffffff";\
   backgroundColor = "#a8a8b4";\
   borderColor = "#000000";
@@ -168,6 +184,7 @@ group: Silver keys
 label: Silver key purple
 */
 #define VAR_SOM_SILVERPURPLE_STYLE \
+  hidden = false;\
   textColor = "#ffffff";\
   backgroundColor = "#a8a8b4";\
   borderColor = "#800080";
@@ -178,6 +195,7 @@ group: Silver keys
 label: Silver key red
 */
 #define VAR_SOM_SILVERRED_STYLE \
+  hidden = false;\
   textColor = "#ffffff";\
   backgroundColor = "#a8a8b4";\
   borderColor = "#a00000";
@@ -188,6 +206,7 @@ group: Silver keys
 label: Silver key brown
 */
 #define VAR_SOM_SILVERBROWN_STYLE \
+  hidden = false;\
   textColor = "#ffffff";\
   backgroundColor = "#a8a8b4";\
   borderColor = "#964b00";
@@ -198,6 +217,7 @@ group: Silver keys
 label: Silver key crimson
 */
 #define VAR_SOM_SILVERCRIMSON_STYLE \
+  hidden = false;\
   textColor = "#ffffff";\
   backgroundColor = "#a8a8b4";\
   borderColor = "#ff143c";
@@ -208,6 +228,7 @@ group: Gold keys
 label: Gold key black
 */
 #define VAR_SOM_GOLDBLACK_STYLE \
+  hidden = false;\
   textColor = "#ffffff";\
   backgroundColor = "#d8b01a";\
   borderColor = "#000000";
@@ -218,6 +239,7 @@ group: Gold keys
 label: Gold key purple
 */
 #define VAR_SOM_GOLDPURPLE_STYLE \
+  hidden = false;\
   textColor = "#ffffff";\
   backgroundColor = "#d8b01a";\
   borderColor = "#800080";
@@ -228,6 +250,7 @@ group: Gold keys
 label: Gold key red
 */
 #define VAR_SOM_GOLDRED_STYLE \
+  hidden = false;\
   textColor = "#ffffff";\
   backgroundColor = "#d8b01a";\
   borderColor = "#a00000";
@@ -238,6 +261,7 @@ group: Gold keys
 label: Gold key brown
 */
 #define VAR_SOM_GOLDBROWN_STYLE \
+  hidden = false;\
   textColor = "#ffffff";\
   backgroundColor = "#d8b01a";\
   borderColor = "#964b00";
@@ -248,6 +272,7 @@ group: Gold keys
 label: Gold key crimson
 */
 #define VAR_SOM_GOLDCRIMSON_STYLE \
+  hidden = false;\
   textColor = "#ffffff";\
   backgroundColor = "#d8b01a";\
   borderColor = "#ff143c";
@@ -259,6 +284,7 @@ group: Shades
 label: Loar remains
 */
 #define VAR_SOM_LOAR_STYLE \
+  hidden = false;\
   textColor = "#ffffff";\
   backgroundColor = "#905b462a";
 
@@ -268,6 +294,7 @@ group: Shades
 label: Phrin remains
 */
 #define VAR_SOM_PHRIN_STYLE \
+  hidden = false;\
   textColor = "#ffffff";\
   backgroundColor = "#905b462a";
   
@@ -277,6 +304,7 @@ group: Shades
 label: Riyl remains
 */
 #define VAR_SOM_RIYL_STYLE \
+  hidden = false;\
   textColor = "#ffffff";\
   backgroundColor = "#90908686";
 
@@ -286,6 +314,7 @@ group: Shades
 label: Asyn remains
 */
 #define VAR_SOM_ASYN_STYLE \
+  hidden = false;\
   textColor = "#ffffff";\
   backgroundColor = "#90000000";
 
@@ -295,6 +324,7 @@ group: Shades
 label: Fiyr remains
 */
 #define VAR_SOM_FIYR_STYLE \
+  hidden = false;\
   textColor = "#ffffff";\
   backgroundColor = "#90a8a8b4";
 
@@ -304,6 +334,7 @@ group: Shades
 label: Urium remains
 */
 #define VAR_SOM_URIUM_STYLE \
+  hidden = false;\
   textColor = "#ffffff";\
   backgroundColor = "#90d8b01a";
 

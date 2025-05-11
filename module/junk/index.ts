@@ -79,7 +79,8 @@ const hideCheckbox = (
       !i.name.endsWith('defender') &&
       !i.name.endsWith('boots') &&
       !i.name.endsWith('axe') &&
-      !i.name.endsWith('spear')
+      !i.name.endsWith('spear') &&
+      !i.name.endsWith('Coins')
   );
 
   const listName = `CONST_${scope}_${list.name}`;

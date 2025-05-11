@@ -5129,25 +5129,11 @@ name: Clues
 */
 
 /*@ define:input:clues
-type: enumlist
-label: Clue tiers to Hide
-enum: [
-  "clue scroll (beginner)",
-  "clue scroll (easy)",
-  "clue scroll (medium)",
-  "clue scroll (hard)",
-  "clue scroll (elite)",
-  "clue scroll (master)"
-]
-*/
-#define VAR_CLUE_HIDE []
-
-
-/*@ define:input:clues
 type: style
 label: Beginner clue
 */
 #define VAR_CLUE_BEGINNER_CUSTOMSTYLE \
+  hidden = false;\
   textColor = "#ffffff";\
   backgroundColor = "#beb287";\
   borderColor = "#ffffff";
@@ -5157,6 +5143,7 @@ type: style
 label: Easy clue
 */
 #define VAR_CLUE_EASY_CUSTOMSTYLE \
+  hidden = false;\
   textColor = "#09600d";\
   backgroundColor = "#beb287";\
   borderColor = "#09600d";
@@ -5166,6 +5153,7 @@ type: style
 label: Medium clue
 */
 #define VAR_CLUE_MEDIUM_CUSTOMSTYLE \
+  hidden = false;\
   textColor = "#569699";\
   backgroundColor = "#beb287";\
   borderColor = "#569699";
@@ -5175,6 +5163,7 @@ type: style
 label: Hard clue
 */
 #define VAR_CLUE_HARD_CUSTOMSTYLE \
+  hidden = false;\
   textColor = "#833798";\
   backgroundColor = "#beb287";\
   borderColor = "#833798";
@@ -5184,6 +5173,7 @@ type: style
 label: Elite clue
 */
 #define VAR_CLUE_ELITE_CUSTOMSTYLE \
+  hidden = false;\
   textColor = "#bda518";\
   backgroundColor = "#beb287";\
   borderColor = "#bda518";
@@ -5193,12 +5183,11 @@ type: style
 label: Master clue
 */
 #define VAR_CLUE_MASTER_CUSTOMSTYLE \
+  hidden = false;\
   textColor = "#9b3026";\
   backgroundColor = "#beb287";\
   borderColor = "#9b3026";
 
-
-rule (name:VAR_CLUE_HIDE) { hidden = true; }
 
 rule (name:["clue scroll (beginner)", "reward casket (beginner)", "challenge scroll (beginner)"]) {
   VAR_CLUE_BEGINNER_CUSTOMSTYLE
@@ -5407,6 +5396,7 @@ group: '++Insane tier'
 exampleItem: Torva platebody (damaged)
 */
 #define VAR_VALUE_T5_CUSTOMSTYLE \
+  hidden = false;\
   textColor = "#ff0000";\
   borderColor = "#ff0000";\
   backgroundColor = "#ffffff";\
@@ -5420,6 +5410,7 @@ group: '+Insane tier'
 exampleItem: Zaryte vambraces
 */
 #define VAR_VALUE_T4_CUSTOMSTYLE \
+  hidden = false;\
   textColor = "#ffffff";\
   borderColor = "#ffffff";\
   backgroundColor = "#80ff0000";\
@@ -5433,6 +5424,7 @@ group: Insane tier
 exampleItem: Bandos tassets
 */
 #define VAR_VALUE_T3_CUSTOMSTYLE \
+  hidden = false;\
   textColor = "#ff66b2";\
   borderColor = "#ff66b2";\
   backgroundColor = "#80ffffff";\
@@ -5446,6 +5438,7 @@ group: High tier
 exampleItem: Abyssal whip
 */
 #define VAR_VALUE_T2_CUSTOMSTYLE \
+  hidden = false;\
   textColor = "#ff9600";\
   borderColor = "#ff9600";\
   backgroundColor = "#80ffffff";\
@@ -5459,6 +5452,7 @@ group: Medium tier
 exampleItem: Dragon pickaxe
 */
 #define VAR_VALUE_T1_CUSTOMSTYLE \
+  hidden = false;\
   textColor = "#99ff99";\
   borderColor = "#99ff99";
 
@@ -5469,6 +5463,7 @@ group: Low tier
 exampleItem: Rune platebody
 */
 #define VAR_VALUE_T0_CUSTOMSTYLE \
+  hidden = false;\
   textColor = "#66b2ff";
 
 /*@ define:input
@@ -5485,12 +5480,12 @@ label: "Always show untradeables"
 */
 #define VAR_VALUE_SHOWUNTRADEABLE true
 
-rule (value:>=VAR_VALUE_T5_VALUE) { hidden = false; VAR_VALUE_T5_CUSTOMSTYLE }
-rule (value:>=VAR_VALUE_T4_VALUE) { hidden = false; VAR_VALUE_T4_CUSTOMSTYLE }
-rule (value:>=VAR_VALUE_T3_VALUE) { hidden = false; VAR_VALUE_T3_CUSTOMSTYLE }
-rule (value:>=VAR_VALUE_T2_VALUE) { hidden = false; VAR_VALUE_T2_CUSTOMSTYLE }
-rule (value:>=VAR_VALUE_T1_VALUE) { hidden = false; VAR_VALUE_T1_CUSTOMSTYLE }
-rule (value:>=VAR_VALUE_T0_VALUE) { hidden = false; VAR_VALUE_T0_CUSTOMSTYLE }
+rule (value:>=VAR_VALUE_T5_VALUE) { VAR_VALUE_T5_CUSTOMSTYLE }
+rule (value:>=VAR_VALUE_T4_VALUE) { VAR_VALUE_T4_CUSTOMSTYLE }
+rule (value:>=VAR_VALUE_T3_VALUE) { VAR_VALUE_T3_CUSTOMSTYLE }
+rule (value:>=VAR_VALUE_T2_VALUE) { VAR_VALUE_T2_CUSTOMSTYLE }
+rule (value:>=VAR_VALUE_T1_VALUE) { VAR_VALUE_T1_CUSTOMSTYLE }
+rule (value:>=VAR_VALUE_T0_VALUE) { VAR_VALUE_T0_CUSTOMSTYLE }
 
 rule ((tradeable:true || !VAR_VALUE_SHOWUNTRADEABLE) && value:<VAR_VALUE_MINVALUE) {
   hidden = true;

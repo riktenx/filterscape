@@ -5,25 +5,11 @@ name: Clues
 */
 
 /*@ define:input:clues
-type: enumlist
-label: Clue tiers to Hide
-enum: [
-  "clue scroll (beginner)",
-  "clue scroll (easy)",
-  "clue scroll (medium)",
-  "clue scroll (hard)",
-  "clue scroll (elite)",
-  "clue scroll (master)"
-]
-*/
-#define VAR_CLUE_HIDE []
-
-
-/*@ define:input:clues
 type: style
 label: Beginner clue
 */
 #define VAR_CLUE_BEGINNER_CUSTOMSTYLE \
+  hidden = false;\
   textColor = "#ffffff";\
   backgroundColor = "#beb287";\
   borderColor = "#ffffff";
@@ -33,6 +19,7 @@ type: style
 label: Easy clue
 */
 #define VAR_CLUE_EASY_CUSTOMSTYLE \
+  hidden = false;\
   textColor = "#09600d";\
   backgroundColor = "#beb287";\
   borderColor = "#09600d";
@@ -42,6 +29,7 @@ type: style
 label: Medium clue
 */
 #define VAR_CLUE_MEDIUM_CUSTOMSTYLE \
+  hidden = false;\
   textColor = "#569699";\
   backgroundColor = "#beb287";\
   borderColor = "#569699";
@@ -51,6 +39,7 @@ type: style
 label: Hard clue
 */
 #define VAR_CLUE_HARD_CUSTOMSTYLE \
+  hidden = false;\
   textColor = "#833798";\
   backgroundColor = "#beb287";\
   borderColor = "#833798";
@@ -60,6 +49,7 @@ type: style
 label: Elite clue
 */
 #define VAR_CLUE_ELITE_CUSTOMSTYLE \
+  hidden = false;\
   textColor = "#bda518";\
   backgroundColor = "#beb287";\
   borderColor = "#bda518";
@@ -69,12 +59,11 @@ type: style
 label: Master clue
 */
 #define VAR_CLUE_MASTER_CUSTOMSTYLE \
+  hidden = false;\
   textColor = "#9b3026";\
   backgroundColor = "#beb287";\
   borderColor = "#9b3026";
 
-
-rule (name:VAR_CLUE_HIDE) { hidden = true; }
 
 rule (name:["clue scroll (beginner)", "reward casket (beginner)", "challenge scroll (beginner)"]) {
   VAR_CLUE_BEGINNER_CUSTOMSTYLE

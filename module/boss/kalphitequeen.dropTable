@@ -1,0 +1,69 @@
+{
+  "Consumables": [
+    "Monkfish",
+    "Shark",
+    "Dark crab",
+    "Saradomin brew(4)",
+    "Prayer potion(4)",
+    "Super restore(4)",
+    "Super combat potion(2)",
+    "Ranging potion(3)",
+    "Superantipoison(2)"
+  ],
+  "Weapons and armour": [
+    "Battlestaff",
+    "Rune chainbody",
+    "Red d'hide body",
+    "Rune knife(p++)",
+    "Lava battlestaff"
+  ],
+  "Runes and ammunition": [
+    "Death rune",
+    "Blood rune",
+    "Mithril arrow",
+    "Rune arrow"
+  ],
+  "Herbs": [
+    "Grimy toadflax",
+    "Grimy ranarr weed",
+    "Grimy snapdragon",
+    "Grimy torstol"
+  ],
+  "Seeds": [
+    "Torstol seed",
+    "Watermelon seed",
+    "Papaya tree seed",
+    "Palm tree seed",
+    "Magic seed"
+  ],
+  "Resources": [
+    "Runite bar",
+    "Bucket of sand",
+    "Gold ore",
+    "Magic logs",
+    "Uncut emerald",
+    "Uncut ruby",
+    "Uncut diamond"
+  ],
+  "Other": [
+    "Wine of zamorak",
+    "Potato cactus",
+    "Coins",
+    "Grapes",
+    "Weapon poison(++)",
+    "Cactus spine"
+  ],
+  "Rare drop table": [],
+  "Tertiary": [
+    "Kq head (tattered)",
+    "Ensouled kalphite head",
+    "Brimstone key",
+    "Kq head",
+    "Dragon chainbody",
+    "Dragon 2h sword",
+    "Dragon pickaxe",
+    "Jar of sand",
+    "Kalphite princess"
+  ],
+  "Gallery (historical)": []
+}

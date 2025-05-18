@@ -1,0 +1,41 @@
+{
+  "100%": [
+    "Bones"
+  ],
+  "Weapons and armour": [
+    "Black d'hide body",
+    "Rune 2h sword",
+    "Rune sword"
+  ],
+  "Runes and ammunition": [
+    "Water rune",
+    "Mud rune",
+    "Rune knife",
+    "Dragon arrow",
+    "Cannonball"
+  ],
+  "Seeds": [],
+  "Materials": [
+    "Grimy dwarf weed",
+    "White berries",
+    "Runite limbs",
+    "Black dragonhide",
+    "Gold ore",
+    "Uncut diamond",
+    "Onyx bolt tips"
+  ],
+  "Consumables": [
+    "Anchovy pizza",
+    "Prayer potion(3)",
+    "Potato with cheese",
+    "Shark"
+  ],
+  "Other": [
+    "Crystal key",
+    "Long bone"
+  ],
+  "Rare drop table": [],
+  "Tertiary": [
+    "Brimstone key"
+  ]
+}

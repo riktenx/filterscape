@@ -1,0 +1,226 @@
+{{External|rs}}
+{{HasStrategy}}
+{{Infobox Monster
+|name = Chaos Elemental
+|image = [[File:Chaos Elemental.png|250px]]
+|release = [[20 February]] [[2006]]
+|update = Updates, updates and more updates...
+|members = Yes
+|combat = 305
+|size = 3
+|examine = pUre A cHaOs of crEatuRe!
+|xpbonus = 7.5
+|max hit = 28
+|aggressive = Yes
+|poisonous = No
+|attack style = [[Magic]], [[Ranged]], [[Melee]] ([[Crush]]?)
+|attack speed = 4
+|slayxp = 268.75
+|cat = Bosses
+|assignedby = krystilia,konar,nieve,duradel
+|hitpoints = 250
+|att = 270
+|str = 270
+|def = 270
+|mage = 270
+|range = 270
+|attbns = 0
+|strbns = 0
+|amagic = 0
+|mbns = 0
+|arange = 0
+|rngbns = 0
+|dstab = 70
+|dslash = 70
+|dcrush = 70
+|dmagic = 70
+|drange = 70
+|immunepoison = Not immune
+|immunevenom = Poisons instead
+|immunecannon = No
+|immunethrall = No
+|respawn = 14
+|id = 2054
+}}
+The '''Chaos Elemental''' is a dark cloud with six tentacles that dwells in the [[members-only]] section of the [[Wilderness]], just west of the [[Rogues' Castle]]. This area is moderately easy to access from the deep [[Wilderness teleport lever]] in [[Ardougne]] or [[Edgeville]]. The nearby [[Wilderness Obelisk]] can randomly [[teleport]] players south-east of the Rogues' Castle, after the [[hard Wilderness Diary]] is completed, the location can be chosen from any Wilderness obelisk.
+
+The Chaos Elemental is generally killed for its [[dragon 2h sword]] and [[dragon pickaxe|pickaxe]] drops. It also has a higher drop rate of the [[pet chaos elemental]] compared to the [[Chaos Fanatic]]. In addition, it is immune to [[venom]]—any items that are able to inflict venom will inflict regular [[poison]] instead.
+
+'''{{Colour|red|Warning}}: As this boss is located deep within the Wilderness, and wanders around in a multi-combat zone, beware of player-killers! Do not bring items you are not willing to lose.'''
+
+Killing the Chaos Elemental is a requirement for the [[Hard Wilderness Diary]].
+
+==Location==
+{{LocTableHead|league=yes}}
+{{LocLine
+|name = Chaos Elemental
+|location = West of the [[Rogues' Castle]]
+|levels = 305
+|members = Yes
+|mapID = 0
+|plane = 0
+|x:3261,y:3927
+|mtype = pin
+|leagueRegion = wilderness
+}}
+{{LocTableBottom}}
+
+==Fight overview==
+{{Main|Chaos Elemental/Strategies}}
+The Chaos Elemental has three attacks:
+* '''Discord''' - Deals either [[Magic]], [[Ranged]], or [[Melee]] damage
+* '''Confusion''' - Teleports the player somewhere nearby, away from it
+* '''Madness''' - Unequips up to four equipped items
+
+==Drops==
+
+
+{{DropLogProject|kills=12040}}
+
+{{Average drop value}} Excluding the [[Dragon pickaxe]], the average kill is worth {{coins|{{average drop value|Chaos Elemental|raw=y}} - {{GEP|Dragon pickaxe}}/256 round 0}}.
+
+{{Average drop value|brimstone=yes}}
+
+{{Average drop value|Chaos Elemental|mobname=Chaos Elemental|wildernessslayer=yes}}
+
+===Minor drops===
+''These items are dropped with a [[Chaos Elemental#Major drops|major drop]]; for example, [[dragon bones]] can be dropped with a [[dragon dagger]].''
+{{DropsTableHead}}
+{{DropsLine|name=Blighted anglerfish|quantity=2|rarity=1/5}}
+{{DropsLine|name=Blighted karambwan|quantity=3|rarity=1/5}}
+{{DropsLine|name=Blighted super restore(4)|quantity=1|rarity=1/5}}
+{{DropsLine|name=Dragon bones|quantity=1|rarity=1/5}}
+{{DropsLine|name=Super combat potion(1)|quantity=1|rarity=1/5}}
+{{DropsTableBottom}}
+
+===Major drops===
+''Major drops are accompanied by a minor drop on each kill.''
+
+====Pre-roll====
+{{DropsTableHead}}
+{{DropsLine|name=Dragon pickaxe|quantity=1|rarity=1/256}}
+{{DropsTableBottom}}
+
+====Weapons and armour====
+{{DropsTableHead}}
+{{DropsLine|name=Rune dart|quantity=100|rarity=5/128}}
+{{DropsLine|name=Rune platelegs|quantity=1|rarity=4/128}}
+{{DropsLine|name=Rune plateskirt|quantity=1|rarity=4/128}}
+{{DropsLine|name=Rune 2h sword|quantity=1|rarity=3/128}}
+{{DropsLine|name=Rune battleaxe|quantity=1|rarity=3/128}}
+{{DropsLine|name=Rune full helm|quantity=1|rarity=3/128}}
+{{DropsLine|name=Rune kiteshield|quantity=1|rarity=3/128}}
+{{DropsLine|name=Mystic air staff|quantity=1|rarity=3/128}}
+{{DropsLine|name=Mystic water staff|quantity=1|rarity=3/128}}
+{{DropsLine|name=Mystic earth staff|quantity=1|rarity=3/128}}
+{{DropsLine|name=Mystic fire staff|quantity=1|rarity=3/128}}
+{{DropsLine|name=Dragon dagger|quantity=1|rarity=2/128}}
+{{DropsLine|name=Dragon 2h sword|quantity=1|rarity=2/128}}
+{{DropsLine|name=Dragon platelegs|quantity=1|rarity=2/128}}
+{{DropsLine|name=Dragon plateskirt|quantity=1|rarity=2/128}}
+{{DropsTableBottom}}
+
+====Runes and ammunition====
+{{DropsTableHead}}
+{{DropsLine|name=Chaos rune|quantity=300-500|rarity=8/128}}
+{{DropsLine|name=Blood rune|quantity=100-250|rarity=8/128}}
+{{DropsLine|name=Rune arrow|quantity=150|rarity=5/128}}
+{{DropsTableBottom}}
+
+====Herbs====
+{{DropsTableHead}}
+{{DropsLine|name=Grimy ranarr weed|quantity=5-8 (noted)|rarity=4/128}}
+{{DropsLine|name=Grimy snapdragon|quantity=5-8 (noted)|rarity=4/128}}
+{{DropsLine|name=Grimy avantoe|quantity=5-8 (noted)|rarity=3/128}}
+{{DropsLine|name=Grimy kwuarm|quantity=5-8 (noted)|rarity=3/128}}
+{{DropsTableBottom}}
+
+====Resources====
+{{DropsTableHead}}
+{{DropsLine|name=Coal|quantity=75-150 (noted)|rarity=5/128}}
+{{DropsLine|name=Mahogany plank|quantity=8-16 (noted)|rarity=5/128}}
+{{DropsLine|name=Runite bar|quantity=3-5 (noted)|rarity=4/128}}
+{{DropsLine|name=Adamantite bar|quantity=8-12 (noted)|rarity=4/128}}
+{{DropsTableBottom}}
+
+====Materials====
+{{DropsTableHead}}
+{{DropsLine|name=Coins|quantity=20005-29995|rarity=7/128}}
+{{DropsLine|name=Blighted ancient ice sack|quantity=20-40|rarity=5/128}}
+{{DropsLine|name=Blighted karambwan|quantity=15-25 (noted)|rarity=4/128}}
+{{DropsLine|name=Blighted anglerfish|quantity=10-15 (noted)|rarity=4/128}}
+{{DropsLine|name=Wilderness crabs teleport|quantity=2|rarity=2/128}}
+{{DropsTableBottom}}
+
+====Rare drop table====
+{{RareDropTable|8/128|naturetalisman=yes}}
+
+====Tertiary====
+{{DropsTableHead}}
+{{DropsLine|name=Weapon poison(++)|quantity=1|rarity=10/128}}
+{{DropsLine|name=Looting bag|quantity=1|rarity=1/3|gemw=No}}
+{{DropsLine|name=Brimstone key|quantity=1|rarity={{Brimstone rarity|305}}|raritynotes=<ref group=d>Brimstone keys are only dropped while on a [[Slayer task]] given by [[Konar quo Maten]].</ref>|gemw=No|leagueRegion=Wilderness&Kourend}}
+{{DropsLineClue|type=elite|rarity=1/200|raritynotes=<ref group=d>The elite clue scroll drop rate increases to 1/100 if a [[ring of wealth (i)]] is worn.</ref>|altrarity=1/100}}
+{{DropsLine|name=Pet chaos elemental|quantity=1|rarity=1/300|gemw=No}}
+{{DropsTableBottom}}
+{{Reflist|group=d}}
+
+====Wilderness Slayer tertiary====
+{{WildernessSlayerDropTable|combat=305|hitpoints=250|boss=yes}}
+
+==Combat Achievements==
+{{Sync}}
+{{Combat Achievements list|Chaos Elemental}}
+
+==Changes==
+{{Subject changes header}}
+{{Subject changes
+|date = 10 April 2024
+|update = Undead Pirates, Colosseum Changes & more!
+|poll = Undead Pirates Rewards & More
+|change = The Chaos Elemental's respawn timer has been reduced further, from 15 seconds to 8.4 seconds.
+}}
+{{Subject changes
+|date = 28 February 2024
+|update = Defender of Varrock Artwork & QoL Updates
+|poll = 
+|change = The Chaos Elemental's respawn timer has been reduced from 60 seconds to 15 seconds.
+}}
+{{Subject changes
+|date = 7 February 2024
+|update = Poll 80 Wilderness Changes & More
+|poll = 
+|change = The Chaos Elemental has had its drop table reworked to account for the risk associated with its location.
+}}
+{{Subject changes
+|date = 1 August 2019
+|update = SOTE Changes and Small Game Updates
+|poll = Old School Content Poll 68: Small Game Improvements
+|change = The respawn time of the Chaos Elemental has been decreased from 150 seconds to 60 seconds.
+}}
+{{Subject changes
+|date = 8 February 2018
+|update = PvM QoL updates & Wilderness Rejuvenation improvements
+|poll = Quality of Life - PvM Suggestions 2018
+|change = The Chaos elemental now uses its teleport attack less frequently than before.
+}}
+{{Subject changes
+|date = 6 February 2014
+|update = Quick-prayers & Loot Broadcast
+|poll = Old School feature poll 15: Rejuvenating the Wilderness
+|change = The [[Kalphite Queen]], [[King Black Dragon]], the Chaos Elemental and the [[Dagannoth Kings]] now notify all nearby players of the loot they're dropping.
+}}
+{{Subject changes footer}}
+
+==Trivia==
+* The names of the Chaos Elemental's three attacks (Discord, Madness and Confusion) have never been officially stated by Jagex, but are named as such by the accompanying sound effects in the cache.
+*It is possible to complete the Chaos Elemental's [[collection log]] without ever fighting the boss by obtaining its drops from alternate sources; the [[pet chaos elemental]] is also dropped by the [[Chaos Fanatic]], while the [[dragon 2h sword]] and [[dragon pickaxe]] are dropped by other Wilderness bosses or the Kalphite Queen.
+* "Lethe Napier Flem", a name used by the Chaos Elemental in issue 25 of Postbag from the Hedge{{CitePostbag|issue=25|author=Chaos Elemental|letter=9}}, is an anagram of The Fallen Empire.
+* "Dags Gritting! (Rugate Arrestees Heartier)", signed at the end of the Chaos Elemental's letter in issue 30{{CitePostbag|issue=30|author=Chaos Elemental|letter=6}}, is an anagram of "Start Digging! (A Greater Treasure Is There)".
+
+==References==
+{{Reflist}}
+
+{{Wilderness bosses}}
+{{Bosses}}
+[[Category:Monsters that do not become tolerant]]

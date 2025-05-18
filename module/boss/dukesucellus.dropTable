@@ -1,0 +1,62 @@
+{
+  "Average value": [],
+  "Mechanics": [],
+  "Uniques": [
+    "Magus vestige",
+    "Chromium ingot",
+    "Eye of the duke",
+    "Virtus mask",
+    "Virtus robe top",
+    "Virtus robe bottom"
+  ],
+  "Secondary uniques": [
+    "Frozen tablet",
+    "Awakener's orb",
+    "Ice quartz"
+  ],
+  "Supplies": [
+    "Pineapple pizza",
+    "Prayer potion(3)",
+    "Super combat potion(2)"
+  ],
+  "Weapons and armour": [
+    "Bronze chainbody",
+    "Mithril chainbody",
+    "Adamant chainbody",
+    "Dragon platelegs"
+  ],
+  "Resources": [
+    "Pure essence",
+    "Iron ore",
+    "Coal",
+    "Mithril ore",
+    "Adamantite ore",
+    "Runite ore",
+    "Sapphire",
+    "Emerald",
+    "Ruby",
+    "Uncut ruby",
+    "Uncut diamond",
+    "Bronze bar",
+    "Dragon arrowtips",
+    "Rune javelin heads",
+    "Dragon javelin heads",
+    "Raw sea turtle"
+  ],
+  "Runes and ammunition": [
+    "Air rune",
+    "Mist rune",
+    "Chaos rune",
+    "Soul rune"
+  ],
+  "Tertiary": [
+    "Odd key",
+    "Brimstone key",
+    "Clue scroll (easy)",
+    "Clue scroll (medium)",
+    "Clue scroll (hard)",
+    "Clue scroll (elite)",
+    "Baron",
+    "Ancient blood ornament kit"
+  ]
+}

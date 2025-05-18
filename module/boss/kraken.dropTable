@@ -1,0 +1,54 @@
+{
+  "Weapons and armour": [
+    "Mystic water staff",
+    "Rune warhammer",
+    "Rune longsword",
+    "Mystic robe top",
+    "Mystic robe bottom",
+    "Trident of the seas (full)"
+  ],
+  "Runes": [
+    "Water rune",
+    "Mist rune",
+    "Chaos rune",
+    "Death rune",
+    "Blood rune",
+    "Soul rune"
+  ],
+  "Seeds": [
+    "Watermelon seed",
+    "Torstol seed",
+    "Magic seed"
+  ],
+  "Materials": [
+    "Seaweed",
+    "Battlestaff",
+    "Unpowered orb",
+    "Diamond",
+    "Oak plank",
+    "Runite bar",
+    "Raw shark",
+    "Raw monkfish",
+    "Grimy snapdragon"
+  ],
+  "Other": [
+    "Coins",
+    "Shark",
+    "Pirate boots",
+    "Sanfew serum(4)",
+    "Edible seaweed",
+    "Harpoon",
+    "Bucket",
+    "Crystal key",
+    "Rusty sword",
+    "Antidote++(4)",
+    "Dragonstone ring",
+    "Kraken tentacle"
+  ],
+  "Gem drop table": [],
+  "Tertiary": [
+    "Brimstone key",
+    "Jar of dirt",
+    "Pet kraken"
+  ]
+}

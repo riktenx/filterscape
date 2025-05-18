@@ -1,0 +1,391 @@
+{{Otheruses|the main boss|the lesser boss|Artio}}
+{{HasStrategy}}
+{{HasTask|Bears}}
+{{Infobox Monster
+|name = Callisto
+|image = [[File:Callisto.png|290px]]
+|release = [[13 March]] [[2014]]
+|update = Rejuvenating the Wilderness: More risk, more reward
+|members = Yes
+|combat = 470
+|size = 5
+|examine = I wouldn't want to eat his Porridge.
+|xpbonus = 30
+|max hit = 55 ([[Crush]]), 31 ([[Ranged]]), 50 (Special)
+|aggressive = Yes
+|poisonous = No
+|attack style = [[Crush]], [[Magic]], [[Ranged]]
+|attack speed = 4
+|slayxp = 1300
+|cat = Bears, Bosses
+|assignedby = turael,spria,krystilia,mazchna,konar,nieve,duradel
+|hitpoints = 1000
+|att = 350
+|str = 300
+|def = 225
+|mage = 140
+|range = 200
+|attbns = 0
+|strbns = 0
+|amagic = 0
+|mbns = 0
+|arange = 100
+|rngbns = 30
+|dstab = 150
+|dslash = 130
+|dcrush = 125
+|dmagic = 0
+|drange = 50
+|immunepoison = Yes
+|immunevenom = Yes
+|immunecannon = No
+|immunethrall = No
+|respawn = 11
+|id = 6609
+}}
+'''Callisto''' is an enormous bear empowered by the corruption of the [[Wilderness]] that resides in [[Callisto's Den]] at level 40 [[Wilderness]] and is the one of two monsters to drop the [[tyrannical ring]]. 
+
+[[Ironman_Mode|Ironmen]] are eligible for drops from Callisto when defeating it alongside other players.
+
+==Location==
+{{LocTableHead|league=yes}}
+{{LocLine
+|name = Callisto
+|location = [[Callisto's Den]]
+|levels = 470
+|members = Yes
+|mapID = 0
+|plane = 0
+|x:3291,y:3849
+|mtype = pin
+|leagueRegion = wilderness
+}}
+{{LocTableBottom}}
+
+==Strategy==
+{{Main|Callisto/Strategies}}
+
+Callisto primarily attacks with melee, but will use ranged against players if he cannot reach them. His melee attack deals massive damage and shatters into other players near his current target. His melee attack has a minimum hit of 35.{{CiteTwitter|author=Mod Ash|url=https://twitter.com/JagexAsh/status/1724401188496359898|date=14 November 2023|archiveurl=https://web.archive.org/web/20231114143552/https://twitter.com/JagexAsh/status/1724401188496359898|archivedate=14 November 2023|quote=Hey Ash. Do you happen to know what the "minimum damage" of Callisto and Artio's melee attacks are? 35 & 15 as base values, I believe.}}
+At specific health intervals, he can deploy ghostly bear traps that bind players that step into one. When Callisto does this, he will become unfrozen regardless of any remaining time on the freeze. Callisto will occasionally send out a slow magic attack towards the player. If the player is not praying Protect from Magic when the attack reaches the player, this will result in the player being knocked back and temporarily stunned, in addition to taking a large amount of damage if the player is knocked into a wall. 
+
+[[Protection prayers]] will negate all ranged and magic damage of his attacks, but [[Protect from Melee]] will only reduce the damage by ~50%. 
+
+==Money making==
+{{Mmgsection|Killing Callisto}}
+
+==Drops==
+The listed quantities are for soloing Callisto. In group encounters, Callisto's drops, including uniques, will be split proportionally based on damage done. Up to 10 players may obtain drops per kill in this manner, and each of the top 10 players will receive at least 25% of the solo loot quantity.
+
+{{Average drop value|mob=Callisto|mobname=solo Callisto}}
+
+===100%===
+{{DropsTableHead}}
+{{DropsLine|name=Big bones|quantity=1|rarity=Always|raritynotes=<ref group=d>Big bones are dropped for the player who deals the most damage in the fight.</ref>}}
+{{DropsLine|name=Bones|quantity=1|rarity=Always|raritynotes=<ref group=d>Regular bones are dropped for the players who are eligible for drops but did not deal the most damage.</ref>}}
+{{DropsTableBottom}}
+{{Reflist|group=d}}
+
+===Unique===
+''The drop rates for uniques are for each kill, rather than for each player. At most one item from this table is dropped per kill.{{CiteTwitter|author=Mod Ash|url=https://twitter.com/JagexAsh/status/1623969908886315009|date=10 February 2023|archiveurl=https://archive.ph/E66NL|archivedate=10 February 2023|quote=The game decides whether or not one will be dropped from the kill, and then decides which of the rewarded players will receive it, which each player's chance of being that recipient depending on their relative contribution.}}''
+
+''Odds of hitting the unique table ~1/56.67''
+
+{{DropsTableHead}}
+{{DropsLine|name=Claws of callisto|quantity=1|rarity=1/196|raritynotes={{CiteNews|title=Poll 78 Updates & More|url=https://secure.runescape.com/m=news/poll-78-updates--more?oldschool=1|newsdate=8 February 2023|name=news}}}}
+{{DropsLine|name=Dragon 2h sword|quantity=1|rarity=1/256|raritynotes=<ref name="news"/>}}
+{{DropsLine|name=Dragon pickaxe|quantity=1|rarity=1/256|raritynotes=<ref name="news"/>}}
+{{DropsLine|name=Voidwaker hilt|quantity=1|rarity=1/360|raritynotes=<ref name="news"/>}}
+{{DropsLine|name=Tyrannical ring|quantity=1|rarity=1/512|raritynotes=<ref name="news"/>}}
+{{DropsTableBottom}}
+
+===Weapons and armour===
+{{DropsTableHead}}
+{{DropsLine|name=Mystic earth staff|quantity=4 (noted)|rarity=2/126}}
+{{DropsLine|name=Mystic robe top|quantity=4 (noted)|rarity=2/126}}
+{{DropsLine|name=Mystic robe bottom|quantity=4 (noted)|rarity=2/126}}
+{{DropsLine|name=Rune pickaxe|quantity=5 (noted)|rarity=8/126}}
+{{DropsLine|name=Rune 2h sword|quantity=3 (noted)|rarity=3/126}}
+{{DropsLine|name=Rune kiteshield|quantity=4 (noted)|rarity=2/126}}
+{{DropsLine|name=Rune platebody|quantity=4 (noted)|rarity=2/126}}
+{{DropsTableBottom}}
+
+===Runes and ammunition===
+{{DropsTableHead}}
+{{DropsLine|name=Blood rune|quantity=500|rarity=7/126}}
+{{DropsLine|name=Death rune|quantity=700|rarity=7/126}}
+{{DropsLine|name=Chaos rune|quantity=900|rarity=7/126}}
+{{DropsLine|name=Soul rune|quantity=600|rarity=5/126}}
+{{DropsLine|name=Cannonball|quantity=600|rarity=4/126}}
+{{DropsTableBottom}}
+
+===Materials===
+{{DropsTableHead}}
+{{DropsLine|name=Uncut ruby|quantity=75 (noted)|rarity=4/126}}
+{{DropsLine|name=Uncut diamond|quantity=35 (noted)|rarity=3/126}}
+{{DropsLine|name=Uncut dragonstone|quantity=5 (noted)|rarity=2/126}}
+{{DropsLine|name=Limpwurt root|quantity=100 (noted)|rarity=5/126}}
+{{DropsLine|name=Magic logs|quantity=225 (noted)|rarity=5/126}}
+{{DropsLine|name=Mahogany logs|quantity=600 (noted)|rarity=6/126}}
+{{DropsLine|name=Red dragonhide|quantity=170 (noted)|rarity=3/126}}
+{{DropsLine|name=Coconut|quantity=135 (noted)|rarity=2/126}}
+{{DropsLine|name=Grimy toadflax|quantity=150 (noted)|rarity=1/126}}
+{{DropsLine|name=Grimy dwarf weed|quantity=45 (noted)|rarity=1/126}}
+{{DropsLine|name=Grimy ranarr weed|quantity=45 (noted)|rarity=1/126}}
+{{DropsLine|name=Grimy snapdragon|quantity=45 (noted)|rarity=1/126}}
+{{DropsTableBottom}}
+
+===Seeds===
+{{DropsTableHead}}
+{{DropsLine|name=Ranarr seed|quantity=11|rarity=5/126}}
+{{DropsLine|name=Snapdragon seed|quantity=8|rarity=5/126}}
+{{DropsTableBottom}}
+
+===Other===
+{{DropsTableHead}}
+{{DropsLine|name=Coins|quantity=50000|rarity=10/126|gemw=no}}
+{{DropsLine|name=Dark crab|quantity=50 (noted)|rarity=5/126}}
+{{DropsLine|name=Super restore(4)|quantity=10 (noted)|rarity=5/126}}
+{{DropsLine|name=Supercompost|quantity=225 (noted)|rarity=4/126}}
+{{DropsLine|name=Dragon bones|quantity=75 (noted)|rarity=3/126}}
+{{DropsLine|name=Blighted anglerfish|quantity=100 (noted)|rarity=1/126}}
+{{DropsLine|name=Wilderness crabs teleport|quantity=4|rarity=3/126}}
+{{DropsTableBottom}}
+
+===Secondary Supply roll===
+{{DropsTableHead}}
+{{DropsLine|name=Blighted anglerfish|quantity=5-6|rarity=1/18}}
+{{DropsLine|name=Blighted karambwan|quantity=5-6|rarity=1/18}}
+{{DropsLine|name=Blighted super restore(3)|quantity=3-4|rarity=1/18}}
+{{DropsLine|name=Blighted super restore(4)|quantity=3-4|rarity=1/18}}
+{{DropsLine|name=Ranging potion(2)|quantity=2-3|rarity=1/18}}
+{{DropsLine|name=Super combat potion(2)|quantity=2-3|rarity=1/18}}
+{{DropsTableBottom}}
+
+===Tertiary===
+{{DropsTableHead}}
+{{DropsLine|name=Looting bag|quantity=1|rarity=1/3|gemw=No}}
+{{DropsLine|name=Brimstone key|quantity=1|rarity={{Brimstone rarity|470}}|raritynotes=<ref group=d>Brimstone keys are only dropped while on a [[Slayer task]] given by [[Konar quo Maten]].</ref>|gemw=No|leagueRegion=Wilderness&Kourend}}
+{{DropsLineClue|type=elite|rarity=1/100|raritynotes=<ref group=d>The elite clue scroll drop rate increases to 1/50 if a [[ring of wealth (i)]] is worn.</ref>|altrarity=1/50}}
+{{DropsLine|name=Long bone|quantity=1|rarity=1/400|gemw=No}}
+{{DropsLine|name=Callisto cub|quantity=1|rarity=1/1500|gemw=No|raritynotes={{Refn|group=d|A pet roll is made for each player that has received a drop, which scales based on contribution. The MvP bonus is not applied to this roll.{{CiteTwitter|author=Mod Ash|url=https://twitter.com/JagexAsh/status/1623369509154263055|date=8 February 2023|archiveurl=https://archive.ph/u90mF|archivedate=9 February|quote=Looks like it's doing a straight scaling based on your proportion of the damage done, so 50% would make you half as likely to get the pet as if you'd done 100%. Didn't look like MvP status would affect this.}}}}<ref name="news"/>}}
+{{DropsLine|name=Curved bone|quantity=1|rarity=2/10025|gemw=No}}
+{{DropsTableBottom}}
+
+===Wilderness Slayer tertiary===
+{{WildernessSlayerDropTable|combat=470|hitpoints=255|boss=yes}}
+
+==Combat Achievements==
+{{Sync}}
+{{Combat Achievements list|Callisto}}
+
+==Historical==
+From his release to [[25 January]] [[2023]], Callisto only had three mechanics; a shockwave attack that could deal up to 60 damage, a roar that would send players flying and a small chance to heal himself slightly. He only used melee, which could be fully blocked by protection prayers.
+
+His stats were also different:
+
+:{|class=wikitable style="text-align:center;"
+! colspan="7" |Combat stats
+|-
+!
+!{{plinkp|Hitpoints|pic=Hitpoints icon}}
+!{{plinkp|Attack|pic=Attack icon}}
+!{{plinkp|Strength|pic=Strength icon}}
+!{{plinkp|Defence|pic=Defence icon}}
+!{{plinkp|Magic|pic=Magic icon}}
+!{{plinkp|Ranged|pic=Ranged icon}}
+|-
+!2014
+|225
+|350
+|370
+|440
+|1
+|1
+|-
+!2023
+|1,000
+|350
+|300
+|225
+|1
+|200
+|-
+! colspan="7" |Aggressive stats
+|-
+!
+!{{plinkp|Attack|pic=Attack icon}}
+!{{plinkp|Strength|pic=Strength icon}}
+!{{plinkp|Magic|pic=Magic icon}}
+!{{plinkp|Magic Damage|pic=Magic Damage icon}}
+!{{plinkp|Ranged|pic=Ranged icon}}
+!{{plinkp|Ranged Strength|pic=Ranged Strength icon}}
+|-
+!2014
+| +0
+| +0
+| +0
+| +0
+| +0
+| +0
+|-
+!2023
+| +0
+| +0
+| +0
+| +0
+| +100
+| +30
+|-
+! colspan="6" |Defensive stats
+|-
+!
+!{{plinkp|Stab|pic=White dagger}}
+!{{plinkp|Slash|pic=White scimitar}}
+!{{plinkp|Crush|pic=White warhammer}}
+!{{plinkp|Magic|pic=Magic icon}}
+!{{plinkp|Ranged|pic=Ranged icon}}
+|-
+!2014
+| +135
+| +104
+| +175
+| +900
+| +230
+|-
+!2023
+| +150
+| +130
+| +125
+| +0
+| +50
+|}
+
+==Gallery==
+<gallery mode="nolines" heights="180" style="text-align:left" widths="300">
+Callisto's Den concept art.png|Concept art of [[Callisto's Den]], by [[Mod Grub]].
+</gallery>
+
+==Changes==
+{{Subject changes header}}
+{{Subject changes
+|date = 17 April 2024 
+|update = Undead Pirates Tweaks, Varlamore CAs & More
+|change = Callisto will now wait a short period of time after respawning before attacking players.
+}}
+{{Subject changes
+|date = 10 April 2024 
+|update = Undead Pirates, Colosseum Changes & more!
+|poll = Undead Pirates Rewards & More
+|change = Callisto's respawn time was decreased from 29 ticks (17.4 seconds) to 11 ticks (6.6 seconds).
+}}
+{{Subject changes
+|date = 7 February 2024
+|update = Poll 80 Wilderness Changes & More
+|poll = 
+|change = 
+* The minimum percentage of regular loot given to the top 10 players in a fight against Callisto has been increased from 15% to 25%.
+* The drop rate for a [[Callisto cub]] has been increased from 1/2,000 to 1/1,500.
+* Callisto can now drop [[wilderness crab teleport]]s, [[mystic robe top]]s, [[mystic robe bottom]]s, [[rune kiteshield]]s, [[rune platebodies]], and [[mystic earth staff|mystic earth staves]].
+* The weighting on certain drops as been adjusted, slightly decreasing the chance to get [[coin]]s and [[rune pickaxe]]s in favour of more valuable drops.
+* The number of [[rune pickaxe]]s dropped has been increased from 3 to 5.
+* The number of [[blighted anglerfish]] dropped has been increased from 45 to 100.
+}}
+{{Subject changes
+|date = 20 September 2023
+|update = Poll 80 & Shooting Stars Changes
+|poll = Awakened DT2 Bosses & Poll 80
+|change = 
+* Callisto will now both take damage from [[Magic]] attacks from any source.
+** Additionally, if Callisto is not already frozen and the attacking player has equipment with a total [[Magic accuracy]] greater than 0, the first attack that would freeze the boss is guaranteed to hit.
+** Future hits while the boss is frozen are not guaranteed to hit.
+* Callisto's [[Magic defence]] has been increased.
+* Callisto's base Magic level has been increased.
+* Callisto's chip damage has been removed.
+* Callisto's [[Ranged]] attack will no longer deal damage through the relevant [[protection Prayer]].
+}}
+{{Subject changes
+|date = 30 August 2023
+|update = Poll 80 ToA Changes & DMM Tweaks
+|poll = Awakened DT2 Bosses & Poll 80
+|change = [[Random events]] have been disabled in the [[Wilderness boss]] lairs.
+}}
+{{Subject changes
+|date = 22 February 2023
+|update = 10th Birthday Event
+|change = [[Ring of wealth]] now works correctly for Callisto.
+}}
+{{Subject changes
+|date = 2 February 2023
+|update = Wilderness Boss Rework Tweaks & More
+|change = 
+*Increased the minimum loot reward from 0% to 15%.
+*Reduced maximum number of players able to receive loot from 15 to 10.
+*Increased quantity of base rewards.
+*Callisto is now immune to [[Ring of recoil]] and similar effects.
+}}
+{{Subject changes
+|date = 25 January 2023
+|update = Wilderness Boss Rework
+|change = 
+* Callisto is now located in a cave, and his combat behaviour has been adjusted.
+* Callisto has been graphically updated.
+}}
+{{Subject changes
+|date = 22 November 2018
+|update = Bird Nest Balancing and PvP Changes
+|change = Callisto's 75 noted [[crushed nest]]s drop was removed from its drop table, being replaced with 30 noted [[dragon bones]].
+}}
+{{Subject changes
+|date = 8 February 2018
+|update = PvM QoL updates & Wilderness Rejuvenation improvements
+|poll = Quality of Life - PvM Suggestions 2018
+|change = Callisto now uses his knockback attack less frequently.
+}}
+{{Subject changes
+|date = 16 April 2015
+|update = Clan Wars Game Modes & More
+|poll =
+|change = Callisto can no longer be blocked by other NPCs.
+}}
+{{Subject changes
+|date = 19 March 2015
+|update = Boss Pets, Sets, Chat & More
+|poll = Old School Content Poll 30: Near Miss Poll
+|change = Scorpia, Venenatis, Vet'ion and Callisto now have a very slim chance of dropping a pet version of themselves when killed.
+}}
+{{Subject changes
+|date = 26 June 2014
+|update = Midsummer Event
+|change = Callisto's drop table was improved and he was made immune to [[Magic]] damage. The cluster of skeletons north of him was also removed to discourage safespotting.
+}}
+{{Subject changes
+|date = 20 March 2014
+|update = Fresh 'Old' Fashion
+|change = The drop tables for Callisto, [[Vet'ion]], [[Venenatis]] and the [[Lava dragons]] have been buffed.
+}}
+{{Subject changes footer}}
+
+===Gallery (historical)===
+{|style="text-align: center" cellpadding="15"
+|[[File:Callisto v1.png|center|300x150px]]
+|[[File:Callisto.png|300x150px]]
+|-
+|13 March 2014–<br/>25 January 2023
+|25 January 2023 –<br/>present
+|}
+
+==Trivia==
+* Callisto's 2014 model was a recoloured version of the {{RSL|Arctic bear|arctic bear}} [[Summoning]] familiar model extracted from the [[August 2007 Archive of RuneScape]]. Summoning assets were re-used to make new monsters due to the ''Old School'' team's small size and lack of artists in the game's early years.
+** His shockwave attack uses the same projectile and sound as the [[King Black Dragon|King Black Dragon's]] icy breath.
+* {{wp|Callisto (mythology)|Callisto}} is named after one of the Greek god {{wp|Zeus}}' many lovers (and consequently, one of {{wp|Jupiter}}'s moons), who was turned into the constellation Ursa Major, depicting a bear.
+** Although Callisto's namesake in Greek mythology is female, the examine refers to the boss in-game as male.
+* His examine text is a reference to ''{{wp|Goldilocks and the Three Bears}}''.
+* There is a pile of [[bear droppings]] in the woods south of his spawn, with the examine text "''Now you know.''", a reference to the colloquialism "''[[wiktionary:does a bear shit in the woods|does a bear shit in the woods?]]''", which is a rhetorical question in response to something where the answer is obviously yes.
+* Despite being a boss variant of the bear, Callisto is unable to drop [[ensouled bear head]]s, even though other bosses like [[Scorpia]] and the [[Kalphite Queen]] drop ensouled scorpion and kalphite heads respectively.
+
+==References==
+{{Reflist}}
+
+{{Wilderness bosses}}
+{{Bosses}}
+[[Category:Monsters that do not become tolerant]]

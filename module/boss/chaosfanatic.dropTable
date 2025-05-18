@@ -1,0 +1,47 @@
+{
+  "100%": [
+    "Bones"
+  ],
+  "Pre-roll": [
+    "Odium shard 1",
+    "Malediction shard 1"
+  ],
+  "Weapons and armour": [
+    "Battlestaff",
+    "Splitbark body",
+    "Splitbark legs",
+    "Zamorak monk top",
+    "Zamorak monk bottom",
+    "Ancient staff"
+  ],
+  "Runes": [
+    "Fire rune",
+    "Smoke rune",
+    "Chaos rune",
+    "Blood rune"
+  ],
+  "Consumables": [
+    "Monkfish",
+    "Shark",
+    "Prayer potion(4)",
+    "Anchovy pizza"
+  ],
+  "Other": [
+    "Coins",
+    "Grimy lantadyme",
+    "Ring of life",
+    "Chaos talisman",
+    "Wine of zamorak",
+    "Uncut emerald",
+    "Uncut sapphire",
+    "Sinister key",
+    "Pure essence"
+  ],
+  "Rare and gem drop table": [],
+  "Tertiary": [
+    "Looting bag",
+    "Brimstone key",
+    "Pet chaos elemental"
+  ],
+  "Wilderness Slayer tertiary": []
+}

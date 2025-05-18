@@ -1,0 +1,98 @@
+==Drops==
+{{Has calculator|Calculator:Yama rewards}}
+
+{{DropLogProject|jagex=yes}}
+
+After being defeated, Yama will teleport back to his throne and snap his fingers, after which the rewards will be dropped in front of him. Drops are rolled for until the roll results in a success:
+* If a player deals less than 375 damage (15%), roll the junk drop table.
+* Otherwise, roll 1/2,500 for [[Yami]].
+* If unsuccessful, roll 1/120 for the unique drop table (scales with contribution).
+** If successful, roll 3/5 for a piece of [[oathplate armour]] and 2/5 for the [[soulflame horn]].
+* If unsuccessful, roll 1/20 for the [[dossier]] (scales with contribution).
+* If unsuccessful, roll 1/30 for the [[forgotten lockbox]].
+* If unsuccessful, roll 1/15 for 12 [[oathplate shards]] (quantity scales with contribution).
+* If unsuccessful, the standard table is rolled.
+
+===Contribution===
+'''{{Colour|red|The drop rates and quantities listed below assume Yama is killed by one player.}}'''
+
+With two players, the quantities of regular items and drop rates of some unique items scale linearly, proportional to damage dealt by a given player, similarly to the [[Royal Titans]]. For example, a player who deals 1,000 damage to Yama, or 40% of his health, is eligible to receive 6,000 fire runes, 40% of the maximum.
+
+If one player dies during a duo encounter, their contribution is not redistributed to the surviving player.
+
+===Unique===
+For solo kills, there is a 1/120 (0.83%) chance to receive either a piece of [[oathplate armour]] or a [[soulflame horn]].
+{{DropsTableHead}}
+{{DropsLine|name=Soulflame horn|quantity=1|rarity=2/600<noinclude>|smw=No</noinclude>|raritynotes={{Refn|group=d|name=contrib|Scales with contribution; rates and quantities are shown for 100% contribution.}}}}
+{{DropsLine|name=Oathplate helm|quantity=1|rarity=1/600<noinclude>|smw=No</noinclude>|raritynotes={{Refn|group=d|name=contrib}}}}
+{{DropsLine|name=Oathplate chest|quantity=1|rarity=1/600<noinclude>|smw=No</noinclude>|raritynotes={{Refn|group=d|name=contrib}}}}
+{{DropsLine|name=Oathplate legs|quantity=1|rarity=1/600<noinclude>|smw=No</noinclude>|raritynotes={{Refn|group=d|name=contrib}}}}
+{{DropsLine|name=Dossier|quantity=1|rarity=1/20.17<noinclude>|smw=No</noinclude>|raritynotes={{Refn|group=d|name=contrib}}|gemw=no}}
+{{DropsLine|name=Forgotten lockbox|quantity=1|rarity=1/31.84<noinclude>|smw=No</noinclude>|gemw=no}}
+{{DropsLine|name=Oathplate shards|quantity=12|quantitynotes={{Refn|group=d|name=contrib}}|rarity=1/16.47<noinclude>|smw=No</noinclude>}}
+{{DropsLine|name=Yami|quantity=1|rarity=1/2500|raritynotes={{Refn|group=d|name=nocontrib|The drop rate is fixed at 1/2500, as long as contribution is higher than 15%.}}<noinclude>|smw=No</noinclude>|gemw=no}}
+{{DropsTableBottom}}
+{{Reflist|group=d}}
+
+Note that unlike other boss pets, the Yami pet is '''not''' a [[tertiary drop]], and receiving him will replace the player's item drop for that kill.
+
+===Supplies===
+There is a 15/91.77 (16.3%) chance of getting a supply drop. It will include:
+* Either 3-4 [[pineapple pizza]]s or 3-4 [[wild pie]]s
+* Either 2 [[prayer potion(3)]] or 2 [[super restore mix(2)]]
+* Either 1 [[super combat potion(1)]] or 1 [[Zamorak mix(2)]]
+
+{{DropsTableHead}}
+{{DropsLine|name=Pineapple pizza|quantity=3-4|Rarity=7.5/91.77<noinclude>|smw=No</noinclude>}}
+{{DropsLine|name=Wild pie|quantity=3-4|Rarity=7.5/91.77<noinclude>|smw=No</noinclude>}}
+{{DropsLine|name=Prayer potion(3)|quantity=2|rarity=7.5/91.77<noinclude>|smw=No</noinclude>}}
+{{DropsLine|name=Super restore mix(2)|quantity=2|rarity=7.5/91.77<noinclude>|smw=No</noinclude>}}
+{{DropsLine|name=Super combat potion(1)|quantity=1|rarity=7.5/91.77<noinclude>|smw=No</noinclude>}}
+{{DropsLine|name=Zamorak mix(2)|quantity=1|rarity=7.5/91.77<noinclude>|smw=No</noinclude>}}
+{{DropsTableBottom}}
+
+Supply quantities do not depend on contribution.
+
+===Weapons and armour===
+{{DropsTableHead}}
+{{DropsLine|name=Rune chainbody|quantity=8 (noted)|quantitynotes={{Refn|group=d|name=contrib|Scales with contribution; rates and quantities are shown for 100% contribution.}}|rarity=5/91.77<noinclude>|smw=No</noinclude>}}
+{{DropsLine|name=Battlestaff|quantity=40 (noted)|quantitynotes={{Refn|group=d|name=contrib}}|rarity=4/91.77<noinclude>|smw=No</noinclude>}}
+{{DropsLine|name=Rune platebody|quantity=8 (noted)|quantitynotes={{Refn|group=d|name=contrib}}|rarity=3/91.77<noinclude>|smw=No</noinclude>}}
+{{DropsLine|name=Dragon plateskirt|quantity=1|rarity=2/91.77<noinclude>|smw=No</noinclude>}}
+{{DropsLine|name=Dragon platelegs|quantity=1|rarity=2/91.77<noinclude>|smw=No</noinclude>}}
+{{DropsTableBottom}}
+{{Reflist|group=d}}
+
+===Runes===
+{{DropsTableHead}}
+{{DropsLine|name=Blood rune|quantity=400|quantitynotes={{Refn|group=d|name=contrib|Scales with contribution; rates and quantities are shown for 100% contribution.}}|Rarity=3/91.77<noinclude>|smw=No</noinclude>}}
+{{DropsLine|name=Law rune|Quantity=150|quantitynotes={{Refn|group=d|name=contrib}}|Rarity=3/91.77<noinclude>|smw=No</noinclude>}}
+{{DropsLine|name=Smoke rune|quantity=350|quantitynotes={{Refn|group=d|name=contrib}}|Rarity=2/91.77<noinclude>|smw=No</noinclude>}}
+{{DropsLine|name=Soul rune|quantity=500|quantitynotes={{Refn|group=d|name=contrib}}|Rarity=2/91.77<noinclude>|smw=No</noinclude>}}
+{{DropsLine|name=Soul rune|quantity=1000|quantitynotes={{Refn|group=d|name=contrib}}|Rarity=2/91.77<noinclude>|smw=No</noinclude>}}
+{{DropsLine|name=Fire rune|quantity=15000|quantitynotes={{Refn|group=d|name=contrib}}|Rarity=1/91.77<noinclude>|smw=No</noinclude>}}
+{{DropsLine|name=Wrath rune|Quantity=800|quantitynotes={{Refn|group=d|name=contrib}}|Rarity=1/91.77<noinclude>|smw=No</noinclude>}}
+{{DropsTableBottom}}
+{{Reflist|group=d}}
+
+===Other===
+{{DropsTableHead}}
+{{DropsLine|name=Aether catalyst|quantity=850|quantitynotes={{Refn|group=d|name=contrib|Scales with contribution; rates and quantities are shown for 100% contribution.}}|rarity=7/91.77<noinclude>|smw=No</noinclude>}}
+{{DropsLine|name=Diabolic worms|quantity=90|quantitynotes={{Refn|group=d|name=contrib}}|rarity=7/91.77<noinclude>|smw=No</noinclude>}}
+{{DropsLine|name=Barrel of demonic tallow (full)|image=Barrel of demonic tallow.png|quantity=1|rarity=5/91.77<noinclude>|smw=No</noinclude>}}
+{{DropsLine|name=Chasm teleport scroll|quantity=6|quantitynotes={{Refn|group=d|name=contrib}}|rarity=4/91.77<noinclude>|smw=No</noinclude>}}
+{{DropsLine|name=Emerald|quantity=40 (noted)|quantitynotes={{Refn|group=d|name=contrib}}|rarity=3/91.77<noinclude>|smw=No</noinclude>}}
+{{DropsLine|name=Ruby|quantity=40 (noted)|quantitynotes={{Refn|group=d|name=contrib}}|rarity=3/91.77<noinclude>|smw=No</noinclude>}}
+{{DropsLine|name=Diamond|Quantity=40 (noted)|quantitynotes={{Refn|group=d|name=contrib}}|Rarity=3/91.77<noinclude>|smw=No</noinclude>}}
+{{DropsLine|name=Onyx bolt tips|quantity=150|quantitynotes={{Refn|group=d|name=contrib}}|rarity=1/91.77<noinclude>|smw=No</noinclude>}}
+{{DropsTableBottom}}
+{{Reflist|group=d}}
+
+===Junk===
+These items are rolled instead of all the others for players who have contributed less than 15% to the kill. When receiving [[demon dung]] a special sound effect will play.
+{{DropsTableHead}}
+{{DropsLineReward|name=Cabbage|quantity=1|rarity=3/11<noinclude>|smw=No</noinclude>}}
+{{DropsLineReward|name=Black bead|quantity=1|rarity=3/11<noinclude>|smw=No</noinclude>}}
+{{DropsLineReward|name=Spinach roll|quantity=1|rarity=3/11<noinclude>|smw=No</noinclude>}}
+{{DropsLineReward|name=Demon dung|quantity=1|rarity=2/11<noinclude>|smw=No</noinclude>|gemw=no}}
+{{DropsTableBottom}}

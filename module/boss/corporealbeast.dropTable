@@ -1,0 +1,48 @@
+{
+  "Sigils": [],
+  "Weapons and armour": [
+    "Mystic robe top",
+    "Mystic robe bottom",
+    "Mystic air staff",
+    "Mystic water staff",
+    "Mystic earth staff",
+    "Mystic fire staff",
+    "Spirit shield"
+  ],
+  "Runes and ammunition": [
+    "Soul rune",
+    "Runite bolts",
+    "Death rune",
+    "Onyx bolts (e)",
+    "Cannonball",
+    "Adamant arrow",
+    "Law rune",
+    "Cosmic rune"
+  ],
+  "Resources": [
+    "Raw shark",
+    "Pure essence",
+    "Adamantite bar",
+    "Green dragonhide",
+    "Adamantite ore",
+    "Runite ore",
+    "Teak plank",
+    "Mahogany logs",
+    "Magic logs"
+  ],
+  "Other": [
+    "Tuna potato",
+    "White berries",
+    "Desert goat horn",
+    "Watermelon seed",
+    "Coins",
+    "Antidote++(4)",
+    "Ranarr seed",
+    "Holy elixir"
+  ],
+  "Gem drop table": [],
+  "Tertiary": [
+    "Jar of spirits",
+    "Pet dark core"
+  ]
+}

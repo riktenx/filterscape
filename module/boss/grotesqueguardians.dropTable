@@ -1,0 +1,55 @@
+{
+  "100%": [
+    "Granite dust"
+  ],
+  "Unique": [
+    "Granite maul",
+    "Granite gloves",
+    "Granite ring",
+    "Granite hammer",
+    "Black tourmaline core"
+  ],
+  "Weapons and armour": [
+    "Rune pickaxe",
+    "Rune full helm",
+    "Rune platelegs",
+    "Rune 2h sword",
+    "Rune battleaxe",
+    "Dragon longsword",
+    "Adamant boots",
+    "Dragon med helm"
+  ],
+  "Supply Drop": [
+    "Mushroom potato",
+    "Saradomin brew(4)",
+    "Magic potion(2)",
+    "Ranging potion(2)",
+    "Super combat potion(2)",
+    "Prayer potion(4)"
+  ],
+  "Resources": [
+    "Gold ore",
+    "Adamantite bar",
+    "Coal",
+    "Gold bar",
+    "Mithril bar",
+    "Runite ore",
+    "Runite bar"
+  ],
+  "Other": [
+    "Coins",
+    "Chaos rune",
+    "Crystal key",
+    "Death rune",
+    "Dragon dart tip",
+    "Diamond bolt tips",
+    "Dragonstone bolt tips",
+    "Onyx bolt tips",
+    "Dragon arrowtips"
+  ],
+  "Tertiary": [
+    "Brimstone key",
+    "Noon",
+    "Jar of stone"
+  ]
+}

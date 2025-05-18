@@ -1,0 +1,716 @@
+{{External|rs}}
+{{Instance|optional=yes}}
+{{HasStrategy}}
+{{Infobox Monster
+|version = Normal
+|name = Kree'arra
+|image = [[File:Kree'arra.png|280px]]
+|release = [[17 October]] [[2013]]
+|update = The God Wars Dungeon has been uncovered!
+|members = Yes
+|combat = 580
+|size = 5
+|examine = Graceful avatar of Armadyl.
+|xpbonus = 40
+|max hit = 69 (Ranged), 21 (Magic), 25 (Melee)
+|aggressive = Yes
+|poisonous = No
+|attack style = [[Ranged]], [[Ranged magic]], [[Magical melee]]
+|attack speed = 3
+|slayxp = 357
+|cat = Aviansie, Bosses
+|assignedby = chaeldar,konar,nieve,duradel
+|hitpoints = 255
+|att = 300
+|str = 200
+|def = 260
+|mage = 200
+|range = 380
+|attbns = 136
+|strbns = 12
+|amagic = 0
+|mbns = 0
+|arange = 120
+|rngbns = 50
+|dstab = 180
+|dslash = 180
+|dcrush = 180
+|dmagic = 200
+|dlight = 200
+|dstandard = 200
+|dheavy = 200
+|elementalweaknesstype = Air
+|elementalweaknesspercent = 30
+|immunepoison = Yes
+|immunevenom = Yes
+|immunecannon = No
+|immunethrall = No
+|respawn = 150
+|id = 3162
+|leagueRegion = Asgarnia
+}}
+[[File:Kree'arra chathead.png|left]]
+'''Kree'arra''' is one of [[Armadyl]]'s most trusted generals. He is the most powerful of the surviving [[aviansie (race)|aviansie]], and leader to the forces of [[Armadyl's Eyrie]] in the [[God Wars Dungeon]].
+
+In order to reach the encampment, players must first wield any [[crossbow (weapon)|crossbow]] along with a [[mithril grapple]]. A [[Ranged]] level of at least 70 is then required to navigate the chasm. To enter the boss room, players must use an [[ecumenical key]], or have slain 40<ref>35 for hard, 30 for elite, 25 for master and 15 kills for grandmaster for those who have unlocked the respective combat achievement tiers</ref> followers of Armadyl, with aviansie and their spiritual variants being his only followers within the dungeon.
+
+Kree'arra can be seen yelling several battle cries in his chamber. However, unlike the other generals, his taunts are non-verbal.
+
+==Location==
+{{LocTableHead|league=yes}}
+{{LocLine
+|name = Kree'arra
+|location = [[God Wars Dungeon]] (Armadyl boss room)
+|levels = 580
+|members = Yes
+|mapID = 7
+|plane = 0
+|x:2832,y:5302
+|mtype = pin
+|leagueRegion = asgarnia
+}}
+{{LocTableBottom}}
+
+==Fight overview==
+{{Main|Kree'arra/Strategies}}
+Like other [[God Wars Dungeon]] [[bosses]], Kree'arra roams around a rectangular room with his bodyguards until a player enters, attacking them on sight. He attacks primarily with [[Ranged]], and his bodyguards use a different combat style each. However, if no one is targeting Kree'arra, he will fly up to players to use [[Melee]] attacks as well. If all players leave, his health and stats will be reset.
+
+Like other Armadylean followers in the God Wars Dungeon, he and his bodyguards cannot be attacked with Melee. This includes Magic-based [[special attacks]] from melee weapons, such as the [[Voidwaker]].
+
+===Bodyguards===
+*[[Flight Kilisa]] ([[Melee]])
+*[[Wingman Skree]] ([[Magic]])
+*[[Flockleader Geerin]] ([[Ranged]])
+
+[[File:Fighting Kree'arra.png|thumb|250px|A group of players fighting Kree'arra and his bodyguards.]]
+
+==Money making==
+{{Mmgsection|Killing Kree'arra}}
+
+==Drops==
+{{DropLogProject|kills=29637}}<!--
+
+-->{{#vardefine:kreeUnique|{{#expr:
+(1/381) * 1 * {{GEP|Armadyl helmet}} +
+(1/381) * 1 * {{GEP|Armadyl chestplate}} +
+(1/381) * 1 * {{GEP|Armadyl chainskirt}} +
+(1/508) * 1 * {{GEP|Armadyl hilt}} +
+(1/762) * 1 * {{GEP|Godsword shard 1}} +
+(1/762) * 1 * {{GEP|Godsword shard 2}} +
+(1/762) * 1 * {{GEP|Godsword shard 3}}
+}}}}<!--
+
+-->{{#vardefine:kreeUniqueHA|{{#expr:
+(1/381) * 1 * {{HA|Armadyl helmet}} +
+(1/381) * 1 * {{HA|Armadyl chestplate}} +
+(1/381) * 1 * {{HA|Armadyl chainskirt}} +
+(1/508) * 1 * {{HA|Armadyl hilt}} +
+(1/762) * 1 * {{HA|Godsword shard 1}} +
+(1/762) * 1 * {{HA|Godsword shard 2}} +
+(1/762) * 1 * {{HA|Godsword shard 3}}
+}}}}<!--
+
+-->{{#vardefine:kreeminionLoot|{{#expr:
+{{Average drop value|mob=Flight Kilisa|raw=y}} * 3
+}}}}<!--
+
+-->{{#vardefine:kreeminionUniques|{{#expr:
+(1/16129) * 1 * {{GEP|Armadyl helmet}} +
+(1/16129) * 1 * {{GEP|Armadyl chestplate}} +
+(1/16129) * 1 * {{GEP|Armadyl chainskirt}} +
+(1/1524) * 1 * {{GEP|Godsword shard 1}} +
+(1/1524) * 1 * {{GEP|Godsword shard 2}} +
+(1/1524) * 1 * {{GEP|Godsword shard 3}}
+}}}}<!--
+
+-->{{#vardefine:kreeminionLootHA|{{#expr:
+{{Average drop value|mob=Flight Kilisa|alch=yes|raw=y}} * 3
+}}}}<!--
+
+-->{{#vardefine:kreeminionUniquesHA|{{#expr:
+(1/16129) * 1 * {{HA|Armadyl helmet}} +
+(1/16129) * 1 * {{HA|Armadyl chestplate}} +
+(1/16129) * 1 * {{HA|Armadyl chainskirt}} +
+(1/1524) * 1 * {{HA|Godsword shard 1}} +
+(1/1524) * 1 * {{HA|Godsword shard 2}} +
+(1/1524) * 1 * {{HA|Godsword shard 3}}
+}}}}
+
+{| class="wikitable"
+! rowspan="2" |Minions killed
+! colspan="4" |Average drop value
+|-
+![[Grand Exchange|GE]]
+![[Grand Exchange|GE]] w/o uniques
+![[High Level Alchemy|HA]]
+![[High Level Alchemy|HA]] w/o uniques
+|-
+|{{No}}
+|{{Coins|floor({{Average drop value|mob=Kree'ara|raw=y}})}}
+|{{Coins|floor({{Average drop value|mob=Kree'ara|raw=y}} - {{#var:kreeUnique}} )}}
+|{{Coins|floor({{Average drop value|mob=Kree'ara|alch=yes|raw=y}})}}
+|{{Coins|floor({{Average drop value|mob=Kree'ara|alch=yes|raw=y}} - {{#var:kreeUniqueHA}} )}}
+|-
+|{{Yes}}
+|{{Coins|floor({{Average drop value|mob=Kree'ara|raw=y}} + {{#var:kreeminionLoot}} )}}
+|{{Coins|floor({{Average drop value|mob=Kree'ara|raw=y}} + {{#var:kreeminionLoot}} - {{#var:kreeUnique}}  - {{#var:kreeminionUniques}})}}
+|{{Coins|floor({{Average drop value|mob=Kree'ara|alch=yes|raw=y}} + {{#var:kreeminionLootHA}} )}}
+|{{Coins|floor({{Average drop value|mob=Kree'ara|alch=yes|raw=y}} + {{#var:kreeminionLootHA}} - {{#var:kreeUniqueHA}} - {{#var:kreeminionUniquesHA}})}}
+|}
+The uniques omitted are the [[Armadyl helmet]], [[Armadyl chestplate]], [[Armadyl chainskirt]],
+[[Armadyl hilt]], and all three shards of the [[Godsword blade]]. The minion kills will also exclude the uniques they drop in the values excluding Kree'ara's unique drops.
+
+===100%===
+{{DropsTableHead}}
+{{DropsLine|name=Big bones|quantity=1|rarity=Always}}
+{{DropsLine|name=Feather|quantity=1-16|rarity=Always}}
+{{DropsLine|name=Frozen key piece (armadyl)|quantity=1|rarity=Always|raritynotes=<ref group=d>[[Frozen key (The Frozen Door)|Frozen key]] pieces are only dropped during [[The Frozen Door]] [[miniquest]].</ref>}}
+{{DropsTableBottom}}
+{{Reflist|group=d}}
+
+===Uniques===
+{{DropsTableHead}}
+{{DropsLine|name=Armadyl helmet|quantity=1|rarity=1/381|raritynotes=<ref group="d" name="armourdrop">The drop rate is 1/381 for a specific Armadyl armour piece, or 1/127 for any piece.</ref>}}
+{{DropsLine|name=Armadyl chestplate|quantity=1|rarity=1/381|raritynotes=<ref group="d" name="armourdrop"/>}}
+{{DropsLine|name=Armadyl chainskirt|quantity=1|rarity=1/381|raritynotes=<ref group="d" name="armourdrop"/>}}
+{{DropsLine|name=Armadyl hilt|quantity=1|rarity=1/508}}
+{{DropsLine|name=Godsword shard 1|quantity=1|rarity=1/762|raritynotes=<ref group="d" name="sharddrop">The drop rate is 1/762 for a specific Godsword Shard piece, or 1/254 for any piece.</ref>}}
+{{DropsLine|name=Godsword shard 2|quantity=1|rarity=1/762|raritynotes=<ref group="d" name="sharddrop"/>}}
+{{DropsLine|name=Godsword shard 3|quantity=1|rarity=1/762|raritynotes=<ref group="d" name="sharddrop"/>}}
+{{DropsTableBottom}}
+{{Reflist|group="d"}}
+
+===Weapons and armour===
+{{DropsTableHead}}
+{{DropsLine|name=Black d'hide body|quantity=1|rarity=8/127}}
+{{DropsLine|name=Rune crossbow|quantity=1|rarity=8/127}}
+{{DropsTableBottom}}
+
+===Runes and ammunition===
+{{DropsTableHead}}
+{{DropsLine|name=Mind rune|quantity=586-601|rarity=8/127}}
+{{DropsLine|name=Rune arrow|quantity=100-105|rarity=8/127}}
+{{DropsLine|name=Runite bolts|quantity=20-25|rarity=8/127}}
+{{DropsLine|name=Dragonstone bolts (e)|quantity=5-10|rarity=8/127}}
+{{DropsTableBottom}}
+
+===Other===
+{{DropsTableHead}}
+{{DropsLine|name=Coins|quantity=19500-20000|rarity=43.7/127|raritynotes=<ref group="d">Coins come from rolls on multiple loot tables, including GDT and RDT.</ref>|gemw=No}}
+{{DropsLine|name=Ranging potion(3)|quantity=3|rarity=8/127|raritynotes=<ref group="d" name="potiondrop">Ranging potions and super defence potions are dropped together.</ref>}}
+{{DropsLine|name=Super defence(3)|quantity=3|rarity=8/127|raritynotes=<ref group="d" name="potiondrop">Ranging potions and super defence potions are dropped together.</ref>}}
+{{DropsLine|name=Grimy dwarf weed|quantity=8-13 (noted)|rarity=8/127}}
+{{DropsLine|name=Dwarf weed seed|quantity=3|rarity=8/127}}
+{{DropsLine|name=Coins|quantity=20500-21000|rarity=1.25/127|raritynotes=<ref group="d">Coins come from rolls on the unique tables, including the hilt table and the godsword shard table.</ref>|gemw=No}}
+{{DropsLine|name=Crystal key|quantity=1|rarity=1/127}}
+{{DropsLine|name=Yew seed|quantity=1|rarity=1/127}}
+{{DropsTableBottom}}
+{{Reflist|group="d"}}
+
+===Rare drop table===
+{{GWDRDT}}
+
+===Tertiary===
+{{DropsTableHead}}
+{{DropsLine|name=Brimstone key|quantity=1|rarity={{Brimstone rarity|580}}|raritynotes=<ref group=d>Brimstone keys are only dropped if killed on a [[Slayer task]] given by [[Konar quo Maten]].</ref>|gemw=No|leagueRegion=Asgarnia&Kourend}}
+{{DropsLineClue|type=elite|rarity=1/250}}
+{{DropsLine|name=Long bone|quantity=1|rarity=1/400|gemw=No}}
+{{DropsLine|name=Pet kree'arra|quantity=1|rarity=1/5000|gemw=No}}
+{{DropsLine|name=Curved bone|quantity=1|rarity=1/5012.5|gemw=No}}
+{{DropsTableBottom}}
+{{Reflist|group="d"}}
+
+==Combat Achievements==
+{{Sync}}
+{{Combat Achievements list|Kree'arra}}
+
+==Dialogue==
+{{Hastranscript|npc}}
+
+==Changes==
+{{Subject changes header}}
+{{Subject changes
+|date = 29 May 2024
+|update = Project Rebalance: Combat Changes
+|change = Kree'arra now has a 30% elemental weakness to [[wind spells]].
+}}
+{{Subject changes
+|date = 13 January 2021
+|update = God Wars Instancing and Soul Wars Improvements
+|change = Ironmen now have their own shared instance for each God Wars Dungeon general. The "Peek" option on doors will now tell players how many players are in the ironman instance.
+}}
+{{Subject changes
+|date = 25 June 2015
+|update = Boss Room Counters & Platinum Tokens
+|poll = Old School Content Poll 34: XP droplets & Slayer
+|change = Added a 'peek' option to the entrance of this boss, allowing players to see the number of other players currently in the boss room. 
+}}
+{{Subject changes
+|date = 17 July 2014
+|update = Boss Pets and Spawn Rates
+|poll = Old School feature poll - Content Poll 22
+|change = Players can now receive a pet version of this boss after defeating it.
+}}
+{{Subject changes footer}}
+
+==Gallery==
+<gallery>
+Kree'arra (Trading Card).png|The Kree'arra [[Steam Trading Cards|Steam Trading Card]].
+</gallery>
+
+==Trivia==
+*Kree'arra had a festive override wearing a [[purple partyhat]] during the [[2016 Christmas event/Gallery|2016]] Christmas event.
+*Kree'arra is often referred to by his misnomer name Armadyl by players despite serving under Armadyl.
+
+==References==
+{{Reflist}}
+
+{{God Wars Dungeon}}
+{{Bosses}}
+[[Category:Monsters that do not become tolerant]]
+[[Category:Armadyleans]]
+{{External|rs}}
+{{Infobox Monster
+|name = Flight Kilisa
+|image = [[File:Flight Kilisa.png|250px]]
+|release = [[17 October]] [[2013]]
+|update = The God Wars Dungeon has been uncovered!
+|members = Yes
+|combat = 159
+|size = 2
+|examine = Graceful, bird-like creature.
+|xpbonus = 0
+|max hit = 15
+|aggressive = Yes
+|poisonous = No
+|attack style = [[Slash]]
+|attack speed = 5
+|slayxp = 132.5
+|cat = Aviansie
+|assignedby = chaeldar,konar,nieve,duradel
+|hitpoints = 133
+|att = 124
+|str = 118
+|def = 175
+|mage = 50
+|range = 169
+|attbns = 0
+|strbns = 14
+|amagic = 0
+|mbns = 0
+|arange = 0
+|rngbns = 0
+|dstab = 0
+|dslash = 0
+|dcrush = 0
+|dmagic = 0
+|dlight = 0
+|dstandard = 0
+|dheavy = 0
+|elementalweaknesstype = Air
+|elementalweaknesspercent = 30
+|immunepoison = No
+|immunevenom = No
+|immunecannon = No
+|immunethrall = No
+|id = 3165
+}}
+'''Flight Kilisa''' is one of the [[aviansie]] bodyguards of [[Kree'arra]], along with [[Wingman Skree]] and [[Flockleader Geerin]]. She uses [[melee]] attacks with a max hit of 15 [[hitpoints]].
+
+She is widely regarded as being the most problematic of the three bodyguards, as [[Ranged]] armour provides only a mediocre amount of protection against her slash based melee attacks. Fortunately, in a team setting, she switches targets often, and as a result spends a significant portion of time traversing between players as she attempts to reach the melee distance of her new target. As such, having players distant from each other would minimise the threat Flight Kilisa poses.
+
+The ability to be assigned aviansie by [[Konar quo Maten]], [[Chaeldar]], [[Nieve]], and [[Duradel]] can be purchased for 80 [[slayer reward point]]s, which allows the use for the bonuses of the [[slayer helmet (i)]].
+
+==Location==
+{{LocTableHead|league=yes}}
+{{LocLine
+|name = Flight Kilisa
+|location = [[God Wars Dungeon]] (Armadyl boss room)
+|levels = 159
+|members = Yes
+|mapID = 7
+|plane = 0
+|x:2833,y:5297
+|mtype = pin
+|leagueRegion = asgarnia
+}}
+{{LocTableBottom}}
+
+==Drops==
+{{DropLogProject|kills=35963}}
+
+{| class="wikitable"
+! rowspan="2" |[[Konar quo Maten|Konar]] task
+! colspan="2" |Average drop value
+|-
+![[Grand Exchange|GE]]
+![[High Level Alchemy|HA]]
+|-
+|{{No}}
+|{{Coins|{{Average drop value|mob=Flight Kilisa|raw=y}}}}
+|{{Coins|{{Average drop value|mob=Flight Kilisa|alch=yes|raw=y}}}}
+|-
+|{{Yes}}
+|{{Coins|{{Average drop value|mob=Flight Kilisa|brimstone=yes|raw=y}}}}
+|{{Coins|{{Average drop value|mob=Flight Kilisa|brimstone=yes|alch=yes|raw=y}}}}
+|}
+
+===100%===
+{{DropsTableHead}}
+{{DropsLine|name=Bones|quantity=1|rarity=Always}}
+{{DropsLine|name=Feather|quantity=1-11|rarity=Always}}
+{{DropsTableBottom}}
+
+===Unique table===
+There is a 1 in 127 chance to roll the unique table.
+
+{{DropsTableHead}}
+{{DropsLine|name=Armadyl helmet|quantity=1|rarity=1/16129}}
+{{DropsLine|name=Armadyl chestplate|quantity=1|rarity=1/16129}}
+{{DropsLine|name=Armadyl chainskirt|quantity=1|rarity=1/16129}}
+{{DropsLine|name=Coins|quantity=1000-1100|rarity=124/16129}}
+{{DropsTableBottom}}
+
+===Godsword shard table===
+There is a 1 in 127 chance to roll the shard table.
+
+{{DropsTableHead}}
+{{DropsLine|name=Godsword shard 1|quantity=1|rarity=1/1524|raritynotes={{CiteTwitter|author=Mod Ash|url=https://twitter.com/JagexAsh/status/689556758856122368|date=19 January 2016|archiveurl=https://archive.is/ilZFk|archivedate=26 May 2020|quote=It's 1/508 for any shard, 1/1524 for a specific one of the three.|name=sharddrop}}}}
+{{DropsLine|name=Godsword shard 2|quantity=1|rarity=1/1524|raritynotes={{NamedRef|sharddrop}}}}
+{{DropsLine|name=Godsword shard 3|quantity=1|rarity=1/1524|raritynotes={{NamedRef|sharddrop}}}}
+{{DropsLine|name=Coins|quantity=1000-1100|rarity=9/1524}}
+{{DropsTableBottom}}
+
+===Regular drops===
+The regular droptable contains 125 slots, however due to the unique tables the effective chance per item is slightly lowered.
+
+====Food and ammunition====
+{{DropsTableHead}}
+{{DropsLine|name=Steel arrow|quantity=91-101|rarity=7/127}}
+{{DropsLine|name=Steel dart|quantity=91-101|rarity=8/127}}
+{{DropsLine|name=Smoke rune|quantity=10-15|rarity=8/127}}
+{{DropsLine|name=Manta ray|quantity=2|rarity=8/127|raritynotes={{CiteTwitter|author=Mod Ash|url=https://twitter.com/JagexAsh/status/1081114862212788224|date=4 January 2019|archiveurl=https://archive.is/WTjiK|archivedate=26 May 2020|quote=That'd be 8/125 of the fish option and 8/125 of the potato option, assuming you didn't get onto the unique / shard loot table.|name=food}}}}
+{{DropsLine|name=Mushroom potato|quantity=3|rarity=8/127|raritynotes={{NamedRef|food}}}}
+{{DropsTableBottom}}
+
+====Other====
+{{DropsTableHead}}
+{{DropsLine|name=Coins|quantity=1000-1100|rarity=70/127}}
+{{DropsLine|name=Crushed nest|quantity=2 (noted)|rarity=8/127}}
+{{DropsLine|name=Grimy kwuarm|quantity=1 (noted)|rarity=8/127}}
+{{DropsTableBottom}}
+
+===Tertiary===
+{{DropsTableHead}}
+{{DropsLine|name=Frozen key piece (armadyl)|quantity=1|rarity=1/20|raritynotes=<ref group=d>[[Frozen key (The Frozen Door)|Frozen key]] pieces are only dropped during [[The Frozen Door]] [[miniquest]].</ref>}}
+{{DropsLine|name=Brimstone key|quantity=1|rarity={{Brimstone rarity|159}}|raritynotes=<ref group=d>Brimstone keys are only dropped if killed on a [[Slayer task]] given by [[Konar quo Maten]].</ref>|leagueRegion=Asgarnia&Kourend}}
+{{DropsLineClue|type=hard|rarity=1/128|raritynotes={{CiteTwitter|author=Mod Ash|url=https://twitter.com/JagexAsh/status/597479427489067008|date=10 May 2015|archiveurl=https://archive.is/DvWXy|archivedate=26 May 2020|quote=The bodyguards drop hards at 1/128.}}}}
+{{DropsTableBottom}}
+
+==Changes==
+{{Subject changes header}}
+{{Subject changes
+|date = 29 May 2024
+|update = Project Rebalance: Combat Changes
+|change = Flight Kilisa now has a 30% elemental weakness to [[wind spells]].
+}}
+{{Subject changes footer}}
+
+==References==
+{{Reflist}}
+
+{{God Wars Dungeon}}
+[[Category:Monsters that do not become tolerant]]
+[[Category:Armadyleans]]
+{{External|rs}}
+{{Infobox Monster
+|name = Wingman Skree
+|image = [[File:Wingman Skree.png|280px]]
+|release = [[17 October]] [[2013]]
+|update = The God Wars Dungeon has been uncovered!
+|members = Yes
+|combat = 143
+|size = 2
+|examine = Graceful, bird-like creature.
+|xpbonus = 2.5
+|max hit = 16
+|aggressive = Yes
+|poisonous = No
+|attack style = [[Magic]]
+|attack speed = 5
+|slayxp = 124
+|cat = Aviansie
+|assignedby = chaeldar,konar,nieve,duradel
+|hitpoints = 121
+|att = 80
+|str = 50
+|def = 160
+|mage = 150
+|range = 100
+|attbns = 45
+|strbns = 25
+|amagic = 0
+|mbns = 0
+|arange = 0
+|rngbns = 0
+|dstab = 0
+|dslash = 0
+|dcrush = 0
+|dmagic = 0
+|dlight = 0
+|dstandard = 0
+|dheavy = 0
+|elementalweaknesstype = Air
+|elementalweaknesspercent = 30
+|immunepoison = No
+|immunevenom = No
+|immunecannon = No
+|immunethrall = No
+|id = 3163
+}}
+'''Wingman Skree''' is one of the [[aviansie]] bodyguards of [[Kree'arra]], along with [[Flight Kilisa]] and [[Flockleader Geerin]]. He uses magic attacks with a max hit of 16 [[hitpoints]]. He wears what appears to be a modified set of the [[Armadyl armour]] dropped by Kree'arra and his bodyguards.
+
+The ability to be assigned aviansie by [[Konar quo Maten]], [[Chaeldar]], [[Nieve]], and [[Duradel]] can be purchased for 80 [[slayer reward point]]s, which allows the use for the bonuses of the [[slayer helmet (i)]].
+
+==Location==
+{{LocTableHead|league=yes}}
+{{LocLine
+|name = Wingman Skree
+|location = [[Godwars Dungeon]], Armadyl bossroom
+|levels = 143
+|members = Yes
+|mapID = 7
+|plane = 0
+|x:2840,y:5303
+|mtype = pin
+|leagueRegion = Asgarnia
+}}
+{{LocTableBottom}}
+
+==Drops==
+{{DropLogProject|kills=27379}}
+
+{| class="wikitable"
+! rowspan="2" |[[Konar quo Maten|Konar]] task
+! colspan="2" |Average drop value
+|-
+![[Grand Exchange|GE]]
+![[High Level Alchemy|HA]]
+|-
+|{{No}}
+|{{Coins|{{Average drop value|mob=Wingman Skree|raw=y}}}}
+|{{Coins|{{Average drop value|mob=Wingman Skree|alch=yes|raw=y}}}}
+|-
+|{{Yes}}
+|{{Coins|{{Average drop value|mob=Wingman Skree|brimstone=yes|raw=y}}}}
+|{{Coins|{{Average drop value|mob=Wingman Skree|brimstone=yes|alch=yes|raw=y}}}}
+|}
+
+===100%===
+{{DropsTableHead}}
+{{DropsLine|name=Bones|quantity=1|rarity=Always}}
+{{DropsLine|name=Feather|quantity=1-11|rarity=Always}}
+{{DropsTableBottom}}
+
+===Unique table===
+There is a 1 in 127 chance to roll the unique table.
+{{DropsTableHead}}
+{{DropsLine|name=Armadyl helmet|quantity=1|rarity=1/16129}}
+{{DropsLine|name=Armadyl chestplate|quantity=1|rarity=1/16129}}
+{{DropsLine|name=Armadyl chainskirt|quantity=1|rarity=1/16129}}
+{{DropsLine|name=Coins|quantity=1000-1100|rarity=124/16129|gemw=No}}
+{{DropsTableBottom}}
+
+===Godsword shard table===
+There is a 1 in 127 chance to roll the shard table.
+{{DropsTableHead}}
+{{DropsLine|name=Godsword shard 1|quantity=1|rarity=1/1524|raritynotes={{CiteTwitter|author=Mod Ash|url=https://twitter.com/JagexAsh/status/689556758856122368|date=19 January 2016|archiveurl=https://archive.is/ilZFk|archivedate=26 May 2020|quote=It's 1/508 for any shard, 1/1524 for a specific one of the three.|name=sharddrop}}}}
+{{DropsLine|name=Godsword shard 2|quantity=1|rarity=1/1524|raritynotes={{NamedRef|sharddrop}}}}
+{{DropsLine|name=Godsword shard 3|quantity=1|rarity=1/1524|raritynotes={{NamedRef|sharddrop}}}}
+{{DropsLine|name=Coins|quantity=1000-1100|rarity=9/1524|gemw=No}}
+{{DropsTableBottom}}
+
+===Regular drops===
+The regular droptable contains 125 slots, however due to the unique tables the effective chance per item is slightly lowered.
+====Food and ammunition====
+{{DropsTableHead}}
+{{DropsLine|name=Steel arrow|quantity=91-101|rarity=7/127}}
+{{DropsLine|name=Steel dart|quantity=91-101|rarity=8/127}}
+{{DropsLine|name=Smoke rune|quantity=10-15|rarity=8/127}}
+{{DropsLine|name=Manta ray|quantity=2|rarity=8/127|raritynotes={{CiteTwitter|author=Mod Ash|url=https://twitter.com/JagexAsh/status/1081114862212788224|date=4 January 2019|archiveurl=https://archive.is/WTjiK|archivedate=26 May 2020|quote=That'd be 8/125 of the fish option and 8/125 of the potato option, assuming you didn't get onto the unique / shard loot table.|name=food}}}}
+{{DropsLine|name=Mushroom potato|quantity=3|rarity=8/127|raritynotes={{NamedRef|food}}}}
+{{DropsTableBottom}}
+
+====Other====
+{{DropsTableHead}}
+{{DropsLine|name=Coins|quantity=1000-1100|rarity=70/127|gemw=No}}
+{{DropsLine|name=Crushed nest|quantity=2 (noted)|rarity=8/127}}
+{{DropsLine|name=Grimy kwuarm|quantity=1 (noted)|rarity=8/127}}
+{{DropsTableBottom}}
+
+===Tertiary===
+{{DropsTableHead}}
+{{DropsLine|name=Frozen key piece (armadyl)|quantity=1|rarity=1/20|gemw=no|raritynotes=<ref group=d>[[Frozen key (The Frozen Door)|Frozen key]] pieces are only dropped during [[The Frozen Door]] [[miniquest]].</ref>}}
+{{DropsLine|name=Brimstone key|quantity=1|rarity={{Brimstone rarity|143}}|raritynotes=<ref group=d>Brimstone keys are only dropped if killed on a [[slayer task]] given by [[Konar quo Maten]].</ref>|gemw=No|leagueRegion=Asgarnia&Kourend}}
+{{DropsLineClue|type=hard|rarity=1/128|raritynotes={{CiteTwitter|author=Mod Ash|url=https://twitter.com/JagexAsh/status/597479427489067008|date=10 May 2015|archiveurl=https://archive.is/DvWXy|archivedate=26 May 2020|quote=The bodyguards drop hards at 1/128.}}}}
+{{DropsTableBottom}}
+{{Reflist|group=d}}
+
+==References==
+{{Reflist}}
+
+{{God Wars Dungeon}}
+[[Category:Monsters that do not become tolerant]]
+[[Category:Armadyleans]]
+{{External|rs}}
+{{Infobox Monster
+|name = Flockleader Geerin
+|image = [[File:Flockleader Geerin.png|280px]]
+|release = [[17 October]] [[2013]]
+|update = The God Wars Dungeon has been uncovered!
+|members = Yes
+|combat = 149
+|size = 2
+|examine = Graceful, bird-like creature.
+|xpbonus = 0
+|max hit = 25
+|aggressive = Yes
+|poisonous = No
+|attack style = [[Ranged]]
+|attack speed = 5
+|slayxp = 132.5
+|cat = Aviansie
+|assignedby = chaeldar,konar,nieve,duradel
+|hitpoints = 132
+|att = 80
+|str = 80
+|def = 175
+|mage = 50
+|range = 150
+|attbns = 0
+|strbns = 0
+|amagic = 0
+|mbns = 0
+|arange = 60
+|rngbns = 35
+|dstab = 0
+|dslash = 0
+|dcrush = 0
+|dmagic = 0
+|dlight = 0
+|dstandard = 0
+|dheavy = 0
+|elementalweaknesstype = Air
+|elementalweaknesspercent = 30
+|immunepoison = No
+|immunevenom = No
+|immunecannon = No
+|immunethrall = No
+|id = 3164
+}}
+'''Flockleader Geerin''' is one of the [[Aviansie]] bodyguards of [[Kree'arra]], along with [[Flight Kilisa]] and [[Wingman Skree]]. She uses [[Ranged]] attacks with a max hit of 25 [[hitpoints]]. When fighting Kree'arra, it is very unlikely Flockleader Geerin will do any damage at all, as most players use the [[Protect from Missiles]] prayer to defend from Kree'arra.
+
+The ability to be assigned aviansie by [[Konar quo Maten]], [[Chaeldar]], [[Nieve]], and [[Duradel]] can be purchased for 80 [[slayer reward point]]s, which allows the use for the bonuses of the [[slayer helmet (i)]].
+
+==Location==
+{{LocTableHead|league=yes}}
+{{LocLine
+|name = Flockleader Geerin
+|location = [[God Wars Dungeon]] (Armadyl boss room)
+|levels = 149
+|members = Yes
+|mapID = 7
+|plane = 0
+|x:2828,y:5299
+|mtype = pin
+|leagueRegion = asgarnia
+}}
+{{LocTableBottom}}
+
+==Drops==
+{{DropLogProject|kills=26989}}
+
+{| class="wikitable"
+! rowspan="2" |[[Konar quo Maten|Konar]] task
+! colspan="2" |Average drop value
+|-
+![[Grand Exchange|GE]]
+![[High Level Alchemy|HA]]
+|-
+|{{No}}
+|{{Coins|{{Average drop value|mob=Flockleader Geerin|raw=y}}}}
+|{{Coins|{{Average drop value|mob=Flockleader Geerin|alch=yes|raw=y}}}}
+|-
+|{{Yes}}
+|{{Coins|{{Average drop value|mob=Flockleader Geerin|brimstone=yes|raw=y}}}}
+|{{Coins|{{Average drop value|mob=Flockleader Geerin|brimstone=yes|alch=yes|raw=y}}}}
+|}
+
+===100%===
+{{DropsTableHead}}
+{{DropsLine|name=Bones|quantity=1|rarity=Always}}
+{{DropsLine|name=Feather|quantity=1-11|rarity=Always}}
+{{DropsTableBottom}}
+
+===Unique table===
+There is a 1 in 127 chance to roll the unique table.
+{{DropsTableHead}}
+{{DropsLine|name=Armadyl helmet|quantity=1|rarity=1/16129}}
+{{DropsLine|name=Armadyl chestplate|quantity=1|rarity=1/16129}}
+{{DropsLine|name=Armadyl chainskirt|quantity=1|rarity=1/16129}}
+{{DropsLine|name=Coins|quantity=1000-1100|rarity=124/16129|gemw=No}}
+{{DropsTableBottom}}
+
+===Godsword shard table===
+There is a 1 in 127 chance to roll the shard table.
+{{DropsTableHead}}
+{{DropsLine|name=Godsword shard 1|quantity=1|rarity=1/1524|raritynotes={{CiteTwitter|author=Mod Ash|url=https://twitter.com/JagexAsh/status/689556758856122368|date=19 January 2016|archiveurl=https://archive.is/ilZFk|archivedate=26 May 2020|quote=It's 1/508 for any shard, 1/1524 for a specific one of the three.|name=sharddrop}}}}
+{{DropsLine|name=Godsword shard 2|quantity=1|rarity=1/1524|raritynotes={{NamedRef|sharddrop}}}}
+{{DropsLine|name=Godsword shard 3|quantity=1|rarity=1/1524|raritynotes={{NamedRef|sharddrop}}}}
+{{DropsLine|name=Coins|quantity=1000-1100|rarity=9/1524|gemw=No}}
+{{DropsTableBottom}}
+
+===Regular drops===
+The regular droptable contains 125 slots, however due to the unique tables the effective chance per item is slightly lowered.
+====Food and ammunition====
+{{DropsTableHead}}
+{{DropsLine|name=Steel arrow|quantity=91-101|rarity=7/127}}
+{{DropsLine|name=Steel dart|quantity=91-101|rarity=8/127}}
+{{DropsLine|name=Smoke rune|quantity=10-15|rarity=8/127}}
+{{DropsLine|name=Manta ray|quantity=2|rarity=8/127|raritynotes={{CiteTwitter|author=Mod Ash|url=https://twitter.com/JagexAsh/status/1081114862212788224|date=4 January 2019|archiveurl=https://archive.is/WTjiK|archivedate=26 May 2020|quote=That'd be 8/125 of the fish option and 8/125 of the potato option, assuming you didn't get onto the unique / shard loot table.|name=food}}}}
+{{DropsLine|name=Mushroom potato|quantity=3|rarity=8/127|raritynotes={{NamedRef|food}}}}
+{{DropsTableBottom}}
+
+====Other====
+{{DropsTableHead}}
+{{DropsLine|name=Coins|quantity=1000-1100|rarity=70/127|gemw=No}}
+{{DropsLine|name=Crushed nest|quantity=2 (noted)|rarity=8/127}}
+{{DropsLine|name=Grimy kwuarm|quantity=1 (noted)|rarity=8/127}}
+{{DropsTableBottom}}
+
+===Tertiary===
+{{DropsTableHead}}
+{{DropsLine|name=Frozen key piece (armadyl)|quantity=1|rarity=1/20|gemw=no|raritynotes=<ref group=d>[[Frozen key (The Frozen Door)|Frozen key]] pieces are only dropped during [[The Frozen Door]] [[miniquest]].</ref>}}
+{{DropsLine|name=Brimstone key|quantity=1|rarity={{Brimstone rarity|149}}|raritynotes=<ref group=d>Brimstone keys are only dropped if killed on a [[Slayer task]] given by [[Konar quo Maten]].</ref>|gemw=No|leagueRegion=Asgarnia&Kourend}}
+{{DropsLineClue|type=hard|rarity=1/128|raritynotes={{CiteTwitter|author=Mod Ash|url=https://twitter.com/JagexAsh/status/597479427489067008|date=10 May 2015|archiveurl=https://archive.is/DvWXy|archivedate=26 May 2020|quote=The bodyguards drop hards at 1/128.}}}}
+{{DropsTableBottom}}
+{{Reflist|group=d}}
+
+==Changes==
+{{Subject changes header}}
+{{Subject changes
+|date = 29 May 2024
+|update = Project Rebalance: Combat Changes
+|change = Flockleader Geerin now has a 30% elemental weakness to [[wind spells]].
+}}
+{{Subject changes footer}}
+
+==Trivia==
+*Flockleader Geerin has the highest maximum hit of any bodyguard in the God Wars Dungeon.
+
+==References==
+{{Reflist}}
+
+{{God Wars Dungeon}}
+[[Category:Monsters that do not become tolerant]]
+[[Category:Armadyleans]]

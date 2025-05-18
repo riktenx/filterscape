@@ -1,0 +1,160 @@
+{{Confuse|Crazy archaeologist}}
+{{HasStrategy}}
+{{Infobox Monster
+|name = Deranged archaeologist
+|image = [[File:Deranged archaeologist.png|120px]]
+|release = [[7 September]] [[2017]]
+|update = Fossil Island
+|members = Yes
+|combat = 276
+|size = 1
+|examine = He's seen things that people wouldn't believe.
+|xpbonus = 37.5
+|max hit = 25 (melee), 25 (range), 56 (special direct hit), 18+ (special indirect hit)
+|aggressive = Yes
+|poisonous = No
+|attack style = [[Ranged]], [[Crush]]
+|attack speed = 3
+|slayxp = 275
+|cat = Bosses
+|assignedby = chaeldar,konar,nieve,duradel
+|hitpoints = 200
+|att = 280
+|str = 160
+|def = 280
+|mage = 1
+|range = 320
+|attbns = 280
+|strbns = 30
+|amagic = 0
+|mbns = 0
+|arange = 90
+|rngbns = -10
+|dstab = 20
+|dslash = 20
+|dcrush = 50
+|dmagic = 300
+|drange = 300
+|immunepoison = No
+|immunevenom = No
+|immunecannon = No
+|immunethrall = No
+|respawn = 50
+|id = 7806
+}}
+[[File:Deranged archaeologist chathead.png|left]]
+The '''deranged archaeologist''' is a [[boss]] located on [[Fossil Island]], at the southern end of the [[Tar Swamp]]. An [[axe]] is required to chop a swamp vine in order to reach him. Directly before the area is a [[Spine mushroom|spine mushroom]] that will occasionally hit passing players for 10 damage and apply [[poison]].
+
+He's nearly identical to the [[crazy archaeologist]] in terms of [[combat]] - he throws books as a [[Ranged]] attack, and punches and kicks players who stand in [[melee]] range. His [[special attack]] is similar but hits much harder (up to 56 damage per direct hit{{CiteTwitter|author=Mod Ash|url=https://twitter.com/JagexAsh/status/1383758002528800771|date=18 April 2021|archiveurl=https://archive.ph/dMzPN|archivedate=18 April 2021|quote=56, I believe.}}), and he shouts "Learn to Read!" when he uses it. Notably, however, the Deranged archaeologist drops none of the same unique items as the crazy archaeologist. In fact, the Deranged archaeologist is the only non-quest [[boss]] in ''Old School RuneScape'' to have no unique drops.
+
+The deranged archaeologist can be killed in lieu of the crazy archaeologist for [[boss]] [[Slayer task]]s.
+[[File:Fighting Deranged archaeologist.png|thumb|left|A player damaged by the deranged archaeologist's special attack.]]
+
+==Location==
+{{LocTableHead|league=yes}}
+{{LocLine
+|name = Deranged archaeologist
+|location = [[Fossil Island]] &ndash; South end of the [[Tar Swamp]]
+|levels = 276
+|members = Yes
+|mapID = 0
+|plane = 0
+|x:3683,y:3706
+|mtype = pin
+|leagueRegion = misthalin
+}}
+{{LocTableBottom}}
+
+==Quotes==
+*"''Round and round and round and round!''"
+*"''The plants! They're alive!''"
+*"''They came from the ground! They came from the ground!!!''"
+*"''Learn to Read!''" (Special attack)
+*"''The doors won't stay closed forever!''"
+*"''They're cheering! Why are they cheering?''"
+*"''Time is running out! She will rise again!!!''"
+*"''Oh!''" (death)
+
+==Drops==
+{{DropLogProject|kills=22802}}
+
+{{Average drop value|mob=Deranged archaeologist}}
+===100%===
+{{DropsTableHead}}
+{{DropsLine|name=Bones|quantity=1|rarity=Always}}
+{{DropsTableBottom}}
+
+===Weapons and armour===
+{{DropsTableHead}}
+{{DropsLine|name=Black d'hide body|quantity=1|rarity=6/128}}
+{{DropsLine|name=Rune 2h sword|quantity=1|rarity=3/128}}
+{{DropsLine|name=Rune sword|quantity=1|rarity=4/128}}
+{{DropsTableBottom}}
+
+===Runes and ammunition===
+{{DropsTableHead}}
+{{DropsLine|name=Water rune|quantity=100|rarity=6/128}}
+{{DropsLine|name=Mud rune|quantity=40|rarity=6/128}}
+{{DropsLine|name=Rune knife|quantity=25|rarity=6/128}}
+{{DropsLine|name=Dragon arrow|quantity=60|rarity=1/128}}
+{{DropsLine|name=Cannonball|quantity=80|rarity=4/128}}
+{{DropsTableBottom}}
+
+===Seeds===
+{{TreeHerbSeedDropTableInfo|1/128}}
+{{DropsTableHead}}
+{{TreeHerbSeedDropLines|1/128}}
+{{DropsTableBottom}}
+
+===Materials===
+{{DropsTableHead}}
+{{DropsLine|name=Grimy dwarf weed|quantity=4 (noted)|rarity=8/128}}
+{{DropsLine|name=White berries|quantity=10 (noted)|rarity=7/128}}
+{{DropsLine|name=Runite limbs|quantity=1|rarity=5/128|raritynotes={{CiteTwitter|author=Mod Ash|url=https://twitter.com/JagexAsh/status/1229121043173924866|date=16 February 2020|archiveurl=https://archive.ph/YQ5OW|archivedate=16 February 2020|quote=5/128}}}}
+{{DropsLine|name=Black dragonhide|quantity=8 (noted)|rarity=6/128}}
+{{DropsLine|name=Gold ore|quantity=10 (noted)|rarity=6/128}}
+{{DropsLine|name=Uncut diamond|quantity=5 (noted)|rarity=5/128}}
+{{DropsLine|name=Onyx bolt tips|quantity=6|rarity=6/128}}
+{{DropsTableBottom}}
+
+===Consumables===
+{{DropsTableHead}}
+{{DropsLine|name=Anchovy pizza|quantity=2|rarity=4/128}}
+{{DropsLine|name=Prayer potion(3)|quantity=1|rarity=8/128}}
+{{DropsLine|name=Potato with cheese|quantity=3|rarity=8/128}}
+{{DropsLine|name=Shark|quantity=2|rarity=8/128}}
+{{DropsTableBottom}}
+
+===Other===
+{{DropsTableHead}}
+{{DropsLine|name=Crystal key|quantity=1|rarity=7/128|raritynotes={{CiteTwitter|author=Mod Ash|url=https://twitter.com/JagexAsh/status/1104393582633467904|date=9 March 2019|archiveurl=https://archive.fo/aJNdM|archivedate=25 March 2019|quote=7/128}}}}
+{{DropsLine|name=Long bone|quantity=1|rarity=2/128|gemw=No}}
+{{DropsTableBottom}}
+
+===Rare drop table===
+{{RareDropTable|6/128|6/128|naturetalisman=yes}}
+
+===Tertiary===
+{{DropsTableHead}}
+{{FossilDropLines|fossil=12|numulite=28}}
+{{DropsLine|name=Brimstone key|quantity=1|rarity={{Brimstone rarity|276}}|raritynotes=<ref group=d>Brimstone keys are only dropped while on a [[Slayer task]] given by [[Konar quo Maten]].</ref>|gemw=No|leagueRegion=Misthalin&Kourend}}
+{{DropsLineClue|type=elite|rarity=1/200|raritynotes={{CiteTwitter|author=Mod Tide|url=https://twitter.com/JagexTide/status/1131933683714330624|date=24 May 2019|archiveurl=https://archive.fo/WUqwD|archivedate=24 May 2019|quote=I know its been a while since the clue expansion but here is the information on clue scroll drop rates and loot chances! If anything changes I will keep you posted.|name=Clue rates tweet}}}}
+{{DropsTableBottom}}
+
+==Combat Achievements==
+{{Sync}}
+{{Combat Achievements list|Deranged Archaeologist}}
+
+==Transcript==
+{{Hastranscript}}
+
+==Trivia==
+*Upon release, the deranged archaeologist dropped uncharged [[Amulet of glory|amulets of glory]] at an uncommon rate. As the amulet of glory is one of the most coveted early-game [[ironman]] items (which has high requirements - either 83 [[Hunter]] to catch [[dragon impling]]s, or 80 [[Crafting]] to create), this caused player complaints about making it far too easy to obtain. This was changed and now he drops [[crystal key]]s instead.
+*Upon release, the deranged archaeologist could be [[safespotted]]. His {{overhead|No hiding!}} attack was soon added to counter this. This was removed later after the NPC was given its own dedicated lair.
+*His examine text may be a reference to the "Tears in Rain" monologue from the 1982 {{wp|Ridley Scott}} film ''{{wp|Blade Runner}}''.
+
+==References==
+{{Reflist}}
+
+{{Bosses}}
+{{Fossil Island}}

@@ -1,0 +1,626 @@
+{{External|rs}}
+{{Instance|optional=yes}}
+{{HasStrategy}}
+{{HasTask|Greater demons}}
+{{Infobox Monster
+|name = K'ril Tsutsaroth
+|image = [[File:K'ril Tsutsaroth.png|280px]]
+|release = [[17 October]] [[2013]]
+|update = The God Wars Dungeon has been uncovered!
+|members = Yes
+|combat = 650
+|size = 5
+|examine = A servant of the god Zamorak.
+|attributes = demon
+|xpbonus = 37.5
+|max hit = 30 (magic), 46 (melee), 49 (special attack)
+|aggressive = Yes
+|poisonous = Yes (16)
+|attack style = [[Slash]], [[Magic]]
+|attack speed = 6
+|slayxp = 350.5
+|cat = Bosses, Greater Demons
+|assignedby = chaeldar,konar,nieve,duradel
+|hitpoints = 255
+|att = 340
+|str = 300
+|def = 270
+|mage = 200
+|range = 1
+|attbns = 160
+|strbns = 31
+|amagic = 0
+|mbns = 0
+|arange = 0
+|rngbns = 0
+|dstab = 80
+|dslash = 80
+|dcrush = 80
+|dmagic = 80
+|dlight = 80
+|dstandard = 80
+|dheavy = 80
+|elementalweaknesstype = Water
+|elementalweaknesspercent = 30
+|immunepoison = Yes
+|immunevenom = Yes
+|immunecannon = No
+|immunethrall = No
+|respawn = 150
+|id = 3129
+|leagueRegion = Asgarnia
+}}
+[[File:K'ril Tsutsaroth chathead.png|left]]
+'''K'ril Tsutsaroth''' (pronounced {{IPAc-en|,|k|r|I|l|_|'|t|V|d|z|i:|r|Q|T}} {{respell|KRILL|_|TUTT|zee|roth}}{{CiteGeneral|url=http://services.runescape.com/m=rswiki/en/Pronunciation_Guide|title=Pronunciation Guide|accessdate=2022-4-21|author=Jagex|archiveurl=https://chisel.weirdgloop.org/oldwiki/archive1/services.runescape.com/m%3drswiki/en/Pronunciation_Guide.html|archivedate=2016-07-31}}) is the leader of [[Zamorak]]'s forces in the [[God Wars Dungeon]]. 
+
+He is located in [[Zamorak's Fortress]], which requires a [[Hitpoints]] level of 70 to cross the river to access. To gain access to his chamber, players must use an [[ecumenical key]] or have slain 40<ref>35 for hard, 30 for elite, 25 for master and 15 kills for grandmaster for those who have unlocked the respective combat achievement tiers</ref> Zamorakians throughout the dungeon.
+
+He is typically killed on a [[Slayer task]] - K'ril Tsutsaroth is classified as a [[greater demon]], and thus killing him counts towards any greater demon Slayer task and allows a player to take advantage of the damage boosting effects of a [[Black mask]] or [[Slayer helmet]]. As a demon, he is also susceptible to [[demonbane weapon]]s and [[demonbane spells|spells]].
+
+==Location==
+{{LocTableHead|league=yes}}
+{{LocLine
+|name = K'ril Tsutsaroth
+|location = [[God Wars Dungeon]] (Zamorak boss room)
+|levels = 650
+|members = Yes
+|mapID = 7
+|plane = 0
+|x:2925,y:5322
+|mtype = pin
+|leagueRegion = asgarnia
+}}
+{{LocTableBottom}}
+
+==Fight overview==
+{{Main|K'ril Tsutsaroth/Strategies}}
+[[File:Fighting K'ril Tsutsaroth.png|thumb|300px|A group of players fighting K'ril Tsutsaroth and his bodyguards.]]
+Like other God Wars Dungeon bosses, K'ril roams around a rectangular room with his bodyguards until a player enters, attacking them on sight. He attacks with melee and magic, and if his target is praying [[Protect from Melee]], he can use a devastating melee special attack that hits through prayer. The melee attack has a maximum hit of 46, the magic attack hits from 10-30{{CiteTwitter|author=Mod Ash|url=https://twitter.com/JagexAsh/status/1055016564595011585|date=24 October 2018|archiveurl=https://archive.is/z0Y5o|archivedate=26 May 2020|quote=Zilyana has a 10-20 attack and K'ril has a 10-30 attack.}} and the special attack hits from 35-49{{CiteTwitter|author=Mod Ash|url=https://twitter.com/JagexAsh/status/1247599267910467584|date=7 April 2020|archiveurl=https://archive.is/RSH4O|archivedate=26 May 2020|quote=Its damage is random, 35-49 inclusive, even distribution across those numbers.}}, as well as drains half of the player's current prayer points. The relative occurrences of the attacks are 2/3 for melee and 1/3 for magic. Barring a complex mechanic, K'ril will use his special on 1 in every 9 hits instead of a melee attack, which gives it an incidence of 2/27 in total.{{CiteTwitter|author=Mod Ash|url=https://twitter.com/JagexAsh/status/1247602346496004096|date=7 April 2020|archiveurl=https://archive.is/CFZMo|archivedate=26 May 2020|quote=The melee one looks more like a 2/3 to me, from the code, but the enraged attack would be part of that too, so it'd be less than 2/3 in practice.}}
+If all players leave, his health and stats will be reset.
+
+===Bodyguards===
+*[[Balfrug Kreeyath]] ([[Magic]])
+*[[Tstanon Karlak]] ([[Melee]])
+*[[Zakl'n Gritch]] ([[Ranged]])
+
+==Money making==
+{{Mmgsection|Killing K'ril Tsutsaroth}}
+
+==Drops==
+{{DropLogProject|kills=15111}}<!--
+
+-->{{#vardefine:krilUnique|{{#expr:
+(1/127) * 1 * {{GEP|Steam battlestaff}} +
+(1/127) * 1 * {{GEP|Zamorakian spear}} +
+(1/508) * 1 * {{GEP|Staff of the dead}} +
+(1/508) * 1 * {{GEP|Zamorak hilt}} +
+(1/762) * 1 * {{GEP|Godsword shard 1}} +
+(1/762) * 1 * {{GEP|Godsword shard 2}} +
+(1/762) * 1 * {{GEP|Godsword shard 3}}
+}}}}
+
+The average K'ril Tsutsaroth kill, including its unique drops, is worth {{Coins|floor({{Average drop value|raw=y}})}}. 
+
+Excluding unique drops, the average kill is worth {{Coins|floor({{Average drop value|raw=y}} - {{#var:krilUnique}})}}. 
+
+Killing the three minions yields an additional {{Coins|floor(3 * {{Average drop value|mob=Balfrug Kreeyath|raw=y}})}} on average (including uniques), bringing the total to {{Coins|floor({{Average drop value|raw=y}} + 3 * {{Average drop value|mob=Balfrug Kreeyath|raw=y}})}} per kill.
+
+===100%===
+{{DropsTableHead}}
+{{DropsLine|name=Infernal ashes|quantity=1|rarity=Always}}
+{{DropsLine|name=Frozen key piece (zamorak)|quantity=1|rarity=Always|raritynotes=<ref group=d>[[Frozen key (The Frozen Door)|Frozen key]] pieces are only dropped during [[The Frozen Door]] [[miniquest]].</ref>}}
+{{DropsTableBottom}}
+{{Reflist|group=d}}
+
+===Uniques===
+There is a 3/127 chance to receive any drop on the unique table.
+{{DropsTableHead}}
+{{DropsLine|name=Steam battlestaff|quantity=1|rarity=1/127|raritynotes={{CiteTwitter|author=Mod Ash|url=https://twitter.com/JagexAsh/status/701534460588720128|date=21 February 2016|archiveurl=https://archive.fo/rKg7V|archivedate=28 March 2019|quote=No, it's on K'ril only. 1/127.|name=steam bstaff}}}}
+{{DropsLine|name=Zamorakian spear|quantity=1|rarity=1/127|raritynotes={{CiteTwitter|author=Mod Ash|url=https://twitter.com/JagexAsh/status/1068484922061586437?s=19|date=30 November 2018|archiveurl=https://archive.fo/hGmQH|archivedate=29 March 2019|quote=It's 127 for both, actually. Loot tables commonly use 128, but there's no particular reason for that number, and the GWD dev appears to have preferred 127.|name=spear}}}}
+{{DropsLine|name=Staff of the dead|quantity=1|rarity=1/508|raritynotes={{CiteTwitter|author=Mod Ash|url=https://twitter.com/JagexAsh/status/710459690090668032|date=17 March 2016|archiveurl=https://archive.fo/RIxTT|archivedate=29 March 2019|quote=[does that mean SOTD/all other hilts are also 1/508?] Yeah, we kept them consistent.|name=sotd}}}}
+{{DropsLine|name=Zamorak hilt|quantity=1|rarity=1/508|raritynotes={{NamedRef|sotd}}}}
+{{DropsLine|name=Godsword shard 1|quantity=1|rarity=1/762|raritynotes=<ref group="d" name="sharddrop">The drop rate is 1/762 for a specific Godsword Shard piece, or 1/254 for any piece.</ref>{{CiteTwitter|author=Mod Ash|url=https://twitter.com/JagexAsh/status/670676030022156288|date=28 November 2015|archiveurl=https://archive.fo/Q9d76|archivedate=26 March 2019|quote=There's a 1/254 chance of it deciding to give you a shard. So the chance of Shard 1 is 1/762, etc.|name=GS shard}}}}
+{{DropsLine|name=Godsword shard 2|quantity=1|rarity=1/762|raritynotes=<ref group="d" name="sharddrop"/>{{NamedRef|GS shard}}}}
+{{DropsLine|name=Godsword shard 3|quantity=1|rarity=1/762|raritynotes=<ref group="d" name="sharddrop"/>{{NamedRef|GS shard}}}}
+{{DropsTableBottom}}
+{{Reflist|group="d"}}
+
+===Weapons and armour===
+{{DropsTableHead}}
+{{DropsLine|name=Adamant arrow(p++)|quantity=295-300|rarity=8/127}}
+{{DropsLine|name=Rune scimitar|quantity=1|rarity=8/127}}
+{{DropsLine|name=Adamant platebody|quantity=1|rarity=8/127}}
+{{DropsLine|name=Rune platelegs|quantity=1|rarity=7/127}}
+{{DropsLine|name=Dragon dagger(p++)|quantity=1|rarity=2/127}}
+{{DropsTableBottom}}
+
+===Potions===
+{{DropsTableHead}}
+{{DropsLine|name=Super attack(3)|quantity=3|rarity=8/127|raritynotes=<ref group="d" name="supatkstr">Super attack and Super strength potions are always dropped together.</ref>}}
+{{DropsLine|name=Super strength(3)|quantity=3|rarity=8/127|raritynotes=<ref group="d" name="supatkstr"/>}}
+{{DropsLine|name=Super restore(3)|quantity=3|rarity=8/127|raritynotes=<ref group="d" name="restbrew">Super restore potions and Zamorak brews are always dropped together.</ref>}}
+{{DropsLine|name=Zamorak brew(3)|quantity=3|rarity=8/127|raritynotes=<ref group="d" name="restbrew"/>}}
+{{DropsTableBottom}}
+{{Reflist|group="d"}}
+
+===Other===
+{{DropsTableHead}}
+{{DropsLine|name=Coins|quantity=19500-20000|rarity=36.7/127|raritynotes=<ref group="d">Coins come from rolls on all loot tables, including the unique table, GDT and RDT.</ref>|gemw=No}}
+{{DropsLine|name=Grimy lantadyme|quantity=10 (noted)|rarity=8/127}}
+{{DropsLine|name=Lantadyme seed|quantity=3|rarity=8/127}}
+{{DropsLine|name=Death rune|quantity=120-125|rarity=8/127}}
+{{DropsLine|name=Blood rune|quantity=80-85|rarity=8/127}}
+{{DropsTableBottom}}
+
+{{Reflist|group=d}}
+
+===Rare drop table===
+{{GWDRDT}}
+
+===Tertiary===
+{{DropsTableHead}}
+{{DropsLine|name=Brimstone key|quantity=1|rarity={{Brimstone rarity|650}}|raritynotes=<ref group=d>Brimstone keys are only dropped if killed on a [[Slayer task]] given by [[Konar quo Maten]].</ref>|gemw=No|leagueRegion=Asgarnia&Kourend}}
+{{DropsLineClue|type=elite|rarity=1/250|raritynotes={{CiteForum|author=Envision|url=https://archive.fo/5P5mn|title=Drop Rates V2|name=Drop Rates V2}}}}
+{{DropsLine|name=Pet k'ril tsutsaroth|quantity=1|rarity=1/5000|raritynotes={{CiteTwitter|author=Mod JohnC|url=https://twitter.com/JagexJohnC/status/506398183178903552|date=1 September 2014|archiveurl=https://archive.fo/qulvf|archivedate=25 March 2019|quote=Godwars pet drop rates, all 4 are 1 in 5k. How (un)lucky have you been? Mole, KQ & KBD next week!}}|gemw=No}}
+{{DropsTableBottom}}
+{{Reflist|group="d"}}
+
+==Combat Achievements==
+{{Sync}}
+{{Combat Achievements list|K'ril Tsutsaroth}}
+
+==Dialogue==
+{{Hastranscript|npc}}
+
+==Changes==
+{{Subject changes header}}
+{{Subject changes
+|date = 9 April 2025
+|update = Farming & Autocast QoL Improvements
+|change = K'ril Tsutsaroth's [[Magic defence]] has been reduced from +130 to +80.
+}}
+{{Subject changes
+|date = 29 May 2024
+|update = Project Rebalance: Combat Changes
+|change = K'ril Tsutsaroth now has a 30% weakness to [[Water spells|water spells]].
+}}
+{{Subject changes
+|date = 16 June 2021
+|update = A Kingdom Divided
+|poll = A Kingdom Divided
+|change = K'ril Tsutsaroth now drops [[infernal ashes]] in place of regular ashes.
+}}
+{{Subject changes
+|date = 13 January 2021
+|update = God Wars Instancing and Soul Wars Improvements
+|change = Ironmen now have their own shared instance for each God Wars Dungeon general. The "Peek" option on doors will now tell players how many players are in the ironman instance. Ironmen can also observe the brazier outside the room to check if the shared ironman instance is empty. If the brazier is lit the instance is in use. 
+}}
+{{Subject changes
+|date = 25 June 2015
+|update = Boss Room Counters & Platinum Tokens
+|poll = Old School Content Poll 34: XP droplets & Slayer
+|change = Added a 'peek' option to the entrance of this boss, allowing players to see the number of other players currently in the boss room. 
+}}
+{{Subject changes
+|date = 17 July 2014
+|update = Boss Pets and Spawn Rates
+|poll = Old School feature poll - Content Poll 22
+|change = Players can now receive a pet version of this boss after defeating it.
+}}
+{{Subject changes footer}}
+
+==Trivia==
+*K'ril was classified as a [[lesser demon]] during development. He was reclassified as a [[greater demon]] when the [[God Wars Dungeon]] was released on [[17 October]] [[2013]].
+
+==References==
+{{Reflist}}
+
+{{God Wars Dungeon}}
+{{Bosses}}
+{{Demons}}
+[[Category:Monsters that do not become tolerant]]
+[[Category:Zamorakians]]
+{{External|rs}}
+{{Infobox Monster
+|name = Balfrug Kreeyath
+|image = [[File:Balfrug Kreeyath.png|250px]]
+|release = [[17 October]] [[2013]]
+|update = The God Wars Dungeon has been uncovered!
+|members = Yes
+|combat = 151
+|size = 3
+|examine = Despoiler of Ullek.
+|attributes = demon
+|xpbonus = 0
+|max hit = 16
+|aggressive = Yes
+|poisonous = No
+|attack style = [[Magic]]
+|attack speed = 5
+|slayxp = 161
+|cat = Black Demons
+|assignedby = chaeldar,nieve,duradel
+|hitpoints = 161
+|att = 115
+|str = 60
+|def = 153
+|mage = 150
+|range = 1
+|attbns = 0
+|strbns = 0
+|amagic = 0
+|mbns = 0
+|arange = 0
+|rngbns = 0
+|dstab = 0
+|dslash = 0
+|dcrush = 0
+|dmagic = 10
+|drange = 0
+|immunepoison = No
+|immunevenom = No
+|immunecannon = No
+|immunethrall = No
+|id = 3132
+}}
+'''Balfrug Kreeyath''' is a three-faced [[black demon]] who destroyed the desert city of [[Ullek]] during the [[God Wars]]. He is one of [[K'ril Tsutsaroth]]'s bodyguards, along with [[Zakl'n Gritch]] and [[Tstanon Karlak]]. He attacks with [[Magic]] by launching huge fireballs at the player and has a maximum hit of 16.
+
+Balfrug Kreeyath is considered a black demon for the purpose of a [[Slayer task]]. As with most demons, he is susceptible to the effects of [[demonbane weapons]].
+
+==Locations==
+{{LocTableHead|league=yes}}
+{{LocLine
+|name = Balfrug Kreeyath
+|location = [[God Wars Dungeon]] (Zamorak Boss room)
+|levels = 151
+|members = Yes
+|mapID = 7
+|plane = 0
+|x:2921,y:5319
+|mtype = pin
+|leagueRegion = Asgarnia
+}}
+{{LocTableBottom}}
+
+==Drops==
+{{DropLogProject|kills=12427}}
+
+{{Average drop value}}
+===100%===
+{{DropsTableHead}}
+{{DropsLine|name=Malicious ashes|quantity=1|rarity=Always}}
+{{DropsTableBottom}}
+
+===Unique table===
+There is a 1 in 127 chance to roll the unique table.
+{{DropsTableHead}}
+{{DropsLine|name=Zamorakian spear|quantity=1|rarity=3/16129}}
+{{DropsLine|name=Coins|quantity=1300-1400|rarity=124/16129|gemw=No}}
+{{DropsTableBottom}}
+
+===Godsword shard table===
+There is a 1 in 127 chance to roll the shard table.
+{{DropsTableHead}}
+{{DropsLine|name=Godsword shard 1|quantity=1|rarity=1/1524|raritynotes={{CiteTwitter|author=Mod Ash|url=https://twitter.com/JagexAsh/status/689556758856122368|date=19 January 2016|archiveurl=https://archive.is/ilZFk|archivedate=26 May 2020|quote=It's 1/508 for any shard, 1/1524 for a specific one of the three.|name=sharddrop}}}}
+{{DropsLine|name=Godsword shard 2|quantity=1|rarity=1/1524|raritynotes={{NamedRef|sharddrop}}}}
+{{DropsLine|name=Godsword shard 3|quantity=1|rarity=1/1524|raritynotes={{NamedRef|sharddrop}}}}
+{{DropsLine|name=Coins|quantity=1300-1400|rarity=9/1524|gemw=No}}
+{{DropsTableBottom}}
+
+===Regular drops===
+The regular droptable contains 125 slots, however due to the unique tables the effective chance per item is slightly lowered.
+====Runes and ammunition====
+{{DropsTableHead}}
+{{DropsLine|name=Steel arrow|quantity=95-100|rarity=7/127}}
+{{DropsLine|name=Steel dart|quantity=95-100|rarity=8/127}}
+{{DropsLine|name=Death rune|quantity=5-10|rarity=8/127}}
+{{DropsLine|name=Blood rune|quantity=5-10|rarity=8/127}}
+{{DropsTableBottom}}
+
+====Other====
+{{DropsTableHead}}
+{{DropsLine|name=Coins|quantity=1300-1400|rarity=66/127|gemw=No}}
+{{DropsLine|name=Shark|quantity=3|rarity=8/127|raritynotes={{CiteTwitter|author=Mod Ash|url=https://twitter.com/JagexAsh/status/1081114862212788224|date=4 January 2019|archiveurl=https://archive.is/WTjiK|archivedate=26 May 2020|quote=That'd be 8/125 of the fish option and 8/125 of the potato option, assuming you didn't get onto the unique / shard loot table.|name=food}}}}
+{{DropsLine|name=Tuna potato|quantity=2|rarity=8/127|raritynotes={{NamedRef|food}}}}
+{{DropsLine|name=Wine of zamorak|quantity=5-10 (noted)|rarity=8/127}}
+{{DropsLine|name=Super attack(3)|quantity=1|rarity=2/127}}
+{{DropsLine|name=Super strength(3)|quantity=1|rarity=2/127}}
+{{DropsTableBottom}}
+
+===Tertiary===
+{{DropsTableHead}}
+{{DropsLine|name=Frozen key piece (zamorak)|quantity=1|rarity=1/20|gemw=no|raritynotes=<ref group=d>[[Frozen key (The Frozen Door)|Frozen key]] pieces are only dropped during [[The Frozen Door]] [[miniquest]].</ref>}}
+{{DropsLineClue|type=hard|rarity=1/128|raritynotes={{CiteTwitter|author=Mod Ash|url=https://twitter.com/JagexAsh/status/597479427489067008|date=10 May 2015|archiveurl=https://archive.is/DvWXy|archivedate=26 May 2020|quote=The bodyguards drop hards at 1/128.}}}}
+{{DropsTableBottom}}
+
+==Changes==
+{{Subject changes header}}
+{{Subject changes
+|date = 16 June 2021
+|update = A Kingdom Divided
+|poll = A Kingdom Divided
+|change = Balfrug Kreeyath now drops [[malicious ashes]] in place of regular ashes.
+}}
+{{Subject changes footer}}
+
+==Trivia==
+*Balfrug's name is similar to the [[Wikipedia:Balrog|Balrog]], a huge demon in [[Wikipedia:The Lord of the Rings|The Lord of the Rings]]. However [[K'ril Tsutsaroth]] bears more of a resemblance to it.
+*He may be based off [[Wikipedia:Dante's Satan|Dante's Satan]], as both are portrayed with three faces and devilish looks.
+
+==References==
+{{reflist}}
+
+{{God Wars Dungeon}}
+{{Demons}}
+[[Category:Monsters that do not become tolerant]]
+[[Category:Zamorakians]]
+{{External|rs}}
+{{Infobox Monster
+|name = Tstanon Karlak
+|image = [[File:Tstanon Karlak.png|250px]]
+|release = [[17 October]] [[2013]]
+|update = The God Wars Dungeon has been uncovered!
+|members = Yes
+|combat = 145
+|size = 3
+|examine = Destroyer of 1000 planes!
+|attributes = demon
+|xpbonus = 0
+|max hit = 15
+|aggressive = Yes
+|poisonous = No
+|attack style = [[Crush]]
+|attack speed = 5
+|slayxp = 142
+|cat = Greater Demons
+|assignedby = chaeldar,nieve,duradel
+|hitpoints = 142
+|att = 124
+|str = 118
+|def = 125
+|mage = 50
+|range = 50
+|attbns = 0
+|strbns = 14
+|amagic = 0
+|mbns = 0
+|arange = 0
+|rngbns = 0
+|dstab = 0
+|dslash = 0
+|dcrush = 0
+|dmagic = -5
+|drange = 0
+|immunepoison = No
+|immunevenom = No
+|immunecannon = No
+|immunethrall = No
+|id = 3130
+}}
+'''Tstanon Karlak''' is one of [[K'ril Tsutsaroth]]'s bodyguards and can be found in the [[God Wars Dungeon]], along with [[Zakl'n Gritch]] and [[Balfrug Kreeyath]]. Tstanon attacks with [[Melee]] and has a maximum hit of 15. Tstanon is usually not considered a threat compared to K'ril, since most players already have [[Protect from Melee]] active while fighting the [[Zamorak]] bosses.
+
+Tstanon Karlak is considered a [[greater demon]] for the purpose of a [[Slayer task]]. As with most demons, he is susceptible to the effects of [[demonbane weapons]].
+
+==Location==
+{{LocTableHead|league=yes}}
+{{LocLine
+|name = Tstanon Karlak
+|location = [[God Wars Dungeon]] (Zamorak boss room)
+|levels = 145
+|members = Yes
+|mapID = 7
+|plane = 0
+|x:2932,y:5328
+|mtype = pin
+|leagueRegion = Asgarnia
+}}
+{{LocTableBottom}}
+
+==Drops==
+{{DropLogProject|kills=12739}}
+
+{{Average drop value}}
+===100%===
+{{DropsTableHead}}
+{{DropsLine|name=Malicious ashes|quantity=1|rarity=Always}}
+{{DropsTableBottom}}
+
+===Unique table===
+There is a 1 in 127 chance to roll the unique table.
+{{DropsTableHead}}
+{{DropsLine|name=Zamorakian spear|quantity=1|rarity=3/16129}}
+{{DropsLine|name=Coins|quantity=1300-1400|rarity=124/16129|gemw=No}}
+{{DropsTableBottom}}
+
+===Godsword shard table===
+There is a 1 in 127 chance to roll the shard table.
+{{DropsTableHead}}
+{{DropsLine|name=Godsword shard 1|quantity=1|rarity=1/1524|raritynotes={{CiteTwitter|author=Mod Ash|url=https://twitter.com/JagexAsh/status/689556758856122368|date=19 January 2016|archiveurl=https://archive.is/ilZFk|archivedate=26 May 2020|quote=It's 1/508 for any shard, 1/1524 for a specific one of the three.|name=sharddrop}}}}
+{{DropsLine|name=Godsword shard 2|quantity=1|rarity=1/1524|raritynotes={{NamedRef|sharddrop}}}}
+{{DropsLine|name=Godsword shard 3|quantity=1|rarity=1/1524|raritynotes={{NamedRef|sharddrop}}}}
+{{DropsLine|name=Coins|quantity=1300-1400|rarity=9/1524|gemw=No}}
+{{DropsTableBottom}}
+
+===Regular drops===
+The regular droptable contains 125 slots, however due to the unique tables the effective chance per item is slightly lowered.
+====Runes and ammunition====
+{{DropsTableHead}}
+{{DropsLine|name=Steel arrow|quantity=95-100|rarity=7/127}}
+{{DropsLine|name=Steel dart|quantity=95-100|rarity=8/127}}
+{{DropsLine|name=Death rune|quantity=5-10|rarity=8/127}}
+{{DropsLine|name=Blood rune|quantity=5-10|rarity=8/127}}
+{{DropsTableBottom}}
+
+====Other====
+{{DropsTableHead}}
+{{DropsLine|name=Coins|quantity=1300-1400|rarity=66/127|gemw=No}}
+{{DropsLine|name=Shark|quantity=3|rarity=8/127|raritynotes={{CiteTwitter|author=Mod Ash|url=https://twitter.com/JagexAsh/status/1081114862212788224|date=4 January 2019|archiveurl=https://archive.is/WTjiK|archivedate=26 May 2020|quote=That'd be 8/125 of the fish option and 8/125 of the potato option, assuming you didn't get onto the unique / shard loot table.|name=food}}}}
+{{DropsLine|name=Tuna potato|quantity=2|rarity=8/127|raritynotes={{NamedRef|food}}}}
+{{DropsLine|name=Wine of zamorak|quantity=5-10 (noted)|rarity=8/127}}
+{{DropsLine|name=Super attack(3)|quantity=1|rarity=2/127}}
+{{DropsLine|name=Super strength(3)|quantity=1|rarity=2/127}}
+{{DropsTableBottom}}
+
+===Tertiary===
+{{DropsTableHead}}
+{{DropsLine|name=Frozen key piece (zamorak)|quantity=1|rarity=1/20|gemw=no|raritynotes=<ref group=d>[[Frozen key (The Frozen Door)|Frozen key]] pieces are only dropped during [[The Frozen Door]] [[miniquest]].</ref>}}
+{{DropsLineClue|type=hard|rarity=1/128|raritynotes={{CiteTwitter|author=Mod Ash|url=https://twitter.com/JagexAsh/status/597479427489067008|date=10 May 2015|archiveurl=https://archive.is/DvWXy|archivedate=26 May 2020|quote=The bodyguards drop hards at 1/128.}}}}
+{{DropsTableBottom}}
+
+==Changes==
+{{Subject changes header}}
+{{Subject changes
+|date = 16 June 2021
+|update = A Kingdom Divided
+|poll = A Kingdom Divided
+|change = Tstanon Karlak now drops [[malicious ashes]] in place of regular ashes.
+}}
+{{Subject changes footer}}
+
+==Trivia==
+*There is a frozen clone of him in the main part of the God Wars Dungeon, two spaces under a frozen statue of a man and an [[ork]] with 'noob' inscribed in the ice underneath.
+
+==References==
+{{reflist}}
+
+{{God Wars Dungeon}}
+{{Demons}}
+[[Category:Monsters that do not become tolerant]]
+[[Category:Zamorakians]]
+{{External|rs}}
+{{Infobox Monster
+|name = Zakl'n Gritch
+|image = [[File:Zakl'n Gritch.png|220px]]
+|release = [[17 October]] [[2013]]
+|update = The God Wars Dungeon has been uncovered!
+|members = Yes
+|combat = 142
+|size = 2
+|examine = Scourge of the Light.
+
+|attributes = demon
+|xpbonus = 0
+|max hit = 21
+|aggressive = Yes
+|poisonous = No
+|attack style = [[Ranged]]
+|attack speed = 5
+|slayxp = 150
+|cat = Lesser Demons
+|assignedby = vannaka,chaeldar
+|hitpoints = 150
+|att = 83
+|str = 76
+|def = 127
+|mage = 50
+|range = 150
+|attbns = 0
+|strbns = 0
+|amagic = 0
+|mbns = 0
+|arange = 20
+|rngbns = 20
+|dstab = 0
+|dslash = 0
+|dcrush = 0
+|dmagic = -5
+|drange = 0
+|immunepoison = No
+|immunevenom = No
+|immunecannon = No
+|immunethrall = No
+|id = 3131
+}}
+'''Zakl'n Gritch''' is one of [[K'ril Tsutsaroth]]'s bodyguards, along with [[Balfrug Kreeyath]] and [[Tstanon Karlak]]. Zakl'n Gritch attacks with [[Ranged]] by throwing large snowballs and has a maximum hit of 21. 
+
+Zakl'n Gritch is considered a [[lesser demon]] for the purpose of a [[Slayer task]], and similarly it can drop the [[lesser demon champion scroll]]. As with most demons, he is susceptible to the effects of [[demonbane weapons]].
+
+==Locations==
+{{LocTableHead|league=yes}}
+{{LocLine
+|name = Zakl'n Gritch
+|location = [[God Wars Dungeon]] (Zamorak boss room)
+|levels = 142
+|members = Yes
+|mapID = 7
+|plane = 0
+|x:2919,y:5327
+|mtype = pin
+|leagueRegion = Asgarnia
+}}
+{{LocTableBottom}}
+
+==Drops==
+{{DropLogProject|kills=12127}}
+
+{{Average drop value}}
+===100%===
+{{DropsTableHead}}
+{{DropsLine|name=Malicious ashes|quantity=1|rarity=Always}}
+{{DropsTableBottom}}
+
+===Unique table===
+''There is a 1 in 127 chance to roll the unique table.''
+{{DropsTableHead}}
+{{DropsLine|name=Zamorakian spear|quantity=1|rarity=3/16129}}
+{{DropsLine|name=Coins|quantity=1300-1400|rarity=124/16129|gemw=No}}
+{{DropsTableBottom}}
+
+===Godsword shard table===
+''There is a 1 in 127 chance to roll the shard table.''
+{{DropsTableHead}}
+{{DropsLine|name=Godsword shard 1|quantity=1|rarity=1/1524|raritynotes={{CiteTwitter|author=Mod Ash|url=https://twitter.com/JagexAsh/status/689556758856122368|date=19 January 2016|archiveurl=https://archive.is/ilZFk|archivedate=26 May 2020|quote=It's 1/508 for any shard, 1/1524 for a specific one of the three.|name=sharddrop}}}}
+{{DropsLine|name=Godsword shard 2|quantity=1|rarity=1/1524|raritynotes={{NamedRef|sharddrop}}}}
+{{DropsLine|name=Godsword shard 3|quantity=1|rarity=1/1524|raritynotes={{NamedRef|sharddrop}}}}
+{{DropsLine|name=Coins|quantity=1300-1400|rarity=9/1524|gemw=No}}
+{{DropsTableBottom}}
+
+===Regular drops===
+''The regular droptable contains 125 slots, however due to the unique tables the effective chance per item is slightly lowered.''
+====Runes and ammunition====
+{{DropsTableHead}}
+{{DropsLine|name=Steel arrow|quantity=95-100|rarity=7/127}}
+{{DropsLine|name=Steel dart|quantity=95-100|rarity=8/127}}
+{{DropsLine|name=Death rune|quantity=5-10|rarity=8/127}}
+{{DropsLine|name=Blood rune|quantity=5-10|rarity=8/127}}
+{{DropsTableBottom}}
+
+====Other====
+{{DropsTableHead}}
+{{DropsLine|name=Coins|quantity=1300-1400|rarity=66/127|gemw=No}}
+{{DropsLine|name=Shark|quantity=3|rarity=8/127|raritynotes={{CiteTwitter|author=Mod Ash|url=https://twitter.com/JagexAsh/status/1081114862212788224|date=4 January 2019|archiveurl=https://archive.is/WTjiK|archivedate=26 May 2020|quote=That'd be 8/125 of the fish option and 8/125 of the potato option, assuming you didn't get onto the unique / shard loot table.|name=food}}}}
+{{DropsLine|name=Tuna potato|quantity=2|rarity=8/127|raritynotes={{NamedRef|food}}}}
+{{DropsLine|name=Wine of zamorak|quantity=5-10 (noted)|rarity=8/127}}
+{{DropsLine|name=Super attack(3)|quantity=1|rarity=2/127}}
+{{DropsLine|name=Super strength(3)|quantity=1|rarity=2/127}}
+{{DropsTableBottom}}
+
+===Tertiary===
+{{DropsTableHead}}
+{{DropsLine|name=Frozen key piece (zamorak)|quantity=1|rarity=1/20|gemw=no|raritynotes=<ref group=d>[[Frozen key (The Frozen Door)|Frozen key]] pieces are only dropped during [[The Frozen Door]] [[miniquest]].</ref>}}
+{{DropsLineClue|type=hard|rarity=1/128|raritynotes={{CiteTwitter|author=Mod Ash|url=https://twitter.com/JagexAsh/status/597479427489067008|date=10 May 2015|archiveurl=https://archive.is/DvWXy|archivedate=26 May 2020|quote=The bodyguards drop hards at 1/128.}}}}
+{{DropsLine|name=Lesser demon champion scroll|quantity=1|rarity=1/5000|raritynotes=<ref group=d>Champion scrolls are only dropped if access to [[Champions' Guild]] is available, and the [[Lesser Demon Champion]] hasn't been previously killed in the [[Champions' Challenge]].</ref>|gemw=No}}
+{{DropsTableBottom}}
+{{Reflist|group=d}}
+
+==Changes==
+{{Subject changes header}}
+{{Subject changes
+|date = 16 June 2021
+|update = A Kingdom Divided
+|poll = A Kingdom Divided
+|change = Zakl'n Gritch now drops [[malicious ashes]] in place of regular ashes.
+}}
+{{Subject changes footer}}
+
+==Trivia==
+*"Gritch" may be a reference to the children's holiday story "The Grinch". This is supported by the fact that his attacks are snow based, and "The Grinch" takes place in a snowy village.
+*He resembles an aged [[Lesser demon]].
+
+==References==
+{{Reflist}}
+
+{{God Wars Dungeon}}
+{{Demons}}
+[[Category:Monsters that do not become tolerant]]
+[[Category:Zamorakians]]

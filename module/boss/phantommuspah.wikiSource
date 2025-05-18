@@ -1,0 +1,326 @@
+{{Instance}}
+{{HasStrategy}}
+{{Infobox Monster
+|version1 = Ranged
+|version2 = Melee
+|version3 = Teleporting
+|version4 = Shielded
+|version5 = Post-shield
+|name = Phantom Muspah
+|image1 = [[File:Phantom Muspah (ranged).png|250px]]
+|image2 = [[File:Phantom Muspah (melee).png|250px]]
+|image3 = [[File:Phantom Muspah (teleporting).png|250px]]
+|image4 = [[File:Phantom Muspah (shielded).png|250px]]
+|image5 = [[File:Phantom Muspah (ranged).png|250px]]
+|release = [[11 January]] [[2023]]
+|update = Secrets of the North & More!
+|members = Yes
+|combat = 741
+|size = 5
+|examine = Imagination gone wild.
+|attributes = spectral
+|xpbonus = 107.5
+|max hit1 = 61 (Ranged), 72 (Magic)
+|max hit2 = 34
+|max hit3 = 20 (Lightning cloud)
+|max hit4 = 72 (Ranged), 79 (Magic), 80 (Shockwave)
+|max hit5 = 72 (Ranged), 79 (Magic)
+|aggressive = Yes
+|poisonous = No
+|attack style1 = [[Ranged]], [[Magic]]
+|attack style2 = [[Stab]]
+|attack style3 = [[Typeless]]
+|attack style4 = [[Ranged]], [[Magic]]
+|attack style5 = [[Ranged]], [[Magic]]
+|attack speed1 = 6
+|attack speed2 = 5
+|attack speed3 = 5
+|attack speed4 = 5
+|attack speed5 = 5
+|slayxp = 1763.7
+|cat = Bosses
+|assignedby = konar,nieve,duradel
+|hitpoints1 = 850
+|hitpoints2 = 850
+|hitpoints3 = 850
+|hitpoints4 = 75
+|hitpoints5 = 850
+|att = 280
+|str = 280
+|def = 200
+|mage1 = 150
+|mage2 = 150
+|mage3 = 150
+|mage4 = 180
+|mage5 = 179
+|range1 = 280
+|range2 = 280
+|range3 = 280
+|range4 = 336
+|range5 = 335
+|attbns = 393
+|strbns = 11
+|amagic = 280
+|mbns = 180
+|arange = 64
+|rngbns = 6
+|dstab = 185
+|dslash = 134
+|dcrush = 120
+|dmagic = 437
+|dmagic2 = 34
+|drange = 56
+|drange2 = 261
+|immunepoison = Yes
+|immunevenom = Yes
+|immunecannon = Yes 
+|immunethrall = No
+|freezeresistance = 33
+|respawn = 50
+|id1 = 12077
+|id2 = 12078
+|id3 = 12082
+|id4 = 12079
+|id5 = 12080
+}}
+The '''Phantom Muspah''' is a solo [[boss]] that can be fought after completion of the [[quest]] [[Secrets of the North]]. It is the leftover energy of the [[Strange Creature]] that manifested after the events of the quest.
+
+The Phantom Muspah is stronger than its quest variant, but otherwise shares the same attacks and mechanics. All forms of the Phantom Muspah have 33% freeze resistance, meaning it will only stay frozen for 66% of the base freeze duration of [[ice spells]]. 
+
+If players die against the Muspah, their [[grave]] will appear outside the lair in the [[Ghorrock Dungeon]]. When the Muspah is defeated, it will respawn after 30 seconds.
+
+==Location==
+{{LocTableHead|league=yes}}
+{{LocLine
+|name = Phantom Muspah
+|location = [[Ghorrock Dungeon]]
+|levels = 741
+|members = Yes
+|mapID = -1
+|plane = 0
+|2909,10317
+|mtype = pin
+|leagueRegion = fremennik
+}}
+{{LocTableBottom}}
+
+The Phantom Muspah's lair is accessible from [[Ghorrock Dungeon]], with the dungeon itself being accessible from [[Weiss]]'s [[Salt Mine]]. The lair can be entered from a crevice south-west of the dungeon.
+
+A [[Scoreboard (Phantom Muspah)|scoreboard]] by the crevice shows statistics related to the Phantom Muspah.
+
+==Fight overview==
+{{Main|Phantom Muspah/Strategies}}
+The Phantom Muspah alternates between a ranged form and a melee form roughly every 100 damage in ranged form and 80 damage in melee form that it takes. In its range form it spits green ranged projectiles, is weakest to ranged, and occasionally charges a powerful magic attack. The magic attack can hit up to 72 and applies [[Corruption (status)|corruption]] which drains prayer over time, but is fully blocked by quickly switching to [[Protect from Magic]]. In its melee form it uses melee attacks that deal increasingly more damage the longer the Muspah stays still, even through prayer. In this form it is weakest to magic, and must be frozen or kited around.
+
+When changing forms it spawns a few spikes around the arena including one under the player, which should be dodged or else it will knock the player aside and heal the Muspah based on damage dealt.
+
+It has two special attacks that it uses at 637 (75%) and 425 (50%) health. If it spawns in ranged form it uses Lightning Clouds first, otherwise it uses Homing Spikes first.
+* '''Lightning Clouds''' - The Phantom Muspah will rapidly teleport around the arena, leaving behind lightning clouds that travel across the area, which also must be avoided.
+* '''Homing Spikes''' - The Phantom Muspah will slam the ground, causing 1-4 spikes to slowly home in on the player for ~20 seconds.
+
+[[File:Fighting Phantom Muspah.png|thumb|left|250px|A player fighting the Phantom Muspah.]]
+Upon reaching less than 127 health, the Phantom Muspah will teleport to the centre of the arena and unleash a massive shock wave that must be avoided by standing behind a spike. It then activates a prayer shield; during this shielded phase it attacks similarly to its ranged phase, along with use of the overhead [[Soul Split]] prayer and summoning additional spikes that appear under the player. The shield should be drained via using [[Smite]] in between its attacks, and/or using [[Sapphire bolts (e)|enchanted sapphire bolts]].
+
+After the shield is depleted it will return to its ranged form and spawn large numbers of spikes until defeated.
+{{clear|left}}
+
+==Prayer info==
+{{Prayer info
+|name = Phantom Muspah
+|level = 40
+|xp = 170
+|type = spectral
+}}
+
+==Money making==
+{{Mmgsection|Killing Phantom Muspah (Twisted bow)}}
+
+==Drops==
+{{Listen
+|filename = Unique drop sound effect.ogg
+|title = Unique drop [[sound effect]]
+|desc = The sound that plays when receiving a unique drop.
+|align = right
+}}
+{{DropLogProject|kills=1129584}}
+
+''In addition to the unique drops, the player will also have two rolls on the Phantom Muspah's secondary drop table. If the player gets a [[Venator shard]], they will not get any other drop.'' 
+
+{{Average drop value}}<!--all the drop values are correct-->
+
+Excluding the Venator shard, the average kill is worth {{Coins|{{Average drop value|mob=Phantom Muspah|raw=y}}-(1/100)*{{GEP|Venator shard}}|c}}.
+
+===Unique===
+''The expected amount of [[ancient essence]] received per kill is 759.4. This does not include the expected 6.1 essence per kill from [[frozen cache]]s nor the average of 500 essence per kill from broken-down [[Venator shard]]s.''
+{{DropsTableHead}}
+{{DropsLine|name=Ancient essence|quantity=540-599|rarity=60/100}}
+{{DropsLine|name=Ancient essence|quantity=885-995|rarity=23/100}}
+{{DropsLine|name=Ancient essence|quantity=1970-2060|rarity=10/100}}
+{{DropsLine|name=Frozen cache|quantity=1|rarity=4/100|raritynotes={{CiteNews|title=Secrets of the North Improvements|url=https://secure.runescape.com/m=news/secrets-of-the-north-improvements?oldschool=1|newsdate=18 January 2023|name=uniques}}}}
+{{DropsLine|name=Ancient icon|quantity=1|rarity=2/100|raritynotes=<ref name=uniques/>}}
+{{DropsLine|name=Venator shard|quantity=1|rarity=1/100|raritynotes=<ref name=uniques/><ref group=d>When a Venator shard is received, no regular loot will be dropped alongside it.</ref>}}
+{{DropsTableBottom}}
+{{reflist|group=d}}
+
+===Supplies===
+''There is a 2/9 chance to roll the supplies table. When rolled, the player will receive 3 drops from it: either sharks or summer pies, either ancient brew or ranging potion, and either super restore or prayer potion. It replaces one of the normal loot rolls.''
+
+{{DropsTableHead}}
+{{DropsLine|name=Shark|quantity=4-6|rarity=1/9}}
+{{DropsLine|name=Summer pie|quantity=4-6|rarity=1/9}}
+{{DropsLine|name=Ancient brew(3)|quantity=1-2|rarity=1/9}}
+{{DropsLine|name=Ranging potion(3)|quantity=1-2|rarity=1/9}}
+{{DropsLine|name=Super restore(3)|quantity=2-3|rarity=1/9}}
+{{DropsLine|name=Prayer potion(3)|quantity=2-3|rarity=1/9}}
+{{DropsTableBottom}}
+
+===Weapons and armour===
+{{DropsTableHead}}
+{{DropsLine|name=Rune kiteshield|quantity=3 (noted)|rarity=10/220|rolls=2}}
+{{DropsLine|name=Dragon plateskirt|quantity=1|rarity=5/220|rolls=2}}
+{{DropsLine|name=Rune platelegs|quantity=3 (noted)|rarity=5/220|rolls=2}}
+{{DropsLine|name=Black d'hide body|quantity=1|rarity=5/220|rolls=2}}
+{{DropsLine|name=Dragon platelegs|quantity=2|rarity=4/220|rolls=2}}
+{{DropsLine|name=Rune sword|quantity=1|rarity=1/220|rolls=2}}
+{{DropsTableBottom}}
+
+===Runes and ammunition===
+{{DropsTableHead}}
+{{DropsLine|name=Law rune|quantity=146|rarity=10/220|rolls=2}}
+{{DropsLine|name=Soul rune|quantity=466|rarity=10/220|rolls=2}}
+{{DropsLine|name=Death rune|quantity=428|rarity=10/220|rolls=2}}
+{{DropsLine|name=Smoke rune|quantity=314|rarity=10/220|rolls=2}}
+{{DropsLine|name=Chaos rune|quantity=480|rarity=5/220|rolls=2}}
+{{DropsLine|name=Fire rune|quantity=1964|rarity=5/220|rolls=2}}
+{{DropsLine|name=Cannonball|quantity=670|rarity=5/220|rolls=2}}
+{{DropsTableBottom}}
+
+===Herbs===
+{{DropsTableHead}}
+{{DropsLine|name=Grimy toadflax|quantity=55 (noted)|rarity=3/220|rolls=2}}
+{{DropsLine|name=Grimy kwuarm|quantity=6 (noted)|rarity=1.5625/220|rolls=2}}
+{{DropsLine|name=Grimy cadantine|quantity=6 (noted)|rarity=1.25/220|rolls=2}}
+{{DropsLine|name=Grimy dwarf weed|quantity=6 (noted)|rarity=1.25/220|rolls=2}}
+{{DropsLine|name=Grimy lantadyme|quantity=6 (noted)|rarity=0.9375/220|rolls=2}}
+{{DropsTableBottom}}
+
+===Seeds===
+{{TreeHerbSeedDropTableInfo|5/220}}
+{{DropsTableHead}}
+{{DropsLine|name=Yew seed|quantity=2|rarity=5/220|rolls=2}}
+{{DropsLine|name=Torstol seed|quantity=4|rarity=5/220|rolls=2}}
+{{DropsLine|name=Palm tree seed|quantity=2|rarity=5/220|rolls=2}}
+{{DropsLine|name=Ranarr seed|quantity=3|rarity=5/220|rolls=2}}
+{{DropsLine|name=Snapdragon seed|quantity=5|rarity=4/220|rolls=2}}
+{{DropsLine|name=Ranarr seed|quantity=8|rarity=3/220|rolls=2}}
+{{DropsLine|name=Spirit seed|quantity=1|rarity=2/220|rolls=2}}
+{{TreeHerbSeedDropLines|5/220|multiplier=3|rolls=2|OverrideWatermelonQuantity=49}}
+{{DropsTableBottom}}
+
+===Resources===
+{{DropsTableHead}}
+{{DropsLine|name=Adamantite ore|quantity=22 (noted)|rarity=10/220|rolls=2}}
+{{DropsLine|name=Gold ore|quantity=180 (noted)|rarity=10/220|rolls=2}}
+{{DropsLine|name=Teak plank|quantity=22 (noted)|rarity=10/220|rolls=2}}
+{{DropsLine|name=Molten glass|quantity=89 (noted)|rarity=10/220|rolls=2}}
+{{DropsLine|name=Pure essence|quantity=2314 (noted)|rarity=5/220|rolls=2}}
+{{DropsLine|name=Coal|quantity=163 (noted)|rarity=5/220|rolls=2}}
+{{DropsLine|name=Runite ore|quantity=18 (noted)|rarity=3/220|rolls=2}}
+{{DropsLine|name=Silver ore|quantity=101 (noted)|rarity=2/220|rolls=2}}
+{{DropsTableBottom}}
+
+===Other===
+{{DropsTableHead}}
+{{DropsLine|name=Manta ray|quantity=28 (noted)|rarity=10/220|rolls=2}}
+{{DropsLine|name=Water orb|quantity=21 (noted)|rarity=10/220|rolls=2}}
+{{DropsLine|name=Dragon bolts (unf)|quantity=89|rarity=10/220|rolls=2}}
+{{DropsLine|name=Limpwurt root|quantity=21 (noted)|rarity=3/220|rolls=2}}
+{{DropsTableBottom}}
+
+===Rare drop table===
+{{RareDropTable|5/220|rolls=2|naturetalisman=yes}}
+
+===Tertiary===
+{{DropsTableHead}}
+{{DropsLine|name=Brimstone key|quantity=1|rarity={{Brimstone rarity|741|bonus=no}}|raritynotes=<ref group=d>Brimstone keys are only dropped if killed on a [[Slayer task]] given by [[Konar quo Maten]].</ref>|gemw=No|leagueRegion=Fremennik&Kourend}}
+{{DropsLine|name=Clue scroll (hard)|quantity=1|rarity=1/30|approx=No}}
+{{DropsLine|name=Clue scroll (elite)|quantity=1|rarity=1/45|approx=No}}
+{{DropsLine|name=Charged ice|quantity=1|rarity=Always|raritynotes=<ref group=d>Guaranteed reward for defeating the boss in under 3:00, provided that the player does not already have one in their possession, or has not already used one on the Muphin pet. </ref>}}
+{{DropsLine|name=Muphin|quantity=1|rarity=1/2500|image=Muphin (ranged).png|raritynotes=<ref name=uniques/>}}
+{{DropsTableBottom}}
+{{reflist|group=d}}
+
+==Combat Achievements==
+{{Sync}}
+{{Combat Achievements list|Phantom Muspah}}
+
+==Gallery==
+<gallery mode="nolines" heights="180" style="text-align:left" widths="300">
+File:Phantom Muspah concept art.jpg|Concept art of the Phantom Muspah, by [[Mod Jerv]].
+File:Muspahmodel.jpg|Model of the Phantom Muspah by [[Mod Soffan]].
+Phantom Muspah concept art (early).png|An early concept of the Phantom Muspah, by Mod Jerv.
+</gallery>
+
+==Changes==
+{{Subject changes header}}
+{{Subject changes
+|date = 24 July 2024
+|update = Deadman: Armageddon & While Guthix Sleeps Tweaks
+|change = The amount of cannonballs dropped has been increased from 666 to 670.
+}}
+{{Subject changes
+|date = 18 April 2023
+|update = Makeover Improvements
+|change = The Phantom Muspah's [[overhead]] for [[Soul Split]] was updated to use the [[Ruinous Powers]] colour scheme.
+}}
+{{Subject changes
+|date = 1 March 2023
+|update = Theatre of Blood: Entry Mode Improvements
+|change = [[Combat Achievements]] were added for the boss.
+}}
+{{Subject changes
+|date = 15 February 2023
+|update = More Poll 78 Changes!
+|change = A bug was fixed where the Phantom Muspah's Freeze duration reduction was applying twice.
+}}
+{{Subject changes
+|date = 25 January 2023
+|update = Wilderness Boss Rework
+|change = The quantity of various items dropped have been reduced slightly.
+}}
+{{Subject changes
+|date = 18 January 2023
+|update = Secrets of the North Improvements
+|change = 
+* The [[ectoplasmator]] now works on the Phantom Muspah.
+* [[Monster Examine]] now displays the boss's defensive stats.
+* The Phantom Muspah's entry in the [[Collection Log]] will now turn green when filled.
+* Returned the original melee dodge mechanic the boss had on release; as a consequence, the 10% ice spell accuracy bonus was removed.
+}}
+{{Subject changes
+|date = 12 January 2023
+|update = Secrets of the North & More!
+|type = hotfix
+|change = 
+* A bug in which the boss always hits zero whilst moving towards you while attacking, and having [[Protect from Melee]] active, has been fixed.
+* The boss's melee attack is now less accurate with Protect from Melee active. To compensate, the melee attack will now hit through the prayer more consistently.
+* The boss's melee attacks should now be easier to dodge when keeping distance from it.
+* The accuracy of [[ice spells]] are now increased by 10% when the boss is not frozen.
+* The boss should now behave more consistently if taken down before the Prayer Shield phase.
+* The quantity of various seeds and herbs have been reduced slightly.
+* The drop rate of supplies has been reduced from 1/3.5 to 1/4.5.
+}}
+{{Subject changes footer}}
+
+== Trivia ==
+*In ''RuneScape'', the [[rsw:Muspah|Muspah]] are a race of creatures created by the [[Gods|Elder God]] [[Mah]], as an amalgamation of the most fearsome creatures from her nightmares. In ''Old School RuneScape'', no other Muspah exist in the game, and little is known about the creatures' lore as of yet, but their origin story could likely be similar to their counterparts in ''RuneScape'', as evidenced by their examine text ({{mes|Imagination gone wild.}}) and the examine text of the [[Strange Creature]] ({{mes|A creature of nightmares.}}).
+*The Muspah may have been named after {{WP|Muspelheim}}, the land of raging fire in Old Norse mythology.
+*Physical similarities and a previous cannonball drop of 666 may be a reference to <i>{{wp|Diablo II}}</i>'s demon Duriel.
+*The "[[Scoreboard (Phantom Muspah)|scoreboard]]" plaque across from the entrance has Morse code that translates to "YOU GOT THIS BUDDY"
+
+==References==
+{{Reflist}}
+
+{{Phantom Muspah}}
+{{Secrets of the North}}
+{{Bosses}}

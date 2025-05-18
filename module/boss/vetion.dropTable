@@ -1,0 +1,72 @@
+{
+  "100%": [
+    "Big bones",
+    "Bones"
+  ],
+  "Unique": [
+    "Skull of vet'ion",
+    "Dragon 2h sword",
+    "Dragon pickaxe",
+    "Voidwaker blade",
+    "Ring of the gods"
+  ],
+  "Weapons and armour": [
+    "Mystic fire staff",
+    "Mystic water staff",
+    "Mystic robe top",
+    "Mystic robe bottom",
+    "Rune full helm",
+    "Rune pickaxe",
+    "Rune dart",
+    "Rune knife"
+  ],
+  "Runes and ammunition": [
+    "Chaos rune",
+    "Death rune",
+    "Blood rune",
+    "Cannonball"
+  ],
+  "Materials": [
+    "Uncut ruby",
+    "Uncut diamond",
+    "Uncut dragonstone",
+    "Gold ore",
+    "Limpwurt root",
+    "Wine of zamorak",
+    "Magic logs",
+    "Oak plank",
+    "Dragon bones",
+    "Mort myre fungus",
+    "Grimy ranarr weed",
+    "Grimy dwarf weed",
+    "Grimy snapdragon",
+    "Grimy toadflax"
+  ],
+  "Other": [
+    "Coins",
+    "Supercompost",
+    "Super restore(4)",
+    "Blighted anglerfish",
+    "Sanfew serum(4)",
+    "Dark crab",
+    "Wilderness crabs teleport"
+  ],
+  "Secondary Supply roll": [
+    "Blighted anglerfish",
+    "Blighted karambwan",
+    "Blighted super restore(3)",
+    "Blighted super restore(4)",
+    "Ranging potion(2)",
+    "Super combat potion(2)"
+  ],
+  "Tertiary": [
+    "Looting bag",
+    "Brimstone key",
+    "Long bone",
+    "Vet'ion jr.",
+    "Skeleton champion scroll",
+    "Curved bone"
+  ],
+  "Wilderness Slayer tertiary": [],
+  "Gallery (historical)": []
+}

@@ -1,0 +1,425 @@
+{{External|rs}}
+{{Instance|irs=at a chest in the Ancient Prison's safe rooms|cost=100000}}
+{{HasStrategy}}
+{{Infobox Monster
+|name = Nex
+|image = [[File:Nex.png|270px]]
+|release = [[5 January]] [[2022]]
+|update = Nex: The Fifth General
+|members = Yes
+|combat = 1001
+|size = 3
+|examine = Even the gods fear her.
+|xpbonus = 100
+|max hit = 33 (Magic), 60 (Ranged), 27 (Melee), 50 (Smoke Dash), 50 (Shadow Smash), 80 (Blood Sacrifice), 60 (Containment), 75 (Ice Prison)
+|aggressive = Yes
+|poisonous = Yes (8)
+|attack style = [[Magic]], [[Ranged]], [[Crush]]
+|attack speed = 4
+|hitpoints = 3400
+|att = 315
+|str = 200
+|def = 260
+|mage = 230
+|range = 350
+|attbns = 200
+|strbns = 20
+|amagic = 100
+|mbns = 22
+|arange = 150
+|rngbns = 5
+|dstab = 40
+|dslash = 140
+|dcrush = 60
+|dmagic = 300
+|dlight = 190
+|dstandard = 190
+|dheavy = 150
+|immunepoison = Yes
+|immunevenom = Yes
+|immunecannon = Yes
+|immunethrall = No
+|respawn = 
+|id = 11278,11279,11280,11281,11282
+|leagueRegion = Asgarnia
+}}
+'''Nex''' is one of [[Zaros]]' most powerful followers. She is imprisoned in the [[God Wars Dungeon#Ancient Prison|Ancient Prison]], sealed away beneath the [[God Wars Dungeon]]. An immensely powerful entity and one of Zaros's most powerful weapons of war, Nex is a [[Nihil (race)|nihil]] from [[Freneskae]] and possesses physical traits of the [[icyene]], [[demon]]s, [[aviansie (race)|aviansie]] and [[vampyres]].
+
+Nex's Ancient Prison is locked behind the [[frozen door]] in the southern part of the [[God Wars Dungeon]], and can only be opened by assembling the [[Frozen key (The Frozen Door)|frozen key]], whose pieces are dropped during [[The Frozen Door]] [[miniquest]], by the generals and bodyguards of each of the warring factions in the dungeon: [[General Graardor]], [[K'ril Tsutsaroth]], [[Commander Zilyana]], and [[Kree'arra]]. This in turn requires a base level of 70 [[Hitpoints]], [[Ranged]], [[Strength]], and [[Agility]] in order to reach Nex, none of which can be boosted. Up to 60 players can fight Nex per encounter.
+
+She is known for her assortment of Zarosian-affiliated drops, such as [[torva armour]], [[zaryte vambraces]], the [[ancient hilt]] and the [[nihil horn]], which is used to create a [[zaryte crossbow]].
+
+[[Ironman_Mode|Ironmen]] are eligible for drops from Nex when defeating it alongside other players. [[Group Ironman Mode|Group ironman players]] will lose their [[Group Ironman Mode#Prestige|prestige]] upon entering the encounter with a player outside of their group.
+
+==History==
+<!--===Creation on Freneskae===
+Nex, hailing from a race of Zarytes, were created by [[Zaros]] in his attempts to find a cure for the [[dragon rider]]'s infertility. His results culminated in beings that disappointed him, and he called them "nihil", as they meant nothing to him. Nex (unnamed at the time), who was smarter and larger than the rest of the nihil, was noticed by Zaros and he decided to grant it sentience, as the other nihil would destroy her for being different. She then took on the name Nex and would become one of Zaros' most loyal and powerful followers.-->
+
+===Imprisonment===
+Following the [[Betrayal of Zaros]] in the Second Age, a group of Zarosians were working to secure the area around the [[Mahjarrat]] ritual site (found south-east of [[Weiss]] today) to gain the upper hand.{{CiteNPC|npc=Ashuelot Reis|quote=Although their god was gone, many Zarosians fought to keep his empire alive.}} The leader of these Zarosians was Nex. Gaining power whenever she battled, Nex was considered unstoppable.{{CiteNPC|npc=Ashuelot Reis|quote=She [Nex] was Zaros' most powerful weapon, and she led a great army to try and restore his empire. Not that she needed an army of course. Nex alone was powerful enough to hold back hundreds of lesser beings.}}
+
+Around the beginning of the [[Third Age]], the forces of [[Saradomin]], realising the threat Nex posed, eventually planned and successfully lured Nex, alongside her army, into a large icy cavern.{{CiteNPC|npc=Ashuelot Reis|quote=The forces of Saradomin knew that Nex needed to be dealt with. They were able to lure her into these caverns.}} Here, they enchanted them into a frozen sleep, albeit with massive casualties.{{CiteNPC|npc=Ashuelot Reis|quote=After great effort and sacrifice, they managed to place Nex and her followers into a frozen, enchanted sleep.}} Afterwards, the Saradominist forces built the Temple of Lost Ancients around it, known today as the [[God Wars Dungeon]].{{CiteNPC|npc=Ashuelot Reis|quote=Once Nex was no longer an immediate threat, they built the Temple of Lost Ancients around her. Most of the temple has since fallen to ruin, but you can still see some of the remains.}}
+
+Many years after that event, a flock of [[aviansie (race)|aviansie]] were ambushed by an army of demons while transporting a newly created [[Godsword]] through the Trollheim mountains. Because of their small numbers, they were forced to retreat into the Temple of Lost Ancients. Eventually, reinforcements arrived from each side and the battle grew. Thus, the battle of the godsword began.{{CiteNPC|npc=Ashuelot Reis|quote=Later in the war, a great battle broke out in the Temple of Lost Ancients. I was a Saradominist soldier at the time, and I was among those who fought for him in that battle.}}
+
+===Escape and re-imprisonment===
+Much later, Saradominist priests, one of them being [[Ashuelot Reis]], were approached by one of their own. The priest, knowing that his fellow priests grew weary from the endless wars, revealed to them that he had secretly converted to [[Guthix]]ian teachings.{{CiteNPC|npc=Ashuelot Reis|quote=...many of us had grown tired of war. One of our priests discovered this. He came to us and revealed that he felt the same way, and that he had secretly converted to Guthix.}} Encouraging his fellow priests to join him, they abandoned the cause of Saradomin and became followers of Guthix.{{CiteNPC|npc=Ashuelot Reis|quote=He encouraged us to join him. We abandoned the cause of Saradomin and became followers of Guthix.}}
+[[File:Ancient Prison.png|thumb|280px|The Zarosian army, sealed in the Ancient Prison.]]
+Their new leader, the former Saradomin priest, taught them the druidic ways, including an ancient ritual that had the power to awaken Guthix himself, who they believed can end the God Wars.{{CiteNPC|npc=Ashuelot Reis|quote=Our new leader taught us the ways of the druids, including an ancient ritual that had the power to awaken Guthix himself. We believed this ritual to be the only way to end the war.}} However, after the priests and their leader performed the ritual, it was discovered that the ritual actually woke Nex rather than Guthix, and that it also destroyed the enchantments that sealed the Ancient Prison, releasing Nex and her army in the process.{{CiteNPC|npc=Ashuelot Reis|quote=When our leader led us to perform the ritual, it was not Guthix we woke, but Nex and her forces. The ritual also destroyed the protective enchantments on their prison.}} Their leader, who had tricked the priests into freeing Nex, was revealed to be [[Sliske]], a Zarosian [[Mahjarrat]].{{CiteNPC|npc=Ashuelot Reis|quote=I never saw him [the priest] again. He never gave us his true name, but as Nex was freed, she spoke to him... I heard little of what they said, but I did hear what she called him. Sliske.}}
+
+Due to the length of her enchanted sleep, Nex was not at full strength. Despite this, she quickly laid waste to vast numbers from all sides. Rapidly gaining power, the four factions fighting for the Godsword temporarily formed an alliance and managed to drive Nex and her forces back into their prison, but the magical protections that contained them could not be fully restored.{{CiteNPC|npc=Ashuelot Reis|quote=Nex posed such a danger, that the four armies temorarily joined forces to drive her back into the prison. They resealed it, but were unable to fix the enchantments we destroyed.}}
+
+==Official worlds==
+The following [[Server#Themed servers/worlds|official worlds]] are assigned to Nex:
+
+{| class="wikitable sortable" style="text-align: left;"
+!World
+!Location
+!Members
+!Activity
+{{WorldLine|332|United States (west)|mems=yes|Nex FFA}}
+{{WorldLine|481|United States (east)|mems=yes|Nex FFA}}
+{{WorldLine|505|United Kingdom|mems=yes|Nex FFA}}
+{{WorldLine|523|United Kingdom|mems=yes|Nex FFA}}
+|}
+
+==Fight overview==
+{{Main|Nex/Strategies}}
+[[File:Fighting Nex.png|thumb|An army of players fighting Nex.]]
+Nex spawns in her chamber shortly after a player or team of players pass through the [[ancient barrier]] within the Ancient Prison. She has very high hitpoints and deals relatively high damage even through protection prayers, so fighting her in a team is effectively a requirement.
+
+The fight consists of five distinct phases based on the [[Ancient Magicks]], with Nex using smoke, shadow, blood, and ice magic, before entering an empowered final state. In all phases, Nex makes use of all three combat styles; melee in all phases, and magic in every phase except the second one, where she uses ranged instead, alongside an array of special attacks or mechanics in each phase. In order for the fight to progress, Nex's hitpoints need to be reduced to a threshold, after which the mage who empowers her magic must be killed, which will then lead to the next phase.
+
+Like other God Wars Dungeon bosses, there is an altar to restore prayer in the back wall of the room with a cooldown of 10 minutes. Uniquely, if the player is wearing an eligible Zarosian item, the altar will also restore health, run and special attack energy.
+
+===Bodyguards===
+*[[Fumus]] ([[Magic]], [[Smoke spells|Smoke]]) – Attackable at 2720 hitpoints
+*[[Umbra]] ([[Magic]], [[Shadow spells|Shadow]]) – Attackable at 2040 hitpoints
+*[[Cruor]] ([[Magic]], [[Blood spells|Blood]]) – Attackable at 1360 hitpoints
+*[[Glacies]] ([[Magic]], [[Ice spells|Ice]]) – Attackable at 680 hitpoints
+
+==Money making==
+{{Mmgsection|Killing Nex (Team)|Killing Nex (Duo)}}
+
+==Drops==
+In order to obtain drops from Nex, the player must deal a set amount of minimum damage. Getting a drop from Nex is considered a kill in the log. Nex drops a large lump of items upon death, which is determined by team size, and the share players receive from it is based on the player's total damage to Nex, her minions, and any reavers during the encounter. Two common drops are guaranteed after each kill.
+
+The MVP receives a 10% bonus to common loot quantities and a 10% boost to the chance of obtaining a unique item drop.
+
+{{DropLogProject|kills=158203}}
+===100%===
+''Big bones are only dropped for the MVP, the player who dealt the most damage to Nex.''
+
+{{DropsTableHead|leagueRegion=Asgarnia}}
+{{DropsLine|name=Big bones|quantity=1|rarity=Always}}
+{{DropsTableBottom}}
+
+===Uniques===
+''There is an effective 1 in 43 chance of rolling the unique drop table per kill.{{CiteNews|url=https://secure.runescape.com/m=news/nex-drop-table-changes--monster-examine?oldschool=1|title=Nex Drop Table Changes & Monster Examine|newsdate=13 January 2022|quote=After rolling 1/[43 (as of 30 March 2022)] for the unique table, the chances for a specific item are:
+* Torva armour: 2/12 for each piece
+* Nihil horn: 2/12
+* Zaryte vambraces: 3/12
+* Ancient hilt: 1/12}}{{CiteNews|url=https://oldschool.runescape.wiki/w/Update:Guardians_of_the_Rift_Improvements|title=Guardians of the Rift Improvements|newsdate=30 March 2022|quote=Now that the dust has settled and meta's have been established, we'd like to revert her unique drop rates back to their original rate of 1/43 instead of the current 1/53 to better reflects the kills/hr we had intended during our internal testing.}} It is possible to receive multiple unique drops per kill with multiple players, which is calculated based on the number of players and their individual contributions towards the kill.{{CiteTwitter|author=Mod Arcane|url=https://twitter.com/JagexArcane/status/1539964527286005767|date=23 June 2022|archiveurl=https://archive.ph/blwmW|archivedate=22 July 2022|quote=[Could you clarify a bit on how Nex unique drops work? Wiki says it's 1/43, but is that per kill for everyone or per kill per person? Seems like it's per kill for everyone, but then how are double drops possible?] It is 1/43 divided by contribution
+
+If two players had 50% contribution then the boss would effectively have two 1/86 rolls.
+
+...Additionally the MVP bonus is a 10% bonus to one player after that, so in reality it's a little more common than 1/43 per boss kill.|name=Nex Multiple Uniques}} Below lists the effective drop rates, which are for each kill, rather than for each player.''
+
+{{DropsTableHead|leagueRegion=Asgarnia}}
+{{DropsLine|name=Ancient hilt|quantity=1|rarity=1/516}}
+{{DropsLine|name=Nihil horn|quantity=1|rarity=1/258}}
+{{DropsLine|name=Torva full helm (damaged)|quantity=1|rarity=1/258}}
+{{DropsLine|name=Torva platebody (damaged)|quantity=1|rarity=1/258}}
+{{DropsLine|name=Torva platelegs (damaged)|quantity=1|rarity=1/258}}
+{{DropsLine|name=Zaryte vambraces|quantity=1|rarity=1/172}}
+{{DropsTableBottom}}
+
+===Runes & ammunition===
+{{DropsTableHead|leagueRegion=Asgarnia}}
+{{DropsLine|name=Air rune|quantity=123-1365|rarity=Uncommon}}
+{{DropsLine|name=Fire rune|quantity=210-1655|rarity=Uncommon}}
+{{DropsLine|name=Blood rune|quantity=84-325|rarity=Common}}
+{{DropsLine|name=Death rune|quantity=85-170|rarity=Common}}
+{{DropsLine|name=Water rune|quantity=193-1599|rarity=Uncommon}}
+{{DropsLine|name=Soul rune|quantity=86-227|rarity=Common}}
+{{DropsLine|name=Dragon bolts (unf)|quantity=12-90|rarity=Common}}
+{{DropsLine|name=Onyx bolts (e)|quantity=11-29|rarity=Uncommon}}
+{{DropsLine|name=Cannonball|quantity=42-298|rarity=Common}}
+{{DropsTableBottom}}
+
+===Resources===
+{{DropsTableHead|leagueRegion=Asgarnia}}
+{{DropsLine|name=Air orb|quantity=6-20 (noted)|rarity=Common}}
+{{DropsLine|name=Coal|quantity=23-95 (noted)|rarity=Uncommon}}
+{{DropsLine|name=Runite ore|quantity=2-30 (noted)|rarity=Uncommon}}
+{{DropsLine|name=Uncut ruby|quantity=3-26 (noted)|rarity=Common}}
+{{DropsLine|name=Uncut diamond|quantity=3-17 (noted)|rarity=Common}}
+{{DropsLine|name=Wine of zamorak|quantity=4-14 (noted)|rarity=Common}}
+{{DropsTableBottom}}
+
+===Consumables===
+{{DropsTableHead|leagueRegion=Asgarnia}}
+{{DropsLine|name=Shark|quantity=3|rarity=Common|raritynotes=<ref group="d" name="sups1">Sharks and Prayer potions are dropped together</ref>}}
+{{DropsLine|name=Prayer potion(4)|quantity=1|rarity=Common|raritynotes=<ref group="d" name="sups1"/>}}
+{{DropsLine|name=Saradomin brew(4)|quantity=2|rarity=Common|raritynotes=<ref group="d" name="sups2">Saradomin brews and Super restores are dropped together</ref>}}
+{{DropsLine|name=Super restore(4)|quantity=1|rarity=Common|raritynotes=<ref group="d" name="sups2"/>}}
+{{DropsTableBottom}}
+{{Reflist|group="d"}}
+
+===Other===
+{{DropsTableHead|leagueRegion=Asgarnia}}
+{{DropsLine|name=Blood essence|quantity=1-2|rarity=1/82|raritynotes={{CiteTwitter|author=Mod Ash|url=https://twitter.com/JagexAsh/status/1675774134121377793|archiveurl=https://archive.is/b9NK8|date=7 August 2023|archivedate=7 July 2023|quote=1/128 from a Spiritual Mage or reaver. 1/82 on her own table that contains it.}}}}
+{{DropsLine|name=Coins|quantity=8539-26748|rarity=Uncommon}}
+{{DropsLine|name=Rune sword|quantity=1|rarity=1/209|raritynotes={{CiteTwitter|author=Mod Ash|url=https://twitter.com/JagexAsh/status/1688464356613263360|date=7 August 2023|archiveurl=https://archive.is/cZnEC|archivedate=7 August 2023|quote=[What's the drop rate for a rune sword on Nex? (...)] 1/209, I think.}}}}
+{{DropsLine|name=Ecumenical key shard|quantity=6-39|rarity=Common}}
+{{DropsLine|name=Nihil shard|quantity=80-85|rarity=5/82|raritynotes={{CiteTwitter|author=Mod Ash|url=https://twitter.com/JagexAsh/status/1683393063962419200|date=24 July 2023|archiveurl=https://archive.is/xqHM0|archivedate=25 July 2023|quote=8/209 for the 85-95 drop, 5/82 for the 80-85 drop.|name=Nihilshards}}}}
+{{DropsLine|name=Nihil shard|quantity=85-95|rarity=8/209|raritynotes={{NamedRef|Nihilshards}}}}
+{{DropsTableBottom}}
+
+===Tertiary===
+{{DropsTableHead|leagueRegion=Asgarnia}}
+{{DropsLine|name=Clue scroll (elite)|quantity=1|rarity=1/48|raritynotes={{CiteTwitter|author=Mod Ash|quote=1/48|url=https://twitter.com/JagexAsh/status/1557262831266971650|archiveurl=https://web.archive.org/web/20220810074617/https://twitter.com/JagexAsh/status/1557262831266971650|date=10 August 2022|archivedate=10 August 2022}}}}
+{{DropsLine|name=Nexling|quantity=1|rarity=1/500|raritynotes={{CiteNews|url=https://secure.runescape.com/m=news/nex-drop-table-changes--monster-examine?oldschool=1|title=Nex Drop Table Changes & Monster Examine|newsdate=13 January 2022|quote=Nexling is based on 1/500, rolled independently from the Unique Table listed above.}}{{CiteTwitter|author=Mod Ash|url=https://twitter.com/JagexAsh/status/1549429722840535044|archiveurl=https://archive.ph/O7bRd|archivedate=15 September 2022|quote=No, multiple people can get the roll on each kill, with their individual chance affected by their contribution. Looks like it's roughly that, with a little bonus chance if you were the MvP.|date=19 July 2022}}}}
+{{DropsTableBottom}}
+
+==Combat Achievements==
+{{Sync}}
+{{Combat Achievements list|Nex}}
+
+==Historical==
+As a piece of content brought into ''Old School RuneScape'' via [[backporting]], Nex was originally released in ''RuneScape'' on 10 January, 2011. However, the Nex of ''Old School RuneScape'' has several differences which aim to address the issues with Nex's ''RuneScape'' counterpart and better adapt her for ''Old School RuneScape''.
+* Originally, players obtained four pieces of a [[Frozen key (The Frozen Door)|frozen key]] (dropped by NPCs of each faction inside their strongholds). In ''Old School RuneScape'', players must complete a [[miniquest]], [[The Frozen Door]], to open the [[frozen door]], requiring completion of [[Desert Treasure I]] and killing each of the God Wars generals or their bodyguards. The key is also a one-off use that grants permanent access to the Ancient Prison without having to bring and/or repair the key.
+* In ''RuneScape'', the killcount to reach Nex's chamber could be skipped by wearing [[ancient ceremonial robes]]; however, as [[ecumenical key]]s and reducing the needed kill count via [[Combat Achievements]] existed in Old School, the robes do not have the ability to skip killcount, though it gives the stats of monk robes rather than being purely cosmetic. 
+* New uniques were proposed (namely the zaryte crossbow, vambraces and ancient godsword) rather than what she originally offered in 2011. Torva was still kept, but Pernix and Virtus armour was not offered. In addition, all players who dealt some damage in a kill would obtain part of the total drops, whereas the original only the most damaging player would, barring LootShare. Most of Nex's common drops were also significantly higher of value in her 2011 incarnation.
+* The mechanics of the boss fight received some modifications and balancing tweaks to fit ''Old School RuneScape'', though the fight is still largely similar to how it was in 2011.
+* Voice acting is not present for the fight.
+* Nex's combat stats were modified:{{CiteTwitter|author=Mod Ash|url=https://twitter.com/JagexAsh/status/1441453180630364165|date=24 September 2021|archiveurl=https://archive.ph/Rij82|archivedate=29 March 2022|quote=[Would you be able to share her original stats?] I don't know the details of what's planned there, but in ~2012 she had:
+Attack 315, Strength 260, Defence 260, 30k lifepoints (call it 3k Hitpoints), 350 Ranged, 350 Magic.
+Accuracy: +200 melee, +90 magic, +180 ranged.
+Defence: +140 stab/crush/slash, +600 magic, +160 ranged.|name=Nex 2012 stats}}
+:{|class=wikitable style="text-align:center;"
+! colspan="7" |Combat stats
+|-
+!
+!{{plinkp|Hitpoints|pic=Hitpoints icon}}
+!{{plinkp|Attack|pic=Attack icon}}
+!{{plinkp|Strength|pic=Strength icon}}
+!{{plinkp|Defence|pic=Defence icon}}
+!{{plinkp|Magic|pic=Magic icon}}
+!{{plinkp|Ranged|pic=Ranged icon}}
+|-
+!2011
+|3,000
+|315
+|260
+|260
+|350
+|350
+|-
+!2022
+|3,400
+|315
+|200
+|260
+|230
+|350
+|-
+! colspan="7" |Aggressive stats
+|-
+!
+!{{plinkp|Attack|pic=Attack icon}}
+!{{plinkp|Strength|pic=Strength icon}}
+!{{plinkp|Magic|pic=Magic icon}}
+!{{plinkp|Magic Damage|pic=Magic Damage icon}}
+!{{plinkp|Ranged|pic=Ranged icon}}
+!{{plinkp|Ranged Strength|pic=Ranged Strength icon}}
+|-
+!2011
+| +200
+| +0
+| +90
+| +0
+| +180
+| +0
+|-
+!2022
+| +200
+| +20
+| +100
+| +22
+| +150
+| +5
+|-
+! colspan="6" |Defensive stats
+|-
+!
+!{{plinkp|Stab|pic=White dagger}}
+!{{plinkp|Slash|pic=White scimitar}}
+!{{plinkp|Crush|pic=White warhammer}}
+!{{plinkp|Magic|pic=Magic icon}}
+!{{plinkp|Ranged|pic=Ranged icon}}
+|-
+!2011
+| +140
+| +140
+| +140
+| +600
+| +160
+|-
+!2022
+| +40
+| +140
+| +60
+| +300
+| +190
+|}
+
+===Pre-release teaser===
+On 20 October 2021, a teaser to Nex and the Ancient Prison was quietly added, much like the original teaser released on 20 December 2010 in ''RuneScape''; the frozen doors by the entrance to Armadyl's Eyrie were given an open option, and attempting to open the doors results in a chatbox message stating "''You try to open the door, but it doesn't seem to budge.''"
+
+After attempting to open the doors, a Strange Voice will speak in the chatbox, speaking one of six phrases. However, unlike the original teaser in 2010, there is no voice acting present.
+* "''All those who oppose us will perish...''"
+* "''Face me and know despair...''"
+* "''Give me the power of shadow...''"
+* "''Mortals, only death awaits you here...''"
+* "''My revenge will be great...''"
+* "''You cannot imprison me forever...''"
+
+==Dialogue==
+{{Hastranscript|npc}}
+
+==Changes==
+{{Subject changes header}}
+{{Subject changes
+|date = 10 July 2024
+|update = While Guthix Sleeps
+|change = Fixed a bug where Nex's minions could take burn damage whilst invulnerable.
+}}
+{{Subject changes
+|change = Nex has had her Ranged - Heavy defence reduced to 150. Previously, her overall Ranged defence bonus was 190.
+|date = 29 May 2024
+|update = Project Rebalance: Combat Changes
+}}
+{{Subject changes
+|date = 21 June 2023
+|update = More Poll 79 Changes
+|poll = 
+|change = Wearing either a [[gas mask]], [[facemask]], or [[slayer helmet]] will now prevent players from becoming infected by a player infected from Nex's choke attack.
+}}
+{{Subject changes
+|date = 24 May 2023
+|update = Bounty Hunter is Back!
+|change = Nex now provides 100% bonus experience instead of 152.5% due to a balance change affecting NPCs with high hitpoints.
+}}
+{{Subject changes
+|date = 18 April 2023
+|update = Makeover Improvements
+|change = Nex's [[overheads]] for [[Soul Split]] and [[Deflect Melee]] have been updated to use the [[Ruinous Powers]] colour scheme.
+}}
+{{Subject changes
+|date = 12 April 2023
+|update = Desert Treasure II Rewards Beta
+|change = Nex's [[overhead]] for [[Wrath]] has been updated to use the [[Ruinous Powers]] colour scheme.
+}}
+{{Subject changes
+|date = 20 July 2022
+|update = Activity Adviser: Phase One
+|change = The player who dealt the most damage to Nex is now broadcast at the end of the encounter.
+}}
+{{Subject changes
+|date = 13 April 2022
+|update = Easter 2022
+|poll = 
+|change = Nex will now consistently spawn a Blood Reaver when fought with two players.
+}}
+{{Subject changes
+|date = 30 March 2022
+|update = Guardians of the Rift Improvements
+|change = The chance of Nex rolling the unique drop table was reverted to 1/43.{{CiteNews|url=https://secure.runescape.com/m=news/guardians-of-the-rift-improvements?oldschool=1|title=Guardians of the Rift Improvements|newsdate=30 March 2022|quote=Now that the dust has settled and meta's<!--SIC--> have been established, we'd like to revert her unique drop rates back to their original rate of 1/43 instead of the current 1/53 to better reflects the kills/hr we had intended during our internal testing.}}
+}}
+{{Subject changes
+|date = 23 February 2022
+|update = Nex Achievements and Loot Keys
+|change = [[Combat Achievements]] were added for Nex.
+}}
+{{Subject changes
+|daterange = 19 January — 26 January 2022
+|type = hotfix
+|change = * An issue with players being able to unintentionally receive two unique drops from Nex has been fixed.
+* An issue preventing players from receiving any unique drops has been fixed.
+}}
+{{Subject changes
+|date = 19 January 2022
+|update = Leagues III - Shattered Relics Launch
+|change = Players can now cast [[Monster Examine]] on Nex.
+}}
+{{Subject changes
+|date = 12 January 2022
+|update = Nex Changes & Tweaks
+|change = * Nex has received some changes in the final phase of the fight:
+** Soul Split healing has been combined into one [[hitsplat]] during her final phase.
+** Melee attacks are now used more frequently, providing that Nex's target is within melee distance.
+** Behaviour in regards to changing targets has been made more predictable.
+* Nex's loot table has been re-adjusted. Mainly, the chance of Nex rolling the unique drop table was decreased from 1/43 to 1/53.
+* Nex can now be selected when setting up activities for clan events.
+* An issue has been fixed in which players did not receive loot when joining instances at the same moment the fight began.
+}}
+{{Subject changes
+|date = 11 January 2022
+|update = Nex: The Fifth General
+|type = hotfix
+|change = Nex will now flip to another part of the chamber if she doesn't attack for a period of time, even if she's in the centre of the chamber.{{CiteTwitter|author=Old School RuneScape|date=11 January 2022|url=https://twitter.com/OldSchoolRS/status/1480859468762079234|archiveurl=https://archive.ph/GrHAx|archivedate=11 January 2022|quote=We've just deployed a hotfix that allows Nex to flip if she doesn't attack for a period of time, even if she's in the centre of the room.}}
+}}
+{{Subject changes
+|date = 7 January 2022
+|update = Nex: The Fifth General
+|type = hotfix
+|change = Players who have completed the hard [[Combat Achievements]] can now have friends join their private instance when fighting Nex.
+}}
+{{Subject changes
+|date = 6 January 2022
+|update = Nex: The Fifth General
+|type = hotfix
+|change = * A warning has been added to the safe room before the main area of the prison to inform players that they have items that have not yet been reclaimed after death.
+* Supply drop quantities have been decreased in encounters with higher amounts of players.
+* The maximum number of players allowed in an encounter has been reduced from 80 to 60.
+* Nex's standard attacks will now hit more players.
+* The order of special attacks performed by Nex in each phase are now randomised.
+* Nex will now activate Soul Split upon beginning the final phase of the fight.
+}}
+{{Subject changes
+|date = 5 January 2022
+|update = Nex: The Fifth General
+|type = hotfix
+|change = * An issue with Nex being immune to damage after certain phases has been fixed.
+* All items awarded to a player from Nex (aside from her bones) will now drop at the players' feet.
+* Wearing either a [[gas mask]], [[facemask]], or [[slayer helmet]] will now reduce duration of the cough effect as part of her smoke mechanic slightly.{{CiteTwitter|author=Old School RuneScape|date=5 January 2022|url=https://twitter.com/OldSchoolRS/status/1478775499732418561|archiveurl=https://archive.fo/BPyTH|archivedate=5 January 2022|quote=To help improve the overall Nex encounter whilst player activity levels are high, we've made a small tweak.
+
+When wearing either a Gas mask, Facemask or Slayer helm, the duration of the cough effect as part of her smoke mechanic will be reduced slightly.}}
+}}
+{{Subject changes
+|date = 5 January 2022
+|update = Nex: The Fifth General
+|poll = Nex and Old School's Economy Poll
+|change = Nex and the Ancient Prison are now fully accessible.
+}}
+{{Subject changes
+|date = 16 December 2021
+|update = Christmas 2021
+|change = Nex was added to the game, but could not be reached or fought.
+}}
+{{Subject changes footer}}
+
+==Trivia==
+[[File:Nex login screen.png|thumb|right|The login screen upon the release of Nex.]]
+* "[[wiktionary:nex|Nex]]" translates to "murder" or "death" in Latin.
+* After Nex's release, the [[main menu]] was changed to an artistic depiction of the [[Frozen Door]]. The flames of the pillars depict the symbol of Zaros instead of runes. In addition, [[The Ancient Prison]] is played.
+* Upon release, players could not cast [[Monster Examine]] on Nex. If players attempted to do so, a message appeared in the game chat stating {{mes|You can't find out their stats.}} This was confirmed by [[Mod Kieren]] to be intentional in order to add an element of mystery to bosses on release,{{CiteReddit|author=Mod Kieren|url=https://www.reddit.com/r/2007scape/comments/rwkclb/nex_the_fifth_general_weekly_game_update_january/hrc9m42/|title=Nex: The Fifth General - Weekly Game Update (January 5th 2022)|quote=Just to confirm this [disabling Monster Examine for Nex] is intentional, we were discussing it only in last week about adding this mystery back. If popular it may be something we do with future bosses too.|date=17 December 2015|archiveurl=https://archive.ph/qQJv2|archivedate=5 January 2022}} and the spell was re-enabled in the game update two weeks later.
+
+==References==
+{{Reflist}}
+
+{{God Wars Dungeon}}
+{{Bosses}}
+[[Category:Zarosians]]
+[[Category:Backported and extracted content]]

@@ -1,0 +1,61 @@
+{
+  "Average value": [],
+  "Mechanics": [],
+  "Uniques": [
+    "Ultor vestige",
+    "Chromium ingot",
+    "Executioner's axe head",
+    "Virtus mask",
+    "Virtus robe top",
+    "Virtus robe bottom"
+  ],
+  "Secondary uniques": [
+    "Strangled tablet",
+    "Awakener's orb",
+    "Blood quartz"
+  ],
+  "Supplies": [
+    "Tuna potato",
+    "Prayer potion(3)",
+    "Super combat potion(2)"
+  ],
+  "Resources": [
+    "Pure essence",
+    "Iron ore",
+    "Silver ore",
+    "Coal",
+    "Mithril ore",
+    "Adamantite ore",
+    "Runite ore",
+    "Sapphire",
+    "Emerald",
+    "Ruby",
+    "Uncut ruby",
+    "Uncut diamond",
+    "Rune javelin heads",
+    "Dragon javelin heads",
+    "Dragon dart tip",
+    "Raw shark"
+  ],
+  "Runes and ammunition": [
+    "Bronze javelin",
+    "Mithril javelin",
+    "Adamant javelin",
+    "Onyx bolts (e)",
+    "Mind rune",
+    "Fire rune",
+    "Lava rune",
+    "Blood rune",
+    "Soul rune"
+  ],
+  "Tertiary": [
+    "Temple key (Desert Treasure II)",
+    "Brimstone key",
+    "Clue scroll (easy)",
+    "Clue scroll (medium)",
+    "Clue scroll (hard)",
+    "Clue scroll (elite)",
+    "Ancient blood ornament kit",
+    "Butch"
+  ]
+}

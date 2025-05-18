@@ -1,0 +1,52 @@
+{
+  "Pre-roll": [
+    "Odium shard 3",
+    "Malediction shard 3"
+  ],
+  "Weapons and armour": [
+    "Battlestaff",
+    "Rune 2h sword",
+    "Rune pickaxe",
+    "Rune kiteshield",
+    "Rune chainbody",
+    "Rune platelegs",
+    "Rune scimitar",
+    "Rune warhammer",
+    "Mystic earth staff",
+    "Mystic robe top",
+    "Mystic robe bottom",
+    "Dragon scimitar",
+    "Dragon 2h sword"
+  ],
+  "Runes": [
+    "Death rune",
+    "Blood rune",
+    "Chaos rune"
+  ],
+  "Herbs": [
+    "Grimy kwuarm",
+    "Grimy dwarf weed",
+    "Grimy torstol",
+    "Grimy snapdragon"
+  ],
+  "Materials": [
+    "Uncut ruby",
+    "Uncut diamond",
+    "Runite ore",
+    "Dragon javelin heads",
+    "Onyx bolt tips"
+  ],
+  "Other": [
+    "Coins",
+    "Blighted anglerfish",
+    "Blighted super restore(4)",
+    "Wilderness crabs teleport"
+  ],
+  "Tertiary": [
+    "Looting bag",
+    "Ensouled scorpion head",
+    "Brimstone key",
+    "Scorpia's offspring"
+  ],
+  "Wilderness Slayer tertiary": []
+}

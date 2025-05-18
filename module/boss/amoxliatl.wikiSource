@@ -1,0 +1,185 @@
+{{Instance}}
+{{HasTask|Lesser Nagua}}
+{{HasStrategy}}
+{{Infobox Monster
+|name = Amoxliatl
+|image = [[File:Amoxliatl.png|180px]]
+|release = [[25 September]] [[2024]]
+|update = Varlamore: The Rising Darkness is OUT NOW
+|members = Yes
+|combat = 263
+|size = 3
+|examine = A powerful frost nagua.
+|attributes = Spectral
+|xpbonus = 5 
+|flatarmour = -2
+|max hit = 22 (standard)<br>34 (Icicle Crash)
+|aggressive = Yes
+|poisonous = No
+|attack style = [[Magic]]
+|attack speed = 8
+|respawn = 29
+|slaylvl = 48
+|slayxp = 546
+|cat = Lesser Nagua
+|assignedby = chaeldar,konar
+|hitpoints = 520
+|att = 0
+|str = 0
+|def = 80
+|mage = 170
+|range = 0
+|attbns = 0
+|strbns = 0
+|amagic = 160
+|mbns = 15
+|arange = 0
+|rngbns = 0
+|dstab = 100
+|dslash = 100
+|dcrush = 40
+|dmagic = 100
+|dlight = 200
+|dstandard = 200
+|dheavy = 200
+|elementalweaknesstype = Fire
+|elementalweaknesspercent = 30
+|immunepoison = Yes
+|immunevenom = Yes
+|immunecannon = Yes
+|freezeresistance = 100
+|id = 13685
+}}
+[[File:Amoxliatl chathead.png|left]]
+'''Amoxliatl''' is a powerful [[Frost Nagua]] found within the [[Ruins of Tapoyauik]], who serves as its guardian and is fought during [[The Heart of Darkness]] as the final fight of the quest.
+
+After the quest, Amoxliatl can be fought again as a regular [[boss]]. Like [[Scurrius]], she is considered an entry-level boss with attacks meant to introduce various mechanics that are present in higher-level bosses, such as quickly reacting to prayers being deactivated and controlling where persistent ground hazards appear, which are comparable to [[Vorkath]]'s corrupting dragonfire and the [[Phantom Muspah]]'s ground spikes respectively.
+
+==Location==
+{{LocTableHead|league=yes}}
+{{LocLine
+|name = Amoxliatl
+|location = [[Ruins of Tapoyauik]]
+|levels = 263
+|members = Yes
+|mapID = -1
+|plane = 0
+|x:1362,y:4511
+|mtype = pin
+|leagueRegion = Varlamore
+}}
+{{LocTableBottom}}
+Amoxliatl can be found beyond a large door found to the west within the [[Ruins of Tapoyauik]] in [[Varlamore]]. By returning to the chamber with the Frost Nagua within Tapoyauik, players can use the [[lift platform]] in the center (which appears after completion of the quest) to ascend to the [[Tower of Ascension]]. This unlocks a permanent shortcut which allows quick access to Amoxliatl.
+
+An [[Ancient tablet (Amoxliatl)|ancient tablet]] by the pillar before the door shows statistics related to Amoxliatl.
+
+==Strategy==
+{{Main|Amoxliatl/Strategies}}
+[[File:Fighting Amoxliatl.png|thumb|A player fighting Amoxliatl]]
+Amoxliatl uses three different attacks throughout the fight. Her standard attack summons ice spikes around the arena. Their initial damage can be mitigated with [[Protect from Magic]] but spikes formed afterwards deal [[typeless]] damage. An [[icy pool]] will form in the tile the player was on before the attack; standing on one will deal moderate damage every tick. Her two special attacks include disabling prayers before launching an icicle that can be negated with Protect from Magic, and launching several unstable ice blocks near the player that create 3x3 icy pools if not destroyed. These ice blocks if left to explode will heal Amoxliatl. 
+
+==Prayer info==
+{{Prayer info
+|name = Amoxliatl
+|level = 40
+|xp = 104
+|type = spectral
+}}
+
+==Money making==
+{{Mmgsection|Killing Amoxliatl}}
+
+==Drops==
+{{Listen
+|filename = Unique drop sound effect.ogg
+|title = Unique drop [[sound effect]]
+|desc = The sound that plays when receiving a unique drop.
+|align = right
+}}
+''Killing Amoxliatl gives two rolls on her drop table and one roll for frozen tears. The displayed drop rates represent one kill.''
+
+{{DropLogProject|kills=308638}}
+
+{{Average drop value}}
+
+===Frozen tears===
+{{DropsTableHead}}
+{{DropsLine|name=Frozen tear|quantity=2-4|rarity=6/10}}
+{{DropsLine|name=Frozen tear|quantity=5-10|rarity=3/10}}
+{{DropsLine|name=Frozen tear|quantity=10-20|rarity=1/10}}
+{{DropsTableBottom}}
+
+===Weapons and armour===
+{{DropsTableHead}}
+{{DropsLine|name=Rune mace|quantity=1|rarity=2/56|rolls=2}}
+{{DropsLine|name=Rune pickaxe|quantity=1|rarity=1/56|rolls=2}}
+{{DropsLine|name=Rune platebody|quantity=1|rarity=1/56|rolls=2}}
+{{DropsLine|name=Rune platelegs|quantity=1|rarity=1/56|rolls=2}}
+{{DropsTableBottom}}
+
+===Runes and ammunition===
+{{DropsTableHead}}
+{{DropsLine|name=Water rune|quantity=200-400|rarity=5/56|rolls=2}}
+{{DropsLine|name=Chaos rune|quantity=30-60|rarity=4/56|rolls=2}}
+{{DropsLine|name=Death rune|quantity=20-40|rarity=4/56|rolls=2}}
+{{DropsLine|name=Blood rune|quantity=15-30|rarity=4/56|rolls=2}}
+{{DropsLine|name=Soul rune|quantity=15-30|rarity=4/56|rolls=2}}
+{{DropsLine|name=Nature rune|quantity=30-60|rarity=3/56|rolls=2}}
+{{DropsTableBottom}}
+
+===Other===
+{{DropsTableHead}}
+{{DropsLine|name=Coal|quantity=20-30 (noted)|rarity=5/56|rolls=2}}
+{{DropsLine|name=Gold ore|quantity=20-30 (noted)|rarity=5/56|rolls=2}}
+{{DropsLine|name=Adamantite ore|quantity=5-10 (noted)|rarity=4/56|rolls=2}}
+{{DropsLine|name=Prayer potion(3)|quantity=1|rarity=2/56|rolls=2}}
+{{DropsLine|name=Runite ore|quantity=1 (noted)|rarity=2/56|rolls=2}}
+{{DropsLine|name=Blessed bone shards|quantity=60-100|rarity=2/56|rolls=2|gemw=no}}
+{{DropsLine|name=Water orb|quantity=10-20 (noted)|rarity=2/56|rolls=2}}
+{{DropsLine|name=Water talisman|quantity=1|rarity=2/56|rolls=2}}
+{{DropsTableBottom}}
+
+===Gem drop table===
+{{GemDropTable|naturetalisman=yes|2/56|rolls=2}}
+
+===Tertiary===
+{{DropsTableHead}}
+{{DropsLine|name=Clue scroll (elite)|quantity=1|rarity=Always|raritynotes=<ref name='elite' group="d">Elite clue scrolls and reward caskets are only dropped when completing an elite clue scroll asking you to kill a frost nagua.</ref>|gemw=No|smw=No}}
+{{DropsLine|name=Reward casket (elite)|quantity=1|rarity=Always|raritynotes=<ref name='elite' group="d" />|gemw=No|smw=No}}
+{{DropsLine|name=Pendant of ates (inert)|quantity=1|rarity=1/25|gemw=no}}
+{{DropsLine|name=Glacial temotli|quantity=1|rarity=1/100}}
+{{DropsLine|name=Tooth half of key (moon key)|quantity=1|rarity=1/500|approx=Yes|gemw=no}}
+{{DropsLineClue|type=elite|quantity=1|rarity=1/200}}
+{{DropsLine|name=Brimstone key|quantity=1|rarity={{Brimstone rarity|263|bonus=yes}}|raritynotes={{Refn|Brimstone keys are only dropped if killed on a [[Slayer task]] given by [[Konar quo Maten]].|group=d}}|gemw=No|leagueRegion=Varlamore&Kourend}}
+{{DropsLine|name=Moxi|quantity=1|rarity=1/3000|gemw=no}}
+{{DropsTableBottom}}
+
+==Combat Achievements==
+{{Sync}}
+{{Combat Achievements list|Amoxliatl}}
+
+==Dialogue==
+{{Hastranscript|npc}}
+
+==Changes==
+{{Subject changes header}}
+{{Subject changes
+|date = 16 October 2024
+|update = Halloween 2024
+|change = [[Combat Achievements]] have been added for Amoxliatl.
+}}
+{{Subject changes footer}}
+
+==Gallery==
+<gallery mode="packed" heights="200" style="text-align:left">
+Amoxliatl concept art.png|Concept art of Amoxliatl, by [[Mod Jerv]].
+Amoxliatl chamber entrance concept art.png|Concept art of the entrance leading to Amoxliatl's chamber, by Mod Jerv.
+Amoxliatl chamber concept art.png|Concept art of Amoxliatl's chamber, by Mod Jerv.
+</gallery>
+
+==Trivia==
+* The name Amoxliatl likely comes from the {{Wp|Nahuatl|Nahuatl}} words ''amoxtli'' (meaning "book," or "codex") and ''atl'' (meaning "water").
+
+{{Bosses}}
+{{Ruins of Tapoyauik}}
+{{The Heart of Darkness}}

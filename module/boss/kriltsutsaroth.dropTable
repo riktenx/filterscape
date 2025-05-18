@@ -1,0 +1,47 @@
+{
+  "Bodyguards": [],
+  "100%": [
+    "Infernal ashes",
+    "Frozen key piece (zamorak)",
+    "Malicious ashes"
+  ],
+  "Weapons and armour": [
+    "Adamant arrow(p++)",
+    "Rune scimitar",
+    "Adamant platebody",
+    "Rune platelegs",
+    "Dragon dagger(p++)"
+  ],
+  "Potions": [
+    "Super attack(3)",
+    "Super strength(3)",
+    "Super restore(3)",
+    "Zamorak brew(3)"
+  ],
+  "Other": [
+    "Coins",
+    "Grimy lantadyme",
+    "Lantadyme seed",
+    "Death rune",
+    "Blood rune",
+    "Shark",
+    "Tuna potato",
+    "Wine of zamorak",
+    "Super attack(3)",
+    "Super strength(3)"
+  ],
+  "Rare drop table": [],
+  "Tertiary": [
+    "Brimstone key",
+    "Pet k'ril tsutsaroth",
+    "Frozen key piece (zamorak)",
+    "Lesser demon champion scroll"
+  ],
+  "Regular drops": [],
+  "Runes and ammunition": [
+    "Steel arrow",
+    "Steel dart",
+    "Death rune",
+    "Blood rune"
+  ]
+}

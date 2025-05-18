@@ -1,0 +1,62 @@
+{
+  "Minor drops": [
+    "Blighted anglerfish",
+    "Blighted karambwan",
+    "Blighted super restore(4)",
+    "Dragon bones",
+    "Super combat potion(1)"
+  ],
+  "Major drops": [],
+  "Pre-roll": [
+    "Dragon pickaxe"
+  ],
+  "Weapons and armour": [
+    "Rune dart",
+    "Rune platelegs",
+    "Rune plateskirt",
+    "Rune 2h sword",
+    "Rune battleaxe",
+    "Rune full helm",
+    "Rune kiteshield",
+    "Mystic air staff",
+    "Mystic water staff",
+    "Mystic earth staff",
+    "Mystic fire staff",
+    "Dragon dagger",
+    "Dragon 2h sword",
+    "Dragon platelegs",
+    "Dragon plateskirt"
+  ],
+  "Runes and ammunition": [
+    "Chaos rune",
+    "Blood rune",
+    "Rune arrow"
+  ],
+  "Herbs": [
+    "Grimy ranarr weed",
+    "Grimy snapdragon",
+    "Grimy avantoe",
+    "Grimy kwuarm"
+  ],
+  "Resources": [
+    "Coal",
+    "Mahogany plank",
+    "Runite bar",
+    "Adamantite bar"
+  ],
+  "Materials": [
+    "Coins",
+    "Blighted ancient ice sack",
+    "Blighted karambwan",
+    "Blighted anglerfish",
+    "Wilderness crabs teleport"
+  ],
+  "Rare drop table": [],
+  "Tertiary": [
+    "Weapon poison(++)",
+    "Looting bag",
+    "Brimstone key",
+    "Pet chaos elemental"
+  ],
+  "Wilderness Slayer tertiary": []
+}

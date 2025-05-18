@@ -1,0 +1,73 @@
+{
+  "100%": [
+    "Big bones",
+    "Bones"
+  ],
+  "Unique": [
+    "Claws of callisto",
+    "Dragon 2h sword",
+    "Dragon pickaxe",
+    "Voidwaker hilt",
+    "Tyrannical ring"
+  ],
+  "Weapons and armour": [
+    "Mystic earth staff",
+    "Mystic robe top",
+    "Mystic robe bottom",
+    "Rune pickaxe",
+    "Rune 2h sword",
+    "Rune kiteshield",
+    "Rune platebody"
+  ],
+  "Runes and ammunition": [
+    "Blood rune",
+    "Death rune",
+    "Chaos rune",
+    "Soul rune",
+    "Cannonball"
+  ],
+  "Materials": [
+    "Uncut ruby",
+    "Uncut diamond",
+    "Uncut dragonstone",
+    "Limpwurt root",
+    "Magic logs",
+    "Mahogany logs",
+    "Red dragonhide",
+    "Coconut",
+    "Grimy toadflax",
+    "Grimy dwarf weed",
+    "Grimy ranarr weed",
+    "Grimy snapdragon"
+  ],
+  "Seeds": [
+    "Ranarr seed",
+    "Snapdragon seed"
+  ],
+  "Other": [
+    "Coins",
+    "Dark crab",
+    "Super restore(4)",
+    "Supercompost",
+    "Dragon bones",
+    "Blighted anglerfish",
+    "Wilderness crabs teleport"
+  ],
+  "Secondary Supply roll": [
+    "Blighted anglerfish",
+    "Blighted karambwan",
+    "Blighted super restore(3)",
+    "Blighted super restore(4)",
+    "Ranging potion(2)",
+    "Super combat potion(2)"
+  ],
+  "Tertiary": [
+    "Looting bag",
+    "Brimstone key",
+    "Long bone",
+    "Callisto cub",
+    "Curved bone"
+  ],
+  "Wilderness Slayer tertiary": [],
+  "Gallery (historical)": []
+}

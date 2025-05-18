@@ -1,0 +1,63 @@
+{
+  "Unique": [
+    "Noxious pommel",
+    "Noxious point",
+    "Noxious blade",
+    "Araxyte fang"
+  ],
+  "Supplies": [
+    "Araxyte venom sack",
+    "Super combat potion(1)",
+    "Prayer potion(4)",
+    "Shark",
+    "Wild pie"
+  ],
+  "Weapons and armour": [
+    "Rune kiteshield",
+    "Rune platelegs",
+    "Dragon mace",
+    "Rune 2h sword",
+    "Dragon platelegs"
+  ],
+  "Runes and ammunition": [
+    "Death rune",
+    "Nature rune",
+    "Mud rune",
+    "Blood rune"
+  ],
+  "Seeds": [
+    "Yew seed",
+    "Toadflax seed",
+    "Ranarr seed",
+    "Snapdragon seed",
+    "Magic seed"
+  ],
+  "Tree-herb seed drop table": [],
+  "Resources": [
+    "Coal",
+    "Adamantite ore",
+    "Raw shark",
+    "Yew logs",
+    "Runite ore",
+    "Raw monkfish",
+    "Pure essence"
+  ],
+  "Other": [
+    "Spider cave teleport",
+    "Earth orb",
+    "Araxyte venom sack",
+    "Mort myre fungus",
+    "Antidote++(3)",
+    "Wine of zamorak",
+    "Red spiders' eggs",
+    "Bark",
+    "Araxyte head",
+    "Jar of venom"
+  ],
+  "Rare drop table": [],
+  "Tertiary": [
+    "Coagulated venom",
+    "Brimstone key",
+    "Nid"
+  ]
+}

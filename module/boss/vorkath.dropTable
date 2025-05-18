@@ -1,0 +1,57 @@
+{
+  "Weapons and armour": [
+    "Rune longsword",
+    "Rune kiteshield",
+    "Battlestaff",
+    "Dragon battleaxe",
+    "Dragon longsword",
+    "Dragon platelegs",
+    "Dragon plateskirt"
+  ],
+  "Runes": [
+    "Chaos rune",
+    "Death rune",
+    "Wrath rune"
+  ],
+  "Dragonhide": [
+    "Blue dragonhide",
+    "Green dragonhide",
+    "Red dragonhide",
+    "Black dragonhide"
+  ],
+  "Fletching materials": [
+    "Dragon bolts (unf)",
+    "Sapphire bolt tips",
+    "Emerald bolt tips",
+    "Ruby bolt tips",
+    "Diamond bolt tips",
+    "Dragonstone bolt tips",
+    "Onyx bolt tips",
+    "Rune dart tip",
+    "Dragon dart tip",
+    "Dragon arrowtips"
+  ],
+  "Seeds": [],
+  "Other": [
+    "Adamantite ore",
+    "Coins",
+    "Grapes",
+    "Magic logs",
+    "Manta ray",
+    "Dragon bones",
+    "Diamond",
+    "Dragonstone",
+    "Wrath talisman"
+  ],
+  "Rare drop table": [],
+  "Tertiary": [
+    "Scaly blue dragonhide",
+    "Vorkath's head",
+    "Brimstone key",
+    "Dragonbone necklace",
+    "Jar of decay",
+    "Vorki",
+    "Draconic visage",
+    "Skeletal visage"
+  ]
+}

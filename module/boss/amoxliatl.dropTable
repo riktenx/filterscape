@@ -1,0 +1,39 @@
+{
+  "Frozen tears": [
+    "Frozen tear"
+  ],
+  "Weapons and armour": [
+    "Rune mace",
+    "Rune pickaxe",
+    "Rune platebody",
+    "Rune platelegs"
+  ],
+  "Runes and ammunition": [
+    "Water rune",
+    "Chaos rune",
+    "Death rune",
+    "Blood rune",
+    "Soul rune",
+    "Nature rune"
+  ],
+  "Other": [
+    "Coal",
+    "Gold ore",
+    "Adamantite ore",
+    "Prayer potion(3)",
+    "Runite ore",
+    "Blessed bone shards",
+    "Water orb",
+    "Water talisman"
+  ],
+  "Gem drop table": [],
+  "Tertiary": [
+    "Clue scroll (elite)",
+    "Reward casket (elite)",
+    "Pendant of ates (inert)",
+    "Glacial temotli",
+    "Tooth half of key (moon key)",
+    "Brimstone key",
+    "Moxi"
+  ]
+}

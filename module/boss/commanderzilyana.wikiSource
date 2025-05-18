@@ -1,0 +1,594 @@
+{{External|rs}}
+{{Instance|optional=yes}}
+{{HasStrategy}}
+{{Infobox Monster
+|name = Commander Zilyana
+|image = [[File:Commander Zilyana.png|250px]]
+|release = [[17 October]] [[2013]]
+|update = The God Wars Dungeon has been uncovered!
+|members = Yes
+|combat = 596
+|size = 2
+|examine = Commander of Saradomin's forces.
+|xpbonus = 37.5
+|max hit = 27 (melee), 20 (magic)
+|aggressive = Yes
+|poisonous = No
+|attack style = [[Crush]], [[Magic]]
+|attack speed = 2
+|slayxp = 350
+|cat = Bosses
+|assignedby = konar,nieve,duradel
+|hitpoints = 255
+|att = 280
+|str = 196
+|def = 300
+|mage = 300
+|range = 250
+|attbns = 195
+|strbns = 20
+|amagic = 200
+|mbns = 0
+|arange = 0
+|rngbns = 0
+|dstab = 100
+|dslash = 100
+|dcrush = 100
+|dmagic = 100
+|dlight = 100
+|dstandard = 100
+|dheavy = 75
+|immunepoison = Yes
+|immunevenom = Yes
+|immunecannon = No
+|immunethrall = No
+|respawn = 150
+|id = 2205
+}}
+[[File:Commander Zilyana chathead.png|left]]
+'''Commander Zilyana''' is the appointed leader of [[Saradomin]]'s forces in the [[God Wars Dungeon]] and one of only two known still living representatives of the [[Icyene]] race, the other being the half-human half-Icyene [[Safalaan]].
+
+To gain access to her chamber within the [[Saradomin Encampment]], players must use an [[ecumenical key]] or have killed 40<ref>35 for hard, 30 for elite, 25 for master and 15 kills for grandmaster for those who have unlocked the respective combat achievement tiers</ref> of Saradomin's followers throughout the dungeon. Furthermore, in addition to an [[Agility]] level of 70 '''(cannot be boosted)''', players must bring two [[rope]]s on their first visit in order to navigate obstacles in the encampment. Note, if this is your first time entering the God Wars Dungeon, you will need a total of three ropes.
+
+==Location==
+{{LocTableHead|league=yes}}
+{{LocLine
+|name = Commander Zilyana
+|location = [[God Wars Dungeon]] (Saradomin boss room)
+|levels = 596
+|members = Yes
+|mapID = 7
+|plane = 0
+|x:2905,y:5237
+|mtype = pin
+|leagueRegion = asgarnia
+}}
+{{LocTableBottom}}
+
+==Fight overview==
+{{Main|Commander Zilyana/Strategies}}
+Like other God Wars Dungeon bosses, Zilyana roams around a rectangular room with her bodyguards until a player enters, attacking them on sight. While she has a significantly lower max hit than the other generals, she makes up for it with extremely fast and accurate attacks, and her bodyguards use a different combat style each. She will only use her magic attacks at melee distance, which has a minimum hit of 10 should it successfully hit the player{{CiteTwitter|author=Mod Ash|url=https://twitter.com/JagexAsh/status/1055016564595011585|date=24 October 2018|archiveurl=https://archive.is/z0Y5o|archivedate=26 May 2020|quote=Zilyana has a 10-20 attack and K'ril has a 10-30 attack.}}. If all players leave, her health and stats will be reset.
+
+===Bodyguards===
+*[[Starlight]] ([[Melee]])
+*[[Bree]] ([[Ranged]])
+*[[Growler]] ([[Magic]])
+[[File:Fighting Commander Zilyana.png|thumb|250px|A group of players fighting Commander Zilyana and her bodyguards.]]
+
+==Money making==
+{{Mmgsection|Killing Commander Zilyana}}
+
+==Drops==
+{{DropLogProject|kills=23068}}<!--
+
+-->{{#vardefine:zilyanaUnique|{{#expr:
+(1/127) * {{GEP|Saradomin sword|1}} +
+(1/254) * {{GEP|Saradomin's light|1}} +
+(1/508) * {{GEP|Armadyl crossbow|1}} +
+(1/508) * {{GEP|Saradomin hilt|1}} +
+(1/762) * {{GEP|Godsword shard 1|1}} +
+(1/762) * {{GEP|Godsword shard 2|1}} +
+(1/762) * {{GEP|Godsword shard 3|1}}
+}}}}<!--
+
+-->{{#vardefine:onezilyanaLoot|{{#expr:
+(1/1) * {{GEP|Bones|1}} +
+(8/127) * {{GEP|Prayer potion(4)|3}} +
+(8/127) * {{GEP|Super defence(3)|3}} +
+(8/127) * {{GEP|Magic potion(3)|3}} +
+(6/127) * {{GEP|Saradomin brew(3)|3}} +
+(6/127) * {{GEP|Super restore(4)|3}} +
+(8/127) * {{GEP|Grimy ranarr weed|5}} +
+(8/127) * {{GEP|Ranarr seed|2}} +
+(1/127) * {{GEP|Magic seed|1}} +
+(8/127) * {{GEP|Adamant platebody|1}} +
+(8/127) * {{GEP|Rune dart|37.5}} +
+(8/127) * {{GEP|Rune kiteshield|1}} +
+(8/127) * {{GEP|Rune plateskirt|1}} +
+(31.2/127) * 1 * 19750 +
+(8/127) * {{GEP|Diamond|6}} +
+(8/127) * {{GEP|Law rune|97.5}} +
+(10/127) * 1 * {{GWDRDTValue}}
+}}}}<!--
+
+-->{{#vardefine:onezilyanaminionLoot|{{#expr:
+(1/1) * {{GEP|Bones|1}} +
+(1/127) * (3/127) * {{GEP|Saradomin sword|1}} +
+(1/127) * (124/127) * 1450 +
+(1/127) * (9/12) * 1350 +
+(1/127) * (1/12) * {{GEP|Godsword shard 1|1}} +
+(1/127) * (1/12) * {{GEP|Godsword shard 2|1}} +
+(1/127) * (1/12) * {{GEP|Godsword shard 3|1}} +
+(8/127) * {{GEP|Steel dart|97.5}} +
+(8/127) * {{GEP|Law rune|7.5}} +
+(8/127) * {{GEP|Grimy ranarr weed|1}} +
+(8/127) * {{GEP|Summer pie|1}} +
+(8/127) * {{GEP|Monkfish|3}} +
+(8/127) * {{GEP|Steel arrow|97.5}} +
+(62/127) * 1350 +
+(7/127) * {{GEP|Snape grass|5}} +
+(8/127) * {{GEP|Unicorn horn|6}}
+}}}}
+
+The average Commander Zilyana kill, including its unique drops, is worth {{Coins|floor({{#var:onezilyanaLoot}}+{{#var:zilyanaUnique}})}}.
+
+Excluding unique drops, the average kill is worth {{Coins|floor({{#var:onezilyanaLoot}})}}. 
+
+Killing the three minions yields an additional {{Coins|floor(3*{{#var:onezilyanaminionLoot}})}} on average (including uniques), bringing the total to {{Coins|floor({{#var:onezilyanaLoot}}+{{#var:zilyanaUnique}}+3*{{#var:onezilyanaminionLoot}})}} per kill.
+===100%===
+{{DropsTableHead}}
+{{DropsLine|name=Bones|quantity=1|rarity=Always}}
+{{DropsLine|name=Frozen key piece (saradomin)|quantity=1|rarity=Always|raritynotes=<ref group=d>[[Frozen key (The Frozen Door)|Frozen key]] pieces are only dropped during [[The Frozen Door]] [[miniquest]].</ref>}}
+{{DropsTableBottom}}
+{{Reflist|group=d}}
+
+===Uniques===
+There is a 1/53 chance to hit the Unique table and receive one of any unique, or 1/66 to receive any unique except a Godsword Shard.{{DropsTableHead}}
+{{DropsLine|name=Saradomin sword|quantity=1|rarity=1/127|raritynotes={{CiteTwitter|author=Mod Kieren|url=https://twitter.com/JagexKieren/status/900362626009530369|date=23 August 2017|archiveurl=https://archive.fo/L6alm|archivedate=26 March 2019|quote=Here are some numbers! Hilt=1/508, Light=1/254, Sword=1/127, ACB=1/508|name=sara}}}}
+{{DropsLine|name=Saradomin's light|quantity=1|rarity=1/254|raritynotes={{NamedRef|sara}}}}
+{{DropsLine|name=Armadyl crossbow|quantity=1|rarity=1/508|raritynotes={{NamedRef|sara}}}}
+{{DropsLine|name=Saradomin hilt|quantity=1|rarity=1/508|raritynotes={{NamedRef|sara}}}}
+{{DropsLine|name=Godsword shard 1|quantity=1|rarity=1/762|raritynotes=<ref group="d" name="sharddrop">The drop rate is 1/762 for a specific Godsword Shard piece, or 1/254 for any piece.</ref>{{CiteTwitter|author=Mod Ash|url=https://twitter.com/JagexAsh/status/670676030022156288|date=28 November 2015|archiveurl=https://archive.fo/Q9d76|archivedate=26 March 2019|quote=There's a 1/254 chance of it deciding to give you a shard. So the chance of Shard 1 is 1/762, etc.|name=GS shard}}}}
+{{DropsLine|name=Godsword shard 2|quantity=1|rarity=1/762|raritynotes=<ref group="d" name="sharddrop"/>{{NamedRef|GS shard}}}}
+{{DropsLine|name=Godsword shard 3|quantity=1|rarity=1/762|raritynotes=<ref group="d" name="sharddrop"/>{{NamedRef|GS shard}}}}
+{{DropsTableBottom}}{{Reflist|group="d"}}
+
+===Weapons and armour===
+{{DropsTableHead}}
+{{DropsLine|name=Adamant platebody|quantity=1|rarity=8/127}}
+{{DropsLine|name=Rune dart|quantity=35-40|rarity=8/127}}
+{{DropsLine|name=Rune kiteshield|quantity=1|rarity=8/127}}
+{{DropsLine|name=Rune plateskirt|quantity=1|rarity=8/127}}
+{{DropsTableBottom}}
+
+===Potions===
+{{DropsTableHead}}
+{{DropsLine|name=Prayer potion(4)|quantity=3|rarity=8/127|raritynotes={{CiteTwitter|author=Mod Ash|url=https://twitter.com/JagexAsh/status/954349664056369153|date=19 January 2018|archiveurl=https://archive.fo/nKG4R|archivedate=26 March 2019|quote=8/127 [prayer potions] and 6/127 [saradomin brews+super restore potions].|name=potions rate}}}}
+{{DropsLine|name=Saradomin brew(3)|quantity=3|rarity=6/127|raritynotes=<ref group="d" name="pots1">Saradomin brews and Super restore potions are dropped together</ref>{{NamedRef|potions rate}}}}
+{{DropsLine|name=Super restore(4)|quantity=3|rarity=6/127|raritynotes=<ref group="d" name="pots1"/>{{NamedRef|potions rate}}}}
+{{DropsLine|name=Super defence(3)|quantity=3|rarity=8/127|raritynotes=<ref group="d" name="pots2">Super defence potions and magic potions are dropped together</ref>}}
+{{DropsLine|name=Magic potion(3)|quantity=3|rarity=8/127|raritynotes=<ref group="d" name="pots2"/>}}
+{{DropsTableBottom}}
+{{Reflist|group="d"}}
+
+===Other===
+{{DropsTableHead}}
+{{DropsLine|name=Coins|quantity=19500-20000|rarity=31.2/127|raritynotes=<ref group="d">Coins come from rolls on all loot tables, including the unique table, GDT and RDT.</ref>|gemw=No}}
+{{DropsLine|name=Diamond|quantity=6 (noted)|rarity=8/127}}
+{{DropsLine|name=Law rune|quantity=95-100|rarity=8/127}}
+{{DropsLine|name=Grimy ranarr weed|quantity=5 (noted)|rarity=8/127}}
+{{DropsLine|name=Ranarr seed|quantity=2|rarity=8/127}}
+{{DropsLine|name=Magic seed|quantity=1|rarity=1/127|raritynotes={{CiteForum|author=Envision|url=https://archive.fo/5P5mn|archivedate=29 Mar 2019|title=Drop Rates V2|name=Drop Rates V2}}}}
+{{DropsTableBottom}}
+{{Reflist|group="d"}}
+
+===Rare drop table===
+{{GWDRDT}}
+
+===Tertiary===
+{{DropsTableHead}}
+{{DropsLine|name=Brimstone key|quantity=1|rarity={{Brimstone rarity|596}}|raritynotes=<ref group=d>Brimstone keys are only dropped if killed on a [[Slayer task]] given by [[Konar quo Maten]].</ref>|gemw=No|leagueRegion=Asgarnia&Kourend}}
+{{DropsLineClue|type=elite|rarity=1/250|raritynotes=<ref name="Drop Rates V2"/>}}
+{{DropsLine|name=Pet zilyana|quantity=1|rarity=1/5000|raritynotes={{CiteTwitter|author=Mod JohnC|url=https://twitter.com/JagexJohnC/status/506398183178903552|date=1 September 2014|archiveurl=https://archive.fo/qulvf|archivedate=25 March 2019|quote=Godwars pet drop rates, all 4 are 1 in 5k.}}|gemw=No}}
+{{DropsTableBottom}}
+
+{{Reflist|group="d"}}
+
+==Combat Achievements==
+{{Sync}}
+{{Combat Achievements list|Commander Zilyana}}
+
+==Dialogue==
+{{Hastranscript|npc}}
+
+==Changes==
+{{Subject changes header}}
+{{Subject changes
+|date = 29 May 2024
+|update = Project Rebalance: Combat Changes
+|change = Commander Zilyana's heavy [[Ranged]] defence has been lowered from 100 to 75.
+}}
+{{Subject changes
+|date = 13 January 2021
+|update = God Wars Instancing and Soul Wars Improvements
+|change = Ironmen now have their own shared instance for each God Wars Dungeon general. The "Peek" option on doors will now tell players how many players are in the ironman instance. There is an ancient brazier that was added on the same wall as the final rope. If it is lit it shows there is someone in the Ironman instance.
+}}
+{{Subject changes
+|date = 25 June 2015
+|update = Boss Room Counters & Platinum Tokens
+|poll = Old School Content Poll 34: XP droplets & Slayer
+|change = Added a 'peek' option to the entrance of this boss, allowing players to see the number of other players currently in the boss room. 
+}}
+{{Subject changes
+|date = 17 July 2014
+|update = Boss Pets and Spawn Rates
+|poll = Old School feature poll - Content Poll 22
+|change = Players can now receive a pet version of this boss after defeating it.
+}}
+{{Subject changes
+|date = 24 October 2013
+|update = Halloween & Death Mechanics
+|change = Commander Zilyana is now more vulnerable to the freezing effects of ice spells and the Zamorak godsword.
+}}
+{{Subject changes footer}}
+
+==Trivia==
+*While pretending to form an alliance with [[Armadyl]], Commander Zilyana stole the [[Armadyl crossbow]] from [[Kree'arra]] during the [[God Wars]], keeping it as a trophy of her cunning.
+
+==References==
+{{Reflist}}
+
+{{God Wars Dungeon}}
+{{Bosses}}
+[[Category:Monsters that do not become tolerant]]
+[[Category:Saradominists]]
+{{External|rs}}{{Otheruses|the NPC in the God Wars Dungeon|the music track|Starlight (music track)}}{{Infobox Monster
+|name = Starlight
+|image = [[File:Starlight.png|300px]]
+|release = [[17 October]] [[2013]]
+|update = The God Wars Dungeon has been uncovered!
+|members = Yes
+|combat = 149
+|size = 2
+|examine = Bane of darkness.
+|xpbonus = 5
+|max hit = 15
+|aggressive = Yes
+|poisonous = No
+|attack style = [[Crush]]
+|attack speed = 5
+|hitpoints = 160
+|att = 120
+|str = 125
+|def = 120
+|mage = 125
+|range = 1
+|attbns = 60
+|strbns = 10
+|amagic = 0
+|mbns = 0
+|arange = 0
+|rngbns = 0
+|dstab = 12
+|dslash = 14
+|dcrush = 13
+|dmagic = 5
+|drange = 13
+|immunepoison = No
+|immunevenom = No
+|immunecannon = No
+|immunethrall = No
+|id = 2206
+}}
+'''Starlight''' the [[unicorn]] is a bodyguard of [[Commander Zilyana]], along with [[Growler]] and [[Bree]]. She uses powerful [[melee]] attacks to bring down her enemies, which has a max hit of 15. She is the strongest [[Unicorn]] in the game.
+
+Starlight has a special mechanic that allows her to move randomly while underneath [[Commander Zilyana]]. This random movement can stack with normal pathing to get to the player, which can result in Starlight effectively running (moving 2 tiles within the same tick). 
+
+==Location==
+{{LocTableHead|league=yes}}
+{{LocLine
+|name = Starlight
+|location = [[God Wars Dungeon]] (Saradomin boss room)
+|levels = 149
+|members = Yes
+|mapID = 7
+|plane = 0
+|x:2911,y:5229
+|mtype = pin
+|leagueRegion = Asgarnia
+}}
+{{LocTableBottom}}
+
+==Saradomin chamber==
+To the south-east is the [[Saradomin]] section. To enter, you must have at least 70 [[Agility]] and two pieces of [[rope]] to tie around rocks to enter each of the two areas. These ropes are permanent so you will only need to attach them the first time you enter this area. The monsters in this section will use mostly [[magic]]-based attacks. Once in the general's room, Starlight will attack with melee. Remember to always use [[Protect from Magic]] as Commander Zilyana will attack you.
+
+'''Note:''' [[Commander Zilyana]]'s magic attack is only used in melee range.
+
+
+==Drops==
+{{DropLogProject|kills=20782}}
+
+{{Average drop value|mob=Starlight}}
+===100%===
+{{DropsTableHead}}
+{{DropsLine|name=Bones|quantity=1|rarity=Always}}
+{{DropsTableBottom}}
+
+===Unique table===
+There is a 1 in 127 chance to roll the unique table.
+{{DropsTableHead}}
+{{DropsLine|name=Saradomin sword|quantity=1|rarity=3/16129}}
+{{DropsLine|name=Coins|quantity=1400-1500|rarity=124/16129|gemw=No}}
+{{DropsTableBottom}}
+
+===Godsword shard table===
+There is a 1 in 127 chance to roll the shard table.
+{{DropsTableHead}}
+{{DropsLine|name=Godsword shard 1|quantity=1|rarity=1/1524|raritynotes={{CiteTwitter|author=Mod Ash|url=https://twitter.com/JagexAsh/status/689556758856122368|date=19 January 2016|archiveurl=https://archive.is/ilZFk|archivedate=26 May 2020|quote=It's 1/508 for any shard, 1/1524 for a specific one of the three.|name=sharddrop}}}}
+{{DropsLine|name=Godsword shard 2|quantity=1|rarity=1/1524|raritynotes={{NamedRef|sharddrop}}}}
+{{DropsLine|name=Godsword shard 3|quantity=1|rarity=1/1524|raritynotes={{NamedRef|sharddrop}}}}
+{{DropsLine|name=Coins|quantity=1300-1400|rarity=9/1524|gemw=No}}
+{{DropsTableBottom}}
+
+===Regular drops===
+The regular droptable contains 125 slots, however due to the unique tables the effective chance per item is slightly lowered.
+====Food and ammunition====
+{{DropsTableHead}}
+{{DropsLine|name=Steel arrow|quantity=95-100|rarity=8/127}}
+{{DropsLine|name=Steel dart|quantity=95-100|rarity=8/127}}
+{{DropsLine|name=Law rune|quantity=5-10|rarity=8/127}}
+{{DropsLine|name=Monkfish|quantity=3|rarity=8/127|raritynotes={{CiteTwitter|author=Mod Ash|url=https://twitter.com/JagexAsh/status/1081114862212788224|date=4 January 2019|archiveurl=https://archive.is/WTjiK|archivedate=26 May 2020|quote=That'd be 8/125 of the fish option and 8/125 of the potato option, assuming you didn't get onto the unique / shard loot table.|name=food}}}}
+{{DropsLine|name=Summer pie|quantity=1|rarity=8/127|raritynotes={{NamedRef|food}}}}
+{{DropsTableBottom}}
+
+====Other====
+{{DropsTableHead}}
+{{DropsLine|name=Coins|quantity=1300-1400|rarity=62/127|gemw=No}}
+{{DropsLine|name=Grimy ranarr weed|quantity=1 (noted)|rarity=8/127}}
+{{DropsLine|name=Snape grass|quantity=5 (noted)|rarity=7/127}}
+{{DropsLine|name=Unicorn horn|quantity=6 (noted)|rarity=8/127}}
+{{DropsTableBottom}}
+
+===Tertiary===
+{{DropsTableHead}}
+{{DropsLine|name=Frozen key piece (saradomin)|quantity=1|rarity=1/20|gemw=no|raritynotes=<ref group=d>[[Frozen key (The Frozen Door)|Frozen key]] pieces are only dropped during [[The Frozen Door]] [[miniquest]].</ref>}}
+{{DropsLineClue|type=hard|rarity=1/128|raritynotes={{CiteTwitter|author=Mod Ash|url=https://twitter.com/JagexAsh/status/597479427489067008|date=10 May 2015|archiveurl=https://archive.is/DvWXy|archivedate=26 May 2020|quote=The bodyguards drop hards at 1/128.}}}}
+{{DropsTableBottom}}
+
+==References==
+{{reflist}}
+
+{{Unicorn}}
+{{God Wars Dungeon}}
+[[Category:Monsters that do not become tolerant]]
+[[Category:Saradominists]][[Category:Unicorns]]
+{{External|rs}}
+{{Infobox Monster
+|name = Bree
+|image = [[File:Bree.png|250px]]
+|release = [[17 October]] [[2013]]
+|update = The God Wars Dungeon has been uncovered!
+|members = Yes
+|combat = 146
+|size = 2
+|examine = Champion of truth.
+|xpbonus = 0
+|max hit = 16
+|aggressive = Yes
+|poisonous = No
+|attack style = [[Ranged]]
+|attack speed = 5
+|hitpoints = 162
+|att = 110
+|str = 80
+|def = 130
+|mage = 80
+|range = 150
+|attbns = 10
+|strbns = 7
+|amagic = 0
+|mbns = 0
+|arange = 0
+|rngbns = 0
+|dstab = 12
+|dslash = 14
+|dcrush = 14
+|dmagic = 18
+|drange = 5
+|immunepoison = No
+|immunevenom = No
+|immunecannon = No
+|immunethrall = No
+|id = 2208
+}}
+'''Bree''' is the [[centaur]] bodyguard of [[Commander Zilyana]], commander of Saradomin's Encampment, along with [[Growler]] and [[Starlight]]. He uses ranged attacks with a max hit of 16 and has a chance to drop the [[Saradomin sword]].
+
+==Location==
+{{LocTableHead|league=yes}}
+{{LocLine
+|name = Bree
+|location = [[God Wars Dungeon]] (Saradomin boss room)
+|levels = 146
+|members = Yes
+|mapID = 7
+|plane = 0
+|x:2910,y:5242
+|mtype = pin
+|leagueRegion = asgarnia
+}}
+{{LocTableBottom}}
+
+==Drops==
+{{DropLogProject|kills=22975}}
+
+{{Average drop value}}
+===100%===
+{{DropsTableHead}}
+{{DropsLine|name=Bones|quantity=1|rarity=Always}}
+{{DropsTableBottom}}
+
+===Unique table===
+There is a 1 in 127 chance to roll the unique table.
+{{DropsTableHead}}
+{{DropsLine|name=Saradomin sword|quantity=1|rarity=3/16129}}
+{{DropsLine|name=Coins|quantity=1400-1500|rarity=124/16129|gemw=No}}
+{{DropsTableBottom}}
+
+===Godsword shard table===
+There is a 1 in 127 chance to roll the shard table.
+{{DropsTableHead}}
+{{DropsLine|name=Godsword shard 1|quantity=1|rarity=1/1524|raritynotes={{CiteTwitter|author=Mod Ash|url=https://twitter.com/JagexAsh/status/689556758856122368|date=19 January 2016|archiveurl=https://archive.is/ilZFk|archivedate=26 May 2020|quote=It's 1/508 for any shard, 1/1524 for a specific one of the three.|name=sharddrop}}}}
+{{DropsLine|name=Godsword shard 2|quantity=1|rarity=1/1524|raritynotes={{NamedRef|sharddrop}}}}
+{{DropsLine|name=Godsword shard 3|quantity=1|rarity=1/1524|raritynotes={{NamedRef|sharddrop}}}}
+{{DropsLine|name=Coins|quantity=1300-1400|rarity=9/1524|gemw=No}}
+{{DropsTableBottom}}
+
+===Regular drops===
+The regular droptable contains 125 slots, however due to the unique tables the effective chance per item is slightly lowered.
+====Food and ammunition====
+{{DropsTableHead}}
+{{DropsLine|name=Steel arrow|quantity=95-100|rarity=8/127}}
+{{DropsLine|name=Steel dart|quantity=95-100|rarity=8/127}}
+{{DropsLine|name=Law rune|quantity=5-10|rarity=8/127}}
+{{DropsLine|name=Monkfish|quantity=3|rarity=8/127|raritynotes={{CiteTwitter|author=Mod Ash|url=https://twitter.com/JagexAsh/status/1081114862212788224|date=4 January 2019|archiveurl=https://archive.is/WTjiK|archivedate=26 May 2020|quote=That'd be 8/125 of the fish option and 8/125 of the potato option, assuming you didn't get onto the unique / shard loot table.|name=food}}}}
+{{DropsLine|name=Summer pie|quantity=1|rarity=8/127|raritynotes={{NamedRef|food}}}}
+{{DropsTableBottom}}
+
+====Other====
+{{DropsTableHead}}
+{{DropsLine|name=Coins|quantity=1300-1400|rarity=62/127|gemw=No}}
+{{DropsLine|name=Grimy ranarr weed|quantity=1 (noted)|rarity=8/127}}
+{{DropsLine|name=Snape grass|quantity=5 (noted)|rarity=7/127}}
+{{DropsLine|name=Unicorn horn|quantity=6 (noted)|rarity=8/127}}
+{{DropsTableBottom}}
+
+===Tertiary===
+{{DropsTableHead}}
+{{DropsLine|name=Frozen key piece (saradomin)|quantity=1|rarity=1/20|gemw=no|raritynotes=<ref group=d>[[Frozen key (The Frozen Door)|Frozen key]] pieces are only dropped during [[The Frozen Door]] [[miniquest]].</ref>}}
+{{DropsLineClue|type=hard|rarity=1/128|raritynotes={{CiteTwitter|author=Mod Ash|url=https://twitter.com/JagexAsh/status/597479427489067008|date=10 May 2015|archiveurl=https://archive.is/DvWXy|archivedate=26 May 2020|quote=The bodyguards drop hards at 1/128.}}}}
+{{DropsTableBottom}}
+
+==References==
+{{Reflist}}
+
+{{God Wars Dungeon}}
+[[Category:Monsters that do not become tolerant]]
+[[Category:Saradominists]]
+{{External|rs}}
+{{Infobox Monster
+|name = Growler
+|image = [[File:Growler.png|300px]]
+|release = [[17 October]] [[2013]]
+|update = The God Wars Dungeon has been uncovered!
+|members = Yes
+|combat = 139
+|size = 3
+|examine = Defender of the faithful.
+|xpbonus = 0
+|max hit = 16
+|aggressive = Yes
+|poisonous = No
+|attack style = [[Magic]]
+|attack speed = 5
+|hitpoints = 146
+|att = 100
+|str = 101
+|def = 120
+|mage = 150
+|range = 1
+|attbns = 10
+|strbns = 7
+|amagic = 0
+|mbns = 0
+|arange = 0
+|rngbns = 0
+|dstab = 12
+|dslash = 14
+|dcrush = 14
+|dmagic = 18
+|drange = 5
+|immunepoison = No
+|immunevenom = No
+|immunecannon = No
+|immunethrall = No
+|id = 2207
+}}
+'''Growler''' is a bodyguard of [[Commander Zilyana]], along with [[Starlight]] and [[Bree]]. It attacks using an accurate magic attack which has a max hit of 16.
+
+Growler is not much of a threat while killing [[Commander Zilyana]], as players are usually using the [[Protect from Magic]] [[prayer]], making Growler's magic attack useless.
+
+==Locations==
+{{LocTableHead|league=yes}}
+{{LocLine
+|name = Growler
+|location = [[God Wars Dungeon]] (Saradomin boss room)
+|levels = 139
+|members = Yes
+|mapID = 7
+|plane = 0
+|x:2904,y:5232
+|mtype = pin
+|leagueRegion = asgarnia
+}}
+{{LocTableBottom}}
+
+==Drops==
+{{DropLogProject|kills=21186}}
+
+{{Average drop value}}
+===100%===
+{{DropsTableHead}}
+{{DropsLine|name=Bones|quantity=1|rarity=Always}}
+{{DropsTableBottom}}
+
+===Unique table===
+There is a 1 in 127 chance to roll the unique table.
+{{DropsTableHead}}
+{{DropsLine|name=Saradomin sword|quantity=1|rarity=3/16129}}
+{{DropsLine|name=Coins|quantity=1400-1500|rarity=124/16129|gemw=No}}
+{{DropsTableBottom}}
+
+===Godsword shard table===
+There is a 1 in 127 chance to roll the shard table.
+{{DropsTableHead}}
+{{DropsLine|name=Godsword shard 1|quantity=1|rarity=1/1524|raritynotes={{CiteTwitter|author=Mod Ash|url=https://twitter.com/JagexAsh/status/689556758856122368|date=19 January 2016|archiveurl=https://archive.is/ilZFk|archivedate=26 May 2020|quote=It's 1/508 for any shard, 1/1524 for a specific one of the three.|name=sharddrop}}}}
+{{DropsLine|name=Godsword shard 2|quantity=1|rarity=1/1524|raritynotes={{NamedRef|sharddrop}}}}
+{{DropsLine|name=Godsword shard 3|quantity=1|rarity=1/1524|raritynotes={{NamedRef|sharddrop}}}}
+{{DropsLine|name=Coins|quantity=1300-1400|rarity=9/1524|gemw=No}}
+{{DropsTableBottom}}
+
+===Regular drops===
+The regular droptable contains 125 slots, however due to the unique tables the effective chance per item is slightly lowered.
+====Food and ammunition====
+{{DropsTableHead}}
+{{DropsLine|name=Steel arrow|quantity=95-100|rarity=8/127}}
+{{DropsLine|name=Steel dart|quantity=95-100|rarity=8/127}}
+{{DropsLine|name=Law rune|quantity=5-10|rarity=8/127}}
+{{DropsLine|name=Monkfish|quantity=3|rarity=8/127|raritynotes={{CiteTwitter|author=Mod Ash|url=https://twitter.com/JagexAsh/status/1081114862212788224|date=4 January 2019|archiveurl=https://archive.is/WTjiK|archivedate=26 May 2020|quote=That'd be 8/125 of the fish option and 8/125 of the potato option, assuming you didn't get onto the unique / shard loot table.|name=food}}}}
+{{DropsLine|name=Summer pie|quantity=1|rarity=8/127|raritynotes={{NamedRef|food}}}}
+{{DropsTableBottom}}
+
+====Other====
+{{DropsTableHead}}
+{{DropsLine|name=Coins|quantity=1300-1400|rarity=62/127|gemw=No}}
+{{DropsLine|name=Grimy ranarr weed|quantity=1 (noted)|rarity=8/127}}
+{{DropsLine|name=Snape grass|quantity=5 (noted)|rarity=7/127}}
+{{DropsLine|name=Unicorn horn|quantity=6 (noted)|rarity=8/127}}
+{{DropsTableBottom}}
+
+===Tertiary===
+{{DropsTableHead}}
+{{DropsLine|name=Frozen key piece (saradomin)|quantity=1|rarity=1/20|gemw=no|raritynotes=<ref group=d>[[Frozen key (The Frozen Door)|Frozen key]] pieces are only dropped during [[The Frozen Door]] [[miniquest]].</ref>}}
+{{DropsLineClue|type=hard|rarity=1/128|raritynotes={{CiteTwitter|author=Mod Ash|url=https://twitter.com/JagexAsh/status/597479427489067008|date=10 May 2015|archiveurl=https://archive.is/DvWXy|archivedate=26 May 2020|quote=The bodyguards drop hards at 1/128.}}}}
+{{DropsTableBottom}}
+
+==Trivia==
+*Growler is the lowest-levelled [[God Wars Dungeon]] bodyguard.
+*Growler is currently the only lion in game.
+
+==References==
+{{reflist}}
+
+{{God Wars Dungeon}}
+[[Category:Monsters that do not become tolerant]]
+[[Category:Saradominists]]

@@ -1,0 +1,54 @@
+{
+  "100%": [
+    "Abyssal ashes"
+  ],
+  "Weapons and armour": [
+    "Battlestaff",
+    "Rune full helm",
+    "Mystic lava staff",
+    "Rune sword",
+    "Rune platebody",
+    "Rune kiteshield",
+    "Mystic air staff",
+    "Air battlestaff"
+  ],
+  "Runes and ammunition": [
+    "Blood rune",
+    "Death rune",
+    "Law rune",
+    "Soul rune",
+    "Cosmic rune",
+    "Cannonball"
+  ],
+  "Herbs": [
+    "Grimy kwuarm",
+    "Grimy dwarf weed",
+    "Grimy cadantine",
+    "Grimy lantadyme"
+  ],
+  "Seeds": [],
+  "Materials": [
+    "Coal",
+    "Earth orb",
+    "Pure essence",
+    "Magic logs",
+    "Uncut diamond",
+    "Runite ore",
+    "Onyx bolt tips",
+    "Runite bar"
+  ],
+  "Talismans": [],
+  "Other": [
+    "Coins",
+    "Chilli potato",
+    "Super restore(4)",
+    "Binding necklace",
+    "Saradomin brew(3)",
+    "Jug of water",
+    "Unsired"
+  ],
+  "Rare drop table": [],
+  "Tertiary": [
+    "Brimstone key"
+  ]
+}

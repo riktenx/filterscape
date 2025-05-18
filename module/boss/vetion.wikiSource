@@ -1,0 +1,371 @@
+{{Redirect|Vet|other uses|Veteran}}
+{{Otheruses|the main boss|the lesser boss|Calvar'ion}}
+{{HasStrategy}}
+{{Infobox Monster
+|version1 = Normal
+|version2 = Enraged
+|name = Vet'ion
+|image1 = [[File:Vet'ion.png|180px]]
+|image2 = [[File:Vet'ion (enraged).png|180px]]
+|release = [[13 March]] [[2014]]
+|update = Rejuvenating the Wilderness: More risk, more reward
+|members = Yes
+|combat = 454
+|size = 3
+|examine1 = Only the true lord & king of the lands can lift his burden.
+|examine2 = ONLY THE TRUE LORD & KING OF THE LANDS CAN LIFT HIS BURDEN!
+|attributes = undead
+|xpbonus = 22.5
+|max hit = 44
+|aggressive = Yes
+|poisonous = No
+|attack style = [[Slash]], [[Magic]]
+|attack speed1 = 6
+|attack speed2 = 5
+|slayxp1 = 624
+|slayxp2 = 322
+|cat = Skeletons, Bosses
+|assignedby = turael,spria,krystilia,mazchna,konar,nieve,duradel
+|hitpoints = 255
+|att = 430
+|str = 430
+|def = 395
+|mage = 300
+|range = 1
+|attbns = 0
+|strbns = 0
+|amagic = 0
+|mbns = 0
+|arange = 0
+|rngbns = 0
+|dstab = 201
+|dslash = 200
+|dcrush = -10
+|dmagic = 250
+|drange = 270
+|immunepoison = Yes
+|immunevenom = Yes
+|immunecannon = No
+|immunethrall = No
+|respawn1 = 15
+|id1 = 6611
+|id2 = 6612
+}}
+'''Vet'ion''' (pronounced {{IPAc-en|'|v|E|t|i:|@|n}} {{respell|VET|ee|ən}}) is a Zamorakian [[Skeleton|skeletal]] champion that resides in [[Vet'ion's Rest]], at level 35 [[Wilderness]]. Like other bosses in the Wilderness, he can also drop the [[dragon pickaxe]].
+
+Vet'ion has two forms: the (purple) regular form and the (orange) enraged form. After he is defeated in his first form, he will go to his second form, which has a faster attack speed and stronger max hit. After changing forms he will reset any stat reductions applied in the first form. If he is not killed within five minutes in his second form, he will revert to his first form with the same [[hit points]]. If he reverts after his hellhounds have been killed, the player(s) will not have to kill them a second time.
+
+According to [[Andros Mai]], Vet'ion's power comes from his resting place.
+
+[[Ironman_Mode|Ironmen]] are eligible for drops from Vet'ion when defeating it alongside other players.
+
+==Fight overview==
+{{Main|Vet'ion/Strategies}}
+Vet'ion is highly resistant to any combat style other than [[crush]], and as he is [[undead]], he is susceptible to [[Salve amulet]] and its [[Salve amulet (e)|enhanced]] version.
+
+Vet'ion primarily attacks with targeted magic, launching lightning in a 3x3 radius around each player upon attacking. While he appears to swing his sword during these animations, they do not deal any melee damage. Indirect hits will deal less damage than a direct hit. Occasionally, he may prepare for a shield bash if players are near him, targeting an area in front of him. Players caught in the targeted area (or standing underneath him) when he bashes his shield will take damage and be rendered unable to attack for a few seconds.
+
+Vet'ion is fought similarly to the [[Kalphite Queen]] in that he has two forms, a "normal" and "enraged" form. When he reaches half health in his first form for the first time, he summons two level 194 [[Skeleton Hellhound (Vet'ion)|Skeleton Hellhound]]s that attack with powerful melee, and must be killed as they grant him complete damage immunity while alive. Upon being forced into his next stage, Vet'ion will become enraged and unleash a blast of energy around him, working the same as the targeted magic attack. In this form, he will attack faster, his attacks will deal more damage, and any drained Defence levels will be restored. In the second form, he summons two level 231 [[Greater Skeleton Hellhound (Vet'ion)|Greater Skeleton Hellhound]]s that are even stronger (although still sharing the same health) and must also be killed.
+
+Like the Kalphite Queen, if players don't kill his second form within 5 minutes, he'll revert to his normal state.
+
+==Quotes==
+{{Hastranscript|npc}}
+
+==Location==
+{{LocTableHead|league=yes}}
+{{LocLine
+|name = Vet'ion
+|location = [[Vet'ion's Rest]]
+|levels = 454
+|members = Yes
+|mapID = 0
+|plane = 0
+|x:3219,y:3788
+|mtype = pin
+|leagueRegion = Wilderness
+}}
+{{LocTableBottom}}
+
+==Money making==
+{{Mmgsection|Killing Vet'ion}}
+
+==Drops==
+{{DropLogProject|kills=43776}}
+
+The listed quantities are for soloing Vet'ion. In group encounters, Vet'ion's drops, including uniques, will be split proportionally based on damage done. Up to 10 players may obtain drops per kill in this manner, and each of the top 10 players will receive at least 25% of the solo loot quantity.
+
+{{Average drop value|mob=Vet'ion|mobname=solo Vet'ion}}
+
+{{Average drop value|Vet'ion|mobname=solo Vet'ion|wildernessslayer=yes}}
+
+===100%===
+{{DropsTableHead}}
+{{DropsLine|name=Big bones|quantity=1|rarity=Always|raritynotes=<ref group=d>Big bones are dropped for the player who deals the most damage in the fight.</ref>}}
+{{DropsLine|name=Bones|quantity=1|rarity=Always|raritynotes=<ref group=d>Regular bones are dropped for the players who are eligible for drops but did not deal the most damage.</ref>}}
+{{DropsTableBottom}}
+{{Reflist|group=d}}
+
+===Unique===
+''The drop rates for uniques are for each kill, rather than for each player. At most one item from this table is dropped per kill.{{CiteTwitter|author=Mod Ash|url=https://twitter.com/JagexAsh/status/1623969908886315009|date=10 February 2023|archiveurl=https://archive.ph/E66NL|archivedate=10 February 2023|quote=The game decides whether or not one will be dropped from the kill, and then decides which of the rewarded players will receive it, which each player's chance of being that recipient depending on their relative contribution.}}''
+
+''Odds of hitting the unique table ~1/56.67''
+
+{{DropsTableHead}}
+{{DropsLine|name=Skull of vet'ion|quantity=1|rarity=1/196|raritynotes={{CiteNews|title=Poll 78 Updates & More|url=https://secure.runescape.com/m=news/poll-78-updates--more?oldschool=1|newsdate=8 February 2023|name=news}}}}
+{{DropsLine|name=Dragon 2h sword|quantity=1|rarity=1/256|raritynotes=<ref name="news"/>}}
+{{DropsLine|name=Dragon pickaxe|quantity=1|rarity=1/256|raritynotes=<ref name="news"/>}}
+{{DropsLine|name=Voidwaker blade|quantity=1|rarity=1/360|raritynotes=<ref name="news"/>}}
+{{DropsLine|name=Ring of the gods|quantity=1|rarity=1/512|raritynotes=<ref name="news"/>}}
+{{DropsTableBottom}}
+
+===Weapons and armour===
+{{DropsTableHead}}
+{{DropsLine|name=Mystic fire staff|quantity=4 (noted)|rarity=2/126}}
+{{DropsLine|name=Mystic water staff|quantity=4 (noted)|rarity=2/126}}
+{{DropsLine|name=Mystic robe top|quantity=4 (noted)|rarity=2/126}}
+{{DropsLine|name=Mystic robe bottom|quantity=4 (noted)|rarity=2/126}}
+{{DropsLine|name=Rune full helm|quantity=4 (noted)|rarity=2/126}}
+{{DropsLine|name=Rune pickaxe|quantity=5 (noted)|rarity=8/126}}
+{{DropsLine|name=Rune dart|quantity=150|rarity=3/126}}
+{{DropsLine|name=Rune knife|quantity=150|rarity=3/126}}
+{{DropsTableBottom}}
+
+===Runes and ammunition===
+{{DropsTableHead}}
+{{DropsLine|name=Chaos rune|quantity=900|rarity=7/126}}
+{{DropsLine|name=Death rune|quantity=700|rarity=7/126}}
+{{DropsLine|name=Blood rune|quantity=500|rarity=7/126}}
+{{DropsLine|name=Cannonball|quantity=550|rarity=4/126}}
+{{DropsTableBottom}}
+
+===Materials===
+{{DropsTableHead}}
+{{DropsLine|name=Uncut ruby|quantity=75 (noted)|rarity=4/126}}
+{{DropsLine|name=Uncut diamond|quantity=35 (noted)|rarity=3/126}}
+{{DropsLine|name=Uncut dragonstone|quantity=5 (noted)|rarity=2/126}}
+{{DropsLine|name=Gold ore|quantity=675 (noted)|rarity=6/126}}
+{{DropsLine|name=Limpwurt root|quantity=60 (noted)|rarity=5/126}}
+{{DropsLine|name=Wine of zamorak|quantity=100 (noted)|rarity=5/126}}
+{{DropsLine|name=Magic logs|quantity=225 (noted)|rarity=5/126}}
+{{DropsLine|name=Oak plank|quantity=400 (noted)|rarity=5/126}}
+{{DropsLine|name=Dragon bones|quantity=150 (noted)|rarity=3/126}}
+{{DropsLine|name=Mort myre fungus|quantity=450 (noted)|rarity=2/126}}
+{{DropsLine|name=Grimy ranarr weed|quantity=100 (noted)|rarity=1/126}}
+{{DropsLine|name=Grimy dwarf weed|quantity=45 (noted)|rarity=1/126}}
+{{DropsLine|name=Grimy snapdragon|quantity=45 (noted)|rarity=1/126}}
+{{DropsLine|name=Grimy toadflax|quantity=45 (noted)|rarity=1/126}}
+{{DropsTableBottom}}
+
+===Other===
+{{DropsTableHead}}
+{{DropsLine|name=Coins|quantity=50000|rarity=10/126|gemw=No}}
+{{DropsLine|name=Supercompost|quantity=225 (noted)|rarity=4/126}}
+{{DropsLine|name=Super restore(4)|quantity=10 (noted)|rarity=5/126}}
+{{DropsLine|name=Blighted anglerfish|quantity=100 (noted)|rarity=1/126}}
+{{DropsLine|name=Sanfew serum(4)|quantity=20 (noted)|rarity=5/126}}
+{{DropsLine|name=Dark crab|quantity=50 (noted)|rarity=5/126}}
+{{DropsLine|name=Wilderness crabs teleport|quantity=4|rarity=3/126}}
+{{DropsTableBottom}}
+
+===Secondary Supply roll===
+{{DropsTableHead}}
+{{DropsLine|name=Blighted anglerfish|quantity=5-6|rarity=1/18}}
+{{DropsLine|name=Blighted karambwan|quantity=5-6|rarity=1/18}}
+{{DropsLine|name=Blighted super restore(3)|quantity=3-4|rarity=1/18}}
+{{DropsLine|name=Blighted super restore(4)|quantity=3-4|rarity=1/18}}
+{{DropsLine|name=Ranging potion(2)|quantity=2-3|rarity=1/18}}
+{{DropsLine|name=Super combat potion(2)|quantity=2-3|rarity=1/18}}
+{{DropsTableBottom}}
+
+===Tertiary===
+{{DropsTableHead}}
+{{DropsLine|name=Looting bag|quantity=1|rarity=1/3|gemw=No}}
+{{DropsLine|name=Brimstone key|quantity=1|rarity={{Brimstone rarity|454}}|raritynotes=<ref group=d>Brimstone keys are only dropped while on a [[Slayer task]] given by [[Konar quo Maten]].</ref>|gemw=No|leagueRegion=Wilderness&Kourend}}
+{{DropsLineClue|type=elite|rarity=1/100|raritynotes=<ref group=d>The elite clue scroll drop rate increases to 1/50 if a [[ring of wealth (i)]] is worn.</ref>|altrarity=1/50}}
+{{DropsLine|name=Long bone|quantity=1|rarity=1/400|gemw=No}}
+{{DropsLine|name=Vet'ion jr.|quantity=1|rarity=1/1500|gemw=No|raritynotes={{Refn|group=d|A pet roll is made for each player that has received a drop, which scales based on contribution. The MvP bonus is not applied to this roll.{{CiteTwitter|author=Mod Ash|url=https://twitter.com/JagexAsh/status/1623369509154263055|date=8 February 2023|archiveurl=https://archive.ph/u90mF|archivedate=9 February|quote=Looks like it's doing a straight scaling based on your proportion of the damage done, so 50% would make you half as likely to get the pet as if you'd done 100%. Didn't look like MvP status would affect this.}}}}<ref name="news"/>}}
+{{DropsLine|name=Skeleton champion scroll|quantity=1|rarity=1/5000|gemw=No}}
+{{DropsLine|name=Curved bone|quantity=1|rarity=1/5012.5|gemw=No}}
+{{DropsTableBottom}}
+
+===Wilderness Slayer tertiary===
+{{WildernessSlayerDropTable|combat=454|hitpoints=255|boss=yes}}
+
+==Combat Achievements==
+{{Sync}}
+{{Combat Achievements list|Vet'ion}}
+
+==Historical==
+Unlike the other two bosses Vet'ion was released with, [[Callisto]] and [[Venenatis]], Vet'ion did not get any adjustments to his stats following his rework on [[25 January]] [[2023]]. However, the fight in general was made vastly different as he was considered the hardest to kill due to his mechanics:
+
+* Vet'ion could attack with both melee and magic. The magic attack was a targeted attack that threw three orbs of lightning, one on the player's tile and another two elsewhere that could not be reduced with [[Protect from Magic]].
+* Periodically, Vet'ion could also slam his khopesh into the ground as a shockwave attack, dealing up to 45 typeless damage to any player within 6-7 tiles of him.
+* In addition to both of his forms having 255 hitpoints, the skeleton hellhound and the greater variant he summoned in pairs had 110 and 190 hitpoints, respectively. This effectively brought the amount of damage required to kill Vet'ion to 1,110, over four times as much as Callisto or Venenatis who both only had 255 hitpoints prior to their reworks.
+
+==Gallery==
+<gallery mode="nolines" heights="180" style="text-align:left" widths="300">
+File:Vet'ion rework concept art.jpg|Concept art of Vet'ion's graphical rework, by [[Mod Jerv]].
+File:Vet'ion's Rest concept art.jpg|Concept art of [[Vet'ion's Rest]], by [[Mod Jerv]].
+File:Vet'ion-Model.jpg|alt=Model of Vet'ion's graphical rework, by Mod Soffan.|Model of Vet'ion's graphical rework, by [[Mod Soffan]]<ref>{{PlainCiteTwitter|author=Mod Soffan|url=https://twitter.com/SoffanOSRS/status/1618288382832177153|date=25 January 2023|archiveurl=https://archive.is/eH1EU|archivedate=25 January 2024}}</ref>
+File:Vet'ion Chronicle art.png|Official artwork of Vet'ion from Jagex's turn-based card game ''[[rsw:Chronicle: RuneScape Legends|Chronicle: RuneScape Legends]]''.
+</gallery>
+
+==Changes==
+{{Subject changes header}}
+{{Subject changes
+|date = 23 May 2024
+|update = Minigame Tweaks, Skilling Adjustments & more!
+|change = Fixed a bug where it was possible to skip Vet'ion's second phase.
+}}
+{{Subject changes
+|date = 17 April 2024 
+|update = Undead Pirates Tweaks, Varlamore CAs & More
+|change = Vet'ion will now wait a short period of time after respawning before attacking players.
+}}
+{{Subject changes
+|date = 10 April 2024 
+|update = Undead Pirates, Colosseum Changes & more!
+|poll = Undead Pirates Rewards & More
+|change = Vet'ion's respawn time was decreased from 33 ticks (19.8 seconds) to 15 ticks (9 seconds).
+}}
+{{Subject changes
+|date = 6 March 2024
+|update = Miscellaneous Quality of Life Changes
+|change = Vet'ion's lightning circle is now brighter and more visible.
+}}
+{{Subject changes
+|date = 7 February 2024
+|update = Poll 80 Wilderness Changes & More
+|poll = 
+|change = * The minimum percentage of regular loot given to the top 10 players in a fight against Vet'ion has been increased from 15% to 25%.
+* The drop rate for [[Vet'ion jr.]] has been increased from 1/2,000 to 1/1,500.
+* Vet'ion can now drop [[wilderness crab teleport]]s, [[mystic robe top]]s, [[mystic robe bottom]]s, [[rune full helm]]s, [[mystic water staff|mystic water staves]], and [[mystic fire staff|mystic fire staves]].
+* The weighting on certain drops has been adjusted, slightly decreasing the chance to get [[coin]]s and [[rune pickaxe]]s in favour of more valuable drops.
+* The number of [[rune pickaxe]]s dropped has been increased from 3 to 5.
+* The number of [[blighted anglerfish]] dropped has been increased from 45 to 100.
+}}
+{{Subject changes
+|date = 30 August 2023
+|update = Poll 80 ToA Changes & DMM Tweaks
+|poll = Awakened DT2 Bosses & Poll 80
+|change = [[Random events]] have been disabled in the [[Wilderness boss]] lairs.
+}}
+{{Subject changes
+|date = 22 February 2023
+|update = 10th Birthday Event
+|change = [[Ring of wealth]] now works correctly for Vet'ion.
+}}
+{{Subject changes
+|date = 2 February 2023
+|update = Wilderness Boss Rework Tweaks & More
+|change = *Increased the minimum loot reward from 0% to 15%.
+*Reduced maximum number of players able to receive loot from 15 to 10.
+*Increased quantity of base rewards.
+*Vet'ion is now immune to [[Ring of recoil]] and similar effects.
+}}
+{{Subject changes
+|date = 25 January 2023
+|update = Wilderness Boss Rework
+|change = * Vet'ion is now located in a cave, and his combat behaviour has been adjusted.
+* Vet'ion has been graphically updated.
+* Vet'ion's reborn form (now called enraged) has been renamed from "Vet'ion Reborn" to "Vet'ion".
+}}
+{{Subject changes
+|date = 8 February 2018
+|update = PvM QoL updates & Wilderness Rejuvenation improvements
+|poll = Quality of Life - PvM Suggestions 2018
+|change = Vet'ion will now use his magic attack less frequently.
+}}
+{{Subject changes
+|date = 18 February 2016
+|update = Dragon Claws & 3rd Birthday
+|change = The distance Vet'ion's hellhounds can move from their spawn point has been increased substantially.
+}}
+{{Subject changes
+|date = 19 November 2015
+|update = Max Capes & HP Insurance
+|poll = Old School Content Poll 37: Skillcape Perks
+|change = Vet'ion now gives slayer experience reflecting the total hitpoints of both forms, rather than just the second.
+}}
+{{Subject changes
+|date = 6 August 2015
+|update = XP Drops, Jad Pet & Slayer
+|change = Vet'ion is no longer able to take damage when lured far enough away from his dogs.
+}}
+{{Subject changes
+|date = 30 July 2015
+|update = Custom F-Keys & Music Cape
+|change = A game engine bug affecting the retaliation of ranging/maging NPCs has been fixed. In particular, this affects Vet'ion and their behaviour when they have moved far from their spawn points, so it will make certain safespots considerably less effective, and will have similar effects on other NPCs with long-range attacks.
+}}
+{{Subject changes
+|date = 2 July 2015
+|update = Clue Scroll Step Counter
+|change = [[Slayer|Slayer XP]] for killing the boss now is awarded to the player who deals the most damage to both forms.
+}}
+{{Subject changes
+|date = 25 June 2015
+|update = Boss Room Counters & Platinum Tokens
+|change = Drops are now assigned to the hero who has done the most damage to both forms, rather than just the second.
+}}
+{{Subject changes
+|date = 19 March 2015
+|update = Boss Pets, Sets, Chat & More
+|poll = Old School Content Poll 30: Near Miss Poll
+|change = Vet'ion now has a chance to drop a pet when killed, [[Vet'ion jr.]].
+}}
+{{Subject changes
+|date = 10 July 2014
+|update = The Game Filter is Here!
+|change = Tweaked Vet'ion slightly to prevent safespotting.
+}}
+{{Subject changes
+|date = 26 June 2014
+|update = Midsummer Event
+|poll = Old School feature poll - Rewarding Rewards
+|change = [[Ring of the gods]] was added alongside other drop table improvements.
+}}
+{{Subject changes
+|date = 20 March 2014
+|update = Fresh 'Old' Fashion
+|change = The drop table has been buffed.
+}}
+{{Subject changes footer}}
+
+===Gallery (historical)===
+{{Switch infobox
+|text1 = Normal
+|item1 =
+|text2 = Enraged
+|item2 =
+}}
+{|style="text-align: center" cellpadding="15"
+|
+{{Synced switch
+|version1 = [[File:Vet'ion v1.png|center|300x150px]]
+|version2 = [[File:Vet'ion Reborn v1.png|center|300x150px]]
+}}
+|
+{{Synced switch
+|version1 = [[File:Vet'ion.png|center|300x150px]]
+|version2 = [[File:Vet'ion (enraged).png|center|300x150px]]
+}}
+|-
+|13 March 2014–<br/>25 January 2023
+|25 January 2023 –<br/>present
+|}
+
+==Trivia==
+* Vet'ion's 2014 model was an enlarged, re-coloured version of [[Ranalph Devere]] from the [[Legends' Quest]].
+* Vet'ion's examine is a reference to Tolkien's ''{{WP|The Return of the King}}''.
+* Vet'ion's name is an anagram of {{RSL|Novite equipment|Novite}} from ''RuneScape''.
+** Vet'ion's armour in his normal form matches the colour of Novite armour (tier 1) and the recolour in his enraged form matches {{RSL|Primal equipment|Primal armour}} (tier 99), both found within {{RSL|Daemonheim}} (located in the Wilderness).
+
+==References==
+{{Reflist}}
+
+{{Wilderness bosses}}
+{{Bosses}}
+[[Category:Monsters with multiple forms]]
+[[Category:Monsters that do not become tolerant]]
+[[Category:Zamorakians]]

@@ -61,13 +61,13 @@ ${indent(description)}
     const rs2f = generateRs2f(mod.name, mod.area, dropTable, mod.transform);
     rs2fs.push(rs2f);
 
-    fs.writeFileSync(`${modulePath}/${groupName}.wikiSource`, wikiSource);
+    fs.writeFileSync(`${modulePath}/${moduleName}.wikiSource`, wikiSource);
     fs.writeFileSync(
-      `${modulePath}/${groupName}.dropTable`,
+      `${modulePath}/${moduleName}.dropTable`,
       JSON.stringify(dropTable, null, 2)
     );
     fs.writeFileSync(
-      `${modulePath}/${groupName}.mapAreas`,
+      `${modulePath}/${moduleName}.mapAreas`,
       JSON.stringify(mapAreas, null, 2)
     );
   }

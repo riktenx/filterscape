@@ -39,6 +39,11 @@ CONST_${scope}_RULE (VAR_${scope}_BGHIDECOINS && name:"coins" && quantity:<=3000
 const index = [
   // skip: barrows (they don't drop anything)
   {
+    name: 'Yama',
+    area: [1472, 10048, 0, 1535, 10111, 0],
+    url: 'https://oldschool.runescape.wiki/w/Yama/Drops',
+  },
+  {
     name: 'Scurrius',
     area: [3285, 9856, 0, 3310, 9879, 0],
     url: 'https://oldschool.runescape.wiki/w/Scurrius',

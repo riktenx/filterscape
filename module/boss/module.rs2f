@@ -7,6 +7,65 @@ description: |
 */
 
 
+#define CONST_AREA_YAMA [1472,10048,0,1535,10111,0]
+#define CONST_YAMA_RULE(_cond) rule (area:CONST_AREA_YAMA && (_cond))
+
+/*@ define:input
+type: enumlist
+label: 'Hide drops: Unique'
+group: Yama
+enum: ["Soulflame horn","Oathplate helm","Oathplate chest","Oathplate legs","Dossier","Forgotten lockbox","Oathplate shards","Yami"]
+*/
+#define VAR_YAMA_ENUMLIST_FILTER_UNIQUE []
+CONST_YAMA_RULE (name:VAR_YAMA_ENUMLIST_FILTER_UNIQUE) {
+  hidden = true;
+}
+
+/*@ define:input
+type: enumlist
+label: 'Hide drops: Supplies'
+group: Yama
+enum: ["Pineapple pizza","Wild pie","Prayer potion(3)","Super restore mix(2)","Super combat potion(1)","Zamorak mix(2)"]
+*/
+#define VAR_YAMA_ENUMLIST_FILTER_SUPPLIES []
+CONST_YAMA_RULE (name:VAR_YAMA_ENUMLIST_FILTER_SUPPLIES) {
+  hidden = true;
+}
+
+/*@ define:input
+type: enumlist
+label: 'Hide drops: Weapons and armour'
+group: Yama
+enum: ["Rune chainbody","Battlestaff","Rune platebody","Dragon plateskirt","Dragon platelegs"]
+*/
+#define VAR_YAMA_ENUMLIST_FILTER_WEAPONSANDARMOUR []
+CONST_YAMA_RULE (name:VAR_YAMA_ENUMLIST_FILTER_WEAPONSANDARMOUR) {
+  hidden = true;
+}
+
+/*@ define:input
+type: enumlist
+label: 'Hide drops: Runes'
+group: Yama
+enum: ["Blood rune","Law rune","Smoke rune","Soul rune","Fire rune","Wrath rune"]
+*/
+#define VAR_YAMA_ENUMLIST_FILTER_RUNES []
+CONST_YAMA_RULE (name:VAR_YAMA_ENUMLIST_FILTER_RUNES) {
+  hidden = true;
+}
+
+/*@ define:input
+type: enumlist
+label: 'Hide drops: Other'
+group: Yama
+enum: ["Aether catalyst","Diabolic worms","Barrel of demonic tallow (full)","Chasm teleport scroll","Emerald","Ruby","Diamond","Onyx bolt tips"]
+*/
+#define VAR_YAMA_ENUMLIST_FILTER_OTHER []
+CONST_YAMA_RULE (name:VAR_YAMA_ENUMLIST_FILTER_OTHER) {
+  hidden = true;
+}
+
+
 #define CONST_AREA_SCURRIUS [3285,9856,0,3310,9879,0]
 #define CONST_SCURRIUS_RULE(_cond) rule (area:CONST_AREA_SCURRIUS && (_cond))
 

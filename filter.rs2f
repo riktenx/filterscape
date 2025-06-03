@@ -1190,6 +1190,97 @@ CONST_ARAXYTE_RULE (name:VAR_ARAXYTE_ENUMLIST_FILTER_OTHER) {
 }
 
 
+#define CONST_AREA_BLACKDEMON0 [2700,9479,0,2715,9489,0] // [[Brimhaven Dungeon]]
+#define CONST_AREA_BLACKDEMON1 [1718,10079,0,1721,10090,0] // [[Catacombs of Kourend]]
+#define CONST_AREA_BLACKDEMON2 [1408,10048,0,1471,10111,0] // [[Chasm of Fire]] (Bottom Level)
+#define CONST_AREA_BLACKDEMON3 [3084,9957,0,3092,9961,0] // [[Edgeville Dungeon]] (Wilderness)
+#define CONST_AREA_BLACKDEMON4 [2826,9763,0,2875,9801,0] // [[Taverley Dungeon]]
+#define CONST_AREA_BLACKDEMON5 [3354,10114,0,3367,10125,0] // [[Wilderness Slayer Cave]]
+#define CONST_BLACKDEMON_RULE(_cond) rule ((area:CONST_AREA_BLACKDEMON0 || \
+  area:CONST_AREA_BLACKDEMON1 || \
+  area:CONST_AREA_BLACKDEMON2 || \
+  area:CONST_AREA_BLACKDEMON3 || \
+  area:CONST_AREA_BLACKDEMON4 || \
+  area:CONST_AREA_BLACKDEMON5) && (_cond))
+
+/*@ define:input
+type: enumlist
+label: 'Hide drops: 100%'
+group: Black demon
+enum: ["Malicious ashes"]
+*/
+#define VAR_BLACKDEMON_ENUMLIST_FILTER_100 ["Malicious ashes"]
+CONST_BLACKDEMON_RULE (name:VAR_BLACKDEMON_ENUMLIST_FILTER_100) {
+  hidden = true;
+}
+
+/*@ define:input
+type: enumlist
+label: 'Hide drops: Weapons and armour'
+group: Black demon
+enum: ["Black sword","Steel battleaxe","Black axe","Mithril kiteshield","Rune med helm","Rune chainbody","Rune sword","Adamant dagger","Adamant battleaxe","Adamant platebody","Rune dagger","Rune full helm"]
+*/
+#define VAR_BLACKDEMON_ENUMLIST_FILTER_WEAPONSANDARMOUR ["Black sword","Steel battleaxe","Black axe","Mithril kiteshield","Adamant dagger","Adamant battleaxe","Adamant platebody"]
+CONST_BLACKDEMON_RULE (name:VAR_BLACKDEMON_ENUMLIST_FILTER_WEAPONSANDARMOUR) {
+  hidden = true;
+}
+
+/*@ define:input
+type: enumlist
+label: 'Hide drops: Runes'
+group: Black demon
+enum: ["Air rune","Chaos rune","Blood rune","Fire rune","Law rune","Death rune"]
+*/
+#define VAR_BLACKDEMON_ENUMLIST_FILTER_RUNES []
+CONST_BLACKDEMON_RULE (name:VAR_BLACKDEMON_ENUMLIST_FILTER_RUNES) {
+  hidden = true;
+}
+
+/*@ define:input
+type: enumlist
+label: 'Hide drops: Coins'
+group: Black demon
+enum: ["Coins"]
+*/
+#define VAR_BLACKDEMON_ENUMLIST_FILTER_COINS ["Coins"]
+CONST_BLACKDEMON_RULE (name:VAR_BLACKDEMON_ENUMLIST_FILTER_COINS) {
+  hidden = true;
+}
+
+/*@ define:input
+type: enumlist
+label: 'Hide drops: Other'
+group: Black demon
+enum: ["Lobster","Defence potion(3)"]
+*/
+#define VAR_BLACKDEMON_ENUMLIST_FILTER_OTHER ["Lobster","Defence potion(3)"]
+CONST_BLACKDEMON_RULE (name:VAR_BLACKDEMON_ENUMLIST_FILTER_OTHER) {
+  hidden = true;
+}
+
+/*@ define:input
+type: enumlist
+label: 'Hide drops: Tertiary'
+group: Black demon
+enum: ["Looting bag","Ensouled demon head","Brimstone key"]
+*/
+#define VAR_BLACKDEMON_ENUMLIST_FILTER_TERTIARY []
+CONST_BLACKDEMON_RULE (name:VAR_BLACKDEMON_ENUMLIST_FILTER_TERTIARY) {
+  hidden = true;
+}
+
+/*@ define:input
+type: enumlist
+label: 'Hide drops: Materials'
+group: Black demon
+enum: ["Adamantite bar","Adamantite ore"]
+*/
+#define VAR_BLACKDEMON_ENUMLIST_FILTER_MATERIALS ["Adamantite bar","Adamantite ore"]
+CONST_BLACKDEMON_RULE (name:VAR_BLACKDEMON_ENUMLIST_FILTER_MATERIALS) {
+  hidden = true;
+}
+
+
 #define CONST_AREA_DEMONICGORILLA0 [2072,5641,0,2157,5681,0] // [[Crash Site Cavern]]
 #define CONST_DEMONICGORILLA_RULE(_cond) rule ((area:CONST_AREA_DEMONICGORILLA0) && (_cond))
 

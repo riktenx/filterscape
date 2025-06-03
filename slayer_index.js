@@ -259,6 +259,38 @@ CONST_${scope}_RULE (VAR_${scope}_BOOLEAN_HIDESMALLCOINS && name:"Coins" && valu
     },
   },
   {
+    name: 'Black demon',
+    url: 'https://oldschool.runescape.wiki/w/Black_demon',
+    transform: {
+      updateMapAreas: (areas) => {
+        // incorrect wiki
+        areas['[[Chasm of Fire]] (Bottom Level)'] = [
+          1408, 10048, 0, 1471, 10111, 0,
+        ];
+      },
+      updateDropTable: (table) => {
+        table['Other'] = table['Other'].filter(
+          (item) => item !== 'Adamantite bar'
+        );
+      },
+      getDefaults: () => ({
+        '100%': ['Malicious ashes'],
+        'Weapons and armour': [
+          'Black sword',
+          'Steel battleaxe',
+          'Black axe',
+          'Mithril kiteshield',
+          'Adamant dagger',
+          'Adamant battleaxe',
+          'Adamant platebody',
+        ],
+        Coins: ['Coins'],
+        Other: ['Lobster', 'Defence potion(3)'],
+        Materials: ['Adamantite bar', 'Adamantite ore'],
+      }),
+    },
+  },
+  {
     name: 'Demonic gorilla',
     url: 'https://oldschool.runescape.wiki/w/Demonic_gorilla',
     transform: {},

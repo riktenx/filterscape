@@ -1,0 +1,423 @@
+{{External|rs|rsc=Black Demon}}
+{{HasTask|Black demons}}
+{{Infobox Monster
+|version1 = Level 172
+|version2 = Level 178
+|version3 = Level 184
+|version4 = Level 188
+|name1 = Black demon
+|name2 = Black demon
+|name3 = Black demon
+|name4 = Black demon
+|image = [[File:Black demon.png|70px]][[File:Black demon (2).png|70px]][[File:Black demon (3).png|70px]][[File:Black demon (5).png|70px]]
+|release1 = [[27 February]] [[2002]]
+|release2 = [[9 June]] [[2016]]
+|release3 = [[9 June]] [[2016]]
+|release4 = [[23 November]] [[2017]]
+|update1 = Latest RuneScape News (27 February 2002)
+|update2 = The Catacombs of Kourend
+|update3 = The Catacombs of Kourend
+|update4 = Mage Arena II, Revenant Caves & Deadman Beta
+|members = Yes
+|combat1 = 172
+|combat2 = 178
+|combat3 = 184
+|combat4 = 188
+|size = 3
+|examine = A big, scary, jet-black demon.
+|attributes = demon
+|xpbonus = 0
+|max hit1 = 16
+|max hit2 = 16
+|max hit3 = 17
+|max hit4 = 17
+|aggressive = Yes
+|poisonous = No
+|attack style = [[Slash]]
+|attack speed = 4
+|slayxp1 = 157
+|slayxp2 = 160
+|slayxp3 = 170
+|slayxp4 = 200
+|cat = Black Demons
+|assignedby = krystilia,chaeldar,konar,nieve,duradel
+|hitpoints1 = 157
+|hitpoints2 = 160
+|hitpoints3 = 170
+|hitpoints4 = 200
+|att1 = 145
+|att2 = 145
+|att3 = 155
+|att4 = 145
+|str1 = 148
+|str2 = 148
+|str3 = 158
+|str4 = 165
+|def1 = 152
+|def2 = 175
+|def3 = 162
+|def4 = 152
+|mage = 1
+|range = 1
+|attbns = 0
+|strbns = 0
+|amagic = 0
+|mbns = 0
+|arange = 0
+|rngbns = 0
+|dstab = 0
+|dslash = 0
+|dcrush = 0
+|dmagic1 = -10
+|dmagic2 = -5
+|dmagic3 = -10
+|dmagic4 = -10
+|dlight = 0
+|dstandard = 0
+|dheavy = 0
+|elementalweaknesstype = Water
+|elementalweaknesspercent = 40
+|immunepoison = Not immune
+|immunevenom = Not immune
+|immunecannon = No
+|immunethrall = No
+|respawn1 = 30
+|respawn2 = 30
+|respawn3 = 30
+|respawn4 = 30
+|id1 = 240,2048,2049,2050,2051,2052,5874,5875,5876,5877
+|id2 = 7243
+|id3 = 7242
+|id4 = 7874,7875,7876
+|dropversion1 = Regular,Chasm of Fire
+|dropversion2 = Regular,Catacombs of Kourend
+|dropversion3 = Regular,Catacombs of Kourend
+|dropversion4 = Wilderness Slayer Cave
+}}
+[[File:Black demon icon.png|left]]
+'''Black demons''' are large [[demons]] that inhabit various [[List of dungeons|dungeons]] throughout [[Gielinor]]. As demons, they have high [[combat]] stats but rather low [[Defence]] for their level. They are weak to [[demonbane weapons]]; as with most demons, they are also weak to [[magical]] attacks.
+
+A [[Black demon (The Grand Tree)|unique black demon]] is defeated during [[The Grand Tree]]. This demon can be re-fought in the [[Nightmare Zone]] after the quest has been completed.
+
+[[Demonic gorilla]]s, [[Balfrug Kreeyath]], [[Skotizo]], [[Porazdir]], and [[Kolodion]]'s final form can also be killed in place of black demons in regards to a Slayer task.
+
+Black demons can be [[safespot]]ted with [[Magic]], [[Ranged]] or [[halberd]]s in all of their locations.
+
+==Locations==
+{{LocTableHead|league=yes}}
+{{LocLine
+|name = Black demon
+|location = [[Brimhaven Dungeon]]
+|levels = 172
+|members = Yes
+|mapID = 9
+|plane = 0
+|x:2700,y:9489|x:2703,y:9483|x:2709,y:9479|x:2715,y:9482
+|mtype = pin
+|leagueRegion = Karamja
+|dropversion = Regular
+}}
+{{LocLine
+|name = Black demon
+|location = [[Catacombs of Kourend]]
+|levels = 178, 184
+|members = Yes
+|mapID = 32
+|plane = 0
+|x:1718,y:10086|x:1719,y:10079|x:1720,y:10090|x:1721,y:10083
+|mtype = pin
+|leagueRegion = Kourend
+|dropversion = Regular,Catacombs of Kourend
+}}
+{{LocLine
+|name = Black demon
+|location = [[Chasm of Fire]] (Bottom Level)
+|levels = 172
+|members = Yes
+|mapID = 32
+|plane = 0
+|x:1356,y:9879|x:1359,y:9885|x:1360,y:9899|x:1364,y:9895|x:1365,y:9874|x:1366,y:9901|x:1370,y:9880|x:1372,y:9875|x:1376,y:9899|x:1377,y:9873|x:1377,y:9894|x:1382,y:9869|x:1383,y:9876|x:1383,y:9886|x:1383,y:9897|x:1388,y:9882|x:1389,y:9890
+|mtype = pin
+|leagueRegion = Kourend
+|dropversion = Regular
+}}
+{{LocLine
+|name = Black demon
+|location = [[Edgeville Dungeon]] (Wilderness)
+|levels = 172
+|members = Yes
+|mapID = 12
+|plane = 0
+|x:3084,y:9957|x:3088,y:9961|x:3092,y:9958
+|mtype = pin
+|leagueRegion = Wilderness
+|dropversion = Regular
+}}
+{{LocLine
+|name = Black demon
+|location = [[Taverley Dungeon]]
+|levels = 172
+|members = Yes
+|mapID = 20
+|plane = 0
+|x:2826,y:9791|x:2831,y:9790|x:2837,y:9787|x:2842,y:9786|x:2847,y:9784|x:2849,y:9779|x:2849,y:9791|x:2853,y:9786|x:2854,y:9776|x:2854,y:9781|x:2858,y:9772|x:2860,y:9763|x:2860,y:9781|x:2862,y:9776|x:2863,y:9769|x:2866,y:9783|x:2869,y:9776|x:2871,y:9783|x:2875,y:9776|x:2833,y:9795|x:2837,y:9797|x:2840,y:9792|x:2842,y:9801|x:2845,y:9795
+|mtype = pin
+|leagueRegion = Asgarnia
+|dropversion = Regular
+}}
+{{LocLine
+|name = Black demon
+|location = [[Wilderness Slayer Cave]]
+|levels = 188
+|members = Yes
+|mapID = 26
+|plane = 0
+|x:3354,y:10120|x:3359,y:10114|x:3361,y:10125|x:3367,y:10117
+|mtype = pin
+|leagueRegion = Wilderness
+|dropversion = Wilderness Slayer Cave
+}}
+{{LocTableBottom}}
+
+<gallery>
+File:Black demon (Brimhaven Dungeon) safespot.png|Safespot found in the [[Brimhaven Dungeon]].
+File:Black demon (Edgeville Dungeon) safespot.png|Safespot found in the [[Edgeville Dungeon]].
+File:Black demon (Taverley Dungeon) safespot.png|Two safespots found in the [[Taverley Dungeon]].
+File:Black demon (Catacombs of Kourend) safespot.png|Safespot found in the [[Catacombs of Kourend]].
+File:Black demon (Chasm of Fire, 1) safespot.png|Safespot found in the [[Chasm of Fire]].
+File:Black demon (Chasm of Fire, 2) safespot.png|Another safespot found in the [[Chasm of Fire]].
+File:Black demon (Wilderness Slayer Cave) safespot.png|Safespot found in [[Wilderness Slayer Cave]]  
+</gallery>
+
+==Level 172, 178, and 184 drops==
+{{DropLogProject|jagex=yes}}
+
+{| class="wikitable"
+! rowspan="2" |[[Konar quo Maten|Konar]] task
+! colspan="2" |Average drop value
+|-
+![[Grand Exchange|GE]]
+![[High Level Alchemy|HA]]
+|-
+|{{No}}
+|{{Coins|{{Average drop value|mob=Black demon#Regular|raw=y}}}}
+|{{Coins|{{Average drop value|mob=Black demon#Regular|alch=yes|raw=y}}}}
+|-
+|{{Yes}}
+|{{Coins|{{Average drop value|mob=Black demon#Regular|brimstone=yes|raw=y}}}}
+|{{Coins|{{Average drop value|mob=Black demon#Regular|brimstone=yes|alch=yes|raw=y}}}}
+|}
+
+{| class="wikitable"
+! rowspan="2" |[[Krystilia]] task
+! colspan="2" |Average drop value
+|-
+![[Grand Exchange|GE]]
+![[High Level Alchemy|HA]]
+|-
+|{{No}}
+|{{Coins|{{Average drop value|mob=Black demon#Regular|raw=y}}}}
+|{{Coins|{{Average drop value|mob=Black demon#Regular|alch=yes|raw=y}}}}
+|-
+|{{Yes}}
+|{{Coins|{{Average drop value|mob=Black demon#Regular|wildernessslayer=yes|raw=y}}}}
+|{{Coins|{{Average drop value|mob=Black demon#Regular|wildernessslayer=yes|alch=yes|raw=y}}}}
+|}
+
+===100%===
+{{DropsTableHead|dropversion=Regular}}
+{{DropsLine|name=Malicious ashes|quantity=1;2|rarity=Always|raritynotes={{refn|group=d|name=100%|A second set of ashes is dropped when the demon is killed with preferred method in the [[Chasm of Fire]].}}}}
+{{DropsTableBottom}}
+
+===Weapons and armour===
+{{DropsTableHead|dropversion=Regular}}
+{{DropsLine|name=Black sword|quantity=1|rarity=4/128}}
+{{DropsLine|name=Steel battleaxe|quantity=1|rarity=3/128}}
+{{DropsLine|name=Black axe|quantity=1|rarity=2/128}}
+{{DropsLine|name=Mithril kiteshield|quantity=1|rarity=1/128}}
+{{DropsLine|name=Rune med helm|quantity=1|rarity=1/128}}
+{{DropsLine|name=Rune chainbody|quantity=1|rarity=1/128}}
+{{DropsTableBottom}}
+
+===Runes===
+{{DropsTableHead|dropversion=Regular}}
+{{DropsLine|name=Air rune|quantity=50|rarity=8/128}}
+{{DropsLine|name=Chaos rune|quantity=10|rarity=7/128}}
+{{DropsLine|name=Blood rune|quantity=7|rarity=4/128}}
+{{DropsLine|name=Fire rune|quantity=37|rarity=1/128}}
+{{DropsLine|name=Law rune|quantity=3|rarity=1/128}}
+{{DropsTableBottom}}
+
+===Herbs===
+{{HerbDropTableInfo|23/128}}
+{{DropsTableHead|dropversion=Regular}}
+{{HerbDropLines|23/128}}
+{{DropsTableBottom}}
+
+===Coins===
+{{DropsTableHead|dropversion=Regular}}
+{{DropsLine|name=Coins|quantity=132|rarity=40/128|gemw=No}}
+{{DropsLine|name=Coins|quantity=30|rarity=7/128|gemw=No}}
+{{DropsLine|name=Coins|quantity=44|rarity=6/128|gemw=No}}
+{{DropsLine|name=Coins|quantity=220|rarity=6/128|gemw=No}}
+{{DropsLine|name=Coins|quantity=460|rarity=1/128|gemw=No}}
+{{DropsTableBottom}}
+
+===Other===
+{{DropsTableHead|dropversion=Regular}}
+{{DropsLine|name=Lobster|quantity=1|rarity=3/128}}
+{{DropsLine|name=Adamantite bar|quantity=1|rarity=2/128}}
+{{DropsLine|name=Defence potion(3)|quantity=1|rarity=1/128}}
+{{DropsTableBottom}}
+
+===Rare and Gem drop table===
+{{RareDropTable|1/128|5/128|chaostalisman=yes|naturetalisman=yes|dropversion=Regular}}
+
+===Tertiary===
+{{DropsTableHead|dropversion=Regular}}
+{{DropsLine|name=Looting bag|quantity=1|rarity=1/3|raritynotes=<ref group=d>Looting bags are only dropped by those found in the [[Wilderness]].</ref>|gemw=No|leagueRegion=Wilderness}}
+{{DropsLine|name=Ensouled demon head|quantity=1|rarity=1/35}}
+{{DropsLine|name=Brimstone key|quantity=1|rarity={{Brimstone rarity|172}}|raritynotes=<ref group=d>Brimstone keys are only dropped if killed on a [[Slayer task]] given by [[Konar quo Maten]].</ref><ref group=d>Brimstone key drop rates for level 172, 178, and 184 black demons are {{Brimstone rarity|172}}, {{Brimstone rarity|178}}, and {{Brimstone rarity|184}} respectively.</ref>|altrarity={{Brimstone rarity|184}}|altraritydash=yes|leagueRegion=Kourend}}
+{{DropsLineClue|type=hard|rarity=1/128|altrarity=1/64|raritynotes=<ref group=d>The hard clue scroll rarity changes to 1/64 if a [[ring of wealth (i)]] is worn and the monster is killed in the Wilderness.</ref>}}
+{{DropsTableBottom}}
+{{Reflist|group=d}}
+
+===Catacombs tertiary===
+{{CatacombsDropTable|hitpoints=160|hitpointsmax=170|catacombsonly=yes|dropversion=Catacombs of Kourend}}
+
+===Wilderness Slayer tertiary===
+{{WildernessSlayerDropTable|combat=172|hitpoints=157|dropversion=Regular}}
+
+===Chasm of Fire tertiary===
+{{ChasmOfFireContractsDropTable}}
+
+==Wilderness Slayer Cave drops==
+{{DropLogProject|kills=402000}}
+
+{{Average drop value|Black demon#Wilderness Slayer Cave|mobname=black demon in the Wilderness Slayer Cave}}
+
+{{Average drop value|Black demon#Wilderness Slayer Cave|mobname=black demon in the Wilderness Slayer Cave|wildernessslayer=yes}}
+
+===100%===
+{{DropsTableHead|dropversion=Wilderness Slayer Cave}}
+{{DropsLine|name=Malicious ashes|quantity=1|rarity=Always}}
+{{DropsTableBottom}}
+
+===Weapons and armour===
+{{DropsTableHead|dropversion=Wilderness Slayer Cave}}
+{{DropsLine|name=Rune sword|quantity=1|rarity=4/74}}
+{{DropsLine|name=Adamant dagger|quantity=1|rarity=3/74}}
+{{DropsLine|name=Adamant battleaxe|quantity=1|rarity=2/74}}
+{{DropsLine|name=Adamant platebody|quantity=1|rarity=1/74}}
+{{DropsLine|name=Rune dagger|quantity=1|rarity=1/74}}
+{{DropsLine|name=Rune med helm|quantity=1|rarity=1/74}}
+{{DropsLine|name=Rune full helm|quantity=1|rarity=1/74}}
+{{DropsLine|name=Rune chainbody|quantity=1|rarity=1/74}}
+{{DropsTableBottom}}
+
+===Runes===
+{{DropsTableHead|dropversion=Wilderness Slayer Cave}}
+{{DropsLine|name=Death rune|quantity=5|rarity=8/74}}
+{{DropsLine|name=Chaos rune|quantity=25|rarity=7/74}}
+{{DropsLine|name=Blood rune|quantity=7|rarity=4/74}}
+{{DropsLine|name=Law rune|quantity=15|rarity=1/74}}
+{{DropsLine|name=Blood rune|quantity=5|rarity=1/74}}
+{{DropsTableBottom}}
+
+===Herbs===
+{{HerbDropTableInfo|23/74}}
+{{DropsTableHead|dropversion=Wilderness Slayer Cave}}
+{{HerbDropLines|23/74}}
+{{DropsTableBottom}}
+
+===Materials===
+{{DropsTableHead|dropversion=Wilderness Slayer Cave}}
+{{DropsLine|name=Adamantite bar|quantity=2 (noted)|rarity=2/74}}
+{{DropsLine|name=Adamantite ore|quantity=2 (noted)|rarity=1/74}}
+{{DropsTableBottom}}
+
+===Coins===
+{{DropsTableHead|dropversion=Wilderness Slayer Cave}}
+{{DropsLine|name=Coins|quantity=250|rarity=7/74|gemw=No}}
+{{DropsTableBottom}}
+
+===Rare and Gem drop table===
+{{RareDropTable|1/74|5/74|chaostalisman=yes|dropversion=Wilderness Slayer Cave}}
+
+===Tertiary===
+{{DropsTableHead|dropversion=Wilderness Slayer Cave}}
+{{DropsLineClue|type=hard|rarity=1/128|altrarity=1/64|raritynotes=<ref group=d>The hard clue scroll rarity changes to 1/64 if a [[ring of wealth (i)]] is worn.</ref>}}
+{{DropsLine|name=Looting bag|quantity=1|rarity=1/3|gemw=No}}
+{{DropsLine|name=Ensouled demon head|quantity=1|rarity=1/35}}
+{{DropsTableBottom}}
+{{Reflist|group=d}}
+
+===Wilderness Slayer tertiary===
+{{WildernessSlayerDropTable|combat=188|revenant=yes|hitpoints=200|dropversion=Wilderness Slayer Cave}}
+
+===Wilderness Slayer Cave tertiary===
+{{WildernessSlayerCaveDropTable|91/100|dropversion=Wilderness Slayer Cave}}
+
+==Gallery==
+<gallery captionalign="center" widths="180">
+Black demon.png|A variant of black demon.
+Black demon (2).png|A variant of black demon.
+Black demon (3).png|A variant of black demon.
+Black demon (4).png|A variant of black demon.
+Black demon (5).png|A variant of black demon.
+Black demon (6).png|A variant of black demon.
+</gallery>
+
+==Changes==
+{{Subject changes header}}
+{{Subject changes
+|date = 29 May 2024
+|update = Project Rebalance: Combat Changes
+|change = Black demons now have a 40% elemental weakness to [[water spells]].
+}}
+{{Subject changes
+|date = 16 June 2021
+|update = A Kingdom Divided
+|poll = A Kingdom Divided
+|change = Black demons now drop [[malicious ashes]] in place of regular ashes.
+}}
+{{Subject changes
+|date = 1 December 2016
+|update = Ballista Rework & QOL
+|change = *The NPC was renamed from "Black Demon" to "Black demon".
+*The Nightmare Zone boss was renamed from "Black Demon (hard)" to "Black demon (hard)".
+}}
+{{Subject changes
+|date = 18 February 2016
+|update = Dragon Claws & 3rd Birthday
+|poll = Quality of Life - Top 10 PvM Suggestions
+|change = Hard clue scrolls are now dropped by black demons.
+}}
+{{Subject changes
+|date = 10 September 2015
+|update = Slayer Assignment Rework
+|poll = Old School Content Poll 34: XP droplets & Slayer
+|change = More black demons spawn in Taverley Dungeon in an extended area.
+}}
+{{Subject changes
+|date = 29 August 2006
+|update = Demons, Dragons and Giants
+|change = The NPC was graphically updated.
+}}
+{{Subject changes footer}}
+
+===Gallery (historical)===
+{|style="text-align: center" cellpadding="15"
+|[[File:Black demon (historical).png|center|300x150px]]
+|[[File:Black demon.png|center|300x150px]]
+|-
+|29 March 2004 –<br/>29 August 2006
+|29 August 2006 –<br/>present
+|}
+
+{{Demons}}
+{{Brimhaven Dungeon}}
+{{Chasm of Fire}}
+{{Edgeville Dungeon}}
+{{Taverley Dungeon}}
+[[Category:Bosses]]

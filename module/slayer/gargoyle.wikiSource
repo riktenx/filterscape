@@ -1,0 +1,204 @@
+{{External|rs}}
+{{Otheruses|the slayer monster|the superior variant|Marble gargoyle|the bosses|Grotesque Guardians}}
+{{HasTask|Gargoyles}}
+{{Infobox Monster
+|version1 = Upstairs
+|version2 = Basement
+|smwname1 = Upstairs
+|smwname2 = Basement
+|name = Gargoyle
+|image = [[File:Gargoyle.png|250px]]
+|release = [[26 January]] [[2005]]
+|update = Slayer Skill
+|members = Yes
+|combat = 111
+|size = 3
+|examine = Flies like a rock.
+|xpbonus = 0
+|max hit = 11
+|aggressive = Yes
+|poisonous = No
+|attack style = [[Slash]]
+|attack speed = 4
+|slaylvl = 75
+|slayxp = 105<!-- before changing this, remember that the morytania diary gives bonus experience for kills in the slayer tower -->
+|cat = Gargoyles
+|assignedby = vannaka,chaeldar,konar,nieve,duradel
+|hitpoints = 105
+|att = 75
+|str = 105
+|def = 107
+|mage = 1
+|range = 1
+|attbns = 0
+|strbns = 0
+|amagic = 0
+|mbns = 0
+|arange = 0
+|rngbns = 0
+|dstab = 50
+|dslash = 60
+|dcrush = -20
+|dmagic = 20
+|dlight = 20
+|dstandard = 20
+|dheavy = -20
+|immunepoison1 = No
+|immunepoison2 = Yes
+|immunevenom1 = No
+|immunevenom2 = Yes
+|immunecannon = No
+|immunethrall = No
+|respawn = 15
+|id = 412,413
+|id2 = 1543
+}}[[File:Gargoyle icon.png|left]]
+'''Gargoyles''' are [[Slayer monsters]] located in the [[Slayer Tower]]'s top floor and basement, requiring 75 [[Slayer]] in order to be harmed. Those found in the basement are only available to players who are assigned gargoyles as their [[Slayer task]]. If they attempt to kill them off-task, [[Raulyn]] will prevent them from attacking.
+
+Gargoyles, like [[rockslug]]s, cannot be killed normally. In order to kill a gargoyle, a [[rock hammer]], a [[rock thrownhammer]], or a [[granite hammer]] must be used when they reach 8 or lower [[Hitpoints]]. Normally, the item must be used on the gargoyle, but players can buy the "[[Gargoyle smasher|Gargoyle Smasher]]" perk from [[Slayer Master]]s for 120 [[Slayer points]], which will automatically smash the gargoyle when it falls to 9 or lower Hitpoints, provided that the player has a rock hammer (or equivalent) in their inventory. The [[granite hammer]] will automatically smash gargoyles even without the perk if it is equipped.
+
+Because of the number of [[rune item]] drops, it is recommended to bring [[High Level Alchemy]] runes to reduce the frequency of banking and save inventory space.
+
+Gargoyles can be [[safespotted]] near the doorway in the south-west area at the top floor in Slayer Tower or in the north-east corner of the basement behind an immovable bucket on the floor.
+
+It should be noted that the gargoyles on the top floor of the tower are located after [[aberrant spectre]]s, who drain players' stats if they are not wearing a [[Slayer helmet]] or [[nose peg]]. They may be avoided by using the Agility shortcut in the north-east from {{FloorNumber|uk=1}} to {{FloorNumber|uk=2}}, although this route takes longer. These gargoyles are susceptible to [[poison]] and [[venom]]; the basement ones are immune to both.
+
+==Locations==
+{{LocTableHead|league=yes}}
+{{LocLine
+|name = Gargoyle
+|location = [[Slayer Tower]] top floor
+|levels = 111
+|members = Yes
+|mapID = 0
+|plane = 2
+|x:3432,y:3540|x:3435,y:3548|x:3437,y:3537|x:3439,y:3542|x:3439,y:3548|x:3443,y:3548|x:3445,y:3541|x:3446,y:3535
+|mtype = pin
+|leagueRegion = morytania
+}}
+{{LocLine
+|name = Gargoyle
+|location = [[Slayer Tower]] basement (Slayer task only)
+|levels = 111
+|members = Yes
+|mapID = 14
+|plane = 0
+|x:3427,y:9943|x:3428,y:9932|x:3432,y:9937|x:3432,y:9947|x:3433,y:9942|x:3434,y:9932|x:3437,y:9948|x:3439,y:9932|x:3439,y:9943|x:3440,y:9928|x:3440,y:9936|x:3444,y:9931
+|mtype = pin
+|leagueRegion = morytania
+}}
+{{LocTableBottom}}
+{{Reflist}}
+
+==Money making==
+{{Mmgsection|Killing gargoyles}}
+
+==Drops==
+{{DropLogProject|jagex=yes}}{{CiteTwitter|author=Mod Ash|url=https://twitter.com/JagexAsh/status/1006920421080518657|date=13 June 2018|archiveurl=https://archive.is/oD4Kr|archivedate=26 May 2020|quote=[https://pbs.twimg.com/media/DflMyA6X4AEtgvu.jpg:large]|name=twitter}}
+
+{| class="wikitable"
+! rowspan="2" |[[Konar quo Maten|Konar]] task
+! colspan="2" |Average drop value
+|-
+![[Grand Exchange|GE]]
+![[High Level Alchemy|HA]]
+|-
+|{{No}}
+|{{Coins|{{Average drop value|mob=Gargoyle|raw=y}}}}
+|{{Coins|{{Average drop value|mob=Gargoyle|alch=yes|raw=y}}}}
+|-
+|{{Yes}}
+|{{Coins|{{Average drop value|mob=Gargoyle|brimstone=yes|raw=y}}}}
+|{{Coins|{{Average drop value|mob=Gargoyle|brimstone=yes|alch=yes|raw=y}}}}
+|}
+
+===Pre-roll===
+{{DropsTableHead}}
+{{DropsLine|name=Granite maul|quantity=1|rarity=1/256}}
+{{DropsLine|name=Mystic robe top (dark)|quantity=1|rarity=1/512}}
+{{DropsTableBottom}}
+
+===Weapons and armour===
+{{DropsTableHead}}
+{{DropsLine|name=Adamant platelegs|quantity=1|rarity=4/128}}
+{{DropsLine|name=Rune full helm|quantity=1|rarity=3/128}}
+{{DropsLine|name=Rune 2h sword|quantity=1|rarity=2/128}}
+{{DropsLine|name=Adamant boots|quantity=1|rarity=1/128}}
+{{DropsLine|name=Rune battleaxe|quantity=1|rarity=1/128}}
+{{DropsLine|name=Rune platelegs|quantity=1|rarity=1/128}}
+{{DropsTableBottom}}
+
+===Runes===
+{{DropsTableHead}}
+{{DropsLine|name=Fire rune|quantity=75|rarity=10/128}}
+{{DropsLine|name=Chaos rune|quantity=30|rarity=8/128}}
+{{DropsLine|name=Fire rune|quantity=150|rarity=6/128}}
+{{DropsLine|name=Death rune|quantity=15|rarity=5/128}}
+{{DropsTableBottom}}
+
+===Materials===
+{{DropsTableHead}}
+{{DropsLine|name=Gold ore|quantity=10-20 (noted)|rarity=10/128}}
+{{DropsLine|name=Pure essence|quantity=150 (noted)|rarity=6/128}}
+{{DropsLine|name=Steel bar|quantity=15 (noted)|rarity=6/128}}
+{{DropsLine|name=Gold bar|quantity=10-15 (noted)|rarity=3/128}}
+{{DropsLine|name=Mithril bar|quantity=15 (noted)|rarity=2/128}}
+{{DropsLine|name=Runite ore|quantity=1|rarity=2/128}}
+{{DropsTableBottom}}
+
+===Coins===
+{{DropsTableHead}}
+{{DropsLine|name=Coins|quantity=400-800|rarity=28/128|gemw=No}}
+{{DropsLine|name=Coins|quantity=500-1000|rarity=20/128|gemw=No}}
+{{DropsLine|name=Coins|quantity=10000|rarity=5/128|gemw=No}}
+{{DropsTableBottom}}
+
+===Gem drop table===
+{{GemDropTable|5/128|chaostalisman=yes|naturetalisman=yes}}
+
+===Tertiary===
+{{DropsTableHead}}
+{{DropsLine|name=Brimstone key|quantity=1|rarity={{Brimstone rarity|111|bonus=yes}}|raritynotes=<ref group='d'>Brimstone keys are only dropped if killed on a [[Slayer task]] given by [[Konar quo Maten]].</ref>|gemw=No|leagueRegion=Morytania&Kourend}}
+{{DropsLineClue|type=hard|rarity=1/128}}
+{{DropsLine|name=Brittle key|quantity=1|rarity=1/150|raritynotes=<ref group='d'>Brittle keys are only dropped if the player has not unlocked the roof access, does not have one in their bank or inventory, and has gargoyles as their current [[Slayer task]].</ref>|gemw=No}}
+{{DropsTableBottom}}
+{{Reflist|group=d}}
+
+==Combat Achievements==
+{{Sync}}
+{{Combat Achievements list|Gargoyle}}
+
+==Changes==
+{{Subject changes header}}
+{{Subject changes
+|date = 29 May 2024
+|update = Project Rebalance: Combat Changes
+|change = 
+* Gargoyle's heavy [[Ranged]] defence has been decreased from 20 to -20.
+* Gargoyle's [[stab]] defence has been increased from 20 to 50.
+* Gargoyle's [[slash]] defence has been increased from 20 to 60.
+* Gargoyle's [[crush]] defence has been decreased from 0 to -20.
+}}
+{{Subject changes
+|date = 31 January 2024
+|update = Scurrius & DT2 Combat Achievements
+|change = The range of [[aggressiveness]] of gargoyles has been slightly increased.
+}}
+{{Subject changes
+|date = 15 September 2016
+|update = Superior Slayer Encounters
+|poll = Old School Content Poll 47: Rewards for Raids & Slayer
+|change = The drop table was improved to include more valuable drops.
+}}
+{{Subject changes
+|date = 28 April 2016
+|update = Calling Pets & Deadman Death
+|poll = Old School Content Poll 41: Bank placeholders & Skillcapes
+|change = More Gargoyle spawns have been added to the Slayer Tower.
+}}
+{{Subject changes footer}}
+
+==References==
+{{Reflist}}
+
+{{Slayer monsters}}

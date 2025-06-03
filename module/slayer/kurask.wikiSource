@@ -1,0 +1,226 @@
+{{External|rs}}
+{{Otheruses|the Slayer monster|the superior variant|King kurask}}
+{{Infobox Monster
+|version1 = Normal
+|version2 = Big
+|name = Kurask
+|image1 = [[File:Kurask.png|225x225px]]
+|image2 = [[File:Kurask (2).png|250x250px]]
+|release = [[26 January]] [[2005]]
+|update = Slayer Skill
+|members = Yes
+|combat = 106
+|size = 3
+|examine1 = Large, heavy, with sharp things attached to its head.
+|examine2 = Larger, heavier, with sharper things attached to its head.
+|attributes = leafy
+|xpbonus = 0
+|max hit = 11
+|aggressive = Yes
+|poisonous = No
+|attack style = [[Crush]]
+|attack speed = 4
+|slaylvl = 70
+|slayxp = 97
+|cat = Kurask
+|assignedby = vannaka,chaeldar,konar,nieve,duradel
+|hitpoints = 97
+|att = 67
+|str = 105
+|def = 105
+|mage = 1
+|range = 1
+|attbns = 0
+|strbns = 0
+|amagic = 0
+|mbns = 0
+|arange = 0
+|rngbns = 0
+|dstab = 0
+|dslash = 20
+|dcrush = 20
+|dmagic = 0
+|drange = 0
+|immunepoison = yes
+|immunevenom = yes
+|immunecannon = yes
+|immunethrall = no
+|respawn = 15
+|id1 = 410
+|id2 = 411
+}}
+[[File:Kurask icon.png|left]]
+'''Kurask''' are [[Slayer monsters]] that require a [[Slayer]] level of 70 to damage, as well as usage of [[leaf-bladed weapons]], [[broad bolts]], [[broad arrows]], [[amethyst broad bolts]], or [[Magic Dart]]. Kurask are immune to poison and venom. Kurask are also immune to damage from a [[dwarf multicannon]]. They can, however, take burning damage from weapons such as [[burning claws]].
+
+Their attacks are relatively inaccurate due to their low attack level, but they can hit somewhat high if their attacks manage to land. Additionally, they have fast health regeneration, healing one [[Hitpoints|hitpoint]] every five game [[ticks]].
+
+Although kurask are invulnerable to any damage from [[Saradomin godsword]], [[ancient godsword]] and [[toxic blowpipe]] special attacks, the healing effect will still activate as if damage had been dealt, making them useful as special attack weapons during extended trips. The [[ancient mace]] and [[eldritch nightmare staff]] special attacks likewise restore [[Prayer]] points based on what damage would have been dealt. The [[Guthan the Infested's equipment|Guthan's equipment]] set effect does not restore health.
+
+These monsters, along with [[Turoth]], drop the [[leaf-bladed sword]]. They are also known for their [[Mystic robe top (light)|light mystic robe top]] and [[kurask head]] drops, as well as being the only monster to drop the [[leaf-bladed battleaxe]].
+
+{{Bug|Kurasks and [[turoth]]s are currently vulnerable to damage from [[ghostly thrall]]s (magic) and [[skeletal thrall]]s (ranged). They are still immune to damage from [[zombie thrall]]s (melee).}}
+
+==Location==
+{{LocTableHead|league=yes}}
+{{LocLine
+|name = Kurask
+|location = [[Fremennik Slayer Dungeon]] {{Fairycode|AJR}}
+|levels = 106
+|members = Yes
+|mapID = -1
+|plane = 0
+|x:2694,y:9995|x:2694,y:9999|x:2698,y:9992|x:2699,y:10001|x:2701,y:9996
+|mtype = pin
+|leagueRegion = Fremennik
+}}
+{{LocLine
+|name = Kurask
+|location = [[Fremennik Slayer Dungeon]] ([[Slayer task]] only)
+|levels = 106
+|members = Yes
+|mapID = -1
+|plane = 0
+|x:2696,y:9969|x:2698,y:9962|x:2699,y:9977|x:2704,y:9959|x:2705,y:9969|x:2709,y:9976|x:2710,y:9963|x:2713,y:9970|x:2716,y:9964
+|mtype = pin
+|leagueRegion = Fremennik
+}}
+{{LocLine
+|name = Kurask
+|location = [[Iorwerth Dungeon]] 
+|levels = 106
+|members = Yes
+|mapID = -1
+|plane = 0
+|x:3249,y:12377|x:3249,y:12386|x:3254,y:12382|x:3255,y:12372|x:3255,y:12389|x:3258,y:12380|x:3208,y:12365|x:3208,y:12371|x:3214,y:12370|x:3217,y:12361|x:3219,y:12368|x:3220,y:12357|x:3225,y:12367|x:3228,y:12361
+|mtype = pin
+|leagueRegion = Tirannwn
+}}
+{{LocTableBottom}}
+
+<gallery>
+File:Kurask (Fremennik Slayer Dungeon, lower level) safespot.png|thumb|left|A safespot in north-west corner of the Fremennik Slayer Cave lower level.
+File:Kurask (Fremennik Slayer Dungeon, upper level) safespot.png|thumb|left|A safespot available on the east side of the task-only area.
+File:Kurask (Iorwerth Dungeon) safespot.png|thumb|left|Safespot on the northern-wall of the southern-most kurask section of Iorwerth Dungeon.
+</gallery>
+
+==Drops==
+{{DropLogProject|kills=480493}}
+
+{| class="wikitable"
+! rowspan="2" |[[Konar quo Maten|Konar]] task
+! colspan="2" |Average drop value
+|-
+![[Grand Exchange|GE]]
+![[High Level Alchemy|HA]]
+|-
+|{{No}}
+|{{Coins|{{Average drop value|mob=Kurask|raw=y}}}}
+|{{Coins|{{Average drop value|mob=Kurask|alch=yes|raw=y}}}}
+|-
+|{{Yes}}
+|{{Coins|{{Average drop value|mob=Kurask|brimstone=yes|raw=y}}}}
+|{{Coins|{{Average drop value|mob=Kurask|brimstone=yes|alch=yes|raw=y}}}}
+|}
+
+The average Kurask kill in [[Iorwerth Dungeon]] is worth {{Coins|floor({{Average drop value|mob=Kurask|raw=y}} + 1/24*2.5*({{GEP|Divine super combat potion(4)}}-{{GEP|Super combat potion(4)}}) ) }} due to the additional chance of receiving a [[crystal shard]] as a tertiary drop. This value for crystal shards assumes that they are made into [[divine super combat potion]]s. For a Konar task in the Iorwerth Dungeon, the average Kurask kill is worth {{Coins|floor({{Average drop value|mob=Kurask|brimstone=yes|raw=y}} + 1/24*2.5*({{GEP|Divine super combat potion(4)}}-{{GEP|Super combat potion(4)}}) ) }}
+
+As they drop 3 herbs at a time, it may be worth considering bringing a [[herb sack]] to prolong slayer trips.
+
+===100%===
+{{DropsTableHead}}
+{{DropsLine|name=Bones|quantity=1|rarity=Always}}
+{{DropsTableBottom}}
+
+===Weapons and armour===
+{{DropsTableHead}}
+{{DropsLine|name=Mithril kiteshield|quantity=1|rarity=3/124}}
+{{DropsLine|name=Rune longsword|quantity=1|rarity=3/124}}
+{{DropsLine|name=Adamant platebody|quantity=1|rarity=3/124}}
+{{DropsLine|name=Rune axe|quantity=1|rarity=3/124}}
+{{DropsLine|name=Leaf-bladed sword|quantity=1|rarity=1/384|raritynotes={{CiteForum|author=Envision|url=https://archive.fo/5P5mn|title=Drop Rates V2|postdate=29 July 2014|name=DV2}}}}
+{{DropsLine|name=Mystic robe top (light)|quantity=1|rarity=1/512|raritynotes={{NamedRef|DV2}}}}
+{{DropsLine|name=Leaf-bladed battleaxe|quantity=1|rarity=1/1026|raritynotes={{CiteTwitter|author=Mod Ash|url=https://twitter.com/JagexAsh/status/790477579316789248|date=24 October 2016|archiveurl=https://archive.fo/YpdjS|archivedate=15 May 2019|quote=1/1026.}}}}
+{{DropsTableBottom}}
+
+===Runes===
+{{DropsTableHead}}
+{{DropsLine|name=Nature rune|quantity=10|rarity=10/124}}
+{{DropsLine|name=Nature rune|quantity=15|rarity=7/124}}
+{{DropsLine|name=Nature rune|quantity=30|rarity=4/124}}
+{{DropsTableBottom}}
+
+===Herbs===
+{{HerbDropTableInfo|override=There is a 18/124 chance of rolling the [[herb drop table]]. Kurasks will always drop three herbs at a time.}}
+{{DropsTableHead}}
+{{HerbDropLines|18/124|1-3}}
+{{DropsTableBottom}}
+
+===Seeds===
+{{RareSeedDropTableInfo|15/124|override=There is a 15/124 chance of rolling the [[rare seed drop table]], with the exception of limpwurt seeds.}}
+{{DropsTableHead}}
+{{RareSeedDropLines|15/124}}
+{{DropsLine|name=Limpwurt seed|quantity=1|rarity=6/124}}
+{{DropsTableBottom}}
+
+===Other===
+{{DropsTableHead}}
+{{DropsLine|name=Coins|quantity=2000-3000|rarity=16/124|gemw=No}}
+{{DropsLine|name=Coins|quantity=10000|rarity=5/124|gemw=No}}
+{{DropsLine|name=Flax|quantity=100 (noted)|rarity=6/124}}
+{{DropsLine|name=White berries|quantity=12 (noted)|rarity=6/124}}
+{{DropsLine|name=Papaya fruit|quantity=10 (noted)|rarity=4/124}}
+{{DropsLine|name=Coconut|quantity=10 (noted)|rarity=4/124}}
+{{DropsLine|name=Big bones|quantity=20 (noted)|rarity=5/124}}
+{{DropsTableBottom}}
+
+===Gem drop table===
+{{GemDropTable|6/124|naturetalisman=yes|chaostalisman=yes}}
+
+===Tertiary===
+{{DropsTableHead}}
+{{DropsLine|name=Crystal shard|quantity=3-5|rarity=1/24|raritynotes=<ref group=d>Crystal shards are only dropped by those found within the [[Iorwerth Dungeon]].</ref>|leagueRegion=Tirannwn}}
+{{DropsLine|name=Brimstone key|quantity=1|rarity={{Brimstone rarity|106|bonus=yes}}|raritynotes=<ref group="d">Brimstone keys are only dropped if killed on a [[Slayer task]] given by [[Konar quo Maten]].</ref>|gemw=No|leagueRegion=Fremennik&Kourend,Tirannwn&Kourend}}
+{{DropsLineClue|type=hard|rarity=1/128|raritynotes={{CiteTwitter|author=Mod Tide|url=https://twitter.com/JagexTide/status/1131933683714330624|date=24 May 2019|archiveurl=https://archive.fo/WUqwD|archivedate=24 May 2019|quote=I know its been a while since the clue expansion but here is the information on clue scroll drop rates and loot chances! If anything changes I will keep you posted.|name=Clue rates tweet}}}}
+{{DropsLine|name=Kurask head|quantity=1|rarity=1/3000|raritynotes={{NamedRef|DV2}}|gemw=No}}
+{{DropsTableBottom}}
+{{Reflist|group="d"}}
+
+==Combat Achievements==
+{{Sync}}
+{{Combat Achievements list|Kurask}}
+
+==Changes==
+{{Subject changes header}}
+{{Subject changes
+|date = 11 September 2024
+|update = Araxxor CAs, Poll 82 Updates & More!
+|change = The amount of [[crystal shard]]s obtained from slayer monsters in the [[Iorwerth Dungeon]] has increased from 1 to 3-5.
+}}
+{{Subject changes
+|date = 23 August 2018
+|update = Bush Yield Improvements, Nordic Soft Launch and Mobile Changes
+|change = The drop of 10–20 [[limpwurt root]]s (added in the previous drop table rebalance) was changed to a single [[limpwurt seed]] to balance the influx of limpwurt roots coming into the game.
+}}
+{{Subject changes
+|date = 15 September 2016
+|update = Superior Slayer Encounters
+|poll = Old School Content Poll 47: Rewards for Raids & Slayer
+|change = The drop table was improved to include more valuable drops and increase quantity of existing drops as well as drop some as banknotes.
+}}
+{{Subject changes
+|date = 23 January 2014
+|update = Slayer Cave & High Risk Worlds
+|poll = Content Poll 13: Slayer & Christmas
+|change = The [[leaf-bladed sword]] is now dropped by Kurask and [[Turoth]].
+}}
+{{Subject changes footer}}
+
+==Trivia==
+*There is a single Kurask with a slightly larger appearance in the [[Fremennik Slayer Dungeon]], in the non-task area. This Kurask differs only in its size and has an altered examine text which reflects its increased stature.
+
+==References==
+{{Reflist}}
+
+{{Slayer monsters}}
+{{Fremennik Slayer Dungeon}}
+{{Iorwerth Dungeon}}

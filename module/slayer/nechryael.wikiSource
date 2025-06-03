@@ -1,0 +1,508 @@
+{{External|rs}}
+{{HasTask|Nechryael}}
+{{Otheruses|the normal variant|the stronger variant|Greater Nechryael|the superior variant|Nechryarch}}
+{{Infobox Monster
+|version1 = Normal
+|version2 = Slayer task
+|name = Nechryael
+|image = [[File:Nechryael.png|145px]]
+|release1 = [[26 January]] [[2005]]
+|release2 = [[23 January]] [[2014]]
+|update1 = Slayer Skill
+|update2 = Patch Notes (23 January 2014)
+|members = Yes
+|combat = 115
+|size = 1
+|examine = An evil death demon.
+|attributes = demon
+|xpbonus = 0
+|max hit = 11
+|aggressive = No
+|poisonous = No
+|attack style = [[Crush]]
+|attack speed = 4
+|slaylvl = 80
+|slayxp = 105
+|cat = Nechryael
+|assignedby = krystilia,vannaka,chaeldar,konar,nieve,duradel
+|hitpoints = 105
+|att = 97
+|str = 97
+|def = 105
+|mage = 1
+|range = 1
+|attbns = 0
+|strbns = 0
+|amagic = 0
+|mbns = 0
+|arange = 0
+|rngbns = 0
+|dstab = 20
+|dslash = 20
+|dcrush = 20
+|dmagic = 0
+|drange = 20
+|immunepoison = No
+|immunevenom = No
+|immunecannon = No
+|immunethrall = No
+|id1 = 8
+|id2 = 11
+}}
+[[File:Nechryael icon.png|left]]
+'''Nechryael''' are demonic [[Slayer creature]]s, which require a [[Slayer]] level of 80 in order to harm. They are found in the [[Slayer Tower]], and their stronger variant, [[Greater nechryael]], can be found in the [[Catacombs of Kourend]],  [[Iorwerth Dungeon]], and the [[Wilderness Slayer Cave]]. Nechryael are known for their [[rune boots]] drop, which are one of the few boots to provide a [[Strength#Strength bonus|Strength bonus]] when worn. They are also known for their frequent drop rates of [[seeds]] and combat [[runes]], consider bringing a [[Seed box]] due to the large amount of seed drops.
+
+Commonly, nechryael summon [[death spawn]]s to aid them, up to a limit of two each per nechryael. Death spawns have semi-inaccurate attacks with a max hit of 2, and their attacks can hit through [[Protect from Melee]]. [[Auto-retaliate]] does not work on them, so you will have to click the death spawn to attack it. Death spawns will not be summoned if the nechryael is unable to attack the player back (such as when being [[safespotted]]). The [[Death spawn|death spawns]] will stop attacking any player who moves more than 7 tiles away from them, which is useful when fighting the more powerful [[nechryarch]].
+
+[[Arclight]] can be very effective against nechryael, as they are considered to be demonic creatures. Their stronger variant, [[greater nechryael]], are more commonly killed with [[Ice Burst]] or [[Ice Barrage]] in the [[Catacombs of Kourend]].
+
+==Locations==
+{{LocTableHead|league=yes}}
+{{LocLine
+|name = Nechryael
+|location = [[Slayer Tower]] Top Floor
+|levels = 115
+|members = Yes
+|mapID = 0
+|plane = 2
+|x:3433,y:3570|x:3435,y:3574|x:3437,y:3566|x:3439,y:3570|x:3441,y:3574|x:3443,y:3570|x:3444,y:3566|x:3445,y:3560|x:3446,y:3574|x:3447,y:3563|x:3449,y:3572
+|mtype = pin
+|leagueRegion = Morytania
+}}
+{{LocLine
+|name = Nechryael
+|location = [[Slayer Tower]] Basement
+|levels = 115
+|members = Yes
+|mapID = 14
+|plane = 0
+|x:3403,y:9968|x:3406,y:9961|x:3406,y:9971|x:3407,y:9957|x:3411,y:9961|x:3412,y:9969|x:3413,y:9965|x:3414,y:9954|x:3417,y:9959|x:3417,y:9970|x:3424,y:9960|x:3424,y:9969
+|mtype = pin
+|leagueRegion = Morytania
+}}
+{{LocTableBottom}}
+Nechryaels located in the [[Slayer Tower]] Basement can only be attacked whilst on a Slayer task.
+
+== Safespotting ==
+In the [[Slayer Tower]] there are many tables and buckets, which can easily be used to safespot Nechryael. Safespotting Nechryael prevents them from summoning death spawns and makes the task very easy.
+
+==Drops==
+{{DropLogProject|kills=387181}}
+
+{| class="wikitable"
+! rowspan="2" |[[Konar quo Maten|Konar]] task
+! colspan="2" |Average drop value
+|-
+![[Grand Exchange|GE]]
+![[High Level Alchemy|HA]]
+|-
+|{{No}}
+|{{Coins|{{Average drop value|mob=Nechryael|raw=y}}}}
+|{{Coins|{{Average drop value|mob=Nechryael|alch=yes|raw=y}}}}
+|-
+|{{Yes}}
+|{{Coins|{{Average drop value|mob=Nechryael|brimstone=yes|raw=y}}}}
+|{{Coins|{{Average drop value|mob=Nechryael|brimstone=yes|alch=yes|raw=y}}}}
+|}
+
+===100%===
+{{DropsTableHead}}
+{{DropsLine|name=Malicious ashes|quantity=1|rarity=Always}}
+{{DropsTableBottom}}
+
+===Weapons and armour===
+{{DropsTableHead}}
+{{DropsLine|name=Adamant platelegs|quantity=1|rarity=4/116}}
+{{DropsLine|name=Rune 2h sword|quantity=1|rarity=4/116}}
+{{DropsLine|name=Rune full helm|quantity=1|rarity=3/116}}
+{{DropsLine|name=Adamant kiteshield|quantity=1|rarity=2/116}}
+{{DropsLine|name=Rune boots|quantity=1|rarity=1/116}}
+{{DropsTableBottom}}
+
+===Runes===
+{{DropsTableHead}}
+{{DropsLine|name=Chaos rune|quantity=37|rarity=8/116}}
+{{DropsLine|name=Death rune|quantity=5|rarity=6/116}}
+{{DropsLine|name=Death rune|quantity=10|rarity=6/116}}
+{{DropsLine|name=Law rune|quantity=25-35|rarity=5/116}}
+{{DropsLine|name=Blood rune|quantity=15-20|rarity=4/116}}
+{{DropsTableBottom}}
+
+===Seeds===
+{{RareSeedDropTableInfo|18/116}} ''When the rare seed table is rolled, it is rolled twice: for example, the "true" rate of Toadflax seeds is about 1/16.2. Additionally, limpwurt seeds are dropped separately, with no special mechanics.''
+{{DropsTableHead}}
+{{DropsLine|name=Limpwurt seed|quantity=1|rarity=6/116}}
+{{RareSeedDropLines|18/116|rolls=2|OverrideSnapeQuantity=3-6}}
+{{DropsTableBottom}}
+
+===Coins===
+{{DropsTableHead}}
+{{DropsLine|name=Coins|quantity=1000-1499|rarity=13/116|gemw=No}}
+{{DropsLine|name=Coins|quantity=1500-2000|rarity=10.5/116|gemw=No}}
+{{DropsLine|name=Coins|quantity=2500-2999|rarity=6/116|gemw=No}}
+{{DropsLine|name=Coins|quantity=3000-3500|rarity=3/116|gemw=No}}
+{{DropsLine|name=Coins|quantity=500-999|rarity=2.5/116|gemw=No}}
+{{DropsLine|name=Coins|quantity=5000|rarity=1/116|gemw=No}}
+{{DropsTableBottom}}
+
+===Other===
+{{DropsTableHead}}
+{{DropsLine|name=Soft clay|quantity=25 (noted)|rarity=4/116}}
+{{DropsLine|name=Tuna|quantity=1|rarity=3/116}}
+{{DropsTableBottom}}
+
+===Rare and Gem drop table===
+{{RareDropTable|1/116|5/116|naturetalisman=yes}}
+
+===Tertiary===
+{{DropsTableHead}}
+{{DropsLine|name=Brimstone key|quantity=1|rarity={{Brimstone rarity|115|bonus=yes}}|raritynotes=<ref group="d">Brimstone keys are only dropped if killed on a [[Slayer task]] given by [[Konar quo Maten]].</ref>|gemw=No|leagueRegion=Morytania&Kourend}}
+{{DropsLineClue|type=hard|rarity=1/128|raritynotes={{CiteTwitter|author=Mod Tide|url=https://twitter.com/JagexTide/status/1131933683714330624|date=24 May 2019|archiveurl=https://archive.fo/WUqwD|archivedate=24 May 2019|quote=I know its been a while since the clue expansion but here is the information on clue scroll drop rates and loot chances! If anything changes I will keep you posted.|name=Clue rates tweet}}}}
+{{DropsTableBottom}}
+{{Reflist|group="d"}}
+
+==Treasure Trails==
+*{{SherlockChallenge|Slaying a nechryael in the [[Slayer Tower]]|master}}
+
+==Changes==
+{{Subject changes header}}
+{{Subject changes
+|date = 16 June 2021
+|update = A Kingdom Divided
+|poll = A Kingdom Divided
+|change = Nechryaels now drop [[malicious ashes]] in place of regular ashes.
+}}
+{{Subject changes
+|date = 23 August 2018
+|update = Bush Yield Improvements, Nordic Soft Launch and Mobile Changes
+|change = The drop of 15 [[limpwurt root]]s (added in the previous drop table rebalance) was changed to a single [[limpwurt seed]] to balance the influx of limpwurt roots coming into the game.
+}}
+{{Subject changes
+|date = 15 September 2016
+|update = Superior Slayer Encounters
+|poll = Old School Content Poll 47: Rewards for Raids & Slayer
+|change = The drop table was improved to include more valuable drops and give two seeds instead of one.
+}}
+{{Subject changes
+|date = 28 April 2016
+|update = Calling Pets & Deadman Death
+|poll = Old School Content Poll 41: Bank placeholders & Skillcapes
+|change = More Nechryael spawns have been added to the Slayer Tower.
+}}
+{{Subject changes
+|date = 24 March 2016
+|update = White & Black Graceful
+|poll = Old School Content Poll 40: Vanilla LootShare & QoL
+|change = A nechryael spawn has been moved to prevent them wandering out of the nechryael room.
+}}
+{{Subject changes
+|daterange = 5 July –<br/>19 September 2005
+|change = The NPC's examine was changed from "An evil undead demon." to "An evil death demon."
+}}
+{{Subject changes footer}}
+
+==Trivia==
+*The model of the nechryael has an inverted pentagram on its chest, this orientation is considered a symbol of evil and is associated with the triumph of matter over spirit.
+
+==References==
+{{Reflist}}
+
+{{Slayer monsters}}
+{{Demons}}
+{{HasTask|Nechryael}}
+{{Otheruses|the stronger variant|the normal variant|Nechryael|the superior variant|Nechryarch}}
+{{Infobox Monster
+|version1 = Regular
+|version2 = Wilderness Slayer Cave
+|name = Greater Nechryael
+|image = [[File:Greater Nechryael.png|145px]]
+|release1 = [[9 June]] [[2016]]
+|release2 = [[3 February]] [[2022]]
+|update1 = The Catacombs of Kourend
+|update2 = Revenant Maledictus & Wilderness Changes
+|members = Yes
+|combat = 200
+|size = 1
+|examine = An evil death demon.
+|attributes = demon
+|xpbonus = 2.5
+|max hit = 21
+|aggressive = No
+|poisonous = No
+|attack style = [[Crush]]
+|attack speed = 4
+|slaylvl = 80
+|slayxp = 210
+|cat = Nechryael
+|assignedby = krystilia,vannaka,chaeldar,konar,nieve,duradel
+|hitpoints = 205
+|att = 197
+|str = 197
+|def = 85
+|mage = 1
+|range = 1
+|attbns = 0
+|strbns = 0
+|amagic = 0
+|mbns = 0
+|arange = 0
+|rngbns = 0
+|dstab = 50
+|dslash = 50
+|dcrush = 50
+|dmagic = 0
+|drange = 50
+|immunepoison = Not immune
+|immunevenom = Not immune
+|immunecannon = No
+|immunethrall = No
+|respawn = 15
+|id1 = 7278
+|id2 = 11240
+|dropversion1 = Regular,Catacombs of Kourend
+|dropversion2 = Wilderness Slayer Cave
+}}
+[[File:Nechryael icon.png|left]]
+'''Greater nechryael''' are stronger variants of [[nechryael]] that require level 80 [[Slayer]] to kill. They are found within the [[Catacombs of Kourend]], [[Iorwerth Dungeon]] and the [[Wilderness Slayer Cave]].
+
+Like normal nechryael, greater nechryael can summon up to two [[Death spawn|Death spawns]] when fighting a player. These death spawns are the same as the ones summoned by normal nechryael. Using [[Protect from Melee]] is recommended, as the greater nechryael is more accurate and deals even more damage. [[Arclight]] can be very effective against greater nechryael, as these are considered to be [[demons|demonic creatures]].
+
+Unlike the [[twisted banshee]], [[mutated bloodveld]], [[deviant spectre]] and [[warped jelly|warped jellies]], who have unique superior creatures compared to their standard counterparts, greater nechryael do not. They simply get the normal [[nechryarch]] instead, although its drop table corresponds to the unique superior creatures.
+
+==Locations==
+{{LocTableHead|league=yes}}
+{{LocLine
+|name = Greater Nechryael
+|location = [[Catacombs of Kourend]]
+|levels = 200
+|members = Yes
+|mapID = 32
+|plane = 0
+|x:1691,y:10081|x:1692,y:10078|x:1692,y:10083|x:1694,y:10082|x:1694,y:10084|x:1695,y:10079|x:1696,y:10081|x:1704,y:10081|x:1705,y:10079|x:1706,y:10083|x:1707,y:10085|x:1708,y:10079|x:1709,y:10081|x:1709,y:10083
+|mtype = pin
+|dropversion = Regular,Catacombs of Kourend
+|leagueRegion = Kourend
+}}
+{{LocLine
+|name = Greater Nechryael
+|location = [[Iorwerth Dungeon]]
+|levels = 200
+|members = Yes
+|mapID = 34
+|plane = 0
+|x:3218,y:12421|x:3220,y:12417|x:3220,y:12425|x:3223,y:12421|x:3223,y:12427|x:3225,y:12417|x:3226,y:12424|x:3228,y:12421|x:3221,y:12454|x:3221,y:12460|x:3224,y:12458|x:3225,y:12455|x:3228,y:12461|x:3231,y:12458|x:3234,y:12453|x:3234,y:12459
+|mtype = pin
+|dropversion = Regular
+|leagueRegion = Tirannwn
+}}
+{{LocLine
+|name=Greater Nechryael
+|location = [[Wilderness Slayer Cave]]
+|levels=200
+|members= Yes
+|mapID=26
+|plane=0
+|x:3335,y:10114|x:3332,y:10101|x:3334,y:10105|x:3334,y:10110|x:3336,y:10102|x:3337,y:10107|x:3339,y:10104|x:3341,y:10101
+|mtype= pin
+|dropversion = Wilderness Slayer Cave
+|leagueRegion = Wilderness
+}}
+{{LocTableBottom}}
+
+==Strategy==
+Greater nechryael in the Catacombs of Kourend are popularly killed using burst or barrage spells. To do this, turn on [[Protect from Melee]] drink a [[Goading potion]] dose to automatically draw their aggression. Run through the nechryael to stack them and cast the best burst or barrage spell available. Those without Goading potions can alternatively draw aggressiveness with a fast ranged weapon (such as cheap [[dart]]s or [[throwing knife|knives]]) or the [[Dinh's bulwark]] special attack. This is slower than using Goading potions, however.
+
+Prioritise equipment that gives high Magic damage bonuses, such as [[virtus robes]]. If Magic damage-boosting equipment is not available, use Prayer-boosting equipment that does not penalise Magic accuracy, such as [[vestment robes]]. Because of the low Magic defence of Greater Nechryael, having a high Magic accuracy is not important as this does not significantly increase damage output. Negative Magic accuracy will increase splashing however, so using equipment that penalises Magic accuracy (such as [[Proselyte armour]]) is not advised.
+
+Pay attention when a [[Nechryarch]] spawns, as its [[chaotic death spawn]]s deal high damage. To deal with them, autocast [[Blood Barrage]] to outheal the damage taken (provided that there are more regular nechryael next to it), use ice spells to safespot the Nechryarch, or disengage them by running out of their range of aggression and then returning to the Nechryarch.
+
+Greater nechryael can also be found in a multi-combat setting in the [[Wilderness Slayer Cave]] where they may also be cannoned. However, this is part of the Wilderness and there is the risk of running into player killers. In this location, take less risk and bank more frequently. Fortunately, they are found below level 30 Wilderness so a [[royal seed pod]] can be used for a fast escape option. These nechryael can only be killed when on a Slayer task.
+
+Finally, greater nechryael also reside in the [[Iorwerth Dungeon]]. Unlike the other two locations, this location is solely single-combat, although a cannon can be permitted in this area. This location requires completion of [[Song of the Elves]] and is ideal for players who are not intending to use multi-target combat methods to kill nechryael.
+
+==Drops==
+===Regular===
+{{DropLogProject|kills=534942}}<!--
+
+-->{{#vardefine:Nech_alchs|{{#expr:
+  7/128 * {{Alch|Adamant kiteshield}} +
+  7/128 * {{Alch|Rune axe}} +
+  7/128 * {{Alch|Rune sq shield}} +
+  5/128 * {{Alch|Adamant battleaxe}} +
+  4/128 * {{Alch|Rune med helm}} +
+  3/128 * {{Alch|Rune full helm}} +
+  2/128 * {{Alch|Mystic air staff}} +
+  1/128 * {{Alch|Rune boots}} +
+  1/128 * {{Alch|Rune chainbody}} +
+  1/87381 * {{Alch|Rune spear}} +
+  1/174763 * {{Alch|Shield left half}} +
+  1/233017 * {{Alch|Dragon spear}}
+}}}}
+
+{{Average drop value|mob=Greater Nechryael#Regular|mobname=Greater Nechryael}}
+
+{{Average drop value|mob=Greater Nechryael#Regular|mobname=Greater Nechryael|brimstone=yes}}
+
+The average high alch value of a Greater Nechryael kill is {{Coins|floor(({{#var:Nech_alchs}}))}} {{efn|counting only the "Weapons and armour" drop table, as other loot will not realistically be alched}}
+{{notelist}}
+
+====100%====
+{{DropsTableHead|dropversion=Regular}}
+{{DropsLine|name=Malicious ashes|quantity=1|rarity=Always}}
+{{DropsTableBottom}}
+
+====Weapons and armour====
+{{DropsTableHead|dropversion=Regular}}
+{{DropsLine|name=Adamant kiteshield|quantity=1|rarity=7/128}}
+{{DropsLine|name=Rune axe|quantity=1|rarity=7/128}}
+{{DropsLine|name=Rune sq shield|quantity=1|rarity=7/128}}
+{{DropsLine|name=Adamant battleaxe|quantity=1|rarity=5/128}}
+{{DropsLine|name=Rune med helm|quantity=1|rarity=4/128}}
+{{DropsLine|name=Rune full helm|quantity=1|rarity=3/128}}
+{{DropsLine|name=Mystic air staff|quantity=1|rarity=2/128}}
+{{DropsLine|name=Rune boots|quantity=1|rarity=1/128}}
+{{DropsLine|name=Rune chainbody|quantity=1|rarity=1/128}}
+{{DropsTableBottom}}
+
+====Runes====
+{{DropsTableHead|dropversion=Regular}}
+{{DropsLine|name=Death rune|quantity=23|rarity=12/128}}
+{{DropsLine|name=Blood rune|quantity=20|rarity=10/128}}
+{{DropsLine|name=Chaos rune|quantity=50|rarity=10/128}}
+{{DropsLine|name=Air rune|quantity=150|rarity=6/128}}
+{{DropsLine|name=Soul rune|quantity=25|rarity=5/128}}
+{{DropsTableBottom}}
+
+====Herbs====
+{{HerbDropTableInfo|7/128}}
+{{DropsTableHead|dropversion=Regular}}
+{{HerbDropLines|7/128}}
+{{DropsTableBottom}}
+
+====Seeds====
+{{RareSeedDropTableInfo|override=There is a 5/128 chance of rolling the [[rare seed drop table]]. The seed table is rolled twice, dropping two random seeds.}}
+{{DropsTableHead|dropversion=Regular}}
+{{RareSeedDropLines|5/128|rolls=2}}
+{{DropsTableBottom}}
+
+====Other====
+{{DropsTableHead|dropversion=Regular}}
+{{DropsLine|name=Lobster|quantity=1|rarity=10/128}}
+{{DropsLine|name=Coins|quantity=2000-2500|rarity=8/128|gemw=No}}
+{{DropsLine|name=Gold bar|quantity=5 (noted)|rarity=7/128}}
+{{DropsLine|name=Tuna|quantity=2|rarity=6/128}}
+{{DropsLine|name=Wine of zamorak|quantity=3 (noted)|rarity=2/128}}
+{{DropsTableBottom}}
+
+====Gem drop table====
+{{GemDropTable|3/128|naturetalisman=yes|dropversion=Regular}}
+
+====Tertiary====
+{{DropsTableHead|dropversion=Regular}}
+{{DropsLine|name=Crystal shard|quantity=3-5|rarity=1/24|raritynotes=<ref group=d>Crystal shards are only dropped by those found within the [[Iorwerth Dungeon]].</ref>|leagueRegion=Tirannwn}}
+{{DropsLine|name=Brimstone key|quantity=1|rarity={{Brimstone rarity|200|bonus=yes}}|raritynotes=<ref group=d>Brimstone keys are only dropped if killed on a [[Slayer task]] given by [[Konar quo Maten]].</ref>|gemw=No|leagueRegion=Kourend}}
+{{DropsLineClue|type=hard|rarity=1/128|raritynotes={{CiteTwitter|author=Mod Tide|url=https://twitter.com/JagexTide/status/1131933683714330624|date=24 May 2019|archiveurl=https://archive.fo/WUqwD|archivedate=24 May 2019|quote=I know its been a while since the clue expansion but here is the information on clue scroll drop rates and loot chances! If anything changes I will keep you posted.|name=Clue rates tweet}}}}
+{{DropsTableBottom}}
+{{Reflist|group=d}}
+
+====Catacombs tertiary====
+{{CatacombsDropTable|hitpoints=205|dropversion=Catacombs of Kourend}}
+
+===Wilderness Slayer Cave===
+{{#vardefine:Wildy_nech_alchs|{{#expr:
+  7/112 * {{Alch|Adamant kiteshield}} +
+  7/112 * {{Alch|Rune axe}} +
+  7/112 * {{Alch|Rune sq shield}} +
+  5/112 * {{Alch|Adamant battleaxe}} +
+  4/112 * {{Alch|Rune med helm}} +
+  3/112 * {{Alch|Rune full helm}} +
+  2/112 * {{Alch|Mystic air staff}} +
+  1/112 * {{Alch|Rune boots}} +
+  1/112 * {{Alch|Rune chainbody}} +
+  1/76459 * {{Alch|Rune spear}} +
+  1/152917 * {{Alch|Shield left half}} +
+  1/203890 * {{Alch|Dragon spear}}
+}}}}<!--
+
+-->{{Average drop value|mob=Greater Nechryael#Wilderness Slayer Cave|mobname=Greater Nechryael}}
+
+The average high alch value of a Greater Nechryael kill is {{Coins|floor(({{#var:Wildy_nech_alchs}}))}} {{efn|counting only the "Weapons and armour" drop table, as other loot will not realistically be alched}}
+{{notelist}}
+
+====100%====
+{{DropsTableHead|dropversion=Wilderness Slayer Cave}}
+{{DropsLine|name=Malicious ashes|quantity=1|rarity=Always}}
+{{DropsTableBottom}}
+
+====Weapons and armour====
+{{DropsTableHead|dropversion=Wilderness Slayer Cave}}
+{{DropsLine|name=Adamant kiteshield|quantity=1|rarity=7/112}}
+{{DropsLine|name=Rune axe|quantity=1|rarity=7/112}}
+{{DropsLine|name=Rune sq shield|quantity=1|rarity=7/112}}
+{{DropsLine|name=Adamant battleaxe|quantity=1|rarity=5/112}}
+{{DropsLine|name=Rune med helm|quantity=1|rarity=4/112}}
+{{DropsLine|name=Rune full helm|quantity=1|rarity=3/112}}
+{{DropsLine|name=Mystic air staff|quantity=1|rarity=2/112}}
+{{DropsLine|name=Rune boots|quantity=1|rarity=1/112}}
+{{DropsLine|name=Rune chainbody|quantity=1|rarity=1/112}}
+{{DropsTableBottom}}
+
+====Runes====
+{{DropsTableHead|dropversion=Wilderness Slayer Cave}}
+{{DropsLine|name=Death rune|quantity=23|rarity=12/112}}
+{{DropsLine|name=Blood rune|quantity=20|rarity=10/112}}
+{{DropsLine|name=Chaos rune|quantity=50|rarity=10/112}}
+{{DropsLine|name=Air rune|quantity=150|rarity=6/112}}
+{{DropsLine|name=Soul rune|quantity=25|rarity=5/112}}
+{{DropsTableBottom}}
+
+====Herbs====
+{{HerbDropTableInfo|7/112}}
+{{DropsTableHead|dropversion=Wilderness Slayer Cave}}
+{{HerbDropLines|7/112}}
+{{DropsTableBottom}}
+
+====Seeds====
+{{RareSeedDropTableInfo|5/112|override=There is a 5/112 chance of rolling the [[rare seed drop table]]. The seed table is rolled twice, dropping two random seeds.}}
+{{DropsTableHead|dropversion=Wilderness Slayer Cave}}
+{{RareSeedDropLines|5/112|1-2}}
+{{DropsTableBottom}}
+
+====Other====
+{{DropsTableHead|dropversion=Wilderness Slayer Cave}}
+{{DropsLine|name=Coins|quantity=2000-2500|rarity=8/112|gemw=No}}
+{{DropsLine|name=Gold bar|quantity=5 (noted)|rarity=7/112}}
+{{DropsLine|name=Wine of zamorak|quantity=3 (noted)|rarity=2/112}}
+{{DropsTableBottom}}
+
+====Gem drop table====
+{{GemDropTable|3/112|naturetalisman=yes|dropversion=Wilderness Slayer Cave}}
+
+====Tertiary====
+{{DropsTableHead|dropversion=Wilderness Slayer Cave}}
+{{DropsLine|name=Looting bag|quantity=1|rarity=1/3|gemw=No}}
+{{DropsLineClue|type=hard|rarity=1/128|raritynotes={{CiteTwitter|author=Mod Tide|url=https://twitter.com/JagexTide/status/1131933683714330624|date=24 May 2019|archiveurl=https://archive.fo/WUqwD|archivedate=24 May 2019|quote=I know its been a while since the clue expansion but here is the information on clue scroll drop rates and loot chances! If anything changes I will keep you posted.|name=Clue rates tweet}}}}
+{{DropsTableBottom}}
+{{Reflist|group=d}}
+
+====Wilderness Slayer tertiary====
+{{WildernessSlayerDropTable|combat=200|hitpoints=205|revenant=yes|slayerbonus=yes|dropversion=Wilderness Slayer Cave}}
+
+====Wilderness Slayer Cave tertiary====
+{{WildernessSlayerCaveDropTable|92/100|dropversion=Wilderness Slayer Cave}}
+
+==Changes==
+{{Subject changes header}}
+{{Subject changes
+|date = 11 September 2024
+|update = Araxxor CAs, Poll 82 Updates & More!
+|change = The amount of [[crystal shard]]s obtained from slayer monsters in the [[Iorwerth Dungeon]] has increased from 1 to 3-5.
+}}
+{{Subject changes footer}}
+
+==References==
+{{Reflist}}
+
+{{Slayer monsters}}
+{{Demons}}
+{{Iorwerth Dungeon}}

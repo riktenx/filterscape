@@ -1,0 +1,58 @@
+{
+  "100%": [
+    "Vile ashes"
+  ],
+  "Weapons and armour": [
+    "Steel axe",
+    "Steel full helm",
+    "Steel scimitar",
+    "Black boots",
+    "Mithril sq shield",
+    "Mithril chainbody",
+    "Rune med helm",
+    "Mithril full helm",
+    "Mithril battleaxe",
+    "Black med helm",
+    "Mithril axe",
+    "Adamant knife",
+    "Adamant chainbody",
+    "Adamant scimitar",
+    "Mithril platebody",
+    "Adamant longsword",
+    "Rune dagger",
+    "Rune battleaxe"
+  ],
+  "Runes": [
+    "Fire rune",
+    "Blood rune",
+    "Air rune",
+    "Soul rune"
+  ],
+  "Herbs": [],
+  "Coins": [
+    "Coins"
+  ],
+  "Other": [
+    "Bones",
+    "Big bones",
+    "Gold ore",
+    "Meat pizza",
+    "Coins",
+    "Bow string",
+    "Meat pie",
+    "Mithril bar",
+    "Ruby amulet"
+  ],
+  "Gem drop table": [],
+  "Tertiary": [
+    "Clue scroll (elite)",
+    "Reward casket (elite)",
+    "Looting bag",
+    "Ensouled bloodveld head",
+    "Brimstone key",
+    "Crystal shard"
+  ],
+  "Wilderness Slayer tertiary": [],
+  "Rare and Gem drop table": [],
+  "Catacombs tertiary": []
+}

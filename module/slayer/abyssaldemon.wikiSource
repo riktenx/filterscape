@@ -1,0 +1,332 @@
+{{External|rs|dw=Abyssal Demon}}
+{{Otheruses|the Slayer monster|the boss|Abyssal Sire|the superior variant|Greater abyssal demon}}
+{{HasTask|Abyssal demons}}
+{{Infobox Monster
+|version1 = Standard
+|version2 = Catacombs of Kourend
+|version3 = Wilderness Slayer Cave
+|name = Abyssal demon
+|image1 = [[File:Abyssal demon.png|200px]]
+|image2 = [[File:Abyssal demon (Catacombs of Kourend).png|200px]]
+|image3 = [[File:Abyssal demon.png|200px]]
+|release1 = [[26 January]] [[2005]]
+|release2 = [[9 June]] [[2016]]
+|release3 = [[3 February]] [[2022]]
+|update1 = Slayer Skill
+|update2 = The Catacombs of Kourend
+|update3 = Revenant Maledictus & Wilderness Changes
+|members = Yes
+|combat = 124
+|size = 1
+|examine = A denizen of the Abyss!
+|attributes = demon
+|xpbonus = 0
+|max hit = 8
+|aggressive = No
+|poisonous = No
+|attack style = [[Stab]]
+|attack speed = 4
+|respawn1 = 5
+|respawn2 = 15
+|respawn3 = 5
+|slaylvl = 85
+|slayxp = 150
+|cat = Abyssal Demons
+|assignedby = vannaka,chaeldar,konar,nieve,duradel,krystilia
+|hitpoints = 150
+|att = 97
+|str = 67
+|def = 135
+|mage = 1
+|range = 1
+|attbns = 0
+|strbns = 0
+|amagic = 0
+|mbns = 0
+|arange = 0
+|rngbns = 0
+|dstab = 20
+|dslash = 20
+|dcrush = 20
+|dmagic = 0
+|drange = 20
+|immunepoison = No
+|immunevenom = No
+|immunecannon = No
+|immunethrall = No
+|id1 = 415,416
+|id2 = 7241
+|id3 = 11239
+|dropversion1 = Standard
+|dropversion2 = Catacombs of Kourend
+|dropversion3 = Wilderness Slayer Cave
+}}
+[[File:Abyssal demon icon.png|left]]
+'''Abyssal demons''' are one of the [[strongest]] types of [[demons]], requiring level 85 [[Slayer]] to be damaged. Alongside their [[Abyssal Sire|boss variant]], they are the only creatures in the game to drop the [[abyssal whip]] and [[abyssal dagger]]. They have relatively high accuracy but their max hit of 8 is low for their combat level.
+
+In combat, abyssal demons are capable of teleporting either themselves or the player around, meaning that [[safespotting]] is not viable. When landing a [[successful hit]] on an abyssal demon, it has a 1/6 chance to teleport away, followed by a 1/3 chance to teleport the player away in case the first roll fails.{{CiteTwitter|author=Mod Ash|url=https://twitter.com/JagexAsh/status/1307639253657157632|date=20 September 2020|archiveurl=https://archive.ph/zQJcz|archivedate=28 February 2023|quote=When they're executing the damage code (even with a damage value of 0) they call a 1/6 chance of teleporting themselves, and if that fails they call a 1/3 chance of teleporting the player. Magical splashing doesn't execute damage code (i.e. no hitsplat) hence what you observe.}} Abyssal demons can teleport players up to 20 tiles away.{{CiteTwitter|author=Mod Ash|url=https://twitter.com/JagexAsh/status/1489689419636477954|date=4 February 2022|archiveurl=https://web.archive.org/web/20220204200200/https://twitter.com/JagexAsh/status/1489689419636477954|archivedate=4 February 2022|quote=The max range of their teleport is 20 tiles, so being teleported 20 tiles is conceivable. (...)}} When teleported, you will stop attacking the demon. Having [[Auto Retaliate]] turned on can help make sure you fight back. The forced teleport on the player can be avoided by reading a [[Teleport anchoring scroll]].
+
+Being a [[demon (attribute)|demon]], this creature is affected by [[demonbane weapons]].
+
+==Locations==
+{{LocTableHead|league=yes}}
+{{LocLine
+|name = Abyssal demon
+|location = [[Abyssal Area]] ({{Fairycode|alr}})
+|levels = 124
+|members = Yes
+|mapID = 10007
+|plane = 0
+|x:3025,y:4916|x:3016,y:4891|x:3018,y:4902|x:3029,y:4899|x:3036,y:4905|x:3023,y:4877|x:3035,y:4883|x:3046,y:4874|x:3046,y:4887|x:3048,y:4917|x:3053,y:4892|x:3056,y:4909|x:3061,y:4882
+|mtype = pin
+|dropversion = Standard
+|leagueRegion = Misthalin
+}}
+{{LocLine
+|name = Abyssal demon
+|location = [[Catacombs of Kourend]]
+|levels = 124
+|members = Yes
+|mapID = 32
+|plane = 0
+|x:1669,y:10054|x:1674,y:10056|x:1674,y:10061|x:1678,y:10058|x:1670,y:10086|x:1673,y:10084|x:1673,y:10096|x:1674,y:10087|x:1675,y:10091|x:1675,y:10094|x:1675,y:10098|x:1676,y:10085|x:1677,y:10095
+|mtype = pin
+|dropversion = Standard,Catacombs of Kourend
+|leagueRegion = Kourend
+}}
+{{LocLine
+|name = Abyssal demon
+|location = [[Slayer Tower]] ({{FloorNumber|uk=2}})
+|levels = 124
+|members = Yes
+|mapID = 0
+|plane = 2
+|x:3408,y:3573|x:3411,y:3564|x:3411,y:3570|x:3411,y:3576|x:3413,y:3573|x:3414,y:3562|x:3415,y:3569|x:3418,y:3567|x:3419,y:3562|x:3421,y:3573|x:3422,y:3570|x:3423,y:3565|x:3426,y:3569|x:3427,y:3572
+|mtype = pin
+|dropversion = Standard
+|leagueRegion = Morytania
+}}
+{{LocLine
+|name = Abyssal demon
+|location = [[Slayer Tower|Slayer Tower (basement)]]
+|levels = 124
+|members = Yes
+|mapID = 14
+|plane = 0
+|x:3427,y:9965|x:3432,y:9965|x:3433,y:9956|x:3433,y:9961|x:3436,y:9964|x:3436,y:9971|x:3437,y:9967|x:3438,y:9954|x:3440,y:9960|x:3440,y:9971|x:3441,y:9974|x:3442,y:9956|x:3442,y:9966|x:3445,y:9970
+|mtype = pin
+|dropversion = Standard
+|leagueRegion = Morytania
+}}
+{{LocLine
+|name = Abyssal demon
+|location = [[Wilderness Slayer Cave]]
+|levels = 124
+|members = Yes
+|mapID = 26
+|plane = 0
+|x:3335,y:10161|x:3339,y:10164|x:3340,y:10159|x:3340,y:10168|x:3343,y:10163|x:3345,y:10158|x:3345,y:10167|x:3347,y:10161
+|mtype = pin
+|dropversion = Wilderness Slayer Cave
+|leagueRegion = Wilderness
+}}
+{{LocTableBottom}}
+
+==Drops==
+===Standard and Catacombs of Kourend===
+{{DropLogProject|kills=1142066}}
+
+{| class="wikitable"
+! rowspan="2" |[[Konar quo Maten|Konar]] task
+! colspan="2" |Average drop value
+|-
+![[Grand Exchange|GE]]
+![[High Level Alchemy|HA]]
+|-
+|{{No}}
+|{{Coins|{{Average drop value|mob=Abyssal demon#Standard|raw=y}}}}
+|{{Coins|{{Average drop value|mob=Abyssal demon#Standard|alch=yes|raw=y}}}}
+|-
+|{{Yes}}
+|{{Coins|{{Average drop value|mob=Abyssal demon#Standard|brimstone=yes|raw=y}}}}
+|{{Coins|{{Average drop value|mob=Abyssal demon#Standard|brimstone=yes|alch=yes|raw=y}}}}
+|}
+====100%====
+{{DropsTableHead|dropversion=Standard}}
+{{DropsLine|name=Abyssal ashes|quantity=1|rarity=Always}}
+{{DropsTableBottom}}
+
+====Weapons and armour====
+{{DropsTableHead|dropversion=Standard}}
+{{DropsLine|name=Black sword|quantity=1|rarity=4/128}}
+{{DropsLine|name=Steel battleaxe|quantity=1|rarity=3/128}}
+{{DropsLine|name=Black axe|quantity=1|rarity=2/128}}
+{{DropsLine|name=Mithril kiteshield|quantity=1|rarity=1/128}}
+{{DropsLine|name=Rune chainbody|quantity=1|rarity=1/128}}
+{{DropsLine|name=Rune med helm|quantity=1|rarity=1/128}}
+{{DropsLine|name=Abyssal whip|quantity=1|rarity=1/512|raritynotes={{CiteForum|author=Envision|url=https://archive.fo/5P5mn|title=Drop Rates V2|postdate=14 July 2014}}}}
+{{DropsLine|name=Abyssal dagger|quantity=1|rarity=1/32000|raritynotes={{CiteNews|url=http://services.runescape.com/m=news/item-incinerator?oldschool=1|title=Item Incinerator|newsdate=30 June 2016|quote=Abyssal Demons have had the abyssal dagger added to their drop table with a drop rate of 1/32k.|name=dagger}}}}
+{{DropsTableBottom}}
+
+====Runes====
+{{DropsTableHead|dropversion=Standard}}
+{{DropsLine|name=Air rune|quantity=50|rarity=8/128}}
+{{DropsLine|name=Chaos rune|quantity=10|rarity=7/128}}
+{{DropsLine|name=Blood rune|quantity=7|rarity=4/128}}
+{{DropsLine|name=Law rune|quantity=3|rarity=1/128}}
+{{DropsTableBottom}}
+
+====Herbs====
+{{HerbDropTableInfo|19/128}}
+{{DropsTableHead|dropversion=Standard}}
+{{HerbDropLines|19/128}}
+{{DropsTableBottom}}
+
+====Materials====
+{{DropsTableHead|dropversion=Standard}}
+{{DropsLine|name=Pure essence|quantity=60 (noted)|rarity=5/128}}
+{{DropsLine|name=Adamantite bar|quantity=1|rarity=2/128}}
+{{DropsTableBottom}}
+
+====Coins====
+''The overall chance of rolling a coin drop is 58/128 with an average value of {{Coins|130}}.''
+{{DropsTableHead|dropversion=Standard}}
+{{DropsLine|name=Coins|quantity=132|rarity=35/128|gemw=No}}
+{{DropsLine|name=Coins|quantity=220|rarity=9/128|gemw=No}}
+{{DropsLine|name=Coins|quantity=30|rarity=7/128|gemw=No}}
+{{DropsLine|name=Coins|quantity=44|rarity=6/128|gemw=No}}
+{{DropsLine|name=Coins|quantity=460|rarity=1/128|gemw=No}}
+{{DropsTableBottom}}
+
+====Other====
+{{DropsTableHead|dropversion=Standard}}
+{{DropsLine|name=Lobster|quantity=1|rarity=2/128}}
+{{DropsLine|name=Cosmic talisman|quantity=1|rarity=1/128}}
+{{DropsLine|name=Chaos talisman|quantity=1|rarity=1/128}}
+{{DropsLine|name=Defence potion(3)|quantity=1|rarity=1/128}}
+{{DropsTableBottom}}
+
+====Rare and Gem drop table====
+{{RareDropTable|2/128|5/128|naturetalisman=yes|dropversion=Standard}}
+
+====Tertiary====
+{{DropsTableHead|dropversion=Standard}}
+{{DropsLine|name=Ensouled abyssal head|quantity=1|rarity=1/25}}
+{{DropsLine|name=Brimstone key|quantity=1|rarity={{Brimstone rarity|124|bonus=yes}}|raritynotes=<ref group=d>Brimstone keys are only dropped if killed on a [[Slayer task]] given by [[Konar quo Maten]].</ref>|gemw=No|leagueRegion=Kourend}}
+{{DropsLineClue|type=hard|rarity=1/128|raritynotes={{CiteForum|author=Envision|url=https://archive.fo/5P5mn|title=Drop Rates V2|name=drop|postdate=09 July 2014}}}}
+{{DropsLineClue|type=elite|rarity=1/1200|raritynotes={{NamedRef|drop}}}}
+{{DropsLine|name=Abyssal head|quantity=1|rarity=1/6000|raritynotes={{NamedRef|drop}}|gemw=No}}
+{{DropsTableBottom}}
+{{Reflist|group=d}}
+
+====Catacombs tertiary====
+{{CatacombsDropTable|hitpoints=150|catacombsonly=yes|dropversion=Catacombs of Kourend}}
+
+===Wilderness Slayer Cave===
+{{DropLogProject|kills=1180000}}
+
+{{SlayerDropValueTable|mob=Abyssal demon#Wilderness Slayer Cave|wildernessslayer=yes}}
+
+====100%====
+{{DropsTableHead|dropversion=Wilderness Slayer Cave}}
+{{DropsLine|name=Abyssal ashes|quantity=1|rarity=Always}}
+{{DropsTableBottom}}
+
+====Weapons and armour====
+{{DropsTableHead|dropversion=Wilderness Slayer Cave}}
+{{DropsLine|name=Black sword|quantity=1|rarity=4/68}}
+{{DropsLine|name=Steel battleaxe|quantity=1|rarity=3/68}}
+{{DropsLine|name=Black axe|quantity=1|rarity=2/68}}
+{{DropsLine|name=Mithril kiteshield|quantity=1|rarity=1/68}}
+{{DropsLine|name=Rune chainbody|quantity=1|rarity=1/68}}
+{{DropsLine|name=Rune med helm|quantity=1|rarity=1/68}}
+{{DropsLine|name=Abyssal whip|quantity=1|rarity=1/512|raritynotes={{CiteForum|author=Envision|url=https://archive.fo/5P5mn|title=Drop Rates V2|postdate=14 July 2014}}}}
+{{DropsLine|name=Abyssal dagger|quantity=1|rarity=1/32000|raritynotes=<ref name="dagger"/>}}
+{{DropsTableBottom}}
+
+====Runes====
+{{DropsTableHead|dropversion=Wilderness Slayer Cave}}
+{{DropsLine|name=Air rune|quantity=50|rarity=8/68}}
+{{DropsLine|name=Chaos rune|quantity=10|rarity=7/68}}
+{{DropsLine|name=Blood rune|quantity=7|rarity=4/68}}
+{{DropsLine|name=Law rune|quantity=3|rarity=1/68}}
+{{DropsTableBottom}}
+
+====Herbs====
+{{HerbDropTableInfo|19/68}}
+{{DropsTableHead|dropversion=Wilderness Slayer Cave}}
+{{HerbDropLines|19/68}}
+{{DropsTableBottom}}
+
+====Materials====
+{{DropsTableHead|dropversion=Wilderness Slayer Cave}}
+{{DropsLine|name=Pure essence|quantity=60 (noted)|rarity=5/68}}
+{{DropsLine|name=Adamantite bar|quantity=1|rarity=2/68}}
+{{DropsTableBottom}}
+
+====Other====
+{{DropsTableHead|dropversion=Wilderness Slayer Cave}}
+{{DropsLine|name=Cosmic talisman|quantity=1|rarity=1/68}}
+{{DropsLine|name=Chaos talisman|quantity=1|rarity=1/68}}
+{{DropsLine|name=Defence potion(3)|quantity=1|rarity=1/68}}
+{{DropsTableBottom}}
+
+====Rare and Gem drop table====
+{{RareDropTable|2/68|5/68|naturetalisman=yes|dropversion=Wilderness Slayer Cave}}
+
+====Tertiary====
+{{DropsTableHead|dropversion=Wilderness Slayer Cave}}
+{{DropsLine|name=Looting bag|quantity=1|rarity=1/3|gemw=No}}
+{{DropsLine|name=Ensouled abyssal head|quantity=1|rarity=1/25}}
+{{DropsLineClue|type=hard|rarity=1/128|raritynotes={{CiteForum|author=Envision|url=https://archive.fo/5P5mn|title=Drop Rates V2|name=drop|postdate=09 July 2014}}}}
+{{DropsLineClue|type=elite|rarity=1/1200|raritynotes={{NamedRef|drop}}}}
+{{DropsLine|name=Abyssal head|quantity=1|rarity=1/6000|raritynotes={{NamedRef|drop}}|gemw=No}}
+{{DropsTableBottom}}
+{{Reflist|group=d}}
+
+====Wilderness Slayer tertiary====
+{{WildernessSlayerDropTable|combat=124|revenant=yes|slayerbonus=yes|hitpoints=150|dropversion=Wilderness Slayer Cave}}
+
+====Wilderness Slayer Cave tertiary====
+{{WildernessSlayerCaveDropTable|80/100|dropversion=Wilderness Slayer Cave}}
+
+==Changes==
+{{Subject changes header}}
+{{Subject changes
+|date = 16 June 2021
+|update = A Kingdom Divided
+|poll = A Kingdom Divided
+|change = Abyssal demons now drop [[abyssal ashes]] in place of regular ashes.
+}}
+{{Subject changes
+|date = 4 May 2017
+|update = Skotos & Dark Claws
+|change = Abyssal Demons in the Slayer Tower Basement will now count towards the Morytania Achievement Diary.
+}}
+{{Subject changes
+|date = 30 June 2016
+|update = Item Incinerator
+|poll = Old School Content Poll 44: PvP & Player-owned houses
+|change = Abyssal Demons have had the abyssal dagger added to their drop table with a drop rate of 1/32k.
+}}
+{{Subject changes
+|date = 28 April 2016
+|update = Calling Pets & Deadman Death
+|poll = Old School Content Poll 41: Bank placeholders & Skillcapes
+|change = More Abyssal demon spawns have been added to the Slayer Tower.
+}}
+{{Subject changes
+|date = 18 February 2016
+|update = Dragon Claws & 3rd Birthday
+|change = The most southern Abyssal Demons in the Slayer Tower have been moved north marginally to prevent them from leaving their room.
+}}
+{{Subject changes footer}}
+
+==Trivia==
+*The iconic weapon dropped by the abyssal demon, the [[abyssal whip]], is the spine of the creature.{{CiteTwitter|archiveurl=https://archive.ph/E1Na4|archivedate=16 April 2022|author=Official RuneScape|url=https://twitter.com/runescape/status/999168549032640512|quote=Did you know, the Abyssal Whip is crafted from the spine of an abyssal demon 👿 Question: How do you recognize a real abyssal whip from a fake one? (© _Manks / Reddit) #WednesdayWisdom|date=23 May 2018}}
+
+==References==
+{{Reflist}}
+
+{{Slayer monsters}}
+{{Demons}}

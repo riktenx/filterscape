@@ -1,0 +1,42 @@
+{
+  "[[Abyssal Area]] ({{Fairycode|alr}})": [
+    3016,
+    4874,
+    0,
+    3061,
+    4917,
+    0
+  ],
+  "[[Catacombs of Kourend]]": [
+    1669,
+    10054,
+    0,
+    1678,
+    10098,
+    0
+  ],
+  "[[Slayer Tower]] ({{FloorNumber|uk": [
+    3408,
+    3562,
+    2,
+    3427,
+    3576,
+    2
+  ],
+  "[[Slayer Tower|Slayer Tower (basement)]]": [
+    3427,
+    9954,
+    0,
+    3445,
+    9974,
+    0
+  ],
+  "[[Wilderness Slayer Cave]]": [
+    3335,
+    10158,
+    0,
+    3347,
+    10168,
+    0
+  ]
+}

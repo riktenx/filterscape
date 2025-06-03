@@ -26,6 +26,12 @@ description: |
 
         // wiki has a formatting quirk that breaks the parser
         areas['Slayer tower (upstairs)'] = [3404, 3556, 1, 3429, 3579, 1];
+
+        // the wiki has one area, in reality there are 3 sub-areas
+        delete areas['[[Catacombs of Kourend]]'];
+        areas['kourend1'] = [1685, 10026, 0, 1698, 10005, 0];
+        areas['kourend2'] = [1669, 10069, 0, 1687, 10080, 0];
+        areas['kourend3'] = [1622, 10023, 0, 1641, 10040, 0];
       },
       getDefaults: () => {
         return {

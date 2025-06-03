@@ -1,0 +1,47 @@
+{
+  "100%": [
+    "Vampyre dust"
+  ],
+  "Weapons and armour": [
+    "Rune dagger",
+    "Adamant platelegs",
+    "Adamant platebody",
+    "Rune full helm",
+    "Rune kiteshield"
+  ],
+  "Runes and ammunition": [
+    "Death rune",
+    "Blood rune",
+    "Nature rune",
+    "Rune arrow",
+    "Rune javelin"
+  ],
+  "Herbs": [],
+  "Seeds": [],
+  "Bolt tips": [
+    "Opal bolt tips",
+    "Jade bolt tips",
+    "Topaz bolt tips",
+    "Pearl bolt tips",
+    "Sapphire bolt tips",
+    "Emerald bolt tips",
+    "Ruby bolt tips",
+    "Diamond bolt tips",
+    "Dragonstone bolt tips",
+    "Onyx bolt tips"
+  ],
+  "Materials": [
+    "Bark",
+    "Coal",
+    "Runite bar",
+    "Yew logs",
+    "Runite ore"
+  ],
+  "Coins": [
+    "Coins"
+  ],
+  "Rare drop table": [],
+  "Tertiary": [
+    "Brimstone key"
+  ]
+}

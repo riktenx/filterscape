@@ -1,0 +1,222 @@
+{{HasStrategy}}
+{{HasTask|Black demons|Monkeys}}
+{{Infobox Monster
+|name = Demonic gorilla
+|image = [[File:Demonic gorilla.png|260px]]
+|release = [[6 May]] [[2016]]
+|update = Monkey Madness II
+|members = Yes
+|combat = 275
+|size = 2
+|examine = One of Glough's demonic creations.
+|attributes = demon
+|xpbonus = 7.5
+|max hit = 31 (normal), 40 (special attack)
+|aggressive = Yes, unless the player has completed [[Monkey Madness II]]
+|poisonous = No
+|attack style = [[Crush]], [[Ranged]], [[Magic]]
+|attack speed = 5
+|slayxp = 408.5
+|cat = Black Demons, Monkeys
+|assignedby = turael,spria,chaeldar,steve,duradel
+|hitpoints = 380
+|att = 205
+|str = 195
+|def = 200
+|mage = 195
+|range = 195
+|attbns = 43
+|strbns = 29
+|amagic = 40
+|mbns = 29
+|arange = 43
+|rngbns = 29
+|dstab = 0
+|dslash = 0
+|dcrush = 0
+|dmagic = 20
+|dlight = 0
+|dstandard = 0
+|dheavy = 0
+|elementalweaknesstype = Water
+|elementalweaknesspercent = 35
+|immunepoison = No
+|immunevenom = Poison
+|immunecannon = Yes
+|immunethrall = No
+|respawn = 100
+|id = 7144,7145,7146,7147,7148,7149,7152
+}}
+'''Demonic gorillas''' are powerful creatures found in the [[Crash Site Cavern]]. Two of them are fought during [[Monkey Madness II]], in the penultimate stage of the fight. After the quest is completed, more demonic gorillas can be found in the caverns alongside their [[Tortured gorilla|tortured]] brethren. They are primarily killed for their [[zenyte shard]] and [[ballista]] component drops.
+
+Demonic gorillas count as [[monkey]]s and [[black demons]] for the progression of [[Slayer task]]s. As they are demons, they are susceptible to the effects of [[demonbane weapons]], excluding [[holy water]]. Demonic gorillas '''cannot''' be damaged with a [[Dwarf multicannon]].
+
+Players can check their kill count by reading [[Gravestone (Tree Gnome Stronghold)|Nieve's gravestone]] next to [[Lumo]] at the opening in the fence.
+
+==Location==
+{{LocTableHead|league=yes}}
+{{LocLine
+|name = Demonic gorilla
+|location = [[Crash Site Cavern]]
+|levels = 275
+|members = Yes
+|mapID = 10036
+|plane = 0
+|x:2072,y:5651|x:2072,y:5673|x:2072,y:5681|x:2073,y:5645|x:2079,y:5644|x:2080,y:5651|x:2082,y:5676|x:2095,y:5673|x:2102,y:5672|x:2102,y:5679|x:2094,y:5651|x:2095,y:5658|x:2096,y:5645|x:2100,y:5641|x:2102,y:5651|x:2105,y:5659|x:2107,y:5646|x:2111,y:5661|x:2123,y:5676|x:2130,y:5671|x:2131,y:5680|x:2142,y:5678|x:2152,y:5658|x:2152,y:5668|x:2152,y:5678|x:2157,y:5658|x:2112,y:5651|x:2119,y:5660
+|mtype = pin
+|leagueRegion = kandarin
+}}
+{{LocTableBottom}}
+
+==Fight overview==
+{{main|Demonic gorilla/Strategies}}
+Demonic gorillas use all three [[combat style]]s to attack. They will change combat styles after missing three hits in that attack style. They are also capable of using [[protection prayers]] and will switch to the player's last used combat style against them when they have taken 70 or more damage. Therefore, players must bring at least two different combat styles to kill them. As they have a very high magic level, they are most often killed with melee and ranged.
+
+The gorillas also have a special attack where they send a rock crashing down at the player's position, which can be easily avoided by moving one tile away from the current spot when the attack was initiated. If struck by this rock, the player will take 33% of their current health as damage; it cannot kill the player by itself as a result. (Warning! The player can be hit by other players rocks.)
+
+Note that the gorilla's prayers '''cannot''' be bypassed through the use of [[Verac the Defiled's equipment|Verac's set]] or [[special attacks]]. However, the healing effects of equipment like [[Guthan the Infested's equipment]] or [[Saradomin Godsword]] will still take place even through prayer.
+
+==Money making==
+{{Mmgsection|Killing demonic gorillas|mobname=demonic gorillas}}
+
+==Drops==
+{{DropLogProject|kills=14768867}}
+
+The average demonic gorilla kill is worth {{Coins|{{Average drop value|mob=Demonic gorilla|raw = y}}round 0|c}}, including [[zenyte shard]] drops. 
+
+Excluding zenyte shards, the average kill is worth {{Coins|{{#expr:{{Average drop value|mob=Demonic gorilla|raw=y}}-(1/300)*{{GEP|Zenyte shard}}}} round 0|c}}.
+
+===100%===
+{{DropsTableHead}}
+{{DropsLine|name=Malicious ashes|quantity=1|rarity=Always}}
+{{DropsTableBottom}}
+
+===Uniques===
+<!---Please don't change 5/500 into 1/100. Adding 5/500 was a conscious choice, since there are 500 slots on the loottable, of which 5 will redirect the player to the Uniques table.--->
+''There is a 5/500 chance of rolling the uniques sub-table.''
+{{DropsTableHead}}
+{{DropsLine|name=Zenyte shard|quantity=1|rarity=1/300}}
+{{DropsLine|name=Ballista limbs|quantity=1|rarity=1/500}}
+{{DropsLine|name=Ballista spring|quantity=1|rarity=1/500}}
+{{DropsLine|name=Light frame|quantity=1|rarity=1/750}}
+{{DropsLine|name=Heavy frame|quantity=1|rarity=1/1500}}
+{{DropsLine|name=Monkey tail|quantity=1|rarity=1/1500}}
+{{DropsTableBottom}}
+
+===Weapons and armour===
+{{DropsTableHead}}
+{{DropsLine|name=Rune platelegs|quantity=1|rarity=35/500}}
+{{DropsLine|name=Rune plateskirt|quantity=1|rarity=35/500}}
+{{DropsLine|name=Rune chainbody|quantity=1|rarity=20/500}}
+{{DropsLine|name=Dragon scimitar|quantity=1|rarity=10/500}}
+{{DropsTableBottom}}
+
+===Runes and ammunition===
+{{DropsTableHead}}
+{{DropsLine|name=Law rune|quantity=50-75|rarity=35/500}}
+{{DropsLine|name=Death rune|quantity=50-75|rarity=35/500}}
+{{DropsLine|name=Runite bolts|quantity=100-150|rarity=25/500}}
+{{DropsTableBottom}}
+
+===Herbs===
+''There is a 18/500 chance to get noted herbs. There is an equal chance of dropping 7 to 13 herbs of the same type.''
+{{#vardefine:herbbase|{{#expr:18/500/128}}}}
+{{DropsTableHead}}
+{{DropsLine|name=Grimy kwuarm|quantity=7-13 (noted)|rarity=1/{{#expr:1/(40*{{#var:herbbase}}) round 1}}}}
+{{DropsLine|name=Grimy cadantine|quantity=7-13 (noted)|rarity=1/{{#expr:1/(32*{{#var:herbbase}}) round 1}}}}
+{{DropsLine|name=Grimy lantadyme|quantity=7-13 (noted)|rarity=1/{{#expr:1/(24*{{#var:herbbase}}) round 1}}}}
+{{DropsLine|name=Grimy dwarf weed|quantity=7-13 (noted)|rarity=1/{{#expr:1/(32*{{#var:herbbase}}) round 1}}}}
+{{DropsTableBottom}}
+
+===Seeds===
+{{TreeHerbSeedDropTableInfo|override=There is a 25/500 chance of rolling the [[tree-herb seed drop table]]. This monster will always drop double the usual quantity from this table.}}
+{{DropsTableHead}}
+{{TreeHerbSeedDropLines|25/500|multiplier=2}}
+{{DropsTableBottom}}
+
+===Other===
+{{DropsTableHead}}
+{{DropsLine|name=Prayer potion(3)|quantity=2|rarity=40/500}}
+{{DropsLine|name=Shark|quantity=2-3|rarity=35/500}}
+{{DropsLine|name=Coins|quantity=5000-10000|rarity=25/500|gemw=No}}
+{{DropsLine|name=Saradomin brew(2)|quantity=1|rarity=25/500}}
+{{DropsLine|name=Adamantite bar|quantity=6 (noted)|rarity=20/500}}
+{{DropsLine|name=Javelin shaft|quantity=750-1250|rarity=25/500}}
+{{DropsLine|name=Rune javelin heads|quantity=45-55|rarity=25/500}}
+{{DropsLine|name=Dragon javelin heads|quantity=27-33|rarity=25/500}}
+{{DropsLine|name=Diamond|quantity=4-6 (noted)|rarity=17/500}}
+{{DropsLine|name=Runite bar|quantity=3 (noted)|rarity=15/500}}
+{{DropsTableBottom}}
+
+===Rare drop table===
+{{RareDropTable|5/500|naturetalisman=yes}}
+
+===Tertiary===
+{{DropsTableHead}}
+{{DropsLineClue|type=hard|rarity=1/100}}
+{{DropsLineClue|type=elite|rarity=1/500}}
+{{DropsTableBottom}}
+
+==Combat Achievements==
+{{Sync}}
+{{Combat Achievements list|Demonic Gorilla|mobname=demonic gorillas}}
+
+==Dialogue==
+{{Hastranscript|npc}}
+
+==Changes==
+{{Subject changes header}}
+{{Subject changes
+|date = 23 April 2025
+|update = Poll 84: Misc Mayhem
+|change = 
+* Demonic gorillas are no longer aggressive after completion of [[Monkey Madness II]].
+* Demonic gorillas will now switch prayers after being dealt 70 damage instead of 50.
+* Demonic gorillas will no longer switch prayers after the player lands six successful hits.
+}}
+{{Subject changes
+|date = 9 April 2025
+|update = Farming & Autocast QoL Improvements
+|change = The demonic gorillas' [[Magic defence]] has been reduced from +50 to +20.
+}}
+{{Subject changes
+|date = 8 January 2025
+|update = Run Energy Changes
+|change = Demonic Gorillas now correctly appear in the Combat Achievements monster drop-down list. 
+}}
+{{Subject changes
+|date = 29 May 2024
+|update = Project Rebalance: Combat Changes
+|change = Demonic gorillas now have a 35% elemental weakness to [[water spells]].
+}}
+{{subject changes
+|date = 17 May 2023
+|update = Tithe Farm Updates & More Poll 79!
+|poll = Old School Content Poll 79: Quality of Life
+|change =
+* There is now an audio indicator when Demonic gorillas switch [[attack styles]].
+* Demonic gorillas now reset their attack style after a certain period of time out of combat.
+}}
+{{Subject changes
+|date = 16 June 2021
+|update = A Kingdom Divided
+|poll = A Kingdom Divided
+|change = Demonic gorillas now drop [[malicious ashes]] in place of regular ashes.
+}}
+{{Subject changes footer}}
+
+==Gallery==
+<gallery captionalign="center" widths="180">
+RuneFest- Old School Reveals (6).png|Demonic gorilla concept art in [[RuneFest]] 2015 reveals.
+Monkey Madness II login screen.png|The [[login screen]] upon the release of Monkey Madness II, featuring a demonic gorilla.
+Monkey Madness II log in screen competition prize - 3D printed demonic gorilla.jpg|The 3D printed demonic gorilla given to the login screen competition winner.
+</gallery>
+
+==Trivia==
+*Demonic gorillas are similar to the [[tormented demons]]; both use all three forms of [[combat]], [[protection prayers]] and drop items that are used to create more powerful equipment.
+*Demonic gorillas' prayers were slightly changed several days after release due to several glitches happening with specific weapons, notably the [[Saradomin godsword]].
+
+{{Monkey Madness II}}
+{{Gorillas}}
+{{Demons}}
+[[Category:Quest monsters]]

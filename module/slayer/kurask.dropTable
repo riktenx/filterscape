@@ -1,0 +1,35 @@
+{
+  "100%": [
+    "Bones"
+  ],
+  "Weapons and armour": [
+    "Mithril kiteshield",
+    "Rune longsword",
+    "Adamant platebody",
+    "Rune axe",
+    "Leaf-bladed sword",
+    "Mystic robe top (light)",
+    "Leaf-bladed battleaxe"
+  ],
+  "Runes": [
+    "Nature rune"
+  ],
+  "Herbs": [],
+  "Seeds": [
+    "Limpwurt seed"
+  ],
+  "Other": [
+    "Coins",
+    "Flax",
+    "White berries",
+    "Papaya fruit",
+    "Coconut",
+    "Big bones"
+  ],
+  "Gem drop table": [],
+  "Tertiary": [
+    "Crystal shard",
+    "Brimstone key",
+    "Kurask head"
+  ]
+}

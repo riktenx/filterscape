@@ -1,0 +1,45 @@
+{
+  "100%": [
+    "Malicious ashes"
+  ],
+  "Uniques": [
+    "Zenyte shard",
+    "Ballista limbs",
+    "Ballista spring",
+    "Light frame",
+    "Heavy frame",
+    "Monkey tail"
+  ],
+  "Weapons and armour": [
+    "Rune platelegs",
+    "Rune plateskirt",
+    "Rune chainbody",
+    "Dragon scimitar"
+  ],
+  "Runes and ammunition": [
+    "Law rune",
+    "Death rune",
+    "Runite bolts"
+  ],
+  "Herbs": [
+    "Grimy kwuarm",
+    "Grimy cadantine",
+    "Grimy lantadyme",
+    "Grimy dwarf weed"
+  ],
+  "Seeds": [],
+  "Other": [
+    "Prayer potion(3)",
+    "Shark",
+    "Coins",
+    "Saradomin brew(2)",
+    "Adamantite bar",
+    "Javelin shaft",
+    "Rune javelin heads",
+    "Dragon javelin heads",
+    "Diamond",
+    "Runite bar"
+  ],
+  "Rare drop table": [],
+  "Tertiary": []
+}

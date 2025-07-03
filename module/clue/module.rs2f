@@ -2,6 +2,13 @@
 /*@ define:module:clues
 ---
 name: Clues
+description: |
+  Styles apply to the following items:
+
+  * Clue scrolls
+  * Scroll boxes
+  * Challenge scrolls
+  * Reward caskets
 */
 
 /*@ define:input:clues
@@ -65,22 +72,22 @@ label: Master clue
   borderColor = "#9b3026";
 
 
-rule (name:["clue scroll (beginner)", "reward casket (beginner)", "challenge scroll (beginner)"]) {
+rule (name:["scroll box (beginner)", "clue scroll (beginner)", "reward casket (beginner)", "challenge scroll (beginner)"]) {
   VAR_CLUE_BEGINNER_CUSTOMSTYLE
 }
-rule (name:["clue scroll (easy)", "reward casket (easy)", "challenge scroll (easy)"]) {
+rule (name:["scroll box (easy)", "clue scroll (easy)", "reward casket (easy)", "challenge scroll (easy)"]) {
   VAR_CLUE_EASY_CUSTOMSTYLE
 }
-rule (name:["clue scroll (medium)", "reward casket (medium)", "challenge scroll (medium)"]) {
+rule (name:["scroll box (medium)", "clue scroll (medium)", "reward casket (medium)", "challenge scroll (medium)"]) {
   VAR_CLUE_MEDIUM_CUSTOMSTYLE
 }
-rule (name:["clue scroll (hard)", "reward casket (hard)", "challenge scroll (hard)"]) {
+rule (name:["scroll box (hard)", "clue scroll (hard)", "reward casket (hard)", "challenge scroll (hard)"]) {
   VAR_CLUE_HARD_CUSTOMSTYLE
 }
-rule (name:["clue scroll (elite)", "reward casket (elite)", "challenge scroll (elite)"]) {
+rule (name:["scroll box (elite)", "clue scroll (elite)", "reward casket (elite)", "challenge scroll (elite)"]) {
   VAR_CLUE_ELITE_CUSTOMSTYLE
 }
-rule (name:["clue scroll (master)", "reward casket (master)", "challenge scroll (master)"]) {
+rule (name:["scroll box (master)", "clue scroll (master)", "reward casket (master)", "challenge scroll (master)"]) {
   VAR_CLUE_MASTER_CUSTOMSTYLE
 }
 

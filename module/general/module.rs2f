@@ -5,9 +5,6 @@ name: General options
 /*@ define:group
 ---
 name: Ownership filter
-description: |
-  Turn off "Ownership filter" and "Item spawn filter" settings in plugin config
-  and use these instead.
 */
 
 #define CONST_AREA_COX [3200, 5120, 0, 3391, 5759, 3]

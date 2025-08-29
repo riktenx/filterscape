@@ -44,21 +44,19 @@
 |immunepoison = yes
 |immunevenom = yes
 |immunecannon = yes
-|immunethrall = no
+|immunethrall = yes
 |respawn = 15
 |id1 = 410
 |id2 = 411
 }}
 [[File:Kurask icon.png|left]]
-'''Kurask''' are [[Slayer monsters]] that require a [[Slayer]] level of 70 to damage, as well as usage of [[leaf-bladed weapons]], [[broad bolts]], [[broad arrows]], [[amethyst broad bolts]], or [[Magic Dart]]. Kurask are immune to poison and venom. Kurask are also immune to damage from a [[dwarf multicannon]]. They can, however, take burning damage from weapons such as [[burning claws]].
+'''Kurask''' are [[Slayer monsters]] that require a [[Slayer]] level of 70 to kill. Like [[turoth]], they can only be damaged with [[leaf-bladed weapons]], [[Broad-tipped ammunition|broad ammunition]], or the [[Magic Dart]] spell; they are immune to any other types of attacks. They are, however, susceptible to [[burn]] damage from weapons such as [[burning claws]].
 
-Their attacks are relatively inaccurate due to their low attack level, but they can hit somewhat high if their attacks manage to land. Additionally, they have fast health regeneration, healing one [[Hitpoints|hitpoint]] every five game [[ticks]].
+Kurask are relatively inaccurate, but they can hit somewhat high if their attacks manage to land. Additionally, they have fast health regeneration, healing one [[Hitpoints|hitpoint]] every five [[Game tick|game ticks]]. Due to their relative inaccuracy, they can be fought without [[protection prayers]] by using [[Bones to Peaches]] for healing, though players may wish to activate [[Protect from Melee]] if the [[Superior slayer monster|superior version]], the [[king kurask]], spawns.
 
-Although kurask are invulnerable to any damage from [[Saradomin godsword]], [[ancient godsword]] and [[toxic blowpipe]] special attacks, the healing effect will still activate as if damage had been dealt, making them useful as special attack weapons during extended trips. The [[ancient mace]] and [[eldritch nightmare staff]] special attacks likewise restore [[Prayer]] points based on what damage would have been dealt. The [[Guthan the Infested's equipment|Guthan's equipment]] set effect does not restore health.
+Although kurask are invulnerable to any damage from the special attacks of [[Saradomin godsword]], [[ancient godsword]] and [[toxic blowpipe]], their healing effects will still activate as if damage had been dealt, making them useful as special attack weapons during extended trips. Likewise, the special attacks of [[ancient mace]] and [[eldritch nightmare staff]] will restore [[prayer points]] based on what damage would have been dealt. The set effect of [[Guthan the Infested's equipment|Guthan's equipment]] will not activate against kurask, however.
 
-These monsters, along with [[Turoth]], drop the [[leaf-bladed sword]]. They are also known for their [[Mystic robe top (light)|light mystic robe top]] and [[kurask head]] drops, as well as being the only monster to drop the [[leaf-bladed battleaxe]].
-
-{{Bug|Kurasks and [[turoth]]s are currently vulnerable to damage from [[ghostly thrall]]s (magic) and [[skeletal thrall]]s (ranged). They are still immune to damage from [[zombie thrall]]s (melee).}}
+Kurask, along with turoth, drop the [[leaf-bladed sword]]. They are also known for their [[Mystic robe top (light)|light mystic robe top]] and [[kurask head]] drops, as well as being the only monster to drop the [[leaf-bladed battleaxe]], alongside the superior version. 
 
 ==Location==
 {{LocTableHead|league=yes}}
@@ -103,6 +101,9 @@ File:Kurask (Fremennik Slayer Dungeon, upper level) safespot.png|thumb|left|A sa
 File:Kurask (Iorwerth Dungeon) safespot.png|thumb|left|Safespot on the northern-wall of the southern-most kurask section of Iorwerth Dungeon.
 </gallery>
 
+==Money making==
+{{Mmgsection|Killing kurasks}}
+
 ==Drops==
 {{DropLogProject|kills=480493}}
 
@@ -122,7 +123,7 @@ File:Kurask (Iorwerth Dungeon) safespot.png|thumb|left|Safespot on the northern-
 |{{Coins|{{Average drop value|mob=Kurask|brimstone=yes|alch=yes|raw=y}}}}
 |}
 
-The average Kurask kill in [[Iorwerth Dungeon]] is worth {{Coins|floor({{Average drop value|mob=Kurask|raw=y}} + 1/24*2.5*({{GEP|Divine super combat potion(4)}}-{{GEP|Super combat potion(4)}}) ) }} due to the additional chance of receiving a [[crystal shard]] as a tertiary drop. This value for crystal shards assumes that they are made into [[divine super combat potion]]s. For a Konar task in the Iorwerth Dungeon, the average Kurask kill is worth {{Coins|floor({{Average drop value|mob=Kurask|brimstone=yes|raw=y}} + 1/24*2.5*({{GEP|Divine super combat potion(4)}}-{{GEP|Super combat potion(4)}}) ) }}
+The average Kurask kill in [[Iorwerth Dungeon]] is worth {{Coins|floor({{Average drop value|mob=Kurask|raw=y}} + 4/24*2.5*({{GEP|Divine super combat potion(4)}}-{{GEP|Super combat potion(4)}}) ) }} due to the additional chance of receiving a [[crystal shard]]s as a tertiary drop. This value for crystal shards assumes that they are made into [[divine super combat potion]]s. For a Konar task in the Iorwerth Dungeon, the average Kurask kill is worth {{Coins|floor({{Average drop value|mob=Kurask|brimstone=yes|raw=y}} + 4/24*2.5*({{GEP|Divine super combat potion(4)}}-{{GEP|Super combat potion(4)}}) ) }}
 
 As they drop 3 herbs at a time, it may be worth considering bringing a [[herb sack]] to prolong slayer trips.
 
@@ -192,6 +193,11 @@ As they drop 3 herbs at a time, it may be worth considering bringing a [[herb sa
 ==Changes==
 {{Subject changes header}}
 {{Subject changes
+|date = 11 June 2025
+|update = Misc Galore & Yama Tweaks
+|change = [[Thrall]]s will no longer deal damage to kurasks.
+}}
+{{Subject changes
 |date = 11 September 2024
 |update = Araxxor CAs, Poll 82 Updates & More!
 |change = The amount of [[crystal shard]]s obtained from slayer monsters in the [[Iorwerth Dungeon]] has increased from 1 to 3-5.
@@ -216,7 +222,7 @@ As they drop 3 herbs at a time, it may be worth considering bringing a [[herb sa
 {{Subject changes footer}}
 
 ==Trivia==
-*There is a single Kurask with a slightly larger appearance in the [[Fremennik Slayer Dungeon]], in the non-task area. This Kurask differs only in its size and has an altered examine text which reflects its increased stature.
+*There is a single kurask with a slightly larger appearance in the [[Fremennik Slayer Dungeon]], in the non-task area. This kurask differs only in its size and has an altered examine text which reflects its increased stature.
 
 ==References==
 {{Reflist}}

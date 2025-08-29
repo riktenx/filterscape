@@ -13,8 +13,10 @@
 |members = Yes
 |combat = 111
 |size = 3
+|attributes = Golem
 |examine = Flies like a rock.
 |xpbonus = 0
+|flatarmour = -2
 |max hit = 11
 |aggressive = Yes
 |poisonous = No
@@ -43,6 +45,8 @@
 |dlight = 20
 |dstandard = 20
 |dheavy = -20
+|elementalweaknesstype = Earth
+|elementalweaknesspercent = 40
 |immunepoison1 = No
 |immunepoison2 = Yes
 |immunevenom1 = No
@@ -62,6 +66,10 @@ Because of the number of [[rune item]] drops, it is recommended to bring [[High 
 Gargoyles can be [[safespotted]] near the doorway in the south-west area at the top floor in Slayer Tower or in the north-east corner of the basement behind an immovable bucket on the floor.
 
 It should be noted that the gargoyles on the top floor of the tower are located after [[aberrant spectre]]s, who drain players' stats if they are not wearing a [[Slayer helmet]] or [[nose peg]]. They may be avoided by using the Agility shortcut in the north-east from {{FloorNumber|uk=1}} to {{FloorNumber|uk=2}}, although this route takes longer. These gargoyles are susceptible to [[poison]] and [[venom]]; the basement ones are immune to both.
+
+In the book [[The living statues]], it's revealed that the gargoyles were animated by the [[Bandosian]] general [[Snaarldor]] with the [[black tourmaline core]], but turned against them after they ordered the gargoyles to fight against the forces of [[Zamorak]]. This was due to the Slayer Tower being filled with Zamorakian magic, as the creator of the tower, [[Viggora]], was a Zamorakian.
+
+Being a [[Golem (attribute)|golem]], this creature is affected by [[golembane weapons]].
 
 ==Locations==
 {{LocTableHead|league=yes}}
@@ -170,6 +178,16 @@ It should be noted that the gargoyles on the top floor of the tower are located 
 
 ==Changes==
 {{Subject changes header}}
+{{Subject changes
+|date = 27 August 2025
+|update = Summer Sweep Up Slayer & More
+|change = Gargoyles are now vulnerable to [[golembane weapons]].
+}}
+{{Subject changes
+|date = 25 June 2025
+|update = Summer Sweep Up: Combat
+|change = Gargoyles now have a 40% elemental weakness to [[earth spells]] as well as a -2 flat armour.
+}}
 {{Subject changes
 |date = 29 May 2024
 |update = Project Rebalance: Combat Changes

@@ -2,8 +2,8 @@
 {{Otheruses|the normal variant|the stronger variant|mutated Bloodveld|the superior variant|insatiable Bloodveld}}
 {{HasTask|Bloodveld}}
 {{Infobox Monster
-|version1 = Standard
-|version2 = God Wars
+|version1 = Normal
+|version2 = GWD
 |name = Bloodveld
 |image1 = [[File:Bloodveld.png|250px]]
 |image2 = [[File:Bloodveld (God Wars Dungeon).png|250px]]
@@ -158,33 +158,21 @@ They can be safespotted using rocks in the [[Wilderness God Wars Dungeon|Wildern
 {{DropLogProject|kills=803317}}
 
 {| class="wikitable"
-! rowspan="2" |[[Konar quo Maten|Konar]] task
-! colspan="2" |Average drop value
+! rowspan="2" |[[Slayer]] bonus
+! colspan="3" |Average drop value
 |-
 ![[Grand Exchange|GE]]
 ![[High Level Alchemy|HA]]
 |-
-|{{No}}
+|{{NA}}
 |{{Coins|{{Average drop value|mob=Bloodveld|raw=y}}}}
 |{{Coins|{{Average drop value|mob=Bloodveld|alch=yes|raw=y}}}}
 |-
-|{{Yes}}
+|[[Konar quo Maten|Konar]]
 |{{Coins|{{Average drop value|mob=Bloodveld|brimstone=yes|raw=y}}}}
 |{{Coins|{{Average drop value|mob=Bloodveld|brimstone=yes|alch=yes|raw=y}}}}
-|}
-
-{| class="wikitable"
-! rowspan="2" |[[Krystilia]] task
-! colspan="2" |Average drop value
 |-
-![[Grand Exchange|GE]]
-![[High Level Alchemy|HA]]
-|-
-|{{No}}
-|{{Coins|{{Average drop value|mob=Bloodveld|raw=y}}}}
-|{{Coins|{{Average drop value|mob=Bloodveld|alch=yes|raw=y}}}}
-|-
-|{{Yes}}
+|[[Krystilia]]
 |{{Coins|{{Average drop value|mob=Bloodveld|wildernessslayer=yes|raw=y}}}}
 |{{Coins|{{Average drop value|mob=Bloodveld|wildernessslayer=yes|alch=yes|raw=y}}}}
 |}
@@ -418,13 +406,15 @@ File:Mutated Bloodveld (Meiyerditch Laboratories) safespot.png|A safespot locate
 </gallery>
 
 ==Drops==
-{{DropLogProject|kills=434982}}
+{{DropLogProject|kills=900516}}
 
 {{Average drop value|mobname=mutated Bloodveld}}
 
 {{Average drop value|mobname=mutated Bloodveld|alch=yes}}
 
 {{Average drop value|mobname=mutated Bloodveld|brimstone=yes}}
+
+If including the value of [[Crystal shard|crystal shards]] if turned into [[Divine super combat potion|divine super combat potions]], the average mutated Bloodveld kill in the Iowerth dungeon is worth {{Coins|floor({{Average drop value|mutated Bloodveld|raw=y}} + 4/24*2.5*({{GEP|Divine super combat potion(4)}}-{{GEP|Super combat potion(4)}}) )}}, ({{Coins|floor({{Average drop value|mutated Bloodveld|brimstone=yes|raw=y}} + 4/24*2.5*({{GEP|Divine super combat potion(4)}}-{{GEP|Super combat potion(4)}}) )}} if on a Konar task).
 
 ===100%===
 {{DropsTableHead}}
@@ -454,7 +444,7 @@ File:Mutated Bloodveld (Meiyerditch Laboratories) safespot.png|A safespot locate
 {{DropsLine|name=Fire rune|quantity=75|rarity=9/128}}
 {{DropsLine|name=Blood rune|quantity=30|rarity=13/128}}
 {{DropsLine|name=Blood rune|quantity=7|rarity=10/128}}
-{{DropsLine|name=Soul rune|quantity=4|rarity=7/128}}
+{{DropsLine|name=Soul rune|quantity=10|rarity=7/128}}
 {{DropsTableBottom}}
 
 ===Other===
@@ -473,14 +463,13 @@ File:Mutated Bloodveld (Meiyerditch Laboratories) safespot.png|A safespot locate
 
 ===Tertiary===
 {{DropsTableHead}}
-{{DropsLine|name=Clue scroll (elite)|quantity=1|rarity=Always|raritynotes=<ref name='elite' group='d'>The elite clue scroll and casket are only dropped when completing an elite clue scroll asking you to kill a Bloodveld</ref>|gemw=No|smw=No}}
-{{DropsLine|name=Reward casket (elite)|quantity=1|rarity=Always|raritynotes=<ref name='elite' group='d' />|gemw=No}}
+{{DropsLine|name=Clue scroll (elite)|quantity=1|rarity=Always|raritynotes=<ref name=elite group=d>The elite clue scroll and casket are only dropped when completing an elite clue scroll asking you to kill a Bloodveld</ref>|gemw=No|smw=No}}
+{{DropsLine|name=Reward casket (elite)|quantity=1|rarity=Always|raritynotes=<ref name=elite group=d />|gemw=No}}
 {{DropsLine|name=Ensouled bloodveld head|quantity=1|rarity=1/20}}
-{{DropsLine|name=Crystal shard|quantity=3-5|rarity=1/24|raritynotes=<ref group="d">Crystal shards are only dropped by those found within the [[Iorwerth Dungeon]].</ref>|leagueRegion=Tirannwn}}
-{{DropsLine|name=Brimstone key|quantity=1|rarity={{Brimstone rarity|123|bonus=yes}}|raritynotes=<ref group='d'>Brimstone keys are only dropped if killed on a [[Slayer task]] given by [[Konar quo Maten]].</ref>|gemw=No|leagueRegion=Kourend}}
+{{DropsLine|name=Crystal shard|quantity=3-5|rarity=1/24|raritynotes=<ref group=d>Crystal shards are only dropped by those found within the [[Iorwerth Dungeon]].</ref>|leagueRegion=Tirannwn}}
+{{DropsLine|name=Brimstone key|quantity=1|rarity={{Brimstone rarity|123|bonus=yes}}|raritynotes=<ref group=d>Brimstone keys are only dropped if killed on a [[Slayer task]] given by [[Konar quo Maten]].</ref>|gemw=No|leagueRegion=Kourend}}
 {{DropsLineClue|type=hard|rarity=1/128|raritynotes={{CiteTwitter|author=Mod Ash|url=https://twitter.com/JagexAsh/status/1104000231765622784|date=8 March 2019|archiveurl=https://archive.is/Bd630|archivedate=23 March 2019|quote=That's rather odd, since they're only 1/128. You presumably can't pick them all up, right?}}}}
 {{DropsTableBottom}}
-{{Reflist|group="d"}}
 
 ===Catacombs tertiary===
 {{CatacombsDropTable|hitpoints=170|catacombsonly=yes|leagueRegion=Kourend}}
@@ -490,6 +479,11 @@ File:Mutated Bloodveld (Meiyerditch Laboratories) safespot.png|A safespot locate
 
 ==Changes==
 {{Subject changes header}}
+{{Subject changes
+|date = 25 June 2025
+|update = Summer Sweep Up: Combat
+|change = The quantity of [[soul rune]]s dropped has been increased from 4 to 10.
+}}
 {{Subject changes
 |date = 11 September 2024
 |update = Araxxor CAs, Poll 82 Updates & More!

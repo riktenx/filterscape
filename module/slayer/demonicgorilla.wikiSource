@@ -72,7 +72,9 @@ Players can check their kill count by reading [[Gravestone (Tree Gnome Stronghol
 {{main|Demonic gorilla/Strategies}}
 Demonic gorillas use all three [[combat style]]s to attack. They will change combat styles after missing three hits in that attack style. They are also capable of using [[protection prayers]] and will switch to the player's last used combat style against them when they have taken 70 or more damage. Therefore, players must bring at least two different combat styles to kill them. As they have a very high magic level, they are most often killed with melee and ranged.
 
-The gorillas also have a special attack where they send a rock crashing down at the player's position, which can be easily avoided by moving one tile away from the current spot when the attack was initiated. If struck by this rock, the player will take 33% of their current health as damage; it cannot kill the player by itself as a result. (Warning! The player can be hit by other players rocks.)
+The gorillas also have a special attack where they send a rock crashing down at the player's position, which can be easily avoided by moving one tile away from the current spot when the attack was initiated. If struck by this rock, the player will take 33% of their current health as damage; it cannot kill the player by itself as a result. 
+
+'''({{Colour|red|Warning:}} The player can be hit by other players' rocks.)'''
 
 Note that the gorilla's prayers '''cannot''' be bypassed through the use of [[Verac the Defiled's equipment|Verac's set]] or [[special attacks]]. However, the healing effects of equipment like [[Guthan the Infested's equipment]] or [[Saradomin Godsword]] will still take place even through prayer.
 
@@ -166,6 +168,11 @@ Excluding zenyte shards, the average kill is worth {{Coins|{{#expr:{{Average dro
 
 ==Changes==
 {{Subject changes header}}
+{{Subject changes
+|date = 30 July 2025
+|update = Varlamore: Bug Fixes & More
+|change = Demonic gorillas will no longer display the wrong overhead prayer when attacked by thralls.
+}}
 {{Subject changes
 |date = 23 April 2025
 |update = Poll 84: Misc Mayhem

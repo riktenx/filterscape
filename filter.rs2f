@@ -1053,7 +1053,7 @@ CONST_GARGOYLE_RULE (name:VAR_GARGOYLE_ENUMLIST_FILTER_TERTIARY) {
 #define CONST_AREA_ABYSSALDEMON0 [3016,4874,0,3061,4917,0] // [[Abyssal Area]] ({{Fairycode|alr}})
 #define CONST_AREA_ABYSSALDEMON1 [1669,10054,0,1678,10098,0] // [[Catacombs of Kourend]]
 #define CONST_AREA_ABYSSALDEMON2 [3408,3562,2,3427,3576,2] // [[Slayer Tower]] ({{FloorNumber|uk
-#define CONST_AREA_ABYSSALDEMON3 [3427,9954,0,3445,9974,0] // [[Slayer Tower|Slayer Tower (basement)]]
+#define CONST_AREA_ABYSSALDEMON3 [3427,9954,3,3445,9974,3] // [[Slayer Tower|Slayer Tower (basement)]]
 #define CONST_AREA_ABYSSALDEMON4 [3335,10158,0,3347,10168,0] // [[Wilderness Slayer Cave]]
 #define CONST_ABYSSALDEMON_RULE(_cond) rule ((area:CONST_AREA_ABYSSALDEMON0 || \
   area:CONST_AREA_ABYSSALDEMON1 || \
@@ -1450,17 +1450,6 @@ enum: ["Guthixian temple teleport","Magic shortbow (u)","Magic longbow (u)","Mal
 */
 #define VAR_TORMENTEDDEMON_ENUMLIST_FILTER_OTHER []
 CONST_TORMENTEDDEMON_RULE (name:VAR_TORMENTEDDEMON_ENUMLIST_FILTER_OTHER) {
-  hidden = true;
-}
-
-/*@ define:input
-type: enumlist
-label: 'Hide drops: Tertiary'
-group: Tormented demon
-enum: ["Clue scroll (elite)"]
-*/
-#define VAR_TORMENTEDDEMON_ENUMLIST_FILTER_TERTIARY []
-CONST_TORMENTEDDEMON_RULE (name:VAR_TORMENTEDDEMON_ENUMLIST_FILTER_TERTIARY) {
   hidden = true;
 }
 

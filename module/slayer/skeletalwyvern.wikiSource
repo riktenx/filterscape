@@ -57,9 +57,11 @@
 |id2 = 465
 |id3 = 466
 |id4 = 467
+|elementalweaknesstype=Fire
+|elementalweaknesspercent=25
 }}
 [[File:Skeletal Wyvern icon.png|left]]
-'''Skeletal wyverns''' are [[Slayer monsters]] that require a [[Slayer]] level of 72 in order to be harmed. They are found at the end of the [[Asgarnian Ice Dungeon]]. There is a shortcut at the ladder to the Ice Dungeon leading to the skeletal wyverns requiring level 82 agility (or level 77 agility with a [[Summer pie]]). Like other [[wyverns]], they require an [[elemental shield]], [[mind shield]], [[dragonfire shield]], [[dragonfire ward]], or [[ancient wyvern shield]] to reduce damage from their [[Dragonfire#Icy breath|icy breath]]; however, it is not required to be slain. They are also the only monster that drop [[granite legs]].
+'''Skeletal wyverns''' are [[Slayer monsters]] that require a [[Slayer]] level of 72 in order to be harmed. They are found at the end of the [[Asgarnian Ice Dungeon]]. There is a shortcut at the ladder to the Ice Dungeon leading to the skeletal wyverns requiring level 82 [[Agility]] (or level 77 Agility with a [[Summer pie]]). Like other [[wyverns]], they require an [[elemental shield]], [[mind shield]], [[dragonfire shield]], [[dragonfire ward]], or [[ancient wyvern shield]] to reduce damage from their [[Dragonfire#Icy breath|icy breath]]; however, it is not required to be slain. They are also the only monster that drop [[granite legs]].
 
 Although it is insinuated in [[Tarn's diary]] that skeletal wyverns are [[undead]], they are in fact re-animated remains, whereas actual undead creatures have come back to life. This means that the [[Salve amulet]] and its enchanted versions do '''not''' work against them.
 
@@ -187,20 +189,25 @@ The average skeletal wyvern kill, including its unique drops, is worth {{Coins|{
 ==Changes==
 {{Subject changes header}}
 {{Subject changes
+|date = 25 June 2025
+|update = Summer Sweep Up: Combat
+|change = Skeletal Wyverns now have a 25% [[elemental weakness]] to [[fire spells]].
+}}
+{{Subject changes
 |date = 31 January 2024
 |update = Scurrius & DT2 Combat Achievements
 |change = The range of [[aggressiveness]] of skeletal wyverns has been slightly lowered.
+}}
+{{Subject changes
+|date = 21 January 2016
+|update = The Dragon Warhammer
+|change = A task-only skeletal wyvern area was added.
 }}
 {{Subject changes
 |date = 18 September 2014
 |update = Bounty Hunter
 |poll = Old School feature poll - Content Poll 24
 |change = The drop table was given a boost in value, with items like battlestaves, magic logs, and rune items added. Previously, their only drops of value were the granite legs and draconic visage.
-}}
-{{Subject changes
-|date = 21 January 2016
-|update = The Dragon Warhammer
-|change = A task-only skeletal wyvern area was added.
 }}
 {{Subject changes footer}}
 

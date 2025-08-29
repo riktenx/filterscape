@@ -38,6 +38,9 @@
 |dcrush = 20
 |dmagic = 0
 |drange = 15
+|dstandard = -15 <!-- the 2025 summer sweep-up spreadsheet said 0, but per Monster Examine it is -15 -->
+|elementalweaknesstype = Air
+|elementalweaknesspercent = 50
 |immunepoison = Not immune
 |immunevenom = Not immune
 |immunecannon = No
@@ -184,6 +187,12 @@ File:Stronghold Tile Marked Safespots.png|Safespot in the [[Stronghold Slayer Ca
 
 ==Changes==
 {{Subject changes header}}
+{{Subject changes
+|date = 25 June 2025
+|update = Summer Sweep Up: Combat
+|change = * Aberrant spectres now have a 50% [[elemental weakness]] to [[air spells]].
+* Aberrant spectres standard [[Ranged]] defence was decreased from 15 to -15.
+}}
 {{Subject_changes
 |date = 6 January 2021
 |update = Soul Wars And 20th Anniversary Event

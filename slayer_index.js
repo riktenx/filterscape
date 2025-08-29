@@ -222,6 +222,10 @@ CONST_${scope}_RULE (VAR_${scope}_BOOLEAN_HIDESMALLCOINS && name:"Coins" && valu
     name: 'Abyssal demon',
     url: 'https://oldschool.runescape.wiki/w/Abyssal_demon',
     transform: {
+      updateMapAreas: (areas) => {
+        // wiki is wrong
+        setPlane(areas, '[[Slayer Tower|Slayer Tower (basement)]]', 3);
+      },
       getDefaults: () => {
         return {
           'Weapons and armour': [

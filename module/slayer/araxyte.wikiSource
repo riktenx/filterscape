@@ -63,9 +63,11 @@
 |id2 = 11176,13667
 |leagueRegion = Morytania
 }}
-'''Araxytes''' are a rare species of arachnid found exclusively in the [[Morytania Spider Cave]], requiring level 92 [[Slayer]] to kill. As they are abundant in numbers, able to inflict [[venom]], and in a [[multicombat area]], it is dangerous to fight them without prayer and a method to stave off venom.
+'''Araxytes''' are a venomous species of arachnid found exclusively in the [[Morytania Spider Cave]], requiring level 92 [[Slayer]] to kill. As they are abundant in numbers, able to inflict [[venom]], and in a [[multicombat area]], it is dangerous to fight them without prayer and a method to stave off venom.
 
-Only the larger level 146 araxytes are able to spawn the [[Dreadborn Araxyte|superior variant]].{{CiteReddit|author=JagexBlossom|url=https://www.reddit.com/r/2007scape/comments/1f8p7wx/araxxor_tweaks_poll_82_updates/llg26dy/|title=Araxxor Tweaks & Poll 82 Updates|quote=Hey there :) I can confirm that lvl 96 araxxytes don't spawn superiors, so it is indeed working correctly. |date=|4 September 2024}}
+There are two forms of araxytes; a level 96 version which is 1x1, and a level 146 version which is 2x2 and has slightly higher stats. They are killed for their [[aranea boots]] drop, a hybrid set of boots versatile when using multiple combat styles in one setup.
+
+While both variants share the same drop table, the level 146 variants can be preferable to kill over the level 96 variants; their common drops are doubled, and the drop rate of the aranea boots are additionally doubled. They are also capable of spawning the [[Dreadborn Araxyte]], something that the level 96 variants are incapable of doing.{{CiteReddit|author=JagexBlossom|url=https://www.reddit.com/r/2007scape/comments/1f8p7wx/araxxor_tweaks_poll_82_updates/llg26dy/|title=Araxxor Tweaks & Poll 82 Updates|quote=Hey there :) I can confirm that lvl 96 araxxytes don't spawn superiors, so it is indeed working correctly. |date=|4 September 2024|archiveurl=https://archive.is/mb2Ck|archivedate=7 April 2025}} However, players may still choose to kill the level 96 variant, as their lower HP makes them one of the fastest slayer tasks.
 
 They play a minor role in the quest [[A Night at the Theatre]], where players must steal some [[strange spider eggs]] from their cave.
 
@@ -234,7 +236,7 @@ When not on a slayer task, the average araxyte kill is worth {{Coins|floor({{Ave
 
 ===Tertiary===
 {{DropsTableHead|dropversion=Level 146}}
-{{DropsLineClue|type=hard|rarity=1/128}}
+{{DropsLineClue|type=hard|rarity=1/86|raritynotes={{CiteDiscord|author=JagexAsh|url=https://discord.com/channels/324132423636090880/431834766325841920/1402625430871216219|date=26 August 2025|quote=86, I think.|image=JagexAsh_araxyte_level_146_hard_clue_droprate.png|ctximage=Kusho_araxyte_level_146_hard_clue_droprate.png|ctxquote=Are you able to provide the drop rate for hard clue scrolls from lvl 146 Araxytes?|notes=|name=HardClueRate|group=}}}}
 {{DropsTableBottom}}
 
 ==Gallery==

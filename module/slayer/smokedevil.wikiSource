@@ -38,6 +38,8 @@
 |dcrush = 0
 |dmagic = 600
 |drange = 44
+|elementalweaknesstype = Air
+|elementalweaknesspercent = 30
 |immunepoison = Immune
 |immunevenom = Immune
 |immunecannon = No
@@ -156,6 +158,15 @@ Although smoke devils are similar to dust devils, they do '''not''' count for du
 {{DropsLineClue|type=elite|rarity=1/750|raritynotes={{NamedRef|DV2}}}}
 {{DropsTableBottom}}
 {{Reflist|group=d}}
+
+==Changes==
+{{Subject changes header}}
+{{Subject changes
+|date = 25 June 2025
+|update = Summer Sweep Up: Combat
+|change = Smoke devils now have a 30% elemental weakness to [[air spells]].
+}}
+{{Subject changes footer}}
 
 ==Trivia==
 *The smoke devil was first added to the game on [[26 January]] [[2005]] under the name '''Smokedevil''', described as "''The cave-dwelling cousin of the dust devils.''" Unlike the dust devil, it was not made accessible to players with the release of the [[Smoke Dungeon]].

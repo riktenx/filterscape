@@ -1,4 +1,5 @@
 {{External|rs|rsc=Black Demon}}
+{{Otheruses|the generic monster found across [[Gielinor]]|the quest boss from [[The Grand Tree]]|Black demon (The Grand Tree)|the [[Nightmare Zone]] variant|Black demon (Nightmare Zone)}}
 {{HasTask|Black demons}}
 {{Infobox Monster
 |version1 = Level 172
@@ -9,7 +10,10 @@
 |name2 = Black demon
 |name3 = Black demon
 |name4 = Black demon
-|image = [[File:Black demon.png|70px]][[File:Black demon (2).png|70px]][[File:Black demon (3).png|70px]][[File:Black demon (5).png|70px]]
+|image = [[File:Black demon.png|90px]][[File:Black demon (3).png|90px]][[File:Black demon (5).png|90px]][[File:Black demon (6).png|90px]][[File:Black demon (2).png|90px]]
+|image2 = [[File:Black demon (5).png|250px]]
+|image3 = [[File:Black demon (3).png|250px]]
+|image4 = [[File:Black demon.png|90px]][[File:Black demon (3).png|90px]][[File:Black demon (5).png|90px]]
 |release1 = [[27 February]] [[2002]]
 |release2 = [[9 June]] [[2016]]
 |release3 = [[9 June]] [[2016]]
@@ -97,11 +101,11 @@
 [[File:Black demon icon.png|left]]
 '''Black demons''' are large [[demons]] that inhabit various [[List of dungeons|dungeons]] throughout [[Gielinor]]. As demons, they have high [[combat]] stats but rather low [[Defence]] for their level. They are weak to [[demonbane weapons]]; as with most demons, they are also weak to [[magical]] attacks.
 
-A [[Black demon (The Grand Tree)|unique black demon]] is defeated during [[The Grand Tree]]. This demon can be re-fought in the [[Nightmare Zone]] after the quest has been completed.
+A [[Black demon (The Grand Tree)|unique black demon]] is defeated during [[The Grand Tree]]. This demon can be re-fought in the [[Nightmare Zone]] after the quest has been completed. [[Black demon (The Scar)|Black demons]] as well as [[Scarred black demon]]s can be found in [[The Scar]].
 
 [[Demonic gorilla]]s, [[Balfrug Kreeyath]], [[Skotizo]], [[Porazdir]], and [[Kolodion]]'s final form can also be killed in place of black demons in regards to a Slayer task.
 
-Black demons can be [[safespot]]ted with [[Magic]], [[Ranged]] or [[halberd]]s in all of their locations.
+Black demons can be [[safespot]]ted with [[Magic]], [[Ranged]], or [[halberd]]s in all of their locations.
 
 ==Locations==
 {{LocTableHead|league=yes}}
@@ -193,33 +197,21 @@ File:Black demon (Wilderness Slayer Cave) safespot.png|Safespot found in [[Wilde
 {{DropLogProject|jagex=yes}}
 
 {| class="wikitable"
-! rowspan="2" |[[Konar quo Maten|Konar]] task
-! colspan="2" |Average drop value
+! rowspan="2" |Slayer Master
+! colspan="3" |Average drop value
 |-
 ![[Grand Exchange|GE]]
 ![[High Level Alchemy|HA]]
 |-
-|{{No}}
+|{{NA}}
 |{{Coins|{{Average drop value|mob=Black demon#Regular|raw=y}}}}
 |{{Coins|{{Average drop value|mob=Black demon#Regular|alch=yes|raw=y}}}}
 |-
-|{{Yes}}
+|[[Konar quo Maten|Konar]]
 |{{Coins|{{Average drop value|mob=Black demon#Regular|brimstone=yes|raw=y}}}}
 |{{Coins|{{Average drop value|mob=Black demon#Regular|brimstone=yes|alch=yes|raw=y}}}}
-|}
-
-{| class="wikitable"
-! rowspan="2" |[[Krystilia]] task
-! colspan="2" |Average drop value
 |-
-![[Grand Exchange|GE]]
-![[High Level Alchemy|HA]]
-|-
-|{{No}}
-|{{Coins|{{Average drop value|mob=Black demon#Regular|raw=y}}}}
-|{{Coins|{{Average drop value|mob=Black demon#Regular|alch=yes|raw=y}}}}
-|-
-|{{Yes}}
+|[[Krystilia]]
 |{{Coins|{{Average drop value|mob=Black demon#Regular|wildernessslayer=yes|raw=y}}}}
 |{{Coins|{{Average drop value|mob=Black demon#Regular|wildernessslayer=yes|alch=yes|raw=y}}}}
 |}
@@ -357,16 +349,6 @@ File:Black demon (Wilderness Slayer Cave) safespot.png|Safespot found in [[Wilde
 
 ===Wilderness Slayer Cave tertiary===
 {{WildernessSlayerCaveDropTable|91/100|dropversion=Wilderness Slayer Cave}}
-
-==Gallery==
-<gallery captionalign="center" widths="180">
-Black demon.png|A variant of black demon.
-Black demon (2).png|A variant of black demon.
-Black demon (3).png|A variant of black demon.
-Black demon (4).png|A variant of black demon.
-Black demon (5).png|A variant of black demon.
-Black demon (6).png|A variant of black demon.
-</gallery>
 
 ==Changes==
 {{Subject changes header}}

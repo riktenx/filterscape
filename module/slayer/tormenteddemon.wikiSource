@@ -19,13 +19,15 @@
 |examine = Lucien must be incredibly powerful if he can bind such demons to his will.
 |attributes = demon
 |xpbonus = 77.5
-|max hit = 31 (auto) <br/> 45 (special)
+|max hit = {{plainlist|
+*31 (auto)
+*45 (special)}}
 |aggressive = No
 |poisonous = No
 |attack style = All
 |attack speed = 6
 |slayxp = 1065
-|cat = Greater demons
+|cat = Greater Demons
 |assignedby = chaeldar,nieve,kuradal
 |hitpoints = 600
 |att = 255
@@ -46,8 +48,8 @@
 |dlight = 140
 |dstandard = 150
 |dheavy = 90
-|elementalweaknesstype = 
-|elementalweaknesspercent = 
+|elementalweaknesstype=Water 
+|elementalweaknesspercent=30 
 |immunepoison = No
 |immunevenom = No
 |immunecannon = Yes
@@ -105,11 +107,8 @@ They are primarily killed for their [[tormented synapse]]s, which are used to cr
 }}
 {{LocTableBottom}}
 ==Multi-combat mechanics==
-{{Map|x=4097|y=4419|mapID=-1|zoom=1|align=left|caption=Each multiway region of the temple.|width=260|height=260|group=multi|
-|mtype:pin,x:4139,y:4383,x:4041,y:4420,x:4042,y:4450,iconAnchor:13,13,iconWikiLink:Tormented_demons_multicombat_I.png
-|mtype:pin,x:4076,y:4429,x:4105,y:4469,x:4141,y:4465,x:4149,y:4451,x:4151,y:4425,iconAnchor:13,13,iconWikiLink:Tormented_demons_multicombat_II.png
-|mtype:pin,x:4041,y:4379,x:4087,y:4375,iconAnchor:13,13,iconWikiLink:Tormented_demons_multicombat_III.png
-}}
+{{map:Multicombat_AGT}}
+
 Although the entire [[Ancient Guthixian Temple]] is considered a [[single-way combat]] zone by the game, the temple is a unique outlier in the fact that some areas are pseudo-[[multicombat area]]s. While in the temple, an icon that depicts a tormented demon's head can be seen in the user interface, indicating the amount of demons the player can attack at a time: either one, two, or three.
 
 <gallery widths="25" heights="25">
@@ -123,6 +122,7 @@ Tormented demons multicombat III.png
 * The south-western section of the dungeon is a triples zone.
 
 Tormented demons are unaggressive and will not attack unless attacked first.
+{{clear|left}}
 
 ==Fight overview==
 {{main|Tormented Demon/Strategies}}
@@ -133,7 +133,7 @@ Every 150 health lost since their last prayer swap (roughly 25% of their max hea
 
 They will briefly bind the player in place roughly every 60 ticks (36s) and disable run ({{Key press|Ctrl}} clicking still allows running), then release two fire bombs: one on the player's position as of the start of the attack, and a second on a random one of the 8 adjacent squares, assuming that it is a walkable tile. The bind will then be released and players have 2 ticks to move off of the target tiles before they explode. Demons always change their combat style after this attack.
 
-Tormented demons usually have a fire shield that reduces damage done by non-[[demonbane weapons]]/[[demonbane spells|spells]] and non-[[abyssal weapons]] by 20%. They will drop this shield after their first attack and after each fire bomb attack; the shield remains down until they are attacked once. Slower weapons will deal significant bonus damage to unshielded tormented demons. They also become defenseless from approximately 30 ticks (18s) into the fight until after their fire bomb attack, after which the 30 tick timer begins again. Attacking them while defenseless will provide 100% accuracy meaning guaranteed hits.
+Tormented demons usually have a fire shield that reduces damage done by non-[[demonbane weapons]]/[[demonbane spells|spells]] and non-[[abyssal weapons]] by 20%. They will drop this shield after their first attack and after each fire bomb attack; the shield remains down until they are attacked once. Slower weapons will deal significant bonus damage to unshielded tormented demons. They also become defenseless, indicated by the flames around them disappearing, for approximately 30 ticks (18s) into the fight until after their fire bomb attack, after which the 30 tick timer begins again. Attacking them while defenseless will provide 100% accuracy meaning guaranteed hits.
 
 If the player chooses to attack multiple tormented demons simultaneously, their attack behaviour changes: one will use melee if possible, and the other magic or ranged, and their attacks start out staggered so they can be prayed against. If three or more demons are attacking the player, the third and any more demons will release single bombs at the player.
 
@@ -221,7 +221,7 @@ Upon death, a drop will be rolled until the roll results in a success, as descri
 
 ===Tertiary===
 {{DropsTableHead}}
-{{DropsLine|name=Clue scroll (elite)|quantity=1|rarity=1/128}}
+{{DropsLineClue|type=elite|rarity=1/128}}
 {{DropsTableBottom}}
 
 ==Combat Achievements==
@@ -298,10 +298,10 @@ Upon death, a drop will be rolled until the roll results in a success, as descri
 }}
 {{Subject changes footer}}
 
-==Historical==
+==Development history==
 Tormented demons were released alongside While Guthix Sleeps on [[26 November]] [[2008]]. They are nearly the same as their ''RuneScape'' counterparts but with several differences:
 
-*There are significantly more tormented demons throughout the entirety of the Ancient Guthixian Temple. In ''RuneScape'', there are only six demons, all of whom are near the plinth where the Stone of Jas once was, while in ''Old School RuneScape'', there are twenty-six; eight by the plinth, two by the door leading to the inner section of the temple, eight to the western section of the temple (one each to the north-western chambers, and two sets of three to the southwest) and another eight to the eastern dolmens, in four sets of two.
+*There are significantly more tormented demons throughout the entirety of the Ancient Guthixian Temple. In ''RuneScape'', there are only six demons, all of whom are near the plinth where the Stone of Jas once was, while in ''Old School RuneScape'', there are twenty-six; eight by the plinth, two by the door leading to the inner section of the temple, eight to the western section of the temple (one each to the north-western chambers, and two sets of three to the south-west) and another eight to the eastern dolmens, in four sets of two.
 *The tormented demons in ''Old School RuneScape'' are unaggressive, whereas those in ''RuneScape'' never become tolerant to the player.
 *In ''Old School RuneScape'', tormented demons are considered [[greater demon]]s for the purpose of a slayer assignment. In ''RuneScape'', tormented demons were not an assignable Slayer task for a considerable amount of time after release. Later on, they were allowed to be assigned as part of a Slayer task, though the player had to pay 50 slayer points to be assigned them; they could also be killed as part of a {{RSL|demons (Slayer assignment)|demon cluster task}} on [[8 July]] [[2019]].
 *While the demons in both games attack with multiple combat styles, their special attacks are quite different:

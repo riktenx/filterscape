@@ -24,7 +24,7 @@
 |xpbonus = 0
 |max hit1 = 8, 16 (without [[Facemask]])
 |max hit2 = 8, 16 (without [[Facemask]])
-|max hit3 = 10
+|max hit3 = 10, 16 (without [[Facemask]])
 |aggressive = No
 |poisonous = No
 |attack style = [[Ranged melee]]
@@ -58,6 +58,8 @@
 |dcrush = 0
 |dmagic = 0
 |drange = 0
+|elementalweaknesstype = Air
+|elementalweaknesspercent = 35
 |immunepoison = Not immune
 |immunevenom = Not immune
 |immunecannon = No
@@ -164,7 +166,7 @@ As dust devils use a [[ranged melee]] attack, they use their melee stats against
 {{DropsLine|name=Mystic earth staff|quantity=1|rarity=1/128}}
 {{DropsLine|name=Dragon dagger|quantity=1|rarity=1/128}}
 {{DropsLine|name=Dust battlestaff|quantity=1|rarity=1/4000|raritynotes={{CiteTwitter|author=Mod Ash|url=https://twitter.com/JagexAsh/status/1111198573289451520|date=28 March 2019|archiveurl=https://archive.is/mjc22|archivedate=26 May 2020|quote=No, it's 1/4k. Cheers.}}}}
-{{DropsLine|name=Dragon chainbody|quantity=1|rarity=1/32768}}
+{{DropsLine|name=Dragon chainbody|quantity=1|rarity=1/{{#expr:128*256}}}}
 {{DropsTableBottom}}
 
 ====Runes and ammunition====
@@ -173,9 +175,9 @@ As dust devils use a [[ranged melee]] attack, they use their melee stats against
 {{DropsLine|name=Earth rune|quantity=300|rarity=10/128}}
 {{DropsLine|name=Fire rune|quantity=300|rarity=10/128}}
 {{DropsLine|name=Fire rune|quantity=50|rarity=1/128}}
-{{DropsLine|name=Chaos rune|quantity=80|rarity=7/128}}
+{{DropsLine|name=Chaos rune|quantity=65|rarity=7/128}}
 {{DropsLine|name=Rune arrow|quantity=12|rarity=5/128}}
-{{DropsLine|name=Soul rune|quantity=20|rarity=4/128}}
+{{DropsLine|name=Soul rune|quantity=15|rarity=4/128}}
 {{DropsLine|name=Soul rune|quantity=50|rarity=1/128}}
 {{DropsTableBottom}}
 
@@ -187,7 +189,7 @@ As dust devils use a [[ranged melee]] attack, they use their melee stats against
 
 ====Other====
 {{DropsTableHead|dropversion=Regular}}
-{{DropsLine|name=Nothing|rarity=255/32768}}
+{{DropsLine|name=Nothing|rarity=255/{{#expr:128*256}}}}
 {{DropsLine|name=Coins|quantity=2000-4000|rarity=28/128|gemw=No}}
 {{DropsLine|name=Ugthanki kebab|quantity=4|rarity=2/128}}
 {{DropsLine|name=Mithril bar|quantity=10 (noted)|rarity=3/128}}
@@ -227,7 +229,7 @@ As dust devils use a [[ranged melee]] attack, they use their melee stats against
 {{DropsLine|name=Mystic earth staff|quantity=1|rarity=1/126}}
 {{DropsLine|name=Dragon dagger|quantity=1|rarity=1/126}}
 {{DropsLine|name=Dust battlestaff|quantity=1|rarity=1/4000|raritynotes={{CiteTwitter|author=Mod Ash|url=https://twitter.com/JagexAsh/status/1111198573289451520|date=28 March 2019|archiveurl=https://archive.is/mjc22|archivedate=26 May 2020|quote=No, it's 1/4k. Cheers.}}}}
-{{DropsLine|name=Dragon chainbody|quantity=1|rarity=1/32768}}
+{{DropsLine|name=Dragon chainbody|quantity=1|rarity=1/{{#expr:126*256}}}}
 {{DropsTableBottom}}
 
 ====Runes and ammunition====
@@ -250,14 +252,14 @@ As dust devils use a [[ranged melee]] attack, they use their melee stats against
 
 ====Other====
 {{DropsTableHead|dropversion=Wilderness Slayer Cave}}
-{{DropsLine|name=Nothing|rarity=16321/2064384}}
+{{DropsLine|name=Nothing|rarity=255/{{#expr:126*256}}}}
 {{DropsLine|name=Coins|quantity=2000-4000|rarity=28/126|gemw=No}}
 {{DropsLine|name=Mithril bar|quantity=10 (noted)|rarity=3/126}}
 {{DropsLine|name=Adamantite bar|quantity=4 (noted)|rarity=1/126}}
 {{DropsTableBottom}}
 
 ====Gem drop table====
-{{GemDropTable|11/126|naturetalisman=yes|dropversion=Wilderness Slayer Cave}}
+{{GemDropTable|11/126|chaostalisman=yes|dropversion=Wilderness Slayer Cave}}
 
 ====Tertiary====
 {{DropsTableHead|dropversion=Wilderness Slayer Cave}}
@@ -277,6 +279,13 @@ As dust devils use a [[ranged melee]] attack, they use their melee stats against
 ==Changes==
 {{Subject changes header}}
 {{Subject changes
+|date = 25 June 2025
+|update = Summer Sweep Up: Combat
+|change =
+*Dust devils now have a 35% elemental weakness to [[air spells]].
+* Dust devils (excluding the ones in the [[Wilderness Slayer Cave]]) now drop 65 chaos and 15 soul runes, down from 80 and 20, respectively.
+}}
+{{Subject changes
 |date = 2 February 2022
 |update = Revenant Maledictus & Wilderness Changes
 |change = Added dust devils to the [[Wilderness Slayer Cave]].
@@ -294,7 +303,8 @@ As dust devils use a [[ranged melee]] attack, they use their melee stats against
 |change = Increased the density of dust devil spawns.
 }}
 {{Subject changes
-|daterange = 18 – 20 April 2006
+|date = 18 April 2006
+|update = Pest Control
 |change = The NPC was renamed from "Dustdevil" to "Dust devil".
 }}
 {{Subject changes

@@ -52,9 +52,9 @@
 [[File:Nechryael icon.png|left]]
 '''Nechryael''' are demonic [[Slayer creature]]s, which require a [[Slayer]] level of 80 in order to harm. They are found in the [[Slayer Tower]], and their stronger variant, [[Greater nechryael]], can be found in the [[Catacombs of Kourend]],  [[Iorwerth Dungeon]], and the [[Wilderness Slayer Cave]]. Nechryael are known for their [[rune boots]] drop, which are one of the few boots to provide a [[Strength#Strength bonus|Strength bonus]] when worn. They are also known for their frequent drop rates of [[seeds]] and combat [[runes]], consider bringing a [[Seed box]] due to the large amount of seed drops.
 
-Commonly, nechryael summon [[death spawn]]s to aid them, up to a limit of two each per nechryael. Death spawns have semi-inaccurate attacks with a max hit of 2, and their attacks can hit through [[Protect from Melee]]. [[Auto-retaliate]] does not work on them, so you will have to click the death spawn to attack it. Death spawns will not be summoned if the nechryael is unable to attack the player back (such as when being [[safespotted]]). The [[Death spawn|death spawns]] will stop attacking any player who moves more than 7 tiles away from them, which is useful when fighting the more powerful [[nechryarch]].
+Commonly, nechryael summon [[death spawn]]s to aid them, up to a limit of two each per nechryael. Death spawns have semi-inaccurate attacks with a max hit of 2, and their attacks can hit through [[Protect from Melee]]. [[Auto-retaliate]] does not work on them, so you will have to click the death spawn to attack it. Death spawns will not be summoned if the nechryael is unable to attack the player back (such as when being [[safespotted]]). The [[Death spawn|death spawns]] will stop attacking any player who moves more than 7 tiles away from them, which is useful when fighting the more powerful [[nechryarch]]. In the [[Slayer Tower]] there are many tables and buckets, which can easily be used to safespot Nechryael.
 
-[[Arclight]] can be very effective against nechryael, as they are considered to be demonic creatures. Their stronger variant, [[greater nechryael]], are more commonly killed with [[Ice Burst]] or [[Ice Barrage]] in the [[Catacombs of Kourend]].
+[[Emberlight]] can be very effective against nechryael, as they are considered to be demonic creatures. Their stronger variant, [[greater nechryael]], are more commonly killed with [[Ice Burst]] or [[Ice Barrage]] in the [[Catacombs of Kourend]].
 
 ==Locations==
 {{LocTableHead|league=yes}}
@@ -82,9 +82,6 @@ Commonly, nechryael summon [[death spawn]]s to aid them, up to a limit of two ea
 }}
 {{LocTableBottom}}
 Nechryaels located in the [[Slayer Tower]] Basement can only be attacked whilst on a Slayer task.
-
-== Safespotting ==
-In the [[Slayer Tower]] there are many tables and buckets, which can easily be used to safespot Nechryael. Safespotting Nechryael prevents them from summoning death spawns and makes the task very easy.
 
 ==Drops==
 {{DropLogProject|kills=387181}}
@@ -265,7 +262,7 @@ In the [[Slayer Tower]] there are many tables and buckets, which can easily be u
 [[File:Nechryael icon.png|left]]
 '''Greater nechryael''' are stronger variants of [[nechryael]] that require level 80 [[Slayer]] to kill. They are found within the [[Catacombs of Kourend]], [[Iorwerth Dungeon]] and the [[Wilderness Slayer Cave]].
 
-Like normal nechryael, greater nechryael can summon up to two [[Death spawn|Death spawns]] when fighting a player. These death spawns are the same as the ones summoned by normal nechryael. Using [[Protect from Melee]] is recommended, as the greater nechryael is more accurate and deals even more damage. [[Arclight]] can be very effective against greater nechryael, as these are considered to be [[demons|demonic creatures]].
+Like normal nechryael, greater nechryael can summon up to two [[Death spawn|Death spawns]] when fighting a player. These death spawns are the same as the ones summoned by normal nechryael. Using [[Protect from Melee]] is recommended, as the greater nechryael is more accurate and deals even more damage. [[Emberlight]] can be very effective against greater nechryael, as these are considered to be [[demons|demonic creatures]].
 
 Unlike the [[twisted banshee]], [[mutated bloodveld]], [[deviant spectre]] and [[warped jelly|warped jellies]], who have unique superior creatures compared to their standard counterparts, greater nechryael do not. They simply get the normal [[nechryarch]] instead, although its drop table corresponds to the unique superior creatures.
 
@@ -316,7 +313,7 @@ Prioritise equipment that gives high Magic damage bonuses, such as [[virtus robe
 
 Pay attention when a [[Nechryarch]] spawns, as its [[chaotic death spawn]]s deal high damage. To deal with them, autocast [[Blood Barrage]] to outheal the damage taken (provided that there are more regular nechryael next to it), use ice spells to safespot the Nechryarch, or disengage them by running out of their range of aggression and then returning to the Nechryarch.
 
-Greater nechryael can also be found in a multi-combat setting in the [[Wilderness Slayer Cave]] where they may also be cannoned. However, this is part of the Wilderness and there is the risk of running into player killers. In this location, take less risk and bank more frequently. Fortunately, they are found below level 30 Wilderness so a [[royal seed pod]] can be used for a fast escape option. These nechryael can only be killed when on a Slayer task.
+Greater nechryael can also be found in a multi-combat setting in the [[Wilderness Slayer Cave]] where they may also be cannoned. However, this is part of the Wilderness and there is the risk of running into player killers. In this location, take less risk and bank more frequently. Because they are found below level 30 Wilderness, a [[royal seed pod]] can be used as a fast escape option. These nechryael can only be killed when on a Slayer task.
 
 Finally, greater nechryael also reside in the [[Iorwerth Dungeon]]. Unlike the other two locations, this location is solely single-combat, although a cannon can be permitted in this area. This location requires completion of [[Song of the Elves]] and is ideal for players who are not intending to use multi-target combat methods to kill nechryael.
 

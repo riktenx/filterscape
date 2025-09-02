@@ -1,3 +1,5 @@
+// old gen script
+// todo: migrate to ts
 import fs from 'fs';
 
 const index = {
@@ -22,7 +24,7 @@ const index = {
   ],
 };
 
-const header = `/*@ define:module:header
+const oldDefaultHeader = `/*@ define:module:header
 hidden: true
 name: header
 */
@@ -30,16 +32,31 @@ meta {
   name = "[default: FilterScape]";
 }
 `;
-
-const defaultFilterscape = [
-  header,
+const oldDefaultFilter = [
+  oldDefaultHeader,
   ...index.modules.map((module) => {
     const rs2fPath = module.modulePath.replace('json', 'rs2f');
     return fs.readFileSync(rs2fPath, 'utf-8');
   }),
 ].join('\n\n');
+fs.writeFileSync('filterscape.rs2f', oldDefaultFilter);
 
-fs.writeFileSync('filterscape.rs2f', defaultFilterscape);
+const defaultHeader = `/*@ define:module:header
+hidden: true
+name: header
+*/
+meta {
+  name = "[default: Rikten's Filter]";
+}
+`;
+const defaultFilter = [
+  defaultHeader,
+  ...index.modules.map((module) => {
+    const rs2fPath = module.modulePath.replace('json', 'rs2f');
+    return fs.readFileSync(rs2fPath, 'utf-8');
+  }),
+].join('\n\n');
+fs.writeFileSync('default.rs2f', defaultFilter);
 
 const header2 = `/*@ define:module:header
 hidden: true

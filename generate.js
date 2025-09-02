@@ -46,7 +46,7 @@ hidden: true
 name: header
 */
 meta {
-  name = "[default: Rikten's Filter]";
+  name = "[default: Rikten's filter]";
 }
 `;
 const defaultFilter = [

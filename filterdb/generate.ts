@@ -176,7 +176,7 @@ const gepList = (
     infotableList('EQUIP_IRON', 'Iron_equipment'),
     infotableList('EQUIP_STEEL', 'Steel_equipment'),
     infotableList('EQUIP_BLACK', 'Black_equipment'),
-    infotableList('EQUIP_MITHRIL', '_equipment'),
+    infotableList('EQUIP_MITHRIL', 'Mithril_equipment'),
     infotableList('EQUIP_ADAMANT', 'Adamant_equipment'),
     infotableList('EQUIP_RUNE', 'Rune_equipment'),
     infotableList('EQUIP_DEFENDER', 'Defender', ['Standard defenders']),

@@ -409,7 +409,107 @@
     },
     "EQUIP_MITHRIL": {
       "name": "EQUIP_MITHRIL",
-      "items": []
+      "items": [
+        {
+          "name": "Mithril dagger"
+        },
+        {
+          "name": "Mithril axe"
+        },
+        {
+          "name": "Mithril mace"
+        },
+        {
+          "name": "Mithril sword"
+        },
+        {
+          "name": "Mithril longsword"
+        },
+        {
+          "name": "Mithril scimitar"
+        },
+        {
+          "name": "Mithril hasta"
+        },
+        {
+          "name": "Mithril warhammer"
+        },
+        {
+          "name": "Mithril battleaxe"
+        },
+        {
+          "name": "Mithril pickaxe"
+        },
+        {
+          "name": "Mithril claws"
+        },
+        {
+          "name": "Mithril spear"
+        },
+        {
+          "name": "Mithril 2h sword"
+        },
+        {
+          "name": "Mithril halberd"
+        },
+        {
+          "name": "Mithril crossbow"
+        },
+        {
+          "name": "Mithril bolts"
+        },
+        {
+          "name": "Mithril arrow"
+        },
+        {
+          "name": "Mithril brutal"
+        },
+        {
+          "name": "Mithril dart"
+        },
+        {
+          "name": "Mithril javelin"
+        },
+        {
+          "name": "Mithril thrownaxe"
+        },
+        {
+          "name": "Mithril knife"
+        },
+        {
+          "name": "Mithril med helm"
+        },
+        {
+          "name": "Mithril full helm"
+        },
+        {
+          "name": "Mithril chainbody"
+        },
+        {
+          "name": "Mithril platebody"
+        },
+        {
+          "name": "Mithril platelegs"
+        },
+        {
+          "name": "Mithril plateskirt"
+        },
+        {
+          "name": "Mithril sq shield"
+        },
+        {
+          "name": "Mithril kiteshield"
+        },
+        {
+          "name": "Mithril boots"
+        },
+        {
+          "name": "Mithril gloves"
+        },
+        {
+          "name": "Mithril defender"
+        }
+      ]
     },
     "EQUIP_ADAMANT": {
       "name": "EQUIP_ADAMANT",
@@ -759,7 +859,7 @@
           "name": "Gilded boots"
         },
         {
-          "name": "Spiked menacles"
+          "name": "Spiked manacles"
         },
         {
           "name": "Dragon boots"
@@ -1100,6 +1200,9 @@
           "name": "Callisto cub"
         },
         {
+          "name": "Dom"
+        },
+        {
           "name": "Hellpuppy"
         },
         {
@@ -1194,6 +1297,9 @@
         },
         {
           "name": "Wisp"
+        },
+        {
+          "name": "Yami"
         },
         {
           "name": "Youngllef"
@@ -1397,6 +1503,12 @@
     "UNIQUE_CLUE_EASY": {
       "name": "UNIQUE_CLUE_EASY",
       "items": [
+        {
+          "name": "Willow comp bow"
+        },
+        {
+          "name": "Amulet of magic (t)"
+        },
         {
           "name": "Team cape zero"
         },
@@ -1638,9 +1750,6 @@
           "name": "Black skirt (t)"
         },
         {
-          "name": "Coins"
-        },
-        {
           "name": "Monk's robe top (g)"
         },
         {
@@ -1789,6 +1898,15 @@
     "UNIQUE_CLUE_MEDIUM": {
       "name": "UNIQUE_CLUE_MEDIUM",
       "items": [
+        {
+          "name": "Gnomish firelighter"
+        },
+        {
+          "name": "Yew comp bow"
+        },
+        {
+          "name": "Strength amulet (t)"
+        },
         {
           "name": "Ranger boots"
         },
@@ -2124,12 +2242,18 @@
         },
         {
           "name": "Gold elegant skirt"
+        },
+        {
+          "name": "Gnomish firelighter"
         }
       ]
     },
     "UNIQUE_CLUE_HARD": {
       "name": "UNIQUE_CLUE_HARD",
       "items": [
+        {
+          "name": "Magic comp bow"
+        },
         {
           "name": "Amulet of glory (t4)"
         },

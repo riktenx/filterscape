@@ -61,7 +61,7 @@
 [[File:Bloodveld icon.png|left]]
 '''Bloodveld''' are a type of [[demon]] that use their long tongues to attack their victims. Being a [[Slayer monster]], Bloodveld require a [[Slayer]] level of 50 to be damaged by  players.
 
-While on a Bloodveld Slayer task, there is a 1/200 chance that an [[insatiable Bloodveld]] will spawn after you kill a Bloodveld (if you have [[Slayer Rewards|Bigger and Badder]] unlocked). However, Bloodvelds can't spawn superiors if slain in the [[God Wars Dungeon]].
+While on a Bloodveld Slayer task, there is a 1/200 chance that an [[insatiable Bloodveld]] will spawn after you kill a Bloodveld (if you have [[Slayer Rewards|Bigger and Badder]] unlocked). This only applies to bloodvelds found everywhere outside of the [[God Wars Dungeon]] (and its [[Wilderness God Wars Dungeon|Wilderness]] variant).
 
 As it is classified as a [[demon (attribute)|demon]], this creature is affected by [[demonbane weapons]].
 
@@ -230,8 +230,8 @@ They can be safespotted using rocks in the [[Wilderness God Wars Dungeon|Wildern
 
 ===Tertiary===
 {{DropsTableHead}}
-{{DropsLine|name=Clue scroll (elite)|quantity=1|rarity=Always|raritynotes=<ref name='elite' group="d">The elite clue scroll and casket are only dropped when completing an elite clue scroll asking you to kill a Bloodveld</ref>|gemw=No|smw=No}}
-{{DropsLine|name=Reward casket (elite)|quantity=1|rarity=Always|raritynotes=<ref name='elite' group="d" />|gemw=No|smw=No}}
+{{DropsLine|name=Clue scroll (elite)|quantity=1|rarity=Always|raritynotes=<ref name='elite' group="d">The elite clue scroll and casket are only dropped when completing an elite clue scroll asking you to kill a Bloodveld</ref>|gemw=No|bucket=No}}
+{{DropsLine|name=Reward casket (elite)|quantity=1|rarity=Always|raritynotes=<ref name='elite' group="d" />|gemw=No|bucket=No}}
 {{DropsLine|name=Looting bag|quantity=1|rarity=1/3|raritynotes=<ref group="d">Looting bags are only dropped by Bloodvelds in the [[Wilderness God Wars Dungeon]].</ref>{{CiteForum|author=Envision|postdate=29 July 2014|url=https://archive.fo/5P5mn|title=Drop Rates V2|name=Drop Rates V2}}|gemw=No|leagueRegion=Wilderness}}
 {{DropsLine|name=Ensouled bloodveld head|quantity=1|rarity=1/35}}
 {{DropsLineEcumenical}}
@@ -352,7 +352,7 @@ They can be safespotted using rocks in the [[Wilderness God Wars Dungeon|Wildern
 }}
 '''Mutated Bloodveld''' are stronger variants of [[Bloodveld]] that require level 50 [[Slayer]] to kill. They are found within the [[Catacombs of Kourend]], [[Iorwerth Dungeon]] and the [[Meiyerditch Laboratories]].
 
-Like regular Bloodveld, a mutated Bloodveld's attacks are [[magic-based melee]]. They drop Vile ashes so an [[Ash sanctifier]] is recommended. They are known to damage frequently due to their high attack level, so equipping armour with high Magic defence is also recommended to mitigate their attacks. They can also be [[safespot]]ted with ease. Alternatively, players can opt to wear [[Prayer equipment]] while using the [[Protect from Melee]] prayer, using [[Prayer potion]]s instead of food. Players can also teleport to an altar and then teleport back to the Catacombs instead of using prayer potions, since these Bloodveld are so close to the entrance.
+Like regular Bloodveld, a mutated Bloodveld's attacks are [[magic-based melee]]. They are known to damage frequently due to their high attack level, so equipping armour with high Magic defence is recommended to mitigate their attacks. They can also be [[safespot]]ted with ease. Alternatively, players can opt to wear [[Prayer equipment]] while using the [[Protect from Melee]] prayer, using [[Prayer potion]]s instead of food. Players can also teleport to an altar and then teleport back to the Catacombs instead of using prayer potions, since these Bloodveld are so close to the entrance.
 
 Mutated Bloodveld are popular for players willing to spend time completing their task, as they provide better experience than normal Bloodveld. They also drop [[blood rune]]s at a higher rate compared to normal Bloodveld, in addition to the [[ancient shard]] and [[dark totem]] pieces they drop in the [[Catacombs of Kourend]], and the [[crystal shard]]s they drop in the [[Iorwerth Dungeon]]. On average, a player can expect to receive 3.6 blood runes per mutated Bloodveld kill.
 
@@ -463,7 +463,7 @@ If including the value of [[Crystal shard|crystal shards]] if turned into [[Divi
 
 ===Tertiary===
 {{DropsTableHead}}
-{{DropsLine|name=Clue scroll (elite)|quantity=1|rarity=Always|raritynotes=<ref name=elite group=d>The elite clue scroll and casket are only dropped when completing an elite clue scroll asking you to kill a Bloodveld</ref>|gemw=No|smw=No}}
+{{DropsLine|name=Clue scroll (elite)|quantity=1|rarity=Always|raritynotes=<ref name=elite group=d>The elite clue scroll and casket are only dropped when completing an elite clue scroll asking you to kill a Bloodveld</ref>|gemw=No|bucket=No}}
 {{DropsLine|name=Reward casket (elite)|quantity=1|rarity=Always|raritynotes=<ref name=elite group=d />|gemw=No}}
 {{DropsLine|name=Ensouled bloodveld head|quantity=1|rarity=1/20}}
 {{DropsLine|name=Crystal shard|quantity=3-5|rarity=1/24|raritynotes=<ref group=d>Crystal shards are only dropped by those found within the [[Iorwerth Dungeon]].</ref>|leagueRegion=Tirannwn}}
@@ -504,6 +504,7 @@ If including the value of [[Crystal shard|crystal shards]] if turned into [[Divi
 
 ==Trivia==
 *Mutated Bloodvelds had a festive override wearing a [[santa hat]] during the [[2023 Christmas event/Gallery|2023]] and [[2024 Christmas event/Gallery|2024]] Christmas events.
+*Mutated bloodvelds were originally released as part of the {{RSL|Legacy of Seergaze}} quest in ''RuneScape'' in [[2008]]. Unlike the mutated bloodvelds in ''Old School RuneScape'', they used a vastly different model compared to normal bloodveld, resembling a cross between a human and a bloodveld, whereas the normal and mutated bloodvelds of ''Old School RuneScape'' simply have their tongue and mouth colours swapped. Their examine text is also notably different.
 
 ==References==
 {{Reflist}}

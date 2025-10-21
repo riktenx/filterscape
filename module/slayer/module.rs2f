@@ -22,7 +22,7 @@ description: |
 #define CONST_AREA_BLOODVELD4 [2950,10085,0,2968,10101,0] // [[Wilderness God Wars Dungeon]]
 #define CONST_AREA_BLOODVELD5 [3230,12414,0,3256,12443,0] // [[Iorwerth Dungeon]]
 #define CONST_AREA_BLOODVELD6 [3404,3556,1,3429,3579,1] // Slayer tower (upstairs)
-#define CONST_AREA_BLOODVELD7 [1685,10026,0,1698,10005,0] // kourend1
+#define CONST_AREA_BLOODVELD7 [1685,10005,0,1698,10026,0] // kourend1
 #define CONST_AREA_BLOODVELD8 [1669,10069,0,1687,10080,0] // kourend2
 #define CONST_AREA_BLOODVELD9 [1622,10023,0,1641,10040,0] // kourend3
 #define CONST_BLOODVELD_RULE(_cond) rule ((area:CONST_AREA_BLOODVELD0 || \

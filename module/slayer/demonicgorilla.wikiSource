@@ -88,6 +88,8 @@ The average demonic gorilla kill is worth {{Coins|{{Average drop value|mob=Demon
 
 Excluding zenyte shards, the average kill is worth {{Coins|{{#expr:{{Average drop value|mob=Demonic gorilla|raw=y}}-(1/300)*{{GEP|Zenyte shard}}}} round 0|c}}.
 
+Excluding zenyte shards, the average [[High Level Alchemy|high alch]] value per kill is {{Coins|{{#expr:{{Average drop value|alch = yes|mob=Demonic gorilla|raw=y}}-(1/300)*{{alch|Zenyte shard}}}} round 0|c}}.
+
 ===100%===
 {{DropsTableHead}}
 {{DropsLine|name=Malicious ashes|quantity=1|rarity=Always}}

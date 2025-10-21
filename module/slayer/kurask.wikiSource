@@ -56,6 +56,8 @@ Kurask are relatively inaccurate, but they can hit somewhat high if their attack
 
 Although kurask are invulnerable to any damage from the special attacks of [[Saradomin godsword]], [[ancient godsword]] and [[toxic blowpipe]], their healing effects will still activate as if damage had been dealt, making them useful as special attack weapons during extended trips. Likewise, the special attacks of [[ancient mace]] and [[eldritch nightmare staff]] will restore [[prayer points]] based on what damage would have been dealt. The set effect of [[Guthan the Infested's equipment|Guthan's equipment]] will not activate against kurask, however.
 
+Kurask have a relatively small aggressive range of 2, with the center at their southwest tile. As they are 3x3 monsters, they will only attack you from their northeast side if they walk under your true tile.  
+
 Kurask, along with turoth, drop the [[leaf-bladed sword]]. They are also known for their [[Mystic robe top (light)|light mystic robe top]] and [[kurask head]] drops, as well as being the only monster to drop the [[leaf-bladed battleaxe]], alongside the superior version. 
 
 ==Location==
@@ -123,7 +125,7 @@ File:Kurask (Iorwerth Dungeon) safespot.png|thumb|left|Safespot on the northern-
 |{{Coins|{{Average drop value|mob=Kurask|brimstone=yes|alch=yes|raw=y}}}}
 |}
 
-The average Kurask kill in [[Iorwerth Dungeon]] is worth {{Coins|floor({{Average drop value|mob=Kurask|raw=y}} + 4/24*2.5*({{GEP|Divine super combat potion(4)}}-{{GEP|Super combat potion(4)}}) ) }} due to the additional chance of receiving a [[crystal shard]]s as a tertiary drop. This value for crystal shards assumes that they are made into [[divine super combat potion]]s. For a Konar task in the Iorwerth Dungeon, the average Kurask kill is worth {{Coins|floor({{Average drop value|mob=Kurask|brimstone=yes|raw=y}} + 4/24*2.5*({{GEP|Divine super combat potion(4)}}-{{GEP|Super combat potion(4)}}) ) }}
+The average Kurask kill in [[Iorwerth Dungeon]] is worth {{Coins|floor({{Average drop value|mob=Kurask|raw=y}} + 4/24*2.5*({{GEP|Divine super combat potion(4)}}-{{GEP|Super combat potion(4)}}) ) }} due to the additional chance of receiving [[crystal shard]]s as a tertiary drop. This value for crystal shards assumes that they are made into [[divine super combat potion]]s. For a Konar task in the Iorwerth Dungeon, the average Kurask kill is worth {{Coins|floor({{Average drop value|mob=Kurask|brimstone=yes|raw=y}} + 4/24*2.5*({{GEP|Divine super combat potion(4)}}-{{GEP|Super combat potion(4)}}) ) }}
 
 As they drop 3 herbs at a time, it may be worth considering bringing a [[herb sack]] to prolong slayer trips.
 

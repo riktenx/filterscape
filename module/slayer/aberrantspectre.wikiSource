@@ -94,8 +94,7 @@ In the Stronghold Slayer Cave, they can be safespotted around a section of the c
 All safespots only work with [[Ranged]] or [[Magic]], since there must be at least six spaces between the player and the aberrant spectre to avoid their attack range. [[Halberd]]s or thrown weapons such as [[throwing knives]] and [[throwing axe]]s do not have a long enough attack range to safespot. In addition, these safespots are only usable when the spectres are non-aggressive, since nearby spectres will attack the player and prevent them from killing the trapped spectre.
 
 ===Safespot gallery===
-{{Tile markers box|RuneScape:Tile markers/Aberrant spectres (slayer tower)}}
-{{Tile markers box|RuneScape:Tile markers/Aberrant spectres (stronghold dungeon)}}
+{{Tile markers box|Module:Tile markers/Aberrant spectres.json}}
 <gallery>
 File:Aberrant spectre (Stronghold Slayer Cave) safespot.png|Safespot in the [[Stronghold Slayer Cave]].
 File:Aberrant spectre (Stronghold Slayer Cave) safespot two.png|Second Aberrant spectre safespot in the [[Stronghold Slayer Cave]].
@@ -172,7 +171,7 @@ File:Stronghold Tile Marked Safespots.png|Safespot in the [[Stronghold Slayer Ca
 
 ===Tertiary===
 {{DropsTableHead}}
-{{DropsLine|name=Clue scroll (elite)|quantity=1|rarity=Always|raritynotes=<ref name=elite group=d>Only if you have an [[Treasure Trails/Full guide/Elite#Cryptic clues|elite cryptic clue]] that requires you to kill an Aberrant spectre; in this case, it will drop the next step of the Treasure Trail (or a casket, if this was the last step).</ref>|gemw=No|smw=No}}
+{{DropsLine|name=Clue scroll (elite)|quantity=1|rarity=Always|raritynotes=<ref name=elite group=d>Only if you have an [[Treasure Trails/Full guide/Elite#Cryptic clues|elite cryptic clue]] that requires you to kill an Aberrant spectre; in this case, it will drop the next step of the Treasure Trail (or a casket, if this was the last step).</ref>|gemw=No|bucket=No}}
 {{DropsLine|name=Reward casket (elite)|quantity=1|rarity=Always|raritynotes=<ref name=elite group=d />|gemw=No}}
 {{DropsLine|name=Brimstone key|quantity=1|rarity={{Brimstone rarity|96|bonus=yes}}|raritynotes=<ref group=d>Brimstone keys are only dropped if killed as a [[Slayer task]] given by [[Konar quo Maten]].</ref>|gemw=No|leagueRegion=Kandarin&Kourend,Morytania&Kourend}}
 {{DropsLineClue|type=hard|rarity=1/128}}

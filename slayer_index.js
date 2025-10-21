@@ -29,7 +29,7 @@ description: |
 
         // the wiki has one area, in reality there are 3 sub-areas
         delete areas['[[Catacombs of Kourend]]'];
-        areas['kourend1'] = [1685, 10026, 0, 1698, 10005, 0];
+        areas['kourend1'] = [1685, 10005, 0, 1698, 10026, 0];
         areas['kourend2'] = [1669, 10069, 0, 1687, 10080, 0];
         areas['kourend3'] = [1622, 10023, 0, 1641, 10040, 0];
       },

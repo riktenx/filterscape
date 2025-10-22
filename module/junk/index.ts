@@ -60,6 +60,7 @@ label: Hide these items
   "Vial of water", "Bucket of water", "Jug of water",\
   "Bones", "Big bones", "Ashes",\
   "Seaweed", "Broken arrow",\
+  "Empty plant pot", "Weeds",\
   ]
 apply (name:VAR_HIDES_HIDEBYDEFAULT) { hidden = true; }
 `;

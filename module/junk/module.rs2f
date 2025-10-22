@@ -185,5 +185,5 @@ type: stringlist
 group: Misc
 label: Hide these items
 */
-#define VAR_HIDES_HIDEBYDEFAULT [  "Vial", "Bucket", "Jug", "Beer glass",  "Vial of water", "Bucket of water", "Jug of water",  "Bones", "Big bones", "Ashes",  "Seaweed", "Broken arrow",  ]
+#define VAR_HIDES_HIDEBYDEFAULT [  "Vial", "Bucket", "Jug", "Beer glass",  "Vial of water", "Bucket of water", "Jug of water",  "Bones", "Big bones", "Ashes",  "Seaweed", "Broken arrow",  "Empty plant pot", "Weeds",  ]
 apply (name:VAR_HIDES_HIDEBYDEFAULT) { hidden = true; }

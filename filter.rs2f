@@ -5307,6 +5307,7 @@ label: Beginner clue
 #define VAR_CLUE_BEGINNER_CUSTOMSTYLE \
   hidden = false;\
   textColor = "#ffffff";\
+  menuTextColor = "#ffe0e0e0";\
   backgroundColor = "#beb287";\
   borderColor = "#ffffff";
 
@@ -5316,9 +5317,10 @@ label: Easy clue
 */
 #define VAR_CLUE_EASY_CUSTOMSTYLE \
   hidden = false;\
-  textColor = "#09600d";\
+  textColor = "#00ff00";\
+  menuTextColor = "#29802d";\
   backgroundColor = "#beb287";\
-  borderColor = "#09600d";
+  borderColor = "#00ff00";
 
 /*@ define:input:clues
 type: style
@@ -5326,9 +5328,10 @@ label: Medium clue
 */
 #define VAR_CLUE_MEDIUM_CUSTOMSTYLE \
   hidden = false;\
-  textColor = "#569699";\
+  textColor = "#00ffff";\
+  menuTextColor = "#569699";\
   backgroundColor = "#beb287";\
-  borderColor = "#569699";
+  borderColor = "#00ffff";
 
 /*@ define:input:clues
 type: style
@@ -5336,9 +5339,10 @@ label: Hard clue
 */
 #define VAR_CLUE_HARD_CUSTOMSTYLE \
   hidden = false;\
-  textColor = "#833798";\
+  textColor = "#ff00ff";\
+  menuTextColor = "#833798";\
   backgroundColor = "#beb287";\
-  borderColor = "#833798";
+  borderColor = "#ff00ff";
 
 /*@ define:input:clues
 type: style
@@ -5346,9 +5350,10 @@ label: Elite clue
 */
 #define VAR_CLUE_ELITE_CUSTOMSTYLE \
   hidden = false;\
-  textColor = "#bda518";\
+  textColor = "#ffff00";\
+  menuTextColor = "#bda518";\
   backgroundColor = "#beb287";\
-  borderColor = "#bda518";
+  borderColor = "#ffff00";
 
 /*@ define:input:clues
 type: style
@@ -5356,9 +5361,10 @@ label: Master clue
 */
 #define VAR_CLUE_MASTER_CUSTOMSTYLE \
   hidden = false;\
-  textColor = "#9b3026";\
+  textColor = "#ff0000";\
+  menuTextColor = "#9b3026";\
   backgroundColor = "#beb287";\
-  borderColor = "#9b3026";
+  borderColor = "#ff0000";
 
 
 rule (name:["scroll box (beginner)", "clue scroll (beginner)", "reward casket (beginner)", "challenge scroll (beginner)"]) {

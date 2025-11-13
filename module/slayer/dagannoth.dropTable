@@ -1,0 +1,43 @@
+{
+  "100%": [
+    "Bones"
+  ],
+  "Weapons": [
+    "Iron spear",
+    "Bronze spear",
+    "Mithril spear"
+  ],
+  "Runes and ammunition": [
+    "Water rune",
+    "Steel arrow",
+    "Mithril javelin"
+  ],
+  "Seeds": [],
+  "Fishing": [
+    "Lobster pot",
+    "Raw herring",
+    "Raw sardine",
+    "Harpoon",
+    "Feather",
+    "Fishing bait",
+    "Raw lobster",
+    "Raw tuna",
+    "Seaweed",
+    "Oyster pearls",
+    "Oyster pearl"
+  ],
+  "Coins": [
+    "Coins"
+  ],
+  "Other": [
+    "Casket",
+    "Opal bolt tips"
+  ],
+  "Gem drop table": [],
+  "Tertiary": [
+    "Dagannoth ribs",
+    "Ensouled dagannoth head",
+    "Brimstone key"
+  ],
+  "Catacombs tertiary": []
+}

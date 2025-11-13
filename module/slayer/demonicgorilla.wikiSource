@@ -1,8 +1,12 @@
 {{HasStrategy}}
 {{HasTask|Black demons|Monkeys}}
+
 {{Infobox Monster
+|version1 = 1
+|version2 = 2
 |name = Demonic gorilla
-|image = [[File:Demonic gorilla.png|260px]]
+|image1 = [[File:Demonic gorilla (1).png|260px]]
+|image2 = [[File:Demonic gorilla (2).png|260px]]
 |release = [[6 May]] [[2016]]
 |update = Monkey Madness II
 |members = Yes
@@ -45,7 +49,8 @@
 |immunecannon = Yes
 |immunethrall = No
 |respawn = 100
-|id = 7144,7145,7146,7147,7148,7149,7152
+|id1 = 7144,7145,7146
+|id2 = 7147,7148,7149,7152
 }}
 '''Demonic gorillas''' are powerful creatures found in the [[Crash Site Cavern]]. Two of them are fought during [[Monkey Madness II]], in the penultimate stage of the fight. After the quest is completed, more demonic gorillas can be found in the caverns alongside their [[Tortured gorilla|tortured]] brethren. They are primarily killed for their [[zenyte shard]] and [[ballista]] component drops.
 
@@ -146,8 +151,8 @@ Excluding zenyte shards, the average [[High Level Alchemy|high alch]] value per 
 {{DropsLine|name=Saradomin brew(2)|quantity=1|rarity=25/500}}
 {{DropsLine|name=Adamantite bar|quantity=6 (noted)|rarity=20/500}}
 {{DropsLine|name=Javelin shaft|quantity=750-1250|rarity=25/500}}
-{{DropsLine|name=Rune javelin heads|quantity=45-55|rarity=25/500}}
-{{DropsLine|name=Dragon javelin heads|quantity=27-33|rarity=25/500}}
+{{DropsLine|name=Rune javelin tips|quantity=45-55|rarity=25/500}}
+{{DropsLine|name=Dragon javelin tips|quantity=27-33|rarity=25/500}}
 {{DropsLine|name=Diamond|quantity=4-6 (noted)|rarity=17/500}}
 {{DropsLine|name=Runite bar|quantity=3 (noted)|rarity=15/500}}
 {{DropsTableBottom}}

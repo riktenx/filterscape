@@ -345,6 +345,11 @@ rule (name:"Smouldering heart") { VAR_${scope}_HEARTSTYLE }
       },
     },
   },
+  {
+    name: 'Dagannoth',
+    url: 'https://oldschool.runescape.wiki/w/Dagannoth',
+    transform: {},
+  },
 ];
 
 const desc = `Provides per-monster filtering for common slayer tasks. Defaults are being added over time.

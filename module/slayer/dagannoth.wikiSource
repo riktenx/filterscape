@@ -1,0 +1,272 @@
+{{External|rs=Dagannoth (Lighthouse)}}
+{{Otheruses|the commonly found monster|the race|Dagannoth (race)}}
+{{HasTask|Dagannoths}}
+{{Infobox Monster
+|version1 = Level 74 (1)
+|version2 = Level 92 (1)
+|version3 = Level 74 (2)
+|version4 = Level 92 (2)
+|name = Dagannoth
+|image = [[File:Dagannoth.png|Dagannoth (melee)|200px]]
+|release1 = [[17 November]] [[2004]]
+|release2 = [[17 November]] [[2004]]
+|release3 = [[9 June]] [[2016]]
+|release4 = [[9 June]] [[2016]]
+|update1 = Horror From The Deep
+|update2 = Horror From The Deep
+|update3 = The Catacombs of Kourend
+|update4 = The Catacombs of Kourend
+|members = Yes
+|combat1 = 74
+|combat2 = 92
+|combat3 = 74
+|combat4 = 92
+|size1 = 1
+|size2 = 2
+|size3 = 1
+|size4 = 2
+|examine = A horror from the ocean depths...
+|xpbonus = 0
+|max hit = 8
+|aggressive = Yes
+|poisonous = No
+|attack style1 = [[Ranged]]
+|attack style2 = [[Stab]]
+|attack style3 = [[Stab]]
+|attack style4 = [[Stab]]
+|attack speed = 4
+|slayxp1 = 70
+|slayxp2 = 120
+|slayxp3 = 70
+|slayxp4 = 120
+|cat = Dagannoth
+|assignedby = vannaka,chaeldar,konar,nieve,duradel
+|hitpoints1 = 70
+|hitpoints2 = 120
+|hitpoints3 = 70
+|hitpoints4 = 120
+|att = 68
+|str = 70
+|def1 = 50
+|def2 = 71
+|def3 = 50
+|def4 = 71
+|mage = 1
+|range = 1
+|attbns = 0
+|strbns = 0
+|amagic = 0
+|mbns = 0
+|arange = 0
+|rngbns = 0
+|dstab = 0
+|dslash = 0
+|dcrush = 0
+|dmagic1 = 0
+|dmagic2 = 50
+|dmagic3 = 0
+|dmagic4 = 50
+|drange1 = 0
+|drange2 = 50
+|drange3 = 0
+|drange4 = 50
+|elementalweaknesstype = Earth
+|elementalweaknesspercent = 35
+|immunepoison = No
+|immunevenom = No
+|immunecannon = No
+|immunethrall = No
+|respawn1 = 30
+|respawn2 = 30
+|respawn3 = 30
+|respawn4 = 30
+|id1 = 970,971,972
+|id2 = 973,974,975
+|id3 = 7259
+|id4 = 7260
+|dropversion1 = Regular
+|dropversion2 = Regular
+|dropversion3 = Catacombs of Kourend
+|dropversion4 = Catacombs of Kourend
+}}
+'''Dagannoth''' are sea-based monsters that live in the [[Lighthouse]] basement (close to [[fairy ring]] code {{Fairycode|alp}}) after players complete [[Horror from the Deep]] (type 1 in the table). They can also be found in the southern part of the [[Catacombs of Kourend]], as well as the [[Jormungand's Prison]] after completion of [[The Fremennik Exiles]] (type 2 in the table).
+
+This variant of dagannoth has three levels — 74, 92 and 100. The level 100 variant is fought before the [[Dagannoth mother]] during the [[Horror from the Deep]] quest. It doesn't drop anything and cannot be fought again after the quest. It only uses a melee attack that can hit up to 9. The level 74 in the Lighthouse uses a [[ranged]] attack that hits up to 10, but has poor accuracy. The level 92 dagannoth uses [[melee]], which is more accurate and hits up to 8. In the other areas, both levels use melee. The Lighthouse basement is a [[multicombat area]] and therefore many players use [[dwarf multicannons]] to train here. A dwarf multicannon cannot be used within the Catacombs of Kourend. Despite the [[Combat]] level of these dagannoth, they are considered very weak by most players especially in comparison to the stronger [[Dagannoth (Waterbirth Island)|variant]] on [[Waterbirth Island]]. They also seem to be susceptible to poison. Players with decent defensive bonuses shouldn't have any trouble fighting for long periods of time.
+
+==Locations==
+{{LocTableHead|league=yes}}
+{{LocLine
+|name = Dagannoth
+|location = [[Jormungand's Prison]]
+|levels = 74, 92
+|members = Yes
+|mapID = 11
+|plane = 0
+|x:2433,y:10417|x:2435,y:10414|x:2406,y:10419|x:2407,y:10418|x:2408,y:10410|x:2409,y:10415|x:2410,y:10412|x:2412,y:10415|x:2412,y:10420|x:2413,y:10425|x:2414,y:10412|x:2416,y:10429|x:2420,y:10422|x:2421,y:10430|x:2423,y:10424|x:2430,y:10412|x:2430,y:10421|x:2431,y:10410|x:2410,y:10435|x:2413,y:10433|x:2415,y:10436|x:2417,y:10432|x:2422,y:10433
+|mtype = pin
+|dropversion = Regular
+|leagueRegion = fremennik
+}}
+{{LocLine
+|name = Dagannoth
+|location = [[Jormungand's Prison]]
+|levels = 74, 92
+|members = Yes
+|mapID = 11
+|plane = 0
+|x:2446,y:10430|x:2479,y:10430|x:2434,y:10446|x:2436,y:10447|x:2436,y:10451|x:2438,y:10444|x:2440,y:10438|x:2442,y:10446|x:2443,y:10436|x:2444,y:10442|x:2446,y:10437|x:2446,y:10461|x:2447,y:10445|x:2447,y:10457|x:2449,y:10455|x:2450,y:10436|x:2451,y:10450|x:2451,y:10458|x:2452,y:10432|x:2452,y:10447|x:2452,y:10453|x:2455,y:10438|x:2456,y:10442|x:2469,y:10448|x:2472,y:10436|x:2473,y:10453|x:2474,y:10445|x:2474,y:10449|x:2475,y:10433|x:2477,y:10454|x:2478,y:10437|x:2478,y:10444|x:2479,y:10448|x:2480,y:10452|x:2481,y:10433|x:2481,y:10436|x:2481,y:10440|x:2484,y:10443|x:2487,y:10433
+|mtype = pin
+|dropversion = Regular
+|leagueRegion = fremennik
+}}
+{{LocLine
+|name = Dagannoth
+|location = [[Catacombs of Kourend]]
+|levels = 74, 92
+|members = Yes
+|mapID = 32
+|plane = 0
+|x:1664,y:10000|x:1666,y:9997|x:1668,y:9994|x:1670,y:9999|x:1671,y:10002|x:1674,y:9996|x:1674,y:10000|x:1656,y:9996|x:1659,y:9996|x:1660,y:9999|x:1660,y:10001|x:1662,y:9996|x:1662,y:9999|x:1662,y:10002
+|mtype = pin
+|dropversion = Catacombs of Kourend
+|leagueRegion = kourend
+}}
+{{LocLine
+|name = Dagannoth
+|location = [[Lighthouse]]
+|levels = 74, 92
+|members = Yes
+|mapID = 10097
+|plane = 0
+|x:2511,y:10020|x:2513,y:10018|x:2514,y:10012|x:2514,y:10027|x:2515,y:10016|x:2515,y:10030|x:2518,y:10013|x:2518,y:10027|x:2519,y:10031|x:2520,y:10018|x:2521,y:10015|x:2522,y:10023|x:2522,y:10028|x:2523,y:10019|x:2524,y:10014|x:2524,y:10033|x:2526,y:10035|x:2527,y:10019|x:2527,y:10024|x:2532,y:10023|x:2534,y:10025|x:2535,y:10030
+|mtype = pin
+|dropversion = Regular
+|leagueRegion = fremennik
+}}
+{{LocTableBottom}}
+
+==Tips==
+[[Protection prayers|Protection Prayers]], [[Bones to Peaches]], [[Guthan the Infested's equipment|Guthan's]], and the [[Saradomin godsword]] [[special attack]] are all viable means of surviving for extended periods. Players with 70 [[Prayer]] can use a [[dragonbone necklace]] and [[bonecrusher]]/[[bonecrusher necklace]] to sustain more Prayer points.
+
+The dagannoths in the [[Catacombs of Kourend]] can be safespotted, but not reliably. If using melee, the area near safespot 2 can be used to fight only one dagannoth at a time.
+
+Safespot 3 works best when the Dagannoths are still in aggressive mode. They will line up in front of the Warped Jelly (having the Warped Jelly between you and the Dagannoths creates the safespot).
+
+<gallery>
+File:Dagannoth (Catacombs of Kourend, 1) safespot.png|Safespot 1
+File:Dagannoth (Catacombs of Kourend, 2) safespot.png|Safespot 2
+File:Dagannoth (Catacombs of Kourend, 3) safespot.png|Safespot 3
+</gallery>
+
+When killing the dagannoths in the Lighthouse, players can sell noted food to [[Jossik]] in the Lighthouse and buy it back in unnoted form for a small amount of money.
+
+The dagannoths in [[Jormungand's Prison]] only attack with melee, are in multi-combat, and a cannon can be set. No food is required here if using [[Protect from Melee|Protect from Melee.]]
+
+==Drops==
+{{DropLogProject|jagex=yes}}
+
+{| class="wikitable"
+! rowspan="2" |[[Konar quo Maten|Konar]] task
+! colspan="2" |Average drop value
+|-
+![[Grand Exchange|GE]]
+![[High Level Alchemy|HA]]
+|-
+|{{No}}
+|{{Coins|{{Average drop value|mob=Dagannoth|raw=y}}}}
+|{{Coins|{{Average drop value|mob=Dagannoth|alch=yes|raw=y}}}}
+|-
+|{{Yes}}
+|{{Coins|{{Average drop value|mob=Dagannoth|brimstone=yes|raw=y}}}}
+|{{Coins|{{Average drop value|mob=Dagannoth|brimstone=yes|alch=yes|raw=y}}}}
+|}
+
+===100%===
+{{DropsTableHead}}
+{{DropsLine|name=Bones|quantity=1|rarity=Always}}
+{{DropsTableBottom}}
+
+===Weapons===
+{{DropsTableHead}}
+{{DropsLine|name=Iron spear|quantity=1|rarity=6/128}}
+{{DropsLine|name=Bronze spear|quantity=1|rarity=5/128}}
+{{DropsLine|name=Mithril spear|quantity=1|rarity=1/128}}
+{{DropsTableBottom}}
+
+===Runes and ammunition===
+{{DropsTableHead}}
+{{DropsLine|name=Water rune|quantity=15|rarity=4/128}}
+{{DropsLine|name=Steel arrow|quantity=15|rarity=2/128}}
+{{DropsLine|name=Mithril javelin|quantity=3|rarity=1/128}}
+{{DropsTableBottom}}
+
+===Seeds===
+{{RareSeedDropTableInfo|18/128}}
+{{DropsTableHead}}
+{{RareSeedDropLines|18/128}}
+{{DropsTableBottom}}
+
+===Fishing===
+{{DropsTableHead}}
+{{DropsLine|name=Lobster pot|quantity=1|rarity=12/128}}
+{{DropsLine|name=Raw herring|quantity=3|rarity=4/128}}
+{{DropsLine|name=Raw sardine|quantity=5|rarity=4/128}}
+{{DropsLine|name=Harpoon|quantity=1|rarity=3/128}}
+{{DropsLine|name=Feather|quantity=15|rarity=2/128}}
+{{DropsLine|name=Fishing bait|quantity=50|rarity=2/128}}
+{{DropsLine|name=Raw lobster|quantity=1|rarity=2/128}}
+{{DropsLine|name=Raw tuna|quantity=1|rarity=2/128}}
+{{DropsLine|name=Seaweed|quantity=10|rarity=2/128}}
+{{DropsLine|name=Oyster pearls|quantity=1|rarity=1/128}}
+{{DropsLine|name=Oyster pearl|quantity=2|rarity=1/128}}
+{{DropsTableBottom}}
+
+===Coins===
+{{DropsTableHead}}
+{{DropsLine|name=Coins|quantity=56|rarity=29/128|gemw=No}}
+{{DropsLine|name=Coins|quantity=25|rarity=9/128|gemw=No}}
+{{DropsLine|name=Coins|quantity=44|rarity=8/128|gemw=No}}
+{{DropsLine|name=Coins|quantity=41|rarity=6/128|gemw=No}}
+{{DropsTableBottom}}
+
+===Other===
+{{DropsTableHead}}
+{{DropsLine|name=Casket|quantity=1|rarity=1/128}}
+{{DropsLine|name=Opal bolt tips|quantity=12|rarity=2/128}}
+{{DropsTableBottom}}
+
+===Gem drop table===
+{{GemDropTable|1/128|chaostalisman=yes|naturetalisman=yes}}
+
+===Tertiary===
+{{DropsTableHead}}
+{{DropsLine|name=Dagannoth ribs|quantity=1|rarity=1/4|raritynotes=<ref group=d>Dagannoth ribs are only dropped during [[Rag and Bone Man II]].</ref>|gemw=No}}
+{{DropsLine|name=Ensouled dagannoth head|quantity=1|rarity=1/40}}
+{{DropsLineClue|type=medium|rarity=1/128}}
+{{DropsLine|name=Brimstone key|quantity=1|rarity={{Brimstone rarity|74}}|raritynotes=<ref group=d>Brimstone keys are only dropped if killed on a [[Slayer task]] given by [[Konar quo Maten]].</ref>|altrarity={{Brimstone rarity|92}}|gemw=No|leagueRegion=Kourend}}
+{{DropsTableBottom}}
+{{Reflist|group=d}}
+
+===Catacombs tertiary===
+{{CatacombsDropTable|hitpoints=70|hitpointsmax=120|catacombsonly=yes|dropversion=Catacombs of Kourend}}
+
+==Changes==
+{{Subject changes header}}
+{{Subject changes
+|date = 27 August 2025
+|update = Summer Sweep Up Slayer & More
+|change = Dagannoths in the [[Catacombs of Kourend]] and [[Jormungand's Prison]] can now drop [[dagannoth ribs]] during [[Rag and Bone Man II]].
+}}
+{{Subject changes
+|date = 25 June 2025
+|update = Summer Sweep Up: Combat
+|change = Dagannoths now have a 35% [[elemental weakness]] to [[earth spells]].
+}}
+{{Subject changes
+|daterange = 26 January –<br/>27 June 2005
+|change = The quest monster's combat level was increased from 92 to 100.
+}}
+{{Subject changes footer}}
+
+{{Horror from the Deep}}
+{{Dagannoth}}

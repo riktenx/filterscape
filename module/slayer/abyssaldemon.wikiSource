@@ -66,7 +66,7 @@
 
 In combat, abyssal demons are capable of teleporting either themselves or the player around, meaning that [[safespotting]] is not viable. When landing a [[successful hit]] on an abyssal demon, it has a 1/6 chance to teleport away, followed by a 1/3 chance to teleport the player away in case the first roll fails.{{CiteTwitter|author=Mod Ash|url=https://twitter.com/JagexAsh/status/1307639253657157632|date=20 September 2020|archiveurl=https://archive.ph/zQJcz|archivedate=28 February 2023|quote=When they're executing the damage code (even with a damage value of 0) they call a 1/6 chance of teleporting themselves, and if that fails they call a 1/3 chance of teleporting the player. Magical splashing doesn't execute damage code (i.e. no hitsplat) hence what you observe.}} Abyssal demons can teleport players up to 20 tiles away.{{CiteTwitter|author=Mod Ash|url=https://twitter.com/JagexAsh/status/1489689419636477954|date=4 February 2022|archiveurl=https://web.archive.org/web/20220204200200/https://twitter.com/JagexAsh/status/1489689419636477954|archivedate=4 February 2022|quote=The max range of their teleport is 20 tiles, so being teleported 20 tiles is conceivable. (...)}} When teleported, you will stop attacking the demon. Having [[Auto Retaliate]] turned on can help make sure you fight back. The forced teleport on the player can be avoided by reading a [[Teleport anchoring scroll]].
 
-Killing an abyssal demon in the slayer tower is an elite Morytania diary task
+Killing an abyssal demon in the [[Slayer Tower]] is a requirement for the [[Morytania Elite Diary|Morytania elite diary]].
 
 Being a [[demon (attribute)|demon]], this creature is affected by [[demonbane weapons]].
 

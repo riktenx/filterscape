@@ -1340,7 +1340,7 @@ CONST_DEMONICGORILLA_RULE (name:VAR_DEMONICGORILLA_ENUMLIST_FILTER_HERBS) {
 type: enumlist
 label: 'Hide drops: Other'
 group: Demonic gorilla
-enum: ["Prayer potion(3)","Shark","Coins","Saradomin brew(2)","Adamantite bar","Javelin shaft","Rune javelin heads","Dragon javelin heads","Diamond","Runite bar"]
+enum: ["Prayer potion(3)","Shark","Coins","Saradomin brew(2)","Adamantite bar","Javelin shaft","Rune javelin tips","Dragon javelin tips","Diamond","Runite bar"]
 */
 #define VAR_DEMONICGORILLA_ENUMLIST_FILTER_OTHER []
 CONST_DEMONICGORILLA_RULE (name:VAR_DEMONICGORILLA_ENUMLIST_FILTER_OTHER) {
@@ -1450,6 +1450,91 @@ enum: ["Guthixian temple teleport","Magic shortbow (u)","Magic longbow (u)","Mal
 */
 #define VAR_TORMENTEDDEMON_ENUMLIST_FILTER_OTHER []
 CONST_TORMENTEDDEMON_RULE (name:VAR_TORMENTEDDEMON_ENUMLIST_FILTER_OTHER) {
+  hidden = true;
+}
+
+
+#define CONST_AREA_DAGANNOTH0 [2434,10430,0,2487,10461,0] // [[Jormungand's Prison]]
+#define CONST_AREA_DAGANNOTH1 [1656,9994,0,1674,10002,0] // [[Catacombs of Kourend]]
+#define CONST_AREA_DAGANNOTH2 [2511,10012,0,2535,10035,0] // [[Lighthouse]]
+#define CONST_DAGANNOTH_RULE(_cond) rule ((area:CONST_AREA_DAGANNOTH0 || \
+  area:CONST_AREA_DAGANNOTH1 || \
+  area:CONST_AREA_DAGANNOTH2) && (_cond))
+
+/*@ define:input
+type: enumlist
+label: 'Hide drops: 100%'
+group: Dagannoth
+enum: ["Bones"]
+*/
+#define VAR_DAGANNOTH_ENUMLIST_FILTER_100 []
+CONST_DAGANNOTH_RULE (name:VAR_DAGANNOTH_ENUMLIST_FILTER_100) {
+  hidden = true;
+}
+
+/*@ define:input
+type: enumlist
+label: 'Hide drops: Weapons'
+group: Dagannoth
+enum: ["Iron spear","Bronze spear","Mithril spear"]
+*/
+#define VAR_DAGANNOTH_ENUMLIST_FILTER_WEAPONS []
+CONST_DAGANNOTH_RULE (name:VAR_DAGANNOTH_ENUMLIST_FILTER_WEAPONS) {
+  hidden = true;
+}
+
+/*@ define:input
+type: enumlist
+label: 'Hide drops: Runes and ammunition'
+group: Dagannoth
+enum: ["Water rune","Steel arrow","Mithril javelin"]
+*/
+#define VAR_DAGANNOTH_ENUMLIST_FILTER_RUNESANDAMMUNITION []
+CONST_DAGANNOTH_RULE (name:VAR_DAGANNOTH_ENUMLIST_FILTER_RUNESANDAMMUNITION) {
+  hidden = true;
+}
+
+/*@ define:input
+type: enumlist
+label: 'Hide drops: Fishing'
+group: Dagannoth
+enum: ["Lobster pot","Raw herring","Raw sardine","Harpoon","Feather","Fishing bait","Raw lobster","Raw tuna","Seaweed","Oyster pearls","Oyster pearl"]
+*/
+#define VAR_DAGANNOTH_ENUMLIST_FILTER_FISHING []
+CONST_DAGANNOTH_RULE (name:VAR_DAGANNOTH_ENUMLIST_FILTER_FISHING) {
+  hidden = true;
+}
+
+/*@ define:input
+type: enumlist
+label: 'Hide drops: Coins'
+group: Dagannoth
+enum: ["Coins"]
+*/
+#define VAR_DAGANNOTH_ENUMLIST_FILTER_COINS []
+CONST_DAGANNOTH_RULE (name:VAR_DAGANNOTH_ENUMLIST_FILTER_COINS) {
+  hidden = true;
+}
+
+/*@ define:input
+type: enumlist
+label: 'Hide drops: Other'
+group: Dagannoth
+enum: ["Casket","Opal bolt tips"]
+*/
+#define VAR_DAGANNOTH_ENUMLIST_FILTER_OTHER []
+CONST_DAGANNOTH_RULE (name:VAR_DAGANNOTH_ENUMLIST_FILTER_OTHER) {
+  hidden = true;
+}
+
+/*@ define:input
+type: enumlist
+label: 'Hide drops: Tertiary'
+group: Dagannoth
+enum: ["Dagannoth ribs","Ensouled dagannoth head","Brimstone key"]
+*/
+#define VAR_DAGANNOTH_ENUMLIST_FILTER_TERTIARY []
+CONST_DAGANNOTH_RULE (name:VAR_DAGANNOTH_ENUMLIST_FILTER_TERTIARY) {
   hidden = true;
 }
 

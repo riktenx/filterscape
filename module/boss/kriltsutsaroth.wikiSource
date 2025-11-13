@@ -33,7 +33,7 @@
 |mbns = 0
 |arange = 0
 |rngbns = 0
-|dstab = 80
+|dstab = 70
 |dslash = 80
 |dcrush = 80
 |dmagic = 80
@@ -46,6 +46,7 @@
 |immunevenom = Yes
 |immunecannon = No
 |immunethrall = No
+|freezeresistance = 0
 |respawn = 150
 |id = 3129
 |leagueRegion = Asgarnia
@@ -89,7 +90,7 @@ If all players leave, his health and stats will be reset.
 ==Drops==
 {{DropLogProject|kills=15111}}<!--
 
--->{{#vardefine:krilUnique|{{#expr:
+-->{{#vardefine:krilUniqueGE|{{#expr:
 (1/127) * 1 * {{GEP|Steam battlestaff}} +
 (1/127) * 1 * {{GEP|Zamorakian spear}} +
 (1/508) * 1 * {{GEP|Staff of the dead}} +
@@ -97,13 +98,54 @@ If all players leave, his health and stats will be reset.
 (1/762) * 1 * {{GEP|Godsword shard 1}} +
 (1/762) * 1 * {{GEP|Godsword shard 2}} +
 (1/762) * 1 * {{GEP|Godsword shard 3}}
+}}}}<!--
+
+-->{{#vardefine:minionUniqueGE|{{#expr:
+(3/5376) * 1 * {{GEP|Zamorakian spear}} +
+(3/1524) * 1 * {{GEP|Godsword shard 1}} +
+(3/1524) * 1 * {{GEP|Godsword shard 2}} +
+(3/1524) * 1 * {{GEP|Godsword shard 3}}
+}}}}<!--
+
+-->{{#vardefine:krilUniqueHA|{{#expr:
+(1/127) * 1 * {{HA|Steam battlestaff}} +
+(1/127) * 1 * {{HA|Zamorakian spear}} +
+(1/508) * 1 * {{HA|Staff of the dead}} +
+(1/508) * 1 * {{HA|Zamorak hilt}} +
+(1/762) * 1 * {{HA|Godsword shard 1}} +
+(1/762) * 1 * {{HA|Godsword shard 2}} +
+(1/762) * 1 * {{HA|Godsword shard 3}}
+}}}}<!--
+
+-->{{#vardefine:minionUniqueHA|{{#expr:
+(3/5376) * 1 * {{HA|Zamorakian spear}} +
+(3/1524) * 1 * {{HA|Godsword shard 1}} +
+(3/1524) * 1 * {{HA|Godsword shard 2}} +
+(3/1524) * 1 * {{HA|Godsword shard 3}}
 }}}}
 
-The average K'ril Tsutsaroth kill, including its unique drops, is worth {{Coins|floor({{Average drop value|raw=y}})}}. 
-
-Excluding unique drops, the average kill is worth {{Coins|floor({{Average drop value|raw=y}} - {{#var:krilUnique}})}}. 
-
-Killing the three minions yields an additional {{Coins|floor(3 * {{Average drop value|mob=Balfrug Kreeyath|raw=y}})}} on average (including uniques), bringing the total to {{Coins|floor({{Average drop value|raw=y}} + 3 * {{Average drop value|mob=Balfrug Kreeyath|raw=y}})}} per kill.
+{| class="wikitable"
+|+
+! rowspan="2" |Minions Killed
+! colspan="4" |Average Drop Value
+|-
+![[Grand Exchange|GE]]
+![[Grand Exchange|GE]] w/o uniques
+![[High Level Alchemy|HA]]
+![[High Level Alchemy|HA]] w/o uniques
+|-
+|{{No}}
+|{{Coins|{{Average drop value|mob=K'ril Tsutsaroth|raw=y}}}}
+|{{Coins|{{Average drop value|mob=K'ril Tsutsaroth|raw=y}} - {{#var:krilUniqueGE}}}}
+|{{Coins|{{Average drop value|mob=K'ril Tsutsaroth|alch=yes|raw=y}}}}
+|{{Coins|{{Average drop value|mob=K'ril Tsutsaroth|alch=true|raw=y}} - {{#var:krilUniqueHA}}}}
+|-
+|{{Yes}}
+|{{Coins|{{Average drop value|mob=K'ril Tsutsaroth|raw=y}} + 3 * {{Average drop value|mob=Balfrug Kreeyath|raw=y}}}}
+|{{Coins|{{Average drop value|mob=K'ril Tsutsaroth|raw=y}} + 3 * {{Average drop value|mob=Balfrug Kreeyath|raw=y}} - {{#var:krilUniqueGE}} - {{#var:minionUniqueGE}}}}
+|{{Coins|{{Average drop value|mob=K'ril Tsutsaroth|alch=yes|raw=y}} + 3 * {{Average drop value|mob=Balfrug Kreeyath|alch=yes|raw=y}}}}
+|{{Coins|{{Average drop value|mob=K'ril Tsutsaroth|alch=true|raw=y}} + 3 * {{Average drop value|mob=Balfrug Kreeyath|alch=true|raw=y}} - {{#var:krilUniqueHA}}- {{#var:minionUniqueHA}}}}
+|}
 
 ===100%===
 {{DropsTableHead}}
@@ -113,7 +155,7 @@ Killing the three minions yields an additional {{Coins|floor(3 * {{Average drop 
 {{Reflist|group=d}}
 
 ===Uniques===
-There is a 3/127 chance to receive any drop on the unique table.
+The chance to get any unique is 3/127 (about 1/42). The chance to get any unique, excluding the Godsword shards, is 5/254 (about 1/51).
 {{DropsTableHead}}
 {{DropsLine|name=Steam battlestaff|quantity=1|rarity=1/127|raritynotes={{CiteTwitter|author=Mod Ash|url=https://twitter.com/JagexAsh/status/701534460588720128|date=21 February 2016|archiveurl=https://archive.fo/rKg7V|archivedate=28 March 2019|quote=No, it's on K'ril only. 1/127.|name=steam bstaff}}}}
 {{DropsLine|name=Zamorakian spear|quantity=1|rarity=1/127|raritynotes={{CiteTwitter|author=Mod Ash|url=https://twitter.com/JagexAsh/status/1068484922061586437?s=19|date=30 November 2018|archiveurl=https://archive.fo/hGmQH|archivedate=29 March 2019|quote=It's 127 for both, actually. Loot tables commonly use 128, but there's no particular reason for that number, and the GWD dev appears to have preferred 127.|name=spear}}}}
@@ -174,6 +216,11 @@ There is a 3/127 chance to receive any drop on the unique table.
 
 ==Changes==
 {{Subject changes header}}
+{{Subject changes
+|date = 25 June 2025
+|update = Summer Sweep Up: Combat
+|change = K'ril Tsutsaroth's [[stab]] defence has been decreased from 80 to 70.
+}}
 {{Subject changes
 |date = 9 April 2025
 |update = Farming & Autocast QoL Improvements
@@ -262,8 +309,9 @@ There is a 3/127 chance to receive any drop on the unique table.
 |immunecannon = No
 |immunethrall = No
 |id = 3132
-}}
-'''Balfrug Kreeyath''' is a three-faced [[black demon]] who destroyed the desert city of [[Ullek]] during the [[God Wars]]. He is one of [[K'ril Tsutsaroth]]'s bodyguards, along with [[Zakl'n Gritch]] and [[Tstanon Karlak]]. He attacks with [[Magic]] by launching huge fireballs at the player and has a maximum hit of 16.
+|elementalweaknesstype=Water
+|elementalweaknesspercent=25}}
+'''Balfrug Kreeyath''' is a three-faced [[black demon]] who [[Battle of Ullek|destroyed]] the desert city of [[Ullek]] during the [[God Wars]]. He is one of [[K'ril Tsutsaroth]]'s bodyguards, along with [[Zakl'n Gritch]] and [[Tstanon Karlak]]. He attacks with [[Magic]] by launching huge fireballs at the player and has a maximum hit of 16.
 
 Balfrug Kreeyath is considered a black demon for the purpose of a [[Slayer task]]. As with most demons, he is susceptible to the effects of [[demonbane weapons]].
 
@@ -336,12 +384,17 @@ The regular droptable contains 125 slots, however due to the unique tables the e
 ==Changes==
 {{Subject changes header}}
 {{Subject changes
+|change = Balfrug Kreeyath now has a 25% [[elemental weakness]] to [[water spells]].
+|date = 25 June 2025
+|update = Summer Sweep Up: Combat
+}}
+{{Subject changes
 |date = 16 June 2021
 |update = A Kingdom Divided
 |poll = A Kingdom Divided
 |change = Balfrug Kreeyath now drops [[malicious ashes]] in place of regular ashes.
 }}
-{{Subject changes footer}}
+{{Subject changes footer|date=25 June 2025}}
 
 ==Trivia==
 *Balfrug's name is similar to the [[Wikipedia:Balrog|Balrog]], a huge demon in [[Wikipedia:The Lord of the Rings|The Lord of the Rings]]. However [[K'ril Tsutsaroth]] bears more of a resemblance to it.
@@ -396,7 +449,8 @@ The regular droptable contains 125 slots, however due to the unique tables the e
 |immunecannon = No
 |immunethrall = No
 |id = 3130
-}}
+|elementalweaknesstype=Water
+|elementalweaknesspercent=40}}
 '''Tstanon Karlak''' is one of [[K'ril Tsutsaroth]]'s bodyguards and can be found in the [[God Wars Dungeon]], along with [[Zakl'n Gritch]] and [[Balfrug Kreeyath]]. Tstanon attacks with [[Melee]] and has a maximum hit of 15. Tstanon is usually not considered a threat compared to K'ril, since most players already have [[Protect from Melee]] active while fighting the [[Zamorak]] bosses.
 
 Tstanon Karlak is considered a [[greater demon]] for the purpose of a [[Slayer task]]. As with most demons, he is susceptible to the effects of [[demonbane weapons]].
@@ -470,6 +524,11 @@ The regular droptable contains 125 slots, however due to the unique tables the e
 ==Changes==
 {{Subject changes header}}
 {{Subject changes
+|change = Tstanon Karlak now has a 40% [[elemental weakness]] to [[water spells]].
+|date = 25 June 2025
+|update = Summer Sweep Up: Combat
+}}
+{{Subject changes
 |date = 16 June 2021
 |update = A Kingdom Divided
 |poll = A Kingdom Divided
@@ -530,7 +589,8 @@ The regular droptable contains 125 slots, however due to the unique tables the e
 |immunecannon = No
 |immunethrall = No
 |id = 3131
-}}
+|elementalweaknesstype=Water
+|elementalweaknesspercent=40}}
 '''Zakl'n Gritch''' is one of [[K'ril Tsutsaroth]]'s bodyguards, along with [[Balfrug Kreeyath]] and [[Tstanon Karlak]]. Zakl'n Gritch attacks with [[Ranged]] by throwing large snowballs and has a maximum hit of 21. 
 
 Zakl'n Gritch is considered a [[lesser demon]] for the purpose of a [[Slayer task]], and similarly it can drop the [[lesser demon champion scroll]]. As with most demons, he is susceptible to the effects of [[demonbane weapons]].
@@ -605,6 +665,11 @@ Zakl'n Gritch is considered a [[lesser demon]] for the purpose of a [[Slayer tas
 
 ==Changes==
 {{Subject changes header}}
+{{Subject changes
+|change = Zakl'n Gritch now has a 40% [[elemental weakness]] to [[water spells]].
+|date = 25 June 2025
+|update = Summer Sweep Up: Combat
+}}
 {{Subject changes
 |date = 16 June 2021
 |update = A Kingdom Divided

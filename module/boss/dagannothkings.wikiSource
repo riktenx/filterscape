@@ -35,6 +35,8 @@
 |dslash = 255
 |dcrush = 255
 |dmagic = 10
+|elementalweaknesstype = Earth
+|elementalweaknesspercent = 35
 |drange = 255
 |immunepoison = Not immune
 |immunevenom = Poisons instead
@@ -76,7 +78,7 @@ Dagannoth Rex spawns and roams on the south-eastern side of the Dagannoth Kings'
 ==Strategy==
 {{Main|Dagannoth Kings/Strategies}}
 [[File:Dagannoth Rex safespot.png|thumb|left|Luring Rex to a safespot.]]
-Dagannoth Rex has an extremely low [[Magic Defence]], so it is recommended to use [[Magic]] against him. Popular choices include [[Slayer Dart]], [[Iban Blast]], and [[powered staves]].
+Dagannoth Rex has an extremely low [[Magic Defence]], so it is recommended to use [[Magic]] against him. Popular choices include [[Slayer Dart]], [[Iban Blast]], [[powered staves]], and [[Earth spells]].
 
 Due to his large size and the fact he uses [[melee]] attacks only, it is recommended to get him stuck on one of the ridges of the lair and [[safespot]] him (note that [[Spinolyp]]s will still be constantly attacking while you're safespotting). Many players use high-level [[armour]] such as [[Barrows armour]], which give high [[Defence]] bonuses while still being able to hit Rex constantly with [[spells]] due to his very low Magic Defence, even if their [[magic attack bonus]] is below zero. Players who use [[Guthan the Infested's equipment|Guthan's]] are advised to heal themselves on the Spinolyps while waiting on respawns to help preserve [[food]] and [[potions]].
 
@@ -89,6 +91,8 @@ If players venture too far out west to lure Dagannoth Rex, they risk attracting 
 {{DropLogProject|kills=217761}}
 
 {{Average drop value}}
+
+{{Average drop value|alch=true}}
 
 {{Average drop value|brimstone=yes}}
 
@@ -163,6 +167,7 @@ Excluding [[berserker ring]] drops, the average kill is worth {{Coins|floor(({{A
 
 ===Tertiary===
 {{DropsTableHead}}
+{{DropsLine|name=Dagannoth ribs|quantity=1|rarity=1/4|raritynotes=<ref group=d>Dagannoth ribs are only dropped during [[Rag and Bone Man II]].</ref>|gemw=No}}
 {{DropsLine|name=Ensouled dagannoth head|quantity=1|rarity=1/20}}
 {{DropsLineClue|type=hard|rarity=1/42|raritynotes={{CiteTwitter|author=Mod Ash|url=https://twitter.com/JagexAsh/status/648561290034683904|date=28 September 2015|archiveurl=https://archive.fo/knrWr|archivedate=15 April 2019|quote=1/42 for a hard clue, 1/750 for elite, 1/128 for a d axe and 1/128 for a ring.|name=Ash tweet unique rates}}}}
 {{DropsLine|name=Brimstone key|quantity=1|rarity={{Brimstone rarity|303}}|raritynotes=<ref group="d">Brimstone keys are only dropped if killed on a [[Slayer task]] given by [[Konar quo Maten]].</ref>|gemw=No|leagueRegion=Fremennik&Kourend}}
@@ -177,6 +182,16 @@ Excluding [[berserker ring]] drops, the average kill is worth {{Coins|floor(({{A
 
 ==Changes==
 {{Subject changes header}}
+{{Subject changes
+|date = 27 August 2025
+|update = Summer Sweep Up Slayer & More
+|change = Dagannoth Rex can now drop [[dagannoth ribs]] during [[Rag and Bone Man II]].
+}}
+{{Subject changes
+|date = 25 June 2025
+|update = Summer Sweep Up: Combat
+|change = Dagannoth Rex now has a 35% elemental weakness to [[earth spells]].
+}}
 {{Subject changes
 |date = 5 March 2015
 |update = Achievement Diaries
@@ -235,6 +250,8 @@ Excluding [[berserker ring]] drops, the average kill is worth {{Coins|floor(({{A
 |dslash = 255
 |dcrush = 255
 |dmagic = 255
+|elementalweaknesstype = Earth
+|elementalweaknesspercent = 35
 |drange = 10
 |immunepoison = Not immune
 |immunevenom = Poisons instead
@@ -358,6 +375,7 @@ If players get too close to [[Dagannoth Rex]] when they are fighting Dagannoth P
 
 ===Tertiary===
 {{DropsTableHead}}
+{{DropsLine|name=Dagannoth ribs|quantity=1|rarity=1/4|raritynotes=<ref group=d>Dagannoth ribs are only dropped during [[Rag and Bone Man II]].</ref>|gemw=No}}
 {{DropsLine|name=Ensouled dagannoth head|quantity=1|rarity=1/20}}
 {{DropsLineClue|type=hard|rarity=1/42|raritynotes={{CiteTwitter|author=Mod Ash|url=https://twitter.com/JagexAsh/status/648561290034683904|date=28 September 2015|archiveurl=https://archive.fo/knrWr|archivedate=15 April 2019|quote=1/42 for a hard clue, 1/750 for elite, 1/128 for a d axe and 1/128 for a ring.|name=Ash tweet unique rates}}}}
 {{DropsLine|name=Brimstone key|quantity=1|rarity={{Brimstone rarity|303}}|raritynotes=<ref group="d">Brimstone keys are only dropped if killed on a [[Slayer task]] given by [[Konar quo Maten]].</ref>|gemw=No|leagueRegion=Fremennik&Kourend}}
@@ -372,6 +390,17 @@ If players get too close to [[Dagannoth Rex]] when they are fighting Dagannoth P
 
 ==Changes==
 {{Subject changes header}}
+{{Subject changes
+|date = 27 August 2025
+|update = Summer Sweep Up Slayer & More
+|change = Dagannoth Prime can now drop [[dagannoth ribs]] during [[Rag and Bone Man II]].
+}}
+{{Subject changes
+|date = 25 June 2025
+|update = Summer Sweep Up: Combat
+|change = 
+Dagannoth Prime now has a 35% elemental weakness to [[earth spells]].
+}}
 {{Subject changes
 |date = 5 March 2015
 |update = Achievement Diaries
@@ -431,6 +460,8 @@ If players get too close to [[Dagannoth Rex]] when they are fighting Dagannoth P
 |dslash = 10
 |dcrush = 10
 |dmagic = 255
+|elementalweaknesstype = Earth
+|elementalweaknesspercent = 35
 |drange = 550
 |immunepoison = Not immune
 |immunevenom = Poisons instead
@@ -472,7 +503,7 @@ Dagannoth Supreme spawns and roams on the western side of the Dagannoth Kings' l
 
 ==Strategy==
 {{Main|Dagannoth Kings/Strategies}}
-Dagannoth Supreme is most weak to [[melee]] attacks. The best weapons to use primarily are the [[abyssal whip]] or [[abyssal tentacle|tentacle]] due to its high [[Strength#Strength bonus|Strength bonus]] and fast attack rate, the [[Saradomin godsword]] for its [[special attack]], accuracy, and Strength bonus, and [[Guthan's warspear]], which should only be used in conjunction with the full [[Barrows set]] to heal. If a player does not possess a Saradomin godsword, a [[Crystal halberd]] or [[Dragon dagger]] is a good alternative [[special attack]] weapon.
+Dagannoth Supreme is most weak to [[melee]] attacks. The best weapons to use primarily are the [[abyssal whip]] or [[abyssal tentacle|tentacle]] due to its high [[Strength#Strength bonus|Strength bonus]] and fast attack rate, the [[Saradomin godsword]] for its [[special attack]], accuracy, and Strength bonus, and [[Guthan's warspear]], which should only be used in conjunction with the full [[Barrows set]] to heal. If a player does not possess a Saradomin godsword or [[Crystal halberd]], a [[Dragon dagger]] is a good alternative [[special attack]] weapon.
 
 The biggest threat when killing Dagannoth Supreme is that [[Dagannoth Prime]] may respawn while killing Supreme. To save yourself from Prime's hard-hitting magical attacks, turn on [[Protect from Magic]]. You can either stick around or leave up the ladder. Another possible threat is that [[Dagannoth Rex]] may respawn instead of Prime. If this happens and you are a [[mage]], distract him again like in first wave. However, the mage should feel no inclination to kill Rex; just lure him away. Another strategy is to make use of [[Entangle]] or [[ice spells]] to deal with Rex.
 
@@ -549,6 +580,7 @@ Excluding [[archers ring]] drops, the average kill is worth {{Coins|floor(({{Ave
 
 ===Tertiary===
 {{DropsTableHead}}
+{{DropsLine|name=Dagannoth ribs|quantity=1|rarity=1/4|raritynotes=<ref group=d>Dagannoth ribs are only dropped during [[Rag and Bone Man II]].</ref>|gemw=No}}
 {{DropsLine|name=Ensouled dagannoth head|quantity=1|rarity=1/20}}
 {{DropsLineClue|type=hard|rarity=1/42|raritynotes={{CiteTwitter|author=Mod Ash|url=https://twitter.com/JagexAsh/status/648561290034683904|date=28 September 2015|archiveurl=https://archive.fo/knrWr|archivedate=15 April 2019|quote=1/42 for a hard clue, 1/750 for elite, 1/128 for a d axe and 1/128 for a ring.|name=Ash tweet unique rates}}}}
 {{DropsLine|name=Brimstone key|quantity=1|rarity={{Brimstone rarity|303}}|raritynotes=<ref group="d">Brimstone keys are only dropped if killed on a [[Slayer task]] given by [[Konar quo Maten]].</ref>|gemw=No|leagueRegion=Fremennik&Kourend}}
@@ -563,6 +595,17 @@ Excluding [[archers ring]] drops, the average kill is worth {{Coins|floor(({{Ave
 
 ==Changes==
 {{Subject changes header}}
+{{Subject changes
+|date = 27 August 2025
+|update = Summer Sweep Up Slayer & More
+|change = Dagannoth Supreme can now drop [[dagannoth ribs]] during [[Rag and Bone Man II]].
+}}
+{{Subject changes
+|date = 25 June 2025
+|update = Summer Sweep Up: Combat
+|change = 
+Dagannoth Supreme now has a 35% elemental weakness to [[earth spells]].
+}}
 {{Subject changes
 |date = 19 January 2017
 |update = Raids Tweaks & QoL

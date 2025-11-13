@@ -38,11 +38,12 @@
 |drange = 50
 |immunepoison = Yes
 |immunevenom = Yes
-|immunecannon = No
+|immunecannon = Yes
 |immunethrall = No
 |respawn = 11
 |id = 6609
-}}
+|elementalweaknesstype=Fire
+|elementalweaknesspercent=30}}
 '''Callisto''' is an enormous bear empowered by the corruption of the [[Wilderness]] that resides in [[Callisto's Den]] at level 40 [[Wilderness]] and is the one of two monsters to drop the [[tyrannical ring]]. 
 
 [[Ironman_Mode|Ironmen]] are eligible for drops from Callisto when defeating it alongside other players.
@@ -65,8 +66,13 @@
 ==Strategy==
 {{Main|Callisto/Strategies}}
 
-Callisto primarily attacks with melee, but will use ranged against players if he cannot reach them. His melee attack deals massive damage and shatters into other players near his current target. His melee attack has a minimum hit of 35.{{CiteTwitter|author=Mod Ash|url=https://twitter.com/JagexAsh/status/1724401188496359898|date=14 November 2023|archiveurl=https://web.archive.org/web/20231114143552/https://twitter.com/JagexAsh/status/1724401188496359898|archivedate=14 November 2023|quote=Hey Ash. Do you happen to know what the "minimum damage" of Callisto and Artio's melee attacks are? 35 & 15 as base values, I believe.}}
-At specific health intervals, he can deploy ghostly bear traps that bind players that step into one. When Callisto does this, he will become unfrozen regardless of any remaining time on the freeze. Callisto will occasionally send out a slow magic attack towards the player. If the player is not praying Protect from Magic when the attack reaches the player, this will result in the player being knocked back and temporarily stunned, in addition to taking a large amount of damage if the player is knocked into a wall. 
+Callisto primarily attacks with melee, but will use ranged against players if he cannot reach them. His melee attack deals massive damage and shatters into other players near his current target. His melee attack has a minimum hit of 35.{{CiteTwitter|author=Mod Ash|url=https://twitter.com/JagexAsh/status/1724401188496359898|date=14 November 2023|archiveurl=https://web.archive.org/web/20231114143552/https://twitter.com/JagexAsh/status/1724401188496359898|archivedate=14 November 2023|quote=Hey Ash. Do you happen to know what the "minimum damage" of Callisto and Artio's melee attacks are? 35 & 15 as base values, I believe.}} 
+
+If Callisto is not already frozen and the attacking player has equipment with a total [[Magic accuracy]] greater than 0, the first attack that would freeze the boss is guaranteed to hit and freeze Callisto. 
+
+At specific health intervals (66% and 33%),  Callisto lifts his head, becomes unfrozen, and deploys bear traps that snare and damage players when stepped on. Callisto can be re-frozen after he returns to normal stance. 
+
+Callisto will occasionally send out a slow magic attack towards the player. If the player is not praying Protect from Magic when the attack reaches the player, this will result in the player being knocked back and temporarily stunned, in addition to taking a large amount of damage if the player is knocked into a wall. 
 
 [[Protection prayers]] will negate all ranged and magic damage of his attacks, but [[Protect from Melee]] will only reduce the damage by ~50%. 
 
@@ -75,6 +81,8 @@ At specific health intervals, he can deploy ghostly bear traps that bind players
 
 ==Drops==
 The listed quantities are for soloing Callisto. In group encounters, Callisto's drops, including uniques, will be split proportionally based on damage done. Up to 10 players may obtain drops per kill in this manner, and each of the top 10 players will receive at least 25% of the solo loot quantity.
+
+Ironmen must deal 7% of the overall damage to be eligible for 25% of the solo loot quantity. Ironmen dealing less than 7% damage will receive a minimum of 5% of the solo loot quantity.
 
 {{Average drop value|mob=Callisto|mobname=solo Callisto}}
 
@@ -114,21 +122,21 @@ The listed quantities are for soloing Callisto. In group encounters, Callisto's 
 {{DropsLine|name=Blood rune|quantity=500|rarity=7/126}}
 {{DropsLine|name=Death rune|quantity=700|rarity=7/126}}
 {{DropsLine|name=Chaos rune|quantity=900|rarity=7/126}}
-{{DropsLine|name=Soul rune|quantity=600|rarity=5/126}}
-{{DropsLine|name=Cannonball|quantity=600|rarity=4/126}}
+{{DropsLine|name=Soul rune|quantity=450|rarity=5/126}}
+{{DropsLine|name=Steel cannonball|quantity=600|rarity=4/126}}
 {{DropsTableBottom}}
 
 ===Materials===
 {{DropsTableHead}}
-{{DropsLine|name=Uncut ruby|quantity=75 (noted)|rarity=4/126}}
-{{DropsLine|name=Uncut diamond|quantity=35 (noted)|rarity=3/126}}
+{{DropsLine|name=Uncut ruby|quantity=50 (noted)|rarity=4/126}}
+{{DropsLine|name=Uncut diamond|quantity=25 (noted)|rarity=3/126}}
 {{DropsLine|name=Uncut dragonstone|quantity=5 (noted)|rarity=2/126}}
 {{DropsLine|name=Limpwurt root|quantity=100 (noted)|rarity=5/126}}
 {{DropsLine|name=Magic logs|quantity=225 (noted)|rarity=5/126}}
 {{DropsLine|name=Mahogany logs|quantity=600 (noted)|rarity=6/126}}
 {{DropsLine|name=Red dragonhide|quantity=170 (noted)|rarity=3/126}}
 {{DropsLine|name=Coconut|quantity=135 (noted)|rarity=2/126}}
-{{DropsLine|name=Grimy toadflax|quantity=150 (noted)|rarity=1/126}}
+{{DropsLine|name=Grimy toadflax|quantity=100 (noted)|rarity=1/126}}
 {{DropsLine|name=Grimy dwarf weed|quantity=45 (noted)|rarity=1/126}}
 {{DropsLine|name=Grimy ranarr weed|quantity=45 (noted)|rarity=1/126}}
 {{DropsLine|name=Grimy snapdragon|quantity=45 (noted)|rarity=1/126}}
@@ -137,7 +145,7 @@ The listed quantities are for soloing Callisto. In group encounters, Callisto's 
 ===Seeds===
 {{DropsTableHead}}
 {{DropsLine|name=Ranarr seed|quantity=11|rarity=5/126}}
-{{DropsLine|name=Snapdragon seed|quantity=8|rarity=5/126}}
+{{DropsLine|name=Snapdragon seed|quantity=5|rarity=5/126}}
 {{DropsTableBottom}}
 
 ===Other===
@@ -268,12 +276,24 @@ Callisto's Den concept art.png|Concept art of [[Callisto's Den]], by [[Mod Grub]
 ==Changes==
 {{Subject changes header}}
 {{Subject changes
-|date = 17 April 2024 
+|date = 6 August 2025
+|update = Varlamore & Summer Sweep-Up Combat Tweaks
+|change = The minimum damage threshold required for Ironmen to be eligible for 25% of the solo loot quantity was decreased from 10% of overall damage to 7%.
+}}
+{{Subject changes
+|date = 25 June 2025
+|update = Summer Sweep Up: Combat
+|change =
+* Drop quantities lowered for uncut rubies from 75 to 50 and uncut diamonds from 35 to 25.
+* Minimum loot percentage for Ironmen dealing less than 10% damage reduced from 25% of solo loot to 5% of solo loot.
+}}
+{{Subject changes
+|date = 17 April 2024
 |update = Undead Pirates Tweaks, Varlamore CAs & More
 |change = Callisto will now wait a short period of time after respawning before attacking players.
 }}
 {{Subject changes
-|date = 10 April 2024 
+|date = 10 April 2024
 |update = Undead Pirates, Colosseum Changes & more!
 |poll = Undead Pirates Rewards & More
 |change = Callisto's respawn time was decreased from 29 ticks (17.4 seconds) to 11 ticks (6.6 seconds).
@@ -282,8 +302,7 @@ Callisto's Den concept art.png|Concept art of [[Callisto's Den]], by [[Mod Grub]
 |date = 7 February 2024
 |update = Poll 80 Wilderness Changes & More
 |poll = 
-|change = 
-* The minimum percentage of regular loot given to the top 10 players in a fight against Callisto has been increased from 15% to 25%.
+|change = * The minimum percentage of regular loot given to the top 10 players in a fight against Callisto has been increased from 15% to 25%.
 * The drop rate for a [[Callisto cub]] has been increased from 1/2,000 to 1/1,500.
 * Callisto can now drop [[wilderness crab teleport]]s, [[mystic robe top]]s, [[mystic robe bottom]]s, [[rune kiteshield]]s, [[rune platebodies]], and [[mystic earth staff|mystic earth staves]].
 * The weighting on certain drops as been adjusted, slightly decreasing the chance to get [[coin]]s and [[rune pickaxe]]s in favour of more valuable drops.
@@ -294,8 +313,7 @@ Callisto's Den concept art.png|Concept art of [[Callisto's Den]], by [[Mod Grub]
 |date = 20 September 2023
 |update = Poll 80 & Shooting Stars Changes
 |poll = Awakened DT2 Bosses & Poll 80
-|change = 
-* Callisto will now both take damage from [[Magic]] attacks from any source.
+|change = * Callisto will now both take damage from [[Magic]] attacks from any source.
 ** Additionally, if Callisto is not already frozen and the attacking player has equipment with a total [[Magic accuracy]] greater than 0, the first attack that would freeze the boss is guaranteed to hit.
 ** Future hits while the boss is frozen are not guaranteed to hit.
 * Callisto's [[Magic defence]] has been increased.
@@ -317,8 +335,7 @@ Callisto's Den concept art.png|Concept art of [[Callisto's Den]], by [[Mod Grub]
 {{Subject changes
 |date = 2 February 2023
 |update = Wilderness Boss Rework Tweaks & More
-|change = 
-*Increased the minimum loot reward from 0% to 15%.
+|change = *Increased the minimum loot reward from 0% to 15%.
 *Reduced maximum number of players able to receive loot from 15 to 10.
 *Increased quantity of base rewards.
 *Callisto is now immune to [[Ring of recoil]] and similar effects.
@@ -326,8 +343,7 @@ Callisto's Den concept art.png|Concept art of [[Callisto's Den]], by [[Mod Grub]
 {{Subject changes
 |date = 25 January 2023
 |update = Wilderness Boss Rework
-|change = 
-* Callisto is now located in a cave, and his combat behaviour has been adjusted.
+|change = * Callisto is now located in a cave, and his combat behaviour has been adjusted.
 * Callisto has been graphically updated.
 }}
 {{Subject changes
@@ -344,7 +360,7 @@ Callisto's Den concept art.png|Concept art of [[Callisto's Den]], by [[Mod Grub]
 {{Subject changes
 |date = 16 April 2015
 |update = Clan Wars Game Modes & More
-|poll =
+|poll = 
 |change = Callisto can no longer be blocked by other NPCs.
 }}
 {{Subject changes

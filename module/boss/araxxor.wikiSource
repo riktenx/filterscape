@@ -6,8 +6,8 @@
 |text1 = In combat
 |item1 =
 {{Infobox Monster
-|smwname1 = In combat
-|smwname2 = Enraged
+|bucketname1 = In combat
+|bucketname2 = Enraged
 |version1 = In combat
 |version2 = Enraged
 |name = Araxxor
@@ -54,7 +54,7 @@
 |dlight = 218
 |dstandard = 218
 |dheavy = 218
-|elementalweaknesstype = fire
+|elementalweaknesstype = Fire
 |elementalweaknesspercent = 50
 |immunepoison = Yes
 |immunevenom = Yes
@@ -67,7 +67,7 @@
 |text2 = Dead
 |item2 =
 {{Infobox NPC
-|smwname = Dead
+|bucketname = Dead
 |name = Araxxor
 |image = [[File:Araxxor (dead).png|280px]]
 |release = [[28 August]] [[2024]]
@@ -85,6 +85,8 @@
 }}
 }}
 '''Araxxor''' is the [[boss]] version of [[araxyte]]s found within the [[Morytania Spider Cave]], requiring level 92 [[Slayer]] and access to [[Morytania]] to kill. As a [[Slayer boss]], he may only be killed while on a spider or araxyte [[Slayer task]]. [[Konar quo Maten]] can also assign Araxxor specifically when she assigns a [[boss task]].
+
+Araxxor uniquely drops pieces of the [[Noxious halberd]], a strong two-handed slash weapon, and the [[Araxyte fang]], which can be combined with the [[Amulet of torture]] to create the [[Amulet of rancour]], the best-in-slot melee amulet.
 
 ==Location==
 {{LocTableHead|league=yes}}
@@ -108,13 +110,15 @@ A [[Scoreboard (Araxxor)|scoreboard]] by the web tunnel shows statistics related
 ==Fight overview==
 {{main|Araxxor/Strategies}}
 
-As with all araxytes, Araxxor's attacks can inflict [[venom]]. He spawns in the middle of his chamber and attacks with melee; if out of his melee range, he will close the distance and attack with either magic or ranged - whichever of the player's defence rolls is lower<ref>https://www.reddit.com/r/2007scape/comments/1iyvrro/how_to_force_araxxor_range_attacks/</ref>. [[Aranea boots]] can be worn to protect the player from his ranged attack once every 8 [[tick]]s, or every other attack. The boots '''do not''' protect the player from his mage attack.
+As with all araxytes, Araxxor's attacks can inflict [[venom]]. He spawns in the middle of his chamber and attacks with melee; if out of his melee range, he will close the distance and attack with either magic or ranged - whichever of the player's defence rolls is lower{{CiteReddit|author=ThePtScreamSucks|url=https://www.reddit.com/r/2007scape/comments/1iyvrro/how_to_force_araxxor_range_attacks/|title=How to force Araxxor range attacks?|quote=|date=26 February 2025|archiveurl=https://web.archive.org/web/20250312051211/https://www.reddit.com/r/2007scape/comments/1iyvrro/how_to_force_araxxor_range_attacks/|archivedate=12 March 2025|notes=|name=}}. [[Aranea boots]] can be worn to protect the player from his ranged attack once every 8 [[tick]]s, or every other attack. The boots '''do not''' protect the player from his mage attack.
 
 Around Araxxor's lair, there are nine eggs; three each of red, white, and green. The first egg hatches after three standard attacks from Araxxor, hatching clockwise starting from the south-easternmost egg, with subsequent eggs hatching after every six standard attacks. Both the eggs and the araxytes count as on-task monsters for the purposes of benefiting from the [[slayer helmet]]'s damage bonus, but '''will not reduce''' the player's task kill count.
 
 Every six standard attacks, Araxxor will use one of three special attacks, which can be determined by identifying the south-easternmost egg. All of these attacks leave acid pools, which inflict venom and deal increasingly larger damage (starting from 4) the longer the player stays on them.
 
-Upon reaching 25% of his health, Araxxor will enter an enrage phase, increasing his Defence level by 35 as well as his attack speed from 6 to 4. He will replace his melee attack with a cleave attack for the remainder of the fight, which will deal melee damage in a 1x3 area while leaving acid pools on the ground. This attack is able to damage Araxxor if you step under his body during the attack. Like with his ranged attack, aranea boots will also negate damage from the cleave every 8 ticks.
+Upon reaching 25% of his health, Araxxor will enter an enrage phase, increasing his Defence level by 35 as well as his attack speed from 6 to 4. He will replace his melee attack with a cleave attack for the remainder of the fight, which will deal melee damage in a 1x3 area while leaving acid pools on the ground. This attack is able to damage Araxxor if you step under his body during the attack. Like with his ranged attack, aranea boots will also negate damage from the cleave every 12 seconds (20 ticks).
+
+Be wary around the edges of the room, some tiles may appear free but are unable to be moved onto.
 
 ==Money making==
 {{Mmgsection|Killing Araxxor}}
@@ -123,7 +127,8 @@ Upon reaching 25% of his health, Araxxor will enter an enrage phase, increasing 
 {{DropLogProject|kills=859630}}
 
 {{Average drop value}}
-Creating the Noxious halberd and Amulet of rancour (subtracting the cost of [[Amulet of torture]] required in creation) result in an additional average of {{Coins|{{GEP|Noxious halberd}}/600+{{GEP|Amulet of rancour}}/600-{{GEP|Amulet of torture}}/600}} per kill.
+
+Creating the [[Noxious halberd]] and [[Amulet of rancour]] (subtracting the cost of [[Amulet of torture]] required in creation) result in an additional average of {{Coins|{{GEP|Noxious halberd}}/600+{{GEP|Amulet of rancour}}/600-{{GEP|Amulet of torture}}/600}} per kill.
 
 When Araxxor dies, players can either choose to harvest or destroy the corpse; he will not respawn until the player makes their choice.
 * Choosing the "Harvest" option rolls the drop table as normal, with excess loot dropped to the ground.
@@ -238,6 +243,7 @@ There is approximately a 1/8 chance of getting a supply drop. It will include:
 Araxxor concept art.png|Concept art of Araxxor, by [[Mod Skylark]].
 New Slayer Boss - The Araxyte (4).png|Work-in-progress model of Araxxor at various angles, by [[Mod Harold]].
 Araxxor artwork 3D.jpg|Poster announcing Araxxor's release date, made by FalcoAJ and commissioned by Jagex.
+Araxxor artwork 3D no text.png|The poster in high-quality without text and overlays.
 Araxxor logo.png|The logo for Araxxor, used in marketing and social media.
 </gallery>
 
@@ -294,6 +300,7 @@ Araxxor logo.png|The logo for Araxxor, used in marketing and social media.
 ==Trivia==
 *Unlike other [[jar]]-dropping bosses, Araxxor's jar drop, the [[jar of venom]], is untradeable. This is because the Old School Team considered boss jars overall to be in a position of being a rare "flex" cosmetic that can be traded between players, and wished to try having the jar of venom be more exclusive.{{CiteNews|url=https://secure.runescape.com/m=news/new-slayer-boss---the-araxyte?oldschool=1|title=New Slayer Boss - The Araxyte|newsdate=17 June 2024|quote=Our final untradeable is the Jar of Venom – which might seem a bit odd, because all our other ‘Jar’ items have been tradeable. This puts them in a weird spot of being rare ‘flex’ cosmetics that you can purchase for a relatively inconsequential price – and for the Jar of Venom, we want to try something a bit more exclusive.}}
 *Unlike other bosses with speed-based [[Combat Achievements]], Araxxor's speed-based Combat Achievements are based on a set amount of kills in a set amount of time, rather than one kill only. This is due to player disdain over other speed-based Combat Achievements that required best-in-slot gear, and in the case of most bosses (such as [[Whisperer Speed-Runner]] and [[Vorkath Speed-Runner]], some of the most notorious speed-runner achievements) additionally required extremely good luck in the hopes that the player's attacks would hit high.
+*Araxxor is currently the strongest Slayer boss in-game.
 
 ==References==
 {{Reflist}}

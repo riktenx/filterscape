@@ -1,6 +1,6 @@
 {
   "Player death": [],
-  "100% drops": [
+  "100%": [
     "Zulrah's scales"
   ],
   "Uniques": [
@@ -10,6 +10,7 @@
     "Uncut onyx"
   ],
   "Mutagens": [
+    "Flax",
     "Tanzanite mutagen",
     "Magma mutagen"
   ],
@@ -44,16 +45,19 @@
     "Snakeskin",
     "Runite ore",
     "Pure essence",
-    "Flax",
     "Yew logs",
     "Adamantite bar",
     "Coal",
     "Dragon bones",
     "Mahogany logs"
   ],
+  "Shark drop table": [
+    "Raw shark",
+    "Shark lure",
+    "Manta ray"
+  ],
   "Other": [
     "Zul-andra teleport",
-    "Manta ray",
     "Antidote++(4)",
     "Dragonstone bolt tips",
     "Grapes",

@@ -36,6 +36,8 @@
 |dcrush = 10
 |dmagic = 300
 |drange = 150
+|elementalweaknesstype = Fire
+|elementalweaknesspercent = 40
 |immunepoison = Yes
 |immunevenom = Yes
 |immunecannon = No
@@ -47,7 +49,7 @@
 
 According to [[Phabelle Bile]], Venenatis is the last of her kind, who were hunted to extinction by dwarves. 
 
-A [[dwarf multicannon]] cannot be set up in the Silk Chasm; if attempted, you will receive the message: ''It doesn't seem safe to set up a cannon here.''
+A [[dwarf multicannon]] cannot be set up in the Silk Chasm; if attempted, you will receive the message: {{mes|It doesn't seem safe to set up a cannon here.}}
 
 [[Ironman_Mode|Ironmen]] are eligible for drops from Venenatis when defeating it alongside other players.
 
@@ -84,7 +86,9 @@ If 5 or more players are in Venenatis' lair, she will move more often and perfor
 
 The listed quantities are for soloing Venenatis. In group encounters, Venenatis's drops, including uniques, will be split proportionally based on damage done. Up to 10 players may obtain drops per kill in this manner, and each of the top 10 players will receive at least 25% of the solo loot quantity.
 
-{{Average drop value|mob=Venenatis|mobname=solo Venenatis}}
+Ironmen must deal 7% of the overall damage to be eligible for 25% of the solo loot quantity. Ironmen dealing less than 7% damage will receive a minimum of 5% of the solo loot quantity.
+
+The average solo Venenatis kill is worth {{Coins|{{Average drop value|mob=Venenatis|mobname=solo Venenatis|raw=yes}}}}. This increases marginally to {{Coins|{{Average drop value|mob=Venenatis|brimstone=yes|raw=yes}}}} on a [[Konar quo Maten|Konar]] task, or {{Coins|{{Average drop value|mob=Venenatis|wildernessslayer=yes|raw=yes}}}} on a [[Krystilia]] task.
 
 ===100%===
 {{DropsTableHead}}
@@ -123,13 +127,13 @@ The listed quantities are for soloing Venenatis. In group encounters, Venenatis'
 {{DropsLine|name=Death rune|quantity=700|rarity=7/126}}
 {{DropsLine|name=Blood rune|quantity=900|rarity=7/126}}
 {{DropsLine|name=Diamond bolts (e)|quantity=300|rarity=5/126}}
-{{DropsLine|name=Cannonball|quantity=600|rarity=4/126}}
+{{DropsLine|name=Steel cannonball|quantity=600|rarity=4/126}}
 {{DropsTableBottom}}
 
 ===Materials===
 {{DropsTableHead}}
-{{DropsLine|name=Uncut ruby|quantity=75 (noted)|rarity=1/126}}
-{{DropsLine|name=Uncut diamond|quantity=35 (noted)|rarity=8/126}}
+{{DropsLine|name=Uncut ruby|quantity=50 (noted)|rarity=1/126}}
+{{DropsLine|name=Uncut diamond|quantity=25 (noted)|rarity=8/126}}
 {{DropsLine|name=Gold ore|quantity=675 (noted)|rarity=6/126}}
 {{DropsLine|name=Onyx bolt tips|quantity=150|rarity=5/126}}
 {{DropsLine|name=Magic logs|quantity=225 (noted)|rarity=5/126}}
@@ -138,7 +142,7 @@ The listed quantities are for soloing Venenatis. In group encounters, Venenatis'
 {{DropsLine|name=Unicorn horn|quantity=225 (noted)|rarity=1/126}}
 {{DropsLine|name=Uncut dragonstone|quantity=5 (noted)|rarity=2/126}}
 {{DropsLine|name=Grimy ranarr weed|quantity=45 (noted)|rarity=1/126}}
-{{DropsLine|name=Grimy snapdragon|quantity=150 (noted)|rarity=1/126}}
+{{DropsLine|name=Grimy snapdragon|quantity=100 (noted)|rarity=1/126}}
 {{DropsLine|name=Grimy toadflax|quantity=45 (noted)|rarity=1/126}}
 {{DropsLine|name=Battlestaff|quantity=12 (noted)|rarity=2/126}}
 {{DropsTableBottom}}
@@ -270,12 +274,24 @@ Silk Chasm concept art.jpg|Concept art of Venenatis' [[Silk Chasm]], by [[Mod Je
 ==Changes==
 {{Subject changes header}}
 {{Subject changes
-|date = 17 April 2024 
+|date = 6 August 2025
+|update = Varlamore & Summer Sweep-Up Combat Tweaks
+|change = The minimum damage threshold required for Ironmen to be eligible for 25% of the solo loot quantity was decreased from 10% of overall damage to 7%.
+}}
+{{Subject changes
+|date = 25 June 2025
+|update = Summer Sweep Up: Combat
+|change =
+* Drop quantities lowered for uncut rubies from 75 to 50 and uncut diamonds from 35 to 25.
+* Minimum loot percentage for Ironmen dealing less than 10% damage reduced from 25% of solo loot to 5% of solo loot.
+}}
+{{Subject changes
+|date = 17 April 2024
 |update = Undead Pirates Tweaks, Varlamore CAs & More
 |change = Venenatis will now wait a short period of time after respawning before attacking players.
 }}
 {{Subject changes
-|date = 10 April 2024 
+|date = 10 April 2024
 |update = Undead Pirates, Colosseum Changes & more!
 |poll = Undead Pirates Rewards & More
 |change = Venenatis' respawn time was decreased from 28 ticks (16.8 seconds) to 10 ticks (6 seconds).
@@ -284,8 +300,7 @@ Silk Chasm concept art.jpg|Concept art of Venenatis' [[Silk Chasm]], by [[Mod Je
 |date = 7 February 2024
 |update = Poll 80 Wilderness Changes & More
 |poll = 
-|change = 
-* The minimum percentage of regular loot given to the top 10 players in a fight against Venenatis has been increased from 15% to 25%.
+|change = * The minimum percentage of regular loot given to the top 10 players in a fight against Venenatis has been increased from 15% to 25%.
 * The drop rate for a [[Venenatis spiderling]] has been increased from 1/2,000 to 1/1,500.
 * Venenatis can now drop [[wilderness crab teleport]]s, [[dragon dagger]]s, [[battlestaves]], [[rune plateleg]]s, [[rune sq shield]]s, and [[Mystic air staff|mystic air staves]].
 * The weighting on certain drops as been adjusted, slightly decreasing the chance to get [[coin]]s and [[rune pickaxe]]s in favour of more valuable drops.
@@ -306,9 +321,8 @@ Silk Chasm concept art.jpg|Concept art of Venenatis' [[Silk Chasm]], by [[Mod Je
 {{Subject changes
 |date = 15 March 2023
 |update = The Last of Poll 78
-|poll= New Skill: Community Consultation and Poll 78
-|change =
-* To prevent players from attacking those attempting to enter the boss chamber safely (as the entrance was multi-combat, whereas the area to the east was single-combat) the following changes were implemented:
+|poll = New Skill: Community Consultation and Poll 78
+|change = * To prevent players from attacking those attempting to enter the boss chamber safely (as the entrance was multi-combat, whereas the area to the east was single-combat) the following changes were implemented:
 ** The cave entrance now faces west instead of south.
 ** Trees have been added to the area behind the cave.
 }}
@@ -325,8 +339,7 @@ Silk Chasm concept art.jpg|Concept art of Venenatis' [[Silk Chasm]], by [[Mod Je
 {{Subject changes
 |date = 2 February 2023
 |update = Wilderness Boss Rework Tweaks & More
-|change = 
-*Increased the minimum loot reward from 0% to 15%.
+|change = *Increased the minimum loot reward from 0% to 15%.
 *Reduced maximum number of players able to receive loot from 15 to 10.
 *Increased quantity of base rewards.
 *Venenatis is now immune to [[Ring of recoil]] and similar effects.
@@ -335,13 +348,12 @@ Silk Chasm concept art.jpg|Concept art of Venenatis' [[Silk Chasm]], by [[Mod Je
 {{Subject changes
 |date = 25 January 2023
 |update = Wilderness Boss Rework
-|change = 
-* Venenatis is now located in a cave, and her combat behaviour has been adjusted.
+|change = * Venenatis is now located in a cave, and her combat behaviour has been adjusted.
 * Venenatis has been graphically updated.
 }}
 {{Subject changes
-|date =
-|update =
+|date = 
+|update = 
 |change = The tree stump found south-east of the trees in 24 Wilderness has been moved a square south to discourage safespotting.
 }}
 {{Subject changes

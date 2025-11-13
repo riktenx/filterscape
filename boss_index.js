@@ -10,7 +10,7 @@ const useAllowlist = (list) => {
   };
 };
 
-const useGWDTransforms = (name, transforms) => ({
+const useGWDTransforms = (name, transforms, b2p) => ({
   updateDropTable: (table) => {
     delete table['Uniques'];
     delete table['Unique table'];
@@ -23,7 +23,7 @@ const useGWDTransforms = (name, transforms) => ({
     return !!transforms.getDefaults ? transforms.getDefaults(table) : {};
   },
   preScript: (scope) => {
-    return `/*@ define:input
+    let script = `/*@ define:input
 type: boolean
 group: "${name}"
 label: Hide coin drops from bodyguards
@@ -33,6 +33,22 @@ CONST_${scope}_RULE (VAR_${scope}_BGHIDECOINS && name:"coins" && quantity:<=3000
   hidden = true;
 }
 `;
+
+    if (b2p) {
+      script += '\n\n';
+      script += `/*@ define:input
+type: boolean
+group: "${name}"
+label: Always show bones
+*/
+#define VAR_${scope}_B2P false
+CONST_${scope}_RULE (VAR_${scope}_B2P && name:"*bones") {
+  hidden = false;
+}
+`;
+    }
+
+    return script;
   },
 });
 
@@ -41,7 +57,7 @@ const index = [
   {
     name: 'Yama',
     area: [1472, 10048, 0, 1535, 10111, 0],
-    url: 'https://oldschool.runescape.wiki/w/Yama/Drops',
+    url: 'https://oldschool.runescape.wiki/w/Yama',
   },
   {
     name: 'Scurrius',
@@ -121,14 +137,18 @@ const index = [
       'https://oldschool.runescape.wiki/w/Wingman_Skree',
       'https://oldschool.runescape.wiki/w/Flockleader_Geerin',
     ],
-    transform: useGWDTransforms("Kree'arra", {
-      getDefaults: (_) => {
-        return {
-          '100%': ['Big bones', 'Feather', 'Bones'],
-          'Food and ammunition': ['Steel arrow', 'Steel dart', 'Smoke rune'],
-        };
+    transform: useGWDTransforms(
+      "Kree'arra",
+      {
+        getDefaults: (_) => {
+          return {
+            '100%': ['Big bones', 'Feather', 'Bones'],
+            'Food and ammunition': ['Steel arrow', 'Steel dart', 'Smoke rune'],
+          };
+        },
       },
-    }),
+      true
+    ),
   },
   {
     name: 'Commander Zilyana',
@@ -139,7 +159,7 @@ const index = [
       'https://oldschool.runescape.wiki/w/Bree',
       'https://oldschool.runescape.wiki/w/Growler',
     ],
-    transform: useGWDTransforms('Commander Zilyana', {}),
+    transform: useGWDTransforms('Commander Zilyana', {}, true),
   },
   {
     name: 'General Graardor',
@@ -150,14 +170,18 @@ const index = [
       'https://oldschool.runescape.wiki/w/Sergeant_Steelwill',
       'https://oldschool.runescape.wiki/w/Sergeant_Grimspike',
     ],
-    transform: useGWDTransforms('General Graardor', {
-      getDefaults: () => ({
-        '100%': ['Big bones', 'Bones'],
-        Tertiary: ['Kebab', 'Beer', 'Right eye patch'],
-        'Food and ammunition': ['Steel arrow', 'Steel dart', 'Chilli potato'],
-        Other: ['Limpwurt root', 'Combat potion(3)', 'Super strength(3)'],
-      }),
-    }),
+    transform: useGWDTransforms(
+      'General Graardor',
+      {
+        getDefaults: () => ({
+          '100%': ['Big bones', 'Bones'],
+          Tertiary: ['Kebab', 'Beer', 'Right eye patch'],
+          'Food and ammunition': ['Steel arrow', 'Steel dart', 'Chilli potato'],
+          Other: ['Limpwurt root', 'Combat potion(3)', 'Super strength(3)'],
+        }),
+      },
+      true
+    ),
   },
   {
     name: "K'ril Tsutsaroth",

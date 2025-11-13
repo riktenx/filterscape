@@ -1,5 +1,6 @@
 {{Instance}}
 {{HasStrategy}}
+{{Redirect|Whisp|the pet|Wisp}}
 {{Infobox Monster
 |version1 = Post-quest
 |version2 = Awakened
@@ -19,7 +20,7 @@
 |assignedby = konar,nieve,duradel
 |size = 3
 |max hit1 = 42 ([[Melee]]), 40 ([[Ranged]]), 36 ([[Magic]]), 45 (Screech), 50 (Soul Siphon)
-|max hit2 = 57 ([[Melee]]), 53 ([[Ranged]]), 45 ([[Magic]]), 70 (Screech), 75 (Soul Siphon)
+|max hit2 = 70+ ([[Melee]]), 53 ([[Ranged]]), 45 ([[Magic]]), 70 (Screech), 75 (Soul Siphon)
 |max hit3 = 30 ([[Melee]]), 28 ([[Ranged]]), 26 ([[Magic]]), 45 (Screech), 50 (Soul Siphon)
 |aggressive = Yes
 |poisonous = No
@@ -76,8 +77,10 @@
 |id2 = 12204,12205
 |id3 = 12206,12207
 |immunerecoil = Yes
+|elementalweaknesstype=Earth
+|elementalweaknesspercent=60
 }}
-[[File:Mysterious Voice (remnant, The Whisperer).png|left]]
+[[File:Mysterious Voice (remnant, The Whisperer) chathead.png|left]]
 '''The Whisperer''' is a [[siren]] found in the sunken cathedral of the [[Lassar Undercity]], who is encountered during [[Desert Treasure II - The Fallen Empire]]. A high-ranking personnel of the [[Zarosian Empire]] (whose rank was classified), the Whisperer succumbed to the darkness of the [[Ancient Pillar (Desert Treasure II)|blackstone]] and was transformed into her current state. A stronger variant of her can be fought again after the completion of the quest.
 
 ==Location==
@@ -123,7 +126,7 @@ The Whisperer will follow one of two special attack rotations each kill. She wil
 
 Her attack patterns will also change after every special attack; after the first special attack, she will start attacking with two projectiles of one style and one of the other. After the second special attack, she will begin utilising a "+" tentacle pattern alongside the "X" pattern. Finally, after the third special attack, she will alternate between both combat styles.
 
-Upon reaching 0 health, the Whisperer will heal 140 hitpoints and pull the player into the Shadow Realm. She will always attack with ranged, changes combat styles after every two attacks, and a single tentacle will appear for every attack she makes.
+Upon reaching 0 health, the Whisperer will heal 140 hitpoints and pull the player into the Shadow Realm. She will always start the phase off with a ranged attack, sending out two attacks and then switching to magic. She will continue to flip combat styles every two attacks, and a single tentacle will appear for every attack she makes.
 
 ==Money making==
 {{Mmgsection|Killing The Whisperer}}
@@ -160,10 +163,10 @@ In addition, defeating the boss perfectly will earn 50% more loot from the stand
 |filename = Unique drop sound effect.ogg
 |desc = The sound that plays when receiving a unique drop.
 }}
-''There is a '''1/64''' chance of rolling the unique drop table per kill. After hitting the table, there is a 1/8 chance to get a piece of the [[Virtus robes]] (then a separate 1/3 roll to determine which piece), a 3/8 chance to get a single vestige roll (it will drop on the third such roll), a 3/8 chance for a [[chromium ingot]], and 1/8 chance for the [[siren's staff]]. Below lists the effective drop rates.''
+''There is a '''1/64''' chance of rolling the unique drop table per kill. After hitting the table, there is a 1/8 chance to get a piece of the [[Virtus robes]] (then a separate 1/3 roll to determine which piece), a 3/8 chance to get a single vestige roll (each roll will drop a gold ring until the final roll which guarantees the vestige), a 3/8 chance for a [[chromium ingot]], and 1/8 chance for the [[siren's staff]]. Below lists the effective drop rates.''
 
 {{DropsTableHead}}
-{{DropsLine|name=Bellator vestige|quantity=1|rarity=1/512|raritynotes=<ref group=d>To receive the bellator vestige, the player must roll an invisible ~1/170.66 drop on the tradeable unique table. The first two rolls will cause a standard, non-unique drop to appear and increment a hidden variable; when the third such roll occurs, the vestige is dropped and the variable is reset.</ref>}}
+{{DropsLine|name=Bellator vestige|quantity=1|rarity=1/512|raritynotes=<ref group=d>To receive the bellator vestige, the player must roll an invisible ~1/170.66 drop on the tradeable unique table. The first roll will cause a [[gold ring]] to appear and increment a hidden variable, while the second drops two gold rings; when the third such roll occurs, the vestige is dropped and the variable is reset.</ref>}}
 {{DropsLine|name=Chromium ingot|quantity=1|rarity=3/512}}
 {{DropsLine|name=Siren's staff|quantity=1|rarity=1/512}}
 {{DropsLine|name=Virtus mask|quantity=1|rarity=1/1536}}
@@ -214,7 +217,7 @@ In addition, defeating the boss perfectly will earn 50% more loot from the stand
 {{DropsLine|name=Uncut ruby|quantity=58,87 (noted)|rarity=5/100}}
 {{DropsLine|name=Uncut diamond|quantity=58,87 (noted)|rarity=5/100}}
 
-{{DropsLine|name=Dragon javelin heads|quantity=84,126|rarity=8/100}}
+{{DropsLine|name=Dragon javelin tips|quantity=84,126|rarity=8/100}}
 {{DropsLine|name=Runite bolts (unf)|quantity=84,126|rarity=8/100}}
 {{DropsLine|name=Raw monkfish|quantity=700,1050 (noted)|rarity=1/100}}
 {{DropsTableBottom}}
@@ -231,10 +234,10 @@ In addition, defeating the boss perfectly will earn 50% more loot from the stand
 ===Tertiary===
 {{DropsTableHead}}
 {{DropsLine|name=Brimstone key|quantity=1|rarity={{Brimstone rarity|791}}|raritynotes=<ref group="d">Brimstone keys are only dropped while on a [[Slayer task]] given by [[Konar quo Maten]].</ref>|gemw=No|leagueRegion=Asgarnia&Kourend}}
-{{DropsLine|name=Clue scroll (easy)|quantity=1|rarity=1/160}}
-{{DropsLine|name=Clue scroll (medium)|quantity=1|rarity=1/160}}
-{{DropsLine|name=Clue scroll (hard)|quantity=1|rarity=1/160}}
-{{DropsLine|name=Clue scroll (elite)|quantity=1|rarity=1/160}}
+{{DropsLineClue|type=easy|rarity=1/160}}
+{{DropsLineClue|type=medium|rarity=1/160}}
+{{DropsLineClue|type=hard|rarity=1/160}}
+{{DropsLineClue|type=elite|rarity=1/160}}
 {{DropsLine|name=Ancient blood ornament kit|rarity=Always|quantity=1|gemw=no|raritynotes=<ref group=d>Only when defeated in the awakened encounter as the '''last''' of the four.</ref>}}
 {{DropsLine|name=Wisp|quantity=1|rarity=1/2000|gemw=No}}
 {{DropsTableBottom}}
@@ -253,6 +256,13 @@ Sunken Cathedral (Shadow Realm) concept art.png|Concept art of the Shadow Realm 
 
 ==Changes==
 {{Subject changes header}}
+{{Subject changes
+|date = 25 June 2025
+|update = Summer Sweep Up: Combat
+|change = 
+*Progress towards the bellator vestige is now indicated with a [[gold ring]] drop. For players who were in progress before this update, their next kill will guarantee one or two gold rings, indicating 1/3 and 2/3 vestige rolls respectively.
+*The Whisperer now has a 60% [[Elemental_weakness|Elemental weakness]] to Earth. ''(Previously none)''
+}}
 {{Subject changes
 |date = 26 March 2025
 |update = Poll 83 QoL Changes

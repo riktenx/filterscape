@@ -35,6 +35,8 @@
 |dslash = 40
 |dcrush = 10
 |dmagic = 150
+|elementalweaknesstype = Fire
+|elementalweaknesspercent = 40
 |drange = 300
 |immunepoison = Yes
 |immunevenom = Yes
@@ -43,6 +45,8 @@
 |id = 8713
 }}
 '''Sarachnis''', the mother of the [[temple spider]]s, is a mid-level boss found in the [[Forthos Dungeon]], in a former burial tomb south of the Spider Den. She can be killed as part of a [[spider]] [[Slayer task]].
+
+She is primarily killed for the [[Sarachnis cudgel]], a non-degradeable crush weapon. Other drops include the [[giant egg sac]], which is one of the few consistent sources of non-Wilderness [[red spiders' egg]]s and improved drop rates of Forthos Dungeon-unique items. Most notably, Sarachnis has a very high drop rate of [[clue scroll (elite)|elite clue scroll]]s for the relative time it takes to defeat her compared to other content.
 
 ==Location==
 {{LocTableHead|league=yes}}
@@ -58,7 +62,7 @@
 |leagueRegion = Kourend
 }}
 {{LocTableBottom}}
-[[Forthos Dungeon]]'s burial tomb is in the southern-most part of the dungeon. The dungeon can be entered via entrance inside and east of the [[Forthos Ruin]].
+Sarachnis is located in the burial tomb in the southern-most part of the dungeon, reached via the entrance across the river to the east of the [[Forthos Ruin]].
 
 Players will need a [[slash weapon]] or a [[knife]] to be able to pass through the [[webs]] that block access to where Sarachnis is located, unless using [[Aranea boots|Aranea Boots]]. The same webs can be peeked through to see how many player are inside the tomb. The last [[thick web]]s that block access to the tomb do not need a slash weapon or a knife to be slashed through.
 
@@ -76,7 +80,7 @@ Upon Sarachnis' death, all her [[Spawn_of_Sarachnis|spawns]] will die as well. S
 {{Mmgsection|Killing Sarachnis}}
 
 ==Drops==
-{{DropLogProject|kills=33620}}
+{{DropLogProject|kills=2900316}}
 
 {{Average drop value}}
 
@@ -108,25 +112,25 @@ Upon Sarachnis' death, all her [[Spawn_of_Sarachnis|spawns]] will die as well. S
 {{DropsTableBottom}}
 
 ===Seeds===
-{{RareSeedDropTableInfo|2/100}} ''Three random seeds are dropped at a time. Maple, yew, and papaya tree seeds are separately dropped alone.''
+{{RareSeedDropTableInfo|2/100}} ''Maple, yew, and papaya tree seeds may also be dropped.''
 {{DropsTableHead}}
-{{RareSeedDropLines|2/100|3|OverrideSnapeQuantity=3-9}}
+{{RareSeedDropLines|2/100|3}}
 {{DropsLine|name=Maple seed|quantity=2|rarity=1/100}}
 {{DropsLine|name=Papaya tree seed|quantity=2|rarity=1/100}}
 {{DropsLine|name=Yew seed|quantity=1|rarity=1/100}}
 {{DropsTableBottom}}
 
 ===Herbs===
-''There is a 10/100 chance to hit the noted herb drop table.''
+''There is a 6/100 chance to roll the [[combat herb drop table]] and a 4/100 chance to roll the [[useful herb drop table]].''
 {{DropsTableHead}}
-{{DropsLine|name=Grimy kwuarm|quantity=10-15 (noted)|rarity=31/1650}}
-{{DropsLine|name=Grimy cadantine|quantity=10-15 (noted)|rarity=27/1650}}
-{{DropsLine|name=Grimy dwarf weed|quantity=10-15 (noted)|rarity=25/1650}}
-{{DropsLine|name=Grimy avantoe|quantity=5-10 (noted)|rarity=22/1650}}
-{{DropsLine|name=Grimy lantadyme|quantity=10-15 (noted)|rarity=17/1650}}
-{{DropsLine|name=Grimy ranarr weed|quantity=5-10 (noted)|rarity=16/1650}}
-{{DropsLine|name=Grimy snapdragon|quantity=5-10 (noted)|rarity=15/1650}}
-{{DropsLine|name=Grimy torstol|quantity=5-10 (noted)|rarity=12/1650}}
+{{DropsLine|name=Grimy kwuarm|quantity=10-15 (noted)|rarity=15/800}} <!-- 6/100 * 5/16 -->
+{{DropsLine|name=Grimy dwarf weed|quantity=10-15 (noted)|rarity=12/800}} <!-- 6/100 * 4/16 -->
+{{DropsLine|name=Grimy cadantine|quantity=10-15 (noted)|rarity=12/800}} <!-- 6/100 * 4/16 -->
+{{DropsLine|name=Grimy avantoe|quantity=5-10 (noted)|rarity=10/800}} <!-- 4/100 * 5/16 -->
+{{DropsLine|name=Grimy lantadyme|quantity=10-15 (noted)|rarity=9/800}} <!-- 6/100 * 3/16 -->
+{{DropsLine|name=Grimy snapdragon|quantity=5-10 (noted)|rarity=8/800}} <!-- 4/100 * 4/16 -->
+{{DropsLine|name=Grimy ranarr weed|quantity=5-10 (noted)|rarity=8/800}} <!-- 4/100 * 4/16 -->
+{{DropsLine|name=Grimy torstol|quantity=5-10 (noted)|rarity=6/800}} <!-- 4/100 * 3/16 -->
 {{DropsTableBottom}}
 
 ===Materials===
@@ -157,9 +161,9 @@ Upon Sarachnis' death, all her [[Spawn_of_Sarachnis|spawns]] will die as well. S
 
 ===Tertiary===
 {{DropsTableHead}}
-{{DropsLine|name=Tattered moon page|quantity=1|rarity=1/5|raritynotes={{NamedRef|Forthos Dungeon Droprates}}<ref name=page group=d>The drop rate to receive any page is 1/5. When rolled, the player will receive the page they have the fewest of.</ref>}}
-{{DropsLine|name=Tattered sun page|quantity=1|rarity=1/5|raritynotes={{NamedRef|Forthos Dungeon Droprates}}<ref name=page group=d />}}
-{{DropsLine|name=Tattered temple page|quantity=1|rarity=1/5|raritynotes={{NamedRef|Forthos Dungeon Droprates}}<ref name=page group=d />}}
+{{DropsLine|name=Tattered moon page|quantity=1|rarity=1/5|raritynotes={{NamedRef|Forthos Dungeon Droprates}}<ref name=page group=d>The drop rate to receive any page is 1/5. When rolled, the player will receive the page they have the fewest of.</ref>|gemw=no}}
+{{DropsLine|name=Tattered sun page|quantity=1|rarity=1/5|raritynotes={{NamedRef|Forthos Dungeon Droprates}}<ref name=page group=d />|gemw=no}}
+{{DropsLine|name=Tattered temple page|quantity=1|rarity=1/5|raritynotes={{NamedRef|Forthos Dungeon Droprates}}<ref name=page group=d />|gemw=no}}
 {{DropsLine|name=Giant egg sac(full)|quantity=1|rarity=1/20|raritynotes={{NamedRef|Forthos Dungeon Droprates}}}}
 {{DropsLine|name=Grubby key|quantity=1|rarity=1/15|raritynotes={{NamedRef|Forthos Dungeon Droprates}}}}
 {{DropsLineClue|type=hard|rarity=1/40|raritynotes={{CiteTwitter|author=Mod Husky|url=https://twitter.com/JagexHusky/status/1156849996987359233|date=1 August 2019|archiveurl=https://archive.fo/GyAi5|archivedate=1 August 2019|quote=Clue drops from Forthos are as follows:|name=Forthos Dungeon clue scroll Droprates}}}}

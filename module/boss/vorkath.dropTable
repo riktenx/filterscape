@@ -21,23 +21,27 @@
   ],
   "Fletching materials": [
     "Dragon bolts (unf)",
-    "Sapphire bolt tips",
-    "Emerald bolt tips",
-    "Ruby bolt tips",
-    "Diamond bolt tips",
     "Dragonstone bolt tips",
     "Onyx bolt tips",
     "Rune dart tip",
     "Dragon dart tip",
-    "Dragon arrowtips"
+    "Dragon arrowtips",
+    "Diamond bolt tips",
+    "Emerald bolt tips",
+    "Ruby bolt tips",
+    "Sapphire bolt tips"
   ],
   "Seeds": [],
+  "Shark drop table": [
+    "Raw shark",
+    "Shark lure",
+    "Manta ray"
+  ],
   "Other": [
     "Adamantite ore",
     "Coins",
     "Grapes",
     "Magic logs",
-    "Manta ray",
     "Dragon bones",
     "Diamond",
     "Dragonstone",

@@ -56,13 +56,14 @@
 |respawn2 = 10 - 14 ticks (6.0 - 8.4 seconds)
 |id1 = 496
 |id2 = 494
-}}
+|elementalweaknesstype1=None
+|elementalweaknesstype2=Earth|elementalweaknesspercent2=50}}
 [[File:Cave kraken icon.png|left]]
-The '''Kraken''' is a stronger and larger version of the [[cave kraken]]. It requires level 87 [[Slayer]] to kill and cannot be boosted. Located at the [[Kraken Cove]], it can only be attacked if the player has cave krakens as a [[Slayer task]], which also requires level 50 [[Magic]]. Alongside its [[Cave kraken|non-boss variants]], it is the only monster that drops the [[trident of the seas]] and [[Kraken tentacle]].
+The '''Kraken''' is a stronger and larger version of the [[cave kraken]]. It requires level 87 [[Slayer]] to kill and cannot be boosted. Located at the [[Kraken Cove]], it can only be attacked if the player has it, or cave krakens as a [[Slayer task]], which also requires level 50 [[Magic]]. Alongside its [[Cave kraken|non-boss variants]], it is the only monster that drops the [[trident of the seas]] and [[Kraken tentacle]].
 
-Like its smaller brethren, the Kraken is submerged underwater. Magic is the only reliable way of dealing damage to it, as Ranged deals 1/7th of its normal damage{{CiteTwitter|author=Mod Ash|url=https://twitter.com/JagexAsh/status/1699360516488011950|date=6 September 2023|archiveurl=https://archive.ph/lu26N|archivedate=6 September 2023|quote=If you rolled 0 damage, it stays as 0. If you rolled >=1 damage, it's divided by 7, with a floor of 1. Accuracy is not affected.}}, and it cannot be reached with Melee weapons. To start the fight, players can use a [[fishing explosive]] on the large whirlpool. Otherwise, the four whirlpools around must first be disturbed; when all four whirlpools are disturbed, the larger one can be disturbed, which will result in the Kraken waking up. Both methods will release level 112 [[Enormous Tentacle]]s, which attack with [[Magic]]. 
+Like its smaller brethren, the Kraken is submerged underwater. Magic is the only reliable way of dealing damage to it, as Ranged deals 1/7th of its normal damage{{CiteTwitter|author=Mod Ash|url=https://twitter.com/JagexAsh/status/1699360516488011950|date=6 September 2023|archiveurl=https://archive.ph/lu26N|archivedate=6 September 2023|quote=If you rolled 0 damage, it stays as 0. If you rolled >=1 damage, it's divided by 7, with a floor of 1. Accuracy is not affected.}}, and it cannot be reached with Melee weapons. To start the fight, players can use a [[fishing explosive]] on the large whirlpool. Otherwise, the four whirlpools around must first be disturbed; when all four whirlpools are disturbed, the larger one can be disturbed, which will result in the Kraken waking up. Either method will release level 112 [[Enormous Tentacle]]s. 
 
-Both the Kraken and its tentacles attack with magic; the Kraken can hit very hard, but has very poor accuracy, while the tentacles are much more accurate but deal less damage. The Kraken and its tentacles use [[Typeless]] Magic, and as such [[Protect from Magic]] does '''not''' provide any degree of damage reduction. The Kraken's projectile resembles [[Fire Wave]].
+Both the Kraken and Enormous Tentacles use [[typeless]] Magic, and as such [[Protect from Magic]] does '''not''' provide any degree of damage reduction. The Kraken can hit very hard, but has very poor accuracy, while the tentacles are much more accurate but deal less damage. The Kraken's projectile resembles [[Fire Wave]].
 
 Players can create a Kraken instance for 25,000 coins. This fee can be deducted directly from the bank; players do not need to carry coins on them to create the instance.
 
@@ -108,7 +109,7 @@ Players can create a Kraken instance for 25,000 coins. This fee can be deducted 
 {{DropsTableHead}}
 {{DropsLine|name=Water rune|quantity=400|rarity=10/128}}
 {{DropsLine|name=Mist rune|quantity=100|rarity=4/128}}
-{{DropsLine|name=Chaos rune|quantity=250|rarity=10/128}}
+{{DropsLine|name=Chaos rune|quantity=200|rarity=10/128}}
 {{DropsLine|name=Death rune|quantity=150|rarity=10/128}}
 {{DropsLine|name=Blood rune|quantity=60|rarity=10/128}}
 {{DropsLine|name=Soul rune|quantity=50|rarity=7/128}}

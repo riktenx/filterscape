@@ -41,8 +41,9 @@
 |immunethrall = No
 |respawn = 14
 |id = 2054
-}}
-The '''Chaos Elemental''' is a dark cloud with six tentacles that dwells in the [[members-only]] section of the [[Wilderness]], just west of the [[Rogues' Castle]]. This area is moderately easy to access from the deep [[Wilderness teleport lever]] in [[Ardougne]] or [[Edgeville]]. The nearby [[Wilderness Obelisk]] can randomly [[teleport]] players south-east of the Rogues' Castle, after the [[hard Wilderness Diary]] is completed, the location can be chosen from any Wilderness obelisk.
+|elementalweaknesstype=Air
+|elementalweaknesspercent=50}}
+The '''Chaos Elemental''' is a dark cloud with six tentacles that dwells in the [[members-only]] section of the [[Wilderness]], just west of the [[Rogues' Castle]]. This area is moderately easy to access from the deep [[Wilderness teleport lever]] in [[Ardougne]] or [[Edgeville]]. The nearby [[Wilderness Obelisk]] can randomly [[teleport]] players south-east of the Rogues' Castle; after the [[hard Wilderness Diary]] is completed, the location can be chosen from any Wilderness obelisk.
 
 The Chaos Elemental is generally killed for its [[dragon 2h sword]] and [[dragon pickaxe|pickaxe]] drops. It also has a higher drop rate of the [[pet chaos elemental]] compared to the [[Chaos Fanatic]]. In addition, it is immune to [[venom]]—any items that are able to inflict venom will inflict regular [[poison]] instead.
 
@@ -64,6 +65,9 @@ Killing the Chaos Elemental is a requirement for the [[Hard Wilderness Diary]].
 |leagueRegion = wilderness
 }}
 {{LocTableBottom}}
+
+==Money making==
+{{Mmgsection|Killing Chaos Elemental}}
 
 ==Fight overview==
 {{Main|Chaos Elemental/Strategies}}
@@ -174,6 +178,11 @@ The Chaos Elemental has three attacks:
 
 ==Changes==
 {{Subject changes header}}
+{{Subject changes
+|change = Chaos Elemental now has a 50% [[elemental weakness]] to [[air spells]].
+|date = 25 June 2025
+|update = Summer Sweep Up: Combat
+}}
 {{Subject changes
 |date = 10 April 2024
 |update = Undead Pirates, Colosseum Changes & more!

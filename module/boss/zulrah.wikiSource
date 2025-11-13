@@ -1,13 +1,13 @@
-{{Instance|irs=Priestess Zul-Gwenwynig|cost=100000}}
+{{Instance|irs=Priestess Zul-Gwenwynig|cost=100000|kc=50}}
 {{HasStrategy}}
 {{Infobox Monster
 |version1 = Serpentine
 |version2 = Magma
 |version3 = Tanzanite
 |name = Zulrah
-|image1 = [[File:Zulrah (serpentine).png|250px]]
-|image2 = [[File:Zulrah (magma).png|250px]]
-|image3 = [[File:Zulrah (tanzanite).png|250px]]
+|image1 = [[File:Zulrah (serpentine).png|x277px]]
+|image2 = [[File:Zulrah (magma).png|x277px]]
+|image3 = [[File:Zulrah (tanzanite).png|x277px]]
 |release = [[8 January]] [[2015]]
 |update = Zulrah - The Solo Snake Boss
 |members = Yes
@@ -75,6 +75,7 @@
 Killing Zulrah is a required task for the hard [[Western Provinces Diary#Hard|Western Provinces Achievement Diary]], which in turn is a requirement for upgrading to the [[Elite Void Knight equipment|Elite Void]] set.
 
 ==History==
+{{References needed}}
 As described in the [[stained journal]], Zulrah was created during the [[Dragonkin Conflicts]] as an experiment by an unnamed [[dragonkin]] living in the [[Poison Waste]]. Originally seen as one of many failures, Zulrah was discarded into the swamp, where it grew into an unexpectedly powerful and intelligent serpent. It was found once again by its dragonkin creator, who named it "Zulrah" before eventually being eaten by their own creation.
 
 Sometime during the [[Fifth Age]], [[High Priestess Zul-Harcinqa|Harcinqa]], her mother, and her brother [[Rentos]] visited the Poison Waste. On 5th Bennath, a group of men, [[Ohn]], [[Mortarium]], [[Onan]], and several others, attempted to escape the elven clans by running south to the Poison Waste. With no food to eat, they attempted to fish for [[Sacred eel|eels]] in the swamp, to no avail. With no luck on catching food, they decide to camp out with the gnomes.
@@ -83,7 +84,7 @@ Two days after, Zulrah appeared during the night and ate five of Ohn's men befor
 
 As a result, Zulrah is worshipped as a god, being given sacrifices at a whim; in return, it allows the village of Zul-Andra to stand. Around year 169 of the Fifth Age, an adventurer discovered the village and offered themselves as sacrifice to save a [[Sacrifice|gnome child]] who was going to be sacrificed to Zulrah. Ferried to Zulrah's shrine, it emerged to consume its prey, but to its surprise, found that this offering was fighting back. Despite the use of its powers, the adventurer managed to defeat it, although it simply slithered back into the swamp to recover. Zulrah did not appear to hold the village in contempt for the offering.
 
-==Getting there==
+==Transportation==
 [[File:Zulrah's_Shrine.png|thumb|300px|Zulrah's Shrine, with Zulrah's beginning phase shown.]]
 Zulrah is located at a shrine east of [[Zul-Andra]]. Players can quickly get here by:
 * taking a [[charter ship]] to [[Port Tyras]] and then running south
@@ -117,6 +118,9 @@ Zulrah periodically changes forms by diving into the swamp and resurfacing somew
 
 The forms and when and where Zulrah spawns snakelings and toxic clouds are predictable: there are four possible patterns for the fight that dictate what it will do next. Further information can be read on the [[Zulrah/Strategies|strategy article]].
 
+
+Damage is calculated on animation/attack generation not when projectile hits you.
+
 ===Player death===
 Upon [[death]] at Zulrah, all items which would normally be lost are held by the [[Priestess Zul-Gwenwynig|priestess]] at the Zul-Andra dock, who acts as an [[Item Retrieval Service]]. Items held by the priestess are '''permanently lost''' if the player dies an unsafe death before reclaiming them. Some [[Death#Exceptions|specific anomalies]] may occur with some items.
 
@@ -130,7 +134,7 @@ Completion of the elite [[Western Provinces Diary#Elite|Western Provinces Diary]
 ==Drops==
 ''In addition to the 100% drops, the player will also have two rolls on Zulrah's drop table, excluding tertiary items, which have only one roll. The displayed drop chances represent a single roll.''
 
-{{DropLogProject|kills=216035}}
+{{DropLogProject|kills=223726}}
 
 {{Average drop value}}
 
@@ -138,13 +142,13 @@ Completion of the elite [[Western Provinces Diary#Elite|Western Provinces Diary]
 
 {{Average drop value|brimstone=yes}}
 
-===100% drops===
+===100%===
 {{DropsTableHead}}
 {{DropsLine|name=Zulrah's scales|quantity=100-299<!--note: the 500 scale drop is separate and intentionally excluded here-->|rarity=Always}}
 {{DropsTableBottom}}
 
 ===Uniques===
-''There is a 1/256 chance of hitting the unique drop table per roll.{{CiteTwitter|author=Mod Ash|url=https://twitter.com/JagexAsh/status/735841565785100288|date=26 May 2016|archiveurl=https://archive.is/ktMfw|archivedate=26 May 2020|quote=It's 1/256 per roll, you get two rolls per kill.}} Zulrah gives two rolls per kill, meaning there's approximately a 1/512 chance per kill to receive a specific item from this table (or ~1/128 for any item). Below lists the approximate drop rates '''per roll''' of any '''specific''' item, which takes into account the fact that there are 4 different items in this drop table. Although uncut onyx appears on the unique drop table and in the Collection Log, it is not exclusive to Zulrah.'' 
+''There is a 1/256 chance of hitting the unique drop table per roll.{{CiteTwitter|author=Mod Ash|url=https://twitter.com/JagexAsh/status/735841565785100288|date=26 May 2016|archiveurl=https://archive.is/ktMfw|archivedate=26 May 2020|quote=It's 1/256 per roll, you get two rolls per kill.}} Zulrah gives two rolls per kill, meaning there's approximately a 1/512 chance per kill to receive a specific item from this table (or ~1/128 for any item). Below lists the approximate drop rates '''per roll''' of any '''specific''' item, which takes into account the fact that there are 4 different items in this drop table. Although uncut onyx appears on the unique drop table and in the collection log, it is not exclusive to Zulrah.'' 
 
 {{DropsTableHead}}
 {{DropsLine|name=Tanzanite fang|quantity=1|rarity=1/1024|rolls=2}}
@@ -154,74 +158,82 @@ Completion of the elite [[Western Provinces Diary#Elite|Western Provinces Diary]
 {{DropsTableBottom}}
 
 ===Mutagens===
-''There is a 10/2,632 chance to hit the mutagen sub-table within the flax table (10/248).<ref name="flax">'''Note:''' The cited 10/249 number was changed to 10/248 following the removal of crystal weapon seeds from Zulrah's drop table.<br />{{PlainCiteTwitter|author=Mod Wolf|date=30 March 2019|url=https://twitter.com/JagexWolf/status/1111946035604176897|archiveurl=http://archive.is/ldIbR|archivedate=26 May 2020|quote=This is correct}}</ref> Each mutagen is equally likely, making the drop rate '''per kill''' approximately 1/6,553 for a specific mutagen or 1/3,277 for either mutagen.''
+''There is a 10/249 chance to roll on the flax table, followed by a 10/2,632 chance to roll on the mutagen sub-table.{{CiteTwitter|author=Mod Wolf|date=30 March 2019|url=https://twitter.com/JagexWolf/status/1111946035604176897|archiveurl=http://archive.is/ldIbR|archivedate=26 May 2020|quote=This is correct}} Each mutagen is equally likely, making the drop rate '''per kill''' approximately 1/6,554 for a specific mutagen or 1/3,277 for either mutagen.''
 {{DropsTableHead}}
-{{DropsLine|name=Tanzanite mutagen|quantity=1|rarity=1/13106|gemw=No|rolls=2}}
-{{DropsLine|name=Magma mutagen|quantity=1|rarity=1/13106|gemw=No|rolls=2}}
+{{DropsLine|name=Flax|quantity=1000 (noted)|rarity=10/249|raritynotes={{Refn|group=d|The exact rarity is 10/249 * 5244/5264 per roll.}}|rolls=2}}
+{{DropsLine|name=Tanzanite mutagen|quantity=1|rarity=1/13107|raritynotes={{Refn|group=d|name=muta|The exact rarity is 10/249 * 10/5264 per roll.}}|gemw=No|rolls=2}}
+{{DropsLine|name=Magma mutagen|quantity=1|rarity=1/13107|raritynotes={{Refn|group=d|name=muta}}|gemw=No|rolls=2}}
 {{DropsTableBottom}}
+{{Reflist|group=d}}
 
 ===Weapons and armour===
 {{DropsTableHead}}
-{{DropsLine|name=Battlestaff|quantity=10 (noted)|rarity=10/248|rolls=2}}
-{{DropsLine|name=Dragon med helm|quantity=1|rarity=2/248|rolls=2}}
-{{DropsLine|name=Dragon halberd|quantity=1|rarity=2/248|rolls=2}}
+{{DropsLine|name=Battlestaff|quantity=10 (noted)|rarity=10/249|rolls=2}}
+{{DropsLine|name=Dragon med helm|quantity=1|rarity=2/249|rolls=2}}
+{{DropsLine|name=Dragon halberd|quantity=1|rarity=2/249|rolls=2}}
 {{DropsTableBottom}}
 
 ===Runes===
 {{DropsTableHead}}
-{{DropsLine|name=Death rune|quantity=300|rarity=12/248|rolls=2}}
-{{DropsLine|name=Law rune|quantity=200|rarity=12/248|rolls=2}}
-{{DropsLine|name=Chaos rune|quantity=500|rarity=12/248|rolls=2}}
+{{DropsLine|name=Death rune|quantity=250|rarity=12/249|rolls=2}}
+{{DropsLine|name=Law rune|quantity=200|rarity=12/249|rolls=2}}
+{{DropsLine|name=Chaos rune|quantity=400|rarity=12/249|rolls=2}}
 {{DropsTableBottom}}
 
 ===Herbs===
 {{DropsTableHead}}
-{{DropsLine|name=Snapdragon|quantity=10 (noted)|rarity=2/248|rolls=2}}
-{{DropsLine|name=Dwarf weed|quantity=30 (noted)|rarity=2/248|rolls=2}}
-{{DropsLine|name=Toadflax|quantity=25 (noted)|rarity=2/248|rolls=2}}
-{{DropsLine|name=Torstol|quantity=10 (noted)|rarity=2/248|rolls=2}}
+{{DropsLine|name=Snapdragon|quantity=10 (noted)|rarity=2/249|rolls=2}}
+{{DropsLine|name=Dwarf weed|quantity=30 (noted)|rarity=2/249|rolls=2}}
+{{DropsLine|name=Toadflax|quantity=25 (noted)|rarity=2/249|rolls=2}}
+{{DropsLine|name=Torstol|quantity=10 (noted)|rarity=2/249|rolls=2}}
 {{DropsTableBottom}}
 
 ===Seeds===
 {{DropsTableHead}}
-{{DropsLine|name=Palm tree seed|quantity=1|rarity=6/248|rolls=2}}
-{{DropsLine|name=Papaya tree seed|quantity=3|rarity=6/248|rolls=2}}
-{{DropsLine|name=Calquat tree seed|quantity=2|rarity=6/248|rolls=2}}
-{{DropsLine|name=Magic seed|quantity=1|rarity=4/248|rolls=2}}
-{{DropsLine|name=Toadflax seed|quantity=2|rarity=2/248|rolls=2}}
-{{DropsLine|name=Snapdragon seed|quantity=1|rarity=2/248|rolls=2}}
-{{DropsLine|name=Dwarf weed seed|quantity=2|rarity=2/248|rolls=2}}
-{{DropsLine|name=Torstol seed|quantity=1|rarity=2/248|rolls=2}}
-{{DropsLine|name=Spirit seed|quantity=1|rarity=1/248|gemw=No|rolls=2}}
+{{DropsLine|name=Palm tree seed|quantity=1|rarity=6/249|rolls=2}}
+{{DropsLine|name=Papaya tree seed|quantity=3|rarity=6/249|rolls=2}}
+{{DropsLine|name=Calquat tree seed|quantity=2|rarity=6/249|rolls=2}}
+{{DropsLine|name=Magic seed|quantity=1|rarity=4/249|rolls=2}}
+{{DropsLine|name=Toadflax seed|quantity=2|rarity=2/249|rolls=2}}
+{{DropsLine|name=Snapdragon seed|quantity=1|rarity=2/249|rolls=2}}
+{{DropsLine|name=Dwarf weed seed|quantity=2|rarity=2/249|rolls=2}}
+{{DropsLine|name=Torstol seed|quantity=1|rarity=2/249|rolls=2}}
+{{DropsLine|name=Spirit seed|quantity=1|rarity=1/249|gemw=No|rolls=2}}
 {{DropsTableBottom}}
 
 ===Resources===
 {{DropsTableHead}}
-{{DropsLine|name=Snakeskin|quantity=35 (noted)|rarity=11/248|rolls=2}}
-{{DropsLine|name=Runite ore|quantity=2 (noted)|rarity=11/248|rolls=2}}
-{{DropsLine|name=Pure essence|quantity=1500 (noted)|rarity=10/248|rolls=2}}
-{{DropsLine|name=Flax|quantity=1000 (noted)|rarity=10/248|raritynotes={{namedRef|flax}}|rolls=2}}
-{{DropsLine|name=Yew logs|quantity=35 (noted)|rarity=10/248|rolls=2}}
-{{DropsLine|name=Adamantite bar|quantity=20 (noted)|rarity=8/248|rolls=2}}
-{{DropsLine|name=Coal|quantity=200 (noted)|rarity=8/248|rolls=2}}
-{{DropsLine|name=Dragon bones|quantity=12 (noted)|rarity=8/248|rolls=2}}
-{{DropsLine|name=Mahogany logs|quantity=50 (noted)|rarity=8/248|rolls=2}}
+{{DropsLine|name=Snakeskin|quantity=35 (noted)|rarity=11/249|rolls=2}}
+{{DropsLine|name=Runite ore|quantity=2 (noted)|rarity=11/249|rolls=2}}
+{{DropsLine|name=Pure essence|quantity=1500 (noted)|rarity=10/249|rolls=2}}
+{{DropsLine|name=Yew logs|quantity=35 (noted)|rarity=10/249|rolls=2}}
+{{DropsLine|name=Adamantite bar|quantity=20 (noted)|rarity=8/249|rolls=2}}
+{{DropsLine|name=Coal|quantity=200 (noted)|rarity=8/249|rolls=2}}
+{{DropsLine|name=Dragon bones|quantity=12 (noted)|rarity=8/249|rolls=2}}
+{{DropsLine|name=Mahogany logs|quantity=50 (noted)|rarity=8/249|rolls=2}}
+{{DropsTableBottom}}
+
+===Shark drop table===
+''There is a 12/249 chance of rolling the [[shark drop table]].''{{CiteNews|url=https://secure.runescape.com/m=news/summer-sweep-up-combat--loot?oldschool=1|title=Summer Sweep-Up: Combat & Loot|newsdate=30 May 2025|quote=[https://docs.google.com/spreadsheets/d/e/2PACX-1vT5aIwPYJGCdUuO5rpNtYQE7FnERytSuj99zXkTBXf3XSIumSzjMQ9T1EXczWpMPZsRyZAcezWaQc6t/pubhtml Check out this handy spreadsheet] featuring nerfs, buffs or more complex 'adjustments' to a variety of runes, herbs, seeds, gems and fish.|name=sweepup}}
+{{DropsTableHead}}
+{{DropsLine|name=Raw shark|quantity=35 (noted)|rarity=4.5/249|rolls=2}} <!-- 3/8 * 12/249 -->
+{{DropsLine|name=Shark lure|quantity=70|rarity=4.5/249|rolls=2}} <!-- 3/8 * 12/249 -->
+{{DropsLine|name=Manta ray|quantity=35 (noted)|rarity=3/249|rolls=2}} <!-- 2/8 * 12/249 -->
 {{DropsTableBottom}}
 
 ===Other===
 {{DropsTableHead}}
-{{DropsLine|name=Zul-andra teleport|quantity=4|rarity=15/248|rolls=2}}
-{{DropsLine|name=Manta ray|quantity=35 (noted)|rarity=12/248|rolls=2}}
-{{DropsLine|name=Antidote++(4)|quantity=10 (noted)|rarity=9/248|rolls=2}}
-{{DropsLine|name=Dragonstone bolt tips|quantity=12|rarity=8/248|rolls=2}}
-{{DropsLine|name=Grapes|quantity=250 (noted)|rarity=6/248|rolls=2}}
-{{DropsLine|name=Coconut|quantity=20 (noted)|rarity=6/248|rolls=2}}
-{{DropsLine|name=Swamp tar|quantity=1000|rarity=5/248|rolls=2}}
-{{DropsLine|name=Zulrah's scales|quantity=500|rarity=5/248|rolls=2}}
+{{DropsLine|name=Zul-andra teleport|quantity=4|rarity=15/249|rolls=2}}
+{{DropsLine|name=Antidote++(4)|quantity=10 (noted)|rarity=9/249|rolls=2}}
+{{DropsLine|name=Dragonstone bolt tips|quantity=12|rarity=8/249|rolls=2}}
+{{DropsLine|name=Grapes|quantity=250 (noted)|rarity=6/249|rolls=2}}
+{{DropsLine|name=Coconut|quantity=20 (noted)|rarity=6/249|rolls=2}}
+{{DropsLine|name=Swamp tar|quantity=1000|rarity=5/249|rolls=2}}
+{{DropsLine|name=Zulrah's scales|quantity=500|rarity=5/249|rolls=2}}
 {{DropsTableBottom}}
 
 ===Rare drop table===
-{{RareDropTable|9/248|naturetalisman=yes|rolls=2}}
+{{RareDropTable|10/249|naturetalisman=yes|rolls=2}}
 
 ===Tertiary===
 {{DropsTableHead}}
@@ -238,6 +250,11 @@ Completion of the elite [[Western Provinces Diary#Elite|Western Provinces Diary]
 
 ==Changes==
 {{Subject changes header}}
+{{Subject changes
+|date = 25 June 2025
+|update = Summer Sweep Up: Combat
+|change = The 12/249 drop of 35 noted [[manta ray]]s has been replaced with the same chance to roll a table containing [[raw shark]]s, [[manta ray]]s, and [[shark lure]]s.
+}}
 {{Subject changes
 |date = 7 May 2025
 |update = More Poll 84 & Yama Prep
@@ -268,7 +285,7 @@ Completion of the elite [[Western Provinces Diary#Elite|Western Provinces Diary]
 {{Subject changes
 |date = 25 July 2019
 |update = Song of the Elves
-|change = Zulrah no longer drops crystal seeds.
+|change = Zulrah no longer drops crystal seeds; in its place there is now an additional 1/249 chance to roll the [[rare drop table]].
 }}
 {{Subject changes
 |date = 22 November 2018
@@ -288,16 +305,14 @@ Completion of the elite [[Western Provinces Diary#Elite|Western Provinces Diary]
 {{Subject changes
 |date = 15 October 2015
 |update = The Max Cape
-|change = 
-* Zulrah's attack sequences now have a little more variety, since they were too predictable.
+|change = * Zulrah's attack sequences now have a little more variety, since they were too predictable.
 * The amount of teleport scrolls dropped was reduced from 20 to 1 as a hidden update.
 }}
 {{Subject changes
 |date = 30 April 2015
 |update = Mutagens, Mo & Much More
 |poll = Old School Content Poll 32: Resizable Mode
-|change = 
-*Mutagens were added to the drop table.
+|change = *Mutagens were added to the drop table.
 *Zulrah's crystal key drop has been replaced with a chance to hit the universal rare drop table.
 }}
 {{Subject changes
@@ -309,8 +324,7 @@ Completion of the elite [[Western Provinces Diary#Elite|Western Provinces Diary]
 {{Subject changes
 |date = 22 January 2015
 |update = Zulrah, Bank Space & More
-|change = 
-*Due to the profitability being too high, the drop table was revised to drop fewer of certain items (including scales) as well as removing some items from the drop table altogether or replacing them with less valuable alternatives.
+|change = *Due to the profitability being too high, the drop table was revised to drop fewer of certain items (including scales) as well as removing some items from the drop table altogether or replacing them with less valuable alternatives.
 *Zulrah was given two more rotations, and magic was made more viable and ranged attacks less viable against the green form.
 }}
 {{Subject changes

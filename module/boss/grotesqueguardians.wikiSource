@@ -2,16 +2,16 @@
 {{HasStrategy}}
 {{Redirect|Ggs|the Dorgeshuun Delicacy|green gloop soup}}
 [[File:Fighting Grotesque Guardians.png|right|thumb|300px|A player fights the Grotesque Guardians.]]
-The '''Grotesque Guardians''' are a pair of [[gargoyle]]s, [[Dusk]] and [[Dawn]], found on the [[Slayer Tower]]'s rooftop, whose entrance is found on the {{FloorNumber|uk=2}}. In order to access the roof for the first time, players must obtain a [[brittle key]] from [[Gargoyle|gargoyles]] while assigned them for a [[Slayer task]] (requiring 75 Slayer). 
+The '''Grotesque Guardians''' are a pair of [[gargoyle]]s, [[Dusk]] and [[Dawn]], found on the [[Slayer Tower]]'s rooftop, whose entrance is found on the {{FloorNumber|uk=2}}. In order to access the roof for the first time, players must obtain a [[brittle key]] from [[Gargoyle|gargoyles]] while assigned them for a [[Slayer task]] (requiring 75 Slayer). Once you've unlocked the gate to the roof, you no longer need a brittle key and can no longer obtain them. 
 
 Similar to other [[Slayer]] [[bosses]], such as [[Cerberus]] and the [[Abyssal Sire]], the Grotesque Guardians can only be killed while the player is assigned gargoyles or the Guardians themselves as a Slayer task. Players attempting to use the stairs to the roof without the proper Slayer task (having unlocked the stairway gates with the brittle key prior) will be stopped via dialogue and not proceed. 
 
 {{ToC|left}}
 Despite Dusk and Dawn being two different entities, killing both guardians only counts as one kill due to Dusk absorbing Dawn's essence. However, if the player has the ''[[Slayer rewards#Unlock|Double Trouble]]'' perk unlocked, Dawn's death will also be included, although Dusk still needs to be killed and the full boss fight completed in order to receive experience and task progression. 
 
-Upon Dusk's death, 1350 Slayer experience is rewarded, with additional tiers of the [[Morytania Diary]] completed you can attain more xp, with an additonal 33.75 slayer xp after completing the easy tier, 67.5 slayer xp with the medium tier, 101.5 xp with the hard tier, and 135 additional slayer xp awarded with the elite tier, capping out at 1485 slayer xp. Slayer experience per kill is not affected by the ''[[Slayer rewards#Unlock|Double Trouble]]'' perk.
+Upon Dusk's death, 1350 Slayer experience is rewarded, with additional tiers of the [[Morytania Diary]] completed you can attain more xp, with an additonal 33.75 slayer xp after completing the easy tier, 67.5 slayer xp with the medium tier, 101.5 slayer xp with the hard tier, and 135 additional slayer xp awarded with the elite tier, capping out at 1485 slayer xp. Slayer experience per kill is not affected by the ''[[Slayer rewards#Unlock|Double Trouble]]'' perk.
 
-The Grotesque Guardians are fought in a solo [[instance]].
+The Grotesque Guardians are fought in a solo [[instance]]. Note that unlike other instances, players are '''kicked out''' of their instance after five minutes of inactivity; players are warned when there is one minute remaining, and another when thirty seconds remain. Players can reset this timer by ringing [[the Cloister Bell]].
 
 ==History==
 A [[Dorgeshuun]] goblin during the [[God Wars]] left a written record entitled [[The living statues]] detailing their account of how the Grotesque Guardians (as well as the [[gargoyle]]s on the top floor) came to be animated.{{citeText|text=The living statues|quote=As I ran down the stairs through the lower floors, I saw that the many hideous statues we passed had also come to life.}}
@@ -22,20 +22,22 @@ When the bell was struck, a surge of black energy pulsed from the bell, causing 
 
 Exchanging strikes mid-air, Snaarldor managed to break one of Dusk's wings, but fell to the ground, while the Guardians returned to the top of the tower. After getting up from the fall, Snaarldor called for his soldiers to retreat.{{citeText|text=The living statues|quote=I looked up and saw the hulking bodies of Snaarldor and one of the statues exchanging strikes in mid air. Snaarldor landed a chop that broke off a wing, and they both fell. The statue landed back on top of the tower while Snaarldor made contact with the nearby swamp. After getting up from the fall, Snaarldor immediately called for his remaining forces to retreat.}}
 
-Today, the Grotesque Guardians remain on the rooftop, in which its entrance is locked.
+Today, the Grotesque Guardians remain on the rooftop, the entrance to which is locked.
 
 ==The fight==
 ''Like [[gargoyles]], players '''must''' bring a [[rock hammer]], [[rock thrownhammer]], or [[granite hammer]] to finish them off.''
 
 To initiate the fight, players must ring [[the Cloister Bell]] in the north side of the roof. This will trigger a cutscene in which the Guardians will awaken, and the fight will begin. If players have killed the Guardians at least five times, the Cloister Bell will have a "Quick-start" option, which will skip the cutscene and start the fight directly. Attempting to ring the bell again before the fight is over will yield the message ''Concentrate on your fight!'' in the chatbox.
 
-Two combat styles are required for this fight; ideally [[Ranged]] and [[Melee]]. Dawn is flying and cannot be reached with any melee weapon, while also being more resistant to magic instead of ranged, and Dusk is immune to non-melee damage. 
+After being awoken, the Guardians will initiate combat with the player. 
 
-After being awoken, the Guardians will initiate combat with the player. Dusk will cover himself with his wing, which protects him from all damage. The player must attack Dawn until she reaches half health, after which she flies upwards and out of sight.
+The fight consists of four phases, of which the first and third phases require the player to fight Dawn, and the second and final phases requiring the player to fight Dusk. Dawn is flying and cannot be targeted by non-halberd melee weapons, while Dusk is completely immune to magic and ranged damage. Despite their high combat level and health, the Guardians have near non-existent defence.
 
-During this phase of the fight, Dusk's wings may glow, and will perform an explosive attack. If players do not run away from him when he does so, the player will be dealt up to 33 damage and be knocked back. In addition, debris may fall around the roof, which can deal up to 22 damage and [[Stun (status)|stun]] players for a brief period of time. Once his health has reached half, Dawn will return and perform a lightning special attack with Dusk that has an AoE of 3x3, rapidly dealing up to 5-10 damage per tick.
+The second phase starts once Dawn's health reaches around 50%, after which she will fly up, leaving Dusk alone. Dusk will periodically launch an explosive wave that damages anyone next to him, while Dawn will drop rubble from above. The rubble has a 3x3 AoE; being caught directly in one will additionally stun the player.
 
-After the lightning attacks, Dawn will send out three [[energy sphere]]s that will grow larger over time, while Dusk covers himself again, so they should focus on Dawn. If players do not absorb these spheres in time, each will heal Dawn for 90 [[Hitpoints]].
+The next phase starts when Dusk's health reaches around 50%, after which Dawn descends and the two Guardians will emit lightning across the arena.
+
+After the lightning attacks, Dawn will send out three [[energy sphere]]s that will grow larger over time, while Dusk covers himself again, so they should focus on Dawn. If players do not absorb these spheres in time, each will heal Dawn for 90 [[Hitpoints]]. Players can optionally ignore the spheres if they can deal enough damage to Dawn and finish her off with the hammer before she absorbs the spheres.
 
 After killing Dawn, Dusk will absorb her essence, increasing his stats (barring his health) and having the ability to use her ranged attacks alongside his melee ones, initiating the last phase of the fight. At the start of this phase and periodically afterwards, Dusk will grab the player to a random location and imprison them in a prison of flames, which they must escape or take heavy damage which heals him in the process.
 
@@ -49,12 +51,12 @@ Dusk 2nd form special attack.png|The player is damaged by the prison of purple f
 {{Mmgsection|Killing the Grotesque Guardians}}
 
 ==Drops==
-{{DropLogProject|kills=35446}}
+{{DropLogProject|kills=4870264}}
 
 ''In addition to the 100% drop of [[granite dust]], the player will also have two rolls on the Grotesque Guardians' drop table, including unique items but not tertiary items. The drop rates in the drop table below reflect the chance of getting an item for every roll on the standard loot table, which means the effective drop rate is approximately double the listed numbers per kill. Unlike the [[Kalphite Queen#Drops|Kalphite Queen]], you are '''not''' guaranteed to get a food or potion drop each kill. The chance of getting any unique from the Grotesque Guardians is 1/48, although this includes the Granite Maul which also appears on the drop table of regular Gargoyles.''
 
 {{#vardefine:GG_alchs|{{#expr:
-2 * 1/137 * (
+2 * 1/142 * (
   6 * {{Alch|Rune pickaxe}} +
   5 * {{Alch|Rune full helm}} +
   5 * {{Alch|Rune platelegs}} +
@@ -82,50 +84,58 @@ Dusk 2nd form special attack.png|The player is damaged by the prison of purple f
 
 ===Weapons and armour===
 {{DropsTableHead|leagueRegion=Morytania}}
-{{DropsLine|name=Rune pickaxe|quantity=1|rarity=6/137|rolls=2}}
-{{DropsLine|name=Rune full helm|quantity=1|rarity=5/137|rolls=2}}
-{{DropsLine|name=Rune platelegs|quantity=1|rarity=5/137|rolls=2}}
-{{DropsLine|name=Rune 2h sword|quantity=1|rarity=4/137|rolls=2}}
-{{DropsLine|name=Rune battleaxe|quantity=1|rarity=3/137|rolls=2}}
-{{DropsLine|name=Dragon longsword|quantity=1|rarity=1/137|rolls=2}}
-{{DropsLine|name=Adamant boots|quantity=1|rarity=1/137|rolls=2}}
-{{DropsLine|name=Dragon med helm|quantity=1|rarity=1/137|rolls=2}}
+{{DropsLine|name=Rune pickaxe|quantity=1|rarity=6/142|rolls=2}}
+{{DropsLine|name=Rune full helm|quantity=1|rarity=5/142|rolls=2}}
+{{DropsLine|name=Rune platelegs|quantity=1|rarity=5/142|rolls=2}}
+{{DropsLine|name=Rune 2h sword|quantity=1|rarity=4/142|rolls=2}}
+{{DropsLine|name=Rune battleaxe|quantity=1|rarity=3/142|rolls=2}}
+{{DropsLine|name=Dragon longsword|quantity=1|rarity=1/142|rolls=2}}
+{{DropsLine|name=Adamant boots|quantity=1|rarity=1/142|rolls=2}}
+{{DropsLine|name=Dragon med helm|quantity=1|rarity=1/142|rolls=2}}
 {{DropsTableBottom}}
 
-===Supply Drop===
+===Supplies===
 {{DropsTableHead|leagueRegion=Morytania}}
-{{DropsLine|name=Mushroom potato|quantity=4-6|rarity=10/137|rolls=2}}
-{{DropsLine|name=Saradomin brew(4)|quantity=2|rarity=8/137|rolls=2}}
-{{DropsLine|name=Magic potion(2)|quantity=1|rarity=6/137|rolls=2|raritynotes=<ref group="d" name=pots>These three potions are always dropped together.</ref>}}
-{{DropsLine|name=Ranging potion(2)|quantity=1|rarity=6/137|rolls=2|raritynotes=<ref group="d" name=pots />}}
-{{DropsLine|name=Super combat potion(2)|quantity=1|rarity=6/137|rolls=2|raritynotes=<ref group="d" name=pots />}}
-{{DropsLine|name=Prayer potion(4)|quantity=1-2|rarity=4/137|rolls=2}}
+{{DropsLine|name=Mushroom potato|quantity=4-6|rarity=10/142|rolls=2}}
+{{DropsLine|name=Saradomin brew(4)|quantity=2|rarity=8/142|rolls=2}}
+{{DropsLine|name=Magic potion(2)|quantity=1|rarity=6/142|rolls=2|raritynotes=<ref group=d name=pots>These three potions are always dropped together.</ref>}}
+{{DropsLine|name=Ranging potion(2)|quantity=1|rarity=6/142|rolls=2|raritynotes=<ref group=d name=pots />}}
+{{DropsLine|name=Super combat potion(2)|quantity=1|rarity=6/142|rolls=2|raritynotes=<ref group=d name=pots />}}
+{{DropsLine|name=Prayer potion(4)|quantity=1-2|rarity=4/142|rolls=2}}
 {{DropsTableBottom}}
-{{Reflist|group="d"}}
 
 ===Resources===
 {{DropsTableHead|leagueRegion=Morytania}}
-{{DropsLine|name=Gold ore|quantity=40-75 (noted)|rarity=7/137|rolls=2}}
-{{DropsLine|name=Adamantite bar|quantity=25-40 (noted)|rarity=6/137|rolls=2}}
-{{DropsLine|name=Coal|quantity=180-250 (noted)|rarity=6/137|rolls=2}}
-{{DropsLine|name=Gold bar|quantity=35-50 (noted)|rarity=6/137|rolls=2}}
-{{DropsLine|name=Mithril bar|quantity=35-45 (noted)|rarity=6/137|rolls=2}}
-{{DropsLine|name=Runite ore|quantity=3-6 (noted)|rarity=4/137|rolls=2}}
-{{DropsLine|name=Runite bar|quantity=3-5 (noted)|rarity=3/137|rolls=2}}
+{{DropsLine|name=Gold ore|quantity=40-50 (noted)|rarity=7/142|rolls=2}}
+{{DropsLine|name=Adamantite bar|quantity=25-40 (noted)|rarity=6/142|rolls=2}}
+{{DropsLine|name=Gold bar|quantity=35-50 (noted)|rarity=6/142|rolls=2}}
+{{DropsLine|name=Mithril bar|quantity=35-45 (noted)|rarity=6/142|rolls=2}}
+{{DropsLine|name=Coal|quantity=180-250 (noted)|rarity=5/142|rolls=2}}
+{{DropsLine|name=Runite ore|quantity=3-6 (noted)|rarity=4/142|rolls=2}}
+{{DropsLine|name=Runite bar|quantity=3-5 (noted)|rarity=3/142|rolls=2}}
+{{DropsTableBottom}}
+
+===Shark drop table===
+''There is a 4/142 (2.8%) chance to roll the [[shark drop table]].''{{CiteNews|url=https://secure.runescape.com/m=news/summer-sweep-up-combat--loot?oldschool=1|title=Summer Sweep-Up: Combat & Loot|newsdate=30 May 2025|quote=[https://docs.google.com/spreadsheets/d/e/2PACX-1vT5aIwPYJGCdUuO5rpNtYQE7FnERytSuj99zXkTBXf3XSIumSzjMQ9T1EXczWpMPZsRyZAcezWaQc6t/pubhtml Check out this handy spreadsheet] featuring nerfs, buffs or more complex 'adjustments' to a variety of runes, herbs, seeds, gems and fish.|name=sweepup}}
+{{DropsTableHead}}
+{{DropsLine|name=Raw shark|quantity=20 (noted)|rarity=1.5/142|rolls=2}}
+{{DropsLine|name=Shark lure|quantity=40|rarity=1.5/142|rolls=2}}
+{{DropsLine|name=Raw sea turtle|quantity=20 (noted)|rarity=1/142|rolls=2}}
 {{DropsTableBottom}}
 
 ===Other===
 {{DropsTableHead|leagueRegion=Morytania}}
-{{DropsLine|name=Coins|quantity=10000-20000|rarity=10/137|rolls=2|gemw=No}}
-{{DropsLine|name=Chaos rune|quantity=100-150|rarity=8/137|rolls=2}}
-{{DropsLine|name=Coins|quantity=25000|rarity=5/137|rolls=2|gemw=No}}
-{{DropsLine|name=Crystal key|quantity=1|rarity=5/137|rolls=2}}
-{{DropsLine|name=Death rune|quantity=60-100|rarity=5/137|rolls=2}}
-{{DropsLine|name=Dragon dart tip|quantity=15-25|rarity=4/137|rolls=2}}
-{{DropsLine|name=Diamond bolt tips|quantity=100-150|rarity=3/137|rolls=2}}
-{{DropsLine|name=Dragonstone bolt tips|quantity=20-40|rarity=2/137|rolls=2}}
-{{DropsLine|name=Onyx bolt tips|quantity=5-10|rarity=2/137|rolls=2}}
-{{DropsLine|name=Dragon arrowtips|quantity=50-150|rarity=1/137|rolls=2}}
+{{DropsLine|name=Coins|quantity=10000-20000|rarity=10/142|rolls=2|gemw=No}}
+{{DropsLine|name=Chaos rune|quantity=100-150|rarity=8/142|rolls=2}}
+{{DropsLine|name=Coins|quantity=25000|rarity=5/142|rolls=2|gemw=No}}
+{{DropsLine|name=Crystal key|quantity=1|rarity=5/142|rolls=2}}
+{{DropsLine|name=Death rune|quantity=90-130|rarity=5/142|rolls=2}}
+{{DropsLine|name=Dragon dart tip|quantity=15-25|rarity=5/142|rolls=2}}
+{{DropsLine|name=Diamond bolt tips|quantity=100-150|rarity=3/142|rolls=2}}
+{{DropsLine|name=Dragonstone bolt tips|quantity=20-40|rarity=2/142|rolls=2}}
+{{DropsLine|name=Onyx bolt tips|quantity=10-15|rarity=2/142|rolls=2}}
+{{DropsLine|name=Dragon arrowtips|quantity=50-150|rarity=1/142|rolls=2}}
+{{DropsLine|name=Soul rune|quantity=20-40|rarity=1/142|rolls=2}}
 {{DropsTableBottom}}
 
 ===Tertiary===
@@ -135,7 +145,6 @@ Dusk 2nd form special attack.png|The player is damaged by the prison of purple f
 {{DropsLine|name=Noon|quantity=1|rarity=1/3000|raritynotes=<ref group="d">The player will always receive Noon, but they can use the "Metamorphosis" option while being followed to switch between Noon and Midnight.</ref>{{CiteVideo|author=Ron Plays Games|url=https://www.twitch.tv/videos/201021131?t=00h25m12s|site=Twitch|title=Millionaire Monday Ep. 19 - Mod Kieren|timestamp=00:25:12|date=13 November 2017}}{{CiteTwitter|author=Mod Ash|url=https://twitter.com/JagexAsh/status/955864055838846979|date=23 January 2018|archiveurl=https://archive.fo/xbWUA|archivedate=30 March 2019|quote=[So 1 roll of  1/3k for pet?] Yup.|name=GG pet}}|gemw=No}}
 {{DropsLine|name=Jar of stone|quantity=1|rarity=1/5000|raritynotes={{NamedRef|GG uniques}}}}
 {{DropsTableBottom}}
-{{Reflist|group="d"}}
 
 ==Combat Achievements==
 {{Sync}}
@@ -143,6 +152,25 @@ Dusk 2nd form special attack.png|The player is damaged by the prison of purple f
 
 ==Changes==
 {{Subject changes header}}
+{{Subject changes
+|date = 27 August 2025
+|update = Summer Sweep Up Slayer & More
+|change = The Grotesque Guardians are now vulnerable to [[golembane weapons]].
+}}
+{{Subject changes
+|date = 25 June 2025
+|update = Summer Sweep Up: Combat
+|change = 
+* [[Dusk]] now has a 40% [[elemental weakness]] to [[earth spells]] (despite being immune to Magic) and -1 [[flat armour]].
+* [[Dawn]] now has a 70% elemental weakness to earth spells, and can now be damaged with [[halberd]]s.
+* The Grotesque Guardians' rockfall attack will now only stun players if directly hit by it; players will still take damage if within its 3x3 area-of-effect as before.
+* The Grotesque Guardians now drop 20 noted [[raw shark]]s, 40 [[shark lure]]s, 20 noted [[raw sea turtle]]s, and 20-40 [[soul rune]]s.
+* The amount of [[onyx bolt tips]] dropped was increased from 5-10 to 10-15.
+* The amount of [[death rune]]s dropped was increased from 60-100 to 90-130.
+* The amount of [[gold ore]] dropped was reduced from 40-75 to 40-50.
+* [[Coal]] drops more rarely, decreasing from 6/137 to 5/142.
+* [[Dragon dart tips]] drop more commonly, increasing from 4/137 to 5/142.
+}}
 {{Subject changes
 |date = 14 July 2021
 |update = Slayer Improvements - Poll 75
@@ -191,9 +219,10 @@ Grotesque Guardians model.gif
 *As a result of the update that decreased the Grotesque Guardians' hitpoints, Dusk's combat level fell from 285 to 246, while Dawn's fell from 266 to 228; when Dawn was killed, Dusk's combat level increased to 324 (previously, this was 366). 
 **During the cutscene when the Guardians awaken however, they still retain their original combat levels.
 *Originally players used a portal to access the Guardians. This was changed into a staircase in an update to make it thematically appropriate.
-*On their death, the examine text for Dusk or Dawn will be "The crack of Dusk." or "The crack of Dawn." respectively.
-*The Grotesque Guardians fight starts by ringing a bell and takes place on a rooftop, the same as the Bell Gargoyles boss fight from the game Dark Souls.
+*On their death, the examine text for Dusk or Dawn will be "The crack of Dusk" or "The crack of Dawn".
+*The Grotesque Guardians fight starts by ringing a bell and takes place on a rooftop, which is similar to the Bell Gargoyles boss fight from the game Dark Souls.
 *[[The Cloister Bell]] used to initiate the fight is a reference to the [https://www.youtube.com/watch?v=MmHgOLKvMXo alarm sound of the same name] from Doctor Who.
+*Although the Grotesque Guardians occupy 5x5 tiles, during the lightning phase, their collision size is increased to 6x6. This additionally extends to Dusk in the final phase, who becomes a 6x6 monster despite visually occupying 5x5 tiles. Due to this, Dusk will visually adjust himself (though his occupied tiles do not change), turning accordingly to the direction the player is facing.
 
 ==References==
 {{Reflist}}

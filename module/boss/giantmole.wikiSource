@@ -38,7 +38,7 @@
 |dlight = 60
 |dstandard = 60
 |dheavy = 60
-|elementalweaknesstype = Water
+|elementalweaknesstype = Earth
 |elementalweaknesspercent = 50
 |immunepoison = Not immune
 |immunevenom = Poison
@@ -49,7 +49,7 @@
 }}
 [[File:Fighting the Giant Mole.png|thumb|right|295px|A player fights the Giant Mole, the result of an accident involving [[Wyson]] and an ultra-growth potion.]]
 
-The '''Giant Mole''' ('''''Talpidae wysonian'''''{{CiteNPC|npc=Natural history quiz|quote=The Giant Mole (Talpidae Wysonian)|loc=Varrock Museum|notes=West wing, Display case #7}}) is a [[boss]] found in the [[Falador Mole Lair]], just under [[Falador Park]], alongside some [[Baby Mole (NPC)|baby moles]]. The Giant Mole's origin and creation are described as "a slight accident involving a bottle of ''[[Malignius Mortifer|Malignius-Mortifer]]'s-Super-Ultra-Flora-Growth-Potion''" when [[Wyson the gardener]] poured it on his plants.{{CiteNews|url=https://secure.runescape.com/m=news/canoeing-zygomites-and-a-mole|title=Canoeing, Zygomites and a Mole!|newsdate=7 March 2006}}
+The '''Giant Mole''' ('''''Talpidae wysonian'''''{{CiteNPC|npc=Natural history quiz|quote=The Giant Mole (Talpidae Wysonian)|loc=Varrock Museum|notes=West wing, Display case #7}}) is a [[boss]] found in the [[Mole Hole]], just under [[Falador Park]], alongside some [[Baby Mole (NPC)|baby moles]]. The Giant Mole's origin and creation are described as "a slight accident involving a bottle of ''[[Malignius Mortifer|Malignius-Mortifer]]'s-Super-Ultra-Flora-Growth-Potion''" when [[Wyson the gardener]] poured it on his plants.{{CiteNews|url=https://secure.runescape.com/m=news/canoeing-zygomites-and-a-mole|title=Canoeing, Zygomites and a Mole!|newsdate=7 March 2006}}
 
 The Giant Mole is accessed by digging with a [[spade]] on top of the park's mole hills. The tunnels are dark and the player will receive damage without a [[light source]]. An inextinguishable light source is recommended, such as a [[bullseye lantern]], [[abyssal lantern]], [[mining helmet]], [[bruma torch]], [[Kandarin headgear]], or [[Firemaking cape]]. Any [[candle]]s, [[torch]]es, or [[oil lamp]]s will be extinguished if she retreats within [[melee]] range. A [[tinderbox]] is needed to relight extinguished light sources. Furthermore, if a player has completed the quest [[Making Friends With My Arm]] and has lit the [[Fire of Eternal Light]] within the lair, they will no longer need to carry a light source in their inventory.
 
@@ -68,7 +68,7 @@ The Giant Mole is immune to [[venom]], but is susceptible to [[poison]]. Poison 
 {{LocTableHead|league=yes}}
 {{LocLine
 |name = Giant Mole
-|location = [[Falador Mole Lair]] (Under the park)
+|location = [[Mole Hole]] (Under [[Falador Park]])
 |levels = 230
 |members = Yes
 |mapID = 13
@@ -83,50 +83,51 @@ The Giant Mole is immune to [[venom]], but is susceptible to [[poison]]. Poison 
 {{Mmgsection|Killing the Giant Mole (Dharok's)|Killing the Giant Mole (Twisted bow)}}
 
 ==Drops==
-{{DropLogProject|kills=2252197}}
+{{DropLogProject|kills=6307600}}
 
 {{Average drop value}}
 
 {{Average drop value|brimstone=yes}}
+
 ===100%===
 {{DropsTableHead}}
 {{DropsLine|name=Big bones|quantity=1|rarity=Always}}
-{{DropsLine|name=Mole claw|quantity=1|quantitynotes=<ref group=d name=diary>Drops as noted after completion of the [[Hard Falador Diary]].</ref>|rarity=Always}}
+{{DropsLine|name=Mole claw|quantity=1|quantitynotes=<ref group=d name=diary>Drops are noted after completion of the [[Hard Falador Diary]].</ref>|rarity=Always}}
 {{DropsLine|name=Mole skin|quantity=1-3|quantitynotes=<ref group=d name=diary />|rarity=Always}}
 {{DropsTableBottom}}
-{{Reflist|group=d}}
 
 ===Weapons and armour===
 {{DropsTableHead}}
-{{DropsLine|name=Adamant longsword|quantity=1|rarity=10/128}}
-{{DropsLine|name=Mithril platebody|quantity=1|rarity=9/128}}
-{{DropsLine|name=Amulet of strength|quantity=1|rarity=7/128}}
-{{DropsLine|name=Mithril axe|quantity=1|rarity=2/128}}
-{{DropsLine|name=Mithril battleaxe|quantity=1|rarity=1/128}}
-{{DropsLine|name=Rune med helm|quantity=1|rarity=1/128}}
+{{DropsLine|name=Adamant longsword|quantity=1|rarity=10/131}}
+{{DropsLine|name=Mithril platebody|quantity=1|rarity=9/131}}
+{{DropsLine|name=Amulet of strength|quantity=1|rarity=7/131}}
+{{DropsLine|name=Mithril axe|quantity=1|rarity=2/131}}
+{{DropsLine|name=Mithril battleaxe|quantity=1|rarity=1/131}}
+{{DropsLine|name=Rune med helm|quantity=1|rarity=1/131}}
 {{DropsTableBottom}}
 
 ===Runes and ammunition===
 {{DropsTableHead}}
-{{DropsLine|name=Air rune|quantity=105|rarity=20/128}}
-{{DropsLine|name=Blood rune|quantity=15|rarity=19/128}}
-{{DropsLine|name=Fire rune|quantity=105|rarity=11/128}}
-{{DropsLine|name=Iron arrow|quantity=690|rarity=10/128}}
-{{DropsLine|name=Law rune|quantity=15|rarity=5/128}}
-{{DropsLine|name=Death rune|quantity=7|rarity=3/128}}
+{{DropsLine|name=Air rune|quantity=105|rarity=20/131}}
+{{DropsLine|name=Blood rune|quantity=15|rarity=19/131}}
+{{DropsLine|name=Fire rune|quantity=105|rarity=11/131}}
+{{DropsLine|name=Iron arrow|quantity=690|rarity=10/131}}
+{{DropsLine|name=Law rune|quantity=15|rarity=5/131}}
+{{DropsLine|name=Death rune|quantity=50|rarity=3/131}}
 {{DropsTableBottom}}
 
 ===Other===
 {{DropsTableHead}}
-{{DropsLine|name=Yew logs|quantity=100 (noted)|rarity=10/128}}
-{{DropsLine|name=Shark|quantity=4|rarity=4/128}}
-{{DropsLine|name=Mithril bar|quantity=1|rarity=3/128}}
-{{DropsLine|name=Iron ore|quantity=100 (noted)|rarity=2/128}}
-{{DropsLine|name=Oyster pearls|quantity=1|rarity=1/128}}
+{{DropsLine|name=Yew logs|quantity=100 (noted)|rarity=10/131}}
+{{DropsLine|name=Shark|quantity=4|rarity=4/131}}
+{{DropsLine|name=Mithril bar|quantity=1|rarity=3/131}}
+{{DropsLine|name=Ranarr seed|quantity=1|rarity=3/131}}
+{{DropsLine|name=Iron ore|quantity=100 (noted)|rarity=2/131}}
+{{DropsLine|name=Oyster pearls|quantity=1|rarity=1/131}}
 {{DropsTableBottom}}
 
 ===Rare and Gem drop table===
-{{RareDropTable|4/128|6/128|naturetalisman=yes}}
+{{RareDropTable|4/131|6/131|naturetalisman=yes}}
 
 ===Tertiary===
 {{DropsTableHead}}
@@ -136,7 +137,6 @@ The Giant Mole is immune to [[venom]], but is susceptible to [[poison]]. Poison 
 {{DropsLine|name=Baby mole|quantity=1|rarity=1/3000|raritynotes={{CiteTwitter|author=Mod Ash|url=https://twitter.com/JagexAsh/status/1584921513181986819|date=25 October 2022|archiveurl=https://archive.ph/wuafy|archivedate=27 November 2022}}|gemw=No}}
 {{DropsLine|name=Curved bone|quantity=1|rarity=1/5012.5|gemw=No}}
 {{DropsTableBottom}}
-{{Reflist|group=d}}
 
 ==Combat Achievements==
 {{Sync}}
@@ -145,9 +145,19 @@ The Giant Mole is immune to [[venom]], but is susceptible to [[poison]]. Poison 
 ==Changes==
 {{Subject changes header}}
 {{Subject changes
+|date = 6 August 2025
+|update = Varlamore & Summer Sweep-Up Combat Tweaks
+|change = The Giant Mole now has a 50% [[elemental weakness]] to [[earth spells]] instead of water spells.
+}}
+{{Subject changes
+|date = 25 June 2025
+|update = Summer Sweep Up: Combat
+|change = A 3/131 drop of one [[ranarr seed]] has been added to the loot table.
+}}
+{{Subject changes
 |date = 29 May 2024
 |update = Project Rebalance: Combat Changes
-|change = The Giant Mole now has a 50% weakness to [[Water spells|water spells]].
+|change = The Giant Mole now has a 50% elemental weakness to [[water spells]].
 }}
 {{Subject changes
 |date = 18 February 2016

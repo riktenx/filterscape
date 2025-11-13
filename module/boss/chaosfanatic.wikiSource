@@ -34,7 +34,9 @@
 |dslash = 260
 |dcrush = 250
 |dmagic = 280
-|drange = 80
+|dlight = 80
+|dstandard = 50
+|dheavy = 80
 |immunepoison = No
 |immunevenom = No
 |immunecannon = No
@@ -63,28 +65,26 @@ He has a [[special attack]] where he uses a green magical attack that explodes a
 }}
 {{LocTableBottom}}
 
-==Getting there==
-The fastest way to get there is by casting [[Ghorrock Teleport]] or using its [[Ghorrock teleport (tablet)|magic tablet]] equivalent. Alternatively, a [[burning amulet]] can teleport players to the entrance of the [[Lava Maze]]; run west from there. Alternately, players with the hard [[Wilderness Diary]] completed and a [[Obelisk (Construction)|POH obelisk]] can select the level 44 Wilderness teleport.
+==Transportation==
+The fastest way to get there is by casting [[Ghorrock Teleport]] or using its [[Ghorrock teleport (tablet)|magic tablet]] equivalent. Alternatively, a [[burning amulet]] can teleport players to the entrance of the [[Lava Maze]]; run west from there. Alternatively, players with the hard [[Wilderness Diary]] completed and a [[Obelisk (Construction)|POH obelisk]] can select the level 44 Wilderness teleport.
+
+== Money Making ==
+{{Mmgsection|Killing the Chaos Fanatic}}
 
 ==Quotes==
 One quote is said every time the Chaos Fanatic attacks the player.
 
-*"''BURN!''"
-*"''WEUGH!''"
-*"''Devilish Oxen Roll!''"
-*"''All your wilderness are belong to them!''"
-*"''AhehHeheuhHhahueHuUEehEahAH''"
-*"''I shall call him squidgy and he shall be my squidgy!''"
+* {{overhead|BURN!}}
+* {{overhead|WEUGH!}}
+* {{overhead|Devilish Oxen Roll!!}}
+* {{overhead|All your wilderness are belong to them!}}
+* {{overhead|AhehHeheuhHhahueHuUEehEahAH!}}
+* {{overhead|I shall call him squidgy and he shall be my squidgy!!}}
 
 ==Drops==
 {{DropLogProject|jagex=yes}}
 
-{{Average drop value}}
-
-{{Average drop value|brimstone=yes}}
-
-{{Average drop value|Chaos Fanatic|mobname=Chaos Fanatic|wildernessslayer=yes}}
-
+{{Average drop value}} If on a [[Konar quo Maten|Konar]] task, the average kill is instead worth {{Coins|{{Average drop value|brimstone=yes|raw=yes}}}}; or, for [[Krystilia]], {{Coins|{{Average drop value|wildernessslayer=yes|raw=yes}}}} per kill, on average. 
 ===100%===
 {{DropsTableHead}}
 {{DropsLine|name=Bones|quantity=1|rarity=Always}}
@@ -131,7 +131,7 @@ One quote is said every time the Chaos Fanatic attacks the player.
 {{DropsLine|name=Ring of life|quantity=1|rarity=7/128}}
 {{DropsLine|name=Chaos talisman|quantity=1|rarity=6/128}}
 {{DropsLine|name=Wine of zamorak|quantity=10 (noted)|rarity=6/128}}
-{{DropsLine|name=Uncut emerald|quantity=6 (noted)|rarity=5/128|raritynotes=<ref name=gems group=d>6 [[uncut emerald]]s are dropped along 4 [[uncut sapphire]]s.</ref>}}
+{{DropsLine|name=Uncut emerald|quantity=6 (noted)|rarity=5/128|raritynotes=<ref name=gems group=d>6 [[uncut emerald]]s are dropped alongside 4 [[uncut sapphire]]s.</ref>}}
 {{DropsLine|name=Uncut sapphire|quantity=4 (noted)|rarity=5/128|raritynotes=<ref name=gems group=d />}}
 {{DropsLine|name=Sinister key|quantity=1|rarity=4/128}}
 {{DropsLine|name=Pure essence|quantity=250 (noted)|rarity=2/128}}
@@ -160,6 +160,11 @@ One quote is said every time the Chaos Fanatic attacks the player.
 ==Changes==
 {{Subject changes header}}
 {{Subject changes
+|change = Chaos Fanatic's standard ranged defence has been decreased from 80 to 50.
+|date = 25 June 2025
+|update = Summer Sweep Up: Combat
+}}
+{{Subject changes
 |date = 2 April 2025
 |update = Poll 83: Castle Wars Update
 |change = The Chaos Fanatic's area-of-effect attack will now only affect the last player who engaged in combat.
@@ -167,7 +172,7 @@ One quote is said every time the Chaos Fanatic attacks the player.
 {{Subject changes footer}}
 
 ==Trivia==
-*The Chaos Fanatic's animation (apart from attacking) is similar to [[Dr Harlow]] before he is sober.
+*The Chaos Fanatic's idle animation is similar to [[Dr Harlow]] before he is sober.
 *The Chaos Fanatic's quote "''I shall call him squidgy and he shall be my squidgy!''" is a reference to the Pixar movie ''{{wp|Finding Nemo}}''.
 *The Chaos Fanatic's quote "''All your wilderness are belong to them!''" is a reference to the phrase "All your base are belong to us," which originated in the 1989 game ''Zero Wing'' and has made it into many games since then.
 *The Chaos Fanatic's quote "''Devilish Oxen Roll!''" is an anagram of "Lord Helix lives on!". This is a reference to a character in the first ''Twitch Plays Pokémon'' which ended on March 1st 2014, two weeks before the Chaos Fanatic was added to the game.

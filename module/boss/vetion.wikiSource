@@ -53,7 +53,7 @@
 }}
 '''Vet'ion''' (pronounced {{IPAc-en|'|v|E|t|i:|@|n}} {{respell|VET|ee|ən}}) is a Zamorakian [[Skeleton|skeletal]] champion that resides in [[Vet'ion's Rest]], at level 35 [[Wilderness]]. Like other bosses in the Wilderness, he can also drop the [[dragon pickaxe]].
 
-Vet'ion has two forms: the (purple) regular form and the (orange) enraged form. After he is defeated in his first form, he will go to his second form, which has a faster attack speed and stronger max hit. After changing forms he will reset any stat reductions applied in the first form. If he is not killed within five minutes in his second form, he will revert to his first form with the same [[hit points]]. If he reverts after his hellhounds have been killed, the player(s) will not have to kill them a second time.
+Vet'ion has two forms: the (purple) regular form and the (orange) enraged form. After he is defeated in his first form, he will go to his second form, which has a faster attack speed and stronger max hit. After changing forms he will reset any stat reductions applied in the first form. If he is not killed within five minutes in his second form, he will revert to his first form with the same [[Hitpoints]]. If he reverts after his hellhounds have been killed, the player(s) will not have to kill them a second time.
 
 According to [[Andros Mai]], Vet'ion's power comes from his resting place.
 
@@ -65,7 +65,7 @@ Vet'ion is highly resistant to any combat style other than [[crush]], and as he 
 
 Vet'ion primarily attacks with targeted magic, launching lightning in a 3x3 radius around each player upon attacking. While he appears to swing his sword during these animations, they do not deal any melee damage. Indirect hits will deal less damage than a direct hit. Occasionally, he may prepare for a shield bash if players are near him, targeting an area in front of him. Players caught in the targeted area (or standing underneath him) when he bashes his shield will take damage and be rendered unable to attack for a few seconds.
 
-Vet'ion is fought similarly to the [[Kalphite Queen]] in that he has two forms, a "normal" and "enraged" form. When he reaches half health in his first form for the first time, he summons two level 194 [[Skeleton Hellhound (Vet'ion)|Skeleton Hellhound]]s that attack with powerful melee, and must be killed as they grant him complete damage immunity while alive. Upon being forced into his next stage, Vet'ion will become enraged and unleash a blast of energy around him, working the same as the targeted magic attack. In this form, he will attack faster, his attacks will deal more damage, and any drained Defence levels will be restored. In the second form, he summons two level 231 [[Greater Skeleton Hellhound (Vet'ion)|Greater Skeleton Hellhound]]s that are even stronger (although still sharing the same health) and must also be killed.
+Vet'ion is fought similarly to the [[Kalphite Queen]] in that he has two forms, a "normal" and "enraged" form. When he reaches half health in his first form for the first time, he summons two level 194 [[Skeleton Hellhound (Vet'ion)|skeleton hellhounds]] that attack with powerful melee, and must be killed as they grant him complete damage immunity while alive. Upon being forced into his next stage, Vet'ion will become enraged and unleash a blast of energy around him, working the same as the targeted magic attack. In this form, he will attack faster, his attacks will deal more damage, and any drained Defence levels will be restored. In the second form, he summons two level 231 [[Greater Skeleton Hellhound (Vet'ion)|greater skeleton hellhounds]] that are even stronger (although still sharing the same health) and must also be killed.
 
 Like the Kalphite Queen, if players don't kill his second form within 5 minutes, he'll revert to his normal state.
 
@@ -95,10 +95,13 @@ Like the Kalphite Queen, if players don't kill his second form within 5 minutes,
 
 The listed quantities are for soloing Vet'ion. In group encounters, Vet'ion's drops, including uniques, will be split proportionally based on damage done. Up to 10 players may obtain drops per kill in this manner, and each of the top 10 players will receive at least 25% of the solo loot quantity.
 
+Ironmen must deal 7% of the overall damage to be eligible for 25% of the solo loot quantity. Ironmen dealing less than 7% damage will receive a minimum of 5% of the solo loot quantity.
+
 {{Average drop value|mob=Vet'ion|mobname=solo Vet'ion}}
 
 {{Average drop value|Vet'ion|mobname=solo Vet'ion|wildernessslayer=yes}}
 
+When on a [[Wilderness slayer]] task for [[skeleton]]s or [[hellhound]]s, the [[Skeleton Hellhound (Calvar'ion)|skeleton hellhounds]] each have a chance to drop a [[Larran's key]]. As there are four hellhounds per fight, this increases the expected profit per solo kill by {{coins|{{GEP|Larran's key|0.0593}}}}. <!--number is 2x 1/74 + 2x 1/62-->  
 ===100%===
 {{DropsTableHead}}
 {{DropsLine|name=Big bones|quantity=1|rarity=Always|raritynotes=<ref group=d>Big bones are dropped for the player who deals the most damage in the fight.</ref>}}
@@ -112,11 +115,11 @@ The listed quantities are for soloing Vet'ion. In group encounters, Vet'ion's dr
 ''Odds of hitting the unique table ~1/56.67''
 
 {{DropsTableHead}}
-{{DropsLine|name=Skull of vet'ion|quantity=1|rarity=1/196|raritynotes={{CiteNews|title=Poll 78 Updates & More|url=https://secure.runescape.com/m=news/poll-78-updates--more?oldschool=1|newsdate=8 February 2023|name=news}}}}
-{{DropsLine|name=Dragon 2h sword|quantity=1|rarity=1/256|raritynotes=<ref name="news"/>}}
-{{DropsLine|name=Dragon pickaxe|quantity=1|rarity=1/256|raritynotes=<ref name="news"/>}}
-{{DropsLine|name=Voidwaker blade|quantity=1|rarity=1/360|raritynotes=<ref name="news"/>}}
-{{DropsLine|name=Ring of the gods|quantity=1|rarity=1/512|raritynotes=<ref name="news"/>}}
+{{DropsLine|name=Skull of vet'ion|quantity=1|rarity=1/196|raritynotes={{CiteNews|title=Poll 78 Updates & More|url=https://secure.runescape.com/m=news/poll-78-updates--more?oldschool=1|newsdate=8 February 2023|name=poll-78-news}}}}
+{{DropsLine|name=Dragon 2h sword|quantity=1|rarity=1/256|raritynotes=<ref name="poll-78-news"/>}}
+{{DropsLine|name=Dragon pickaxe|quantity=1|rarity=1/256|raritynotes=<ref name="poll-78-news"/>}}
+{{DropsLine|name=Voidwaker blade|quantity=1|rarity=1/360|raritynotes=<ref name="poll-78-news"/>}}
+{{DropsLine|name=Ring of the gods|quantity=1|rarity=1/512|raritynotes=<ref name="poll-78-news"/>}}
 {{DropsTableBottom}}
 
 ===Weapons and armour===
@@ -136,13 +139,13 @@ The listed quantities are for soloing Vet'ion. In group encounters, Vet'ion's dr
 {{DropsLine|name=Chaos rune|quantity=900|rarity=7/126}}
 {{DropsLine|name=Death rune|quantity=700|rarity=7/126}}
 {{DropsLine|name=Blood rune|quantity=500|rarity=7/126}}
-{{DropsLine|name=Cannonball|quantity=550|rarity=4/126}}
+{{DropsLine|name=Steel cannonball|quantity=550|rarity=4/126}}
 {{DropsTableBottom}}
 
 ===Materials===
 {{DropsTableHead}}
-{{DropsLine|name=Uncut ruby|quantity=75 (noted)|rarity=4/126}}
-{{DropsLine|name=Uncut diamond|quantity=35 (noted)|rarity=3/126}}
+{{DropsLine|name=Uncut ruby|quantity=50 (noted)|rarity=4/126}}
+{{DropsLine|name=Uncut diamond|quantity=25 (noted)|rarity=3/126}}
 {{DropsLine|name=Uncut dragonstone|quantity=5 (noted)|rarity=2/126}}
 {{DropsLine|name=Gold ore|quantity=675 (noted)|rarity=6/126}}
 {{DropsLine|name=Limpwurt root|quantity=60 (noted)|rarity=5/126}}
@@ -184,7 +187,7 @@ The listed quantities are for soloing Vet'ion. In group encounters, Vet'ion's dr
 {{DropsLine|name=Brimstone key|quantity=1|rarity={{Brimstone rarity|454}}|raritynotes=<ref group=d>Brimstone keys are only dropped while on a [[Slayer task]] given by [[Konar quo Maten]].</ref>|gemw=No|leagueRegion=Wilderness&Kourend}}
 {{DropsLineClue|type=elite|rarity=1/100|raritynotes=<ref group=d>The elite clue scroll drop rate increases to 1/50 if a [[ring of wealth (i)]] is worn.</ref>|altrarity=1/50}}
 {{DropsLine|name=Long bone|quantity=1|rarity=1/400|gemw=No}}
-{{DropsLine|name=Vet'ion jr.|quantity=1|rarity=1/1500|gemw=No|raritynotes={{Refn|group=d|A pet roll is made for each player that has received a drop, which scales based on contribution. The MvP bonus is not applied to this roll.{{CiteTwitter|author=Mod Ash|url=https://twitter.com/JagexAsh/status/1623369509154263055|date=8 February 2023|archiveurl=https://archive.ph/u90mF|archivedate=9 February|quote=Looks like it's doing a straight scaling based on your proportion of the damage done, so 50% would make you half as likely to get the pet as if you'd done 100%. Didn't look like MvP status would affect this.}}}}<ref name="news"/>}}
+{{DropsLine|name=Vet'ion jr.|quantity=1|rarity=1/1500|gemw=No|raritynotes={{CiteNews|title=Poll 80 Wilderness Changes & More|url=https://secure.runescape.com/m=news/poll-80-wilderness-changes--more?oldschool=1|newsdate=7 February 2024|name=poll-80-news}}}}
 {{DropsLine|name=Skeleton champion scroll|quantity=1|rarity=1/5000|gemw=No}}
 {{DropsLine|name=Curved bone|quantity=1|rarity=1/5012.5|gemw=No}}
 {{DropsTableBottom}}
@@ -214,17 +217,29 @@ File:Vet'ion Chronicle art.png|Official artwork of Vet'ion from Jagex's turn-bas
 ==Changes==
 {{Subject changes header}}
 {{Subject changes
+|date = 6 August 2025
+|update = Varlamore & Summer Sweep-Up Combat Tweaks
+|change = The minimum damage threshold required for Ironmen to be eligible for 25% of the solo loot quantity was decreased from 10% of overall damage to 7%.
+}}
+{{Subject changes
+|date = 25 June 2025
+|update = Summer Sweep Up: Combat
+|change =
+* Drop quantities lowered for uncut rubies from 75 to 50 and uncut diamonds from 35 to 25.
+* Minimum loot percentage for Ironmen dealing less than 10% damage reduced from 25% of solo loot to 5% of solo loot.
+}}
+{{Subject changes
 |date = 23 May 2024
 |update = Minigame Tweaks, Skilling Adjustments & more!
 |change = Fixed a bug where it was possible to skip Vet'ion's second phase.
 }}
 {{Subject changes
-|date = 17 April 2024 
+|date = 17 April 2024
 |update = Undead Pirates Tweaks, Varlamore CAs & More
 |change = Vet'ion will now wait a short period of time after respawning before attacking players.
 }}
 {{Subject changes
-|date = 10 April 2024 
+|date = 10 April 2024
 |update = Undead Pirates, Colosseum Changes & more!
 |poll = Undead Pirates Rewards & More
 |change = Vet'ion's respawn time was decreased from 33 ticks (19.8 seconds) to 15 ticks (9 seconds).
@@ -262,7 +277,7 @@ File:Vet'ion Chronicle art.png|Official artwork of Vet'ion from Jagex's turn-bas
 |change = *Increased the minimum loot reward from 0% to 15%.
 *Reduced maximum number of players able to receive loot from 15 to 10.
 *Increased quantity of base rewards.
-*Vet'ion is now immune to [[Ring of recoil]] and similar effects.
+*Vet'ion is now immune to [[ring of recoil]] and similar effects.
 }}
 {{Subject changes
 |date = 25 January 2023

@@ -1,4 +1,3 @@
-{{External|dw=Rat King}}
 {{Redirect|Rat king|the [[Ratcatchers]] quest monster|king rat}}
 {{Instance|optional=yes}}
 {{HasStrategy}}
@@ -94,12 +93,20 @@ Players can enter or leave the lair by climbing through the [[broken bars]] or b
 Scurrius has three attacks: his melee attack with his tail, magic attack with blue lightning being discharged, and a ranged attack of stinky fur balls being thrown at players. The fight is split into three phases; Scurrius may heal from the [[Food Pile]]s between each phase. While he is eating, he has a slight damage reduction applied to him. Scurrius may also summon six [[Giant rat (Scurrius)|giant rat]]s to aid him during the fight.
 
 ==Drops (MVP/Solo)==
-{{#subobject:MVP|Dummy property=true}}
 ''Players will only roll this table if they dealt the most damage to Scurrius. (E.g., if they are in a private instance.)''
 
 {{DropLogProject|kills=896502}}
 
 {{Average drop value|mob=Scurrius#MVP|mobname=Scurrius}}
+{| class="wikitable"
+! colspan="2" |Average drop value
+|-
+![[Grand Exchange|GE]]
+|{{Coins|{{Average drop value|mob=Scurrius#MVP|raw=y}}}}
+|-
+![[High Level Alchemy|HA]]
+|{{Coins|{{Average drop value|mob=Scurrius#MVP|alch=yes|raw=y}}}}
+|}
 
 ===100%===
 {{DropsTableHead|dropversion=MVP}}
@@ -107,7 +114,7 @@ Scurrius has three attacks: his melee attack with his tail, magic attack with bl
 {{DropsLine|name=Raw rat meat|quantity=1|rarity=Always}}
 {{DropsTableBottom}}
 
-===Equipment===
+=== Weapons and armour ===
 {{DropsTableHead|dropversion=MVP}}
 {{DropsLine|name=Adamant platebody|quantity=1|rarity=6/100}}
 {{DropsLine|name=Rune med helm|quantity=1|rarity=6/100}}
@@ -126,7 +133,7 @@ Scurrius has three attacks: his melee attack with his tail, magic attack with bl
 {{DropsLine|name=Law rune|quantity=10-30|rarity=3/100}}
 {{DropsTableBottom}}
 
-===Food and potions===
+=== Consumables ===
 {{DropsTableHead|dropversion=MVP}}
 {{DropsLine|name=Trout|quantity=1-3|rarity=6/100}}
 {{DropsLine|name=Tuna|quantity=1-3|rarity=6/100}}
@@ -143,7 +150,7 @@ Scurrius has three attacks: his melee attack with his tail, magic attack with bl
 {{DropsLine|name=Coins|quantity=1000-9000|rarity=6/100|gemw=no|image=Coins 1000.png}}
 {{DropsTableBottom}}
 
-===Tertiary drops===
+===Tertiary===
 {{DropsTableHead|dropversion=MVP}}
 {{DropsLineClue|type=medium|rarity=1/25|raritynotes={{CiteReddit|author=Mod Goblin|url=https://www.reddit.com/r/2007scape/comments/1aff5sw/comment/ko9l4th/|title=Scurrius & DT2 Combat Achievements|quote=Scurrius now drops Medium Clues at a rate of 1/25.|date=31 January 2024|archiveurl=https://archive.is/nD1px|archivedate=31 January 2024}}}}
 {{DropsLine|name=Scurrius' spine|quantity=1|rarity=1/33|gemw=no}}
@@ -153,8 +160,7 @@ Scurrius has three attacks: his melee attack with his tail, magic attack with bl
 {{DropsTableBottom}}
 
 ==Drops (non-MVP) ==
-{{#subobject:non-MVP|Dummy property=true}}
-''Players will only roll this table if they are in a non-private kill and did not deal the most damage to Scurrius.''
+''Players will only roll this table if they are participating in a group kill and did not deal the most damage to Scurrius.''
 
 {{Average drop value|mob=Scurrius#non-MVP|mobname=non-MVP Scurrius}}
 
@@ -172,7 +178,7 @@ Scurrius has three attacks: his melee attack with his tail, magic attack with bl
 {{DropsLine|name=Law rune|quantity=5-15|rarity=3/33}}
 {{DropsTableBottom}}
 
-===Food and potions===
+=== Consumables ===
 {{DropsTableHead|dropversion=non-MVP}}
 {{DropsLine|name=Trout|quantity=1-3|rarity=3/33}}
 {{DropsLine|name=Tuna|quantity=1-3|rarity=3/33}}
@@ -183,7 +189,7 @@ Scurrius has three attacks: his melee attack with his tail, magic attack with bl
 {{DropsLine|name=Cheese|quantity=1|rarity=1/33}}
 {{DropsTableBottom}}
 
-===Other===
+=== Tertiary ===
 {{DropsTableHead|dropversion=non-MVP}}
 {{DropsLine|name=Scurrius' spine|quantity=1|rarity=1/33|gemw=no}}
 {{DropsTableBottom}}

@@ -43,7 +43,8 @@
 |respawn = 150
 |id = 2215
 |leagueRegion = Asgarnia
-}}
+|elementalweaknesstype=Earth
+|elementalweaknesspercent=40}}
 [[File:General Graardor chathead.png|left]]
 '''General Graardor''' is the leader of [[Bandos]]' forces within the [[God Wars Dungeon]]. He is the only known living member of the [[Ourg]] race.
 
@@ -80,7 +81,7 @@ Like other God Wars Dungeon bosses, Graardor roams around a rectangular room wit
 ==Drops==
 {{DropLogProject|kills=57107}}<!--
 
--->{{#vardefine:graardorUnique|{{#expr:
+-->{{#vardefine:bandosUniqueGE|{{#expr:
 (1/381) * 1 * {{GEP|Bandos chestplate}} +
 (1/381) * 1 * {{GEP|Bandos tassets}} +
 (1/381) * 1 * {{GEP|Bandos boots}} +
@@ -90,16 +91,57 @@ Like other God Wars Dungeon bosses, Graardor roams around a rectangular room wit
 (1/762) * 1 * {{GEP|Godsword shard 3}}
 }}}}<!--
 
--->{{#vardefine:graardorminions|{{#expr:
-{{average drop value|Sergeant Strongstack|raw=y}} + 
-{{average drop value|Sergeant Steelwill|raw=y}} + 
-{{average drop value|Sergeant Grimspike|raw=y}}}}}}
+-->{{#vardefine:minionUniqueGE|{{#expr:
+(3/16256) * 1 * {{GEP|Bandos chestplate}} +
+(3/16256) * 1 * {{GEP|Bandos tassets}} +
+(3/16256) * 1 * {{GEP|Bandos boots}} +
+(3/1524) * 1 * {{GEP|Godsword shard 1}} +
+(3/1524) * 1 * {{GEP|Godsword shard 2}} +
+(3/1524) * 1 * {{GEP|Godsword shard 3}}
+}}}}<!--
 
-The average General Graardor kill, including its unique drops, is worth {{coins|{{average drop value|General Graardor|raw=y}} round 0}}
+-->{{#vardefine:bandosUniqueHA|{{#expr:
+(1/381) * 1 * {{HA|Bandos chestplate}} +
+(1/381) * 1 * {{HA|Bandos tassets}} +
+(1/381) * 1 * {{HA|Bandos boots}} +
+(1/508) * 1 * {{HA|Bandos hilt}} +
+(1/762) * 1 * {{HA|Godsword shard 1}} +
+(1/762) * 1 * {{HA|Godsword shard 2}} +
+(1/762) * 1 * {{HA|Godsword shard 3}}
+}}}}<!--
 
-Excluding unique drops, the average kill is worth {{coins|{{average drop value|General Graardor|raw=y}} - {{#var:graardorUnique}} round 0}}
+-->{{#vardefine:minionUniqueHA|{{#expr:
+(3/16256) * 1 * {{HA|Bandos chestplate}} +
+(3/16256) * 1 * {{HA|Bandos tassets}} +
+(3/16256) * 1 * {{HA|Bandos boots}} +
+(3/1524) * 1 * {{HA|Godsword shard 1}} +
+(3/1524) * 1 * {{HA|Godsword shard 2}} +
+(3/1524) * 1 * {{HA|Godsword shard 3}}
+}}}}
 
-Killing the three minions yields an additional {{coins|{{#var:graardorminions}} round 0}} on average (including uniques), bringing the total to {{Coins|{{average drop value|General Graardor|round=y|raw=y}}+{{#var:graardorminions}} round 0}} per kill
+{| class="wikitable"
+|+
+! rowspan="2" |Minions Killed
+! colspan="4" |Average Drop Value
+|-
+![[Grand Exchange|GE]]
+![[Grand Exchange|GE]] w/o uniques
+![[High Level Alchemy|HA]]
+![[High Level Alchemy|HA]] w/o uniques
+|-
+|{{No}}
+|{{Coins|{{Average drop value|mob=General Graardor|raw=y}}}}
+|{{Coins|{{Average drop value|mob=General Graardor|raw=y}} - {{#var:bandosUniqueGE}}}}
+|{{Coins|{{Average drop value|mob=General Graardor|alch=yes|raw=y}}}}
+|{{Coins|{{Average drop value|mob=General Graardor|alch=true|raw=y}} - {{#var:bandosUniqueHA}}}}
+|-
+|{{Yes}}
+|{{Coins|{{Average drop value|mob=General Graardor|raw=y}} + 3 * {{Average drop value|mob=Sergeant Strongstack|raw=y}}}}
+|{{Coins|{{Average drop value|mob=General Graardor|raw=y}} + 3 * {{Average drop value|mob=Sergeant Strongstack|raw=y}} - {{#var:bandosUniqueGE}} - {{#var:minionUniqueGE}}}}
+|{{Coins|{{Average drop value|mob=General Graardor|alch=yes|raw=y}} + 3 * {{Average drop value|mob=Sergeant Strongstack|alch=yes|raw=y}}}}
+|{{Coins|{{Average drop value|mob=General Graardor|alch=true|raw=y}} + 3 * {{Average drop value|mob=Sergeant Strongstack|alch=true|raw=y}} - {{#var:bandosUniqueHA}}- {{#var:minionUniqueHA}}}}
+|}
+
 ===100%===
 {{DropsTableHead}}
 {{DropsLine|name=Big bones|quantity=1|rarity=Always}}
@@ -108,7 +150,7 @@ Killing the three minions yields an additional {{coins|{{#var:graardorminions}} 
 {{Reflist|group=d}}
 
 ===Uniques===
-{{DropsTableHead}}
+The chance to get any unique is 7/508 (about 1/73). The chance to get any unique, excluding the Godsword shards, is 5/508 (about 1/102).{{DropsTableHead}}
 {{DropsLine|name=Bandos chestplate|quantity=1|rarity=1/381|raritynotes=<ref group="d" name="armourdrop">The drop rate is 1/381 for a specific Bandos armour piece, or 1/127 for any piece.</ref>}}
 {{DropsLine|name=Bandos tassets|quantity=1|rarity=1/381|raritynotes=<ref group="d" name="armourdrop"/>}}
 {{DropsLine|name=Bandos boots|quantity=1|rarity=1/381|raritynotes=<ref group="d" name="armourdrop"/>}}
@@ -163,6 +205,11 @@ Killing the three minions yields an additional {{coins|{{#var:graardorminions}} 
 
 ==Changes==
 {{Subject changes header}}
+{{Subject changes
+|change = General Graardor now has a 40% [[elemental weakness]] to [[earth spells]].
+|date = 25 June 2025
+|update = Summer Sweep Up: Combat
+}}
 {{Subject changes
 |date = 13 January 2021
 |update = God Wars Instancing and Soul Wars Improvements

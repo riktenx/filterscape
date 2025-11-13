@@ -28,13 +28,13 @@
     "Smoke rune",
     "Chaos rune",
     "Fire rune",
-    "Cannonball"
+    "Steel cannonball"
   ],
   "Herbs": [
     "Grimy toadflax",
     "Grimy kwuarm",
-    "Grimy cadantine",
     "Grimy dwarf weed",
+    "Grimy cadantine",
     "Grimy lantadyme"
   ],
   "Seeds": [
@@ -53,19 +53,19 @@
     "Pure essence",
     "Coal",
     "Runite ore",
-    "Silver ore"
-  ],
-  "Other": [
-    "Manta ray",
+    "Silver ore",
     "Water orb",
     "Dragon bolts (unf)",
     "Limpwurt root"
   ],
+  "Shark drop table": [
+    "Raw shark",
+    "Shark lure",
+    "Manta ray"
+  ],
   "Rare drop table": [],
   "Tertiary": [
     "Brimstone key",
-    "Clue scroll (hard)",
-    "Clue scroll (elite)",
     "Charged ice",
     "Muphin"
   ]

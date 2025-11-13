@@ -1,6 +1,7 @@
 {{external|rs}}
 {{Instance|irs=Torfinn|cost=100000}}
 {{HasStrategy}}
+{{HasTask|Blue dragons}}
 {{Multi Infobox
 |text1 = Awakened
 |item1 = 
@@ -59,6 +60,8 @@
 |dmagic2 = 204
 |drange1 = 26
 |drange2 = 80
+|elementalweaknesstype = Fire
+|elementalweaknesspercent = 40
 |immunepoison = Yes
 |immunevenom = Yes
 |immunecannon = Yes
@@ -90,7 +93,7 @@
 
 Vorkath is considered a [[blue dragon]] and [[zombie]] for the purpose of a [[Slayer task]]. As Vorkath is also [[undead]], the [[Salve amulet]] and its variants will work on him. However, it does not stack with the [[Slayer helmet]]. Vorkath is also immune to recoil damage.
 
-After completing [[Dragon Slayer II]], players can fight a stronger version of Vorkath, the only difference being that Vorkath's stats are higher.
+After completing [[Dragon Slayer II]], players may fight Vorkath again, with increased stats and rewards.
 
 ==Location==
 {{LocTableHead|league=yes}}
@@ -113,11 +116,11 @@ Players can enter or exit the crater by climbing over [[ice chunks (Vorkath)|ice
 ==Fight overview==
 {{Main|Vorkath/Strategies}}
 [[File:Fighting Vorkath.png|thumb|left|250px|A player fighting Vorkath on Ungael.]]
-Vorkath is able to use all three combat styles, though it will only use melee if the player is standing next to it, including diagonally across. Similarly to the [[King Black Dragon]], it makes use of three dragonfire types; a standard dragonfire, a [[venom|venomous]] dragonfire, and a prayer-disabling dragonfire, which is a higher tier of dragonfire and thus requires better protection to maximize damage mitigation. The final common attack is a fireball it launches high in the air that must be dodged; it will instantly kill regardless of the player's dragonfire protection if directly struck, or deal an immense amount of damage if next to it, which is similarly unaffected by dragonfire protection.
+Vorkath is able to use all three combat styles, though it can't use melee unless the player is standing next to it, including diagonally across. Similarly to the [[King Black Dragon]], it makes use of three dragonfire types; a standard dragonfire, a [[venom|venomous]] dragonfire, and a prayer-disabling dragonfire, which is a higher tier of dragonfire and thus requires better protection to maximize damage mitigation. The final common attack is a fireball it launches high in the air that must be dodged; it will instantly kill regardless of the player's dragonfire protection if directly struck, or deal an immense amount of damage if next to it, which is similarly unaffected by dragonfire protection.
 
 After six normal/dragonfire attacks, it will use one of two special attacks and alternate between them (i.e., it will use one after 6 regular attacks, then the other after 6 more, and so on):
 
-*Freezing the player in place and summoning a [[Zombified Spawn]] that will approach the player and explode violently if not killed, dealing damage scaled to its health; at full health, it will deal 60 damage.
+*Freezing the player in place and summoning a [[Zombified Spawn]] that will approach the player and explode violently if not killed, dealing damage scaled to its health; at full health, it will deal 60 damage. Until the spawn is killed/explodes, Vorkath is immune to damage.
 *Launching acid pools around the area and rapidly spitting fireballs at the player that must be dodged or they will deal high damage. During this time, Vorkath has a flat 50% damage reduction.
 
 Once Vorkath's health is depleted, it will return to its original unaggressive stance. It can immediately be reawoken for another battle.
@@ -126,11 +129,11 @@ Once Vorkath's health is depleted, it will return to its original unaggressive s
 {{Mmgsection|Killing Vorkath (Toxic blowpipe)|Killing Vorkath (Dragon hunter crossbow)|Killing Vorkath (Dragon hunter lance)}}
 
 ==Drops==
-{{DropLogProject|kills=154350}}
-
 [[File:Vorkath Loot Spots.png|thumb|right|250px|The eight potential tiles for loot to be dropped in. The direction is facing north.]]
 
-Upon subduing Vorkath, the drops will be placed in one of eight different tiles surrounding Vorkath. The spot in which they are dropped are dependent on the player's position after the death animation finishes. For example, standing directly south of the boss (as indicated by the blue marker by Vorkath's head) will result in the loot being dropped on the blue tile marker. If the player was standing left from that marker, they would appear on the southwest corner tile instead, as indicated by the red marker.
+{{DropLogProject|kills=15512839}}
+
+Upon subduing Vorkath, the drops will be placed in one of eight different tiles surrounding Vorkath. The spot in which they are dropped are dependent on the player's position after the death animation finishes. For example, standing directly south of the boss (as indicated by the blue marker by Vorkath's head) will result in the loot being dropped on the blue tile marker. If the player was standing left from that marker, they would appear on the south-west corner tile instead, as indicated by the red marker.
 
 ''In addition to the 100% drops, the player will also have two rolls on Vorkath's drop table, excluding tertiary items, which have only one roll. The displayed drop chances represent a single roll. Drops will remain on the ground for 3 hours or until the player leaves the [[instanced]] area.''{{CiteTwitter|author=Mod Ash|url=https://twitter.com/JagexAsh/status/1688468997375762432|date=7 August 2023|archiveurl=https://archive.is/722cp|archivedate=10 August 2023|quote=I believe those are 180 mins. This is not universal across all instances, but it's been enabled for quite a few repeatable boss rooms.}}
 
@@ -155,8 +158,8 @@ Upon subduing Vorkath, the drops will be placed in one of eight different tiles 
 
 ===Runes===
 {{DropsTableHead|dropversion=Post-quest}}
-{{DropsLine|name=Chaos rune|quantity=650-1000|rarity=6/150|rolls=2}}
-{{DropsLine|name=Death rune|quantity=300-500|rarity=6/150|rolls=2}}
+{{DropsLine|name=Chaos rune|quantity=250-350|rarity=6/150|rolls=2}}
+{{DropsLine|name=Death rune|quantity=200-300|rarity=6/150|rolls=2}}
 {{DropsLine|name=Wrath rune|quantity=30-60|rarity=3/150|rolls=2}}
 {{DropsTableBottom}}
 
@@ -171,33 +174,39 @@ Upon subduing Vorkath, the drops will be placed in one of eight different tiles 
 ===Fletching materials===
 {{DropsTableHead|dropversion=Post-quest}}
 {{DropsLine|name=Dragon bolts (unf)|quantity=50-100|rarity=8/150|rolls=2}}
-{{DropsLine|name=Sapphire bolt tips|quantity=25-30|rarity=2/1110|rolls=2}}
-{{DropsLine|name=Emerald bolt tips|quantity=25-30|rarity=8/1110|rolls=2}}
-{{DropsLine|name=Ruby bolt tips|quantity=25-30|rarity=8/1110|rolls=2}}
-{{DropsLine|name=Diamond bolt tips|quantity=25-30|rarity=10/1110|rolls=2}}
 {{DropsLine|name=Dragonstone bolt tips|quantity=11-25|rarity=5/150|rolls=2}}
-{{DropsLine|name=Dragonstone bolt tips|quantity=25-30|rarity=6/1110|rolls=2}}
 {{DropsLine|name=Onyx bolt tips|quantity=5-10|rarity=4/150|rolls=2}}
-{{DropsLine|name=Onyx bolt tips|quantity=25-30|rarity=3/1110|rolls=2}}
 {{DropsLine|name=Rune dart tip|quantity=75-100|rarity=3/150|rolls=2}}
 {{DropsLine|name=Dragon dart tip|quantity=10-50|rarity=6/150|rolls=2}}
 {{DropsLine|name=Dragon arrowtips|quantity=25-50|rarity=3/150|rolls=2}}
+{{DropsLine|name=Diamond bolt tips|quantity=25-30|rarity=25/2730|rolls=2}} <!--5/150 * 25/91 -->
+{{DropsLine|name=Emerald bolt tips|quantity=25-30|rarity=20/2730|rolls=2}} <!--5/150 * 20/91 -->
+{{DropsLine|name=Ruby bolt tips|quantity=25-30|rarity=20/2730|rolls=2}} <!--5/150 * 20/91 -->
+{{DropsLine|name=Dragonstone bolt tips|quantity=25-30|rarity=14/2730|rolls=2}} <!--5/150 * 14/91 -->
+{{DropsLine|name=Onyx bolt tips|quantity=25-30|rarity=7/2730|rolls=2}} <!--5/150 * 7/91 -->
+{{DropsLine|name=Sapphire bolt tips|quantity=25-30|rarity=5/2730|rolls=2}} <!--5/150 * 5/91 -->
 {{DropsTableBottom}}
 
 ===Seeds===
 {{TreeHerbSeedDropTableInfo|3/150}}
 {{DropsTableHead|dropversion=Post-quest}}
-{{TreeHerbSeedDropLines|3/150|rolls=2|TorstolSeedRarity=1/{{#expr:1/(1/150+1/568.2) round 1}}|SnapdragonSeedRarity=1/{{#expr:1/(1/150+1/446.4) round 1}}|TorstolSeedRaritynotes=<ref group="d" name="dd">This item is rolled on both the main loot table as well as the tree-herb seed drop table. The effective chance is written here.</ref>|SnapdragonSeedRaritynotes=<ref group="d" name="dd"/>}}
+{{TreeHerbSeedDropLines|3/150|rolls=2|TorstolSeedRarity=1/{{#expr:1/(1/150+(3/150*22/250)) round 1}}|SnapdragonSeedRarity=1/{{#expr:1/(1/150+(3/150*28/250)) round 1}}|TorstolSeedRaritynotes=<ref group="d" name="dd">This item is rolled on both the main loot table as well as the tree-herb seed drop table. The effective chance is written here.</ref>|SnapdragonSeedRaritynotes=<ref group="d" name="dd"/>}}
 {{DropsTableBottom}}
-{{Reflist|group=d}}
+
+===Shark drop table===
+''There is a 4/150 (2.7%) chance of rolling the [[shark drop table]].''
+{{DropsTableHead|dropversion=Post-quest}}
+{{DropsLine|name=Raw shark|quantity=35-55 (noted)|rarity=3/300|rolls=2}} <!--4/150 * 3/8 -->
+{{DropsLine|name=Shark lure|quantity=70-110|rarity=3/300|rolls=2|quantitynotes={{Refn|group=d|Only even-numbered quantities are dropped.}}}} <!--4/150 * 3/8 -->
+{{DropsLine|name=Manta ray|quantity=35-55 (noted)|rarity=2/300|rolls=2}} <!--4/150 * 2/8 -->
+{{DropsTableBottom}}
 
 ===Other===
 {{DropsTableHead|dropversion=Post-quest}}
 {{DropsLine|name=Adamantite ore|quantity=10-30 (noted)|rarity=7/150|rolls=2}}
-{{DropsLine|name=Coins|quantity=20000-81000|rarity=5/150|gemw=No|rolls=2}}
+{{DropsLine|name=Coins|quantity=20000-80000|rarity=5/150|gemw=No|rolls=2}}
 {{DropsLine|name=Grapes|quantity=250-300 (noted)|rarity=5/150|rolls=2}}
 {{DropsLine|name=Magic logs|quantity=50 (noted)|rarity=5/150|rolls=2}}
-{{DropsLine|name=Manta ray|quantity=35-55 (noted)|rarity=4/150|rolls=2}}
 {{DropsLine|name=Dragon bones|quantity=15-20 (noted)|rarity=4/150|rolls=2}}
 {{DropsLine|name=Diamond|quantity=10-20 (noted)|rarity=4/150|rolls=2}}
 {{DropsLine|name=Dragonstone|quantity=2-3 (noted)|rarity=3/150|rolls=2}}
@@ -222,11 +231,19 @@ Upon subduing Vorkath, the drops will be placed in one of eight different tiles 
 {{Reflist|group=d}}
 
 ==Combat Achievements==
-{{Sync}}
-{{Combat Achievements list|Vorkath}}
+{{Sync}}{{Combat Achievements list|Vorkath}}
 
 ==Changes==
 {{Subject changes header}}
+{{Subject changes
+|date = 25 June 2025
+|update = Summer Sweep Up: Combat
+|change =
+* Vorkath now has a 40% [[elemental weakness]] to [[fire spells]].
+* Vorkath's [[manta ray]] drop rate was lowered, with the removed drop rate being replaced by [[raw shark]]s and [[shark lure]]s.
+* The amount of [[chaos rune]]s Vorkath drops was lowered from 650-1000 to 250-350.
+* The amount of [[death rune]]s Vorkath drops was lowered from 300-500 to 200-300.
+}}
 {{Subject changes
 |date = 17 May 2023
 |update = Tithe Farm Updates & More Poll 79!
@@ -278,7 +295,7 @@ Vorkath (Trading Card).png|The Vorkath [[Steam Trading Cards|Steam Trading Card]
 ==Trivia==
 *Vorkath's sleeping examine is a reference to the phrase "let sleeping dogs lie", which means to avoid interfering with situations where nothing is currently wrong.
 *Vorkath had a festive override wearing a [[santa hat]] during the [[2018 Christmas event/Gallery|2018]], [[2019 Christmas event/Gallery|2019]], [[2020 Christmas event/Gallery|2020]], [[2021 Christmas event/Gallery|2021]], [[2022 Christmas event/Gallery|2022]], [[2023 Christmas event/Gallery|2023]], and [[2024 Christmas event/Gallery|2024]] Christmas events.
-*Vorkath is one of the second pieces of content conceived in ''Old School RuneScape'' that went on to be used in ''RuneScape''. Like in ''Old School RuneScape'', {{RSL|Vorkath}} is an undead dragon created by {{RSL|Zorgoth}} on {{RSL|Ungael}}, but was disposed of due to lack of aggression. It was later raised from the dead by {{RSL|Zemouregal}} to be used as a weapon to attack {{RSL|Fort Forinthry}} in the {{RSL|Battle of Forinthry}}. Unlike in ''Old School RuneScape'', Vorkath has all four of its legs intact, due to the technical limitations of rigging a fluid 3-legged dragon.
+*Vorkath is the second piece of content conceived in ''Old School RuneScape'' that went on to be used in ''RuneScape''. Like in ''Old School RuneScape'', {{RSL|Vorkath}} is an undead dragon created by {{RSL|Zorgoth}} on {{RSL|Ungael}}, but was disposed of due to lack of aggression. It was later raised from the dead by {{RSL|Zemouregal}} to be used as a weapon to attack {{RSL|Fort Forinthry}} in the {{RSL|Battle of Forinthry}}. Unlike in ''Old School RuneScape'', Vorkath has all four of its legs intact, due to the technical limitations of rigging a fluid 3-legged dragon.
 **''RuneScape''{{'}}s Vorkath, in normal mode, has 750,000 lifepoints, equal to 7,500 hitpoints in ''Old School RuneScape'', meaning the ''Old School RuneScape'' version of Vorkath has 10 times less health than its ''RuneScape'' counterpart.
 
 ==Notes==

@@ -2,6 +2,11 @@
   "100%": [
     "Ashes"
   ],
+  "Pre-roll": [
+    "Occult necklace",
+    "Smoke battlestaff",
+    "Dragon chainbody"
+  ],
   "Weapons and armour": [
     "Rune dagger",
     "Rune chainbody",
@@ -12,10 +17,7 @@
     "Rune scimitar",
     "Rune knife(p++)",
     "Dragon scimitar",
-    "Ancient staff",
-    "Occult necklace",
-    "Smoke battlestaff",
-    "Dragon chainbody"
+    "Ancient staff"
   ],
   "Runes and ammunition": [
     "Smoke rune",
@@ -33,20 +35,21 @@
     "Pure essence",
     "Molten glass",
     "Mithril bar",
-    "Coal",
     "Magic logs",
     "Gold ore",
-    "Diamond"
+    "Diamond",
+    "Raw shark",
+    "Shark lure"
   ],
   "Other": [
     "Coins",
     "Tinderbox",
     "Fire talisman",
-    "Bullseye lantern",
     "Desert goat horn",
     "Grimy toadflax",
     "Onyx bolt tips",
     "Snapdragon seed",
+    "Ranarr seed",
     "Grapes",
     "Magic seed",
     "Dragonstone ring",

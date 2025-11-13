@@ -32,8 +32,8 @@
     "Ruby",
     "Uncut ruby",
     "Uncut diamond",
-    "Rune javelin heads",
-    "Dragon javelin heads",
+    "Rune javelin tips",
+    "Dragon javelin tips",
     "Dragon dart tip",
     "Raw shark"
   ],
@@ -51,10 +51,6 @@
   "Tertiary": [
     "Temple key (Desert Treasure II)",
     "Brimstone key",
-    "Clue scroll (easy)",
-    "Clue scroll (medium)",
-    "Clue scroll (hard)",
-    "Clue scroll (elite)",
     "Ancient blood ornament kit",
     "Butch"
   ]

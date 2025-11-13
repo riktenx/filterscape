@@ -81,60 +81,59 @@ Like other God Wars Dungeon bosses, Zilyana roams around a rectangular room with
 ==Drops==
 {{DropLogProject|kills=23068}}<!--
 
--->{{#vardefine:zilyanaUnique|{{#expr:
-(1/127) * {{GEP|Saradomin sword|1}} +
-(1/254) * {{GEP|Saradomin's light|1}} +
-(1/508) * {{GEP|Armadyl crossbow|1}} +
-(1/508) * {{GEP|Saradomin hilt|1}} +
-(1/762) * {{GEP|Godsword shard 1|1}} +
-(1/762) * {{GEP|Godsword shard 2|1}} +
-(1/762) * {{GEP|Godsword shard 3|1}}
-}}}}<!--
+-->{{#vardefine:zilyanaUniqueGE|{{#expr:
+(1/127) * {{GEP|Saradomin sword}} +
+(1/254) * {{GEP|Saradomin's light}} +
+(1/508) * {{GEP|Armadyl crossbow}} +
+(1/508) * {{GEP|Saradomin hilt}} +
+(1/762) * {{GEP|Godsword shard 1}} +
+(1/762) * {{GEP|Godsword shard 2}} +
+(1/762) * {{GEP|Godsword shard 3}}}}}}<!--
 
--->{{#vardefine:onezilyanaLoot|{{#expr:
-(1/1) * {{GEP|Bones|1}} +
-(8/127) * {{GEP|Prayer potion(4)|3}} +
-(8/127) * {{GEP|Super defence(3)|3}} +
-(8/127) * {{GEP|Magic potion(3)|3}} +
-(6/127) * {{GEP|Saradomin brew(3)|3}} +
-(6/127) * {{GEP|Super restore(4)|3}} +
-(8/127) * {{GEP|Grimy ranarr weed|5}} +
-(8/127) * {{GEP|Ranarr seed|2}} +
-(1/127) * {{GEP|Magic seed|1}} +
-(8/127) * {{GEP|Adamant platebody|1}} +
-(8/127) * {{GEP|Rune dart|37.5}} +
-(8/127) * {{GEP|Rune kiteshield|1}} +
-(8/127) * {{GEP|Rune plateskirt|1}} +
-(31.2/127) * 1 * 19750 +
-(8/127) * {{GEP|Diamond|6}} +
-(8/127) * {{GEP|Law rune|97.5}} +
-(10/127) * 1 * {{GWDRDTValue}}
-}}}}<!--
+-->{{#vardefine:minionUniqueGE|{{#expr:
+(3/5376) * {{GEP|Saradomin sword}} +
+(3/1524) * {{GEP|Godsword shard 1}} +
+(3/1524) * {{GEP|Godsword shard 2}} +
+(3/1524) * {{GEP|Godsword shard 3}}}}}}<!--
 
--->{{#vardefine:onezilyanaminionLoot|{{#expr:
-(1/1) * {{GEP|Bones|1}} +
-(1/127) * (3/127) * {{GEP|Saradomin sword|1}} +
-(1/127) * (124/127) * 1450 +
-(1/127) * (9/12) * 1350 +
-(1/127) * (1/12) * {{GEP|Godsword shard 1|1}} +
-(1/127) * (1/12) * {{GEP|Godsword shard 2|1}} +
-(1/127) * (1/12) * {{GEP|Godsword shard 3|1}} +
-(8/127) * {{GEP|Steel dart|97.5}} +
-(8/127) * {{GEP|Law rune|7.5}} +
-(8/127) * {{GEP|Grimy ranarr weed|1}} +
-(8/127) * {{GEP|Summer pie|1}} +
-(8/127) * {{GEP|Monkfish|3}} +
-(8/127) * {{GEP|Steel arrow|97.5}} +
-(62/127) * 1350 +
-(7/127) * {{GEP|Snape grass|5}} +
-(8/127) * {{GEP|Unicorn horn|6}}
-}}}}
+-->{{#vardefine:zilyanaUniqueHA|{{#expr:
+(1/127) * {{HA|Saradomin sword}} +
+(1/254) * {{HA|Saradomin's light}} +
+(1/508) * {{HA|Armadyl crossbow}} +
+(1/508) * {{HA|Saradomin hilt}} +
+(1/762) * {{HA|Godsword shard 1}} +
+(1/762) * {{HA|Godsword shard 2}} +
+(1/762) * {{HA|Godsword shard 3}}}}}}<!--
 
-The average Commander Zilyana kill, including its unique drops, is worth {{Coins|floor({{#var:onezilyanaLoot}}+{{#var:zilyanaUnique}})}}.
+-->{{#vardefine:minionUniqueHA|{{#expr:
+(3/5376) * {{HA|Saradomin sword}} +
+(3/1524) * {{HA|Godsword shard 1}} +
+(3/1524) * {{HA|Godsword shard 2}} +
+(3/1524) * {{HA|Godsword shard 3}}}}}}
 
-Excluding unique drops, the average kill is worth {{Coins|floor({{#var:onezilyanaLoot}})}}. 
+{| class="wikitable"
+|+
+! rowspan="2" |Minions Killed
+! colspan="4" |Average Drop Value
+|-
+![[Grand Exchange|GE]]
+![[Grand Exchange|GE]] w/o uniques
+![[High Level Alchemy|HA]]
+![[High Level Alchemy|HA]] w/o uniques
+|-
+|{{No}}
+|{{Coins|{{Average drop value|mob=Commander Zilyana|raw=y}}}}
+|{{Coins|{{Average drop value|mob=Commander Zilyana|raw=y}} - {{#var:zilyanaUniqueGE}}}}
+|{{Coins|{{Average drop value|mob=Commander Zilyana|alch=yes|raw=y}}}}
+|{{Coins|{{Average drop value|mob=Commander Zilyana|alch=true|raw=y}} - {{#var:zilyanaUniqueHA}}}}
+|-
+|{{Yes}}
+|{{Coins|{{Average drop value|mob=Commander Zilyana|raw=y}} + 3 * {{Average drop value|mob=Growler|raw=y}}}}
+|{{Coins|{{Average drop value|mob=Commander Zilyana|raw=y}} + 3 * {{Average drop value|mob=Growler|raw=y}} - {{#var:zilyanaUniqueGE}} - {{#var:minionUniqueGE}}}}
+|{{Coins|{{Average drop value|mob=Commander Zilyana|alch=yes|raw=y}} + 3 * {{Average drop value|mob=Growler|alch=yes|raw=y}}}}
+|{{Coins|{{Average drop value|mob=Commander Zilyana|alch=true|raw=y}} + 3 * {{Average drop value|mob=Growler|alch=true|raw=y}} - {{#var:zilyanaUniqueHA}}- {{#var:minionUniqueHA}}}}
+|}
 
-Killing the three minions yields an additional {{Coins|floor(3*{{#var:onezilyanaminionLoot}})}} on average (including uniques), bringing the total to {{Coins|floor({{#var:onezilyanaLoot}}+{{#var:zilyanaUnique}}+3*{{#var:onezilyanaminionLoot}})}} per kill.
 ===100%===
 {{DropsTableHead}}
 {{DropsLine|name=Bones|quantity=1|rarity=Always}}
@@ -143,7 +142,7 @@ Killing the three minions yields an additional {{Coins|floor(3*{{#var:onezilyana
 {{Reflist|group=d}}
 
 ===Uniques===
-There is a 1/53 chance to hit the Unique table and receive one of any unique, or 1/66 to receive any unique except a Godsword Shard.{{DropsTableHead}}
+The chance to get any unique is 1/53. The chance to get any unique, excluding the Godsword shards, is 1/66. {{DropsTableHead}}
 {{DropsLine|name=Saradomin sword|quantity=1|rarity=1/127|raritynotes={{CiteTwitter|author=Mod Kieren|url=https://twitter.com/JagexKieren/status/900362626009530369|date=23 August 2017|archiveurl=https://archive.fo/L6alm|archivedate=26 March 2019|quote=Here are some numbers! Hilt=1/508, Light=1/254, Sword=1/127, ACB=1/508|name=sara}}}}
 {{DropsLine|name=Saradomin's light|quantity=1|rarity=1/254|raritynotes={{NamedRef|sara}}}}
 {{DropsLine|name=Armadyl crossbow|quantity=1|rarity=1/508|raritynotes={{NamedRef|sara}}}}
@@ -300,10 +299,9 @@ Starlight has a special mechanic that allows her to move randomly while undernea
 {{LocTableBottom}}
 
 ==Saradomin chamber==
-To the south-east is the [[Saradomin]] section. To enter, you must have at least 70 [[Agility]] and two pieces of [[rope]] to tie around rocks to enter each of the two areas. These ropes are permanent so you will only need to attach them the first time you enter this area. The monsters in this section will use mostly [[magic]]-based attacks. Once in the general's room, Starlight will attack with melee. Remember to always use [[Protect from Magic]] as Commander Zilyana will attack you.
+To the south-east is the [[Saradomin]] section. To enter, you must have at least 70 [[Agility]] (not boostable) and two pieces of [[rope]] to tie around rocks to enter each of the two areas. These ropes are permanent so you will only need to attach them the first time you enter this area. The monsters in this section will use mostly [[magic]]-based attacks. Once in the general's room, Starlight will attack with melee. Remember to always use [[Protect from Magic]] as Commander Zilyana will attack you.
 
 '''Note:''' [[Commander Zilyana]]'s magic attack is only used in melee range.
-
 
 ==Drops==
 {{DropLogProject|kills=20782}}
@@ -354,6 +352,9 @@ The regular droptable contains 125 slots, however due to the unique tables the e
 {{DropsLine|name=Frozen key piece (saradomin)|quantity=1|rarity=1/20|gemw=no|raritynotes=<ref group=d>[[Frozen key (The Frozen Door)|Frozen key]] pieces are only dropped during [[The Frozen Door]] [[miniquest]].</ref>}}
 {{DropsLineClue|type=hard|rarity=1/128|raritynotes={{CiteTwitter|author=Mod Ash|url=https://twitter.com/JagexAsh/status/597479427489067008|date=10 May 2015|archiveurl=https://archive.is/DvWXy|archivedate=26 May 2020|quote=The bodyguards drop hards at 1/128.}}}}
 {{DropsTableBottom}}
+
+==Trivia==
+* Despite being a [[unicorn]], Starlight does not drop the [[unicorn bone]] if killed during [[Rag and Bone Man I]].
 
 ==References==
 {{reflist}}

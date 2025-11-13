@@ -27,7 +27,7 @@
 |attack style = [[Melee]]
 |attack speed = 7
 |slaylvl = 85
-|slayxp = 450 (650 with the Respiratory systems)
+|slayxp = 478 (678 with the Respiratory systems)
 |cat = Bosses, Abyssal Demons
 |assignedby = vannaka,chaeldar,konar,nieve,duradel
 |hitpoints = 425
@@ -64,11 +64,11 @@
 |id4 = 5908
 }}
 [[File:Abyssal demon icon.png|left]]
-The '''Abyssal Sire''' is an [[abyssal demon]] [[Slayer boss]] that requires level 85 [[Slayer]] to kill. To access the boss, the player must have visited the [[Abyss]] at least once, either through the [[Mage of Zamorak]] or the [[Fairy rings|Fairy Ring network]].{{CiteTwitter|author=Mod Ash|url=https://twitter.com/JagexAsh/status/1189844286675783680|date=31 October 2019|archiveurl=https://archive.is/pWdr1|archivedate=20 July 2020|quote=Yeah, you need access to the Abyss, either via the Abyssal miniquest or via fairy rings.}} As with all other Slayer bosses, the Sire can only be fought when assigned abyssal demons or itself as a [[Slayer task]]. Although it resides in a multi-combat area, it is a solo-only boss.
+The '''Abyssal Sire''' is an [[abyssal demon]] [[Slayer boss]] that requires level 85 [[Slayer]] to kill. To access the boss, the player must have visited the [[Abyss]] at least once, either through the [[Mage of Zamorak]] or the [[Fairy rings|Fairy Ring network]].{{CiteTwitter|author=Mod Ash|url=https://twitter.com/JagexAsh/status/1189844286675783680|date=31 October 2019|archiveurl=https://archive.is/pWdr1|archivedate=20 July 2020|quote=Yeah, you need access to the Abyss, either via the Abyssal miniquest or via fairy rings.}} As with all other Slayer bosses, the Sire can only be fought when assigned abyssal demons (outside of [[Krystilia]]) or itself as a [[Slayer task]]. Although it resides in a multi-combat area, it is a solo-only boss.
 
 According to [[The Overseer]], the Abyssal Sires are the engineers of the Abyss from a time before the God Wars. As their resources began to deplete and they had no means to escape, they constructed the [[Abyssal Nexus|Nexus]] and remained there in deep stasis.
 
-It is known for dropping the [[unsired]], which can be placed in the [[Font of Consumption]] behind The Overseer for a chance of obtaining an [[abyssal whip]], [[abyssal dagger|dagger]], [[abyssal head]], [[jar of miasma]], a part of the [[abyssal bludgeon]] - the [[bludgeon axon|axon]], [[bludgeon claw|claw]] or [[bludgeon spine|spine]] - or, rarely, an [[abyssal orphan]].
+It is known for dropping the [[unsired]], which can be placed in the [[Font of Consumption]] behind The Overseer for a chance of obtaining an [[abyssal whip]], [[abyssal dagger|dagger]], [[abyssal head]], [[jar of miasma]], a part of the [[abyssal bludgeon]] - the [[bludgeon axon|axon]], [[bludgeon claw|claw]], or [[bludgeon spine|spine]] - or, rarely, an [[abyssal orphan]].
 
 The Sire was introduced in a [[Update:Dev Blog: Slayer Expansion v2|Slayer expansion developer blog]] on [[2 June]] [[2015]] and [[Poll:Old School Content Poll 34: XP droplets & Slayer|subsequently polled]] with 89.8% of the votes in favour of its addition.
 
@@ -97,8 +97,8 @@ As with all demons, the Sire is susceptible to the effects of [[demonbane weapon
 
 The fight consists of three phases:
 *In the first phase players must kill the Sire's four [[Respiratory system|respiratory systems]] in the corners of the room. The Sire can be disoriented by using [[Shadow spells]] on the [[Ancient Magicks|Ancient spellbook]], or by dealing 75 damage to it with [[Ranged]] or [[Magic]], temporarily disabling the [[Tentacle (Abyssal Sire)|tentacles]] protecting the respiratory systems. It will attack by either spawning poisonous fumes underneath the player, dealing rapid damage in a 3x3 AoE that can inflict [[poison]] starting at 8 damage, or launching [[spawn]]s from its mouth, which attack with ranged or melee. If ignored, the spawn will mature into stronger [[scion]].
-*At the start of the second phase, the Sire gets off its throne to attack the player. Its standard melee attacks can hit up to 66, which is reduced to 26 by using [[Protect from Melee]]. It has an attack range of three, but standing more than two tiles away from it will result in it either launching spawns or spawning poisonous fumes. Likewise, attacking it from more than two tiles away will cause it to forcibly teleport the player next to it before retaliating with portal energy, which deals high damage if not avoided.
-*When the Sire gets below 200 health, it will walk to the middle of the room and stop moving. It no longer attacks with melee, instead creating many spawns and summoning a miasma pool under the player every few seconds, which must be avoided. When the Sire gets below 140 health, it will teleport the player next to itself and trigger a highly damaging area-of-effect attack; the damage can be avoided by running directly away from the Sire as soon as the player is teleported.
+*At the start of the second phase, the Sire gets off its throne to attack the player. Damage dealt to the Sire while it is transitioning between phases is reduced by 50%. Its standard melee attacks can hit up to 66, which is reduced to 26 by using [[Protect from Melee]]. It has an attack range of three, but standing more than two tiles away from it will result in it either launching spawns or spawning poisonous fumes. Likewise, attacking it from more than two tiles away will cause it to forcibly teleport the player next to it before retaliating with portal energy, which deals high damage if not avoided.
+*When the Sire gets below 210 health, it will walk to the middle of the room and stop moving. It no longer attacks with melee, instead creating many spawns and summoning a miasma pool under the player every few seconds, which must be avoided. When the Sire gets below 140 health, it will teleport the player next to itself and trigger a highly damaging area-of-effect attack; the damage can be avoided by running directly away from the Sire as soon as the player is teleported.
 
 When the Sire dies, any spawns and scions it summoned will die off alongside it, though it is possible to get hit from a dying minion. The Sire respawns immediately.
 
@@ -106,7 +106,7 @@ When the Sire dies, any spawns and scions it summoned will die off alongside it,
 {{Mmgsection|Killing the Abyssal Sire}}
 
 ==Drops==
-{{DropLogProject|kills=40840}}<!--
+{{DropLogProject|kills=10634755}}<!--
 
 -->{{#vardefine:ASunique|{{#expr:
 (1/100) * 1/128 * (
@@ -140,6 +140,11 @@ When the Sire dies, any spawns and scions it summoned will die off alongside it,
 |{{Coins|floor({{Average drop value|alch=yes|raw=y}})}}
 |}
 
+===Pre-roll===
+{{DropsTableHead}}
+{{DropsLine|name=Unsired|quantity=1|rarity=1/100|raritynotes={{CiteTwitter|author=Mod Kieren|url=https://twitter.com/JagexKieren/status/665177260698288128|date=13 November 2015|archiveurl=https://archive.vn/tfMX5|archivedate=24 May 2020|quote=Here are the Abyssal Sire drop rates in case you didn't catch them on @JagexRonan's stream.}}|gemw=No}}
+{{DropsTableBottom}}
+
 ===100%===
 {{DropsTableHead}}
 {{DropsLine|name=Abyssal ashes|quantity=1|rarity=Always}}
@@ -164,16 +169,16 @@ When the Sire dies, any spawns and scions it summoned will die off alongside it,
 {{DropsLine|name=Law rune|quantity=250|rarity=5/139}}
 {{DropsLine|name=Soul rune|quantity=225-275|rarity=5/139}}
 {{DropsLine|name=Cosmic rune|quantity=350|rarity=4/139}}
-{{DropsLine|name=Cannonball|quantity=300|rarity=4/139}}
+{{DropsLine|name=Steel cannonball|quantity=300|rarity=4/139}}
 {{DropsTableBottom}}
 
 ===Herbs===
-''There is a 5/139 chance of rolling the herb subtable. The herbs are dropped in a 10:9:9:7 ratio.''
+''There is a 5/139 (3.6%) chance of rolling the herb subtable. The herbs are dropped in a 5:4:4:3 ratio.''
 {{DropsTableHead}}
-{{DropsLine|name=Grimy kwuarm|quantity=25 (noted)|rarity=1/97.3}}
-{{DropsLine|name=Grimy dwarf weed|quantity=25 (noted)|rarity=1/108.1}}
-{{DropsLine|name=Grimy cadantine|quantity=25 (noted)|rarity=1/108.1}}
-{{DropsLine|name=Grimy lantadyme|quantity=25 (noted)|rarity=1/139}}
+{{DropsLine|name=Grimy kwuarm|quantity=25 (noted)|rarity=25/2224}} <!-- 5/16 * 5/139 -->
+{{DropsLine|name=Grimy dwarf weed|quantity=25 (noted)|rarity=20/2224}} <!-- 4/16 * 5/139 -->
+{{DropsLine|name=Grimy cadantine|quantity=25 (noted)|rarity=20/2224}} <!-- 4/16 * 5/139 -->
+{{DropsLine|name=Grimy lantadyme|quantity=25 (noted)|rarity=15/2224}} <!-- 3/16 * 5/139 -->
 {{DropsTableBottom}}
 
 ===Seeds===
@@ -184,14 +189,15 @@ When the Sire dies, any spawns and scions it summoned will die off alongside it,
 
 ===Materials===
 {{DropsTableHead}}
-{{DropsLine|name=Coal|quantity=380-420 (noted)|rarity=6/139}}
 {{DropsLine|name=Earth orb|quantity=47-53 (noted)|rarity=5/139}}
 {{DropsLine|name=Pure essence|quantity=600 (noted)|rarity=5/139}}
 {{DropsLine|name=Magic logs|quantity=50-70 (noted)|rarity=5/139}}
 {{DropsLine|name=Uncut diamond|quantity=15 (noted)|rarity=5/139}}
+{{DropsLine|name=Coal|quantity=380-420 (noted)|rarity=4/139}}
 {{DropsLine|name=Runite ore|quantity=6 (noted)|rarity=4/139}}
 {{DropsLine|name=Onyx bolt tips|quantity=10|rarity=3/139}}
 {{DropsLine|name=Runite bar|quantity=5 (noted)|rarity=2/139}}
+{{DropsLine|name=Aether catalyst|quantity=220-270|rarity=2/139}}
 {{DropsTableBottom}}
 
 ===Talismans===
@@ -208,7 +214,6 @@ When the Sire dies, any spawns and scions it summoned will die off alongside it,
 {{DropsLine|name=Binding necklace|quantity=25 (noted)|rarity=4/139}}
 {{DropsLine|name=Saradomin brew(3)|quantity=6|rarity=2/139}}
 {{DropsLine|name=Jug of water|quantity=250-350 (noted)|rarity=2/139}}
-{{DropsLine|name=Unsired|quantity=1|rarity=1/100|raritynotes={{CiteTwitter|author=Mod Kieren|url=https://twitter.com/JagexKieren/status/665177260698288128|date=13 November 2015|archiveurl=https://archive.vn/tfMX5|archivedate=24 May 2020|quote=Here are the Abyssal Sire drop rates in case you didn't catch them on @JagexRonan's stream.}}|gemw=No}}
 {{DropsTableBottom}}
 
 ===Rare drop table===
@@ -227,6 +232,24 @@ When the Sire dies, any spawns and scions it summoned will die off alongside it,
 
 ==Changes==
 {{Subject changes header}}
+{{Subject changes
+|date = 25 June 2025
+|update = Summer Sweep Up: Combat
+|change = Added a 2/139 drop of 220-270 [[aether catalyst]], and to compensate made coal more rare, from 6/139 to 4/139.
+}}
+{{Subject changes
+|date = 11 June 2025
+|update = Misc Galore & Yama Tweaks
+|change = Scions melee max hit has been decreased from 15 to 10.
+}}
+{{Subject changes
+|date = 4 June 2025
+|update = Poll 84, AFK Timers & More
+|change =
+* The Abyssal Sire no longer fully heals when defeated too quickly during phase transitions.
+** If the Sire is killed while walking to begin phase 2, it will restore to 40% health.
+** If the Sire is killed while walking to begin phase 3, it will restore to 20% health.
+}}
 {{Subject changes
 |date = 30 April 2025
 |update = Poll 84: Batch II
@@ -329,6 +352,7 @@ Abyssal Sire (Trading Card).png|The Abyssal Sire [[Steam Trading Cards|Steam Tra
 *The Sire, as well as its [[respiratory system]]s, have multiple examine options that can be seen throughout the fight.
 *It is one of the few monsters that does not have a defensive animation; rather, it loops its idle animation instead.
 *Despite being a solo-only boss, the Sire's area-of-effect attack at 33% health and poison fumes can harm other players if they are in range.
+*The sire cannot be defeated before its explosion attack. If the player manages to kill it before then it will respawn  where the fight left off with about 1/3 of its max health
 
 ==References==
 {{Reflist}}

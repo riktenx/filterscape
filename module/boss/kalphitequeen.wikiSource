@@ -22,7 +22,7 @@
 |poisonous = No
 |attack style = [[Stab]], [[Ranged]], [[Magic]]
 |attack speed = 4
-|slayxp = 535.5
+|slayxp = 535.4
 |cat = Kalphite, Bosses
 |assignedby = turael,spria,mazchna,vannaka,chaeldar,konar,nieve,duradel
 |hitpoints = 255
@@ -47,10 +47,13 @@
 |dmagic2 = 10
 |drange1 = 100
 |drange2 = 10
+|elementalweaknesstype = Fire
+|elementalweaknesspercent = 40
 |immunepoison = Not immune
 |immunevenom = Poisons instead
 |immunecannon = No
 |immunethrall = No
+|immuneburn = Not immune
 |respawn1 = 50
 |id1 = 963,4303
 |id2 = 965,4304
@@ -59,7 +62,7 @@
 [[File:Kalphitequeengroup.png|alt=seven players in veracs killing the kalphite queen|thumb|A group of players killing the Kalphite Queen]]
 The '''Kalphite Queen''' ('''''Kalphiscarabeinae pasha'''''<ref>Display case in [[Varrock Museum]] natural history exhibit, southern wing. "Kalphite Queen (Kalphiscarabeinae Pasha)"</ref>), also called the '''KQ''', is the strongest of the Kalphites.
 
-She is a powerful opponent that makes use of [[protection prayers]], though they only give her improved defence rather than outright blocking damage from them. She can use all three combat styles, of which her ranged and magic attacks always land as [[successful hit]]s, and has two forms.
+She is a powerful opponent that makes use of [[protection prayers]], though they only function as an indicator to players of which attack styles may be most effective rather than outright blocking damage from them. She can use all three combat styles, of which her ranged and magic attacks always land as [[successful hit]]s, and has two forms.
 
 Unique drops from the Queen include the [[dragon 2h sword]], [[dragon chainbody]], [[dragon pickaxe]] and [[kq head]] drops. Killing her is additionally a requirement for the [[Desert Diary]], with a hard task requiring players to kill her once and an elite task requiring the player to speak to a [[Kalphite Queen head (mounted)|mounted head]] inside their own [[Player-owned house]].
 
@@ -219,6 +222,11 @@ If stat-draining [[special attacks]] are used on her first form, the stat reduct
 ==Changes==
 {{Subject changes header}}
 {{Subject changes
+|date = 25 June 2025
+|update = Summer Sweep Up: Combat
+|change = The Kalphite Queen now has a 40% elemental weakness to [[fire spells]].
+}}
+{{Subject changes
 |date = 25 January 2023
 |update = Wilderness Boss Rework
 |change = The Kalphite Queen can now drop the [[dragon pickaxe]] at a rate of 1/400.
@@ -305,6 +313,16 @@ If stat-draining [[special attacks]] are used on her first form, the stat reduct
 |update = Small spiders, kalphites, scorpions and metal dragons
 |change = The NPC was graphically updated.
 }}
+{{Subject changes
+|date = 20 February 2006
+|update = Updates, updates and more updates...
+|change = The Kalphite Queen can now drop the dragon 2h sword.
+}}
+{{Subject changes
+|date = 27 September 2004
+|update = Skills, Duels and the Kalphite
+|change = The Kalphite Queen can now use a ranged attack in addition to her magic and melee attacks.
+}}
 {{Subject changes footer}}
 ===Gallery (historical)===
 <tabber>
@@ -334,6 +352,7 @@ Kalphite Queen (Trading Card).png|The Kalphite Queen [[Steam Trading Cards|Steam
 
 ==Trivia==
 *The Kalphite Queen was the first monster to use multiple simultaneous overhead [[protection prayer]] symbols. [[File:Protect from Magic and Missiles overhead.png]]
+*The Kalphite Queen was developed by {{RSL|Mod Bennett}}, who also created the outer area of [[Mor Ul Rek]] and the [[TzHaar Fight Cave]]. During development, the Kalphite Queen was considered an extremely difficult boss to kill, as she was able to kill testers even as they used cheats to heal themselves.{{CiteReddit|author=Mod Ash|url=https://www.reddit.com/r/2007scape/comments/1m72il8/comment/n4vrj35/|title=21 Years at Jagex + RuneFest Medley (Deluxe) music video {{!}} AMA|quote=The TzHaar area was made by Mod Bennett, implementer of much of RS2's original combat code, and one of the most technically proficient devs of the 2004-6 era. [...] Mod Bennett made the KQ too, as the first boss that hadn't been in RS Classic. She was considered so hard that testers died even while using cheats to heal themselves. I believe Mod Bennett was trying out the capabilities of the new combat system he'd written, leaning into the different combat styles that wouldn't have existed in the same way in Classic.|date=24 July 2025|archiveurl=https://archive.ph/ISCP2|archivedate=11 October 2025}}
 *According to the [[Kalphite Queen head (mounted)]], [[kalphite]]s used to overrun all of [[Gielinor]] before being forced underground.
 
 ==References==

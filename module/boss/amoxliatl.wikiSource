@@ -53,7 +53,7 @@
 [[File:Amoxliatl chathead.png|left]]
 '''Amoxliatl''' is a powerful [[Frost Nagua]] found within the [[Ruins of Tapoyauik]], who serves as its guardian and is fought during [[The Heart of Darkness]] as the final fight of the quest.
 
-After the quest, Amoxliatl can be fought again as a regular [[boss]]. Like [[Scurrius]], she is considered an entry-level boss with attacks meant to introduce various mechanics that are present in higher-level bosses, such as quickly reacting to prayers being deactivated and controlling where persistent ground hazards appear, which are comparable to [[Vorkath]]'s corrupting dragonfire and the [[Phantom Muspah]]'s ground spikes respectively.
+After the quest, Amoxliatl can be fought again as a regular [[boss]]. Like [[Scurrius]], she is considered an entry-level boss with attacks meant to introduce various mechanics that are present in higher-level bosses, such as quickly reacting to prayers being deactivated and controlling where persistent ground hazards appear, which are comparable to [[Vorkath]]'s corrupting dragonfire and the [[Phantom Muspah]]'s ground spikes.
 
 ==Location==
 {{LocTableHead|league=yes}}
@@ -69,7 +69,7 @@ After the quest, Amoxliatl can be fought again as a regular [[boss]]. Like [[Scu
 |leagueRegion = Varlamore
 }}
 {{LocTableBottom}}
-Amoxliatl can be found beyond a large door found to the west within the [[Ruins of Tapoyauik]] in [[Varlamore]]. By returning to the chamber with the Frost Nagua within Tapoyauik, players can use the [[lift platform]] in the center (which appears after completion of the quest) to ascend to the [[Tower of Ascension]]. This unlocks a permanent shortcut which allows quick access to Amoxliatl.
+Amoxliatl is beyond a large door found to the west within the [[Ruins of Tapoyauik]] in [[Varlamore]]. By returning to the chamber with the Frost Nagua within Tapoyauik, players can use the [[lift platform]] in the centre (which appears after completion of the quest) to ascend to the [[Tower of Ascension]]. This unlocks a permanent shortcut which allows quick access to Amoxliatl.
 
 An [[Ancient tablet (Amoxliatl)|ancient tablet]] by the pillar before the door shows statistics related to Amoxliatl.
 
@@ -98,7 +98,7 @@ Amoxliatl uses three different attacks throughout the fight. Her standard attack
 }}
 ''Killing Amoxliatl gives two rolls on her drop table and one roll for frozen tears. The displayed drop rates represent one kill.''
 
-{{DropLogProject|kills=308638}}
+{{DropLogProject|kills=55681}}
 
 {{Average drop value}}
 
@@ -111,44 +111,45 @@ Amoxliatl uses three different attacks throughout the fight. Her standard attack
 
 ===Weapons and armour===
 {{DropsTableHead}}
-{{DropsLine|name=Rune mace|quantity=1|rarity=2/56|rolls=2}}
-{{DropsLine|name=Rune pickaxe|quantity=1|rarity=1/56|rolls=2}}
-{{DropsLine|name=Rune platebody|quantity=1|rarity=1/56|rolls=2}}
-{{DropsLine|name=Rune platelegs|quantity=1|rarity=1/56|rolls=2}}
+{{DropsLine|name=Rune mace|quantity=1|rarity=2/58|rolls=2}}
+{{DropsLine|name=Rune pickaxe|quantity=1|rarity=2/58|rolls=2}}
+{{DropsLine|name=Rune platebody|quantity=1|rarity=1/58|rolls=2}}
+{{DropsLine|name=Rune platelegs|quantity=1|rarity=1/58|rolls=2}}
 {{DropsTableBottom}}
 
 ===Runes and ammunition===
 {{DropsTableHead}}
-{{DropsLine|name=Water rune|quantity=200-400|rarity=5/56|rolls=2}}
-{{DropsLine|name=Chaos rune|quantity=30-60|rarity=4/56|rolls=2}}
-{{DropsLine|name=Death rune|quantity=20-40|rarity=4/56|rolls=2}}
-{{DropsLine|name=Blood rune|quantity=15-30|rarity=4/56|rolls=2}}
-{{DropsLine|name=Soul rune|quantity=15-30|rarity=4/56|rolls=2}}
-{{DropsLine|name=Nature rune|quantity=30-60|rarity=3/56|rolls=2}}
+{{DropsLine|name=Water rune|quantity=200-400|rarity=5/58|rolls=2}}
+{{DropsLine|name=Chaos rune|quantity=30-60|rarity=4/58|rolls=2}}
+{{DropsLine|name=Death rune|quantity=20-40|rarity=4/58|rolls=2}}
+{{DropsLine|name=Blood rune|quantity=15-30|rarity=4/58|rolls=2}}
+{{DropsLine|name=Soul rune|quantity=30-45|rarity=4/58|rolls=2}}
+{{DropsLine|name=Nature rune|quantity=30-60|rarity=4/58|rolls=2}}
 {{DropsTableBottom}}
 
 ===Other===
 {{DropsTableHead}}
-{{DropsLine|name=Coal|quantity=20-30 (noted)|rarity=5/56|rolls=2}}
-{{DropsLine|name=Gold ore|quantity=20-30 (noted)|rarity=5/56|rolls=2}}
-{{DropsLine|name=Adamantite ore|quantity=5-10 (noted)|rarity=4/56|rolls=2}}
-{{DropsLine|name=Prayer potion(3)|quantity=1|rarity=2/56|rolls=2}}
-{{DropsLine|name=Runite ore|quantity=1 (noted)|rarity=2/56|rolls=2}}
-{{DropsLine|name=Blessed bone shards|quantity=60-100|rarity=2/56|rolls=2|gemw=no}}
-{{DropsLine|name=Water orb|quantity=10-20 (noted)|rarity=2/56|rolls=2}}
-{{DropsLine|name=Water talisman|quantity=1|rarity=2/56|rolls=2}}
+{{DropsLine|name=Coal|quantity=20-30 (noted)|rarity=5/58|rolls=2}}
+{{DropsLine|name=Gold ore|quantity=20-30 (noted)|rarity=5/58|rolls=2}}
+{{DropsLine|name=Adamantite ore|quantity=5-10 (noted)|rarity=4/58|rolls=2}}
+{{DropsLine|name=Prayer potion(3)|quantity=1|rarity=2/58|rolls=2}}
+{{DropsLine|name=Runite ore|quantity=1 (noted)|rarity=2/58|rolls=2}}
+{{DropsLine|name=Blessed bone shards|quantity=60-100|rarity=2/58|rolls=2|gemw=no}}
+{{DropsLine|name=Water orb|quantity=10-20 (noted)|rarity=2/58|rolls=2}}
+{{DropsLine|name=Water talisman|quantity=1|rarity=2/58|rolls=2}}
+{{DropsLine|name=Huasca seed|quantity=1|rarity=1/58|rolls=2|raritynotes={{CiteNews|url=https://secure.runescape.com/m=news/summer-sweep-up-combat--loot?oldschool=1|title=Summer Sweep-Up: Combat & Loot|newsdate=30 May 2025|quote=[https://docs.google.com/spreadsheets/d/e/2PACX-1vT5aIwPYJGCdUuO5rpNtYQE7FnERytSuj99zXkTBXf3XSIumSzjMQ9T1EXczWpMPZsRyZAcezWaQc6t/pubhtml Check out this handy spreadsheet] featuring nerfs, buffs or more complex 'adjustments' to a variety of runes, herbs, seeds, gems and fish.|name=sweepup}}}}
 {{DropsTableBottom}}
 
 ===Gem drop table===
-{{GemDropTable|naturetalisman=yes|2/56|rolls=2}}
+{{GemDropTable|naturetalisman=yes|2/58|rolls=2}}
 
 ===Tertiary===
 {{DropsTableHead}}
-{{DropsLine|name=Clue scroll (elite)|quantity=1|rarity=Always|raritynotes=<ref name='elite' group="d">Elite clue scrolls and reward caskets are only dropped when completing an elite clue scroll asking you to kill a frost nagua.</ref>|gemw=No|smw=No}}
-{{DropsLine|name=Reward casket (elite)|quantity=1|rarity=Always|raritynotes=<ref name='elite' group="d" />|gemw=No|smw=No}}
+{{DropsLine|name=Clue scroll (elite)|quantity=1|rarity=Always|raritynotes=<ref name='elite' group="d">Guaranteed elite clue scroll and reward casket drops only occur when completing an elite clue scroll asking you to kill a frost nagua.</ref>|gemw=No|bucket=No}}
+{{DropsLine|name=Reward casket (elite)|quantity=1|rarity=Always|raritynotes=<ref name='elite' group="d" />|gemw=No|bucket=No}}
 {{DropsLine|name=Pendant of ates (inert)|quantity=1|rarity=1/25|gemw=no}}
 {{DropsLine|name=Glacial temotli|quantity=1|rarity=1/100}}
-{{DropsLine|name=Tooth half of key (moon key)|quantity=1|rarity=1/500|approx=Yes|gemw=no}}
+{{DropsLine|name=Tooth half of key (moon key)|quantity=1|rarity=1/125|gemw=no}}
 {{DropsLineClue|type=elite|quantity=1|rarity=1/200}}
 {{DropsLine|name=Brimstone key|quantity=1|rarity={{Brimstone rarity|263|bonus=yes}}|raritynotes={{Refn|Brimstone keys are only dropped if killed on a [[Slayer task]] given by [[Konar quo Maten]].|group=d}}|gemw=No|leagueRegion=Varlamore&Kourend}}
 {{DropsLine|name=Moxi|quantity=1|rarity=1/3000|gemw=no}}
@@ -163,6 +164,17 @@ Amoxliatl uses three different attacks throughout the fight. Her standard attack
 
 ==Changes==
 {{Subject changes header}}
+{{Subject changes
+|change = The drop rate of [[Tooth half of key (moon key)]] has been increased from 1/500 to 1/150.
+|date = 27 August 2025
+|update = Summer Sweep Up Slayer & More
+}}
+{{Subject changes
+|date = 25 June 2025
+|update = Summer Sweep Up: Combat
+|change = * The amount of [[soul rune]]s Amoxliatl drops was increased from 15-30 to 30-45.
+* Amoxliatl now drops [[huasca seed]]s.
+}}
 {{Subject changes
 |date = 16 October 2024
 |update = Halloween 2024
@@ -180,6 +192,10 @@ Amoxliatl chamber concept art.png|Concept art of Amoxliatl's chamber, by Mod Jer
 ==Trivia==
 * The name Amoxliatl likely comes from the {{Wp|Nahuatl|Nahuatl}} words ''amoxtli'' (meaning "book," or "codex") and ''atl'' (meaning "water").
 
+==References==
+{{Reflist}}
+
+{{Slayer monsters}}
 {{Bosses}}
 {{Ruins of Tapoyauik}}
 {{The Heart of Darkness}}

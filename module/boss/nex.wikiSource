@@ -88,7 +88,9 @@ The following [[Server#Themed servers/worlds|official worlds]] are assigned to N
 [[File:Fighting Nex.png|thumb|An army of players fighting Nex.]]
 Nex spawns in her chamber shortly after a player or team of players pass through the [[ancient barrier]] within the Ancient Prison. She has very high hitpoints and deals relatively high damage even through protection prayers, so fighting her in a team is effectively a requirement.
 
-The fight consists of five distinct phases based on the [[Ancient Magicks]], with Nex using smoke, shadow, blood, and ice magic, before entering an empowered final state. In all phases, Nex makes use of all three combat styles; melee in all phases, and magic in every phase except the second one, where she uses ranged instead, alongside an array of special attacks or mechanics in each phase. In order for the fight to progress, Nex's hitpoints need to be reduced to a threshold, after which the mage who empowers her magic must be killed, which will then lead to the next phase.
+The fight consists of five distinct phases based on the [[Ancient Magicks]], with Nex using smoke, shadow, blood, and ice magic, before entering an empowered final state. Nex attacks with all three forms of combat, but is limited to two per phase; melee and magic for every phase other than shadow, which uses melee and ranged instead. Each phase makes use of different mechanics to keep challengers on their feet unless they wish to die a swift death.
+
+After Nex has lost 20% of her maximum health, the mage responsible for empowering Nex can be attacked and must be killed in order to progress to the next phase. In the final phase, Nex will use the [[Ruinous Powers]] - [[Soul Split]] and Deflect Melee, before using no curses and alternating her overhead after every four attacks made. Upon reaching 0 health, Nex will activate Wrath in a last-ditch attempt to take down her opponents, which can be easily avoided by running away.
 
 Like other God Wars Dungeon bosses, there is an altar to restore prayer in the back wall of the room with a cooldown of 10 minutes. Uniquely, if the player is wearing an eligible Zarosian item, the altar will also restore health, run and special attack energy.
 
@@ -134,7 +136,7 @@ If two players had 50% contribution then the boss would effectively have two 1/8
 {{DropsLine|name=Zaryte vambraces|quantity=1|rarity=1/172}}
 {{DropsTableBottom}}
 
-===Runes & ammunition===
+===Runes and ammunition===
 {{DropsTableHead|leagueRegion=Asgarnia}}
 {{DropsLine|name=Air rune|quantity=123-1365|rarity=Uncommon}}
 {{DropsLine|name=Fire rune|quantity=210-1655|rarity=Uncommon}}
@@ -144,7 +146,7 @@ If two players had 50% contribution then the boss would effectively have two 1/8
 {{DropsLine|name=Soul rune|quantity=86-227|rarity=Common}}
 {{DropsLine|name=Dragon bolts (unf)|quantity=12-90|rarity=Common}}
 {{DropsLine|name=Onyx bolts (e)|quantity=11-29|rarity=Uncommon}}
-{{DropsLine|name=Cannonball|quantity=42-298|rarity=Common}}
+{{DropsLine|name=Steel cannonball|quantity=42-298|rarity=Common}}
 {{DropsTableBottom}}
 
 ===Resources===
@@ -178,13 +180,16 @@ If two players had 50% contribution then the boss would effectively have two 1/8
 
 ===Tertiary===
 {{DropsTableHead|leagueRegion=Asgarnia}}
-{{DropsLine|name=Clue scroll (elite)|quantity=1|rarity=1/48|raritynotes={{CiteTwitter|author=Mod Ash|quote=1/48|url=https://twitter.com/JagexAsh/status/1557262831266971650|archiveurl=https://web.archive.org/web/20220810074617/https://twitter.com/JagexAsh/status/1557262831266971650|date=10 August 2022|archivedate=10 August 2022}}}}
+{{DropsLineClue|type=elite|rarity=1/48|raritynotes={{CiteTwitter|author=Mod Ash|quote=1/48|url=https://twitter.com/JagexAsh/status/1557262831266971650|archiveurl=https://web.archive.org/web/20220810074617/https://twitter.com/JagexAsh/status/1557262831266971650|date=10 August 2022|archivedate=10 August 2022}}}}
 {{DropsLine|name=Nexling|quantity=1|rarity=1/500|raritynotes={{CiteNews|url=https://secure.runescape.com/m=news/nex-drop-table-changes--monster-examine?oldschool=1|title=Nex Drop Table Changes & Monster Examine|newsdate=13 January 2022|quote=Nexling is based on 1/500, rolled independently from the Unique Table listed above.}}{{CiteTwitter|author=Mod Ash|url=https://twitter.com/JagexAsh/status/1549429722840535044|archiveurl=https://archive.ph/O7bRd|archivedate=15 September 2022|quote=No, multiple people can get the roll on each kill, with their individual chance affected by their contribution. Looks like it's roughly that, with a little bonus chance if you were the MvP.|date=19 July 2022}}}}
 {{DropsTableBottom}}
 
 ==Combat Achievements==
 {{Sync}}
 {{Combat Achievements list|Nex}}
+
+==Dialogue==
+{{Hastranscript|npc}}
 
 ==Historical==
 As a piece of content brought into ''Old School RuneScape'' via [[backporting]], Nex was originally released in ''RuneScape'' on 10 January, 2011. However, the Nex of ''Old School RuneScape'' has several differences which aim to address the issues with Nex's ''RuneScape'' counterpart and better adapt her for ''Old School RuneScape''.
@@ -285,11 +290,16 @@ After attempting to open the doors, a Strange Voice will speak in the chatbox, s
 * "''My revenge will be great...''"
 * "''You cannot imprison me forever...''"
 
-==Dialogue==
-{{Hastranscript|npc}}
-
 ==Changes==
 {{Subject changes header}}
+{{Subject changes
+|date = 25 June 2025
+|update = Summer Sweep Up: Combat
+|change = * Nex's immunity to attacks during phase transitions has been adjusted, now taking up to 170 extra damage before becoming immune.
+* Nex will now always perform three melee attacks in succession whenever she does so, rather than switch styles randomly when in melee distance.
+* Activating [[Protect from Magic]] after Nex uses her magic attack during the Zaros phase will now reduce damage by 25% rather than deal full damage.
+* [[Blood Reaver]]s summoned during the fight will now heal players for 50%{{Sic|News post incorrectly says 75%}} of the damage dealt towards them.
+}}
 {{Subject changes
 |date = 10 July 2024
 |update = While Guthix Sleeps
@@ -412,7 +422,7 @@ When wearing either a Gas mask, Facemask or Slayer helm, the duration of the cou
 
 ==Trivia==
 [[File:Nex login screen.png|thumb|right|The login screen upon the release of Nex.]]
-* "[[wiktionary:nex|Nex]]" translates to "murder" or "death" in Latin.
+* {{Lang|nex|murder|violent death|direct=yes}}
 * After Nex's release, the [[main menu]] was changed to an artistic depiction of the [[Frozen Door]]. The flames of the pillars depict the symbol of Zaros instead of runes. In addition, [[The Ancient Prison]] is played.
 * Upon release, players could not cast [[Monster Examine]] on Nex. If players attempted to do so, a message appeared in the game chat stating {{mes|You can't find out their stats.}} This was confirmed by [[Mod Kieren]] to be intentional in order to add an element of mystery to bosses on release,{{CiteReddit|author=Mod Kieren|url=https://www.reddit.com/r/2007scape/comments/rwkclb/nex_the_fifth_general_weekly_game_update_january/hrc9m42/|title=Nex: The Fifth General - Weekly Game Update (January 5th 2022)|quote=Just to confirm this [disabling Monster Examine for Nex] is intentional, we were discussing it only in last week about adding this mystery back. If popular it may be something we do with future bosses too.|date=17 December 2015|archiveurl=https://archive.ph/qQJv2|archivedate=5 January 2022}} and the spell was re-enabled in the game update two weeks later.
 

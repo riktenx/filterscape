@@ -1,4 +1,7 @@
 {
+  "Pre-roll": [
+    "Unsired"
+  ],
   "100%": [
     "Abyssal ashes"
   ],
@@ -18,7 +21,7 @@
     "Law rune",
     "Soul rune",
     "Cosmic rune",
-    "Cannonball"
+    "Steel cannonball"
   ],
   "Herbs": [
     "Grimy kwuarm",
@@ -28,14 +31,15 @@
   ],
   "Seeds": [],
   "Materials": [
-    "Coal",
     "Earth orb",
     "Pure essence",
     "Magic logs",
     "Uncut diamond",
+    "Coal",
     "Runite ore",
     "Onyx bolt tips",
-    "Runite bar"
+    "Runite bar",
+    "Aether catalyst"
   ],
   "Talismans": [],
   "Other": [
@@ -44,8 +48,7 @@
     "Super restore(4)",
     "Binding necklace",
     "Saradomin brew(3)",
-    "Jug of water",
-    "Unsired"
+    "Jug of water"
   ],
   "Rare drop table": [],
   "Tertiary": [

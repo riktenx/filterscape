@@ -90,7 +90,7 @@
 |id2 = 12223,12426
 |id3 = 12224,12228,12425
 |leagueRegion = Varlamore
-}}
+|elementalweaknesspercent=35|elementalweaknesstype=Fire}}
 Carnifex Maximus '''Vardorvis''' was a [[vampyre]] whose corpse is found in [[the Stranglewood]] Ritual Site, animated by [[the Strangler]] parasite. A high-ranking member of the [[Zarosian Empire]], Vardorvis succumbed to the Strangler and has remained under its control ever since, where the player encounters it during [[Desert Treasure II - The Fallen Empire]]. A stronger variant of him can be fought again after the completion of the quest.
 
 ==Location==
@@ -110,6 +110,8 @@ Carnifex Maximus '''Vardorvis''' was a [[vampyre]] whose corpse is found in [[th
 
 [[The Stranglewood]]'s Ritual Site is located north-west of the forest. The site can be accessed by climbing over [[rocks (Vardorvis)|rocks]] leading to it. After entering the Ritual Site once, a shortcut on the pathway north-west of the temple can be used to reach Vardorvis quicker.
 
+The fastest way to get to Vardorvis is the teleport to "The Stranglewood" on the [[ring of shadows]], once it has been unlocked with the [[strangled tablet]]. Other fast options include the {{Fairycode|bls}} [[fairy ring]] or the [[Xeric's talisman]] (with the Xeric's Honour teleport to [[Mount Quidamortem]] unlocked), which both give quick access to the [[Rowboat (Great Kourend)|rowboat]] that connects the [[Kebos Lowlands]] to The Stranglewood.
+
 An [[Ancient Tablet (Vardorvis)|ancient tablet]] by the rocks leading to the Ritual Site shows statistics related to Vardorvis.
 
 ==History==
@@ -124,19 +126,19 @@ On the sixth day of their pursuit, Vardorvis' venators successfully located the 
 
 The next day, the dwarves tracked the venators to their camp and launched a surprise attack{{CiteText|text=Tatty page|quote=They attacked! The dwarves must have tracked the venators, for they found our camp with ease. Most of our party is dead or injured...}}, [[Vardorvis' Head|beheading]] the Carnifex Maximus during the skirmish, as the parasite removed his immunity to non-silver/blisterwood weaponry.{{CiteText|text=Tatty page|quote=They took his head clean off! He's a vampyre! It shouldn't have been possible, but they did it all the same! The parasite must be to blame.}} The parasite proceeded to move Vardorvis' body, head and axes to the ritual site, which was observed by a legionary{{CiteText|text=Tatty page|quote=The parasite must be to blame. It's far more dangerous than we thought, and I fear others may be infected as well. Many have claimed to be feeling strangely unwell, and one of the legionaries even started having visions. Of all things, he thought he saw the Carnifex Maximus' body move!}}, and would remain there for thousands of years.
 
-During the [[Fifth Age]], an adventurer who sought his medallion eventually found Vardorvis in the Stranglewood and attacked him, believing that he had the medallion on him. Despite the plague making use of Vardorvis' numerous abilities, the adventurer put him down, but discovered that the medallion was not on him - rather, it had been taken by Sliske, who disguised himself as [[Kasonde]]. The parasite proceeded to reanimate Vardorvis when the adventurer left.
+During the [[Fifth Age]], an [[player character|adventurer]] who sought his medallion eventually found Vardorvis in the Stranglewood and attacked him, believing that he had the medallion on him. Despite the plague making use of Vardorvis' numerous abilities, the adventurer put him down, but discovered that the medallion was not on him - rather, it had been taken by Sliske, who disguised himself as [[Kasonde]]. The parasite proceeded to reanimate Vardorvis when the adventurer left.
 
 ==Fight overview==
 {{Main|Vardorvis/Strategies}}
-Vardorvis uses a standard melee attack, which is reduced by roughly ~75% when [[Protect from Melee]] is active; regardless, he will heal for 50% of the damage inflicted, rounded down. Unlike the other members of the Forgotten Four, who use their special attacks in a rather slow and predictable manner, Vardorvis uses them at random, which can make parts of the fight more hectic.
+Vardorvis uses a standard melee attack, which is reduced by roughly ~75% when [[Protect from Melee]] is active; regardless, he will heal for 50% of the damage inflicted, rounded down. Unlike the other members of the Forgotten Four, who use their special attacks in a rather slow and predictable manner, Vardorvis uses them at random. Some of these attacks are additionally extended the lower his health is, making the fight more hectic.
 
 [[File:Fighting Vardorvis.png|left|thumb|A player fighting Vardorvis.]]
-In addition, Vardorvis' Strength and Defence levels scales linearly with his remaining hitpoints; as his health falls, his Defence level is lowered while his Strength level is increased, increasing the potency of his auto-attacks though making him easier to hit.<ref>[https://imgur.com/a/ppJmNOl https://imgur.com/a/ppJmNOl]</ref> Vardorvis' mechanics are adjusted accordingly as his health lowers.
+In addition, Vardorvis' Strength and Defence levels scales linearly with his remaining hitpoints; as his health falls, his Defence level is lowered while his Strength level is increased, increasing the potency of his auto-attacks though making him easier to hit.<ref>The amount of defence reduction at any given amount of damage dealt can be calculated using<math>defence reduction = round(0.1021*damage dealt - 0.2075)</math> - [https://imgur.com/a/ppJmNOl source]</ref> Vardorvis' mechanics are adjusted accordingly as his health lowers.
 
 Vardorvis uses the following special attacks:
 * '''Swinging Axes''': The Strangler's vines will swing up to three axes within the arena. Getting hit with this attack will deal up to 35 damage, and incur a damage-over-time "bleed" effect in which the player takes 3 bleed damage 5 times (more than 5 times if the player moves while bleeding). The bleed will persist even through teleportation. Using [[Protect from Melee]] will reduce the axes' initial hit by 50%, but will not reduce damage from the bleed.
 * '''Strangle''': Vardorvis will strike his arm into the ground and entangle the player in tendrils. Several spores will appear at the centre of the game screen, and the player must destroy them all within five seconds, otherwise the tendrils will tighten and deal high damage.
-* '''Head Gaze''': The Strangler's vines will use [[Vardorvis' Head]] to launch a single green projectile. If this projectile is not blocked with [[Protect from Missiles]], it will disable overhead protection prayers and drain the player's prayer points by 10. The head's attack always attack off-tick with the body, but failing to protect against it will leave the player vulnerable to nearby axes and the body.
+* '''Head Gaze''': The Strangler's vines will use [[Vardorvis' Head]] to launch a single green projectile. If this projectile is not blocked with [[Protect from Missiles]], it will disable overhead protection prayers and drain the player's prayer points by 10. The head's attack will never be in sync with the body. It is important to block the projectile, as failing to do so can result in fatal damage from both the body and axes.
 * '''Darting Spikes''': Vardorvis will dart around the player, causing cracks to appear. Vines will then erupt from them, dealing up to 25 damage if caught in one and healing him for half the amount. Vardorvis can dart up to three times. A crack will always appear under the player on the first dart unless they are standing by the edges of the arena. Vardorvis will launch a singular spike at the player if he is somehow unable to attack them.
 
 Upon reaching 33% of his health, Vardorvis will enter an enrage phase, significantly increasing the frequency of his special attacks.
@@ -175,10 +177,10 @@ In addition, defeating the boss perfectly will earn 50% more loot from the stand
 |filename = Unique drop sound effect.ogg
 |desc = The sound that plays when receiving a unique drop.
 }}
-''There is a '''1/136''' chance of rolling the unique drop table per kill. After hitting the table, there is a 1/8 chance to get a piece of the [[Virtus robes]] (then a separate 1/3 roll to determine which piece), a 3/8 chance to increment the player's progress towards an [[Ultor vestige]] (which will drop on the third such roll), a 3/8 chance for a [[chromium ingot]], and 1/8 chance for the [[executioner's axe head]]. Below lists the effective drop rates.''
+''There is a '''1/136''' chance of rolling the unique drop table per kill. After hitting the table, there is a 1/8 chance to get a piece of the [[Virtus robes]] (then a separate 1/3 roll to determine which piece), a 3/8 chance to increment the player's progress towards an [[Ultor vestige]] (each roll will drop a gold ring until the final roll which guarantees the vestige), a 3/8 chance for a [[chromium ingot]], and 1/8 chance for the [[executioner's axe head]]. Below lists the effective drop rates.''
 
 {{DropsTableHead}}
-{{DropsLine|name=Ultor vestige|quantity=1|rarity=1/1088|raritynotes=<ref group=d>To receive the ultor vestige, the player must roll an invisible ~1/362.66 drop on the tradeable unique table. The first two rolls will cause a standard, non-unique drop to appear and increment a hidden variable; when the third such roll occurs, the vestige is dropped and the variable is reset.</ref>}}
+{{DropsLine|name=Ultor vestige|quantity=1|rarity=1/1088|raritynotes=<ref group=d>To receive the ultor vestige, the player must roll an invisible ~1/362.66 drop on the tradeable unique table. The first roll will cause a [[gold ring]] to appear and increment a hidden variable, while the second drops two gold rings; when the third such roll occurs, the vestige is dropped and the variable is reset.</ref>}}
 {{DropsLine|name=Chromium ingot|quantity=1|rarity=3/1088}}
 {{DropsLine|name=Executioner's axe head|quantity=1|rarity=1/1088}}
 {{DropsLine|name=Virtus mask|quantity=1|rarity=1/3264}}
@@ -220,8 +222,8 @@ In addition, defeating the boss perfectly will earn 50% more loot from the stand
 {{DropsLine|name=Uncut ruby|quantity=25,37 (noted)|rarity=5/100}}
 {{DropsLine|name=Uncut diamond|quantity=25,37 (noted)|rarity=5/100}}
 
-{{DropsLine|name=Rune javelin heads|quantity=36,54|rarity=8/100}}
-{{DropsLine|name=Dragon javelin heads|quantity=36,54|rarity=8/100}}
+{{DropsLine|name=Rune javelin tips|quantity=36,54|rarity=8/100}}
+{{DropsLine|name=Dragon javelin tips|quantity=36,54|rarity=8/100}}
 {{DropsLine|name=Dragon dart tip|quantity=100,150|rarity=2/100}}
 
 {{DropsLine|name=Raw shark|quantity=200,300 (noted)|rarity=1/100}}
@@ -245,10 +247,10 @@ In addition, defeating the boss perfectly will earn 50% more loot from the stand
 {{DropsTableHead}}
 {{DropsLine|name=Temple key (Desert Treasure II)|rarity=Always|quantity=1|raritynotes=<ref group=d>Only dropped by the quest variant.</ref>}}
 {{DropsLine|name=Brimstone key|quantity=1|rarity={{Brimstone rarity|784}}|raritynotes=<ref group="d">Brimstone keys are only dropped while on a [[Slayer task]] given by [[Konar quo Maten]].</ref>|gemw=No|leagueRegion=Varlamore&Kourend}}
-{{DropsLine|name=Clue scroll (easy)|quantity=1|rarity=1/160}}
-{{DropsLine|name=Clue scroll (medium)|quantity=1|rarity=1/160}}
-{{DropsLine|name=Clue scroll (hard)|quantity=1|rarity=1/160}}
-{{DropsLine|name=Clue scroll (elite)|quantity=1|rarity=1/160}}
+{{DropsLineClue|type=easy|rarity=1/160}}
+{{DropsLineClue|type=medium|rarity=1/160}}
+{{DropsLineClue|type=hard|rarity=1/160}}
+{{DropsLineClue|type=elite|rarity=1/160}}
 {{DropsLine|name=Ancient blood ornament kit|rarity=Always|quantity=1|gemw=no|raritynotes=<ref group=d>Only when defeated in the awakened encounter as the '''last''' of the four.</ref>}}
 {{DropsLine|name=Butch|quantity=1|rarity=1/3000|gemw=No}}
 {{DropsTableBottom}}
@@ -266,6 +268,11 @@ Vardorvis concept art (early).png|An early concept of Vardorvis, by Mod Jerv.
 
 ==Changes==
 {{Subject changes header}}
+{{Subject changes
+|date = 25 June 2025
+|update = Summer Sweep Up: Combat
+|change = Progress towards the ultor vestige is now indicated with a [[gold ring]] drop. For players who were in progress before this update, their next kill will guarantee one or two gold rings, indicating 1/3 and 2/3 vestige rolls respectively.
+}}
 {{Subject changes
 |date = 27 March 2024
 |update = Easter & Varlamore Updates
@@ -306,7 +313,7 @@ Vardorvis concept art (early).png|An early concept of Vardorvis, by Mod Jerv.
 {{Subject changes footer}}
 
 ==Trivia==
-* Carnifex Maximus is Latin and translates to "supreme butcher". In ancient roman society, a Carnifex was a professional torturer and executioner, often acting upon slaves and common criminals.
+* {{Lang|carnifex maximus|supreme butcher|name=Carnifex Maximus|link=no|multiple=yes|direct=yes}} In ancient roman society, a Carnifex was a professional torturer and executioner, often acting upon slaves and common criminals.
 * Vardorvis' title of Carnifex Maximus is similar to those that [[Zamorak]] and [[Azzanadra]] had when they both were in the service of Zaros as Legatus Maximus and Pontifex Maximus respectively.
 * Upon entering the arena, a [[Large Tendril]] can be seen picking up Vardorvis' axe from outside the central arena.
 * When asking a [[Slayer Master]] for [[Slayer task tips|tips]] on killing Vardorvis, they describe him as an undead vampyre. Despite this, Vardorvis is neither weak to [[Silver weaponry]], nor is he affected by [[Crumble Undead]] or the [[Salve amulet]].

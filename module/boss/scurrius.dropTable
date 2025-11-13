@@ -3,7 +3,7 @@
     "Big bones",
     "Raw rat meat"
   ],
-  "Equipment": [
+  "Weapons and armour": [
     "Adamant platebody",
     "Rune med helm",
     "Rune full helm",
@@ -18,7 +18,7 @@
     "Death rune",
     "Law rune"
   ],
-  "Food and potions": [
+  "Consumables": [
     "Trout",
     "Tuna",
     "Shark",
@@ -29,10 +29,9 @@
     "Prayer potion(4)"
   ],
   "Other": [
-    "Coins",
-    "Scurrius' spine"
+    "Coins"
   ],
-  "Tertiary drops": [
+  "Tertiary": [
     "Scurrius' spine",
     "Long bone",
     "Curved bone",

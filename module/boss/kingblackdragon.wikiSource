@@ -33,13 +33,13 @@
 |mbns = 0
 |arange = 0
 |rngbns = 0
-|dstab = 60
+|dstab = 40
 |dslash = 90
 |dcrush = 90
 |dmagic = 80
 |dlight = 70
 |dstandard = 70
-|dheavy = 50
+|dheavy = 40
 |elementalweaknesstype = Water
 |elementalweaknesspercent = 50
 |immunepoison = No
@@ -53,7 +53,7 @@
 [[File:King Black Dragon chathead.png|left]]
 The '''King Black Dragon''', commonly referred to as '''KBD''', is a three-headed dragon located in [[King Black Dragon Lair|his lair]], accessible only through the deep [[Wilderness]]. Although the lair itself is not in the Wilderness, KBD is still considered a Wilderness boss by designation, as players must enter the Wilderness to fight him. The King Black Dragon has a [[combat level]] of 276, which makes him one of the strongest [[Dragon (race)|dragons]] in ''[[Old School RuneScape]]''. Players should not take this foe lightly, and they should always take an [[anti-dragon shield]] as his [[dragonfire]] breath is very deadly without protection. The King Black Dragon can also be killed as an alternative for a [[black dragon]] [[Slayer task]], '''except''' when assigned by [[Krystilia]].
 
-Although he will always fight back when attacked, he has gotten bored over the centuries from adventurers attacking him, as he revealed to his good friend [[Bob the cat]].
+Although he will always fight back when attacked, he has gotten bored over the centuries from adventurers attacking him, as he revealed to his good friend [[Bob the cat]]. If you're going there for the first time, please note that KBD '''is aggressive and will aggro you''', dealing damage from a distance through even [[Super antifire potion|super antifire potions]], [[Dragonfire shield|dragonfire shields]], and [[protect from magic]].
 
 While the King Black Dragon's lair is entered from within the Wilderness, his lair itself is not part of the Wilderness, so players cannot attack each other in his lair. Completion of the [[Wilderness Diary]] also '''does not''' note his bone drops.
 
@@ -74,7 +74,7 @@ Players can pay {{NoCoins|50,000|c}} to open an [[instanced]] version of his lai
 }}
 {{LocTableBottom}}
 
-==Getting there==
+==Transportation==
 '''{{Colour|red|Warning}}:''' The entrance to the [[King Black Dragon Lair]] (aka '''KBD Lair''') is located in the [[Wilderness]]; '''watch out for player killers!'''
 [[File:KBD Routes.png|thumb|left|300px|The routes that lead up to the KBD lair.]]
 '''Note:''' After climbing down the ladder near the [[lesser demon]]s, players must pull a lever surrounded by [[poisonous spider]]s to access the lair.
@@ -89,7 +89,7 @@ Players can pay {{NoCoins|50,000|c}} to open an [[instanced]] version of his lai
 ==Fight overview==
 {{Main|King Black Dragon/Strategies}}
 [[File:Fighting the King Black Dragon.png|thumb|280px|A group of players take on the King Black Dragon.]]
-The King Black Dragon uses melee and [[dragonfire]], which is of a higher tier compared to those made by adult chromatic dragons. It makes use of four different breath attacks; normal dragonfire alongside three special dragonfire attacks; shock, ice and poison. While the special dragonfire deals less damage than its normal dragonfire, they require more tiers of protection to reduce its damage, and even with full protection, can still deal up to 10 damage onto the player. Without any protection, the normal dragonfire can deal up to 65 damage and special dragonfire 50.
+The King Black Dragon uses melee and [[dragonfire]], which is of a higher tier compared to those made by adult chromatic dragons. It makes use of four different breath attacks; normal dragonfire alongside three special dragonfire attacks; shock, ice, and poison. While the special dragonfire deals less damage than its normal dragonfire, they require more tiers of protection to reduce its damage, and even with full protection, can still deal up to 10 damage onto the player. Without any protection, the normal dragonfire can deal up to 65 damage and special dragonfire 50.
 
 The special dragonfire attacks have a chance of applying a second effect on the player when it hits them. Shock dragonfire reduces all of the player's stats by two, poison dragonfire can inflict [[poison]] starting at 8 if not protected against, and ice dragonfire freezes the player for 10 ticks (6.0 seconds). Even in melee distance, the King Black Dragon is more likely to use dragonfire attacks.
 
@@ -102,6 +102,10 @@ The special dragonfire attacks have a chance of applying a second effect on the 
 {{Average drop value}}
 
 {{Average drop value|brimstone=yes}}
+
+{{Average drop value|alch=yes}}
+
+{{Average drop value|brimstone=yes|alch=y}}
 
 ===100%===
 {{DropsTableHead}}
@@ -146,7 +150,7 @@ The special dragonfire attacks have a chance of applying a second effect on the 
 {{DropsLine|name=Amulet of power|quantity=1|rarity=7/128}}
 {{DropsLine|name=Dragon arrowtips|quantity=5-14|rarity=5/128}}
 {{DropsLine|name=Dragon dart tip|quantity=5-14|rarity=5/128}}
-{{DropsLine|name=Dragon javelin heads|quantity=15|rarity=5/128|raritynotes=<ref group=d>Dragon javelin heads are only dropped after completion of [[Monkey Madness II]].</ref>}}
+{{DropsLine|name=Dragon javelin tips|quantity=15|rarity=5/128|raritynotes=<ref group=d>Dragon javelin tips are only dropped after completion of [[Monkey Madness II]].</ref>}}
 {{DropsLine|name=Runite limbs|quantity=1|rarity=4/128}}
 {{DropsLine|name=Shark|quantity=4|rarity=4/128}}
 {{DropsTableBottom}}
@@ -157,7 +161,7 @@ The special dragonfire attacks have a chance of applying a second effect on the 
 
 ===Tertiary===
 {{DropsTableHead}}
-{{DropsLine|name=Key (elite)|quantity=1|rarity=Always|raritynotes=<ref group=d>The key is only dropped when completing an elite clue scroll asking you to kill the King Black Dragon.</ref>|gemw=No}}
+{{DropsLine|name=Key (elite)|quantity=1|rarity=Always|raritynotes=<ref group=d>The key is only dropped when completing an elite clue scroll asking you to kill the King Black Dragon. It will only be dropped if the player does not have a copy of the key in their bank or inventory, however the [[Drop trick]] can be used to obtain duplicates.</ref>|gemw=No}}
 {{DropsLine|name=Brimstone key|quantity=1|rarity={{Brimstone rarity|276}}|raritynotes=<ref group=d>Brimstone keys are only dropped while on a [[Slayer task]] given by [[Konar quo Maten]].</ref>|gemw=No|leagueRegion=Wilderness&Kourend}}
 {{DropsLine|name=Kbd heads|quantity=1|rarity=1/128|gemw=No}}
 {{DropsLineClue|type=elite|rarity=1/450}}
@@ -173,8 +177,18 @@ The special dragonfire attacks have a chance of applying a second effect on the 
 {{Sync}}
 {{Combat Achievements list|King Black Dragon}}
 
+==Dialogue==
+{{hastranscript|speaksin}}
+
 ==Changes==
 {{Subject changes header}}
+{{Subject changes
+|date = 25 June 2025
+|update = Summer Sweep Up: Combat
+|change = 
+* The King Black Dragon's heavy [[Ranged]] defence has been decreased from 50 to 40.
+* The King Black Dragon's [[stab]] defence has been decreased from 60 to 40.
+}}
 {{Subject changes
 |date = 29 May 2024
 |update = Project Rebalance: Combat Changes
@@ -244,8 +258,9 @@ The special dragonfire attacks have a chance of applying a second effect on the 
 *The NPC was renamed from 'King black dragon' to 'King Black Dragon'.
 }}
 {{Subject changes
-|daterange = 26 January –<br/>27 June 2005
-|change = The NPC's examine was changed from ''The biggest meanest dragon around'' to ''The biggest, meanest dragon around''.
+|date = 26 April 2005
+|update = Desert Month Finale
+|change = The NPC's examine was changed from "''The biggest meanest dragon around.''" to "''The biggest, meanest dragon around.''"
 }}
 {{Subject changes footer}}
 

@@ -39,8 +39,8 @@
     "Uncut diamond",
     "Bronze bar",
     "Dragon arrowtips",
-    "Rune javelin heads",
-    "Dragon javelin heads",
+    "Rune javelin tips",
+    "Dragon javelin tips",
     "Raw sea turtle"
   ],
   "Runes and ammunition": [
@@ -52,10 +52,6 @@
   "Tertiary": [
     "Odd key",
     "Brimstone key",
-    "Clue scroll (easy)",
-    "Clue scroll (medium)",
-    "Clue scroll (hard)",
-    "Clue scroll (elite)",
     "Baron",
     "Ancient blood ornament kit"
   ]

@@ -19,7 +19,7 @@
     "Adamant boots",
     "Dragon med helm"
   ],
-  "Supply Drop": [
+  "Supplies": [
     "Mushroom potato",
     "Saradomin brew(4)",
     "Magic potion(2)",
@@ -30,11 +30,16 @@
   "Resources": [
     "Gold ore",
     "Adamantite bar",
-    "Coal",
     "Gold bar",
     "Mithril bar",
+    "Coal",
     "Runite ore",
     "Runite bar"
+  ],
+  "Shark drop table": [
+    "Raw shark",
+    "Shark lure",
+    "Raw sea turtle"
   ],
   "Other": [
     "Coins",
@@ -45,7 +50,8 @@
     "Diamond bolt tips",
     "Dragonstone bolt tips",
     "Onyx bolt tips",
-    "Dragon arrowtips"
+    "Dragon arrowtips",
+    "Soul rune"
   ],
   "Tertiary": [
     "Brimstone key",

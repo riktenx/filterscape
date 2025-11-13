@@ -16,6 +16,7 @@
 |aggressive = Yes
 |poisonous = No
 |attack style = [[Ranged]], [[Ranged magic]], [[Magical melee]]
+|attributes = flying
 |attack speed = 3
 |slayxp = 357
 |cat = Aviansie, Bosses
@@ -75,7 +76,7 @@ Kree'arra can be seen yelling several battle cries in his chamber. However, unli
 {{Main|Kree'arra/Strategies}}
 Like other [[God Wars Dungeon]] [[bosses]], Kree'arra roams around a rectangular room with his bodyguards until a player enters, attacking them on sight. He attacks primarily with [[Ranged]], and his bodyguards use a different combat style each. However, if no one is targeting Kree'arra, he will fly up to players to use [[Melee]] attacks as well. If all players leave, his health and stats will be reset.
 
-Like other Armadylean followers in the God Wars Dungeon, he and his bodyguards cannot be attacked with Melee. This includes Magic-based [[special attacks]] from melee weapons, such as the [[Voidwaker]].
+Like other Armadylean followers in the God Wars Dungeon, he and his bodyguards cannot be attacked with Melee, except when using [[Halberd]]s or [[Salamander]]s. This includes Magic-based [[special attacks]] from melee weapons, such as the [[Voidwaker]].
 
 ===Bodyguards===
 *[[Flight Kilisa]] ([[Melee]])
@@ -146,16 +147,16 @@ Like other Armadylean followers in the God Wars Dungeon, he and his bodyguards c
 ![[High Level Alchemy|HA]] w/o uniques
 |-
 |{{No}}
-|{{Coins|floor({{Average drop value|mob=Kree'ara|raw=y}})}}
-|{{Coins|floor({{Average drop value|mob=Kree'ara|raw=y}} - {{#var:kreeUnique}} )}}
-|{{Coins|floor({{Average drop value|mob=Kree'ara|alch=yes|raw=y}})}}
-|{{Coins|floor({{Average drop value|mob=Kree'ara|alch=yes|raw=y}} - {{#var:kreeUniqueHA}} )}}
+|{{Coins|{{Average drop value|mob=Kree'arra|raw=y}}}}
+|{{Coins|{{Average drop value|mob=Kree'arra|raw=y}} - {{#var:kreeUnique}}}}
+|{{Coins|{{Average drop value|mob=Kree'arra|alch=yes|raw=y}}}}
+|{{Coins|{{Average drop value|mob=Kree'arra|alch=yes|raw=y}} - {{#var:kreeUniqueHA}}}}
 |-
 |{{Yes}}
-|{{Coins|floor({{Average drop value|mob=Kree'ara|raw=y}} + {{#var:kreeminionLoot}} )}}
-|{{Coins|floor({{Average drop value|mob=Kree'ara|raw=y}} + {{#var:kreeminionLoot}} - {{#var:kreeUnique}}  - {{#var:kreeminionUniques}})}}
-|{{Coins|floor({{Average drop value|mob=Kree'ara|alch=yes|raw=y}} + {{#var:kreeminionLootHA}} )}}
-|{{Coins|floor({{Average drop value|mob=Kree'ara|alch=yes|raw=y}} + {{#var:kreeminionLootHA}} - {{#var:kreeUniqueHA}} - {{#var:kreeminionUniquesHA}})}}
+|{{Coins|{{Average drop value|mob=Kree'arra|raw=y}} + {{#var:kreeminionLoot}}}}
+|{{Coins|{{Average drop value|mob=Kree'arra|raw=y}} + {{#var:kreeminionLoot}} - {{#var:kreeUnique}}  - {{#var:kreeminionUniques}}}}
+|{{Coins|{{Average drop value|mob=Kree'arra|alch=yes|raw=y}} + {{#var:kreeminionLootHA}}}}
+|{{Coins|{{Average drop value|mob=Kree'arra|alch=yes|raw=y}} + {{#var:kreeminionLootHA}} - {{#var:kreeUniqueHA}} - {{#var:kreeminionUniquesHA}}}}
 |}
 The uniques omitted are the [[Armadyl helmet]], [[Armadyl chestplate]], [[Armadyl chainskirt]],
 [[Armadyl hilt]], and all three shards of the [[Godsword blade]]. The minion kills will also exclude the uniques they drop in the values excluding Kree'ara's unique drops.
@@ -169,7 +170,7 @@ The uniques omitted are the [[Armadyl helmet]], [[Armadyl chestplate]], [[Armady
 {{Reflist|group=d}}
 
 ===Uniques===
-{{DropsTableHead}}
+The chance to get any unique is 7/508 (about 1/73). The chance to get any unique, excluding the Godsword shards, is 5/508 (about 1/102).{{DropsTableHead}}
 {{DropsLine|name=Armadyl helmet|quantity=1|rarity=1/381|raritynotes=<ref group="d" name="armourdrop">The drop rate is 1/381 for a specific Armadyl armour piece, or 1/127 for any piece.</ref>}}
 {{DropsLine|name=Armadyl chestplate|quantity=1|rarity=1/381|raritynotes=<ref group="d" name="armourdrop"/>}}
 {{DropsLine|name=Armadyl chainskirt|quantity=1|rarity=1/381|raritynotes=<ref group="d" name="armourdrop"/>}}
@@ -200,7 +201,7 @@ The uniques omitted are the [[Armadyl helmet]], [[Armadyl chestplate]], [[Armady
 {{DropsLine|name=Ranging potion(3)|quantity=3|rarity=8/127|raritynotes=<ref group="d" name="potiondrop">Ranging potions and super defence potions are dropped together.</ref>}}
 {{DropsLine|name=Super defence(3)|quantity=3|rarity=8/127|raritynotes=<ref group="d" name="potiondrop">Ranging potions and super defence potions are dropped together.</ref>}}
 {{DropsLine|name=Grimy dwarf weed|quantity=8-13 (noted)|rarity=8/127}}
-{{DropsLine|name=Dwarf weed seed|quantity=3|rarity=8/127}}
+{{DropsLine|name=Dwarf weed seed|quantity=2|rarity=8/127}}
 {{DropsLine|name=Coins|quantity=20500-21000|rarity=1.25/127|raritynotes=<ref group="d">Coins come from rolls on the unique tables, including the hilt table and the godsword shard table.</ref>|gemw=No}}
 {{DropsLine|name=Crystal key|quantity=1|rarity=1/127}}
 {{DropsLine|name=Yew seed|quantity=1|rarity=1/127}}
@@ -229,6 +230,13 @@ The uniques omitted are the [[Armadyl helmet]], [[Armadyl chestplate]], [[Armady
 
 ==Changes==
 {{Subject changes header}}
+{{Subject changes
+|date = 25 June 2025
+|update = Summer Sweep Up: Combat
+|change =
+* Kree'arra can now be attacked with [[halberd]]s.
+* The amount of [[dwarf weed seed]]s dropped was lowered from 3 to 2.
+}}
 {{Subject changes
 |date = 29 May 2024
 |update = Project Rebalance: Combat Changes
@@ -260,7 +268,7 @@ Kree'arra (Trading Card).png|The Kree'arra [[Steam Trading Cards|Steam Trading C
 
 ==Trivia==
 *Kree'arra had a festive override wearing a [[purple partyhat]] during the [[2016 Christmas event/Gallery|2016]] Christmas event.
-*Kree'arra is often referred to by his misnomer name Armadyl by players despite serving under Armadyl.
+*Kree'arra is often referred to as "Armadyl" by players, although this is a misnomer; Kree'arra is a general in [[Armadyl]]'s forces.
 
 ==References==
 {{Reflist}}
@@ -279,6 +287,7 @@ Kree'arra (Trading Card).png|The Kree'arra [[Steam Trading Cards|Steam Trading C
 |combat = 159
 |size = 2
 |examine = Graceful, bird-like creature.
+|attributes = flying
 |xpbonus = 0
 |max hit = 15
 |aggressive = Yes
@@ -386,12 +395,13 @@ The regular droptable contains 125 slots, however due to the unique tables the e
 
 ====Food and ammunition====
 {{DropsTableHead}}
-{{DropsLine|name=Steel arrow|quantity=91-101|rarity=7/127}}
-{{DropsLine|name=Steel dart|quantity=91-101|rarity=8/127}}
+{{DropsLine|name=Steel arrow|quantity=91-101|quantitynotes={{Refn|name=ammo|group=d|The quantities of arrows and darts dropped is equal to the number of feathers dropped + 90.}}|rarity=7/127}}
+{{DropsLine|name=Steel dart|quantity=91-101|quantitynotes={{Refn|name=ammo|group=d}}|rarity=8/127}}
 {{DropsLine|name=Smoke rune|quantity=10-15|rarity=8/127}}
 {{DropsLine|name=Manta ray|quantity=2|rarity=8/127|raritynotes={{CiteTwitter|author=Mod Ash|url=https://twitter.com/JagexAsh/status/1081114862212788224|date=4 January 2019|archiveurl=https://archive.is/WTjiK|archivedate=26 May 2020|quote=That'd be 8/125 of the fish option and 8/125 of the potato option, assuming you didn't get onto the unique / shard loot table.|name=food}}}}
 {{DropsLine|name=Mushroom potato|quantity=3|rarity=8/127|raritynotes={{NamedRef|food}}}}
 {{DropsTableBottom}}
+{{Reflist|group=d}}
 
 ====Other====
 {{DropsTableHead}}
@@ -432,6 +442,7 @@ The regular droptable contains 125 slots, however due to the unique tables the e
 |combat = 143
 |size = 2
 |examine = Graceful, bird-like creature.
+|attributes = flying
 |xpbonus = 2.5
 |max hit = 16
 |aggressive = Yes
@@ -534,12 +545,13 @@ There is a 1 in 127 chance to roll the shard table.
 The regular droptable contains 125 slots, however due to the unique tables the effective chance per item is slightly lowered.
 ====Food and ammunition====
 {{DropsTableHead}}
-{{DropsLine|name=Steel arrow|quantity=91-101|rarity=7/127}}
-{{DropsLine|name=Steel dart|quantity=91-101|rarity=8/127}}
+{{DropsLine|name=Steel arrow|quantity=91-101|quantitynotes={{Refn|name=ammo|group=d|The quantities of arrows and darts dropped is equal to the number of feathers dropped + 90.}}|rarity=7/127}}
+{{DropsLine|name=Steel dart|quantity=91-101|quantitynotes={{Refn|name=ammo|group=d}}|rarity=8/127}}
 {{DropsLine|name=Smoke rune|quantity=10-15|rarity=8/127}}
 {{DropsLine|name=Manta ray|quantity=2|rarity=8/127|raritynotes={{CiteTwitter|author=Mod Ash|url=https://twitter.com/JagexAsh/status/1081114862212788224|date=4 January 2019|archiveurl=https://archive.is/WTjiK|archivedate=26 May 2020|quote=That'd be 8/125 of the fish option and 8/125 of the potato option, assuming you didn't get onto the unique / shard loot table.|name=food}}}}
 {{DropsLine|name=Mushroom potato|quantity=3|rarity=8/127|raritynotes={{NamedRef|food}}}}
 {{DropsTableBottom}}
+{{Reflist|group=d}}
 
 ====Other====
 {{DropsTableHead}}
@@ -572,6 +584,7 @@ The regular droptable contains 125 slots, however due to the unique tables the e
 |combat = 149
 |size = 2
 |examine = Graceful, bird-like creature.
+|attributes = flying
 |xpbonus = 0
 |max hit = 25
 |aggressive = Yes
@@ -674,12 +687,13 @@ There is a 1 in 127 chance to roll the shard table.
 The regular droptable contains 125 slots, however due to the unique tables the effective chance per item is slightly lowered.
 ====Food and ammunition====
 {{DropsTableHead}}
-{{DropsLine|name=Steel arrow|quantity=91-101|rarity=7/127}}
-{{DropsLine|name=Steel dart|quantity=91-101|rarity=8/127}}
+{{DropsLine|name=Steel arrow|quantity=91-101|quantitynotes={{Refn|name=ammo|group=d|The quantities of arrows and darts dropped is equal to the number of feathers dropped + 90.}}|rarity=7/127}}
+{{DropsLine|name=Steel dart|quantity=91-101|quantitynotes={{Refn|name=ammo|group=d}}|rarity=8/127}}
 {{DropsLine|name=Smoke rune|quantity=10-15|rarity=8/127}}
 {{DropsLine|name=Manta ray|quantity=2|rarity=8/127|raritynotes={{CiteTwitter|author=Mod Ash|url=https://twitter.com/JagexAsh/status/1081114862212788224|date=4 January 2019|archiveurl=https://archive.is/WTjiK|archivedate=26 May 2020|quote=That'd be 8/125 of the fish option and 8/125 of the potato option, assuming you didn't get onto the unique / shard loot table.|name=food}}}}
 {{DropsLine|name=Mushroom potato|quantity=3|rarity=8/127|raritynotes={{NamedRef|food}}}}
 {{DropsTableBottom}}
+{{Reflist|group=d}}
 
 ====Other====
 {{DropsTableHead}}

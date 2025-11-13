@@ -36,6 +36,8 @@
 |dlight = 230
 |dstandard = 230
 |dheavy = 100
+|elementalweaknesstype = Earth
+|elementalweaknesspercent = 10
 |immunepoison = Yes
 |immunevenom = Yes
 |immunecannon = No
@@ -77,7 +79,7 @@ Players can pay 200,000 coins to open a group instance for their [[chat-channel]
 {{LocTableBottom}}
 The [[Corporeal Beast's Lair]] is located in level 21 [[Wilderness]], although players can teleport directly there using a [[games necklace]]. This will take the player to a small safe room with a large doorway to Corporeal Beast.
 
-[[Ironmen]] with a [[combat level]] of 90 or higher have a separated Corporeal Beast room. All other accounts use the normal room. This is to reduce [[griefing]] and ironmen using normal accounts to use stat-reducing [[special attack]]s.
+[[Ironmen]] with a [[combat level]] of 90 or higher have a separated Corporeal Beast room. All other accounts use the normal room. This is to reduce [[griefing]] as well as prevent ironmen from using normal accounts to use stat-reducing [[special attack]]s.
 
 ==Fight overview==
 {{Main|Corporeal Beast/Strategies}}
@@ -114,7 +116,7 @@ The average Corporeal Beast kill, including its unique drops, is estimated to be
     17 * {{GEP|Desert goat horn|120}} +
     17 * {{GEP|Cosmic rune|500}} +
     17 * {{GEP|Law rune|250}} +
-    17 * {{GEP|Cannonball|2000}} +
+    17 * {{GEP|Steel cannonball|2000}} +
     18 * {{GEP|Mystic robe bottom|1}} +
     17 * {{GEP|Adamantite ore|125}} +
     15 * {{GEP|Watermelon seed|24}} +
@@ -149,7 +151,7 @@ The average Corporeal Beast kill, including its unique drops, is estimated to be
     17 * {{GEP|Desert goat horn|120}} +
     17 * {{GEP|Cosmic rune|500}} +
     17 * {{GEP|Law rune|250}} +
-    17 * {{GEP|Cannonball|2000}} +
+    17 * {{GEP|Steel cannonball|2000}} +
     18 * {{GEP|Mystic robe bottom|1}} +
     17 * {{GEP|Adamantite ore|125}} +
     15 * {{GEP|Watermelon seed|24}} +
@@ -189,7 +191,7 @@ The average Corporeal Beast kill, including its unique drops, is estimated to be
 {{DropsLine|name=Runite bolts|quantity=250|rarity=24/512}}
 {{DropsLine|name=Death rune|quantity=300|rarity=22/512}}
 {{DropsLine|name=Onyx bolts (e)|quantity=175|rarity=20/512|raritynotes={{NamedRef|corprateash}}}}
-{{DropsLine|name=Cannonball|quantity=2000|rarity=17/512}}
+{{DropsLine|name=Steel cannonball|quantity=2000|rarity=17/512}}
 {{DropsLine|name=Adamant arrow|quantity=750|rarity=17/512}}
 {{DropsLine|name=Law rune|quantity=250|rarity=17/512}}
 {{DropsLine|name=Cosmic rune|quantity=500|rarity=17/512}}
@@ -246,6 +248,11 @@ The Corporeal Beast was originally released on 15 September 2008 in ''RuneScape'
 
 ==Changes==
 {{Subject changes header}}
+{{Subject changes
+|date = 25 June 2025
+|update = Summer Sweep Up: Combat
+|change = The Corporeal Beast now has a 10% elemental weakness to [[earth spells]].
+}}
 {{Subject changes
 |date = 29 May 2024
 |update = Project Rebalance: Combat Changes

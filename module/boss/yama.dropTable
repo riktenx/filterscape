@@ -1,4 +1,5 @@
 {
+  "Player death": [],
   "Contribution": [],
   "Unique": [
     "Soulflame horn",
@@ -7,8 +8,7 @@
     "Oathplate legs",
     "Dossier",
     "Forgotten lockbox",
-    "Oathplate shards",
-    "Yami"
+    "Oathplate shards"
   ],
   "Supplies": [
     "Pineapple pizza",
@@ -43,5 +43,30 @@
     "Diamond",
     "Onyx bolt tips"
   ],
-  "Junk": []
+  "Junk": [],
+  "Tertiary": [
+    "Yami"
+  ],
+  "Contract": [
+    "Aether catalyst",
+    "Diabolic worms",
+    "Oathplate shards",
+    "Oathplate helm",
+    "Oathplate chest",
+    "Oathplate legs",
+    "Soulflame horn",
+    "Contract of forfeit breath",
+    "Purifying sigil (top)",
+    "Contract of glyphic attenuation",
+    "Purifying sigil (bottom)",
+    "Contract of sensory clouding",
+    "Purifying sigil (left)",
+    "Contract of divine severance",
+    "Purifying sigil (right)",
+    "Contract of bloodied blows",
+    "Purifying sigil (middle)",
+    "Contract of familiar acquisition",
+    "Yami"
+  ],
+  "Concept art": []
 }

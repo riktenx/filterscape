@@ -60,7 +60,7 @@
 |id2 = 8619,8617
 |id3 = 8620,8618
 |id4 = 8621,8622
-}}
+|elementalweaknesspercent1=50|elementalweaknesspercent2=50|elementalweaknesspercent3=50|elementalweaknesspercent4=50|elementalweaknesstype1=Earth|elementalweaknesstype2=Earth|elementalweaknesstype3=Earth|elementalweaknesstype4=Earth}}
 [[File:Hydra icon.png|left]]
 The '''Alchemical Hydra''' is a [[boss]] version of [[hydra]], found in the lower level of the [[Karuulm Slayer Dungeon]] in [[Mount Karuulm]], requiring level 95 [[Slayer]] to kill. The Alchemical Hydra was the creation of a [[Dragonkin]] named [[Karuulm]]. While Karuulm saw promise in his creation, he nevertheless saw it as a failure because he could not replicate its traits, and abandoned it along with his other creations: the [[Wyrm]]s, [[Drake]]s, and [[Hydra]]s.
 
@@ -227,6 +227,11 @@ Alchemical Hydra (Trading Card).png|The Alchemical Hydra [[Steam Trading Cards|S
 ==Changes==
 {{Subject changes header}}
 {{Subject changes
+|date = 25 June 2025
+|update = Summer Sweep Up: Combat
+|change = Alchemical Hydra now has a 50% [[elemental weakness]] to [[earth spells]].
+}}
+{{Subject changes
 |date = 9 March 2022
 |update = PJ Timer & New Broadcast Settings
 |change = Certain [[Combat Achievement]] tasks now perform their checks correctly in the final phase of the Alchemical Hydra fight.
@@ -269,6 +274,7 @@ Alchemical Hydra (Trading Card).png|The Alchemical Hydra [[Steam Trading Cards|S
 ==Trivia==
 *Despite being visible in the overworld, the Alchemical Hydra is fought in an [[instance]].
 *The Alchemical Hydra has the highest Slayer requirement of all the slayer bosses, overtaking the [[thermonuclear smoke devil]].
+*The rocks right before the Hydras's chamber have examine texts that explains how Igneous Rocks are made.
 
 ==References==
 {{reflist}}

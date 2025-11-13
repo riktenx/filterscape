@@ -20,7 +20,7 @@
     "Sea turtle"
   ],
   "Resources": [
-    "Pure essence",
+    "Aether catalyst",
     "Iron ore",
     "Silver ore",
     "Coal",
@@ -32,7 +32,7 @@
     "Ruby",
     "Uncut ruby",
     "Uncut diamond",
-    "Dragon javelin heads",
+    "Dragon javelin tips",
     "Dragon bolts (unf)",
     "Onyx bolt tips",
     "Raw manta ray",
@@ -50,10 +50,6 @@
   ],
   "Tertiary": [
     "Brimstone key",
-    "Clue scroll (easy)",
-    "Clue scroll (medium)",
-    "Clue scroll (hard)",
-    "Clue scroll (elite)",
     "Lil'viathan",
     "Ancient blood ornament kit"
   ]

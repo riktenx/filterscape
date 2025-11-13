@@ -13,7 +13,7 @@
     "Torva platelegs (damaged)",
     "Zaryte vambraces"
   ],
-  "Runes & ammunition": [
+  "Runes and ammunition": [
     "Air rune",
     "Fire rune",
     "Blood rune",
@@ -22,7 +22,7 @@
     "Soul rune",
     "Dragon bolts (unf)",
     "Onyx bolts (e)",
-    "Cannonball"
+    "Steel cannonball"
   ],
   "Resources": [
     "Air orb",
@@ -46,7 +46,6 @@
     "Nihil shard"
   ],
   "Tertiary": [
-    "Clue scroll (elite)",
     "Nexling"
   ],
   "Pre-release teaser": []

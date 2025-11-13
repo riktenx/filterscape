@@ -66,7 +66,7 @@ Upon starting the fight, players are transported to a dream world, where the fig
 
 While The Nightmare can be fought in groups alongside other players, there is a stronger version called [[Phosani's Nightmare]] that can only be fought solo.
 
-[[Ironman_Mode|Ironmen]] are eligible for drops from The Nightmare when defeating it alongside other players. [[Group Ironman Mode|Group ironman players]] will lose their [[Group Ironman Mode#Prestige|prestige]] upon entering the encounter with a player outside of their group.
+[[Ironman_Mode|Ironmen]] are eligible for drops from The Nightmare when defeating it alongside other players. [[Group Ironman Mode|Group ironman players]] will lose their [[Group Ironman Mode#Prestige|prestige]] upon completing an encounter they started with a player outside of their group.
 
 ==History==
 The Nightmare's true origins are unknown, but according to a legend in [[Ashihama]], it was told that an ancient ritual was performed by several shamans, birthing an otherworldly horror that took on the appearance of a large, hag-like woman.{{CiteNPC|npc=Shura|quote=Before she claimed them, my parents would sometimes tell me a story of her origin. They told me of a group of shamans who performed an unknown ritual in the hope of gaining great power. The ritual went wrong, though, and instead, they unleashed the Nightmare on this world.}} For as long as the sirens of Ashihama can remember, The Nightmare has plagued them, their dreams stolen and feasted upon.{{CiteNPC|npc=Shura|quote=For generations, she terrorised the island of Ashihama, my home. I lost a lot of good friends to her. Sometimes, I even thought I would lose myself. For some, the nightmares become too much to bear.}} These shamans appeared to have attempted to fight off The Nightmare, eventually culminating in the creation of four totems that could channel power to stop her, but the shamans were wiped out before they could use them on her.{{CiteNPC|npc=Shura|quote=I found the totems deep within the caves. Someone far smarter than you or I had worked out how to make them. But they perished before they could use them against her.}}
@@ -75,7 +75,7 @@ The Nightmare resided in the caves underneath Ashihama, thus making the sirens w
 
 The Nightmare arrived at an opportune moment, with the town suffering from the sleeper plague as a result of vampyre machinations due to a critical shortage of blood for their growing society.{{CiteNPC|npc=Shura|quote=The people here are ill, suffering from a deep sleep from which few wake. They call it the Sleeper Plague. The illness made these people easy prey for the Nightmare, so she made this place her new home.}} The Nightmare began feasting from the victims of the plague and began growing more rapidly than she did on Ashihama.{{CiteNPC|npc=Shura|quote=Thanks to the Sleeper Plague, her power has grown faster than it ever did on Ashihama. If she is allowed to grow too strong, there won't be any way to stop her.}} Shura managed to contain her in the centre of the [[Sisterhood Sanctuary]] and sought adventurers to keep the Nightmare's powers in check.{{CiteNPC|npc=Shura|quote=I've managed to contain her within this section of the dungeon. She has no desire to leave for the moment. She has no need to, after all. But make no mistake, I won't be able to stop her if she decides to move on.}} Despite their efforts, the Nightmare eventually manifested into [[Phosani]]'s dreams,{{CiteNPC|npc=Shura|quote=The creature down there, the one that Siren calls the Nightmare. It has been invading Mother's mind, feeding on her.}}{{CiteNPC|npc=Shura|quote=The horror that has manifested itself in Mother's mind is far stronger than the one fought in the Nightmare's dream.}} though it would also be kept in check by [[Sister Senga]] and other adventurers.
 
-==Getting there==
+==Transportation==
 The quickest methods of reaching Slepe, where The Nightmare resides, are:
 *Teleporting to the [[Sisterhood Sanctuary]] via [[Drakan's medallion]] after the [[Slepey tablet]] has been acquired from [[Phosani's Nightmare]]
 *Teleporting to [[Ver Sinhaza]] via [[Drakan's medallion]], then running north. Once players pass the small dock, they can run east to arrive at Slepe. From there, the player can go down the stairs in the small building directly south of the graveyard, and then run east to arrive at the bridge to the [[Sisterhood Sanctuary]].
@@ -107,6 +107,8 @@ Unlike most boss fights, The Nightmare's health and combat stats scale to the nu
 The fight against the Nightmare consists of three phases, all three of which involve the player(s) breaking down its shield sufficiently before they can charge the four totems in the corners of the arena, unleashing a magical blast that deals massive damage to her. In each subsequent phase, the Nightmare will change its special attacks. Once the totems are charged a third time, the Nightmare will be defeated, ending the encounter.
 
 The Nightmare's melee attack ignores accuracy and always hits. In addition, players take 20% of her base damage if using [[Protect from Melee]], and 120% of her base damage if using the incorrect protection prayer. If the Nightmare has very low combat stats, her max hit will be at least a random number between 1-6, subject to the effects of prayer. The Nightmare's defence can be lowered down to a minimum of 120{{CiteTwitter|author=Mod Ash|url=https://twitter.com/JagexAsh/status/1269265821471322112|date=6 June 2020|archiveurl=https://archive.ph/KgpvC|archivedate=1 September 2023|quote=[do you know of the dragon war hammer spec lowers nightmares defence? if it does or doesnt can you explain on how it does or doesn't?] It's got a cap to stop her Defence being reduced below 120 by it. The only NPC I know of with complete immunity is Verzik, who gives a message to say this.}}, however she restores drained stats at a rate of 20 per minute.
+
+If the player dies while fighting the Nightmare, they will be placed by the [[Pool of Nightmares]] and must reclaim their items from [[Shura]]. This is a flat {{Coins|60000}} regardless of carried wealth.
 
 ==Money making==
 {{Mmgsection|Killing The Nightmare}}
@@ -148,7 +150,7 @@ The player who deals the most damage in the fight will receive big bones and 10%
 {{DropsLine|name=Death rune|quantity=7-176|rarity=4/100}}
 {{DropsLine|name=Blood rune|quantity=16-440|rarity=4/100}}
 {{DropsLine|name=Soul rune|quantity=8-132|rarity=4/100}}
-{{DropsLine|name=Cannonball|quantity=6-220|rarity=4/100}}
+{{DropsLine|name=Steel cannonball|quantity=6-220|rarity=4/100}}
 {{DropsLine|name=Rune arrow|quantity=31-547|rarity=3/100}}
 {{DropsTableBottom}}
 
@@ -199,6 +201,11 @@ The player who deals the most damage in the fight will receive big bones and 10%
 
 ==Changes==
 {{Subject changes header}}
+{{Subject changes
+|date = 20 August 2025
+|update = More Doom Tweaks, Poll 84, & Summer Sweep Up Changes
+|change = Players who die during the encounter will now respawn by the [[Pool of Nightmares]] rather than their spawn point.
+}}
 {{Subject changes
 |change = Improved Nightmare’s drop rates.
 |date = 29 May 2024
@@ -305,7 +312,7 @@ The Nightmare fight area preview 3.png|Another view of the dream world.
 ==Trivia==
 [[File:The Nightmare face teaser.gif|thumb|upright|A pre-release teaser in which a ghostly face of The Nightmare rises as the player dies.]]
 *The Nightmare's examine text is a reference to the song ''{{WP|Sweet Dreams (Are Made of This)}}'' by British pop duo {{WP|Eurythmics}}.
-*{{RSL|Ashihama}} is an island in {{RSL|The Pincers}} region in the [[Wushanko Isles]] (Eastern Lands) in ''RuneScape''. It is described as "''a heavily fortified island known for the refinement and ambition of its citizens''". "Ashihama" (<big>芦浜</big>) is also Japanese for a reed beach or shore.
+*[[Ashihama]] is an island in the [[Pincers]] region in the [[Wushanko Isles]] (Eastern Lands). It is described as "''a heavily fortified island known for the refinement and ambition of its citizens''". "Ashihama" (<big>芦浜</big>) is also Japanese for a reed beach or shore.
 *If a player spends too long in The Nightmare's dream without sufficient activity they will be removed from the fight. This will be accompanied by a chat message 'The Nightmare grows tired of your poor effort and removes you from her dream.'.
 *Prior to The Nightmare's release, two teasers were silently released in [[Update:Twisted League Reward Shop and Game Improvements|an update]] on [[16 January]] [[2020]]:
 **[[Sleepwalker]]s spawned in various locations, and made their way to the entrance of the [[Sisterhood Sanctuary]], where they would climb down (but actually despawn).

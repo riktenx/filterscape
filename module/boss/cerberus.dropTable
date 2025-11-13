@@ -25,7 +25,7 @@
     "Soul rune",
     "Pure essence",
     "Blood rune",
-    "Cannonball",
+    "Steel cannonball",
     "Runite bolts (unf)",
     "Death rune"
   ],
@@ -42,12 +42,15 @@
     "Grimy torstol",
     "Runite ore",
     "Uncut diamond",
-    "Key master teleport",
-    "Torstol seed"
+    "Torstol seed",
+    "Ranarr seed",
+    "Key master teleport"
   ],
   "Rare drop table": [],
   "Tertiary": [
     "Ensouled hellhound head",
+    "Clue scroll (elite)",
+    "Reward casket (elite)",
     "Brimstone key",
     "Jar of souls",
     "Hellpuppy"

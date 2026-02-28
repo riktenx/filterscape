@@ -1,0 +1,175 @@
+{{Otheruses|the standard boss|the harder variant|Demonic Brutus}}
+{{Instance}}
+{{HasStrategy}}
+{{Infobox Monster
+|name = Brutus
+|image = [[File:Brutus.png|280px]]
+|release = [[25 February]] [[2026]]
+|update = Cow Boss is Out Today!
+|members = No
+|combat = 30
+|size = 3
+|max hit = 3 (melee), 19 (special)
+|examine = Doesn't skip leg day.
+|respawn = 36 ticks (21.6s), or 13 ticks (7.8s) upon ringing [[cowbell amulet]]
+|attack speed = 5
+|attack style = [[Crush]]
+|slayxp = 116
+|cat = Cows
+|assignedby = turael,spria
+|hitpoints = 58
+|att = 12
+|str = 25
+|def = 10
+|mage = 8
+|range = 1
+|attbns = 0
+|strbns = 0
+|amagic = 0
+|mbns = 0
+|arange = 0
+|rngbns = 0
+|dstab = -7
+|dslash = -7
+|dcrush = -7
+|dmagic = -3
+|dlight = -7
+|dstandard = -7
+|dheavy = -7
+|aggressive = Yes
+|poisonous = No
+|xpbonus = +100.0
+|flatarmour = 0
+|elementalweaknesstype = Earth
+|elementalweaknesspercent = 25
+|immunepoison = No
+|immunevenom = No
+|immunecannon = Yes
+|immunethrall = 
+|immuneburn = No
+|id = 15626,15627
+|leagueRegion = Misthalin
+}}
+'''Brutus''' is a low-level [[free-to-play]] [[boss]] located in the [[Lumbridge cow field]], whom players defeat as part of the quest [[The Ides of Milk]], and can be fought after completion of the quest as a boss encounter. During the quest, he cannot kill the player with standard attacks (his charge and stomp attacks can still kill) and does not drop anything.
+
+Unlike [[Scurrius]], which requires some investment before fighting him, Brutus is designed to be accessible to low-level players almost immediately and teaches them a few aspects of bossing.
+
+Brutus is an excellent source for [[Clue scroll (beginner)|beginner clue scrolls]], especially for higher level players who can kill the boss quickly. He also drops [[Clue scroll (easy)|easy clue scrolls]] at a lower rate.
+
+Upon completion of [[Desert Treasure II - The Fallen Empire]], a stronger version of Brutus, known as [[Demonic Brutus]], can be fought by feeding him an [[abyssal potato]]; one potato permits only one attempt, but these are readily available from the [[Growth (The Scar)|growth]] found in [[the Scar]].
+
+==Location==
+{{LocTableHead|league=yes}}
+{{LocLine
+|name = Brutus
+|location = [[Lumbridge cow field]]
+|levels = 30
+|members = No
+|x:3263,y:3297
+|mtype = pin
+|leagueRegion = Misthalin
+}}
+{{LocTableBottom}}
+
+==Strategy==
+{{Main|Brutus/Strategies}}
+
+Aside from a basic melee attack that can be negated through the use of the [[Protect from Melee]] prayer, Brutus uses two special attacks, both of which give players a few [[ticks]] to move out of the way.
+
+Additionally, Brutus cannot be [[Flinching|flinched]], but he can be temporarily [[safespot]]ted on nearby scenery objects (such as plants or with the nearby warning sign or [[trough]]s). After a short while of being safespotted, Brutus can either charge towards the player through obstacles, or move around them to reach the player.
+
+==Drops==
+{{Listen
+|filename = Unique drop sound effect.ogg
+|title = Unique drop [[sound effect]]
+|desc = The sound that plays when receiving a unique drop.
+|align = right
+}}
+{{DropLogProject|kills=815419}}
+
+===100%===
+{{DropsTableHead}}
+{{DropsLine|name=Bull bones|quantity=1|rarity=Always|gemw=no}}
+{{DropsLine|name=Raw t-bone steak|quantity=1|rarity=Always}}
+{{DropsTableBottom}}
+
+===Uniques===
+''There is a 1 in 15 chance of rolling the unique drop table. The mooleta's rarity is the same on [[free-to-play]] worlds.''
+{{DropsTableHead}}
+{{DropsLine|name=Mooleta|quantity=1|rarity=5/150|gemw=no}}
+{{DropsLine|name=Bottomless milk bucket (empty)|quantity=1|rarity=4/150|namenotes={{(m)}}|gemw=no}}
+{{DropsLine|name=Cow slippers|quantity=1|rarity=1/150|namenotes={{(m)}}|gemw=yes}}
+{{DropsTableBottom}}
+
+===Armour===
+{{DropsTableHead}}
+{{DropsLine|name=Iron full helm|quantity=1|rarity=2/81}}
+{{DropsLine|name=Iron platebody|quantity=1|rarity=2/81}}
+{{DropsLine|name=Iron platelegs|quantity=1|rarity=1/81}}
+{{DropsLine|name=Iron plateskirt|quantity=1|rarity=1/81}}
+{{DropsTableBottom}}
+
+===Runes and ammunition===
+{{DropsTableHead}}
+{{DropsLine|name=Iron arrow|quantity=14|rarity=10/81}}
+{{DropsLine|name=Air rune|quantity=29|rarity=10/81}}
+{{DropsLine|name=Mind rune|quantity=18|rarity=8/81}}
+{{DropsLine|name=Chaos rune|quantity=12|rarity=2/81}}
+{{DropsTableBottom}}
+
+===Seeds===
+{{DropsTableHead}}
+{{DropsLine|name=Potato seed|quantity=3|rarity=10/81|namenotes={{(m)}}}}
+{{DropsLine|name=Acorn|quantity=2|rarity=5/81|namenotes={{(m)}}}}
+{{DropsTableBottom}}
+
+===Resources===
+{{DropsTableHead}}
+{{DropsLine|name=Raw t-bone steak|quantity=3 (noted)|rarity=10/81|namenotes={{(m)}}}}
+{{DropsLine|name=Cowhide|quantity=1|rarity=10/81}}
+{{DropsLine|name=Oak logs|quantity=2|rarity=5/81}}
+{{DropsLine|name=Logs|quantity=2|rarity=5/81}}
+{{DropsTableBottom}}
+
+===Other===
+''Seeds and noted steaks are replaced by coins on [[free-to-play]] worlds.''
+{{DropsTableHead}}
+{{DropsLine|name=Coins|quantity=60-80|rarity=15/81|namenotes={{(f)}}}}
+{{DropsLine|name=Coins|quantity=80-100|rarity=5/81|namenotes={{(f)}}}}
+{{DropsLine|name=Coins|quantity=100-120|rarity=5/81|namenotes={{(f)}}}}
+{{DropsTableBottom}}
+
+===Tertiary===
+{{DropsTableHead}}
+{{DropsLineClue|type=beginner|rarity=1/15}}
+{{DropsLineClue|type=easy|quantity=1|rarity=1/40|f2p=yes}}
+{{DropsLine|name=Beef|quantity=1|rarity=1/1000|gemw=no|namenotes={{(m)}}}}
+{{DropsTableBottom}}
+
+==Combat Achievements==
+{{Sync}}
+{{Combat Achievements list|Brutus}}
+
+==Dialogue==
+{{Hastranscript|npc}}
+
+==Gallery==
+<gallery mode="packed" heights="180" style="text-align:left">
+Brutus concept art.png|Concept of Brutus, by [[Mod Jerv]].
+Winter_Summit_2026_-_Overview_(7).png|Concept art of the boss's rewards, by [[Mod Skylark]].
+</gallery>
+
+==Trivia==
+*Brutus is the only free-to-play boss that has [[Combat Achievement]] tasks in the hard and elite tier.
+*The acorn drop is a reference to [[Mod Acorn]] who developed the boss alongside [[Mod Arcane]] during [[Game Jam VII]].
+*Like [[Cassius]] and the Ides of Milk quest, Brutus' name is a reference to the Assassination of Julius Caesar, specifically to Marcus Junius Brutus, one of the most prominent and well-known conspirators in the plot.
+*Using an item on Brutus prompts the message {{mes|Brutus doesn't want that.}} as opposed to the usual {{mes|Nothing interesting happens.}}
+*Using an empty bucket on Brutus prompts the message {{mes|You do not want to do that.}}
+*Killing Brutus or his demonic variant while the player is wearing [[Cow31337Killer]]'s outfit ([[rune boots]], [[rune platebody]], [[rune plateskirt]], [[Klank's gloves]], [[Dharok's helm]], and [[Dharok's greataxe]]) prompts the message {{mes|You are but an imitation of a true legend.}}
+*As of 27 February 2026, Brutus and his demonic variant had killed players a total of 153,350 times, of which 35 of those were hardcore ironmen. The reclaim cost from these deaths also totaled 44,200,000,000 coins.{{CiteTwitter|url=https://twitter.com/OldSchoolRS/status/2027111781286429109|date=26 February 2026|quote=Mess with the bull? You get the horns!<br />Brutus' easy & hard mode has killed players 153,550 times & 35 of those players were hardcore ironmen so far. This has cost players 44.2B 🥛|author=OldSchoolRS}}
+
+==References==
+{{reflist}}
+
+{{Brutus}}
+{{Bosses}}

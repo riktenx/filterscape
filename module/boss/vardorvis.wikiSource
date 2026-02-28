@@ -19,9 +19,9 @@
 |cat = Bosses
 |assignedby = konar,nieve,duradel
 |size = 2
-|max hit1 = 32-43 ([[Melee]]){{efn|name=def|Scales linearly with Vardorvis' remaining HP.}}
+|max hit1 = 32-43 ([[Melee]]){{efn|name=def|Scales linearly with Vardorvis' remaining HP.}}, 35 (axes)
 |max hit2 = 46-61 ([[Melee]]){{efn|name=def}}, 96 (axes)
-|max hit3 = 30-37 ([[Melee]]){{efn|name=def}}
+|max hit3 = 30-37 ([[Melee]]){{efn|name=def}}, ?? (axes)
 |aggressive = No
 |poisonous = No
 |attack style = [[Slash]]
@@ -133,7 +133,7 @@ During the [[Fifth Age]], an [[player character|adventurer]] who sought his meda
 Vardorvis uses a standard melee attack, which is reduced by roughly ~75% when [[Protect from Melee]] is active; regardless, he will heal for 50% of the damage inflicted, rounded down. Unlike the other members of the Forgotten Four, who use their special attacks in a rather slow and predictable manner, Vardorvis uses them at random. Some of these attacks are additionally extended the lower his health is, making the fight more hectic.
 
 [[File:Fighting Vardorvis.png|left|thumb|A player fighting Vardorvis.]]
-In addition, Vardorvis' Strength and Defence levels scales linearly with his remaining hitpoints; as his health falls, his Defence level is lowered while his Strength level is increased, increasing the potency of his auto-attacks though making him easier to hit.<ref>The amount of defence reduction at any given amount of damage dealt can be calculated using<math>defence reduction = round(0.1021*damage dealt - 0.2075)</math> - [https://imgur.com/a/ppJmNOl source]</ref> Vardorvis' mechanics are adjusted accordingly as his health lowers.
+In addition, Vardorvis' Strength and Defence levels scale linearly with his remaining hitpoints; as his health falls, his Defence level is lowered while his Strength level is increased, increasing the potency of his auto-attacks though making him easier to hit.<ref>The amount of defence reduction at any given amount of damage dealt can be calculated using<math>defence reduction = round(0.1021*damage dealt - 0.2075)</math> - [https://imgur.com/a/ppJmNOl source]</ref> Vardorvis' mechanics are adjusted accordingly as his health lowers.
 
 Vardorvis uses the following special attacks:
 * '''Swinging Axes''': The Strangler's vines will swing up to three axes within the arena. Getting hit with this attack will deal up to 35 damage, and incur a damage-over-time "bleed" effect in which the player takes 3 bleed damage 5 times (more than 5 times if the player moves while bleeding). The bleed will persist even through teleportation. Using [[Protect from Melee]] will reduce the axes' initial hit by 50%, but will not reduce damage from the bleed.
@@ -309,16 +309,19 @@ Vardorvis concept art (early).png|An early concept of Vardorvis, by Mod Jerv.
 * The combat level for the quest variant was increased from 553 to 572.
 * The drop rate for the tradeable unique drop table was increased from 1/180 to 1/136.
 * Vardorvis' hitbox was improved to prevent misclicks.
+* Vardorvis can no longer be received as a boss slayer task prior to completing Desert Treasure II.
+* Slayer tasks no longer apply to the Awakened version.
 }}
 {{Subject changes footer}}
 
 ==Trivia==
-* {{Lang|carnifex maximus|supreme butcher|name=Carnifex Maximus|link=no|multiple=yes|direct=yes}} In ancient roman society, a Carnifex was a professional torturer and executioner, often acting upon slaves and common criminals.
+* Carnifex Maximus is Latin and translates to "supreme butcher". In ancient roman society, a Carnifex was a professional torturer and executioner, often acting upon slaves and common criminals.
 * Vardorvis' title of Carnifex Maximus is similar to those that [[Zamorak]] and [[Azzanadra]] had when they both were in the service of Zaros as Legatus Maximus and Pontifex Maximus respectively.
 * Upon entering the arena, a [[Large Tendril]] can be seen picking up Vardorvis' axe from outside the central arena.
 * When asking a [[Slayer Master]] for [[Slayer task tips|tips]] on killing Vardorvis, they describe him as an undead vampyre. Despite this, Vardorvis is neither weak to [[Silver weaponry]], nor is he affected by [[Crumble Undead]] or the [[Salve amulet]].
 * Similarly to the [[Alchemical Hydra]], Vardorvis is visible in the overworld, but is fought in an instance. He is the only one of [[The Forgotten Four]] who can be seen outside of their instance.
 * Vardorvis was introduced to the lore with [[Update:Below Ice Mountain|Below Ice Mountain]], just over two years prior to his release as a boss.
+* [[Vardorvis' Head]] had a festive override wearing a [[red partyhat]] during the [[2025 Christmas event/Gallery|2025]] Christmas event.
 
 ==Notes==
 {{notelist}}

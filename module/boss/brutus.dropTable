@@ -1,0 +1,39 @@
+{
+  "100%": [
+    "Bull bones",
+    "Raw t-bone steak"
+  ],
+  "Uniques": [
+    "Mooleta",
+    "Bottomless milk bucket (empty)",
+    "Cow slippers"
+  ],
+  "Armour": [
+    "Iron full helm",
+    "Iron platebody",
+    "Iron platelegs",
+    "Iron plateskirt"
+  ],
+  "Runes and ammunition": [
+    "Iron arrow",
+    "Air rune",
+    "Mind rune",
+    "Chaos rune"
+  ],
+  "Seeds": [
+    "Potato seed",
+    "Acorn"
+  ],
+  "Resources": [
+    "Raw t-bone steak",
+    "Cowhide",
+    "Oak logs",
+    "Logs"
+  ],
+  "Other": [
+    "Coins"
+  ],
+  "Tertiary": [
+    "Beef"
+  ]
+}

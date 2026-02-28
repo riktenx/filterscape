@@ -46,7 +46,9 @@
 }}
 '''Sarachnis''', the mother of the [[temple spider]]s, is a mid-level boss found in the [[Forthos Dungeon]], in a former burial tomb south of the Spider Den. She can be killed as part of a [[spider]] [[Slayer task]].
 
-She is primarily killed for the [[Sarachnis cudgel]], a non-degradeable crush weapon. Other drops include the [[giant egg sac]], which is one of the few consistent sources of non-Wilderness [[red spiders' egg]]s and improved drop rates of Forthos Dungeon-unique items. Most notably, Sarachnis has a very high drop rate of [[clue scroll (elite)|elite clue scroll]]s for the relative time it takes to defeat her compared to other content.
+She is primarily killed for the [[Sarachnis cudgel]], a non-degradeable crush weapon and the [[pristine spider silk]], used to upgrade the [[herb sack]] into the [[Silklined herb sack]], which stores even more herbs. Other drops include the [[giant egg sac]], which is one of the few consistent sources of non-Wilderness [[red spiders' egg]]s and improved drop rates of Forthos Dungeon-unique items. Most notably, Sarachnis has a very high drop rate of [[clue scroll (elite)|elite clue scroll]]s for the relative time it takes to defeat her compared to other content.
+
+The player has the option of fighting her in the normal room or in an instance. An instance costs 25,000 coins, or 12,500 after claiming the rewards from the hard tier of [[Combat Achievements]].
 
 ==Location==
 {{LocTableHead|league=yes}}
@@ -74,7 +76,7 @@ When fighting Sarachnis with two or more players, she will only target one playe
 
 At 66% and 33% health, Sarachnis will summon two [[Spawn of Sarachnis|Spawns of Sarachnis]], an orange melee user on the west side of the room, and a blue magic user on the east side of the room. It is recommended to tank the hits from the melee spawn, and kill the magic spawn when it appears. While doing this, the player should pray ranged as Sarachnis' ranged attacks are more dangerous than the spawns.
 
-Upon Sarachnis' death, all her [[Spawn_of_Sarachnis|spawns]] will die as well. Sarachnis will then [[respawn]] in 10 seconds.
+Upon Sarachnis' death, all her [[Spawn_of_Sarachnis|spawns]] will die as well. Sarachnis will then [[respawn]] in 10 seconds. The [[respawn]] timer in a private instance doubles to about 20 seconds.
 
 ==Money making==
 {{Mmgsection|Killing Sarachnis}}
@@ -114,10 +116,10 @@ Upon Sarachnis' death, all her [[Spawn_of_Sarachnis|spawns]] will die as well. S
 ===Seeds===
 {{RareSeedDropTableInfo|2/100}} ''Maple, yew, and papaya tree seeds may also be dropped.''
 {{DropsTableHead}}
-{{RareSeedDropLines|2/100|3}}
 {{DropsLine|name=Maple seed|quantity=2|rarity=1/100}}
 {{DropsLine|name=Papaya tree seed|quantity=2|rarity=1/100}}
 {{DropsLine|name=Yew seed|quantity=1|rarity=1/100}}
+{{RareSeedDropLines|2/100|3}}
 {{DropsTableBottom}}
 
 ===Herbs===
@@ -168,6 +170,7 @@ Upon Sarachnis' death, all her [[Spawn_of_Sarachnis|spawns]] will die as well. S
 {{DropsLine|name=Grubby key|quantity=1|rarity=1/15|raritynotes={{NamedRef|Forthos Dungeon Droprates}}}}
 {{DropsLineClue|type=hard|rarity=1/40|raritynotes={{CiteTwitter|author=Mod Husky|url=https://twitter.com/JagexHusky/status/1156849996987359233|date=1 August 2019|archiveurl=https://archive.fo/GyAi5|archivedate=1 August 2019|quote=Clue drops from Forthos are as follows:|name=Forthos Dungeon clue scroll Droprates}}}}
 {{DropsLine|name=Brimstone key|quantity=1|rarity={{Brimstone rarity|318}}|raritynotes=<ref group=d>Brimstone keys are only dropped while on a [[Slayer task]] given by [[Konar quo Maten]].</ref>|gemw=No}}
+{{DropsLine|name=Pristine spider silk|quantity=1|rarity=1/50|gemw=no}}
 {{DropsLineClue|type=elite|rarity=1/60|raritynotes={{NamedRef|Forthos Dungeon clue scroll Droprates}}}}
 {{DropsLine|name=Jar of eyes|quantity=1|rarity=1/2000|raritynotes={{NamedRef|Forthos Dungeon Droprates}}}}
 {{DropsLine|name=Sraracha|quantity=1|rarity=1/3000|raritynotes={{NamedRef|Forthos Dungeon Droprates}}|gemw=No}}
@@ -180,6 +183,14 @@ Upon Sarachnis' death, all her [[Spawn_of_Sarachnis|spawns]] will die as well. S
 
 ==Changes==
 {{Subject changes header}}
+{{Subject changes
+|date = 25 February 2026
+|update = Cow Boss is Out Today!
+|poll = Getting Around Poll
+|change =
+* Private instances of Sarachnis can now be created.
+* Sarachnis now has a chance at dropping [[pristine spider silk]].
+}}
 {{Subject changes
 |date = 26 March 2020
 |update = Game Improvements (26 March 2020)

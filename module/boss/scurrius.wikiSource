@@ -54,12 +54,12 @@
 |id1 = 7222
 |id2 = 7221
 |dropversion = MVP,non-MVP
-|immunecannon=Yes
+|immunecannon = Yes
 |leagueRegion = Misthalin
 }}
 '''Scurrius, the Rat King''' is a [[boss]] residing in the [[Varrock Sewers]]. As a mid-level boss meant for players with a combat level of 60-90, Scurrius is meant to introduce various mechanics that are present in higher-level play, such as switching [[protection prayers]] quickly during combat as well as dodging attacks and managing multiple monsters mid-fight.
 
-Scurrius can be fought in either the public room or in an [[instance]]. It has two distinct stats if the player is fighting it in the public or an instanced room; the public variant of Scurrius is slightly stronger than the instanced version. [[Ironmen]] can participate with other accounts and will receive killcount, although they will not receive any drops except medium clues if they can manage to attain MVP. [[Group Ironman Mode|Group Ironmen]] have access to a shared instance allowing them to fight Scurrius together.
+Scurrius can be fought in either the public room or in an [[instance]]. It has two distinct stats if the player is fighting it in the public or an instanced room; the public variant of Scurrius is stronger than the instanced version, and has many more [[Hitpoints]]. [[Ironmen]] can participate with other accounts and will receive killcount, although they will not receive any drops except medium clues if they can manage to attain MVP. [[Group Ironman Mode|Group Ironmen]] have access to a shared instance allowing them to fight Scurrius together.
 
 Scurrius rewards a substantially greater amount of combat experience than normal, especially with [[rat bone weapons]], giving competitive amounts of experience compared to [[Nightmare Zone]] and [[sand crab]]s, though high-levelled players will still be better off training combat through existing methods. 
 
@@ -98,15 +98,8 @@ Scurrius has three attacks: his melee attack with his tail, magic attack with bl
 {{DropLogProject|kills=896502}}
 
 {{Average drop value|mob=Scurrius#MVP|mobname=Scurrius}}
-{| class="wikitable"
-! colspan="2" |Average drop value
-|-
-![[Grand Exchange|GE]]
-|{{Coins|{{Average drop value|mob=Scurrius#MVP|raw=y}}}}
-|-
-![[High Level Alchemy|HA]]
-|{{Coins|{{Average drop value|mob=Scurrius#MVP|alch=yes|raw=y}}}}
-|}
+
+{{Average drop value|mob=Scurrius#MVP|mobname=Scurrius|alch=yes}}
 
 ===100%===
 {{DropsTableHead|dropversion=MVP}}
@@ -153,7 +146,7 @@ Scurrius has three attacks: his melee attack with his tail, magic attack with bl
 ===Tertiary===
 {{DropsTableHead|dropversion=MVP}}
 {{DropsLineClue|type=medium|rarity=1/25|raritynotes={{CiteReddit|author=Mod Goblin|url=https://www.reddit.com/r/2007scape/comments/1aff5sw/comment/ko9l4th/|title=Scurrius & DT2 Combat Achievements|quote=Scurrius now drops Medium Clues at a rate of 1/25.|date=31 January 2024|archiveurl=https://archive.is/nD1px|archivedate=31 January 2024}}}}
-{{DropsLine|name=Scurrius' spine|quantity=1|rarity=1/33|gemw=no}}
+{{DropsLine|name=Scurrius' spine|quantity=1|rarity=1/33|raritynotes=<ref group=d>Only one player may receive a spine per kill.</ref>|gemw=no}}
 {{DropsLine|name=Long bone|quantity=1|rarity=1/400|gemw=No}}
 {{DropsLine|name=Curved bone|quantity=1|rarity=1/5012.5|gemw=No}}
 {{DropsLine|name=Scurry|quantity=1|rarity=1/3000|raritynotes={{refn|group=d|The player that does the most damage will receive a roll for the pet.{{CiteTwitter|author=Mod Ash|url=https://twitter.com/JagexAsh/status/1750238589638615289|date=24 January 2024|archiveurl=https://archive.is/tSnhY|archivedate=24 January 2024|quote=[does scurrius have a pet drop mechanic like wildy bosses, or does it roll normally when done in masses?] I believe this one's rolled only for the MVP, if I'm reading my colleagues' code correctly.}}}}|gemw=no}}
@@ -163,6 +156,8 @@ Scurrius has three attacks: his melee attack with his tail, magic attack with bl
 ''Players will only roll this table if they are participating in a group kill and did not deal the most damage to Scurrius.''
 
 {{Average drop value|mob=Scurrius#non-MVP|mobname=non-MVP Scurrius}}
+
+{{Average drop value|mob=Scurrius#non-MVP|mobname=non-MVP Scurrius|alch=yes}}
 
 ===100%===
 {{DropsTableHead|dropversion=non-MVP}}
@@ -191,7 +186,7 @@ Scurrius has three attacks: his melee attack with his tail, magic attack with bl
 
 === Tertiary ===
 {{DropsTableHead|dropversion=non-MVP}}
-{{DropsLine|name=Scurrius' spine|quantity=1|rarity=1/33|gemw=no}}
+{{DropsLine|name=Scurrius' spine|quantity=1|rarity=1/33|raritynotes=<ref group=d>Only one player may receive a spine per kill.</ref>|gemw=no}}
 {{DropsTableBottom}}
 {{Reflist|group=d}}
 
@@ -238,7 +233,7 @@ Scurrius marketing.jpg|The marketing image used to announce the release of Scurr
 {{Subject changes footer}}
 
 ==Trivia ==
-* A {{WP|rat king}} is a collection of rats whose tails are intertwined and bound together in some way.
+* A {{WP|rat king}} is a collection of rats whose tails are intertwined and bound together in some way. Much like a real life rat king, the tails of the mage head and range head seem to be intertwined with the main tail as well.
 *The examine text refers to the myth that rats are always present in urban areas, even if the person doesn't see them.
 * Scurrius was originally conceived as a concept from the [[April 2023 Game Jam#The_Rat_King_(Free-to-play_mechanics-based_boss)|April 2023 Game Jam]].
 * Unlike most large monsters, Scurrius drops its loot on the centre of the 3x3 tiles it occupies, rather than its south-westernmost tile. [[Long bone]]s,  [[curved bone]]s, and [[Clue scroll (medium)|medium clues]] are dropped on the south-westernmost tile, however.

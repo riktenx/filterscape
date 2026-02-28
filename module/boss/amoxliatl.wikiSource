@@ -147,7 +147,7 @@ Amoxliatl uses three different attacks throughout the fight. Her standard attack
 {{DropsTableHead}}
 {{DropsLine|name=Clue scroll (elite)|quantity=1|rarity=Always|raritynotes=<ref name='elite' group="d">Guaranteed elite clue scroll and reward casket drops only occur when completing an elite clue scroll asking you to kill a frost nagua.</ref>|gemw=No|bucket=No}}
 {{DropsLine|name=Reward casket (elite)|quantity=1|rarity=Always|raritynotes=<ref name='elite' group="d" />|gemw=No|bucket=No}}
-{{DropsLine|name=Pendant of ates (inert)|quantity=1|rarity=1/25|gemw=no}}
+{{DropsLine|name=Pendant of ates (inert)|bucketname=Pendant of ates#Inert|quantity=1|rarity=1/25|gemw=no}}
 {{DropsLine|name=Glacial temotli|quantity=1|rarity=1/100}}
 {{DropsLine|name=Tooth half of key (moon key)|quantity=1|rarity=1/125|gemw=no}}
 {{DropsLineClue|type=elite|quantity=1|rarity=1/200}}

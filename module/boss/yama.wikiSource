@@ -83,13 +83,12 @@
 |dropversion = Contract, Junk
 }}
 }}
-
 [[File:Yama chathead.png|left]]
-'''Yama, the Master of Pacts''' is a powerful demonic duo-focused [[boss]] who dwells in the depths of the [[Chasm of Fire]]. 
+'''Yama, the Master of Pacts'''{{CiteNews|url=https://secure.runescape.com/m=news/more-poll-84--yama-prep?oldschool=1|title=More Poll 84 & Yama Prep|newsdate=7 May 2025|quote=Make sure that you are prepared, because one week today, you'll be able to face the Master of Pacts!|notes=Yama is not referred to with the title "Master of Pacts" in-game, only in newsposts such as this one.}} is a powerful demonic duo-focused [[boss]] who dwells in [[Yama's Domain]] found in the depths of the [[Chasm of Fire]].
 
-In order to access Yama, the player must have completed [[A Kingdom Divided]], then return to the Chasm of Fire after the quest and head to his lair after speaking to the [[Voice of Yama]] (who is on the bottom floor of the chasm). After speaking to him, Yama will offer a contract that allows the player to fight an inhibited form as "revenge", granting the player the ability to challenge him.
+In order to access Yama, the player must have completed [[A Kingdom Divided]], then return to the Chasm of Fire after the quest and head to his domain after speaking to the [[Voice of Yama]] (who is on the bottom floor of the chasm). After speaking to him, Yama will offer a contract that allows the player to fight an inhibited form as "revenge", granting the player the ability to challenge him.
 
-The base fight places emphasis on movements and prayer switching, and is stated by the developers to be a step up from the post-[[Desert Treasure II]] fights of [[the Forgotten Four]]. The boss also has tradeable contracts to fight him in a stronger form. These contracts can either allow the player to fight him alone or in some cases, with another player.
+The base fight places emphasis on movements and prayer switching, and was intended by the developers to be a step up from the post-[[Desert Treasure II]] fights of [[the Forgotten Four]]{{CiteNews|url=https://secure.runescape.com/m=news/a=97/yama---master-of-pacts?oldschool=1|title=Yama - Master of Pacts|newsdate=17 March 2025|quote=While difficulty comparisons are always a struggle, the baseline experience will be a step beyond the Desert Treasure II bosses}}. The boss also has tradeable contracts to fight him in a stronger form. These contracts can either allow the player to fight him alone or in some cases, with another player.
 
 Yama is similar to the [[Royal Titans]] in that he can be fought alongside a partner in his base form. Several mechanics are easier to handle in a pair, and loot is distributed accordingly based on the player's damage dealt in the fight.
 
@@ -131,10 +130,10 @@ The quickest methods of reaching the Chasm of Fire, where Yama resides, are:
 * History and hearsay teleport on [[Kharedst's memoirs]]/[[book of the dead]], then run north
 
 ==Contract variants==
-{{Section|Yama/Strategies|Contracts}}
+{{See also|Yama/Strategies#Contracts}}
 The fight with Yama can be varied through various contracts, which change his combat stats and add additional mechanics. 
 
-Uniquely, stat draining effects which reference Yama's maximum stats only consider his normal form. For example, the [[Accursed sceptre]] special attack can drain stats twice.
+Uniquely, stat draining effects which reference Yama's maximum stats only consider his normal form. For example, the [[accursed sceptre]] special attack can drain stats twice.
 
 {|class=wikitable style="text-align:center;"
 ! colspan="7" |Combat stats
@@ -685,6 +684,11 @@ Yama boss environment paintover.png|Paintover of the boss' environment - also sh
 ==Changes==
 {{Subject changes header}}
 {{Subject changes
+|date = 14 January 2026
+|update = New Player Improvements Round 2
+|change = Attacking Yama with the [[Eye of Ayak]] no longer causes the player to turn invisible.
+}}
+{{Subject changes
 |date = 9 July 2025
 |update = The New Renderer Beta is Out Today!
 |change = The drop rate for [[Clue scroll (elite)|elite clue scrolls]] has increased from 1/66 to 1/30.
@@ -787,6 +791,7 @@ Yama boss environment paintover.png|Paintover of the boss' environment - also sh
 * All of Yama's contracts have the word "CONTRNCT"{{sic}} written on the item in Morse Code.
 ** The second N (-.) is likely meant to be an A (.-), though the order of the dots and dashes is reversed.
 * Yama utilises two different [[sound effects]] when a unique drop is awarded. If the player rolls a [[dossier]], [[forgotten lockbox]] or [[oathplate shards]], the sound effect used is the same as obtaining uniques from other bosses, such as [[Araxxor]]. If the player rolls a [[soulflame horn]] or [[oathplate armour]] piece, a deeper-sounding variant of this effect is used instead.
+* Yama had a festive override wearing a [[santa hat]] during the [[2025 Christmas event/Gallery|2025]] Christmas event.
 
 ==Notes==
 {{notelist}}

@@ -45,7 +45,7 @@
 }}
 '''Nex''' is one of [[Zaros]]' most powerful followers. She is imprisoned in the [[God Wars Dungeon#Ancient Prison|Ancient Prison]], sealed away beneath the [[God Wars Dungeon]]. An immensely powerful entity and one of Zaros's most powerful weapons of war, Nex is a [[Nihil (race)|nihil]] from [[Freneskae]] and possesses physical traits of the [[icyene]], [[demon]]s, [[aviansie (race)|aviansie]] and [[vampyres]].
 
-Nex's Ancient Prison is locked behind the [[frozen door]] in the southern part of the [[God Wars Dungeon]], and can only be opened by assembling the [[Frozen key (The Frozen Door)|frozen key]], whose pieces are dropped during [[The Frozen Door]] [[miniquest]], by the generals and bodyguards of each of the warring factions in the dungeon: [[General Graardor]], [[K'ril Tsutsaroth]], [[Commander Zilyana]], and [[Kree'arra]]. This in turn requires a base level of 70 [[Hitpoints]], [[Ranged]], [[Strength]], and [[Agility]] in order to reach Nex, none of which can be boosted. Up to 60 players can fight Nex per encounter.
+Nex's Ancient Prison is locked behind the [[frozen door]] in the southern part of the [[God Wars Dungeon]], and can only be opened by assembling the [[Frozen key (The Frozen Door)|frozen key]], whose pieces are dropped during [[The Frozen Door]] [[miniquest]], by the generals and bodyguards of each of the warring factions in the dungeon: [[General Graardor]], [[K'ril Tsutsaroth]], [[Commander Zilyana]], and [[Kree'arra]]. This in turn requires a base level of 70 [[Hitpoints]], [[Ranged]], [[Strength]], and [[Agility]] in order to reach Nex, none of which can be boosted aside from the Hitpoints requirement. Up to 60 players can fight Nex per encounter.
 
 She is known for her assortment of Zarosian-affiliated drops, such as [[torva armour]], [[zaryte vambraces]], the [[ancient hilt]] and the [[nihil horn]], which is used to create a [[zaryte crossbow]].
 
@@ -138,33 +138,33 @@ If two players had 50% contribution then the boss would effectively have two 1/8
 
 ===Runes and ammunition===
 {{DropsTableHead|leagueRegion=Asgarnia}}
-{{DropsLine|name=Air rune|quantity=123-1365|rarity=Uncommon}}
-{{DropsLine|name=Fire rune|quantity=210-1655|rarity=Uncommon}}
-{{DropsLine|name=Blood rune|quantity=84-325|rarity=Common}}
-{{DropsLine|name=Death rune|quantity=85-170|rarity=Common}}
-{{DropsLine|name=Water rune|quantity=193-1599|rarity=Uncommon}}
-{{DropsLine|name=Soul rune|quantity=86-227|rarity=Common}}
-{{DropsLine|name=Dragon bolts (unf)|quantity=12-90|rarity=Common}}
+{{DropsLine|name=Air rune|quantity=123-10000|rarity=Uncommon}}
+{{DropsLine|name=Fire rune|quantity=1-10000|rarity=Uncommon}}
+{{DropsLine|name=Blood rune|quantity=84-876|rarity=Common}}
+{{DropsLine|name=Death rune|quantity=85-986|rarity=Common}}
+{{DropsLine|name=Water rune|quantity=193-10000|rarity=Uncommon}}
+{{DropsLine|name=Soul rune|quantity=86-592|rarity=Common}}
+{{DropsLine|name=Dragon bolts (unf)|quantity=12-283|rarity=Common}}
 {{DropsLine|name=Onyx bolts (e)|quantity=11-29|rarity=Uncommon}}
-{{DropsLine|name=Steel cannonball|quantity=42-298|rarity=Common}}
+{{DropsLine|name=Steel cannonball|quantity=42-2252|rarity=Common}}
 {{DropsTableBottom}}
 
 ===Resources===
 {{DropsTableHead|leagueRegion=Asgarnia}}
-{{DropsLine|name=Air orb|quantity=6-20 (noted)|rarity=Common}}
-{{DropsLine|name=Coal|quantity=23-95 (noted)|rarity=Uncommon}}
+{{DropsLine|name=Air orb|quantity=6-100 (noted)|rarity=Common}}
+{{DropsLine|name=Coal|quantity=23-2354(noted)|rarity=Uncommon}}
 {{DropsLine|name=Runite ore|quantity=2-30 (noted)|rarity=Uncommon}}
-{{DropsLine|name=Uncut ruby|quantity=3-26 (noted)|rarity=Common}}
-{{DropsLine|name=Uncut diamond|quantity=3-17 (noted)|rarity=Common}}
-{{DropsLine|name=Wine of zamorak|quantity=4-14 (noted)|rarity=Common}}
+{{DropsLine|name=Uncut ruby|quantity=3-80 (noted)|rarity=Common}}
+{{DropsLine|name=Uncut diamond|quantity=3-64 (noted)|rarity=Common}}
+{{DropsLine|name=Wine of zamorak|quantity=4-64 (noted)|rarity=Common}}
 {{DropsTableBottom}}
 
 ===Consumables===
 {{DropsTableHead|leagueRegion=Asgarnia}}
-{{DropsLine|name=Shark|quantity=3|rarity=Common|raritynotes=<ref group="d" name="sups1">Sharks and Prayer potions are dropped together</ref>}}
-{{DropsLine|name=Prayer potion(4)|quantity=1|rarity=Common|raritynotes=<ref group="d" name="sups1"/>}}
-{{DropsLine|name=Saradomin brew(4)|quantity=2|rarity=Common|raritynotes=<ref group="d" name="sups2">Saradomin brews and Super restores are dropped together</ref>}}
-{{DropsLine|name=Super restore(4)|quantity=1|rarity=Common|raritynotes=<ref group="d" name="sups2"/>}}
+{{DropsLine|name=Shark|quantity=10|rarity=Common|raritynotes=<ref group="d" name="sups1">Sharks and Prayer potions are dropped together</ref>}}
+{{DropsLine|name=Prayer potion(4)|quantity=3|rarity=Common|raritynotes=<ref group="d" name="sups1"/>}}
+{{DropsLine|name=Saradomin brew(4)|quantity=1-10|rarity=Common|raritynotes=<ref group="d" name="sups2">Saradomin brews and Super restores are dropped together</ref>}}
+{{DropsLine|name=Super restore(4)|quantity=1-5|rarity=Common|raritynotes=<ref group="d" name="sups2"/>}}
 {{DropsTableBottom}}
 {{Reflist|group="d"}}
 
@@ -422,9 +422,10 @@ When wearing either a Gas mask, Facemask or Slayer helm, the duration of the cou
 
 ==Trivia==
 [[File:Nex login screen.png|thumb|right|The login screen upon the release of Nex.]]
-* {{Lang|nex|murder|violent death|direct=yes}}
+* "[[wiktionary:nex|Nex]]" translates to "murder" or "death" in Latin.
 * After Nex's release, the [[main menu]] was changed to an artistic depiction of the [[Frozen Door]]. The flames of the pillars depict the symbol of Zaros instead of runes. In addition, [[The Ancient Prison]] is played.
 * Upon release, players could not cast [[Monster Examine]] on Nex. If players attempted to do so, a message appeared in the game chat stating {{mes|You can't find out their stats.}} This was confirmed by [[Mod Kieren]] to be intentional in order to add an element of mystery to bosses on release,{{CiteReddit|author=Mod Kieren|url=https://www.reddit.com/r/2007scape/comments/rwkclb/nex_the_fifth_general_weekly_game_update_january/hrc9m42/|title=Nex: The Fifth General - Weekly Game Update (January 5th 2022)|quote=Just to confirm this [disabling Monster Examine for Nex] is intentional, we were discussing it only in last week about adding this mystery back. If popular it may be something we do with future bosses too.|date=17 December 2015|archiveurl=https://archive.ph/qQJv2|archivedate=5 January 2022}} and the spell was re-enabled in the game update two weeks later.
+* Nex's combat level of 1001 is the same as RuneScape 3's Nex. 
 
 ==References==
 {{Reflist}}

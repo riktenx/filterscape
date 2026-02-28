@@ -48,7 +48,7 @@
 |immunethrall = No
 |immuneburn = Immune to weak burns
 |respawn = 16
-|id = 239
+|id = 239,2642
 }}
 [[File:King Black Dragon chathead.png|left]]
 The '''King Black Dragon''', commonly referred to as '''KBD''', is a three-headed dragon located in [[King Black Dragon Lair|his lair]], accessible only through the deep [[Wilderness]]. Although the lair itself is not in the Wilderness, KBD is still considered a Wilderness boss by designation, as players must enter the Wilderness to fight him. The King Black Dragon has a [[combat level]] of 276, which makes him one of the strongest [[Dragon (race)|dragons]] in ''[[Old School RuneScape]]''. Players should not take this foe lightly, and they should always take an [[anti-dragon shield]] as his [[dragonfire]] breath is very deadly without protection. The King Black Dragon can also be killed as an alternative for a [[black dragon]] [[Slayer task]], '''except''' when assigned by [[Krystilia]].
@@ -291,9 +291,9 @@ A Tail of Two Cats - R4ng3rNo0b889 dying.png|R4ng3rno0b889 is killed by the King
 **'''Poison''': {{mes|You're badly scalded by the dragon's toxic breath!}}
 **'''Shocking''': {{mes|You're zapped by the dragon's shocking breath!}}
 **'''Burning''': {{mes|You're horribly burnt by the dragon's fiery breath!}}
-*The King Black Dragon can talk, as seen in [[A Tail of Two Cats]]. During the final cutscene, when he is visited by [[Bob the cat]], they have a conversation before being interrupted by [[R4ng3rno0b889]].
-*The King Black Dragon had a festive override wearing a [[santa hat]], [[purple partyhat]], and [[green partyhat]] during the [[2017 Christmas event/Gallery|2017]], [[2018 Christmas event/Gallery|2018]], [[2019 Christmas event/Gallery|2019]], [[2020 Christmas event/Gallery|2020]], [[2021 Christmas event/Gallery|2021]], [[2022 Christmas event/Gallery|2022]], [[2023 Christmas event/Gallery|2023]], and [[2024 Christmas event/Gallery|2024]] Christmas events.
-*The King Black Dragon was the strongest monster in [[Runescape Classic]] and retained the title until the introduction of [[Runescape 2]]'s first new boss, the [[Kalphite Queen]].
+*The King Black Dragon can talk, as seen in [[A Tail of Two Cats]]. During the first part of the final cutscene, when he is visited by [[Bob the cat]], they have a conversation before being interrupted by [[R4ng3rno0b889]].
+*The King Black Dragon had a festive override wearing a [[santa hat]], [[purple partyhat]], and [[green partyhat]] during the [[2017 Christmas event/Gallery|2017]], [[2018 Christmas event/Gallery|2018]], [[2019 Christmas event/Gallery|2019]], [[2020 Christmas event/Gallery|2020]], [[2021 Christmas event/Gallery|2021]], [[2022 Christmas event/Gallery|2022]], [[2023 Christmas event/Gallery|2023]], [[2024 Christmas event/Gallery|2024]], and [[2025 Christmas event/Gallery|2025]] Christmas events.
+*The King Black Dragon was the strongest monster in ''[[RuneScape Classic]]'' and retained the title until the introduction of ''[[RuneScape 2]]''{{'}}s first new boss, the [[Kalphite Queen]].
 
 {{Succession|predecessor=[[Black dragon]]|title=[[Strongest monster|Strongest monster in ''RuneScape'']]|successor=[[Kalphite Queen]]}}
 
@@ -302,4 +302,5 @@ A Tail of Two Cats - R4ng3rNo0b889 dying.png|R4ng3rno0b889 is killed by the King
 {{Bosses}}
 {{A Tail of Two Cats}}
 {{Rulers}}
-[[Category:Monsters that do not become tolerant]][[Category:Monarchs and Rulers]]
+[[Category:Monsters that do not become tolerant]]
+[[Category:Monarchs and Rulers]]

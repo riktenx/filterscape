@@ -48,6 +48,8 @@
 
 [[Ironman_Mode|Ironmen]] are eligible for drops from Callisto when defeating it alongside other players.
 
+In order to face Callisto, the player must have completed the medium [[Wilderness Diary]] tasks, '''OR''' they must have a Callisto boss Slayer task (a bear Slayer task does not bypass the diary requirement).
+
 ==Location==
 {{LocTableHead|league=yes}}
 {{LocLine
@@ -276,6 +278,16 @@ Callisto's Den concept art.png|Concept art of [[Callisto's Den]], by [[Mod Grub]
 ==Changes==
 {{Subject changes header}}
 {{Subject changes
+|date = 11 February 2026
+|update = Music System Improvements & Deadman Tweaks
+|change = Players without the medium Wilderness Diary can now face Callisto if they have a Callisto boss Slayer task.
+}}
+{{Subject changes
+|date = 28 January 2026
+|update = Deadman: Annihilation Drops This Friday!
+|change = Completion of the medium Wilderness Diary is now required to face Callisto.
+}}
+{{Subject changes
 |date = 6 August 2025
 |update = Varlamore & Summer Sweep-Up Combat Tweaks
 |change = The minimum damage threshold required for Ironmen to be eligible for 25% of the solo loot quantity was decreased from 10% of overall damage to 7%.
@@ -313,13 +325,13 @@ Callisto's Den concept art.png|Concept art of [[Callisto's Den]], by [[Mod Grub]
 |date = 20 September 2023
 |update = Poll 80 & Shooting Stars Changes
 |poll = Awakened DT2 Bosses & Poll 80
-|change = * Callisto will now both take damage from [[Magic]] attacks from any source.
+|change =
+* Callisto can now be damaged by [[Magic]] attacks.
 ** Additionally, if Callisto is not already frozen and the attacking player has equipment with a total [[Magic accuracy]] greater than 0, the first attack that would freeze the boss is guaranteed to hit.
 ** Future hits while the boss is frozen are not guaranteed to hit.
-* Callisto's [[Magic defence]] has been increased.
-* Callisto's base Magic level has been increased.
+* Callisto's base Magic level has been increased from 1 to 140.
 * Callisto's chip damage has been removed.
-* Callisto's [[Ranged]] attack will no longer deal damage through the relevant [[protection Prayer]].
+* Callisto's [[Ranged]] attack will no longer deal damage through [[Protect from Missiles]].
 }}
 {{Subject changes
 |date = 30 August 2023

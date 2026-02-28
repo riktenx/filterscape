@@ -1,15 +1,31 @@
+{{Redirect|Ggs|the Dorgeshuun Delicacy|green gloop soup|the cosmetic Christmas shield|Green gingerbread shield}}
 {{Instance|irs=the [[Magical Chest]]|cost=50000}}
 {{HasStrategy}}
-{{Redirect|Ggs|the Dorgeshuun Delicacy|green gloop soup}}
+{{Infobox Activity
+|version1 = Dawn
+|version2 = Dusk
+|name = Grotesque Guardians
+|aka = GG/GGS
+|image1 = [[File:Dawn.png|300px]]
+|image2 = [[File:Dusk.png|130px]]
+|release = [[26 October]] [[2017]]
+|update = Grotesque Guardians
+|type = Boss
+|members = Yes
+|location = [[Slayer Tower]]
+|players = 1
+|map = no
+|music = [[Tempest]]
+|leagueRegion = Morytania
+}}
 [[File:Fighting Grotesque Guardians.png|right|thumb|300px|A player fights the Grotesque Guardians.]]
 The '''Grotesque Guardians''' are a pair of [[gargoyle]]s, [[Dusk]] and [[Dawn]], found on the [[Slayer Tower]]'s rooftop, whose entrance is found on the {{FloorNumber|uk=2}}. In order to access the roof for the first time, players must obtain a [[brittle key]] from [[Gargoyle|gargoyles]] while assigned them for a [[Slayer task]] (requiring 75 Slayer). Once you've unlocked the gate to the roof, you no longer need a brittle key and can no longer obtain them. 
 
 Similar to other [[Slayer]] [[bosses]], such as [[Cerberus]] and the [[Abyssal Sire]], the Grotesque Guardians can only be killed while the player is assigned gargoyles or the Guardians themselves as a Slayer task. Players attempting to use the stairs to the roof without the proper Slayer task (having unlocked the stairway gates with the brittle key prior) will be stopped via dialogue and not proceed. 
 
-{{ToC|left}}
 Despite Dusk and Dawn being two different entities, killing both guardians only counts as one kill due to Dusk absorbing Dawn's essence. However, if the player has the ''[[Slayer rewards#Unlock|Double Trouble]]'' perk unlocked, Dawn's death will also be included, although Dusk still needs to be killed and the full boss fight completed in order to receive experience and task progression. 
 
-Upon Dusk's death, 1350 Slayer experience is rewarded, with additional tiers of the [[Morytania Diary]] completed you can attain more xp, with an additonal 33.75 slayer xp after completing the easy tier, 67.5 slayer xp with the medium tier, 101.5 slayer xp with the hard tier, and 135 additional slayer xp awarded with the elite tier, capping out at 1485 slayer xp. Slayer experience per kill is not affected by the ''[[Slayer rewards#Unlock|Double Trouble]]'' perk.
+Upon Dusk's death, 1,350 Slayer experience is awarded. Completing additional tiers of the [[Morytania Diary]] will rewarding the player with more xp, with an additonal 33.75 slayer xp after completing the easy tier, 67.5 slayer xp with the medium tier, 101.5 slayer xp with the hard tier, and 135 slayer xp with the elite tier. Slayer experience per kill is not affected by the ''[[Slayer rewards#Unlock|Double Trouble]]'' perk.
 
 The Grotesque Guardians are fought in a solo [[instance]]. Note that unlike other instances, players are '''kicked out''' of their instance after five minutes of inactivity; players are warned when there is one minute remaining, and another when thirty seconds remain. Players can reset this timer by ringing [[the Cloister Bell]].
 

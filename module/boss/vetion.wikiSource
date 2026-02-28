@@ -55,9 +55,11 @@
 
 Vet'ion has two forms: the (purple) regular form and the (orange) enraged form. After he is defeated in his first form, he will go to his second form, which has a faster attack speed and stronger max hit. After changing forms he will reset any stat reductions applied in the first form. If he is not killed within five minutes in his second form, he will revert to his first form with the same [[Hitpoints]]. If he reverts after his hellhounds have been killed, the player(s) will not have to kill them a second time.
 
-According to [[Andros Mai]], Vet'ion's power comes from his resting place.
+According to [[Andros Mai]] and as evidenced by the [[Desecrated Tomb]], Vet'ion's power comes from his resting place.
 
 [[Ironman_Mode|Ironmen]] are eligible for drops from Vet'ion when defeating it alongside other players.
+
+In order to face Vet'ion, the player must have completed the medium [[Wilderness Diary]] tasks, '''OR''' they must have a Vet'ion boss Slayer task (a skeleton Slayer task does not bypass the diary requirement).
 
 ==Fight overview==
 {{Main|Vet'ion/Strategies}}
@@ -68,9 +70,6 @@ Vet'ion primarily attacks with targeted magic, launching lightning in a 3x3 radi
 Vet'ion is fought similarly to the [[Kalphite Queen]] in that he has two forms, a "normal" and "enraged" form. When he reaches half health in his first form for the first time, he summons two level 194 [[Skeleton Hellhound (Vet'ion)|skeleton hellhounds]] that attack with powerful melee, and must be killed as they grant him complete damage immunity while alive. Upon being forced into his next stage, Vet'ion will become enraged and unleash a blast of energy around him, working the same as the targeted magic attack. In this form, he will attack faster, his attacks will deal more damage, and any drained Defence levels will be restored. In the second form, he summons two level 231 [[Greater Skeleton Hellhound (Vet'ion)|greater skeleton hellhounds]] that are even stronger (although still sharing the same health) and must also be killed.
 
 Like the Kalphite Queen, if players don't kill his second form within 5 minutes, he'll revert to his normal state.
-
-==Quotes==
-{{Hastranscript|npc}}
 
 ==Location==
 {{LocTableHead|league=yes}}
@@ -199,6 +198,9 @@ When on a [[Wilderness slayer]] task for [[skeleton]]s or [[hellhound]]s, the [[
 {{Sync}}
 {{Combat Achievements list|Vet'ion}}
 
+==Dialogue==
+{{Hastranscript|npc}}
+
 ==Historical==
 Unlike the other two bosses Vet'ion was released with, [[Callisto]] and [[Venenatis]], Vet'ion did not get any adjustments to his stats following his rework on [[25 January]] [[2023]]. However, the fight in general was made vastly different as he was considered the hardest to kill due to his mechanics:
 
@@ -216,6 +218,16 @@ File:Vet'ion Chronicle art.png|Official artwork of Vet'ion from Jagex's turn-bas
 
 ==Changes==
 {{Subject changes header}}
+{{Subject changes
+|date = 11 February 2026
+|update = Music System Improvements & Deadman Tweaks
+|change = Players without the medium Wilderness Diary can now face Vet'ion if they have a Vet'ion boss Slayer task.
+}}
+{{Subject changes
+|date = 28 January 2026
+|update = Deadman: Annihilation Drops This Friday!
+|change = Completion of the medium Wilderness Diary is now required to face Vet'ion.
+}}
 {{Subject changes
 |date = 6 August 2025
 |update = Varlamore & Summer Sweep-Up Combat Tweaks
@@ -371,9 +383,10 @@ File:Vet'ion Chronicle art.png|Official artwork of Vet'ion from Jagex's turn-bas
 |}
 
 ==Trivia==
+* It is still possible to skip Vet'ion's second phase as of 6 Jan 2026.
 * Vet'ion's 2014 model was an enlarged, re-coloured version of [[Ranalph Devere]] from the [[Legends' Quest]].
 * Vet'ion's examine is a reference to Tolkien's ''{{WP|The Return of the King}}''.
-* Vet'ion's name is an anagram of {{RSL|Novite equipment|Novite}} from ''RuneScape''.
+* Vet'ion's name is an anagram of {{RSL|Novite equipment|Novite}} from ''RuneScape 3''.
 ** Vet'ion's armour in his normal form matches the colour of Novite armour (tier 1) and the recolour in his enraged form matches {{RSL|Primal equipment|Primal armour}} (tier 99), both found within {{RSL|Daemonheim}} (located in the Wilderness).
 
 ==References==

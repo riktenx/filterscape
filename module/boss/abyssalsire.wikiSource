@@ -27,7 +27,7 @@
 |attack style = [[Melee]]
 |attack speed = 7
 |slaylvl = 85
-|slayxp = 478 (678 with the Respiratory systems)
+|slayxp = 478
 |cat = Bosses, Abyssal Demons
 |assignedby = vannaka,chaeldar,konar,nieve,duradel
 |hitpoints = 425
@@ -55,7 +55,7 @@
 |immunepoison = Immune
 |immunevenom = Immune
 |immunecannon = No
-|immunethrall = No
+|immunethrall = Yes
 |respawn = N/A
 |respawn1 = 1
 |id1 = 5886,5887,5888
@@ -98,7 +98,7 @@ As with all demons, the Sire is susceptible to the effects of [[demonbane weapon
 The fight consists of three phases:
 *In the first phase players must kill the Sire's four [[Respiratory system|respiratory systems]] in the corners of the room. The Sire can be disoriented by using [[Shadow spells]] on the [[Ancient Magicks|Ancient spellbook]], or by dealing 75 damage to it with [[Ranged]] or [[Magic]], temporarily disabling the [[Tentacle (Abyssal Sire)|tentacles]] protecting the respiratory systems. It will attack by either spawning poisonous fumes underneath the player, dealing rapid damage in a 3x3 AoE that can inflict [[poison]] starting at 8 damage, or launching [[spawn]]s from its mouth, which attack with ranged or melee. If ignored, the spawn will mature into stronger [[scion]].
 *At the start of the second phase, the Sire gets off its throne to attack the player. Damage dealt to the Sire while it is transitioning between phases is reduced by 50%. Its standard melee attacks can hit up to 66, which is reduced to 26 by using [[Protect from Melee]]. It has an attack range of three, but standing more than two tiles away from it will result in it either launching spawns or spawning poisonous fumes. Likewise, attacking it from more than two tiles away will cause it to forcibly teleport the player next to it before retaliating with portal energy, which deals high damage if not avoided.
-*When the Sire gets below 210 health, it will walk to the middle of the room and stop moving. It no longer attacks with melee, instead creating many spawns and summoning a miasma pool under the player every few seconds, which must be avoided. When the Sire gets below 140 health, it will teleport the player next to itself and trigger a highly damaging area-of-effect attack; the damage can be avoided by running directly away from the Sire as soon as the player is teleported.
+*When the Sire gets below 210 health, it will walk to the middle of the room and stop moving. It no longer attacks with melee, instead creating many spawns and summoning a miasma pool under the player every few seconds, which must be avoided. When the Sire gets below 140 health, it will teleport the player next to itself and trigger a highly damaging area-of-effect attack; the damage can be avoided by running directly away from the Sire (at least 2 tiles) as soon as the player is teleported.
 
 When the Sire dies, any spawns and scions it summoned will die off alongside it, though it is possible to get hit from a dying minion. The Sire respawns immediately.
 

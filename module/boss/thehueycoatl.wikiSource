@@ -168,7 +168,7 @@
 
 She can be fought in a group of up to 20 players, or via a private instance by the [[meeting flag]] next to the [[bank buffalo]] for a fee of 50,000 coins (25,000 with completion of the [[Combat Achievements/Hard|hard combat achievements]]). [[Ironman Mode|Ironmen]] are eligible for drops when fought in a group. Though players can solo her, there are parts of the fight that are preferably dealt with in a group.
 
-Uniques from the boss include the [[tome of earth]], the [[dragon hunter wand]], [[Hueycoatl hide]], and [[huasca seed]]s, whose herbs are exclusively used to create [[prayer regeneration potion]]s.
+Uniques from the boss include the [[tome of earth]], the [[dragon hunter wand]], [[Hueycoatl hide]], and [[huasca seed]]s.
 
 ==Location==
 {{LocTableHead|league=yes}}
@@ -211,7 +211,8 @@ Once the tail's health is depleted, the Hueycoatl's shield dissipates, allowing 
 {{Mmgsection|Killing Hueycoatl (Solo)|mobname=The Hueycoatl}}
 
 ==Drops== 
-In order to obtain drops from the Hueycoatl, the player must deal a minimum of ~75 damage to the head or tail. If the player doesn't do at least ~25 damage to the body, they will receive fewer rewards. The Hueycoatl drops a large lump of items upon death, and the share players receive from it is based on the player's total damage to the Hueycoatl. The MVP, the player who deals the most damage, gets a 10% increase to their drop share. The maximum quantity of a drop assumes that the player is soloing. Multiple players can independently roll uniques from a single kill. 
+In order to obtain drops from the Hueycoatl, the player must deal a minimum of ~75 damage to the head or tail. If the player doesn't do at least ~25 damage to the body, the rewards they will receive will be reduced by 95%.{{CiteDiscord|author=Mod Ash|url=https://discord.com/channels/324132423636090880/431834766325841920/1361243591313457183|date=14 April 2025|quote=[Hey, do you know how much worse the contribution ends up being if you don't do the 25 damage to Hueycoatl Phase 1? How heavy is the penalty "fewer rewards"?] Looks like it scales the quantity down to 5% of what it would have been, or 1, whichever is greater - if I'm reading my colleagues' code correctly. As penalties go, that feels like quite a heavy one.|image=Ash Hueycoatl penalty.png}} The chance to obtain the pet is reduced by the same amount.{{CiteDiscord|author=Mod Ash|url=https://discord.com/channels/324132423636090880/431834766325841920/1361600615343718593|date=
+15 April 2025|quote=Pet rate is impacted too, if you're seeing the "As you didn't damage the Hueycoatl's body enough" message.|image=Ash Hueycoatl penalty pet.png}} The Hueycoatl drops a large lump of items upon death, and the share players receive from it is based on the player's total damage to the Hueycoatl. The MVP, the player who deals the most damage, gets a 10% increase to their drop share. The maximum quantity of a drop assumes that the player is soloing. Multiple players can independently roll uniques from a single kill. 
 
 {{Bug|If the Hueycoatl heals to full health after a failed attempt, the next person to kill the boss on that world will not receive full drops, with the share allotted to the failed attempt(s) instead being deleted.}}
 
@@ -224,7 +225,7 @@ In order to obtain drops from the Hueycoatl, the player must deal a minimum of ~
 {{Reflist|group=d}}
 
 ===Unique===
-''There is a 1/18 chance per kill of getting a unique drop, where it is scaled by personal contribution and is individual to each player.''{{CiteNews|url=https://secure.runescape.com/m=news/wintertodt-updates--varlamore-drop-rates?oldschool=1|title=Wintertodt Updates & Varlamore Drop Rates|newsdate=9 October 2024}}{{CiteNews|url=https://secure.runescape.com/m=news/summer-sweep-up-combat?oldschool=1|title=Summer Sweep Up: Combat|newsdate=25 June 2025}} Uniques are dropped in addition to the main loot table.
+''There is a 1/18 chance of rolling the unique drop table, from which an item is then rolled for. This chance is individual per player and is scaled by contribution.''{{CiteNews|url=https://secure.runescape.com/m=news/wintertodt-updates--varlamore-drop-rates?oldschool=1|title=Wintertodt Updates & Varlamore Drop Rates|newsdate=9 October 2024}}{{CiteNews|url=https://secure.runescape.com/m=news/summer-sweep-up-combat?oldschool=1|title=Summer Sweep Up: Combat|newsdate=25 June 2025}} Uniques are dropped in addition to the main loot table.
 
 {{DropsTableHead}}
 {{DropsLine|name=Dragon hunter wand|quantity=1|rarity=1/105}}
@@ -300,10 +301,10 @@ Huberte concept art.png|Concept art of Huberte, by Mod Jerv.
 <gallery mode="packed" heights="170">
 The Hueycoatl - body barrier rig movement showcase.gif|[[Mod Hend]] showcasing the rigging for the barrier leading up to the summit.
 The Hueycoatl - body movement.gif|Animation for the Hueycoatl's body moving out of the way onto the summit, by Mod Hend.
-The Hueycoatl - idle animation.mp4|autoplay|loop|The Hueycoatl's idle animation, by [[Mod Harold]].
-The Hueycoatl - screech animation.mp4|autoplay|loop|The Hueycoatl's screeching animation, by Mod Harold.
-The Hueycoatl - knockout animation.mp4|autoplay|loop|The Hueycoatl's knockout animation, by Mod Harold.
-The Hueycoatl - awaken animation.mp4|autoplay|loop|The Hueycoatl's awakening animation, by Mod Harold.
+The Hueycoatl - idle animation.mp4|loop|The Hueycoatl's idle animation, by [[Mod Harold]].
+The Hueycoatl - screech animation.mp4|loop|The Hueycoatl's screeching animation, by Mod Harold.
+The Hueycoatl - knockout animation.mp4|loop|The Hueycoatl's knockout animation, by Mod Harold.
+The Hueycoatl - awaken animation.mp4|loop|The Hueycoatl's awakening animation, by Mod Harold.
 </gallery>
 
 ==Changes==
@@ -320,6 +321,7 @@ The Hueycoatl - awaken animation.mp4|autoplay|loop|The Hueycoatl's awakening ani
 |change = * The tail's hitpoints has been reduced from 400 to 300.
 * The drop rate of the [[dragon hunter wand]] has been doubled.
 * The drop rate of [[Hueycoatl hide]] has been increased from 1/35 to 1/30, as well as always giving three hides when rolled.
+*The chance to roll on the unique drop table has been increased from 1/23 to 1/18.
 }}
 {{Subject changes
 |date = 16 October 2024

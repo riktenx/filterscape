@@ -1,6 +1,6 @@
+{{Redirect|Whisp|the pet|Wisp}}
 {{Instance}}
 {{HasStrategy}}
-{{Redirect|Whisp|the pet|Wisp}}
 {{Infobox Monster
 |version1 = Post-quest
 |version2 = Awakened
@@ -19,9 +19,9 @@
 |cat = Bosses
 |assignedby = konar,nieve,duradel
 |size = 3
-|max hit1 = 42 ([[Melee]]), 40 ([[Ranged]]), 36 ([[Magic]]), 45 (Screech), 50 (Soul Siphon)
-|max hit2 = 70+ ([[Melee]]), 53 ([[Ranged]]), 45 ([[Magic]]), 70 (Screech), 75 (Soul Siphon)
-|max hit3 = 30 ([[Melee]]), 28 ([[Ranged]]), 26 ([[Magic]]), 45 (Screech), 50 (Soul Siphon)
+|max hit1 = 42 (x2) ([[Melee]]), 40 ([[Ranged]]), 36 ([[Magic]]), 45 (Screech), 50 (Soul Siphon)
+|max hit2 = 70+ (x2) ([[Melee]]), 53 ([[Ranged]]), 45 ([[Magic]]), 70 (Screech), 75 (Soul Siphon)
+|max hit3 = 30 (x2) ([[Melee]]), 28 ([[Ranged]]), 26 ([[Magic]]), 45 (Screech), 50 (Soul Siphon)
 |aggressive = Yes
 |poisonous = No
 |attack style = All 
@@ -106,9 +106,9 @@ A [[Scoreboard (The Whisperer)|scoreboard]] by the stairs leading down to the ca
 [[File:Statue (The Whisperer).png|thumb|left|180px|The statue of the Whisperer in the Ancient Vault.]]
 "The Whisperer", whose true name is unknown (as it was classified), was a [[siren]] deployed to [[Lassar]] at some point during the [[Third Age]], after the [[Betrayal of Zaros]]. She was one of four individuals entrusted with a medallion - the means to open the [[Ancient Vault]] where the [[Elder Horn]] was sealed - alongside [[Perseriya]], [[Duke Sucellus]], and [[Vardorvis]], who were all high-ranking personnel in the [[Zarosian Empire]].
 
-Prior to her being stationed at Lassar, experiments were being made on a [[Ancient Pillar (Desert Treasure II)|mysterious totem]] made of blackstone in the Undercity. The totem was noted by researchers as being extremely dangerous, requiring [[Sliske]] to enact protective measures on the totem.{{CiteNPC|npc=Remnant|quote=[Sliske]: I have shielded it. It will do you no harm.}} Findings on the totem showed that it strengthened the connection with the [[Shadow Realm]] in the area.{{CiteNPC|npc=Remnant|quote=The totem seems to act as a conduit between our world and the Shadow Realm.}}
+She was stationed at Lassar and tasked by [[Sliske]] with providing her expertise with the [[Shadow Realm]] to the researchers experimenting with a [[Ancient Pillar (Desert Treasure II)|mysterious totem]] made of blackstone in the Undercity. The totem was noted by researchers as being extremely dangerous, requiring [[Sliske]] to enact protective measures on the totem.{{CiteNPC|npc=Remnant|quote=[Sliske]: I have shielded it. It will do you no harm.}} Findings on the totem showed that it strengthened the connection with the Shadow Realm in the area.{{CiteNPC|npc=Remnant|quote=The totem seems to act as a conduit between our world and the Shadow Realm.}}
 
-Eventually, The Whisperer was ordered by [[Sliske]] to remove protections on the totem and seal the Undercity off to more "thoroughly" experiment with it, allowing her to deal with the researchers in any way she desired.{{CiteNPC|npc=Remnant|quote=[Sliske]: Have the undercity sealed, then remove the protections on the totem. We require a more thorough test.<br>[The Whisperer]: And the researchers?<br>[Sliske]: Their work is complete. Do with them as you wish.}} Following his orders, she ordered the undercity to be sealed under the High Magister's orders before killing him,{{CiteNPC|npc=Remnant|quote=Mysterious Voice 2: The undercity is being sealed. They say the fortress has fallen.<br>Mysterious Voice 3: Sealed? On whose orders?<br>Mysterious Voice 2: Well... yours.<br>Mysterious Voice 3: I gave no such order. Round up the centurions! We have a traitor among us.<br>[The Whisperer]: No.<br>Mysterious Voice 3: You! This was your doing!<br>[The Whisperer]: You have served your Empire well, High Magister, but that servitude is at an end. Now it is time for a new one to begin.}} and then removed the totem's protective barriers with Sliske's assistance. The removal of the totem's protective measures caused many of the city's inhabitants to become corrupted by its influence,{{CiteNPC|npc=Remnant|quote=Mysterious Voice 1: Do not be afraid, my child, for you are not alone. Your voice will be one of thousands, singing an eternal silence.[...]And so another voice joins the Silent Choir.}} including the Whisperer herself. She would submerge herself beneath the waters of the Undercity's now-sunken cathedral, and remain there undisturbed for a very long time.
+Eventually, The Whisperer was ordered by Sliske to remove protections on the totem and seal the Undercity off to more "thoroughly" experiment with it, allowing her to deal with the researchers in any way she desired.{{CiteNPC|npc=Remnant|quote=[Sliske]: Have the undercity sealed, then remove the protections on the totem. We require a more thorough test.<br>[The Whisperer]: And the researchers?<br>[Sliske]: Their work is complete. Do with them as you wish.}} Following his orders, she had undercity sealed under the pretence of being the High Magister's orders before killing him,{{CiteNPC|npc=Remnant|quote=Mysterious Voice 2: The undercity is being sealed. They say the fortress has fallen.<br>Mysterious Voice 3: Sealed? On whose orders?<br>Mysterious Voice 2: Well... yours.<br>Mysterious Voice 3: I gave no such order. Round up the centurions! We have a traitor among us.<br>[The Whisperer]: No.<br>Mysterious Voice 3: You! This was your doing!<br>[The Whisperer]: You have served your Empire well, High Magister, but that servitude is at an end. Now it is time for a new one to begin.}} and then removed the totem's protective barriers with Sliske's assistance. The removal of the totem's protective measures caused many of the city's inhabitants to become corrupted by its influence,{{CiteNPC|npc=Remnant|quote=Mysterious Voice 1: Do not be afraid, my child, for you are not alone. Your voice will be one of thousands, singing an eternal silence.[...]And so another voice joins the Silent Choir.}} including the Whisperer herself. She would submerge herself beneath the waters of the Undercity's now-sunken cathedral, and remain there undisturbed for a very long time.
 
 Eventually, an adventurer seeking her medallion would descend into the Lassar Undercity, navigate through the city via the dangerous Shadow Realm, and discover and kill her, before retrieving her medallion from her [[entrails]].
 
@@ -246,6 +246,9 @@ In addition, defeating the boss perfectly will earn 50% more loot from the stand
 {{Sync}}
 {{Combat Achievements list|Whisperer}}
 
+==Dialogue==
+{{hastranscript|speaksin}}
+
 ==Gallery==
 <gallery mode="packed" heights="150" style="text-align:left">
 The Whisperer concept art.png|Concept of the Whisperer, by [[Mod Jerv]].
@@ -316,6 +319,8 @@ Sunken Cathedral (Shadow Realm) concept art.png|Concept art of the Shadow Realm 
 |change = 
 * The combat level for the quest variant was increased from 568 to 587.
 * The drop rate for the tradeable unique drop table was increased from 1/77 to 1/64.
+* The Whisperer can no longer be received as a boss slayer task prior to completing Desert Treasure II.
+* Slayer tasks no longer apply to the Awakened version.
 }}
 {{Subject changes
 |date = 28 July 2023

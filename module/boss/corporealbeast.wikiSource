@@ -45,7 +45,7 @@
 |respawn = 50
 |id = 319
 }}
-The '''Corporeal Beast''', often referred to simply as '''Corp''', is a large monster residing in its [[Corporeal Beast's Lair|lair]], accessed via [[games necklace]] or an entrance in level 21 [[Wilderness]]. Due to its very high combat stats, it is often fought by groups of players. Unlike its ''[[RuneScape]]'' counterpart, it has no quest requirements to access.
+The '''Corporeal Beast''', often referred to simply as '''Corp''', is a large monster residing in its [[Corporeal Beast's Lair|lair]], accessed via [[games necklace]] or an entrance in level 21 [[Wilderness]]. Due to its very high combat stats, it is often fought by groups of players. Unlike its ''RuneScape 3'' counterpart, it has no quest requirements to access.
 
 The Corporeal Beast is the only monster to drop the [[spirit shield]], as well as the [[holy elixir]] and [[arcane sigil|arcane]], [[elysian sigil|elysian]], and [[spectral sigil|spectral]] sigils, used to enhance the shield. In addition to its sigil drops, the Corporeal Beast has many other valuable drops. Unlike some other group bosses, only the player who dealt the most damage will receive kill credit and loot.
 
@@ -56,7 +56,7 @@ Players can pay 200,000 coins to open a group instance for their [[chat-channel]
 {{LocTableHead|league=yes}}
 {{LocLine
 |name = Corporeal Beast
-|location = [[Corporeal Beast's Lair]] (east of the [[Graveyard of Shadows]] or [[Games Necklace]] teleport)
+|location = [[Corporeal Beast's Lair]] (east of the [[Graveyard of Shadows]] or [[games necklace]] teleport)
 |levels = 785
 |members = Yes
 |mapID = 26
@@ -86,7 +86,7 @@ The [[Corporeal Beast's Lair]] is located in level 21 [[Wilderness]], although p
 [[File:Fighting Corporeal Beast.png|thumb|right|300px|A group of players fighting the Corporeal Beast.]]
 The Corporeal Beast has a 50% damage reduction against any weapon that is not a [[Corpbane weapons|Corpbane weapon]] on stab attack style. Although [[magic]] attacks also deal full damage, they are generally very inaccurate against the boss. [[Protect from Magic]] does not fully block its magic attacks; it only reduces the damage by 33%. The Corporeal Beast has very high accuracy and damage and attacks mostly with Magic.
 
-While fighting the Corporeal Beast, there is a chance that the [[dark energy core]] will spawn. This creature leeches [[Hitpoints]] from any players adjacent to it to heal the Corporeal Beast and jumps to players if none are adjacent. The Corporeal Beast also rapidly regenerates health when there are no players in the room.
+While fighting the Corporeal Beast, there is a chance that the [[dark energy core]] will spawn. This creature leeches [[Hitpoints]] from any players adjacent to it to heal the Corporeal Beast and jumps to players if none are adjacent, and it can be significantly weakened by [[poison]]ing it. The Corporeal Beast also rapidly regenerates health when there are no players in the room.
 
 ==Money making==
 {{Mmgsection|Killing the Corporeal Beast}}
@@ -238,7 +238,7 @@ The average Corporeal Beast kill, including its unique drops, is estimated to be
 {{Combat Achievements list|Corporeal Beast}}
 
 ==Historical==
-The Corporeal Beast was originally released on 15 September 2008 in ''RuneScape''. However, there are several differences between the iteration of this boss in ''Old School RuneScape'' and the original in ''RuneScape''.
+The Corporeal Beast was originally released on 15 September 2008 in ''RuneScape 2''. However, there are several differences between the iteration of this boss in ''Old School RuneScape'' and the original in ''RuneScape''.
 * It could only be fought after completing the quest {{RSL|Summer's End}}. As the quests involving it are not present, no lore exists for the Corporeal Beast in Old School.
 * The Corporeal Beast's lair was much larger, although it only resided in the last room. The entrance to the lair was also 14 [[Wilderness]] levels deeper than the one in-game.
 * The original Corporeal Beast could drop a {{RSL|divine sigil}}, which could be used to create a {{RSL|divine spirit shield}}. Its effect was a constant 30% damage reduction per attack received, with 50% of that blocked damage instead drained from prayer points. 
@@ -351,7 +351,7 @@ Corporeal Beast (Trading Card).png|The Corporeal Beast [[Steam Trading Cards|Ste
 ** Also explained in ''RuneScape'' is that the markings on the ground are the graves of the residents of [[rsw:Bonde Farm|Bonde Farm]].
 * The magic area-of-effect attack the Corporeal Beast uses was originally named <code>[corp_sperm_splash]</code> in the game's code, though it was renamed to <code>[corp_magic_splash]</code> on [[28 October]] [[2020]].{{CiteTwitter|author=Mod Ash|url=https://twitter.com/JagexAsh/status/1449841608841736194|date=17 October 2021|archiveurl=https://archive.ph/O93FO|archivedate=18 October 2021}}
 *[[Pet]]s cannot be brought into the Corporeal Beast's lair. Attempting to enter the cave while having one following the player will cause a message to appear in the chatbox, stating ''Your follower hides in fear and refuses to enter the cave.'' If the player attempts to drop their pet while inside, the chatbox will instead state ''Your follower hides in fear and won't come out.'' This is also a nod to ''RuneScape'', where the Corporeal Beast is capable of eating Summoning familiars, which are also followers.
-*Corporeal Beast had a festive override wearing a [[santa hat]] during the [[2023 Christmas event/Gallery|2023]] and [[2024 Christmas event/Gallery|2024]] Christmas events.
+*Corporeal Beast had a festive override wearing a [[santa hat]] during the [[2023 Christmas event/Gallery|2023]], [[2024 Christmas event/Gallery|2024]], and [[2025 Christmas event/Gallery|2025]] Christmas events.
 
 {{Succession|predecessor=[[TzTok-Jad]]|title=[[Strongest monster|Strongest monster in ''Old School RuneScape'']]|successor=[[Great Olm]]}}
 

@@ -46,7 +46,7 @@
 |respawn = 15
 |id = 499
 |leagueRegion = Kandarin
-}}
+|Immuneburn=No}}
 [[File:Smoke devil icon.png|left]]
 The '''thermonuclear smoke devil''', often referred to as '''thermy''', is the boss version of the [[smoke devil]]. It requires a minimum of 93 [[Slayer]] to damage. Located at the [[Smoke Devil Dungeon]] south of [[Castle Wars]], the Thermonuclear smoke devil can only be attacked on a smoke devil task, with the exception of one kill for the [[Western Provinces Diary]] (provided that the player has 93 Slayer without boosting).
 
@@ -166,12 +166,20 @@ There are several ways to access the dungeon:
 {{DropsLine|name=Pet smoke devil|quantity=1|rarity=1/3000|raritynotes={{CiteTwitter|author=Mod JohnC|url=https://twitter.com/JagexJohnC/status/511476391901003777|date=15 September 2014|archiveurl=https://archive.fo/vV6YO|archivedate=15 September 2014|quote=Kraken, Thermy & Penance Queen pet drop rates - DKS for the final reveal next week!|name=Confirmed droprates}}|gemw=No}}
 {{DropsTableBottom}}
 
+==Dialogue==
+{{hastranscript|speaksin}}
+
 ==Combat Achievements==
 {{Sync}}
 {{Combat Achievements list|Thermonuclear Smoke Devil}}
 
 ==Changes==
 {{Subject changes header}}
+{{Subject changes
+|date = 14 January 2026
+|update = New Player Improvements Round 2
+|change = Reverted an efficiency improvement from the previous week's update that caused the thermonuclear smoke devil to behave incorrectly in certain scenarios. 
+}}
 {{Subject changes
 |date = 25 June 2025
 |update = Summer Sweep Up: Combat
@@ -238,7 +246,6 @@ There are several ways to access the dungeon:
 * Attempting to attack the thermonuclear smoke devil with a [[stat boost|boosted]] Slayer level of at least 93 will yield the message: {{mes|Although Brieve will allow you to kill this boss off-task for the Achievement Diary, the level 93 requirement still applies. Stat-boosts are not accepted.}}
 * Players can transform into a Thermy snowman by using a [[snowman ring]], which resembles the thermonuclear smoke devil.
 * The thermonuclear smoke devil has an eye and not a mouth, as confirmed in a [[Postbag from the Hedge]] letter <ref>{{PlainCiteNews|url=https://secure.runescape.com/m=news/a=97/gielinor-gazette---may-2022?oldschool=1|title=Gielinor Gazette - May 2022|newsdate=31 May 2022}}</ref>
-* If the thermonuclear smoke devil is your most-killed boss, the Combat Achievements summary page will list it as "Thermy".
 
 ==References==
 {{Reflist}}

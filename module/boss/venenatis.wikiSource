@@ -53,6 +53,8 @@ A [[dwarf multicannon]] cannot be set up in the Silk Chasm; if attempted, you wi
 
 [[Ironman_Mode|Ironmen]] are eligible for drops from Venenatis when defeating it alongside other players.
 
+In order to face Venenatis, the player must have completed the medium [[Wilderness Diary]] tasks, '''OR''' they must have a Venenatis boss Slayer task (a spider Slayer task does not bypass the diary requirement).
+
 ==Strategy==
 {{Main|Venenatis/Strategies}}
 Venenatis attacks with [[melee]] towards any player that's adjacent to her, and either [[magic]] or [[ranged]] for any player out of her melee range. Protection prayers will fully block the attacks, however, they will have their effectiveness reduced for every [[Venenatis' Spiderling (monster)|spiderling]] alive in the chamber.
@@ -89,6 +91,8 @@ The listed quantities are for soloing Venenatis. In group encounters, Venenatis'
 Ironmen must deal 7% of the overall damage to be eligible for 25% of the solo loot quantity. Ironmen dealing less than 7% damage will receive a minimum of 5% of the solo loot quantity.
 
 The average solo Venenatis kill is worth {{Coins|{{Average drop value|mob=Venenatis|mobname=solo Venenatis|raw=yes}}}}. This increases marginally to {{Coins|{{Average drop value|mob=Venenatis|brimstone=yes|raw=yes}}}} on a [[Konar quo Maten|Konar]] task, or {{Coins|{{Average drop value|mob=Venenatis|wildernessslayer=yes|raw=yes}}}} on a [[Krystilia]] task.
+
+''The effective drop rate for a unique (fangs, pet, voidwaker gem, or treasonous ring) is ~1/95.24.''
 
 ===100%===
 {{DropsTableHead}}
@@ -273,6 +277,16 @@ Silk Chasm concept art.jpg|Concept art of Venenatis' [[Silk Chasm]], by [[Mod Je
 
 ==Changes==
 {{Subject changes header}}
+{{Subject changes
+|date = 11 February 2026
+|update = Music System Improvements & Deadman Tweaks
+|change = Players without the medium Wilderness Diary can now face Venenatis if they have a Venenatis boss Slayer task.
+}}
+{{Subject changes
+|date = 28 January 2026
+|update = Deadman: Annihilation Drops This Friday!
+|change = Completion of the medium Wilderness Diary is now required to face Venenatis.
+}}
 {{Subject changes
 |date = 6 August 2025
 |update = Varlamore & Summer Sweep-Up Combat Tweaks

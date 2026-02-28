@@ -2038,7 +2038,7 @@ CONST_SARACHNIS_RULE (name:VAR_SARACHNIS_ENUMLIST_FILTER_OTHER) {
 type: enumlist
 label: 'Hide drops: Tertiary'
 group: Sarachnis
-enum: ["Tattered moon page","Tattered sun page","Tattered temple page","Giant egg sac(full)","Grubby key","Brimstone key","Jar of eyes","Sraracha"]
+enum: ["Tattered moon page","Tattered sun page","Tattered temple page","Giant egg sac(full)","Grubby key","Brimstone key","Pristine spider silk","Jar of eyes","Sraracha"]
 */
 #define VAR_SARACHNIS_ENUMLIST_FILTER_TERTIARY []
 CONST_SARACHNIS_RULE (name:VAR_SARACHNIS_ENUMLIST_FILTER_TERTIARY) {
@@ -4765,6 +4765,98 @@ enum: ["Brimstone key","Alchemical hydra heads","Jar of chemicals","Ikkle hydra"
 */
 #define VAR_ALCHEMICALHYDRA_ENUMLIST_FILTER_TERTIARY []
 CONST_ALCHEMICALHYDRA_RULE (name:VAR_ALCHEMICALHYDRA_ENUMLIST_FILTER_TERTIARY) {
+  hidden = true;
+}
+
+
+#define CONST_AREA_BRUTUS [3257,3299,0,3265,3285,0]
+#define CONST_BRUTUS_RULE(_cond) rule (area:CONST_AREA_BRUTUS && (_cond))
+
+/*@ define:input
+type: enumlist
+label: 'Hide drops: 100%'
+group: Brutus
+enum: ["Bull bones","Raw t-bone steak"]
+*/
+#define VAR_BRUTUS_ENUMLIST_FILTER_100 []
+CONST_BRUTUS_RULE (name:VAR_BRUTUS_ENUMLIST_FILTER_100) {
+  hidden = true;
+}
+
+/*@ define:input
+type: enumlist
+label: 'Hide drops: Uniques'
+group: Brutus
+enum: ["Mooleta","Bottomless milk bucket (empty)","Cow slippers"]
+*/
+#define VAR_BRUTUS_ENUMLIST_FILTER_UNIQUES []
+CONST_BRUTUS_RULE (name:VAR_BRUTUS_ENUMLIST_FILTER_UNIQUES) {
+  hidden = true;
+}
+
+/*@ define:input
+type: enumlist
+label: 'Hide drops: Armour'
+group: Brutus
+enum: ["Iron full helm","Iron platebody","Iron platelegs","Iron plateskirt"]
+*/
+#define VAR_BRUTUS_ENUMLIST_FILTER_ARMOUR []
+CONST_BRUTUS_RULE (name:VAR_BRUTUS_ENUMLIST_FILTER_ARMOUR) {
+  hidden = true;
+}
+
+/*@ define:input
+type: enumlist
+label: 'Hide drops: Runes and ammunition'
+group: Brutus
+enum: ["Iron arrow","Air rune","Mind rune","Chaos rune"]
+*/
+#define VAR_BRUTUS_ENUMLIST_FILTER_RUNESANDAMMUNITION []
+CONST_BRUTUS_RULE (name:VAR_BRUTUS_ENUMLIST_FILTER_RUNESANDAMMUNITION) {
+  hidden = true;
+}
+
+/*@ define:input
+type: enumlist
+label: 'Hide drops: Seeds'
+group: Brutus
+enum: ["Potato seed","Acorn"]
+*/
+#define VAR_BRUTUS_ENUMLIST_FILTER_SEEDS []
+CONST_BRUTUS_RULE (name:VAR_BRUTUS_ENUMLIST_FILTER_SEEDS) {
+  hidden = true;
+}
+
+/*@ define:input
+type: enumlist
+label: 'Hide drops: Resources'
+group: Brutus
+enum: ["Raw t-bone steak","Cowhide","Oak logs","Logs"]
+*/
+#define VAR_BRUTUS_ENUMLIST_FILTER_RESOURCES []
+CONST_BRUTUS_RULE (name:VAR_BRUTUS_ENUMLIST_FILTER_RESOURCES) {
+  hidden = true;
+}
+
+/*@ define:input
+type: enumlist
+label: 'Hide drops: Other'
+group: Brutus
+enum: ["Coins"]
+*/
+#define VAR_BRUTUS_ENUMLIST_FILTER_OTHER []
+CONST_BRUTUS_RULE (name:VAR_BRUTUS_ENUMLIST_FILTER_OTHER) {
+  hidden = true;
+}
+
+/*@ define:input
+type: enumlist
+label: 'Hide drops: Tertiary'
+group: Brutus
+enum: ["Beef"]
+*/
+#define VAR_BRUTUS_ENUMLIST_FILTER_TERTIARY []
+CONST_BRUTUS_RULE (name:VAR_BRUTUS_ENUMLIST_FILTER_TERTIARY) {
   hidden = true;
 }
 

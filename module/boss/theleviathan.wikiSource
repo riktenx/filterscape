@@ -19,9 +19,9 @@
 |cat = Bosses
 |assignedby = konar,nieve,duradel
 |size = 7
-|max hit1 = 50 (Melee orb & Bite), 24 (Ranged orb), 32 (Magic orb), 59 (Smoke Blast)
-|max hit2 = 86 <!--86 (Melee orb & Bite), 41 (Ranged orb), 55 (Magic orb), ?? (Smoke Blast)-->
-|max hit3 = 34 <!--34 (Melee orb & Bite), 16 (Ranged orb), 22 (Magic orb), 41+ (Smoke Blast)-->
+|max hit1 = 50 (Melee orb & Bite), 24 (Ranged orb), 32 (Magic orb), 60 (Smoke Blast)
+|max hit2 = 86 (Melee orb & Bite), 41 (Ranged orb), 55 (Magic orb), ?? (Smoke Blast)
+|max hit3 = 34 (Melee orb & Bite), 16 (Ranged orb), 22 (Magic orb), 41+ (Smoke Blast)
 |aggressive = Yes
 |poisonous = No
 |attack style = Melee, Ranged, Magic
@@ -88,7 +88,7 @@
 |xpbonus2=187.5
 |xpbonus3=62.5
 }}
-'''The Leviathan''' is a large sea creature found within [[the Scar]], who is encountered during [[Desert Treasure II - The Fallen Empire]]. Once dwelling in the [[Eastern Ocean]], the Leviathan was inadvertently dragged into the Scar during the [[Battle for the Eye]] when [[Perseriya]] accidentally opened an abyssal rift in an attempt to teleport reinforcements in.
+'''The Leviathan''' is a large sea creature found within [[the Scar]], who is encountered during [[Desert Treasure II - The Fallen Empire]]. Once dwelling in the [[Eastern Ocean]], the Leviathan was inadvertently dragged into the Scar during the [[Battle for the Eye]] when [[Perseriya]] of [[the Forgotten Four]] accidentally opened an abyssal rift in an attempt to teleport reinforcements in.
 
 It has since then adapted to the abyssal environment and has made itself at home in a large lake within the Scar, preying upon those who were unfortunate enough to be pulled into the Scar during the battle. This is seen clearly on accounts of survivors and what remains of the Zarosian fleet in the area.
 
@@ -148,7 +148,7 @@ When the Leviathan is defeated, a drop will be rolled for until the roll results
 
 In addition, defeating the boss perfectly will earn 50% more loot from the standard drop table.{{CiteReddit|author=Mod Ayiza|url=https://www.reddit.com/r/2007scape/comments/15gzjui/desert_treasure_ii_tweaks_and_drop_rates/julpslb/|date=3 August 2023|archiveurl=https://archive.li/lVplt|archivedate=3 August 2023|quote=You have to do the fight while avoiding any avoidable damage. Essentially a perfect fight (chip damage does not count).|title=Desert Treasure II - Tweaks and Drop Rates}} This requires the player to kill the Leviathan without taking any avoidable damage, which includes:
 * Standard rapid-fire volleys
-* Getting hit by falling debris
+* Getting hit by falling debris outside of enrage phase
 * Bite damage
 * Lightning Barrage damage
 * Smoke Blast damage
@@ -298,12 +298,14 @@ The Leviathan concept art (early 2).png|Another early concept of the Leviathan, 
 |change = 
 * The combat level for the quest variant was increased from 574 to 593.
 * The drop rate for the tradeable unique drop table was increased from 1/120 to 1/96.
+* The Leviathan can no longer be received as a boss slayer task prior to completing Desert Treasure II.
+* Slayer tasks no longer apply to the Awakened version.
 }}
 {{Subject changes footer}}
 
 ==Trivia==
 *The {{wp|Leviathan}} is a mythical creature referenced extensively in the Bible and is associated with the sin of envy.
-*Its design appears to be based on a {{RSL|Raw rocktail|rocktail}}, a cave-dwelling fish from ''RuneScape'', both the {{RSL|Raw rocktail|raw}} and {{RSL|Rocktail|cooked}} version.
+*Its design appears to be based on a {{RSL|Raw rocktail|rocktail}}, a cave-dwelling fish from ''RuneScape 3'', both the {{RSL|Raw rocktail|raw}} and {{RSL|Rocktail|cooked}} version.
 *The Leviathan is the only Desert Treasure 2 boss which is aggressive towards players upon spawning:
 **[[Duke Sucellus]] is in a sleeping state and is not aggressive until awakened with poison.
 **[[Vardorvis]] does not attack players when entering his arena nor when he respawns, since his barrier mechanic does not trigger until he is attacked.

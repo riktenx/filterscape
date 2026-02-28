@@ -260,7 +260,9 @@ Excluding [[berserker ring]] drops, the average kill is worth {{Coins|floor(({{A
 |respawn = 150
 |id = 2266
 }}
-'''Dagannoth Prime''' is the [[Magic]]-based [[Dagannoth King]] found in the depths of the [[Waterbirth Island Dungeon]], along with fellow Dagannoth Kings, [[Dagannoth Rex]] and [[Dagannoth Supreme]]. Prime is the only monster to drop the [[Seers ring]] and [[Mud battlestaff]]. His projectile resembles [[Water Wave]]. He, along with the other [[Dagannoth (race)|Dagannoth]] Kings, can also drop the [[dragon axe]].
+'''Dagannoth Prime''' is the [[Magic]]-based [[Dagannoth King]] found in the depths of the [[Waterbirth Island Dungeon]], along with fellow Dagannoth Kings, [[Dagannoth Rex]] and [[Dagannoth Supreme]]. Prime is the only monster to drop the [[Seers ring]] and [[Mud battlestaff]]. He, along with the other [[Dagannoth (race)|Dagannoth]] Kings, can also drop the [[dragon axe]].
+
+His projectile resembles [[Water Wave]], and it hits in a 3x3 radius around his target, meaning that any players standing next to his target will also take damage from the attack.
 
 ==Location==
 {{LocTableHead|league=yes}}
@@ -472,7 +474,7 @@ Dagannoth Prime now has a 35% elemental weakness to [[earth spells]].
 }}
 '''Dagannoth Supreme''' is the [[Ranged]]-based [[Dagannoth King]] found in the depths of the [[Waterbirth Island Dungeon]], along with fellow Dagannoth Kings, [[Dagannoth Rex]] and [[Dagannoth Prime]]. Supreme is the only monster to drop the [[archers ring]] and [[seercull]]. He, along with the other [[Dagannoth (race)|Dagannoth]] Kings, can also drop the [[dragon axe]].
 
-His Ranged attack sounds like the [[Water Wave]] spell when hitting players and, in a similar fashion to [[Magic]] attacks, will "splash" if it misses.
+His Ranged attack sounds like the [[Water Wave]] spell when hitting players and, in a similar fashion to [[Magic]] attacks, will "splash" if it misses. It can also attack multiple players at once, sending projectiles at any player standing within the 6x6 area around his target.
 
 ==Location==
 {{LocTableHead|league=yes}}

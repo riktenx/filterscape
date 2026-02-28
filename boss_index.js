@@ -375,6 +375,11 @@ CONST_VORKATH_RULE (VAR_VORKATH_BOOLEAN_GENERAL_NOBONE && name:"Superior dragon 
     area: [1346, 10251, 0, 1385, 10287, 0],
     url: 'https://oldschool.runescape.wiki/w/Alchemical_Hydra',
   },
+  {
+    name: 'Brutus',
+    area: [3257, 3299, 0, 3265, 3285, 0],
+    url: 'https://oldschool.runescape.wiki/w/Brutus',
+  },
 ];
 
 const desc = `These sections allow you to filter out drops on a per-boss basis.

@@ -79,7 +79,7 @@
 |update = Desert Treasure II - The Fallen Empire
 |members = Yes
 |combat = 1099
-|slayxp = 1540
+|slayxp = 1697 <!-- Changed with new hp but needs verification-->
 |cat = Bosses
 |assignedby = konar,nieve,duradel
 |size = 7
@@ -88,7 +88,7 @@
 |poisonous = No
 |attack style = [[Magic]], [[Crush]]
 |attack speed = 5
-|hitpoints = 1540
+|hitpoints = 1697
 |respawn = 20
 |att = 435
 |str = 500
@@ -414,14 +414,16 @@ Duke Sucellus concept art (early).png|An early concept of Duke Sucellus, by Mod 
 * Pathing to salt deposits within the asylum has been improved.
 * Vents within the asylum will now correctly despawn when the encounter ends.
 * An issue that could prevent the Duke Sucellus encounter from starting has been resolved.
+* Duke Sucellus can no longer be received as a boss slayer task prior to completing Desert Treasure II.
+* Slayer tasks no longer apply to the Awakened version.
 }}
 {{Subject changes footer}}
 
 ==Trivia==
 * {{wp|Sucellus}} is the name of a Gallo-Roman god associated with agriculture and wine.
-* The design of Duke Sucellus appears to be heavily inspired by ''Runescape 3''<nowiki>'s</nowiki> [[RSW:Senecianus|Senecianus]], which both bear strong resemblances to the shoggoths of H.P. Lovecraft's Cthulhu mythos.
+* The design of Duke Sucellus appears to be heavily inspired by ''RunesScape 3''<nowiki>'s</nowiki> [[RSW:Senecianus|Senecianus]], which both bear strong resemblances to the shoggoths of H.P. Lovecraft's Cthulhu mythos.
 * In ''RuneScape 3'', Sucellus was also a Zarosian duke, though his role was far different - following the destruction of the Zarosian Empire, he devised a long-term plan to steal Saradomin's crown by inserting the Temple Knights as a Saradominist organization. He also died of unknown means.
-* The room Sucellus is fought in greatly resembles a room found in the ''RuneScape 3'' quest "Twilight of the Gods",  inside the [[Senntisten]] Asylum.
+* The room Sucellus is fought in greatly resembles a room found in the ''RuneScape 3'' quest "Twilight of the Gods", inside the [[Senntisten]] Asylum.
 * During development, the boss was designed with four types of mushrooms - [[arder mushroom|arder]], [[musca mushroom|musca]], [[resper mushroom|resper]], and [[holos mushrooms]] - which could be used on the [[Fermentation Vat]] to create six combinations of poisons to weaken Duke Sucellus. All but one were scrapped before release, presumably to make the fight simpler.
 
 ==References==

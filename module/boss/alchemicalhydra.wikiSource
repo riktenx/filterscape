@@ -33,7 +33,7 @@
 |respawn = 43
 |slaylvl = 95
 |slayxp = 1320
-|cat = Hydras
+|cat = Hydras, Bosses
 |assignedby = konar
 |hitpoints = 1100
 |att = 100
@@ -54,7 +54,7 @@
 |drange = 45
 |immunepoison = Yes
 |immunevenom = Yes
-|immuneburn = No
+|immuneburn = Not Immune
 |immuneburn3 = Immune to normal burns 
 |id1 = 8615,8616
 |id2 = 8619,8617
@@ -64,7 +64,9 @@
 [[File:Hydra icon.png|left]]
 The '''Alchemical Hydra''' is a [[boss]] version of [[hydra]], found in the lower level of the [[Karuulm Slayer Dungeon]] in [[Mount Karuulm]], requiring level 95 [[Slayer]] to kill. The Alchemical Hydra was the creation of a [[Dragonkin]] named [[Karuulm]]. While Karuulm saw promise in his creation, he nevertheless saw it as a failure because he could not replicate its traits, and abandoned it along with his other creations: the [[Wyrm]]s, [[Drake]]s, and [[Hydra]]s.
 
-Unlike normal hydras, the Alchemical Hydra can '''only''' be killed while on a hydra [[Slayer task]], which is only assigned by [[Konar]]. In addition, as it is only found within the volcano, players who have not completed the [[elite Kourend & Kebos Diary]] must wear [[boots of stone]], [[boots of brimstone]], or [[granite boots]] to protect themselves from the extreme heat of the dungeon floor. This also applies to attempting to use the [[Item Retrieval Service]], as the rapid damage will interrupt actions and dying a second time will wipe the storage.
+Unlike normal hydras, the Alchemical Hydra can '''only''' be killed while on a hydra [[Slayer task]], of which [[Konar quo Maten]] is the only one who assigns it. Likewise, while being considered a boss for the purposes of boss slayer, it cannot be assigned by any master other than Konar, making it unique to her only.
+
+In addition, as it is only found within the volcano, players who have not completed the [[elite Kourend & Kebos Diary]] must wear [[boots of stone]], [[boots of brimstone]], or [[granite boots]] to protect themselves from the extreme heat of the dungeon floor. This also applies to attempting to use the [[Item Retrieval Service]], as the rapid damage will interrupt actions and dying a second time will wipe the storage.
 
 Along with all the unique drops obtainable from hydras, it can also drop [[hydra leather]], which is used on the [[machinery]] south-west of the pool in the [[Lithkren Vault]] to create [[ferocious gloves]], as well as the [[hydra claw]], which is combined with a [[Zamorakian hasta]] to create the [[dragon hunter lance]].
 
@@ -106,7 +108,7 @@ When the Hydra is killed, it will respawn in approximately 25 seconds, and the d
 {{Mmgsection|Killing the Alchemical Hydra}}
 
 ==Drops==
-''In addition to the 100% drop, the player will also have two rolls on the Alchemical Hydra's drop table. The first drop has a chance to be a unique, while the second is always standard. The drop rates in the drop table below reflect the chance of getting an item for every roll on the standard loot table. For example, a listed drop rate of 2/100 indicates that you have two 2/100 chances of receiving that item.''{{CiteTwitter|author=Mod Ash|url=https://twitter.com/JagexAsh/status/1084600369995571203|date=13 January 2019|archiveurl=https://archive.is/jvzU5|archivedate=16 April 2019|quote=The first roll will go to the unique table OR to the standard table. The second roll will always go to the standard table. And you only get one pet roll in either situation.}}
+''In addition to the 100% drop, the player will also have two rolls on the Alchemical Hydra's drop table. The first drop has a chance to be a unique, while the second is always standard. The drop rates in the drop table below reflect the chance of getting an item for every roll on the standard loot table. For example, a listed drop rate of 2 x 2/100 indicates that you have two 2/100 chances of receiving that item.''{{CiteTwitter|author=Mod Ash|url=https://twitter.com/JagexAsh/status/1084600369995571203|date=13 January 2019|archiveurl=https://archive.is/jvzU5|archivedate=16 April 2019|quote=The first roll will go to the unique table OR to the standard table. The second roll will always go to the standard table. And you only get one pet roll in either situation.}}
 
 ''Drops remain on the ground for 3 hours, or until the player leaves the instanced area.''{{CiteTwitter|author=Mod Ash|url=https://twitter.com/JagexAsh/status/1688468997375762432|date=7 August 2023|archiveurl=https://archive.is/722cp|archivedate=10 August 2023|quote=I believe those are 180 mins. This is not universal across all instances, but it's been enabled for quite a few repeatable boss rooms.}}
 

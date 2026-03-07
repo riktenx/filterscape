@@ -143,7 +143,7 @@ rule (value:>=VAR_VALUE_T2_VALUE) { VAR_VALUE_T2_CUSTOMSTYLE }
 rule (value:>=VAR_VALUE_T1_VALUE) { VAR_VALUE_T1_CUSTOMSTYLE }
 rule (value:>=VAR_VALUE_T0_VALUE) { VAR_VALUE_T0_CUSTOMSTYLE }
 
-rule ((tradeable:true || !VAR_VALUE_SHOWUNTRADEABLE) && value:<VAR_VALUE_MINVALUE) {
+apply ((tradeable:true || !VAR_VALUE_SHOWUNTRADEABLE) && value:<VAR_VALUE_MINVALUE) {
   hidden = true;
 }
 

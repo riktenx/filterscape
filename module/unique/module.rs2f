@@ -7,6 +7,13 @@ name: Uniques
 /*@ define:input:uniques
 type: stringlist
 label: Items
+group: "Leagues VI: Echo Items"
+*/
+#define VAR_UNIQUE_LEAGUESVI ["*Infernal tecpatl*","*Fang of the hound*","*Shadowflame quadrant*","*Devil's element*","*Nature's recurve*","*V's helm*","*King's barrage*","*Lithic sceptre*","*Drygore blowpipe*","*Crystal blessing*"]
+
+/*@ define:input:uniques
+type: stringlist
+label: Items
 group: Tier S
 */
 #define VAR_UNIQUE_STIER ["Infernal cape","Fire cape","Dizana's quiver*","Unsired","Ancient blood ornament kit","Ultor vestige","Venator vestige","Bellator vestige","Magus vestige","Executioner's axe head","Leviathan's lure","Siren's staff","Eye of the duke","Slepey tablet","*max cape","*mutagen","*champion scroll"]
@@ -31,6 +38,20 @@ label: Items
 group: Tier C
 */
 #define VAR_UNIQUE_CTIER ["dark totem top","dark totem base","dark totem middle","long bone","curved bone","looting bag","unidentified small fossil","unidentified medium fossil","unidentified large fossil","unidentified rare fossil","key master teleport","chromium ingot","blood quartz","smoke quartz","shadow quartz","ice quartz","pendant of ates*","frozen cache","ancient icon","charged ice","parasitic egg"]
+
+/*@ define:input:uniques
+type: style
+label: Style
+group: "Leagues VI: Echo Items"
+exampleItem: Infernal tecpatl
+*/
+#define VAR_UNIQUE_LEAGUESVI_CUSTOMSTYLE \
+  hidden = false;\
+  textColor = "#ff0000";\
+  backgroundColor = "#ffffff";\
+  borderColor = "#ff0000";\
+  fontType = 3;\
+  showLootbeam = true;
 
 /*@ define:input:uniques
 type: style
@@ -86,6 +107,7 @@ exampleItem: Dark totem top
   borderColor = "#af6025";\
   textAccent = 3;
 
+rule (name:VAR_UNIQUE_LEAGUESVI) { VAR_UNIQUE_LEAGUESVI_CUSTOMSTYLE }
 rule (name:VAR_UNIQUE_STIER) { VAR_UNIQUE_STIER_CUSTOMSTYLE }
 rule (name:VAR_UNIQUE_ATIER) { VAR_UNIQUE_ATIER_CUSTOMSTYLE }
 rule (name:VAR_UNIQUE_BTIER) { VAR_UNIQUE_BTIER_CUSTOMSTYLE }

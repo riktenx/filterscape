@@ -23,7 +23,7 @@ type: stringlist
 label: Items
 group: Tier B
 */
-#define VAR_UNIQUE_BTIER ["dark totem","mossy key","giant key","ecumenical key","abyssal head","araxyte head","alchemical hydra heads","kbd heads","kq head*","dark claw","bludgeon claw","bludgeon spine","bludgeon axon","hydra's eye","hydra's fang","hydra's heart","strangled tablet","scarred tablet","sirenic tablet","frozen tablet","scurrius' spine","vorkath's head"]
+#define VAR_UNIQUE_BTIER ["brittle key","dark totem","mossy key","giant key","ecumenical key","abyssal head","araxyte head","alchemical hydra heads","kbd heads","kq head*","dark claw","bludgeon claw","bludgeon spine","bludgeon axon","hydra's eye","hydra's fang","hydra's heart","strangled tablet","scarred tablet","sirenic tablet","frozen tablet","scurrius' spine","vorkath's head"]
 
 /*@ define:input:uniques
 type: stringlist
